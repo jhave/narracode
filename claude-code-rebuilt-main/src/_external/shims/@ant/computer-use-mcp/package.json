@@ -1,0 +1,10 @@
+{
+  "name": "@ant/computer-use-mcp",
+  "version": "0.0.0-stub",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./types": "./types/index.js",
+    "./sentinelApps": "./sentinelApps/index.js"
+  }
+}

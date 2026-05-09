@@ -1,0 +1,13 @@
+import type { Command } from '../../commands.js'
+
+const branch = {
+  type: 'local-jsx',
+  name: 'branch',
+  // /fork is now a standalone command; no alias needed
+  aliases: [],
+  description: 'Create a branch of the current conversation at this point',
+  argumentHint: '[name]',
+  load: () => import('./branch.js'),
+} satisfies Command
+
+export default branch
