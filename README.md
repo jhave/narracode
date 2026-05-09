@@ -24,6 +24,20 @@ Narracode is an attempt to bridge this gap. It is a neurosymbolic approach to na
 
 The core premise is that the architecture of a narrative generator is not neutral; rather, it is a "narrative philosophy" written in code. The structural logic of a program—its "Narracode"—acts as a set of cognitive and social presuppositions that fundamentally shape the generated story-world.
 
+## Current state of the project
+
+The current iteration is a single-file python script (in this repo) that implements this architecture. It is not "complete" by any means, but it is a working proof of concept. Built with Claude CoWork on May 8-9, 2026. 
+
+## Prompting and the Narrative Philosophy
+
+The narrative philosophy of the system is encoded in:
+
+- **the main prompt** (`narracode.md` itself, establishing the rules and boundaries)
+- **the agent roles** (distinct, separated passes: Initiator, Reading, Structural, Compositional, Reflexive, and Expansion)
+- **the symbolic harness** (the directory structure that externalizes state into separate files)
+- **the evaluation harness** (the critique and drift check protocols, and pre-edit comparisons)
+- **the memory system** (the structural files, annotations, exemplars, and version snapshots)
+
 ## Historical Computational Narrative Systems
 
 *(This section synthesizes an analysis from a [Claude conversation on narrative architecture](https://claude.ai/share/c262de57-1678-4bf5-a437-260aac71b497))*
