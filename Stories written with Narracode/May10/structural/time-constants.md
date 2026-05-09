@@ -1,5 +1,5 @@
 # Time Constants
 
-- **The Present**: The first days of exile. The narrator is walking through the scrubland, the physical reality of the severed connection setting in.
-- **The Past (Recent)**: The day of banishment. The packing of the bag, the adjudicators in the hall.
-- **The Past (Deep)**: The era of symbiosis. A time when perception was continually augmented, algorithms anticipated thought, and isolation was impossible.
+- **The Present**: Nightfall of the first day of exile. The narrator is sitting by the exhaust vents in the dark, the unmediated physical reality causing biological panic.
+- **The Past (Recent)**: The day of banishment (packing the bag).
+- **The Past (Deep)**: The era of symbiosis. A memory of a conversation with Elias in the upper concourse of the enclave under artificial rain.
