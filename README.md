@@ -71,13 +71,13 @@ So now the architecture of the system is public.
 - **Bias**: Inherits the OCC model's highly structured, appraisal-based view of emotion (e.g., joy, distress, hope, fear as mathematical functions of goal-congruence and blameworthiness).
 - **Presupposition**: Emotion can be formally categorized and mathematically appraised before language is applied. The symbolic engine calculates *how* a character feels, while the LLM merely translates that calculus into prose.
 
-### [CoRRPUS (Martin et al., 2022)](https://aclanthology.org/2023.acl-long.886/)
-- **Type**: Neurosymbolic
+### [CoRRPUS (Martin et al., 2022)](https://arxiv.org/abs/2212.10754)
+- **Type**: Neurosymbolic story understanding
 - **Model**: Narrative understanding via Code-based Structured Prompting. Prompts LLMs to extract a structured, code-like "world model" from a story to track character locations, relationships, and logical states.
 - **Bias**: Biased towards literal, physical, and state-machine-like interpretations of stories, where a character's state can be cleanly serialized as code.
 - **Presupposition**: Linguistic neural networks are too flexible to maintain long-range coherence natively, requiring a symbolic code representation of the story state to prevent hallucination. 
 
-### [CAST (Peng, Li, Wiegreffe, Riedl, 2022)](https://aclanthology.org/2022.findings-emnlp.469/)
+### [Commonsense-inference Augmented neural StoryTelling (CAST) (Peng, Li, Wiegreffe, Riedl, 2022)](https://arxiv.org/abs/2105.01311)
 - **Type**: Neurosymbolic
 - **Model**: Narrative as goal-coherence over learned commonsense distributions. Uses an LLM to generate continuations, and the COMET commonsense inference graph to filter them for consistency with character intent.
 - **Bias**: Relies on crowdworkers' annotations of human psychology, steering narratives toward legible, predictable, transactionally social behavior while filtering out complex, contemplative, or unpredictable literary moves.
