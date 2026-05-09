@@ -54,18 +54,18 @@ So now the architecture of the system is public.
 *(This section synthesizes an analysis from a [Claude conversation on narrative architecture](https://claude.ai/share/c262de57-1678-4bf5-a437-260aac71b497))*
 
 ### [CascadeMind (Kawada & Holyoak, 2026)](https://scholar.google.com/scholar?q=CascadeMind+Kawada+Holyoak+2026)
-- **Type**: Neurosymbolic
-- **Model**: Narrative similarity classification using a cascade architecture. Employs LLM neural voting with supermajority thresholds, falling back to a classical symbolic ensemble (lexical overlap, story grammar, tension) only when the LLM's uncertainty is too high.
-- **Bias**: Designed for the SemEval-2026 challenge, optimizing for measurable "similarity" between texts, assuming narratives can be objectively weighed against one another through an ensemble of signals.
-- **Presupposition**: Ambiguity and uncertainty are the primary obstacles in analyzing narratives. The architecture posits connectionist models as the default, utilizing symbolic structures merely as tie-breakers for the most uncertain scenarios.
+- **Type**: Neurosymbolic judge
+- **Model**: Narrative similarity classification using a cascade architecture. Employs LLM neural voting with supermajority thresholds, falling back to symbolic ensembles for uncertain scenarios.
+- **Bias**: Evaluates narratives for measurable "similarity", rather than generating them.
+- **Presupposition**: Ambiguity and uncertainty are obstacles to be managed by prioritizing connectionist models, utilizing symbolic structures merely as tie-breakers.
 
-### [METATRON (Concepción et al., 2025)](https://scholar.google.com/scholar?q=METATRON+Concepcion+narrative+2025)
+### [METATRON (Concepción et al., 2025)](https://www.scilit.com/publications/91502a971246441f8c8535bac542912a)
 - **Type**: Neurosymbolic
 - **Model**: Narrative as the instantiation of classical European dramaturgy. Uses Georges Polti’s 36 dramatic situations as a symbolic planning substrate, with an LLM rendering the text and a coherence filter checking fidelity.
 - **Bias**: A triple-layered bias combining 19th-century European theatrical canons, the LLM’s genre-heavy pretraining, and the coherence filter's aversion to deviation.
 - **Presupposition**: Dramatic situations are a finite, enumerable set that precedes character interiority. It assumes stories have clear recognizable arcs (complication, catastrophe) and penalizes the emergence of new, unnamed narrative shapes.
 
-### [Affective Reasoner + ChatGPT (Clark Elliott, 2023)](https://scholar.google.com/scholar?q=Affective+Reasoner+ChatGPT+Clark+Elliott+2023)
+### [Affective Reasoner + ChatGPT (Clark Elliott, 2023)](https://link.springer.com/chapter/10.1007/978-3-031-47715-7_50)
 - **Type**: Neurosymbolic
 - **Model**: Narrative as emotionally-driven scenario generation. Uses the classic Affective Reasoner (based on the OCC cognitive model of emotion) as an underlying symbolic state engine to prompt an LLM to render the textual surface.
 - **Bias**: Inherits the OCC model's highly structured, appraisal-based view of emotion (e.g., joy, distress, hope, fear as mathematical functions of goal-congruence and blameworthiness).
@@ -83,11 +83,23 @@ So now the architecture of the system is public.
 - **Bias**: Relies on crowdworkers' annotations of human psychology, steering narratives toward legible, predictable, transactionally social behavior while filtering out complex, contemplative, or unpredictable literary moves.
 - **Presupposition**: Coherence is the highest narrative virtue. It models the reader as constantly updating a mental model of what characters "would do next," making character action (rather than setting or silence) the unit of narrative interest.
 
+### [Curveship (Nick Montfort, 2009)](https://nickm.com/curveship/)
+- **Type**: Symbolic interactive fiction generator
+- **Model**: Separates the underlying simulated world (the *histoire*) from the narrative discourse (the *récit*), allowing the same sequence of events to be told from different perspectives, focalizations, or temporal orders (e.g., flashback).
+- **Bias**: Formalist and narratological. It treats the telling of a story as a highly structured set of parameters that can be toggled mathematically.
+- **Presupposition**: Narrative is fundamentally divided into content and discourse. By controlling the discourse parameters, a single objective world-state can yield infinite subjective tellings.
+
 ### [Façade (Michael Mateas & Andrew Stern, 2005)](https://en.wikipedia.org/wiki/Fa%C3%A7ade_(video_game))
 - **Type**: Symbolic planning / Interactive Drama
 - **Model**: Narrative as a tension-managed interactive social performance. Uses "beat" managers and behavioral engines to parse user input and orchestrate character responses in real-time.
 - **Bias**: Focuses on the intense, upper-middle-class domestic breakdown of a married couple. Limits interaction to a bounded, pressure-cooker social etiquette.
 - **Presupposition**: Narrative is a collection of dramatic beats structured by ascending tension. Characters are highly reactive agents managing their own social boundaries and psychological states in response to an unpredictable interactor.
+
+### [MEXICA (Rafael Pérez y Pérez, 1999)](https://en.wikipedia.org/wiki/MEXICA)
+- **Type**: Symbolic planning / Cognitive model
+- **Model**: Generates plots about the ancient inhabitants of Mexico using the E-R (Engagement-Reflection) model of creativity, cycling between generating new material and evaluating it for coherence and novelty.
+- **Bias**: Focuses heavily on the logical progression of emotional links and tension between characters, prioritizing structural completeness over textual nuance.
+- **Presupposition**: Creative writing is an iterative cognitive cycle. A story is valid if the emotional and physical states of the characters transition logically according to predefined tension parameters.
 
 ### [DayDreamer (Erik Mueller, 1989)](https://en.wikipedia.org/wiki/DayDreamer_(program))
 - **Type**: Symbolic planning
