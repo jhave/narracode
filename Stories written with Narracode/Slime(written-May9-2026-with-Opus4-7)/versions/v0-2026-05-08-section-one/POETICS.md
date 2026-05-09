@@ -1,4 +1,4 @@
-# CLAUDE.md — project commitments
+# POETICS.md — project commitments
 
 *Initiated 2026-05-08. Working title: untitled (the slime project). Loop: 0.*
 
@@ -71,15 +71,15 @@ Episodic rather than arc-driven. Section-length: variable, Knausgård-long when 
 ## Resolved decisions (2026-05-08)
 
 1. **Cast.** Ensemble of five, one functioning as a center of gravity. The center anchors the Knausgård-density interiors; the four satellites carry the Rooney-ish relational pressure. Names, occupations, and infection-states deferred to the drafting pass.
-2. **Geography.** Mexico City. Density, biology, water politics, vertical infrastructure, tropical weight. Off-axis from the Rooney/Berlin defaults. The slime arrives in a city that already metabolizes scale. Specific neighbourhoods, routes, and seminar-locales to surface in draft, not pre-mapped here.
+2. **Geography.** Unspecified. A hybrid city — Asian, European, and Mexica cultural strands compounded into an international/multicultural texture without a single national anchor. No nation-state's surface dominates. Naming refused at the place-marker level; specificity surfaces in ambient detail (foods eaten, infrastructures used, languages overheard, climate, materials, architectural strata) rather than in toponymy. The slime arrives in a city already constituted by mergers — itself a kind of permeation, prior to the slime's. Seminar-locales, neighbourhoods, and routes to be rendered concretely in draft without locating them on any real map. *(Supersedes prior commitment to Mexico City, 2026-05-08; see versions/v0-2026-05-08-pre-geography-shift/.)*
 3. **Time.** Near-future, undated. Present-tense ordinariness, two ticks past now. XR, AI, and neuroscience vocabulary deployed as ambient weather, no year stated. The Knausgård present coexists with the speculative premise without announcement.
 4. **Opening pass scope.** Vignette, approximately 800 words. First contact with the dialect at small scale — calibrate the Golding-strain and the five-way exemplar balance before extension. Subsequent passes may extend per the *Structural feel* note.
 5. **Title.** Held open. Internal handle remains "untitled (the slime project)". A title is to surface from the prose once located; not pre-figured.
 
 ## What the prompter has asked for next
 
-The pending decisions are resolved. The compositional agent is cleared to draft. On the next invocation — *consult narracode.md and draft section one* — the agent will produce an ~800-word vignette in Mexico City, near-future-undated, free indirect close to one of the five (the center of gravity, unless the prompter specifies otherwise), under the dialect and refusals above.
+The pending decisions are resolved. The compositional agent is cleared to draft. On the next invocation — *consult narracode.md and draft section one* — the agent will produce an ~800-word vignette in the unspecified hybrid Asia-Euro-Mexica city, near-future-undated, free indirect close to one of the five (the center of gravity, unless the prompter specifies otherwise), under the dialect and refusals above. The city's textures will surface as ambient detail; no place-name will be used.
 
 ---
 
-*End of CLAUDE.md. Updated only by the prompter or under the prompter's direction.*
+*End of POETICS.md. Updated only by the prompter or under the prompter's direction.*

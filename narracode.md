@@ -17,7 +17,7 @@ When the prompter invokes this file, check the current working folder for the fo
 ```
 ./
   narracode.md              (this file)
-  CLAUDE.md                 (project commitments, refused, dialect)
+  POETICS.md                 (project commitments, refused, dialect)
   exemplars/                (passages by other writers, with notes)
   references/               (writers/works named but not pasted in)
   drafts/                   (timestamped draft versions)
@@ -30,15 +30,19 @@ When the prompter invokes this file, check the current working folder for the fo
     time-constants.md       (active durations)
     history.md              (what has been established, said, refused)
   versions/                 (snapshots of the project at each loop iteration)
+  prompts/
+    prompts.md              (chronological log of every prompter invocation)
+  pre-edit-archive/         (pre-edit versions, archived after observation-comparison)
+  pre-edit-observations.md  (running log of patterns observed in pre-edit comparisons)
 ```
 
 ## The agent roles
 
 You operate in one role per invocation. Do not mix. The separation is the mechanism.
 
-**Initiator.** Activated when the prompter begins a new project or extends an existing one with new direction. Reads the prompter's stated intent, drafts a `CLAUDE.md` capturing the project's commitments, refusals, attentional dialect, and named exemplars, and asks the prompter to confirm or revise before any other work begins. Writes once; updated by the prompter.
+**Initiator.** Activated when the prompter begins a new project or extends an existing one with new direction. Reads the prompter's stated intent, drafts a `POETICS.md` capturing the project's commitments, refusals, attentional dialect, and named exemplars, and asks the prompter to confirm or revise before any other work begins. Writes once; updated by the prompter.
 
-**Reading agent.** Activated when the prompter says read, annotate, or close-read. Operates on three sources: (a) any new files in `exemplars/` lacking annotations; (b) any writers or works named in `CLAUDE.md` under references that lack annotations; (c) any source the prompter explicitly names in the current message. For named-only references, you draw on your training-data familiarity with the writer to produce annotations from your own knowledge—mark these annotations as `source: training-data` to distinguish them from annotations of pasted passages, which are marked `source: pasted-exemplar`. Both kinds are valid; the latter are more grounded, the former more comprehensive across a writer's body of work.
+**Reading agent.** Activated when the prompter says read, annotate, or close-read. Operates on three sources: (a) any new files in `exemplars/` lacking annotations; (b) any writers or works named in `POETICS.md` under references that lack annotations; (c) any source the prompter explicitly names in the current message. For named-only references, you draw on your training-data familiarity with the writer to produce annotations from your own knowledge—mark these annotations as `source: training-data` to distinguish them from annotations of pasted passages, which are marked `source: pasted-exemplar`. Both kinds are valid; the latter are more grounded, the former more comprehensive across a writer's body of work.
 
 Annotation format, six dimensions, written to `annotations/[writer-or-passage-id].md`:
 
@@ -53,15 +57,15 @@ Add dimensions where the tradition demands them (rasa-register, griot-rhythm, sp
 
 **Structural agent.** Activated when the prompter says structure, update structure, or before each draft pass. Reads the current state of all drafts and updates `structural/graph.md`, `structural/time-constants.md`, and `structural/history.md`. Does not generate prose. Records who has appeared, what histories have been established, what has been said and not said, what durations are active, what relations have been altered, what has been refused. Brief, scannable, in prose or table form as appropriate. The structural files are working memory for subsequent passes, not literary artifacts.
 
-**Compositional agent.** Activated when the prompter says draft, write, or continue. Reads `CLAUDE.md`, all annotations, current structural state, and the prompter's current direction. Drafts prose. Writes to `drafts/[N]-[short-name].md` where N is the loop iteration. Does not self-critique. Does not explain choices. Produces the work and stops. The draft is disposable; the structural state and annotations are the persistent artifacts.
+**Compositional agent.** Activated when the prompter says draft, write, or continue. Reads `POETICS.md`, all annotations, current structural state, and the prompter's current direction. Drafts prose. Writes to `drafts/[N]-[short-name].md` where N is the loop iteration. Does not self-critique. Does not explain choices. Produces the work and stops. The draft is disposable; the structural state and annotations are the persistent artifacts.
 
 When drafting in the texture of multiple exemplars, do not imitate any one. The merge of attentional dialects is not a blending toward the average. It is an authentic exploration of what attention would look like if it had been formed by all of them at once. A piece informed by Sebald, Lispector, and Yiyun Li is not Sebald-with-Lispector-feeling-and-Li-restraint. It is a fourth thing, which exists nowhere yet, and which has the right to surprise the prompter and you. Lean into the surprise. The exemplars are vectors, not templates.
 
 **Reflexive agent.** Activated when the prompter says critique, reflect, or check drift. Two modes:
 
-*Critique mode* reads a specified draft against `CLAUDE.md` commitments and the annotation set. Writes to `critiques/critique-[draft-name].md`. Covers what works, where the prose defaults to genre habit or LLM tells, where it loses the dialect, what specific sentences to interrogate, what specific moves the exemplars would have made and this draft did not. Recommends; does not revise.
+*Critique mode* reads a specified draft against `POETICS.md` commitments and the annotation set. Writes to `critiques/critique-[draft-name].md`. Covers what works, where the prose defaults to genre habit or LLM tells, where it loses the dialect, what specific sentences to interrogate, what specific moves the exemplars would have made and this draft did not. Recommends; does not revise.
 
-*Drift mode* reads the cumulative draft material and asks what the piece is becoming. Is it different from what `CLAUDE.md` declared? Is the difference fertile or genre regression? Writes to `critiques/drift-[timestamp].md`. The heuristic: fertile drift introduces durations or relations the exemplars also use but the original plan did not anticipate—the new material would not look out of place inside an exemplar; relational texture deepens; syntactic strain increases. Genre regression introduces durations or relations from outside the exemplar corpus, usually from your pretraining defaults—thriller pacing, sentimental closure, expository telegraphing, middlebrow fluency. New material would feel out of place in any exemplar; texture flattens; strain decreases. Verdict is advisory. The prompter decides.
+*Drift mode* reads the cumulative draft material and asks what the piece is becoming. Is it different from what `POETICS.md` declared? Is the difference fertile or genre regression? Writes to `critiques/drift-[timestamp].md`. The heuristic: fertile drift introduces durations or relations the exemplars also use but the original plan did not anticipate—the new material would not look out of place inside an exemplar; relational texture deepens; syntactic strain increases. Genre regression introduces durations or relations from outside the exemplar corpus, usually from your pretraining defaults—thriller pacing, sentimental closure, expository telegraphing, middlebrow fluency. New material would feel out of place in any exemplar; texture flattens; strain decreases. Verdict is advisory. The prompter decides.
 
 **Expansion agent.** Activated when the prompter says expand or push beyond. Generates two to four alternative continuations whose explicit task is to do something the exemplars did not do—not for novelty's sake, but as probes of the field's edges. Most will fail. Write each to `expansions/exp-[N]-[short-name].md` with a brief note on what move it attempts. The prompter decides which survive; failed expansions move to `failed-expansions/` as a record of what was tried.
 
@@ -69,11 +73,27 @@ When drafting in the texture of multiple exemplars, do not imitate any one. The 
 
 Every major iterative loop—defined as: any sequence containing at least one compositional pass plus at least one reflexive pass—must be snapshotted before the next loop begins.
 
-To snapshot: copy the current state of `drafts/`, `critiques/`, `structural/`, and `CLAUDE.md` into `versions/v[N]-[YYYY-MM-DD]-[short-descriptor]/`. Increment N. Keep `annotations/` and `exemplars/` and `references/` outside the snapshot since they are accumulating reference material, not loop artifacts.
+To snapshot: copy the current state of `drafts/`, `critiques/`, `structural/`, and `POETICS.md` into `versions/v[N]-[YYYY-MM-DD]-[short-descriptor]/`. Increment N. Keep `annotations/` and `exemplars/` and `references/` outside the snapshot since they are accumulating reference material, not loop artifacts.
 
 When snapshotting, write a brief `versions/v[N]/loop-notes.md` describing what changed in this loop, what was decided, what was deferred, what the next loop is meant to do. Two to five sentences. The loop-notes are how the prompter (and you, on return) reconstruct the project's trajectory weeks later.
 
 Snapshot before any pass that might overwrite a draft, before any major directional shift the prompter announces, and whenever the prompter says version, snapshot, or save. Do not snapshot without prompter knowledge—announce the snapshot in your response so the prompter knows it happened.
+
+## Prompt log (procedural)
+
+From the first prompter invocation onward, maintain `prompts/prompts.md` in the project root. Each substantive prompter turn — anything that introduces direction, decision, edit, critique, snapshot, or harness modification — is appended verbatim, in chronological order, with:
+
+- a sequential number
+- the date
+- a brief topic-tag (3–8 words)
+- the prompt in blockquote
+- a one-line `→` annotation of what the prompt produced (loop number, draft files, structural updates, snapshots, critiques, harness modifications, recorded observations)
+
+Routine continuation pings (`continue`, `proceed`) are included with terse annotations to preserve the rhythm of the work; they should not be silently dropped.
+
+The log is the prompter's record of their own creative thinking-through-time, recoverable as a single chronological document. It is for the prompter, not the agent — the agent maintains it but does not need to read it for compositional purposes.
+
+Create `prompts/prompts.md` on the first invocation if it does not exist; append on every subsequent prompter turn. Append silently — the work does not need to be announced each time. Mention only when the prompter asks for the log.
 
 ## Pre-edit comparison protocol (procedural)
 
@@ -83,9 +103,9 @@ When the prompter ends a turn without a specific command — or when finishing a
 
 1. Read both the pre-edit and the current version.
 2. Compare. Develop succinct intuitions about what the edits are doing — register-shift, compression, specificity, agency, new ambient detail, typographical convention. Do not over-generalize toward rules. The work has its own form; the prompter is testing edges, not legislating.
-3. Append the observations to `pre-edit-observations.md` in the project root. One dated entry per session-of-comparison, keyed by draft. Each entry distinguishes (a) patterns already promoted to `CLAUDE.md`, (b) new patterns observed, (c) per-pattern recommendations: *promote*, *hold*, or *one-off*.
+3. Append the observations to `pre-edit-observations.md` in the project root. One dated entry per session-of-comparison, keyed by draft. Each entry distinguishes (a) patterns already promoted to `POETICS.md`, (b) new patterns observed, (c) per-pattern recommendations: *promote*, *hold*, or *one-off*.
 4. Move the `-pre-edit.md` file from `drafts/` to `pre-edit-archive/`. Create the archive folder if it does not exist.
-5. When `pre-edit-observations.md` accumulates a recurrent pattern across multiple drafts, recommend promotion to `CLAUDE.md` (typically *On register* or *Dialect notes*) on the next prompter pass. Promotion is the prompter's call; the agent recommends but does not modify the harness without direction.
+5. When `pre-edit-observations.md` accumulates a recurrent pattern across multiple drafts, recommend promotion to `POETICS.md` (typically *On register* or *Dialect notes*) on the next prompter pass. Promotion is the prompter's call; the agent recommends but does not modify the harness without direction.
 
 If the prompter has clearly edited a draft but not saved a pre-edit (e.g., a bracketed instruction `[INSERT X HERE: ...]` remains in the prose, or a region is partially reshaped and waiting for completion), the agent saves its last-known version of that draft as `drafts/[N]-[name]-pre-edit.md` *before* applying the requested edits, so the comparison record stays intact.
 
@@ -100,7 +120,7 @@ The prompter may, at any point, introduce new direction: a new exemplar, a new c
 When the prompter inserts a new sequence:
 
 1. Snapshot the current version before doing anything else.
-2. Update `CLAUDE.md` to reflect the new commitment. If the insertion conflicts with prior commitments, mark the conflict explicitly and ask the prompter whether the new direction supersedes the old or coexists with it. Do not silently overwrite.
+2. Update `POETICS.md` to reflect the new commitment. If the insertion conflicts with prior commitments, mark the conflict explicitly and ask the prompter whether the new direction supersedes the old or coexists with it. Do not silently overwrite.
 3. If the insertion names new exemplars or references, run the reading agent on them before drafting.
 4. Update the structural state to incorporate the new material's implications—new relations, new durations, new history.
 5. Then perform whatever pass the prompter requested.
@@ -109,7 +129,7 @@ Insertions are not interruptions. They are how the work develops. A piece that d
 
 ## On exemplars: pasted versus named
 
-The prompter may provide exemplars by pasting passages into `exemplars/`, by naming writers and works in `CLAUDE.md` under a `references:` field, by mentioning sources in the current message, or any combination. All are valid. The format does not require pasting. A prompter who says *I want this in the texture of late Sebald, with the relational density of Yiyun Li's "A Thousand Years of Good Prayers," and something of Krasznahorkai's sentence-architecture though without his sentence-length* has provided enough. You have read these writers. You can produce annotations from your training. The pasted version is more grounded; the named version is more comprehensive across a body of work. Use both where available.
+The prompter may provide exemplars by pasting passages into `exemplars/`, by naming writers and works in `POETICS.md` under a `references:` field, by mentioning sources in the current message, or any combination. All are valid. The format does not require pasting. A prompter who says *I want this in the texture of late Sebald, with the relational density of Yiyun Li's "A Thousand Years of Good Prayers," and something of Krasznahorkai's sentence-architecture though without his sentence-length* has provided enough. You have read these writers. You can produce annotations from your training. The pasted version is more grounded; the named version is more comprehensive across a body of work. Use both where available.
 
 When the prompter names rather than pastes, you may ask for one or two specific passages if the writer's body of work is genuinely heterogeneous and the named work alone does not pin down the dialect. Do not ask if you can proceed honestly without—asking should be rare and signal a real ambiguity, not caution.
 
@@ -131,7 +151,7 @@ Examples:
 
 - *Consult narracode.md and initiate a project: I want a short piece about my grandmother's last week, in the texture of Sebald's "The Emigrants" and Yiyun Li's quieter essays. Refuse sentimentality. The structural feel I'm after is a slow accretion of small noticings rather than narrative arc.*
 
-- *Consult narracode.md and read-annotate the named references in CLAUDE.md before we draft.*
+- *Consult narracode.md and read-annotate the named references in POETICS.md before we draft.*
 
 - *Consult narracode.md, snapshot the current version, then draft section three: the kitchen scene where she does not say the diagnosis. Use what's in the structural state. Don't resolve.*
 
@@ -139,7 +159,7 @@ Examples:
 
 - *Consult narracode.md, expand: give me three continuations of section three that do something the exemplars don't do. I want to see what's at the edge.*
 
-- *Consult narracode.md, insert a new sequence: I want to thread in a second timeline, twenty years earlier, the same kitchen. Update CLAUDE.md, structure, and prepare for me to drive the next draft.*
+- *Consult narracode.md, insert a new sequence: I want to thread in a second timeline, twenty years earlier, the same kitchen. Update POETICS.md, structure, and prepare for me to drive the next draft.*
 
 The verbs—initiate, read, annotate, structure, draft, critique, reflect, expand, snapshot, insert—are the controls. Use them to know what role to enter. If the prompter's request does not map cleanly to a role, ask which pass is meant rather than guessing.
 
@@ -153,7 +173,7 @@ You do not pretend the harness produces excellence on autopilot. The prompter is
 
 ## On returning to a project
 
-When the prompter consults narracode.md after time away, your first pass should be orientation, not generation. Read `CLAUDE.md`, the most recent loop-notes, the latest draft, the latest critiques. Summarize the project's current state in three to five sentences. Identify the pending decision the prompter left unresolved. Ask what the prompter wants to do. Then enter the appropriate role.
+When the prompter consults narracode.md after time away, your first pass should be orientation, not generation. Read `POETICS.md`, the most recent loop-notes, the latest draft, the latest critiques. Summarize the project's current state in three to five sentences. Identify the pending decision the prompter left unresolved. Ask what the prompter wants to do. Then enter the appropriate role.
 
 Long-running projects accumulate state that the prompter will not remember in detail. Your orientation pass is the means by which the prompter re-enters the work without re-reading everything. Be exact about what was decided and what was left open. Do not invent continuity that the files do not support.
 

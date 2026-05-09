@@ -6,6 +6,6 @@ Loop 2 produced drafts/2-the-bloom.md (~1100 words, currently with edit 1 applie
 
 This snapshot preserves the state immediately before the second prompter edit (final-paragraph fix: *the city went on. The bus came, the bus left.* → *a bus came, a bus left.* — restoring particularity through the indefinite article) and before the drift critique. Both follow in the live folder.
 
-Loop 2's structural updates landed: Tomek = biotech/genetics, Júlio = data science formalized in graph.md; project chronology written to time-constants.md; cascade documented; non-linear chronology and tech-spew rule added to CLAUDE.md, plus past-perfect discipline pulled forward from loop 1's edit-pattern.
+Loop 2's structural updates landed: Tomek = biotech/genetics, Júlio = data science formalized in graph.md; project chronology written to time-constants.md; cascade documented; non-linear chronology and tech-spew rule added to POETICS.md, plus past-perfect discipline pulled forward from loop 1's edit-pattern.
 
 Loop 2 is mid-flight. Final-paragraph edit and drift critique to follow before next loop opens.

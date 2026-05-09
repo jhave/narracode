@@ -1,4 +1,4 @@
-# CLAUDE.md — project commitments
+# POETICS.md — project commitments
 
 *Initiated 2026-05-08. Working title: untitled (the slime project). Loop: 2.*
 
@@ -95,4 +95,4 @@ Sections one (drafts/0-after-the-seminar.md) and two (drafts/1-the-thing.md) dra
 
 ---
 
-*End of CLAUDE.md. Updated only by the prompter or under the prompter's direction.*
+*End of POETICS.md. Updated only by the prompter or under the prompter's direction.*

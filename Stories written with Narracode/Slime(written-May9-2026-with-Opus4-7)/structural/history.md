@@ -12,7 +12,7 @@
 - The institute has an ambient overlay system. Ines has stopped acknowledging it.
 - Anwen sent Ines a text: *are you coming for the thing.* Lower-case *a*, no question mark.
 - Ines walked seven flights of stairs and out into the street, heading toward the bar where the others would be.
-- The Name behind the slime is a working commitment of the project (see CLAUDE.md). It has not yet appeared on the page in section one beyond residual phrasing.
+- The Name behind the slime is a working commitment of the project (see POETICS.md). It has not yet appeared on the page in section one beyond residual phrasing.
 
 ## Said (in prose, on the page)
 

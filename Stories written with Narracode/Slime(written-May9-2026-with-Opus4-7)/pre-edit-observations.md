@@ -1,12 +1,12 @@
 # pre-edit-observations.md
 
-A running log of patterns observed in prompter pre-edit comparisons. Brief, dated, focused. When a pattern recurs across multiple drafts, it may be promoted to `CLAUDE.md` (*On register* / *Dialect notes*) or to `narracode.md` (*Procedures*). Promotion is the prompter's call; the agent recommends.
+A running log of patterns observed in prompter pre-edit comparisons. Brief, dated, focused. When a pattern recurs across multiple drafts, it may be promoted to `POETICS.md` (*On register* / *Dialect notes*) or to `narracode.md` (*Procedures*). Promotion is the prompter's call; the agent recommends.
 
 ---
 
 ## 2026-05-09 — drafts/2-the-bloom, drafts/3a-the-blur, drafts/3b-the-blur-fall
 
-### Already promoted (from earlier comparisons; see CLAUDE.md *On register: horizon and observed shifts*)
+### Already promoted (from earlier comparisons; see POETICS.md *On register: horizon and observed shifts*)
 
 - Decoders may circulate to another character.
 - Compression and ellipsis (drop articles; comma-chains as completion).
@@ -30,7 +30,7 @@ A running log of patterns observed in prompter pre-edit comparisons. Brief, date
 
 - **Coined neologisms / portmanteau terminology.** *lore-tecknica* / *tasmrora* / *Jet-laden lagged.* The world has its own vocabulary; the prose can coin. **Recommendation: hold. Likely a one-off prompter touch unless pattern recurs.**
 
-- **Lowercase *name* when peripheral; capital *Name* reserved for direct invocation.** *the Name-adjacent metaphors* → *the name-adjacent metaphors.* The capital is reserved for direct reference; ambient discourse about it is lowercase. **Recommendation: promote to CLAUDE.md *The Name behind the slime* as a typographical note on next prompter pass.**
+- **Lowercase *name* when peripheral; capital *Name* reserved for direct invocation.** *the Name-adjacent metaphors* → *the name-adjacent metaphors.* The capital is reserved for direct reference; ambient discourse about it is lowercase. **Recommendation: promote to POETICS.md *The Name behind the slime* as a typographical note on next prompter pass.**
 
 - **Concretized image-detail in artworks/objects.** Anwen's sketch becomes *torsion lines on a hand floating on bathtub water*; Tomek's group-thread dogs become *Beagles skydiving, a poodle in a tuxedo, a pug driving a tiny car. They were not dogs.* When an artwork or generated-image is mentioned, the prose can add the specific image. **Recommendation: subset of phenomenology-specific-gesture rule; no separate promotion.**
 
@@ -44,16 +44,16 @@ A running log of patterns observed in prompter pre-edit comparisons. Brief, date
 
 ## 2026-05-09 — drafts/4-the-walk
 
-### Prompter-flagged overuse (promoted this session to CLAUDE.md)
+### Prompter-flagged overuse (promoted this session to POETICS.md)
 
-- **"none of them" anaphoric tic.** Prompter explicitly flagged *none of them had asked for* as overused. Looking back through draft 4, the formula appeared four times: *a thing none of them had asked for* (replaced with *an undoing*); *None of them said it. None of them could. None of them needed.* (the triple-anaphora replaced with three italicized inner questions: *From where? / How? / What was it?* … then closed with *No words. No doer. No need.*); *none of them had brought it* (preserved). Even the preserved instance now reads, in light of the deletion of three others, as the only place the phrase is doing semantic work. **Promoted to CLAUDE.md *Closing-paragraph audit* as a specific tic to audit before finalizing — the formula hardens fast.**
+- **"none of them" anaphoric tic.** Prompter explicitly flagged *none of them had asked for* as overused. Looking back through draft 4, the formula appeared four times: *a thing none of them had asked for* (replaced with *an undoing*); *None of them said it. None of them could. None of them needed.* (the triple-anaphora replaced with three italicized inner questions: *From where? / How? / What was it?* … then closed with *No words. No doer. No need.*); *none of them had brought it* (preserved). Even the preserved instance now reads, in light of the deletion of three others, as the only place the phrase is doing semantic work. **Promoted to POETICS.md *Closing-paragraph audit* as a specific tic to audit before finalizing — the formula hardens fast.**
 
 ### Voss-horizon pull intensified (two promoted, two held)
 
 The prompter pulled the dissolution-passage further toward Voss than the agent had:
 
-- **Slime as the verb's subject — promoted.** *The slime had moved on. Their use was over.* — direct attribution. Confirms the candidate flagged after 3a/3b. **Promoted to CLAUDE.md *On register* as an extension of the agency-shift line.**
-- **Italicized inner-questions during dissolution — promoted.** *From where? / How? / What was it?* — italics as the formal register for interior thought-fragments, parallel to spoken-dialogue italics. New device. **Promoted to CLAUDE.md *On register*.**
+- **Slime as the verb's subject — promoted.** *The slime had moved on. Their use was over.* — direct attribution. Confirms the candidate flagged after 3a/3b. **Promoted to POETICS.md *On register* as an extension of the agency-shift line.**
+- **Italicized inner-questions during dissolution — promoted.** *From where? / How? / What was it?* — italics as the formal register for interior thought-fragments, parallel to spoken-dialogue italics. New device. **Promoted to POETICS.md *On register*.**
 - **Coined words at dissolution-tempo — held.** *oceanice teeming, calmly seething*; *they were each, again, a person, persons, personing*; *they were geometric undulance*. The slime-vocabulary's coining (lore-tecknica, tasmrora) extends into the dissolution. **Hold; observe further.**
 - **Mystical-direct phrasings licensed during dissolution — held.** *the thing peering out, the I*; *Everything settled into warm quietude, uncoiling being, before language*; *An is so intense it erupted simultaneously in all five of them*. The agent had skirted these; the prompter affirms they are licensed *during the dissolution-passage* — the project's other refusals (no sentimentality, no resolution) still hold but the rigpa-non-dual register can register more directly. **Hold; do not generalize beyond dissolution-tempo.**
 

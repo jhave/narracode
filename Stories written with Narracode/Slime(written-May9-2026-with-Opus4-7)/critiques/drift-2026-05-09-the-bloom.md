@@ -1,10 +1,10 @@
 # drift — 2026-05-09 — on draft 2 (the bloom)
 
-*Reflexive agent, drift mode. Reading drafts/2-the-bloom.md against CLAUDE.md and the cumulative material in drafts/0 and drafts/1. Verdict advisory; the prompter decides.*
+*Reflexive agent, drift mode. Reading drafts/2-the-bloom.md against POETICS.md and the cumulative material in drafts/0 and drafts/1. Verdict advisory; the prompter decides.*
 
 ## Verdict
 
-Mostly fertile. The new material extends the dialect into territory the original CLAUDE.md anticipated only in name — the cascade as weather, the tech-spew register, multi-glance POV, contact-as-three-seconds. Texture deepens; syntactic strain holds; relational pressure is consistent with the established calibrations. Two regressions occurred at the close of the section, both prompter-flagged and now corrected. A meta-pattern is visible across loops 0–2 and is recommended for filing.
+Mostly fertile. The new material extends the dialect into territory the original POETICS.md anticipated only in name — the cascade as weather, the tech-spew register, multi-glance POV, contact-as-three-seconds. Texture deepens; syntactic strain holds; relational pressure is consistent with the established calibrations. Two regressions occurred at the close of the section, both prompter-flagged and now corrected. A meta-pattern is visible across loops 0–2 and is recommended for filing.
 
 ## Where the piece extended fertilely
 
@@ -33,7 +33,7 @@ The compositional agent has, in each draft, drifted toward formula in the closin
 
 Shape is consistent: at the close, the prose reaches for a cadence that worked earlier in the same draft, and the reach becomes a tic. The fix in each case has been the same — replace the second instance with phenomenologically specific material; vary the third element of any triplet.
 
-**Recommendation (advisory, not executed):** add a *closing-paragraph audit* to the dialect notes in CLAUDE.md. Before finalizing, read the last two paragraphs against the rest of the draft for echoes of phrasing — particularly any noun-verb pair that has appeared earlier. Variants permitted; identicals only when the identicality is doing semantic work. The discipline is the same as the past-perfect discipline already filed: strain is the diagnostic; pile-up is sludge.
+**Recommendation (advisory, not executed):** add a *closing-paragraph audit* to the dialect notes in POETICS.md. Before finalizing, read the last two paragraphs against the rest of the draft for echoes of phrasing — particularly any noun-verb pair that has appeared earlier. Variants permitted; identicals only when the identicality is doing semantic work. The discipline is the same as the past-perfect discipline already filed: strain is the diagnostic; pile-up is sludge.
 
 ## On the Name in this section
 
@@ -51,7 +51,7 @@ The reference register has landed in the page. *Whatever. Bodies do this.* is pr
 
 The two prompter-corrected drifts are integrated. The piece holds. No deeper revision needed at the sentence level. Two advisory items for the prompter:
 
-1. File a closing-paragraph audit rule in CLAUDE.md's dialect notes (parallel to past-perfect discipline).
+1. File a closing-paragraph audit rule in POETICS.md's dialect notes (parallel to past-perfect discipline).
 2. Treat ~800 as the section-length floor and ~1100 as the cascade-section ceiling unless explicitly extended.
 
 Verdict: fertile. The fourth attention is showing up. The piece has the right to surprise the prompter and is beginning to.

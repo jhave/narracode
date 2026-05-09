@@ -26,7 +26,7 @@ The narrative philosophy of the system is encoded in:
 
 - **the main prompt** (`narracode.md` itself, establishing the rules and boundaries)
 - **the agent roles**: Narracode forces the LLM to operate in strictly separated passes to avoid the "average" output of a single-shot prompt. The roles are:
-  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md` or `CLAUDE.md`).
+  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md` or `POETICS.md`).
   - **Reading Agent**: Analyzes provided exemplars across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
   - **Structural Agent**: Maintains the working memory by updating relations, durations, and established history.
   - **Compositional Agent**: Drafts the actual prose by merging the structural state with the deep attentional dialect of the exemplars.
@@ -54,7 +54,7 @@ When the agent initiates a project, it will build the following structure to act
 ```text
 ./
   narracode.md              (the main protocol)
-  CLAUDE.md                 (project commitments, refused elements, dialect)
+  POETICS.md                 (project commitments, refused elements, dialect)
   exemplars/                (optional: passages by other writers for the agent to study)
   references/               (writers/works named but not pasted in)
   drafts/                   (timestamped draft versions)
