@@ -6,14 +6,6 @@ Narracode is a storytelling harness for agentic AI (inspired by Claude Code). It
 
 It emerged from the realization that the intrinsic embodied complexity of nunanced narrative might become comptationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code https://github.com/weikma/claude-code-rebuilt specifically re-purposed for narrative literature.  
 
-## Background Information on Claude Code (*how it became public*)
-
-Claude Code is a CLI tool developed by Anthropic for AI-assisted software development. It has been extremely popular and is extremely powerful. 
-
-On March 31, 2026, Anthropic accidentally leaked the full source code of Claude Code (the CLI coding agent) via a 59.8 MB source map file bundled in NPM package version 2.1.88. The leak revealed 500,000+ lines of TypeScript, including its system prompt, tool logic (bash, edit), and agentic loop, sparking widespread analysis. 
-
-So now the architecture of the system is public. 
-
 ## Project Overview
 
 Narracode arises from an inquiry: can we build a literature AI-augmentation system on the same model as Claude Code? One that is structured, algorithmic, agentic — but for literary purposes? 
@@ -24,10 +16,6 @@ Narracode is an attempt to bridge this gap. It is a neurosymbolic approach to na
 
 The core premise is that the architecture of a narrative generator is not neutral; rather, it is a "narrative philosophy" written in code. The structural logic of a program—its "Narracode"—acts as a set of cognitive and social presuppositions that fundamentally shape the generated story-world.
 
-## Current state of the project
-
-The current iteration is a single-file python script (in this repo) that implements this architecture. It is not "complete" by any means, but it is a working proof of concept. Built with Claude CoWork on May 8-9, 2026. 
-
 ## Prompting and the Narrative Philosophy
 
 The narrative philosophy of the system is encoded in:
@@ -37,6 +25,18 @@ The narrative philosophy of the system is encoded in:
 - **the symbolic harness** (the directory structure that externalizes state into separate files)
 - **the evaluation harness** (the critique and drift check protocols, and pre-edit comparisons)
 - **the memory system** (the structural files, annotations, exemplars, and version snapshots)
+
+## Current state of the project
+
+The current iteration is a single-file markdown script (in this repo) that implements this architecture. It is not "complete" by any means, but it is a working proof of concept. Built with Claude CoWork on May 8-9, 2026. 
+
+## Background Information on Claude Code (*how it became public*)
+
+Claude Code is a CLI tool developed by Anthropic for AI-assisted software development. It has been extremely popular and is extremely powerful. 
+
+On March 31, 2026, Anthropic accidentally leaked the full source code of Claude Code (the CLI coding agent) via a 59.8 MB source map file bundled in NPM package version 2.1.88. The leak revealed 500,000+ lines of TypeScript, including its system prompt, tool logic (bash, edit), and agentic loop, sparking widespread analysis. 
+
+So now the architecture of the system is public. 
 
 ## Historical Computational Narrative Systems
 
