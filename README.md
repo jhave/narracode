@@ -36,10 +36,32 @@ The current iteration is a single-file markdown script (in this repo) that imple
 
 ## How to use Narracode
 
-1. **Download the script**: Save the [`narracode.md`](https://raw.githubusercontent.com/jhave/narracode/main/narracode.md) file to your local working directory.
-2. **Setup your environment**: Ensure your directory is empty or contains the initial references and exemplars you wish to use.
-3. **Invoke your AI agent**: Start a conversation with an agentic LLM (like Claude in an IDE or terminal) and paste the standard prompt: *Consult `narracode.md` and initiate a project...* 
-4. **Follow the protocol**: Command the agent to perform specific isolated passes (e.g., "read and annotate", "draft section one", "critique drift"). Do not ask it to write the whole story autonomously; drive the loop.
+1. **Download the script**: Save the [`narracode.md`](https://raw.githubusercontent.com/jhave/narracode/main/narracode.md) file to a new, empty working directory.
+2. **Invoke your AI agent**: Start a conversation with an agentic LLM (like Claude in an IDE or terminal) and paste the standard prompt: *Consult `narracode.md` and initiate a project...* 
+3. **Add Exemplars (Optional)**: Upon initialization, the agent will automatically generate a folder structure (see below). If you have specific text passages from authors you'd like the agent to study, you can place them into the newly created `exemplars/` folder.
+4. **Follow the protocol**: Command the agent to perform specific isolated passes (e.g., "read and annotate", "draft section one", "critique drift"). Do not ask it to write the whole story autonomously; drive the loop step-by-step.
+
+### Auto-Populated Folder Layout
+
+When the agent initiates a project, it will build the following structure to act as its external symbolic memory:
+
+```text
+./
+  narracode.md              (the main protocol)
+  CLAUDE.md                 (project commitments, refused elements, dialect)
+  exemplars/                (optional: passages by other writers for the agent to study)
+  references/               (writers/works named but not pasted in)
+  drafts/                   (timestamped draft versions)
+  annotations/              (close readings of exemplars and references)
+  critiques/                (per-draft critiques and drift reflections)
+  expansions/               (alternative continuations probing edges)
+  failed-expansions/        (kept as a record)
+  structural/
+    graph.md                (relations among entities)
+    time-constants.md       (active durations)
+    history.md              (what has been established, said, refused)
+  versions/                 (snapshots of the project at each loop iteration)
+```
 
 ## Background Information on Claude Code (*how it became public*)
 
