@@ -25,7 +25,13 @@ The core premise is that the architecture of a narrative generator is not neutra
 The narrative philosophy of the system is encoded in:
 
 - **the main prompt** (`narracode.md` itself, establishing the rules and boundaries)
-- **the agent roles** (distinct, separated passes: Initiator, Reading, Structural, Compositional, Reflexive, and Expansion)
+- **the agent roles**: Narracode forces the LLM to operate in strictly separated passes to avoid the "average" output of a single-shot prompt. The roles are:
+  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md` or `CLAUDE.md`).
+  - **Reading Agent**: Analyzes provided exemplars across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
+  - **Structural Agent**: Maintains the working memory by updating relations, durations, and established history.
+  - **Compositional Agent**: Drafts the actual prose by merging the structural state with the deep attentional dialect of the exemplars.
+  - **Reflexive Agent**: Runs in *Critique* mode (analyzing a draft against commitments) or *Drift* mode (checking if the cumulative piece is finding fertile new ground or regressing to genre tropes).
+  - **Expansion Agent**: Generates alternative continuations that intentionally push beyond the boundaries of the exemplars.
 - **the symbolic harness** (the directory structure that externalizes state into separate files)
 - **the evaluation harness** (the critique and drift check protocols, and pre-edit comparisons)
 - **the memory system** (the structural files, annotations, exemplars, and version snapshots)
