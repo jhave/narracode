@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo/narracode.png" width="250" alt="Narracode Logo">
+</p>
+
 # Narracode: a *Claude Code* for literature.
 
 Computer code is a solved problem for AI. Why not literature? 
