@@ -355,13 +355,13 @@ def build_library_index():
             <a target="_blank" href="https://glia.ca/2026/the-long-afternoon/">The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;
             <a target="_blank" href="https://glia.ca/2026/the-good-light/">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;
             <a target="_blank" href="https://glia.ca/2025/stimverse/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a>&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a>&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a>&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a>&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a>&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a>&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)
         </p>
     </div>
 
