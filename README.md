@@ -85,7 +85,9 @@ When initiated, the agent builds a minimalist core structure. Auxiliary folders 
 
 ## Current state of the project
 
-The current iteration is a single-file markdown script (in this repo) that implements this architecture. It is not "complete" by any means, but it is a working proof of concept. Built with Claude CoWork on May 8-9, 2026. This repo currently contains a test story written with the system on May 8th 2026.
+The current iteration is a working proof of concept. The system is implemented as a single-file markdown script (in this repo) that implements this architecture. Built with Claude CoWork on May 8-9, 2026. Amended by Gemini 3.1 Pro High on May 10, 2026. It includes test stories written with the system.
+
+Future iterations will implement a real Claude Code harness (i.e. a CLI tool that implements this architecture).
 
 
 ## Background Information on Claude Code (*how it became public*)
