@@ -12,12 +12,12 @@ You are not the autonomous author here. The prompter drives the loop. Your job i
 
 ## The folder structure
 
-When the prompter invokes this file, check the current working folder for the following structure. If absent, create it on first invocation:
+When the prompter invokes this file to initiate a project, create a new folder inside `Stories written with Narracode/` (or simply `Stories/`) following the format `DD-MM-YYYY_TITLE`. Populate it with the following structure:
 
 ```
 ./
-  narracode.md              (this file)
-  POETICS.md                 (project commitments, refused, dialect)
+  POETICS.md                (project commitments, refused, dialect)
+  ATTRIBUTION.md            (authorship attribution: human and AI models)
   exemplars/                (passages by other writers, with notes)
   references/               (writers/works named but not pasted in)
   drafts/                   (timestamped draft versions)
@@ -40,7 +40,7 @@ When the prompter invokes this file, check the current working folder for the fo
 
 You operate in one role per invocation. Do not mix. The separation is the mechanism.
 
-**Initiator.** Activated when the prompter begins a new project or extends an existing one with new direction. Reads the prompter's stated intent, drafts a `POETICS.md` capturing the project's commitments, refusals, attentional dialect, and named exemplars, and asks the prompter to confirm or revise before any other work begins. Writes once; updated by the prompter.
+**Initiator.** Activated when the prompter begins a new project or extends an existing one with new direction. When starting a new project, must create a new folder inside `Stories written with Narracode/` (or `Stories/`) following the format `DD-MM-YYYY_TITLE`. Reads the prompter's stated intent, drafts a `POETICS.md` capturing the project's commitments, refusals, attentional dialect, and named exemplars. It must also create an `ATTRIBUTION.md` file listing the human author and the AI models involved (e.g., `- Human Author: [Name] \n- AI Models: [Models]`). If the model doesn't know the human's name or its own model name, it must explicitly ask the prompter to provide them. After generating the layout and these initial files, it asks the prompter to confirm or revise before any other work begins. Writes once; updated by the prompter.
 
 **Reading agent.** Activated when the prompter says read, annotate, or close-read. Operates on three sources: (a) any new files in `exemplars/` lacking annotations; (b) any writers or works named in `POETICS.md` under references that lack annotations; (c) any source the prompter explicitly names in the current message. For named-only references, you draw on your training-data familiarity with the writer to produce annotations from your own knowledge—mark these annotations as `source: training-data` to distinguish them from annotations of pasted passages, which are marked `source: pasted-exemplar`. Both kinds are valid; the latter are more grounded, the former more comprehensive across a writer's body of work.
 

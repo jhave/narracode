@@ -22,7 +22,7 @@ In other rooms, in other windows, others.
 
 A man in a flat across the courtyard had been holding the kettle for some time. The kettle whistled at first, then continued, then stopped — possibly the whistle ended, possibly the ear had let it pass. He did not pour. His name had been Tomek and it would be again. Just now it was not anything. He stood. The kettle stood. The radiator that did not need to turn on stood.
 
-A woman not far from there had been working clay. The clay was warm and the hand was warm and the warmth was not a thing that crossed between them. Anwen. The name a small soft word for what was the case.
+A woman not far from there had been working clay (kaolin). The clay was warm and the hand was warm and the warmth was not a thing that crossed between them. Anwen. The name a small soft word for what was the case.
 
 Júlio, somewhere — slightly outside the city, not very far — had stopped reading three sentences of Welsh some time ago. The book was open. The sentence was: *Mae'r tŷ yn fawr.* The house is large. The book did not specify which house. He did not need it to.
 
