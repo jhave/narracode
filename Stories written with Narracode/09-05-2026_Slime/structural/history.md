@@ -26,6 +26,6 @@
 - The slime is not visibly rendered.
 - The Name is not paraphrased.
 - The city is not located on any real map; no toponym appears.
-- The exemplars are not named on the page.
+- The uploads are not named on the page.
 - The piece does not resolve.
 - Insight, when it arrives, arrives without verbs of feeling.

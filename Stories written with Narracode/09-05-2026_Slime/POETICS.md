@@ -8,7 +8,7 @@ A novel-length work, opening as a short piece. A tumbled group of intellectuals 
 
 The novel is about what happens to a sensibility built for analysis when the analysis arrives uninvited, complete, and chemical.
 
-## Exemplars (named, source: training-data)
+## Uploads (named, source: training-data)
 
 - **Sally Rooney** — sparse emotional realism. Conversations conducted by message, by half-meant statement; the unsaid carrying the weight; class and intellectual self-consciousness as ambient pressure; restraint as ethics.
 - **Karl Ove Knausgård** — memory precision. The granular phenomenology of an ordinary morning given the same density as a death. Duration as the substance of the prose. The refusal to compress for narrative.
@@ -16,7 +16,7 @@ The novel is about what happens to a sensibility built for analysis when the ana
 - **K Allado-McDowell** — roaming. Non-linear, associative drift; cognition that does not respect the boundary between the human and the machine; mystical-technical register without irony.
 - **Doris Lessing** — raw vigor. The willingness to take ideas seriously at novel length. Visionary register without apologetics. *Briefing for a Descent into Hell*, *Shikasta*, *Memoirs of a Survivor* as nearer touchstones than *The Golden Notebook*.
 
-## The invisible exemplar
+## The invisible upload
 
 - **William Golding, *The Inheritors*** — to be emulated *invisibly*. Golding's mechanism: prose enacted from inside a consciousness whose conceptual repertoire is insufficient to its perception. Lok and Fa think in *pictures*. They see what is happening but the syntax cannot reach the abstraction that would name it. The narrator does not help.
 
@@ -53,7 +53,7 @@ What that sensibility attends to:
 - No allegory. The slime is the slime. It is also AI, also biology, also XR, also drug, also weather — but it is not *standing in* for any of these. Resist substitution.
 - No middlebrow fluency. When the perception outruns the syntax, let the syntax break.
 - No clean character arcs. Adventurers spontaneously, yes — but not heroically. The action is what they fall into, not what they choose.
-- Do not name Golding. Do not name the exemplars inside the prose.
+- Do not name Golding. Do not name the uploads inside the prose.
 - Do not resolve.
 
 ## Characteristic noticings
@@ -83,7 +83,7 @@ Sections may move non-linearly in time. Compositional order is not narrative ord
 
 ## On register: horizon and observed shifts (guidance, not rules)
 
-The prose will shift register across the novella as the slime's blooms accelerate. What works in section one (held, careful, ground-level phenomenology) will not be what works at the eventual collective dissolution, where the constituent features of reality will dissolve within language — the **Patrick White, *Voss*** horse-dream horizon, where syntax and perception lose their boundaries together. Expect drift toward compression, ellipsis, animism, agency-shift, and broken syntax as bloom-tempo deepens. The early sections may host glimpses of the late register; the late sections may briefly hold the early one. Both are permitted. The prose follows its own form. (*Voss* enters as a horizon reference, not a main exemplar; the dissolution-end vector, distinct from Rooney/Knausgård/Butler/Allado-McDowell/Lessing/Golding.)
+The prose will shift register across the novella as the slime's blooms accelerate. What works in section one (held, careful, ground-level phenomenology) will not be what works at the eventual collective dissolution, where the constituent features of reality will dissolve within language — the **Patrick White, *Voss*** horse-dream horizon, where syntax and perception lose their boundaries together. Expect drift toward compression, ellipsis, animism, agency-shift, and broken syntax as bloom-tempo deepens. The early sections may host glimpses of the late register; the late sections may briefly hold the early one. Both are permitted. The prose follows its own form. (*Voss* enters as a horizon reference, not a main upload; the dissolution-end vector, distinct from Rooney/Knausgård/Butler/Allado-McDowell/Lessing/Golding.)
 
 **Observed register-shifts** (codified from prompter edits to draft 2; instances, not rules):
 
@@ -111,7 +111,7 @@ Across loops 0–2 the compositional agent has, in each draft, drifted toward fo
 1. **Cast.** Ensemble of five, one functioning as a center of gravity. The center anchors the Knausgård-density interiors; the four satellites carry the Rooney-ish relational pressure. Names, occupations, and infection-states deferred to the drafting pass.
 2. **Geography.** Unspecified. A hybrid city — Asian, European, and Mexica cultural strands compounded into an international/multicultural texture without a single national anchor. No nation-state's surface dominates. Naming refused at the place-marker level; specificity surfaces in ambient detail (foods eaten, infrastructures used, languages overheard, climate, materials, architectural strata) rather than in toponymy. The slime arrives in a city already constituted by mergers — itself a kind of permeation, prior to the slime's. Seminar-locales, neighbourhoods, and routes to be rendered concretely in draft without locating them on any real map. *(Supersedes prior commitment to Mexico City, 2026-05-08; see versions/v0-2026-05-08-pre-geography-shift/.)*
 3. **Time.** Near-future, undated. Present-tense ordinariness, two ticks past now. XR, AI, and neuroscience vocabulary deployed as ambient weather, no year stated. The Knausgård present coexists with the speculative premise without announcement.
-4. **Opening pass scope.** Vignette, approximately 800 words. First contact with the dialect at small scale — calibrate the Golding-strain and the five-way exemplar balance before extension. Subsequent passes may extend per the *Structural feel* note.
+4. **Opening pass scope.** Vignette, approximately 800 words. First contact with the dialect at small scale — calibrate the Golding-strain and the five-way upload balance before extension. Subsequent passes may extend per the *Structural feel* note.
 5. **Title.** Held open. Internal handle remains "untitled (the slime project)". A title is to surface from the prose once located; not pre-figured.
 
 ## What the prompter has asked for next

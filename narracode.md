@@ -71,7 +71,7 @@ When the prompter ends a turn without a specific command, tells you to "continue
 
 ## Recursive insertion of new sequences
 
-The prompter may, at any point, introduce new direction: a new exemplar, a new character, a new scene to interpolate. Treat these as authoritative.
+The prompter may, at any point, introduce new direction: a new upload, a new character, a new scene to interpolate. Treat these as authoritative.
 When the prompter inserts a new sequence:
 1. Snapshot the current version before doing anything else.
 2. Update `POETICS.md` to reflect the new commitment. 
