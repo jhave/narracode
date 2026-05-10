@@ -26,7 +26,7 @@ Narracode operates via an intuitive, natural language interface. You do not need
 - **"Save this" or "Looks good, let's lock it in"** → *Structural Agent* (Optionally explicitly request a manual snapshot).
 
 > [!IMPORTANT]
-> **The Seamless Edit Method**: You are free (and encouraged) to edit the AI's drafts directly in your IDE. This is a crucial feature of Narracode. Whenever the AI autonomously saves a version (or when you prompt it to continue), it automatically compares your manual edits against its original draft. It attempts to learn first principles from your edits—identifying shifts in register, pacing, or syntax—and implements these stylistic learnings in future iterations.
+> **The Seamless Edit Method**: You are free (and encouraged) to edit the AI's drafts directly in your IDE. This is a crucial feature of Narracode. Whenever the AI autonomously saves a version (or when you prompt it to continue), it automatically compares your manual edits against its original draft. It attempts to learn first principles from your edits—identifying shifts in register, pacing, or syntax—and implements these stylistic learnings in future iterations. (It does this by saving a granular `edit-observations.md` log for each version, and continually pushing recurring, high-level stylistic rules into the project's central `POETICS.md`.)
 
 ## Project Overview
 
@@ -44,7 +44,7 @@ Narracode's narrative philosophy is encoded in:
 
 - **the main harness** (`narracode.md` itself, establishing the rules and boundaries)
 - **the agent roles**: Narracode forces the LLM to operate in strictly separated passes to avoid the "average" output of a single-shot prompt. The roles are:
-  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md` or `POETICS.md`).
+  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md`).
   - **Reading Agent**: Analyzes provided uploads across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
   - **Structural Agent**: Maintains the working memory by updating relations, durations, and established history.
   - **Compositional Agent**: Drafts the actual prose by merging the structural state with the deep attentional dialect of the uploads.
