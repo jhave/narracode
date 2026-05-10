@@ -36,28 +36,30 @@ Narracode is an attempt to bridge this gap. It is a neurosymbolic approach to na
 
 The core premise is that the architecture of a narrative generator is not neutral; rather, it is a "narrative philosophy" written in code. The structural logic of a program—its "Narracode"—acts as a set of cognitive and social presuppositions that fundamentally shape the generated story-world.
 
-## Prompting and the Narrative Philosophy
+## Narrative Architecture
 
-The narrative philosophy of the system is encoded in:
+Narracode's narrative philosophy is encoded in:
 
-- **the main prompt** (`narracode.md` itself, establishing the rules and boundaries)
+- **the main harness** (`narracode.md` itself, establishing the rules and boundaries)
 - **the agent roles**: Narracode forces the LLM to operate in strictly separated passes to avoid the "average" output of a single-shot prompt. The roles are:
-  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md`).
+  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md` or `POETICS.md`).
   - **Reading Agent**: Analyzes provided uploads across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
   - **Structural Agent**: Maintains the working memory by updating relations, durations, and established history.
   - **Compositional Agent**: Drafts the actual prose by merging the structural state with the deep attentional dialect of the uploads.
   - **Reflexive Agent**: Runs in *Critique* mode (analyzing a draft against commitments) or *Drift* mode (checking if the cumulative piece is finding fertile new ground or regressing to genre tropes).
   - **Expansion Agent**: Generates alternative continuations that intentionally push beyond the boundaries of the uploads.
 - **the symbolic harness** (the directory structure that externalizes state into separate files)
-- **the evaluation harness** (the critique and drift check protocols)
-- **the continuous learning loop** (the Seamless Edit protocol where the system reviews manual human edits to extract stylistic learnings and recursively refine the project's `POETICS.md`)
+- **the evaluation harness** (the critique and drift check protocols, and pre-edit comparisons)
 - **the memory system** (the structural files, annotations, uploads, and version snapshots)
 
-## Current state of the project
+### Structural Harness
 
-The current iteration is a single-file markdown script (in this repo) that implements this architecture. It is not "complete" by any means, but it is a working proof of concept. Built with Claude CoWork on May 8-9, 2026. This repo currently contains a test story written with the system on May 8th 2026.
+The `structural/` folder is the system's "working memory", separating generative flow from narrative continuity. 
+- **`graph.md`**: Maps out the entities, characters, and their shifting relationships so the AI never hallucinates or drops context.
+- **`time-constants.md`**: Tracks durations and the timeline so the narrative pacing stays grounded.
+- **`history.md`**: A bulleted list of what has been definitively established, said, or refused, preventing contradictory drift across iterative loops.
 
-### Lazy Folder Layout
+### Folder Layout
 
 When initiated, the agent builds a minimalist core structure. Auxiliary folders are generated lazily only when requested.
 
@@ -71,12 +73,11 @@ When initiated, the agent builds a minimalist core structure. Auxiliary folders 
 
 *(Note: Folders like `versions/`, `uploads/`, `critiques/`, and `annotations/` are generated lazily only when requested or needed.)*
 
-### Understanding the Structural Harness
 
-The `structural/` folder is the system's "working memory", separating generative flow from narrative continuity. 
-- **`graph.md`**: Maps out the entities, characters, and their shifting relationships so the AI never hallucinates or drops context.
-- **`time-constants.md`**: Tracks durations and the timeline so the narrative pacing stays grounded.
-- **`history.md`**: A bulleted list of what has been definitively established, said, or refused, preventing contradictory drift across iterative loops.
+## Current state of the project
+
+The current iteration is a single-file markdown script (in this repo) that implements this architecture. It is not "complete" by any means, but it is a working proof of concept. Built with Claude CoWork on May 8-9, 2026. This repo currently contains a test story written with the system on May 8th 2026.
+
 
 ## Background Information on Claude Code (*how it became public*)
 
