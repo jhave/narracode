@@ -56,34 +56,26 @@ The narrative philosophy of the system is encoded in:
 
 The current iteration is a single-file markdown script (in this repo) that implements this architecture. It is not "complete" by any means, but it is a working proof of concept. Built with Claude CoWork on May 8-9, 2026. This repo currently contains a test story written with the system on May 8th 2026.
 
-## How to use Narracode
+### Lazy Folder Layout
 
-1. **Download the script**: Save the [`narracode.md`](https://raw.githubusercontent.com/jhave/narracode/main/narracode.md) file to a new, empty working directory.
-2. **Invoke your AI agent**: Start a conversation with an agentic LLM (like Claude in an IDE or terminal) and paste the standard prompt: *Consult `narracode.md` and initiate a project...* 
-3. **Add Exemplars (Optional)**: Upon initialization, the agent will automatically generate a folder structure (see below). If you have specific text passages from authors you'd like the agent to study, you can place them into the newly created `uploads/` folder.
-4. **Follow the protocol**: Command the agent to perform specific isolated passes (e.g., "read and annotate", "draft section one", "critique drift"). Do not ask it to write the whole story autonomously; drive the loop step-by-step.
-
-### Auto-Populated Folder Layout
-
-When the agent initiates a project, it will build the following structure to act as its external symbolic memory:
+When initiated, the agent builds a minimalist core structure. Auxiliary folders are generated lazily only when requested.
 
 ```text
 ./
-  narracode.md              (the main protocol)
-  POETICS.md                 (project commitments, refused elements, dialect)
-  uploads/                (optional: passages by other writers for the agent to study)
-  references/               (writers/works named but not pasted in)
+  POETICS.md                (project commitments, refused elements, dialect)
+  ATTRIBUTION.md            (authorship attribution: human and AI models)
   drafts/                   (timestamped draft versions)
-  annotations/              (close readings of uploads and references)
-  critiques/                (per-draft critiques and drift reflections)
-  expansions/               (alternative continuations probing edges)
-  failed-expansions/        (kept as a record)
-  structural/
-    graph.md                (relations among entities)
-    time-constants.md       (active durations)
-    history.md              (what has been established, said, refused)
-  versions/                 (snapshots of the project at each loop iteration)
+  structural/               (working memory)
 ```
+
+*(Note: Folders like `versions/`, `uploads/`, `critiques/`, and `annotations/` are generated lazily only when requested or needed.)*
+
+### Understanding the Structural Harness
+
+The `structural/` folder is the system's "working memory", separating generative flow from narrative continuity. 
+- **`graph.md`**: Maps out the entities, characters, and their shifting relationships so the AI never hallucinates or drops context.
+- **`time-constants.md`**: Tracks durations and the timeline so the narrative pacing stays grounded.
+- **`history.md`**: A bulleted list of what has been definitively established, said, or refused, preventing contradictory drift across iterative loops.
 
 ## Background Information on Claude Code (*how it became public*)
 
