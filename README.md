@@ -25,7 +25,8 @@ Narracode operates via an intuitive, natural language interface. You do not need
 - **Autonomous Versioning & Learning** → The agent autonomously evaluates when major changes occur (such as advancing the plot or receiving your human edits). It will auto-save version snapshots non-destructively to the `versions/` folder.
 - **"Save this" or "Looks good, let's lock it in"** → *Structural Agent* (Optionally explicitly request a manual snapshot).
 
-You are free to edit the AI's drafts directly in your IDE. Whenever the AI autonomously saves a version (or when you prompt it to continue/save), it will automatically compare your edits against its original draft and log stylistic learnings into an `edit-observations.md` file in the `versions/` folder to improve its future passes.
+> [!IMPORTANT]
+> **The Seamless Edit Method**: You are free (and encouraged) to edit the AI's drafts directly in your IDE. This is a crucial feature of Narracode. Whenever the AI autonomously saves a version (or when you prompt it to continue), it automatically compares your manual edits against its original draft. It attempts to learn first principles from your edits—identifying shifts in register, pacing, or syntax—and implements these stylistic learnings in future iterations.
 
 ## Project Overview
 
