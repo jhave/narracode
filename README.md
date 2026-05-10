@@ -43,14 +43,14 @@ The narrative philosophy of the system is encoded in:
 - **the main prompt** (`narracode.md` itself, establishing the rules and boundaries)
 - **the agent roles**: Narracode forces the LLM to operate in strictly separated passes to avoid the "average" output of a single-shot prompt. The roles are:
   - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md` or `POETICS.md`).
-  - **Reading Agent**: Analyzes provided exemplars across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
+  - **Reading Agent**: Analyzes provided uploads across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
   - **Structural Agent**: Maintains the working memory by updating relations, durations, and established history.
-  - **Compositional Agent**: Drafts the actual prose by merging the structural state with the deep attentional dialect of the exemplars.
+  - **Compositional Agent**: Drafts the actual prose by merging the structural state with the deep attentional dialect of the uploads.
   - **Reflexive Agent**: Runs in *Critique* mode (analyzing a draft against commitments) or *Drift* mode (checking if the cumulative piece is finding fertile new ground or regressing to genre tropes).
-  - **Expansion Agent**: Generates alternative continuations that intentionally push beyond the boundaries of the exemplars.
+  - **Expansion Agent**: Generates alternative continuations that intentionally push beyond the boundaries of the uploads.
 - **the symbolic harness** (the directory structure that externalizes state into separate files)
 - **the evaluation harness** (the critique and drift check protocols, and pre-edit comparisons)
-- **the memory system** (the structural files, annotations, exemplars, and version snapshots)
+- **the memory system** (the structural files, annotations, uploads, and version snapshots)
 
 ## Current state of the project
 
@@ -60,7 +60,7 @@ The current iteration is a single-file markdown script (in this repo) that imple
 
 1. **Download the script**: Save the [`narracode.md`](https://raw.githubusercontent.com/jhave/narracode/main/narracode.md) file to a new, empty working directory.
 2. **Invoke your AI agent**: Start a conversation with an agentic LLM (like Claude in an IDE or terminal) and paste the standard prompt: *Consult `narracode.md` and initiate a project...* 
-3. **Add Exemplars (Optional)**: Upon initialization, the agent will automatically generate a folder structure (see below). If you have specific text passages from authors you'd like the agent to study, you can place them into the newly created `exemplars/` folder.
+3. **Add Exemplars (Optional)**: Upon initialization, the agent will automatically generate a folder structure (see below). If you have specific text passages from authors you'd like the agent to study, you can place them into the newly created `uploads/` folder.
 4. **Follow the protocol**: Command the agent to perform specific isolated passes (e.g., "read and annotate", "draft section one", "critique drift"). Do not ask it to write the whole story autonomously; drive the loop step-by-step.
 
 ### Auto-Populated Folder Layout
@@ -71,10 +71,10 @@ When the agent initiates a project, it will build the following structure to act
 ./
   narracode.md              (the main protocol)
   POETICS.md                 (project commitments, refused elements, dialect)
-  exemplars/                (optional: passages by other writers for the agent to study)
+  uploads/                (optional: passages by other writers for the agent to study)
   references/               (writers/works named but not pasted in)
   drafts/                   (timestamped draft versions)
-  annotations/              (close readings of exemplars and references)
+  annotations/              (close readings of uploads and references)
   critiques/                (per-draft critiques and drift reflections)
   expansions/               (alternative continuations probing edges)
   failed-expansions/        (kept as a record)
