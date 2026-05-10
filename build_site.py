@@ -347,16 +347,14 @@ def build_library_index():
 
     html += """
     
-    <div class="footer-logo">
-        <a target="_blank" href="https://glia.ca/">
-            <img src="logo/glia-bw.webp" alt="Glia">
-        </a>
-    </div>
-
     <!-- Related Works by Jhave -->
     <div class="related">
         <h4>Related Works by Jhave</h4>
-        <p>
+        <p style="line-height: 1.8;">
+            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2026/the-long-afternoon/">The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2026/the-good-light/">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/stimverse/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;
             <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a>&ensp;·&ensp;
             <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a>&ensp;·&ensp;
             <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a>&ensp;·&ensp;
@@ -365,6 +363,12 @@ def build_library_index():
             <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a>&ensp;·&ensp;
             <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a>
         </p>
+    </div>
+
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="logo/glia-bw.webp" alt="Glia">
+        </a>
     </div>
 
     <!-- Bio -->
