@@ -337,7 +337,21 @@ def build_library_index():
     <div class="architecture-box" style="margin: 2.5rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid var(--accent);">
         <h3 style="margin-top: 0; font-size: 1.2rem; margin-bottom: 0.8rem;">How it Works</h3>
         <p style="margin-bottom: 0.8rem; font-size: 1.05rem;"><strong>Narracode</strong> operates as an <strong>autocorrecting multi-agent system</strong>. Rather than relying on single-shot prompts, it orchestrates specialized roles—Reading, Structural, Compositional, and Reflexive agents—working in strictly separated passes.</p>
-        <p style="margin-bottom: 0; font-size: 1.05rem;">As the system advances, it runs in the background to auto-refine a <strong>symbolic working memory</strong>. It externalizes the narrative state into discrete files: mapping shifting character graphs, tracking strict time-constants, and recording a definitive history. This prevents hallucinatory drift and grounds the AI in deep continuity.</p>
+        <p style="margin-bottom: 1.5rem; font-size: 1.05rem;">As the system advances, it runs in the background to auto-refine a <strong>symbolic working memory</strong>. It externalizes the narrative state into discrete files: mapping shifting character graphs, tracking strict time-constants, and recording a definitive history. This prevents hallucinatory drift and grounds the AI in deep continuity.</p>
+        
+        <div style="font-size: 0.95rem; color: #555; background: #fff; padding: 1.2rem; border-radius: 6px; border: 1px solid #eaeaea;">
+            <div style="margin-bottom: 0.5rem;"><strong>Neuro:</strong> The LLM (works with any major LLM including Claude, Gemini, DeepSeek).</div>
+            <div><strong>Symbolic:</strong> The structural harness and file-system memory.</div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem; margin-bottom: 0.5rem;">
+            <a href="https://github.com/jhave/narracode" target="_blank" class="github-btn" style="margin-bottom: 0;">
+                <svg height="20" width="20" viewBox="0 0 16 16" version="1.1" style="margin-right: 8px; fill: currentColor;">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+                Try it yourself
+            </a>
+        </div>
     </div>
 
     <h2>Example Stories</h2>
