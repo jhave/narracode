@@ -167,13 +167,14 @@ def build_library_index():
             --max-width: 740px;
         }}
         body {{
-            font-family: Georgia, 'Times New Roman', serif;
-            color: var(--text);
-            background: var(--bg);
-            line-height: 1.75;
-            padding: 4rem 1.5rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfcfc;
+            color: #111;
+            line-height: 1.65;
+            padding: 3rem 2rem;
             max-width: var(--max-width);
             margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
         }}
         h1.logo-title {{
             font-size: 3.2rem;
@@ -238,15 +239,19 @@ def build_library_index():
         .story-link {{
             display: block;
             text-decoration: none;
-            padding: 2rem;
-            margin-bottom: 1.5rem;
+            color: inherit;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
             border: 1px solid #eaeaea;
-            border-radius: 6px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
             transition: all 0.2s ease;
         }}
         .story-link:hover {{
             border-color: var(--accent);
-            background-color: #fafafa;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transform: translateY(-2px);
         }}
         .story-title {{
             font-size: 1.8rem;
@@ -325,9 +330,9 @@ def build_library_index():
         </a>
     </div>
 
-    <p class="overview">Narracode arises from an inquiry: can we build a literature AI-augmentation system on the same model as Claude Code? One that is structured, algorithmic, agentic — but for literary purposes?</p>
-    <p class="overview">Historically, AI falls into 2 camps: symbolic AI (plans, templates, expert systems) and connectionist AI (neural networks, large language models). Narracode is an attempt to bridge this gap. It is a neurosymbolic approach to narrative generation. It is a tool for orchestrating agents specifically for literary purposes.</p>
-    <p class="overview">It emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somewhat analogous to a 'Claude Code' re-purposed for narrative literature.</p>
+    <p class="overview"><strong>Narracode</strong> arises from an inquiry: can we build a literature AI-augmentation system on the same model as Claude Code? One that is structured, algorithmic, agentic — but for literary purposes?</p>
+    <p class="overview">Historically, AI falls into 2 camps: symbolic AI (plans, templates, expert systems) and connectionist AI (neural networks, large language models). <strong>Narracode</strong> is an attempt to bridge this gap. It is a neurosymbolic approach to narrative generation. It is a tool for orchestrating agents specifically for literary purposes.</p>
+    <p class="overview"><strong>Narracode</strong> emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somewhat analogous to a 'Claude Code' re-purposed for narrative literature.</p>
     
     <h2>Example Stories</h2>
 """

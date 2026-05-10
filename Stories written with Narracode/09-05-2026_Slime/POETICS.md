@@ -4,7 +4,7 @@
 
 ## Premise
 
-A novel-length work, opening as a short piece. A tumbled group of intellectuals — academics, artists, lapsed researchers, hangers-on, the kind of people whose lives have been arranged around argument and citation — spontaneously become adventurers when an XR-AI biological singularity merges into an autonomous, permeating slime. The slime is not hostile. It infects brainstems with epiphanic, hallucinatory insights. It also leaves behind vague, slushy, drifting hangovers. Its benevolence is real and the hangovers are real and neither cancels the other. The intellectuals do not stay intellectuals. They are pushed into action by what they have been shown.
+A short story. A group of academics spontaneously become adventurers when an XR-AI biological singularity merges into an autonomous, permeating slime.
 
 The novel is about what happens to a sensibility built for analysis when the analysis arrives uninvited, complete, and chemical.
 

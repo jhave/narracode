@@ -4,7 +4,7 @@
 
 ## Premise
 
-A human has been cast out from an enclave for using AI after it has been banned. A story of exile. The narrative focuses on the aftermath, the physical landscape of banishment, and the internal architecture of a mind that has been intimately coupled with artificial cognition and is now severed from it and its family and its friends....the algorithms and all relationships are gone, and the mind is fraying. What is left is nature, the raw unprinicpled awke illustrious rough fabric of the depopulated world.where datacenters sprawl like sleeping giants, leaking heat into the air amongst devestated scrub. It explores memory, reliance, the "phantom limb" syndrome of missing neural algorithms, and the quiet devastation of isolation.
+A human has been cast out from an enclave for using AI after it has been banned. An anecdote of exile in the style of W.G. Sebald.
 
 ## Uploads (named, source: training-data)
 
