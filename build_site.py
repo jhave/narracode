@@ -309,7 +309,10 @@ def build_library_index():
     </style>
 </head>
 <body>
-    <h1 class="logo-title">Narracode</h1>
+    <div style="text-align: center; margin-top: 2rem; margin-bottom: 0;">
+        <img src="logo/narracode.png" alt="Narracode" style="width: 320px; max-width: 100%;">
+    </div>
+    <h1 class="logo-title" style="display: none;">Narracode</h1>
     <h2 class="subtitle">a <em>Claude Code</em> for literature.</h2>
     <div class="site-meta">May 10, 2026 &nbsp;|&nbsp; Jhave &nbsp;|&nbsp; Opus 4.7</div>
     
@@ -341,7 +344,7 @@ def build_library_index():
     
     <div class="footer-logo">
         <a target="_blank" href="https://glia.ca/">
-            <img src="IGNORE/html/img/glia-bw.webp" alt="Glia">
+            <img src="logo/glia-bw.webp" alt="Glia">
         </a>
     </div>
 
