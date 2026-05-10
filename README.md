@@ -32,13 +32,20 @@ Narracode operates via an intuitive, natural language interface. You do not need
 
 Narracode arises from an inquiry: can we build a literature AI-augmentation system on the same model as Claude Code? One that is structured, algorithmic, agentic — but for literary purposes? 
 
-Historically, AI falls into 2 camps: symbolic AI (plans, templates, expert systems) and connectionist AI (neural networks, large language models).  Symbolic AI has failed at narrative because it treats it as a planning problem. Connectionist AI has succeeded at generating text, but has failed to capture the deeper structures of narrative, the way that stories are not just strings of words, but systems of relations and atmospheres. 
+### Neurosymbolic Narrative Architecture
+
+Historically, AI falls into 2 camps: symbolic AI (plans, templates, expert systems) and connectionist AI (neural networks, large language models).  
+
+Symbolic AI has failed at narrative because it treats it as a planning problem. Connectionist AI has succeeded at generating text, but has failed to capture the deeper structures of narrative, the way that stories are not just strings of words, but systems of relations, temporalities, characters and atmospheres. 
 
 Narracode is an attempt to bridge this gap. It is a neurosymbolic approach to narrative generation. It is a tool for orchestrating agents specifically for literary purposes. 
 
+- *Neuro*: the LLM
+- *Symbolic*: the harness
+
 The core premise is that the architecture of a narrative generator is not neutral; rather, it is a "narrative philosophy" written in code. The structural logic of a program—its "Narracode"—acts as a set of cognitive and social presuppositions that fundamentally shape the generated story-world.
 
-## Narrative Architecture
+## Narrative Architecture (Symbolic Harness provided by Narracode)
 
 Narracode's narrative philosophy is encoded in:
 
