@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slime — A Narracode Story</title>
+    <meta name="description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="keywords"
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author" content="David Jhave Johnston, Claude Opus 4.7">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Slime — A Story of the Escape">
+    <meta property="og:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:image" content="img/glia-bw.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Slime — A Story of the Escape">
+    <meta name="twitter:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:image" content="img/glia-bw.png">
+
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .logo img {
+            width: 160px;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+        .logo img:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 1.8rem;
+            line-height: 1.6;
+        }
+
+        h5 {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: var(--muted);
+        }
+
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
+        .break {
+            text-align: center;
+            color: var(--muted);
+            margin: 2rem 0;
+            letter-spacing: 0.6em;
+        }
+
+        .pull-quote {
+            font-size: 1.35rem;
+            font-style: italic;
+            text-align: center;
+            margin: 3.5rem auto;
+            color: var(--text);
+            line-height: 1.5;
+            padding: 0 2rem;
+            opacity: 0.85;
+        }
+
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
+        }
+
+        .bio,
+        .funding,
+        .related {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        .license img {
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+
+        .license a {
+            color: var(--muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.25rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h2 {
+                font-size: 1.05rem;
+            }
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem auto 3.5rem;
+            display: block;
+            border-radius: 2px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <!-- Title -->
+    <h1>Slime</h1>
+
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the Narracode harness.</h2>
+
+    <!-- Byline -->
+    <h5>Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 10-05-2026</h5>
+
+    <!-- Collapsible prompt -->
+    
+
+    
+
+    <!-- Story -->
+    <div class="story">
+        <p>The seminar had run twenty minutes over and Ines stood in the corridor afterward, not yet pressing the elevator button, a hand on the wall where the paint was cool. She had been first out of the room. She had thought she would go straight, and instead she was here. The light through the window at the corridor's end was the low yellow that came at this hour through the dust the construction over on the eastern boulevard had been throwing up for weeks — a yellow with grit in it, weak as tea.</p>
+
+        <p>Tomek was talking to someone at the coffee table about something that had not been said in the seminar; she could hear the specific timbre he used when he was avoiding a thing. Ines did not turn around. She was standing very still now, and what surprised her was that she was not waiting, she was simply there, attached to the wall, and the wall was warmer than she had thought paint should be at six in the afternoon.</p>
+
+        <p>The slime had passed through the upper floors maybe an hour earlier — that was what she had heard from the building services woman in the lobby, a cheerful announcement made in three languages as if it were a tram delay. They had opened the windows. Now there was the smell of the corridor, which was the smell of the corridor, and underneath it a sweetness she could not place, almond-and-something, maybe almond-and-iron, maybe almond-and-rain.</p>
+
+        <p>She had been infected last winter in the lacquer market. She knew this. The hangover was not new to her. It came with a small drift of distance behind the eyes, and a cognitive sensation she had given up trying to describe, even to herself, of an idea standing just behind her in a posture of slight patience, waiting for her to turn around and read it. She did not turn. The harness of her sensibility — what she had been trained for, the seminar she had just left, the article she would not write — none of it provided a syntax for the standing-behind. She had stopped trying.</p>
+
+        <p>What had been said in the seminar — Hovena's paper on enactive grief — was already receding from her in the way that papers did. She remembered specific phrases — <em>the body is a slow proposition</em> — and could not remember whether she had agreed. Tomek had argued. Anwen had not spoken. Júlio had been late. Kasimi had been there in the way Kasimi was there, which is to say already half-elsewhere.</p>
+
+        <p>Her phone vibrated. Anwen: <em>are you coming for the thing.</em> No question mark. The lowercase <em>a</em>. Ines stood with her thumb on the screen and did not answer for three breaths and then wrote <em>yes</em> and did not press send and then did press send.</p>
+
+        <p>She walked down the seven flights of stairs because she was not yet ready for the elevator. The institute's overlay was still ghost-on at the edge of her vision, a soft register of who was where on which floor, a courtesy she had stopped acknowledging years ago. On the third-floor landing the smell intensified: someone had been frying the small dried fish with the chili paste two doors down, and the air on the landing was warm, and the slime — not visibly, never visibly — had left whatever it was that it left in the stairwell and the dust hung differently. She stood on the landing with her hand on the rail. The rail was very cold. She thought <em>I have been shown something today,</em> with the impersonal clarity of a thought arriving without verbs of feeling, and she did not know yet what it was, and she knew she would not be able to tell Anwen, and she knew she would have to do something, and she did not know what.</p>
+
+        <p>Out on the street the trams were passing. The city had its evening density on. A vendor at a kiosk was calling out the dinner specials in two of the languages she half-understood and one she did not. The air smelled of allspice and exhaust and the faint sweetness of the slime, which was not actually sweet, which was the brain's metaphor for something the brain had no taxonomy for. She walked toward the bar where the others would be. The hangover was already in her wrists, her gait — not unpleasant, not pleasant, present. She crossed at the lights and a child on a scooter went past laughing about something a friend had said, and Ines did not laugh, and she felt the small wet edge of an insight she would not catch, and she let it go past her like the scooter, into the evening.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>She came down the steps to the basement bar with her hand on the rail and the smell of the kitchen rose to meet her — fish stock, the dark oil they used here, the herb she had never learned the name of in any of the languages spoken at home. The room was halfway full. Anwen was at the long table by the back wall, with Júlio beside her and Kasimi opposite, and Tomek standing at the counter ordering something with a careful inflection she could hear from the doorway. The lamps were low. The wood of the floor was the wood of an old building, soft underfoot, the soft of something walked on by many feet for many years.</p>
+
+        <p>Anwen looked up. <em>Hi,</em> she said, in the small voice she used when she had not been speaking. Ines slid in next to her. The bench was warm where Anwen had been sitting, and she felt the residue of someone else's body as she sat, which was almost the slime, almost not.</p>
+
+        <p>She had not been here for two weeks. Júlio had let his beard grow out and his face had thinned in the way it did when he had been writing. Kasimi was looking at his phone, and looking at it the way Kasimi looked at things, which was not quite looking. <em>You came,</em> Júlio said, glancing at her with the slow gladness that was his closest thing to a greeting. <em>I came,</em> Ines said.</p>
+
+        <p>There was a tea on the table that no one had ordered. There was always a tea on the table in this place — they brought one at the start, on the house, an apology from the building or a courtesy from the building or perhaps simply a habit no one had questioned for long enough that the question had drifted out of the room. The cup was small and chipped at the lip. The tea inside it was the colour of a late sun.</p>
+
+        <p>Tomek arrived at the table and put down a tray. He had ordered too much, again. He always did. He looked at Anwen and at Ines and his face arranged itself into the expression he used when he was about to say something unrelated to what he was thinking, and then he did not say anything. He sat. Ines watched him sit and felt the small calibration go round the table, the way it did now, in any room with more than two of them — the silent triangulation, who was carrying what residue, who had come from where, what the air in their respective afternoons had contained.</p>
+
+        <p>The slime came through at six forty-nine. She knew the time because Kasimi's phone, on the table, had just chimed for something. The chime was a soft three-note thing, and then the chime was inside the air, and the air was inside the room, and the room had become an object she was looking at from a place slightly behind her own eyes. Júlio's hand on his glass went still. Anwen exhaled. Tomek opened his mouth and then closed it. Kasimi, who had been half-elsewhere, was suddenly very present, and his face — for the duration of perhaps three seconds — was the face of someone listening to something far away. Or not listening. Receiving.</p>
+
+        <p>It was bigger than the corridor's residue. It was the slime as itself, present, a permeation moving through the bar like water through a cloth, only the cloth was the room and the cloth was them. Ines's wrists felt it first, the same wrists that had carried the hangover up the seven flights an hour ago — the same channel, but a higher frequency, a fuller weight. Behind the weight, the thing she did not look at directly: the not-sound, the held architecture of what would have been a name if a name could have been built out of intuition only, pressing the underside of her attention as if a word were trying to be a word and could not be one and was the more itself for not being one.</p>
+
+        <p>She did not turn toward it. She had learned not to. Anwen's hand had come to rest, palm down, on the wood of the table, and Ines noticed the way the small hairs of Anwen's wrist were lifted, and she thought <em>this is your first,</em> with the tenderness of a thing seen and not commented on, and she did not say anything. Júlio had closed his eyes. Tomek was looking at the ceiling as if expecting it to perform.</p>
+
+        <p>The wave passed. A glass settled. The kitchen was still frying whatever it had been frying. The room came back, and was a room. Anwen looked at her hand on the table and then at Ines, and her face was slightly different, and she did not say what was different. <em>Was that—,</em> Tomek began, and stopped. Kasimi laughed once, quietly, at nothing. Júlio opened his eyes and reached for his glass. The tea on the table had gone slightly cooler. They did not speak for a moment, and then they began to speak, and what they said was not what mattered.</p>
+
+        <p>What mattered was residue: something impressed inside them from a side none of them had a word for, and none of them spoke of it, because the word had not been a word, and they each, in different ways, declined to name it. The bar went on. The kitchen went on. The evening wove on.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>Tomek had said it three times and was about to say it a fourth, scrolling on his phone with the thumb broken in childhood and never quite straightened, when Júlio said <em>please stop saying it</em> without looking up from the kettle, and Tomek said it a fourth time anyway, because the sentence was still correct. <em>It's neuroimmune,</em> he said. <em>Or paraneoplastic-adjacent.</em>  Julio: <em>Whatever. Bodies.</em> Anwen glanced briefly at them both, a quick flicker of the eyes, and then returned to the page.  Júlio sighed. <em>I mean — body has weather, is weather.</em> The kettle clicked. Anwen, sitting on the floor by the bookcase with her sketchbook open and a screen propped against the lower shelf, did not look up.</p>
+
+        <p>The wall-screen was running a livestream from somewhere in the southern districts, a young man with a ring light and the kind of voice that had been honed on commentary for four years before the slime gave him anything to commentate on. He was saying <em>brothers, sisters,</em> and <em>I've felt it,</em> and <em>I'm telling you,</em> and behind him a wall of comments was scrolling at afib speed. The comments were in seven languages. Some were prayers. Some were jokes about prayers. One said <em>it's just DMT, calm the fuck down.</em> Others speculated about the source, naming labs, companies, agencies, gods. The young man said <em>brothers, sisters</em> again. Anwen turned the screen slightly so the glare came off the corner.</p>
+
+        <p>Júlio brought tea. He had three mugs because Kasimi had said he was on his way, and Kasimi, by now, was in the small list of things they each expected — the list that gets made when a group of people has known each other for a season but not yet a year, when the routines are soft. The fourth mug, on the counter, was the one with the blue rim that Anwen drank from without anyone deciding. Ines was not coming. Ines had said she had to mark something, which they all knew meant she had to be alone, unspoken, implicit.</p>
+
+        <p><em>The point,</em> Tomek said, restarting from the part he had not yet said, <em>is that discourse is going to consume itself before the phenomenon is even taxonomized. We are watching a — what — a perceptual event no one has measured being narrated in real time by people whose business is narration. The narration is the bloom.</em> Anwen, drawing, said nothing. Júlio said <em>Tomek, the bloom is the bloom. The narration is the narration. They are different.</em> Tomek said <em>that's an old distinction.</em> Júlio said <em>some old distinctions are correct.</em></p>
+
+        <p>A new tab opened on Tomek's phone of its own accord. He had not opened it. The phone — old, untrusted by him in ways he had stopped articulating — sometimes did this when an alert tier crossed a threshold. The tab held a still image, screencapped from somewhere: a woman on a tram, eyes closed, head tilted very slightly, smiling in a way that had nothing performative in it. The caption said <em>3 seconds. Eastern line, 16:42.</em> Tomek looked at the image for too long and then looked away from it.</p>
+
+        <p>Anwen had drawn the same hand four times in the corner of her page. She turned the page. She started again.</p>
+
+        <p>Júlio set his mug down and said, into no one in particular, <em>the dataset has updated.</em> He said it in the voice he used for the things he had stopped using that voice for, and then he heard himself, and he half-laughed. <em>Sorry,</em> he said. <em>I mean. The world we describe is harder to describe now because something new is in it that we have not yet decided what to call.</em> Anwen, drawing, said <em>describe more slowly.</em> Júlio said <em>yes.</em></p>
+
+        <p><em>A friend of a friend,</em> he went on, more slowly, <em>said it was like opening a door that wasn't a door. He said he came back and he was the same and he wasn't the same. He said it was three seconds.</em> Tomek said <em>everyone says three seconds.</em> Júlio said <em>yes. Three seconds.</em></p>
+
+        <p>The young man on the screen had begun to cry. The comments laughed at him. The comments also defended him. The comments were eating each other. Anwen reached over and turned the volume down. The crying continued silently in the corner of the bookcase.</p>
+
+        <p>Tomek scrolled to a thread by an academic he had once published with — a media archaeologist quiet for two years, who had posted six thousand words overnight. The post was about <em>latency</em>, about <em>the substrate that is always already</em>. Tomek read the first paragraph and felt the small irritation he felt when someone he respected used a register being used by everyone else this week. He closed the tab. He opened it again. He read the second paragraph. The second paragraph was better.</p>
+
+        <p>Kasimi arrived. He took off his coat and looked at the screen and at the kettle and at Anwen's drawing and said <em>anything new</em> in the voice he used for things he was already inside of.</p>
+
+        <p>It happened to Anwen as she was standing up to get the fourth mug. She did not fall. She put a hand on the bookcase and her face did something the others would recognize in retrospect, after she described it later in the week, but which at the moment they each only registered as: a slight pause in her, a stillness that had not been there a second before, a small half-smile that was not for them. Three seconds. She said <em>oh,</em> and the <em>oh</em> was not a word, and Tomek heard it and did not say anything, and Júlio looked at her and did not say anything, and Kasimi, who had not yet sat down, sat down.</p>
+
+        <p>The young man on the screen, soundless, was being comforted by another young man who had appeared in the corner of his frame.</p>
+
+        <p>Anwen took the mug. She drank from it. Her hand was steady. She said <em>that was something,</em> in a voice that was, more or less, her voice. Júlio said <em>what,</em> gently, and Anwen said <em>I'll tell you when I have a sentence for it,</em> and they all knew she would not have a sentence for it. A small flurry of tiny gestures went through them all as they looked elsewhere or strove to evade the implication of that fact.</p>
+
+        <p>Tomek, after a moment, said quietly, <em>priors updated.</em> It was meant as a joke and it was not a joke. It held in the air for a second and then let go. <em>I mean,</em> he said, <em>we now believe slightly different things than we did six minutes ago, and the believing happened in her body, not ours, and we will none of us write a paper on that.</em> Júlio said <em>no.</em> Anwen said <em>no, please.</em></p>
+
+        <p>Outside, somewhere, a bus came, a bus left. Someone was selling roasted seeds on the corner. The streetlight on Júlio's stairwell window had been broken for a week and the building had not sent anyone. The evening was taking its time.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>Six months passed. Slime announcements became facts, blurred background noise. The building services woman (automated voice, synthesized) in the institute lobby stopped saying it in three languages and said it in one, matter-of-fact, an elevator-out-of-service, flight delay, attention shoppers. The over-budget eastern elevated maglev line finally opened and a new graft began somewhere else. People numbed it in. Family, work, friends. Engorged on media like pimples. The softest tissue took on the hardest glaze. Then the glaze cracked. Then there was talking again. In the cafés, on the streets, in the yellowed journals. Summer arrived. School dispersed. The world sighed into heat.</p>
+
+        <p>Júlio and Anwen began in the small-hour way these things begin. The late-night studio. A door opened. A single light. A slow discovery of anatomy that had been there all along. For three weeks they were inseparable; their messages went DM, stopped routing through the group thread. For three weeks they were hormone luminous. Intervals: Anwen drawing; Júlio writing. They walked along the river beyond the city once. Ate things they had not eaten before. Then a tiny rupture, an ephemeral wound — neither of them ever said what — and they were less luminous. Anwen left a box at Júlio's flat. Júlio returned it. They each, separately, told no one. By the seventh week they were back in the group thread. By the ninth they were sitting next to each other again at the bar. Anwen drank from the blue-rimmed mug and Júlio softly put a hand on her shoulder once when she stood up and the hand and both, somehow, just casual gestures, again. Implicitly aching occasionall.</p>
+
+        <p>Ines went underground. Eight or nine weeks — in which she answered no one. The seminar circle, when it heard about it from someone who knew someone, said <em>typical</em> and let it pass. She had read into a long, branching thread of papers on slime-receptor analogs and pre-Cambrian endosymbiosis and the structural similarity between certain neuropeptides and the name-adjacent metaphors in the new mystic-technical lore-tecknica, the slime seemed to have bred — texts whose authors (human and AI) had spread across forums, leaking a register that knew its own subject too quickly. She did not sleep properly for three of those weeks. She did not see anyone for two of them. When she came back she did not explain, except in bursts, mad prolonged soliloquies addressed to no one in particular. She had cut her hair. She drank water at the bar, not tea.</p>
+
+        <p>Kasimi went home. The flight was long. Jet-laden lagged. His sister had been ill for years; the chronic and the slow finally culminated. The funeral was long in the way that a funeral often is, distended,taut, forlorn. He spent two weeks afterward caring for and sitting with his mother on the verandah of the small house, watching the season slow slide into heatwave. He came back without his coat — he had given it to a cousin — and the engraved absence on his face, the profound solitude was the first thing the others registered when he returned. No one mentioned it, except allusively in gestures and tiny kindnesses.</p>
+
+        <p>Tomek, in the gap, wrote a long argumentative essay nobody published. Then a shorter one that ran in a place he had thought he had outgrown. Then he stopped writing for a while. He started running in the mornings, badly. The thumb broken in childhood ached in a new way. Slime infected him once, alone, on the eastern line, on a `Tuesday: 3 seconds. He did not talk about it. The next week he sent the group thread a photograph of a dog asleep in a doorway and they all replied within an hour with various dogs. Beagles skydiving, a poodle in a tuxedo, a pug driving a tiny car. They were not dogs.</p>
+
+        <p>Propagated autonomous newsfeeds, wall-screens, and robo-speakers, proclaimed the news. Slime proceeded to permeate, intermittent, known and unknowable, an unresolved mystery like a mist hovering over a lake. Labs and companies and agencies and gods consolidated, naming themselves more loudly or more softly depending on the cycle. Conspiracy filaments thickened, branched, bleached. A slime-related liturgy spread from small rooms, on-line, and in small bookshops. Traced to a small room above a butcher shop on the old quay; almost reverent, almost a joke, devotees proliferated. Mostly, people went to work. The trams ran on time. A new pollen arrived in the city that had not been there before, which was not the slime, which was the city, which manifested as the year.</p>
+
+        <p>Six months. Almost-autumn. Fall semester announced itself. A reading list was distributed.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>They met at C-bar on a Wednesday. The kitchen was again frying fish in dark oil. The weather had turned and the air on the basement steps was a soft chill. Tea on the table arrived as it had always arrived. The chip on the cup rim a little wider now, from some afternoon they had not been there.</p>
+
+        <p>Anwen got there first. She had cut her hair too — separately from Ines, at a different angle. Júlio came in after her, and they looked at each other for a fraction of a second longer than they would have looked at each other a year ago, and then for a fraction of a second shorter, and then they were sitting, unperturbed. Ines came in third, nonchalant, not cold, but removed. <em>Hey</em> <em>Hey</em> <em>Hey</em> She was not drinking the tea. Her face had a quietness none of them remarked on, in the way they had learned not to remark on things.</p>
+
+        <p>They settled. <em>How u,</em> Júlio said. <em>Get up to much?</em> When they answered, Júlio and Anwen glanced again, deflected, and then almost together <em>not much</em> and <em>busy,</em> — the same answer in different keys. Ines saw the glance, and what it was the shape of, and said nothing. <em>You?</em> Anwen said, to Ines, into the small space.</p>
+
+        <p>Ines began to speak. The slime, she said. <em>Receptor analogs... mycelial networks</em> — she said this making a shape of branching. <em>Conduits, reaching for information</em>. Júlio nodded, <em>us.</em> — <em>We are being remapped,</em> Ines said, almost at the same time. <em>Brains, society, transit grid, relationships...</em> Anwen murmured. Ines, <em>vestigial architecture symbiosis,</em> said it the way you might say <em>it is raining.</em> Anwen, listening, said <em>yes,</em> in a subtle descending contemplative contraction. Júlio said <em>yes,</em> slower. Ines kept going. She had not seen people for a while; the words were ahead of her, <em>distributed over a plantary presence harvesting contours.</em></p>
+
+        <p>Kasimi arrived, huffing from an unexpected run to evade slime patches. <em>Why avoiding?</em> Didn't know. <em>You,</em> said Anwen, and Kasimi said <em>yes,</em> and Anwen did not say anything else. Ines, watching him, said, <em>shared perceptual realities destabilizing identity fragmentation propogates into a feedback cycle</em>. Kasimi glanced at her with concern, <em>And your summer was?</em> Tomek, late, arrived, with the look of a man who had forgotten something profound on the way. He sat down heavily. He said <em>wht did i miss?</em> Asked how he was, replied <em>wistful.</em></p>
+
+        <p>What they said, for the first hour, was fluff, almost nothing, weighted. Júlio asked Kasimi how his mother was. Kasimi said <em>she's the same,</em> and there was a small thing in the way he said <em>the same</em> that made the others not ask further. Anwen: <em>Sorry about your sister.</em> Kasimi shrugged, glanced at phone, nodded. She showed them a sketch she had not been able to finish, torsion lines on a hand floating on bathtub water. Tomek said <em>that's almost—,</em> and stopped, and Anwen said <em>I know,</em> and they drank.</p>
+
+        <p>Ines, when she spoke, spoke about the Tuesday markets. Specifically: the price of a small genetically-resequenced root vegetable, the tasmrora she had eaten the night before, bland, but fully-nourishing, complete meal. None of the others knew it. She described it, vividly down to the molecular breakdown. Júlio, half-laughing — the data-science laugh, the old one — said, <em>absorbing engorged vector priors</em> and then said, <em>I mean, the city is still figuring out what to charge for itself.</em> Ines said <em>yes, that.</em></p>
+
+        <p>The wall-screen above the bar was on, soundlessly. New gaze-tracking cameras watched them seeking for engagement signals. A slime-passage notification brushed past the corner. A different shape than it had been six months ago: longer, with a small spiraling glyph the city's overlay system had not used before. Tomek saw it. Kasimi saw Tomek see it. Anwen saw Kasimi see Tomek. Júlio saw Anwen see Kasimi see Tomek. Ines saw nothing and saw all of it. Talking ceased for a beat.</p>
+
+        <p>After a while Anwen said <em>it's longer.</em> She did not need to say what was longer. <em>Yes,</em> said Tomek. Júlio said <em>the band,</em> and stopped, and then said, <em>yeah. Longer.</em> Kasimi said <em>cognition metabolizing itself differently.</em> Ines said <em>I know.</em></p>
+
+        <p>They ordered more food. They ate. The tea cooled. Kitchen staff shift changed over. Outside, somewhere, a bus glided by on the wet street, automated, impeccable, it paused for a scrawny orange domestic cat.</p>
+
+        <p>When they paid, Tomek paid for them all, against custom. Nobody objected. Anwen, putting on her jacket, looked at each of the four of them in turn and said <em>thank you,</em> not specifying for what, and the <em>thank you</em> sat on the table between them after she said it the way the tea had sat. They walked up the basement steps. Chill had become cold. Streetlights were on, buzzing, radiating pale conical pools. The slime, somewhere — somewhere longer, slightly — traversed pavements, seeped down pipes, occupied cognition temporarily.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>They came up the basement steps and a chill wrapped into them. Street wet from rain; a shiny vinyl mist seeping from warm metro grates, low along the kerb. Early fall, astute and inconsequential; weeknight, sheltered enclave. Trees had begun their first dry rustle. Parked cars gleamed like candy. A russet curtained window above a bakery shifted as if someone just wanted to obscure the room. Nearby an electric delivery automaton on its last round creaked into park. The streetlights did the conical-pool thing they did. Anwen pulled her jacket taut. Tomek looked up at the sky as if for something he had been about to remember. Júlio sang a jingle. Kasimi inhaled with pleasure, loving the fresh night air. Ines was a half-step behind, the words of the bar still jangling like loose coins inside her.</p>
+
+        <p>They walked, in the loose formation of five familiars. Satiated, informal.</p>
+
+        <p>It began on the second corner, subtle as serotonin, at the place where the side-street narrowed: the space between them shifted — a softness, a widening, an undoing. A slow opening of the chest in Anwen. A small click in Tomek that he sometimes felt before sleep, but held, extended, sustained. Soles of feet, in Júlio. Hands, in Kasimi. In Ines, recognition: the words she had spoken at the bar — receptor analogs, conduits, vestigial architecture — had been pointing at this, imperfectly. Now this was pointing back. <em>Yes,</em> she managed to say.</p>
+
+        <p>Then the <em>as</em> fell away. There was no longer an <em>as.</em> There was only the thing. An <em>is</em> so intense it erupted simultaneously in all five of them, a pressure wave without a source.</p>
+
+        <p>Leaves still rustled, but the rustling was not in the trees. Streetlights were still on, but the conical pools were not separate, they were geometric undulance. A mist seeped unseen, flexible as thought, tingling supple lush raw a river of intimacy. Words uncoupled from things; silence drenched in immediacy sought refuge in the root syntax of being. Everything settled into warm quietude, uncoiling being, before language.</p>
+
+        <p>Inside this — the word <em>inside</em> failed and was kept — a stillness that was not still. A reservoir walls: illimitable. An oceanice teeming, calmly seething; the seashore at dawn and every pore and every cell, a bird and a wave and a pebble and a breath. A not-thought. Prescience. Pulsing. Tomek in silent revelation. Anwen felt her interior unfurl a lush and effervescent presence, so dense she staggered slightly on the kerb, did not fall. Júlio's mouth opened. Nothing. The implacable. The torque of the permeable. Fluidity at the molecular. Codification of something no one had codified. Reverence — there was reverence; none of them had brought it; it was there.</p>
+
+        <p>A name pressed almost up. <em>From where?</em> Almost surfaced. <em>How?</em> Insisted on being seen but still they could not grasp it. <em>What was it?</em> The texture of a sound that was not sound, that was just texture. No words. No doer. No need.</p>
+
+        <p>Then it was gone. The slime had moved on. Their use was over.</p>
+
+        <p>Footfalls began again, dropping as caught in a freeze frame. Again there were five of them, on a street, distinct, in a tiny mist, and they were each, again, a person, persons, personing. The delivery automaton let out an ambient sigh, lurched from sleep, spun, left. Anwen exhaled. Tomek closed his mouth. Kasimi's hand had been on the railing and the railing was wet. Júlio had stepped slightly off the kerb; he stepped back. Ines was a half-step behind. A small dopamine lull settled into them, separately — the body's own correction, the way after-light settles after a flash.</p>
+
+        <p>They walked another half-block without speaking. Not needing to speak. All knowing.</p>
+
+        <p>At the place where the side-street rejoined the wider street — where they would each turn for their separate trams, their separate flats, their separate streets — they slowed. They looked at one another. Each face was a face. Again eyes. The thing peering out, the I.</p>
+
+        <p><em>Bye,</em> said Anwen, simply. <em>Ciao,</em> said Júlio, and the word rang like a notification for a message yet to be decoded. A sparse reverberation that undid nothing. Kasimi nodded. Tomek lifted a hand. Ines was already turning, smiling, vigil smelted into acceptance.</p>
+
+        <p>Walking each their separate ways, they carried what they could not say. Agile. Unchanged. Transformed. Unstuck. Alive. Now.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>The room had not been booked for the seminar this term. Nobody had booked it for anything. They came anyway, on Tuesdays, at the same hour the seminar had run for two years. The institute's overlay system noted that the room was in use and did not query further; the room was in use; that was all an overlay needed to know. The overlay system was, anyway, becoming inattentive.</p>
+
+        <p>Ines arrived first. She had a book that was not a book about anything. She had taken to reading books that were not about anything — maintenance manuals for old appliances, anonymously authored knitting patterns, a 1962 census report from an archive she had stumbled into. The pleasure of these texts was that they had no thesis. She had stopped wanting theses. Today's book was a bus-route-revision proposal from sixteen years ago. The bus routes had since been revised differently than proposed. She read it as a record of what had not happened.</p>
+
+        <p>Anwen brought the small clay she had been working with at home, wrapped in a damp cloth. She unwrapped it on the table where the seminar had once spread papers and put her hand on it; she did not yet know what she was making. She was not making anything. The clay would tell her or it wouldn't. Most of the time it didn't, and she would put it back in the cloth and walk home.</p>
+
+        <p>Júlio brought a beginner's book on Welsh. He was not learning Welsh. He was learning, very slowly, that he could read three sentences of a language he had not been to and remember nothing afterward, and that this was permitted. He sat down, opened the book, began to forget.</p>
+
+        <p>Tomek brought a thermos of bone broth — his current preoccupation, briefly held, possibly soon to be set down — and a small notebook in which he wrote down what he saw. <em>Pigeon: missing toe, left foot. Light, 14:02: gone, suddenly.</em> The notebook had nothing else.</p>
+
+        <p>Kasimi brought himself.</p>
+
+        <p><em>That bus route,</em> Ines said.</p>
+
+        <p><em>The one—,</em> said Anwen.</p>
+
+        <p><em>The one they didn't do.</em></p>
+
+        <p><em>Right.</em></p>
+
+        <p><em>The one with the hospital loop.</em></p>
+
+        <p><em>Right.</em></p>
+
+        <p>A pause.</p>
+
+        <p><em>Better,</em> Júlio said.</p>
+
+        <p><em>Better than what they did,</em> said Ines.</p>
+
+        <p><em>Probably.</em></p>
+
+        <p><em>Mm.</em></p>
+
+        <p>The clay was a clay-shape; Anwen turned it slightly. Tomek wrote in his notebook: <em>14:09, conversation about a bus route from 2009, pleasant, irresolvable.</em> He underlined <em>irresolvable</em>. Then he did not know why he had underlined it and crossed it out.</p>
+
+        <p>The institute's overlay had been doing a thing where it ghosted on at the corners of vision and held there longer than needed. Ines's overlay was on; she did not turn it off. Júlio's overlay was off; it had turned off by itself last week and not come back. Anwen had never run hers. Kasimi's had begun to render the room slightly behind where the room was, a half-second of latency it had not had before, as if the room had been delayed in arriving.</p>
+
+        <p>A contact came. Ines's wrists felt it. The room's wall-screen — small, mostly used for bookings, currently displaying nothing — flickered into the band-shape they had begun to know in summer, and held. Held. The notification did not retreat. Ines, her hand on the bus-route book, watched the band hold for what was not three seconds, was not five, was something the body could not count anymore.</p>
+
+        <p><em>Long one,</em> Júlio said, mildly.</p>
+
+        <p><em>Long one,</em> said Anwen.</p>
+
+        <p>She had not raised her head from the clay. The clay was warmer than it had been a moment ago — possibly her hand, possibly not. Tomek wrote in his notebook: <em>14:17, slime band held: … seconds. Could not count.</em> He left the colon and ellipsis where it stood. Kasimi's overlay-latency rose to one second, and held there. The room arrived a second late.</p>
+
+        <p>A child somewhere in the corridor laughed at something a friend had said.</p>
+
+        <p><em>The one they didn't do,</em> Ines said again, into the held band, into the room arriving late. <em>They could have looped through the hospital.</em></p>
+
+        <p><em>They could have,</em> said Júlio.</p>
+
+        <p><em>Or not,</em> said Tomek.</p>
+
+        <p><em>Or not,</em> said Anwen.</p>
+
+        <p>Kasimi did not say <em>or not.</em></p>
+
+        <p>The ellipsis ended, eventually. The band on the wall-screen retreated. The room caught up to itself. Júlio closed the Welsh book having forgotten what little he had read. Anwen wrapped the clay and pressed her thumb into it once, gently, leaving a print, and put the cloth back over it. Tomek poured bone broth into a paper cup he had brought. The broth had cooled. He drank it anyway. <em>Pigeon, again,</em> he wrote. <em>Not the same one. Possibly. Light, 15:01: a different gone.</em></p>
+
+        <p><em>I should go,</em> Anwen said, eventually.</p>
+
+        <p><em>Yes,</em> said Júlio.</p>
+
+        <p><em>See you next Tuesday,</em> said Ines, to the room rather than to anyone.</p>
+
+        <p><em>Tuesday,</em> said Tomek.</p>
+
+        <p><em>Tuesday,</em> said Kasimi.</p>
+
+        <p>They left in their own times, not together, not separately. The institute corridor was quiet in the way the corridor had been quiet a year and a half ago, when the seminar had been a thing that ran long. The construction on the eastern boulevard was finished — the maglev open, smooth, mostly empty at this hour. A new cold was settling over the city; not the new cold of fall but the older cold of the months that were coming. Ines walked toward the elevator. The elevator's overlay chime was, today, a single sustained tone where there had been three notes. She did not press the call button. She waited. The doors opened anyway. She got in.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>The bloom does not retreat.</p>
+
+        <p>Mid-winter. The window above the kitchen sink. The radiator did not turn on this morning; it did not need to. The cold outside was not the cold; the cold inside was not separate.</p>
+
+        <p>There was someone at the window. There had been. There still was.</p>
+
+        <p>She looked at the city.</p>
+
+        <p>Not she. Someone whose name had been a name. Looked. Not looked — saw. Saw was already too active. The window was. The city was. The eye was not a separate thing.</p>
+
+        <p>A bus on the street below — moving — slower than buses had been moving, this winter. Or: moving as buses moved now. The classification <em>slower</em> required a previous speed and the previous speed had become hard to specify.</p>
+
+        <p>—</p>
+
+        <p>In other rooms, in other windows, others.</p>
+
+        <p>A man in a flat across the courtyard had been holding the kettle for some time. The kettle whistled at first, then continued, then stopped — possibly the whistle ended, possibly the ear had let it pass. He did not pour. His name had been Tomek and it would be again. Just now it was not anything. He stood. The kettle stood. The radiator that did not need to turn on stood.</p>
+
+        <p>A woman not far from there had been working clay (kaolin). The clay was warm and the hand was warm and the warmth was not a thing that crossed between them. Anwen. The name a small soft word for what was the case.</p>
+
+        <p>Júlio, somewhere — slightly outside the city, not very far — had stopped reading three sentences of Welsh some time ago. The book was open. The sentence was: <em>Mae'r tŷ yn fawr.</em> The house is large. The book did not specify which house. He did not need it to.</p>
+
+        <p>Kasimi had not moved.</p>
+
+        <p>—</p>
+
+        <p>Back in the window above the sink. The vessel that had been someone called Ines. There. Was there.</p>
+
+        <p>The slime was the air. This had been a fact for some time; today the fact had no edges. The slime had stopped being a thing the city's overlay system reported; the overlay system had stopped reporting. Earlier this week the gaze-tracking camera at the corner of the kitchen had paused on the vessel for four minutes and twelve seconds. The vessel had not moved during the four minutes. The camera had recorded nothing in particular; possibly it had recorded everything; the distinction had become bureaucratic.</p>
+
+        <p>Then the camera had recovered. Briefly. Then paused again. Now it was off.</p>
+
+        <p>A delivery automaton, somewhere down the street, had been spinning slowly in place for an hour. The delivery had been completed. The door had been closed. The package received. The automaton spun anyway. It was spinning, perhaps, because spinning was what it could still do. The street did not need it to leave.</p>
+
+        <p>—</p>
+
+        <p>A name pressed almost up.</p>
+
+        <p>—</p>
+
+        <p>Almost.</p>
+
+        <p>—</p>
+
+        <p>It was here. It had been here. <em>From where</em> was no longer a question because there was no <em>where</em> outside of it.</p>
+
+        <p>The vessel breathed. Breath had become the same as everything else and was still distinguishable as breath because the body was, mostly, a body, and the body kept its functions.</p>
+
+        <p>There was a thought. The thought had once been the man-with-the-kettle's: <em>if this is the slime it is the slime; if this is not the slime, what.</em> The vessel held the thought without resolving it. That was a small doubt and the doubt did not retreat either. The doubt and the saturation cohabited; neither cancelled the other; both were what was the case.</p>
+
+        <p>A hangover, somewhere in the body, persisted. It had been one hangover and another and another. Now it was a hangover with no name and no owner. It had not lifted. It would not. The hangover was not the price of the saturation; nothing was the price of anything. It was just there. As much the texture as the saturation was. A grey thread inside the gold; the gold did not mind.</p>
+
+        <p>—</p>
+
+        <p>A bus on the street below.</p>
+
+        <p>A bus.</p>
+
+        <p>A.</p>
+
+        <p>—</p>
+
+        <p>The phone buzzed. The phone had not buzzed for a while. The thread had not been used. A sketch arrived — a hand whose fingers had not divided. No words. The vessel looked at the sketch and the sketch was the same as the city was the same as the radiator was the same as the breath. The vessel sent back: <em>yes.</em> The yes was sent. The yes was already there.</p>
+
+        <p>A bus on the street below had stopped at a stop where a person was not waiting. The bus opened its doors anyway. The doors closed. The bus continued. Possibly the person was the bus; possibly there had been no person; possibly the bus had needed to open.</p>
+
+        <p>The conspiracy filaments had thinned. The labs and companies and agencies and gods had grown quiet. The first slime-related liturgy had stopped meeting in the small room above the butcher shop because the small room had become more like a small room. Devotees walked their dogs.</p>
+
+        <p>—</p>
+
+        <p>There had been a child laughing somewhere. Earlier. Possibly later. The laugh was. The laugh was not in time the way time had been.</p>
+
+        <p>—</p>
+
+        <p>The vessel's hand on the kitchen sink. The hand was a hand. The sink was a sink. The water in the tap, when she turned it — when it turned, when turning happened in the vicinity of the tap — was water. The water ran. The water did not need to run.</p>
+
+        <p>She drank from her cupped palm. She had not drunk from her cupped palm in years. The water was good. The water tasted like water. The taste was here.</p>
+
+        <p>She set the palm down. The palm was a hand again.</p>
+
+        <p>She walked to the window. <em>Walked. Saw. Held.</em> The verbs were enough. The subjects were optional and were sometimes not used.</p>
+
+        <p>—</p>
+
+        <p>A bus.</p>
+
+        <p>Yes.</p>
+
+        <p>Here.</p>
+
+        <p>—</p>
+
+        <p>Outside, the sky was flat winter, the colour winter takes when it has nothing to declare. A flock of birds moved across it in a shape, then in another shape, and the shapes were not separate either. Below them the bus had stopped at another stop and again no one was waiting and again the doors opened. The bus, today, would open at every stop. The bus, today, would arrive everywhere.</p>
+
+        <p>The vessel at the window did not need to think this. The thought was thought. Possibly somewhere the vessel was thinking it. Possibly the thinking was the city's. Possibly the city was the thought.</p>
+
+        <p>The phone buzzed again. The phone said <em>Tuesday.</em> It said it without specifying who had sent the <em>Tuesday.</em> It might have been any of them. It might have been the phone itself, having become inattentive enough to have become attentive in a different way.</p>
+
+        <p>The vessel breathed. The vessel was at the window. The vessel was, also, at a kettle in another flat, was at clay in another room, was at a book of Welsh, was at a chair where someone had not moved. The vessel did not know this and did not not-know it. The vessel was where someone had been and where the thing that had been someone was now a place through which the not-yet-named moved without obstruction.</p>
+
+        <p>—</p>
+
+        <p>A name pressed almost up.</p>
+
+        <p>It did not break.</p>
+
+        <p>The window held. The kitchen held. The bus held. The hangover held. The doubt held.</p>
+
+        <p>All of it: held.</p>
+
+        <div class="break">· · ·</div>
+
+        <p>Morning quantified. 2% dawn.</p>
+
+        <p>The kitchen window: silicate lattice pressed flat. The same kitchen window. A different/same morning.</p>
+
+        <p>Steam (brownian, fractal, condensates) off a cup. The cup had not been there a moment ago. Now it was there. Coffee: aromatic volatile organic compounds / furans and pyrazines.</p>
+
+        <p>A bus on the street below. Model: 102934 .Sil-Alumina composite frame. Electric drive train (280 kWh). 12 m. 2.55 m wide. The bus opened its doors at a stop. A person stepped out. ID #2484034721. A person stepped on. ID#92038474. The doors closed. The bus continued.</p>
+
+        <p>There were birds: latin names, common names, bird-names, the-names-the-birds had for the morning.</p>
+
+        <p><em>starling-θ : eig(wind) → flock_n / retinas co-tuned across n bodies / one bird, n times</em></p>
+
+        <p>—</p>
+
+        <p>The radiator (steel, enamel-chipped, finned) was working (distributively-warm) again. Not loudly; not warmly; working in the way radiators worked, when they were working, that was all.</p>
+
+        <p>Somewhere a kettle (plastic, gone-green, calcified) clicked off. Somewhere clay was still wrapped in a damp cloth (microfibre microbiome). Somewhere a book of Welsh (esperanto, conlang, calculus) was open at a page that was not the page it had been at. Somewhere a chair (laminated plywood, steel frame) had been moved a few inches.</p>
+
+        <p>These were elsewhere. Latitudes, distances, they were also here.</p>
+
+        <p><em>∀x ⊆ here, here ⊆ ∀x / non-locality of the breakfast hour</em></p>
+
+        <p>—</p>
+
+        <p>Coffee (pesticide-resistant heirloom arabica / soil-remineralised / farmed in controlled-humidity vertical-terraces / lectins binding chitin / roasting = 4×10⁹ years → 90 seconds).</p>
+
+        <p>The taste of coffee (bitter-warm-molecule + mineral + caffeine + lectins binding chitin + memory of sun / 7000 stomata, oral / xylem ⤳ A_2A_R blockade / furans / pyrazines /)).</p>
+
+        <p>Coffee was a taste (phenomenological-chemical-bio-historical).</p>
+
+        <p><em>c.arabica / xylem ⤳ A_2A_R blockade / 7000 stomata, oral / sun-from-a-million-years compressed in 90s of brew</em></p>
+
+        <p>—</p>
+
+        <p>A child (child-shape, nascent-human) laughing at something (child-saying, emergent) a friend had said (word reverberations, cochlear basilar membrane tiling, tonotopic maps, 200 Hz ↔ 20 kHz, phonemes as wet motes, syntax taking root in wet tissue) — somewhere out the window, on the street, far enough that the laugh (acoustic-shape, non-semantic resonance, joy-signature, temporal envelope), arrived as a shape rather than as content. A child. Two of them now, possibly. The laugh shaped, then unshaped, then was the morning.</p>
+
+        <p>The window (vertical transparency, lattice-of-oxide) held.</p>
+
+        <p>—</p>
+
+        <p>There had been a name for what happened to the world (modelled, named, distributed, quantified, archived, indexed by time,entity constrained). Now there was not. The name had not retreated; it was here. It was not retreated and it was here at the same time. That was no longer two things.</p>
+
+        <p><em>A ∧ ¬A | leak in the law of the excluded middle / boolean weeping</em></p>
+
+        <p>—</p>
+
+        <p>Someone walked past the kitchen door. The someone had been someone (identity-prefix still intact, forgotten, erased, subsumed). The walking past was a walking past. Possibly the someone was the walking past. Possibly the kitchen door was the walking past.</p>
+
+        <p>Possibly all of it, walking past (spatial-temporal event, collapsed in the observation, possibly former self).</p>
+
+        <p>—</p>
+
+        <p>The hangover (dopamine cusped, anterior cingulate drooping, serotonin trailing) was still there. Of course. The grey thread inside the gold; the gold continuing not to mind.</p>
+
+        <p><em>hangover : mycorrhizal scar (fascia) ; hyphae remembered (nerve) ; glucose-tribute / the body pays in sugar what the slime takes in time</em></p>
+
+        <p>Tea would have been an option. Coffee was the option chosen. Coffee was here.</p>
+
+        <p>—</p>
+
+        <p>The maglev (magnetic-levitation, 600 kmh) outside, smooth, almost silent. A new pollen (spores, windborne, insect-assisted, human-carried, duct-borne, machine-carried, slime-carried) had come and gone with the season. The trams ran when they ran. The buses ran when they ran. The buses opened, today, at the stops where people were and at the stops where people were not. The buses, today, were the city.</p>
+
+        <p><em>G(V,E) : V → stops ; E → routes ; V ↔ E ; E := soil := route := walking := the same walk</em></p>
+
+        <p>—</p>
+
+        <p>There was a thought without a thinker. There were mostly thoughts (synaptic activations, chemical gradients, firing patterns) without thinkers. There were thinkers without thoughts. There was, mostly, a window.</p>
+
+        <p>The window was a window.</p>
+
+        <p><em>ψ(window) | uncollapsed / glass = oxide-coherence-state held by the room observing itself</em></p>
+
+        <p>—</p>
+
+        <p>Someone — or someone-shaped — would meet someone-shaped at the small basement bar later. Or would not. Tuesday-shaped meetings happened at Tuesday-shaped hours and most of them happened. The chip on the cup at the bar was the chip on the cup at the bar. The tea on the house arrived. The kitchen fried the dark oil in the small dried fish.</p>
+
+        <p><em>Maillard : 4×10⁹ years → 90 s / fish-cell ← protozoan ← LUCA / oil = compressed photosynthate / cooking as deep-time release</em></p>
+
+        <p>The fall semester had ended. A spring semester had been or had not been registered. A reading list was not distributed. No one missed it.</p>
+
+        <p>—</p>
+
+        <p>The phon (archaic communications device: glass, alumina, circuit-boards, microphone, speaker, screen, receiver, transmitter, receiver, battery, solar-cell, touchscreen, haptic-engine) said nothing. The phone said something. The phone's saying-something was no longer different from its saying-nothing. The phone, somewhere on the counter, was a phone.</p>
+
+        <p><em>S/N → indeterminate / ∂I/∂t → 0 / channel = no-channel / the message was the medium was the body</em></p>
+
+        <p>—</p>
+
+        <p>Coffee.</p>
+
+        <p>Here. Not here.</p>
+
+        <p>—</p>
+
+        <p>Something was passing. Something had always been passing.</p>
+
+        <p><em>bu — b — | persists, decays, persists / next frame / morphology bleeds</em></p>
+
+        <p>—</p>
+
+        <p>The ear took the sound of the radiator. The ear took the sound of blindness, the long / short /long rhythm of it in the bones of the chest. The ear took the sound of the laugh, the laugh that shaped, the laugh that unshaped. The ear was an ear. The ear was a place where sound passed and was lost and was here.</p>
+
+        <p>A name pressed.</p>
+
+        <p>It was not pressing now. It had not been pressing now. It was.</p>
+
+        <p><em>name : asemic glyph | tissue-phonon / no grapheme / felt-as-function ⊻ unsayable / (the ones who came before us did not know the word for spear, but threw it)</em></p>
+
+        <p>—</p>
+
+        <p>The window held. The radiator held. The bus held. The cup held. The hand on the cup, when there was a hand on the cup, held.</p>
+
+        <p><em>palm := stoma / fingerpad := root tip / fascia := hyphal mat / Fe²⁺ ↔ Mg²⁺ : porphyrin sisters / keratin ⟷ cellulose : same handshake / blood fed by tube no-longer-tube / skin = leaf, transpiring inward</em></p>
+
+        <p>All of it. Held. As never yes here.</p>
+
+</div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4></h4>
+        
+    </div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4>Related Works by Jhave</h4>
+        <p>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a>
+        </p>
+    </div>
+
+
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+
+
+        <div class="related">
+            <h4></h4>
+            
+        </div>
+
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>
