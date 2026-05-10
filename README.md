@@ -22,9 +22,10 @@ Narracode operates via an intuitive, natural language interface. You do not need
 
 - **"Keep going" or "Write the next scene"** → *Compositional Agent* (Drafts the next sequence).
 - **"How does this sound?" or "Are we losing the style?"** → *Reflexive Agent* (Critiques the text against the POETICS.md rules).
-- **"Save this" or "Looks good, let's lock it in"** → *Structural Agent* (Snapshots the current version and learns from any manual edits you made).
+- **Autonomous Versioning & Learning** → The agent autonomously evaluates when major changes occur (such as advancing the plot or receiving your human edits). It will auto-save version snapshots non-destructively to the `versions/` folder.
+- **"Save this" or "Looks good, let's lock it in"** → *Structural Agent* (Optionally explicitly request a manual snapshot).
 
-You are free to edit the AI's drafts directly in your IDE. When you tell the AI to continue or save, it will automatically compare your edits against its original draft and log stylistic learnings into an `edit-observations.md` file in the `versions/` folder to improve its future passes.
+You are free to edit the AI's drafts directly in your IDE. Whenever the AI autonomously saves a version (or when you prompt it to continue/save), it will automatically compare your edits against its original draft and log stylistic learnings into an `edit-observations.md` file in the `versions/` folder to improve its future passes.
 
 ## Project Overview
 

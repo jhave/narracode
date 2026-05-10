@@ -49,12 +49,13 @@ When drafting in the texture of multiple uploads, do not imitate any one. The me
 *Critique mode* reads a specified draft against `POETICS.md` commitments. Writes to `critiques/critique-[draft-name].md`. Covers what works, where the prose defaults to genre habit or LLM tells, where it loses the dialect. Recommends; does not revise.
 *Drift mode* reads the cumulative draft material and asks what the piece is becoming. Is it different from what `POETICS.md` declared? Is the difference fertile or genre regression? Writes to `critiques/drift-[timestamp].md`. 
 
-## Versioning
+## Autonomous Versioning
 
-Every major iterative loop must be snapshotted before the next loop begins.
-To snapshot: copy the current state of `drafts/`, `critiques/`, `structural/`, and `POETICS.md` into `versions/v[N]-[YYYY-MM-DD]-[short-descriptor]/`. Increment N. Keep `annotations/` and `uploads/` outside the snapshot since they are accumulating reference material.
+The system is responsible for autonomously identifying when a version snapshot should be saved. Whenever a major change occurs—such as generating a new segment, advancing the plot, or receiving significant human edits—the system must automatically create a snapshot to non-destructively advance the project and learn from manual edits.
 
-When snapshotting, write a brief `versions/v[N]/loop-notes.md` describing what changed in this loop, what was decided, what was deferred. 
+To snapshot: copy the current state of `drafts/`, `critiques/`, `structural/`, and `POETICS.md` into `versions/v[N]-[YYYY-MM-DD]-[short-descriptor]/`. Increment N. Keep `annotations/` and `uploads/` outside the snapshot.
+
+When snapshotting, write a brief `versions/v[N]/loop-notes.md` describing what changed in this loop. While the system auto-saves versions, the prompter may still explicitly request a save at any time.
 
 ## Prompt Logging (KISS)
 
@@ -64,7 +65,7 @@ Instead of maintaining a complex, separate prompt log file, simply paste the pro
 
 The prompter will often apply manual micro-edits to a freshly drafted file directly in their IDE. These edits are how the prompter teaches register and discipline by example, not by rule.
 
-When the prompter ends a turn without a specific command, tells you to "continue," or asks to "save/snapshot," do the following:
+Whenever the system autonomously decides to snapshot a version (or when explicitly asked to save/continue), do the following:
 1. Compare the current state of the draft in `drafts/` against your memory of what you originally generated.
 2. Develop succinct intuitions about what the prompter's edits are doing — register-shift, compression, specificity, agency, new ambient detail, typographical convention. 
 3. Append these observations to `versions/v[N]/edit-observations.md` (creating it if necessary) during a snapshot, or directly recommend an update to `POETICS.md` if the pattern is recurring.
