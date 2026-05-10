@@ -170,5 +170,6 @@ So now the architecture of the system is public.
 
 ## Key Concepts
 
-- **Code-as-Story**: The idea that algorithms themselves encode a worldview.
-- **Narrative Weather vs. Planning**: The contrast between the rigid, causal-chain logic of planning systems (like Tailspin) and the atmospheric, syntactic logic of generative textual arrays (like Racter).
+- **Neuro-Symbolic Synergy**: The synthesis of connectionist intuition (LLMs generating dense, localized atmospheric prose) with structural rigor (a symbolic harness maintaining memory, timelines, and causal logic).
+- **Plans as Continuity, not Generation**: Unlike historical AI (like *Tailspin*) where rigid planning engines dictated every character action, the symbolic harness in Narracode acts purely as an architectural guardrail. It secures the continuity, freeing the compositional agent to focus entirely on stylistic lucidity, relational density, and deep attention.
+- **Code-as-Poetics**: The recognition that algorithms are not neutral vessels. The operational logic of a system—its segregated agent roles, its continuous learning loops, its handling of memory—is a material philosophy of literature encoded as infrastructure.
