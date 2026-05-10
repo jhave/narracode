@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narracode Library</title>
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            padding: 4rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        .story-link {
+            display: block;
+            text-decoration: none;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid #eaeaea;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+        .story-link:hover {
+            border-color: var(--accent);
+            background-color: #fafafa;
+        }
+        .story-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.3rem;
+        }
+        .story-path {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .logo img {
+            width: 120px;
+            opacity: 0.9;
+        }
+        .logo img:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="IGNORE/html/img/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+    <h1>Narracode Library</h1>
+    <h2>A neurosymbolic anthology generated via the Narracode harness.</h2>
+    
+    <a href="Stories written with Narracode/10-05-2026_Exile/index.html" class="story-link">
+        <div class="story-title">Exile</div>
+        <div class="story-path">10-05-2026_Exile</div>
+    </a>
+    <a href="Stories written with Narracode/09-05-2026_Slime/index.html" class="story-link">
+        <div class="story-title">Slime</div>
+        <div class="story-path">09-05-2026_Slime</div>
+    </a>
+
+</body>
+</html>
