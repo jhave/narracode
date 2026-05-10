@@ -334,6 +334,12 @@ def build_library_index():
     <p class="overview">Historically, AI falls into 2 camps: symbolic AI (plans, templates, expert systems) and connectionist AI (neural networks, large language models). <strong>Narracode</strong> is an attempt to bridge this gap. It is a neurosymbolic approach to narrative generation. It is a tool for orchestrating agents specifically for literary purposes.</p>
     <p class="overview"><strong>Narracode</strong> emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somewhat analogous to a 'Claude Code' re-purposed for narrative literature.</p>
     
+    <div class="architecture-box" style="margin: 2.5rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid var(--accent);">
+        <h3 style="margin-top: 0; font-size: 1.2rem; margin-bottom: 0.8rem;">How it Works</h3>
+        <p style="margin-bottom: 0.8rem; font-size: 1.05rem;"><strong>Narracode</strong> operates as an <strong>autocorrecting multi-agent system</strong>. Rather than relying on single-shot prompts, it orchestrates specialized roles—Reading, Structural, Compositional, and Reflexive agents—working in strictly separated passes.</p>
+        <p style="margin-bottom: 0; font-size: 1.05rem;">As the system advances, it runs in the background to auto-refine a <strong>symbolic working memory</strong>. It externalizes the narrative state into discrete files: mapping shifting character graphs, tracking strict time-constants, and recording a definitive history. This prevents hallucinatory drift and grounds the AI in deep continuity.</p>
+    </div>
+
     <h2>Example Stories</h2>
 """
     
@@ -351,16 +357,16 @@ def build_library_index():
     <div class="related">
         <h4>Related Works by Jhave</h4>
         <p style="line-height: 1.8;">
-            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2026/the-long-afternoon/">The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2026/the-good-light/">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/stimverse/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;
-            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/the-long-afternoon/">The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/the-good-light/">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/stimverse/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
         </p>
     </div>
