@@ -10,6 +10,22 @@ Narracode is a storytelling harness for agentic AI (inspired by Claude Code). It
 
 It emerged from the realization that the intrinsic embodied complexity of nunanced narrative might become comptationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code https://github.com/weikma/claude-code-rebuilt specifically re-purposed for narrative literature.  
 
+## Installation
+
+1. Clone this repository to your local machine.
+2. Open the repository in your IDE alongside an agentic AI assistant (like Claude Code, Cursor, or Gemini).
+3. Invoke the harness by typing: `Consult narracode.md and initiate a new project about [your premise].`
+
+## Quickstart & Natural Language Commands
+
+Narracode operates via an intuitive, natural language interface. You do not need to memorize rigid CLI-like commands. The AI interprets your conversational requests and maps them to the correct underlying agent:
+
+- **"Keep going" or "Write the next scene"** → *Compositional Agent* (Drafts the next sequence).
+- **"How does this sound?" or "Are we losing the style?"** → *Reflexive Agent* (Critiques the text against the POETICS.md rules).
+- **"Save this" or "Looks good, let's lock it in"** → *Structural Agent* (Snapshots the current version and learns from any manual edits you made).
+
+You are free to edit the AI's drafts directly in your IDE. When you tell the AI to continue or save, it will automatically compare your edits against its original draft and log stylistic learnings into an `edit-observations.md` file in the `versions/` folder to improve its future passes.
+
 ## Project Overview
 
 Narracode arises from an inquiry: can we build a literature AI-augmentation system on the same model as Claude Code? One that is structured, algorithmic, agentic — but for literary purposes? 
