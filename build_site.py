@@ -112,10 +112,42 @@ def build_library_index():
             if os.path.isdir(folder_path):
                 if os.path.exists(os.path.join(folder_path, "index.html")):
                     title = folder.split('_')[-1].replace('-', ' ').title()
+                    
+                    # Extract authors
+                    author_info = ""
+                    attr_path = os.path.join(folder_path, "ATTRIBUTION.md")
+                    if os.path.exists(attr_path):
+                        with open(attr_path, "r", encoding="utf-8") as f:
+                            lines = f.readlines()
+                            attrs = []
+                            for line in lines:
+                                if ":" in line:
+                                    attrs.append(line.split(":", 1)[1].strip())
+                            if attrs:
+                                author_info = " &nbsp;·&nbsp; ".join(attrs)
+                    
+                    # Extract synopsis from POETICS.md
+                    synopsis = ""
+                    poetics_path = os.path.join(folder_path, "POETICS.md")
+                    if os.path.exists(poetics_path):
+                        with open(poetics_path, "r", encoding="utf-8") as f:
+                            content = f.read()
+                            if "## Premise" in content:
+                                part = content.split("## Premise")[1]
+                                # get text until next ##
+                                synopsis_text = part.split("##")[0].strip()
+                                # take the first paragraph
+                                synopsis = synopsis_text.split("\n\n")[0].strip()
+                                # basic markdown bold/italic removal or conversion
+                                synopsis = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', synopsis)
+                                synopsis = re.sub(r'\*(.*?)\*', r'<em>\1</em>', synopsis)
+
                     projects.append({
                         "title": title,
                         "path": f"{base_dir}/{folder}/index.html",
-                        "folder_name": folder
+                        "folder_name": folder,
+                        "author_info": author_info,
+                        "synopsis": synopsis
                     })
     
     projects.sort(key=lambda x: x["folder_name"], reverse=True) # newest first
@@ -125,7 +157,7 @@ def build_library_index():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Narracode Library</title>
+    <title>Narracode</title>
     <style>
         :root {{
             --text: #1a1a1a;
@@ -143,27 +175,32 @@ def build_library_index():
             max-width: var(--max-width);
             margin: 0 auto;
         }}
-        h1 {{
-            font-size: 2.5rem;
+        h1.logo-title {{
+            font-size: 3.2rem;
             font-weight: 800;
-            margin-bottom: 0.5rem;
+            margin-bottom: 2rem;
             text-align: center;
+            letter-spacing: -0.02em;
         }}
         h2 {{
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+        }}
+        p.overview {{
             font-size: 1.1rem;
-            font-weight: 400;
-            font-style: italic;
-            color: var(--muted);
-            text-align: center;
-            margin-bottom: 4rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
         }}
         .story-link {{
             display: block;
             text-decoration: none;
-            padding: 1.5rem;
+            padding: 2rem;
             margin-bottom: 1.5rem;
             border: 1px solid #eaeaea;
-            border-radius: 4px;
+            border-radius: 6px;
             transition: all 0.2s ease;
         }}
         .story-link:hover {{
@@ -171,47 +208,138 @@ def build_library_index():
             background-color: #fafafa;
         }}
         .story-title {{
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             font-weight: 700;
             color: var(--text);
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.5rem;
         }}
-        .story-path {{
-            font-size: 0.85rem;
+        .story-authors {{
+            font-size: 0.9rem;
             color: var(--muted);
+            margin-bottom: 1rem;
         }}
-        .logo {{
+        .story-synopsis {{
+            font-size: 1.05rem;
+            color: var(--accent);
+            line-height: 1.6;
+        }}
+        .footer-logo {{
             text-align: center;
-            margin-bottom: 2rem;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
         }}
-        .logo img {{
-            width: 120px;
+        .footer-logo img {{
+            width: 140px;
             opacity: 0.9;
         }}
-        .logo img:hover {{
+        .footer-logo img:hover {{
             opacity: 1;
+        }}
+        .bio, .funding, .related {{
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }}
+        .bio h4, .funding h4, .related h4 {{
+            margin-top: 0;
+            font-size: 1rem;
+        }}
+        .bio p, .funding p, .related p {{
+            font-size: 0.92rem;
+            color: var(--accent);
+        }}
+        .license {{
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }}
+        .license img {{
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }}
+        .license a {{
+            color: var(--muted);
+            text-decoration: underline;
         }}
     </style>
 </head>
 <body>
-    <div class="logo">
-        <a target="_blank" href="https://glia.ca/">
-            <img src="IGNORE/html/img/glia-bw.webp" alt="Glia">
-        </a>
-    </div>
-    <h1>Narracode Library</h1>
-    <h2>A neurosymbolic anthology generated via the Narracode harness.</h2>
+    <h1 class="logo-title">Narracode</h1>
     
+    <p class="overview">Narracode arises from an inquiry: can we build a literature AI-augmentation system on the same model as Claude Code? One that is structured, algorithmic, agentic — but for literary purposes?</p>
+    <p class="overview">Historically, AI falls into 2 camps: symbolic AI (plans, templates, expert systems) and connectionist AI (neural networks, large language models). Narracode is an attempt to bridge this gap. It is a neurosymbolic approach to narrative generation. It is a tool for orchestrating agents specifically for literary purposes.</p>
+    
+    <h2>Example Stories</h2>
 """
     
     for p in projects:
         html += f"""    <a href="{p['path']}" class="story-link">
         <div class="story-title">{p['title']}</div>
-        <div class="story-path">{p['folder_name']}</div>
+        <div class="story-authors">{p['author_info']}</div>
+        <div class="story-synopsis">{p['synopsis']}</div>
     </a>
 """
 
     html += """
+    
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="IGNORE/html/img/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4>Related Works by Jhave</h4>
+        <p>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a>
+        </p>
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
 </body>
 </html>"""
 
