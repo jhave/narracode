@@ -1,51 +1,65 @@
 # graph.md — entities and relations
 
-*Loop 2. Pre-draft sync (reflecting state at end of draft 1).*
+*Loop 3. Pre-draft sync (reflecting state at end of draft 2).*
 
 ## Entities established in prose
 
 ### The carried object
-- **Trygve Aas** — 76 (was 76; the new body has no clear age). Origin: Bergen, Skuteviken. Wealth source still unspecified (he bought a man-in-Oslo's company in 1998). After the transformation: small object, faux-aluminium frame, screen-front, etched *Trygve Aas* on the bezel, button on his right side that *others* must press to enable speech. Has no agency over speech; can be muted/unmuted by his carrier. Speaks any language when unmuted; defaults to Norwegian, switches to English when his audience cannot follow. Hears everything. As of end of draft 1: in a sealed wooden crate addressed *Bang Na, Bangkok* in the lower deck of a KLM Cargo 747-400ERF freighter departing Schiphol stand H32 at 13:06, due to land Bangkok Suvarnabhumi in the small hours of the next day. Alone for the first time since 04:53. Did not, particularly, like it.
+- **Trygve Aas** — 76 in his prior body. Origin: Bergen, Skuteviken; armchair is a 1972 Saarinen Womb reupholstered 2007. Wealth source unspecified (bought a man-in-Oslo's company in 1998; shipping interests in 1989; estate planning in 2014). The Tamagotchi-form: faux-aluminium frame, screen-front, etched *Trygve Aas* on the bezel, button on the right side that **others** must press to enable speech. Speaks any language; defaults to Norwegian, switches to English when his audience cannot follow; spoke Thai at the Saengthong cart when Mali pressed. Hears everything. As of end of draft 2: in the side pocket of Lena Shapiro's backpack, between a Singha bottle and a folded pareo from Koh Lanta, with a one-inch piece of pink ribbon (faded gold edge) tied around the metal ring at the top of his casing by Mali. Headed to Lena's Sukhumvit Soi 11 hostel that night, then to LAX in the morning at 09:30.
 
 ### The carriers, in order
-- **Linnea** — Bergen Flesland SAS check-in, mid-twenties.
-- **Marielle Aragon** — 38, Filipino-Norwegian, Bergen Flesland night cleaner, 10–6 shift, left-AirPod-only with the Tagalog Catholic podcast. Found Trygve at 05:04 at gate D14. Passed him to Anouk.
-- **Anouk de Jager** — 28, Dutch, KLM cabin crew, Hoofddorp-based, Bergen rotation week 3. Carried Trygve on lanyard during Bergen→AMS, in interior jacket pocket during cruise. Handed him to Imani at Schiphol.
-- **Imani Wittenberg** — 36, Surinamese-Dutch, Coffee Company barista at the D/E pier junction, double shift covering Lourens. Single mother of Naomi (8). The note about parent-teacher evening she will miss; the watermelon photograph in the cash drawer; the wrist-touched-by-thumb-every-fourteen-seconds tic. **First person to press Trygve's button.** Hung him on the magnet beside the Tap and Pay terminal during morning rush. Gave him to Karim "as a joke serious enough to act on."
-- **Karim El-Idrissi** — 38, Moroccan-Dutch, KLM Cargo apron crew, seven-to-three rotation, daughter who draws horses (folded square in the breast pocket). Pocketed Trygve. While leaning forward at stand H32, Trygve fell from the breast pocket into a wooden crate addressed Bang Na. Karim did not notice.
+- **Linnea** — Bergen Flesland SAS, mid-twenties.
+- **Marielle Aragon** — 38, Filipino-Norwegian, Bergen Flesland night cleaner.
+- **Anouk de Jager** — 28, Dutch, KLM cabin crew, Hoofddorp-based.
+- **Imani Wittenberg** — 36, Surinamese-Dutch, Coffee Company barista at Schiphol D/E pier junction. Single mother of Naomi (8). **First person to press Trygve's button.**
+- **Karim El-Idrissi** — 38, Moroccan-Dutch, KLM Cargo apron crew. Lost Trygve into a wooden crate at stand H32.
+- **Anan Phromchai** — 29, Bangkok freight-consolidator worker in Bang Na, two-year tenure. Found Trygve in a crate manifested *miscellaneous packing materials*. Pocketed him. Took him to dinner at the Saengthong cart at 18:42.
+- **Mali Saengthong** — 12. Pranee's youngest. Has a budgie named Beyoncé. Adopted Trygve at the cart; pressed his button (the second person to do so); tied the pink ribbon around his ring as a remembrance. Said goodbye when Yai sold him.
+- **Lena Shapiro** — ~27, from Echo Park LA. Three-month redundancy-payout backpacker. Bought Trygve at the cart for 2,000 baht. Currently carrying him in her backpack side pocket. Flight LAX in the morning.
 
 ### Background figures referenced
 - **Lourens** — Imani's colleague who calls in sick "the day after Ajax loses." Off-stage.
 - **Naomi** — Imani's daughter, 8. Off-stage.
-- **The man in the Loro Piana quarter-zip** — the contactless customer who looked through Imani twice. Trygve recognised the look as one he had practised for forty years.
-- **The man in row 8** — half-overheard real-estate explanation during the AMS flight. Backdrop.
-- **The Oslo man whose company Trygve bought in 1998** — referenced; off-stage.
-- **The Bucharest kitchen man / Mumbai office woman** — appeared as faces on the *Watch them all cry* feed. Backdrop.
-- **Bram** — Karim's apron colleague at H32. Sealed the crate. Off-stage.
+- **The Loro Piana customer** at Schiphol — single-beat presence; the look Trygve had practised for forty years.
+- **The man in row 8** of the Bergen→AMS flight — backdrop, real-estate explanation overheard.
+- **The Oslo man whose company Trygve bought in 1998** — referenced; the source of the *Watch them all cry* tip.
+- **The Bucharest kitchen man / Mumbai office woman** — *Watch them all cry* feed; backdrop.
+- **Bram** — Karim's apron colleague at H32. Sealed the crate.
+- **The Saengthong family**:
+  - **Yai Saengthong** (75) — matriarch, widowed three years, Khon Kaen origin. Reads the situation, sells Trygve "because he should travel." Awaits the Australian visa.
+  - **Pranee Saengthong** (~50) — daughter, the cart's cook, mortar.
+  - **Som Saengthong** (24) — granddaughter, marketing job at an Asoke agency. The failed translator of the visa form for four months. Bridge-translator during the Trygve-reads-the-form scene.
+  - **Tee Saengthong** (19) — engineering student, normally on his phone, looked up.
+  - **Uncle Lek** — tuk-tuk driver, embellisher.
+  - **Auntie Nuch** — sundries shop two doors down. Source of the ribbon.
+  - **Pim** — referenced cousin, hotel worker, prior failed visa-form helper. Off-stage.
+  - **Sak Saengthong** — Yai's son in Sydney. Off-stage; the visa is to visit him.
+  - **Bow** — Pranee's husband, delivery driver, off-stage.
 
-### Anticipated entities (loop 2)
-- **Anan Phromchai** — Bangkok freight-consolidator worker, anticipated brief carrier between crate and cart.
-- **The Saengthong family** in Phra Khanong, anticipated extended portrait:
-  - **Yai Saengthong** (~75) — matriarch, widowed three years.
-  - **Pranee** (~50) — daughter, the cart's cook.
-  - **Som** (~24), **Tee** (~19), **Mali** (~12) — Pranee's children.
-  - **Uncle Lek**, **Auntie Nuch** — Pranee's siblings, regular evening presence.
-  - The matriarch's son **Sak** in Sydney, off-stage but plot-relevant.
-- **Lena Shapiro** (~27) — backpacker from LA, anticipated buyer.
-- **The kind elderly female near retirement** to whom Trygve eventually returns (per POETICS) — still TBD; Yai is a candidate but timing uncertain.
+### Anticipated entities (loop 3)
+- **Raven** — 27, Black, gay, NYC-based cabin crew on Lena's BKK→LAX flight (working US carrier). Wit in the Yago/Acker/Didion register. Receives Trygve mid-flight when Lena flings him.
+- **The drag club in Echo Park** — small basement venue. Two queens to be named.
+- **The Imani-magnet recurrence** — Trygve returns to Schiphol via Raven's deadhead, ends up on the same magnet beside the Tap and Pay.
+- **The "kind elderly female near retirement"** specified in POETICS open-question 6 — **still TBD.** Yai is older but is a matriarch running her own family's business, not a worker on a rota; this distinct figure has not yet appeared. Likely candidates: an immigration officer at LAX, an overnight cleaner at JFK, a Schiphol staff figure on a different shift than Imani's. Hold open.
 
 ## Relations established
 
-- Marielle → Trygve: silent recognition, no surprise.
-- Anouk → Trygve: never pressed the button. Carried him with care she'd give a passenger's lost ring.
-- Imani → Trygve: pressed the button. Asked "Are you in pain." Muted him with affection. Recognised him as a person who is being a small object.
-- Karim → Trygve: did not know what he was, did not realise he was lost.
-- Trygve → Imani: noticed her wrist-tic; noticed she did not look at her own phone; noticed she was treated by a Loro Piana customer the way Trygve had treated counter-staff for forty years; **noticed that he was not enjoying it.**
-- Trygve → Naomi (off-stage): hears the name on Imani's phone notifications.
-- Trygve → himself: *If only I can get back* (in Norwegian, in a register he had not used inside his own head since his mother had been alive).
+- Marielle → Trygve: silent recognition.
+- Anouk → Trygve: never pressed the button.
+- Imani → Trygve: pressed the button. Asked "Are you in pain." Muted him with affection.
+- Karim → Trygve: did not realise he was lost.
+- Anan → Trygve: pocketed him from a crate without questioning.
+- Mali → Trygve: adopted, pressed the button, tied the ribbon as remembrance.
+- Yai → Trygve: read the situation, gave him to Som for the form, sold him with intent ("he should travel").
+- Som → Trygve: bridge-translator; closed the four-month-long inch.
+- Lena → Trygve: bought him as a trinket; carrying without ceremony.
+- Trygve → Imani: noticed her wrist-tic, the NAOMI SCHOOL notifications, the Loro Piana ignoring-look; **noticed that he was not enjoying it.**
+- Trygve → Yai: when she said *thank him,* he was having a small private experience without an available adjective.
+- Trygve → himself: *if only I can get back* (in Norwegian, in his mother's register).
 
 ## Relations in the air
 
-- Trygve has not been mentioned by full name to anyone other than Anouk and Imani (and Marielle, who read the bezel).
-- His battery / power source has not surfaced as a problem.
-- The mute state persists at end of draft 1 (Imani last muted him before Karim arrived).
+- The mute state persists at end of draft 2 — Som muted him after the visa-form translation; he has not been unmuted since.
+- The pink ribbon is now part of him; it accompanies him forward.
+- Battery / power source still unaddressed.
+- The "kind elderly female near retirement" remains absent.
