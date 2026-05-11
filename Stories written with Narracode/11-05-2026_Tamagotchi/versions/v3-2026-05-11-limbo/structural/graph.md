@@ -1,6 +1,6 @@
 # graph.md — entities and relations
 
-*Loop 4. Pre-draft sync (reflecting state at end of draft 3).*
+*Loop 3. Pre-draft sync (reflecting state at end of draft 2).*
 
 ## Entities established in prose
 
@@ -15,9 +15,7 @@
 - **Karim El-Idrissi** — 38, Moroccan-Dutch, KLM Cargo apron crew. Lost Trygve into a wooden crate at stand H32.
 - **Anan Phromchai** — 29, Bangkok freight-consolidator worker in Bang Na, two-year tenure. Found Trygve in a crate manifested *miscellaneous packing materials*. Pocketed him. Took him to dinner at the Saengthong cart at 18:42.
 - **Mali Saengthong** — 12. Pranee's youngest. Has a budgie named Beyoncé. Adopted Trygve at the cart; pressed his button (the second person to do so); tied the pink ribbon around his ring as a remembrance. Said goodbye when Yai sold him.
-- **Lena Shapiro** — ~27, from Echo Park LA. Three-month redundancy-payout backpacker. Bought Trygve at the cart for 2,000 baht. On the BKK→LAX 09:30 flight, hungover, drank further on board, vomit-imminent at hour 8, flung Trygve to Raven mid-bathroom-rush — *"keep him, he's grouchy."* Did not look for him again. Off-stage from that point.
-- **Raven Beauchamp** — 27, Black, gay, Delta cabin crew, NYC-based, from Detroit. Sister Devon in Atlanta. Reads Hilton Als (paperback *White Girls* in his crew bag). Listens to Caroline Polachek. Apron pins: PRIDE (Delta, 2024), I SURVIVED THE 2025 GROUND-CREW STRIKE. Caught Trygve in his palm. Took him to LA, to Limbo (basement queer bar in Echo Park), back through the BKK→LAX→JFK→AMS deadhead route, gifted him to Imani at Schiphol Coffee Company. Off-stage after the handover.
-- **Imani (return)** — recipient of Trygve at the magnet for the second time. Now on her second double in three days (Lourens "food poisoning the day after a Champions League midweek"). Note: Naomi reading two grade-levels above her age — small private good thing.
+- **Lena Shapiro** — ~27, from Echo Park LA. Three-month redundancy-payout backpacker. Bought Trygve at the cart for 2,000 baht. Currently carrying him in her backpack side pocket. Flight LAX in the morning.
 
 ### Background figures referenced
 - **Lourens** — Imani's colleague who calls in sick "the day after Ajax loses." Off-stage.
@@ -38,10 +36,11 @@
   - **Sak Saengthong** — Yai's son in Sydney. Off-stage; the visa is to visit him.
   - **Bow** — Pranee's husband, delivery driver, off-stage.
 
-### Anticipated entities (loop 4 — closing)
-- **Anouk de Jager (return)** — likely the carrier on the AMS→BGO flight, with vibrant backstory to be drawn (Suriname/Hoofddorp upbringing, ex-competitive freediver, sister in Curaçao, *adem* tattoo on left rib, reads Han Kang, listens to Anna von Hausswolff). She becomes the repository of Trygve's story.
-- **Marielle (return)** — back at Bergen Flesland in waking life. The cleaner who, in the dream, picked Trygve up from the carpet now picks his keys up from the floor. Same gestures, transposed.
-- **The "kind elderly female near retirement"** — likely will not be fulfilled in this draft cycle. Defer or revise POETICS post-mortem.
+### Anticipated entities (loop 3)
+- **Raven** — 27, Black, gay, NYC-based cabin crew on Lena's BKK→LAX flight (working US carrier). Wit in the Yago/Acker/Didion register. Receives Trygve mid-flight when Lena flings him.
+- **The drag club in Echo Park** — small basement venue. Two queens to be named.
+- **The Imani-magnet recurrence** — Trygve returns to Schiphol via Raven's deadhead, ends up on the same magnet beside the Tap and Pay.
+- **The "kind elderly female near retirement"** specified in POETICS open-question 6 — **still TBD.** Yai is older but is a matriarch running her own family's business, not a worker on a rota; this distinct figure has not yet appeared. Likely candidates: an immigration officer at LAX, an overnight cleaner at JFK, a Schiphol staff figure on a different shift than Imani's. Hold open.
 
 ## Relations established
 

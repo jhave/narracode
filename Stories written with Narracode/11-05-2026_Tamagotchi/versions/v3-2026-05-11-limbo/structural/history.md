@@ -1,6 +1,6 @@
 # history.md — what has been established, said, refused
 
-*Loop 4. Pre-draft sync (reflecting state at end of draft 3).*
+*Loop 3. Pre-draft sync (reflecting state at end of draft 2).*
 
 ## Established in prose
 
@@ -18,11 +18,6 @@
   - In the cargo crate: thought, for fourteen hours, about Skuteviken in a register he had not used in his life.
   - At the Saengthong cart: read the visa form well, felt the auditor's satisfaction *different* from the version he had used watching strangers cry on *Watch them all cry*; *decided, for the moment, not to investigate further.*
   - On Lena's backpack-pocket transit: registered the ribbon as a different kind of weight; thought, against his will, of the brass handle on his door; remembered Imani's question *Are you in pain* and noted the answer was no longer the answer he would have given.
-  - With Raven on the BKK→LAX flight: stated his bigotry plainly ("All of them") and registered Raven's affectionate weaponization of it. Watched the LA approach light from the back-galley window for the first time since 1991.
-  - At Limbo: was ambushed by a Didion sentence he had read in 1980 and not retrieved since. Casing chimed involuntarily. Listened to Lil Snack's TikTok deconstruction in muted state.
-  - Was named to the room ("Family. This is Trygve. He hates everything you stand for. Be nice to him.") and registered the room laughing *with* Raven's affection rather than *at* Trygve. Decided, again, not to investigate further.
-  - On the deadhead JFK→AMS: thought *if only I can get back* — and then, with new precision, *not yet, but soon.*
-  - Back on Imani's magnet: noticed the bend in the lower-left corner of a Coffee Company sticker (the first sticker he has ever noticed) and thought, for the first time since the transformation, *I do not, particularly, mind being here.*
 
 ### About the world
 - The *Watch them all cry* site is a crypto-loss leaderboard with a video feed of people losing money in real time, in black-and-cyan, designed (apparently) by a Gulf-monarchy intern.

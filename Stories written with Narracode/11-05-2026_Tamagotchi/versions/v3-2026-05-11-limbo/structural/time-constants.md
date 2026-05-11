@@ -1,6 +1,6 @@
 # time-constants.md — active durations
 
-*Loop 4. Pre-draft sync (reflecting state at end of draft 3).*
+*Loop 3. Pre-draft sync (reflecting state at end of draft 2).*
 
 ## Established in prose
 
@@ -30,12 +30,15 @@
 - The Saengthong cart est. 1989. Auntie Nuch's ribbon-trimmings have been awaiting throwing-out for six months. Sak's wedding loan dates from 2017. Yai's husband died three years before this story.
 - Lena flew out of LA on a three-month redundancy payout from a video-editing firm in Echo Park that ceased to exist while she was in Hanoi. She paid 800 baht for a 40-baht tuk-tuk that morning.
 
-## Anticipated durations (loop 4 — closing)
+## Anticipated durations (loop 3)
 
-- AMS → BGO flight: ~1h45m. Likely an early-evening or late-evening KLM service. Anouk on Bergen rotation week 4 (or finishing week 3); receives Trygve from Imani during the same shift.
-- Bergen Flesland landing: night.
-- The wake-up scene: collapses dream-time. The clock at the airport may show only a few hours have passed since Trygve fell asleep, OR show a much later time — the prose preserves ambiguity.
-- The pre-dawn → dawn transition is the operative lighting for the wake.
+- BKK→LAX nonstop ~16h. Lena's flight wheels-up 09:30 BKK, wheels-down LAX afternoon same calendar day (date-line crossing).
+- Mid-flight vomit moment: ~hour 8 (~01:30 LAX-time).
+- LA evening: drag show at small Echo Park club.
+- Next morning: Raven flies LAX→JFK (~5h).
+- Same day evening: Raven deadheads JFK→AMS (~7h overnight).
+- AMS arrival: ~10:00 next morning AMS-time.
+- Imani may or may not be on shift when Raven walks past — Imani's shift is 05:00–17:00; AMS arrival ~10:00 puts Raven within her shift window.
 
 ## Refused durations
 
