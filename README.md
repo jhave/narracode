@@ -8,7 +8,7 @@ Computer code is a solved problem for AI. Why not literature?
 
 Narracode is a storytelling harness for agentic AI (inspired by Claude Code). It is a neurosymbolic approach to narrative generation.
 
-It emerged from the realization that the intrinsic embodied complexity of nunanced narrative might become comptationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code https://github.com/weikma/claude-code-rebuilt specifically re-purposed for narrative literature.  
+It emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code, specifically re-purposed for narrative literature.  
 
 ## Installation
 
@@ -96,7 +96,7 @@ Claude Code is a CLI tool developed by Anthropic for AI-assisted software develo
 
 On March 31, 2026, Anthropic accidentally leaked the full source code of Claude Code (the CLI coding agent) via a 59.8 MB source map file bundled in NPM package version 2.1.88. The leak revealed 500,000+ lines of TypeScript, including its system prompt, tool logic (bash, edit), and agentic loop, sparking widespread analysis. 
 
-So now the architecture of the system is public. 
+So now the architecture of the system is public. And it has been [re-written and is fully functional online](https://github.com/weikma/claude-code-rebuilt).
 
 ## Historical Computational Narrative Systems
 
