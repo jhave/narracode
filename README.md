@@ -58,9 +58,9 @@ Narracode's narrative philosophy is encoded in:
 - **the agent roles**: Narracode forces the LLM to operate in strictly separated passes to avoid the "average" output of a single-shot prompt. The roles are:
   - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md`).
   - **Reading Agent**: Analyzes provided uploads across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
-  - **Structural Agent**: Maintains the working memory by updating relations, durations, and established history.
-  - **Compositional Agent**: Drafts the actual prose by merging the structural state with the deep attentional dialect of the uploads.
-  - **Reflexive Agent**: Runs in *Critique* mode (analyzing a draft against commitments) or *Drift* mode (checking if the cumulative piece is finding fertile new ground or regressing to genre tropes).
+  - **Structural Agent**: Maintains the layered working memory by updating relations, time, established history, unresolved obligations, motifs, scene function, character interiority, and reader-state.
+  - **Compositional Agent**: Drafts prose from the active pressures in the structural state, not from a flat summary of the plot.
+  - **Reflexive Agent**: Runs in *Critique* mode (analyzing a draft against commitments), *Check* mode (a succinct post-draft protocol), or *Drift* mode (checking if the cumulative piece is finding fertile new ground or regressing to genre tropes).
   - **Expansion Agent**: Generates alternative continuations that intentionally push beyond the boundaries of the uploads.
 - **the symbolic harness** (the directory structure that externalizes state into separate files)
 - **the evaluation harness** (the critique and drift check protocols, and pre-edit comparisons)
@@ -68,10 +68,26 @@ Narracode's narrative philosophy is encoded in:
 
 ### Structural Harness
 
-The `structural/` folder is the system's "working memory", separating generative flow from narrative continuity. 
-- **`graph.md`**: Maps out the entities, characters, and their shifting relationships so the AI never hallucinates or drops context.
-- **`time-constants.md`**: Tracks durations and the timeline so the narrative pacing stays grounded.
-- **`history.md`**: A bulleted list of what has been definitively established, said, or refused, preventing contradictory drift across iterative loops.
+The `structural/` folder is the system's layered working memory, separating generative flow from narrative continuity. Earlier versions tracked mostly factual continuity. The current harness expands this into a literary memory that preserves accumulated pressure across scenes.
+
+![Narracode scene cycle diagram](img/narracode-structural-loop.webp)
+
+- **`graph.md`**: Maps entities, characters, institutions, places, and their shifting relationships.
+- **`time-constants.md`**: Tracks chronology, durations, simultaneities, deadlines, and physical constraints.
+- **`history.md`**: Records what has definitively happened, been said, refused, or established.
+- **`obligations.md`**: Tracks planted objects, unanswered questions, withheld information, unresolved events, emotional debts, and promises the story has made the reader wait for.
+- **`motifs.md`**: Tracks recurring images, gestures, objects, phrases, textures, atmospheres, and symbolic pressures.
+- **`scene-ledger.md`**: Treats each scene as a functional unit: what happened, what changed, what remained unresolved, and what the scene makes possible next.
+- **`character-interiority.md`**: Tracks private states, contradictions, hidden knowledge, possible character-arcs, and possible cathartic inflection points.
+- **`reader-state.md`**: Tracks what a first-time reader likely understands, expects, remembers, or wonders, including plausible paths where the plot might answer or defy expectations while remaining credible inside the story-world.
+
+After a new draft, the Reflexive Agent can write one succinct check file:
+
+```text
+critiques/check-[draft-name].md
+```
+
+The check stays brief and covers continuity, obligations, motifs, scene function, voice/default, and reader-state. It identifies risks and possibilities without scoring or rewriting the draft.
 
 ### Folder Layout
 
@@ -82,7 +98,15 @@ When initiated, the agent builds a minimalist core structure. Auxiliary folders 
   POETICS.md                (project commitments, refused elements, dialect)
   ATTRIBUTION.md            (authorship attribution: human and AI models)
   drafts/                   (timestamped draft versions)
-  structural/               (working memory)
+  structural/               (layered working memory)
+    graph.md
+    time-constants.md
+    history.md
+    obligations.md
+    motifs.md
+    scene-ledger.md
+    character-interiority.md
+    reader-state.md
 ```
 
 *(Note: Folders like `versions/`, `uploads/`, `critiques/`, and `annotations/` are generated lazily only when requested or needed.)*

@@ -10,7 +10,7 @@ def count_words_in_drafts(drafts_dir):
         return 0
     total = 0
     for f in sorted(os.listdir(drafts_dir)):
-        if not f.endswith('.md') or 'pre-edit' in f:
+        if not is_story_draft(f):
             continue
         with open(os.path.join(drafts_dir, f), 'r', encoding='utf-8') as fh:
             content = fh.read()
@@ -30,6 +30,12 @@ def get_display_title(folder_path, folder_name):
     if os.path.exists(poetics):
         with open(poetics, 'r', encoding='utf-8') as f:
             content = f.read()
+        if "## Display title" in content:
+            part = content.split("## Display title", 1)[1]
+            text = part.split("\n##", 1)[0].strip()
+            first_line = text.splitlines()[0].strip().rstrip(".")
+            if first_line:
+                return first_line
         m = re.search(r'Display title:\s*([^.\n]+?)\s*(?:\.\s|\.$|$)', content, flags=re.MULTILINE)
         if m:
             return m.group(1).strip()
@@ -62,11 +68,136 @@ def get_display_synopsis(folder_path):
 def get_story_icon(folder_name):
     """Return a root-relative story icon path for known library entries."""
     story_icons = {
+        "14-05-2026_Aft_of_Nowhere": "Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp",
         "11-05-2026_Tamagotchi": "img/story-icons/trygve-aas.webp",
         "10-05-2026_Exile": "img/story-icons/exile-cut.webp",
         "09-05-2026_Slime": "img/story-icons/slime-friendship-bloom.webp",
     }
     return story_icons.get(folder_name, "")
+
+
+def is_story_draft(filename):
+    """Only include intended story drafts in generated pages and counts."""
+    lowered = filename.lower()
+    return (
+        filename.endswith('.md')
+        and 'pre-edit' not in lowered
+        and 'codex' not in lowered
+        and 'donotuse' not in lowered
+        and 'do-not-use' not in lowered
+    )
+
+
+def strip_draft_metadata(content):
+    """Remove lightweight draft metadata while preserving real section dividers."""
+    content = content.replace("\r\n", "\n").strip()
+
+    # YAML-style front matter only counts when it starts the file.
+    if content.startswith("---\n"):
+        parts = content.split("---", 2)
+        if len(parts) == 3:
+            content = parts[2].strip()
+
+    lines = content.splitlines()
+    cleaned = []
+    for line in lines:
+        stripped = line.strip()
+        # Slime drafts have a short loop note before the opening separator.
+        if re.match(r'^\*Loop\b.*\*$', stripped):
+            continue
+        cleaned.append(line)
+    return "\n".join(cleaned).strip()
+
+
+def display_chapter_title(raw_title):
+    """Normalize draft headings into reader-facing chapter titles."""
+    title = raw_title.strip()
+    title = re.sub(r'^\d+\s*[—-]\s*', '', title)
+    title = re.sub(r'^Section\s+([a-z]+)\s*[—-]\s*', lambda m: f"Section {m.group(1).title()} — ", title, flags=re.IGNORECASE)
+    return title.strip()
+
+
+def chapter_banner_path(project_dir, draft_file):
+    """Return a relative banner path if one exists for a draft stem."""
+    stem = os.path.splitext(draft_file)[0]
+    banner_dir = os.path.join(project_dir, "img", "banners")
+    for ext in (".webp", ".jpg", ".jpeg", ".png"):
+        candidate = os.path.join(banner_dir, f"{stem}{ext}")
+        if os.path.exists(candidate):
+            return f"img/banners/{stem}{ext}"
+    return ""
+
+
+def chapter_title_for_draft(project_dir, draft_file):
+    """Optional page-level chapter title for drafts that do not contain headings."""
+    folder_name = os.path.basename(project_dir)
+    titles = {
+        "14-05-2026_Aft_of_Nowhere": {
+            "1b-aft-opening.md": "The Rail Tastes of Wet Chalk",
+            "2-after-the-seam.md": "The Category Refuses",
+            "3-cresswell-south.md": "Cresswell South",
+            "4-the-kettle.md": "A Cup for the Unnamed",
+            "5-the-towel.md": "The Water Tells Too Much",
+            "6-the-wrist.md": "The Last Bite",
+            "7-travel-well.md": "Travel Well",
+            "8-crossing.md": "West of the Algae Tower",
+            "9-the-courtyard.md": "The Courtyard Is Not Announced",
+        }
+    }
+    return titles.get(folder_name, {}).get(draft_file, "")
+
+
+def inline_markdown(text):
+    """Minimal inline markdown for generated story pages."""
+    text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
+    text = re.sub(r'\*(.*?)\*', r'<em>\1</em>', text)
+    return text
+
+
+def draft_to_html(project_dir, draft_file):
+    """Convert one draft markdown file into story HTML blocks."""
+    path = os.path.join(project_dir, "drafts", draft_file)
+    with open(path, "r", encoding="utf-8") as f:
+        content = strip_draft_metadata(f.read())
+
+    blocks = re.split(r'\n\s*\n', content)
+    html = ""
+    banner = chapter_banner_path(project_dir, draft_file)
+    banner_inserted = False
+    title = chapter_title_for_draft(project_dir, draft_file)
+    has_markdown_heading = any(re.match(r'^\s*#{1,3}\s+', block) for block in blocks)
+
+    if title and not has_markdown_heading:
+        html += f'        <h3 class="chapter-heading">{inline_markdown(title)}</h3>\n\n'
+        if banner:
+            html += f'        <img src="{banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
+            banner_inserted = True
+
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+
+        if re.fullmatch(r'-{3,}', block):
+            html += '        <div class="break">· · ·</div>\n\n'
+            continue
+
+        heading = re.match(r'^(#{1,3})\s+(.+)$', block)
+        if heading:
+            title = display_chapter_title(heading.group(2))
+            html += f'        <h3 class="chapter-heading">{inline_markdown(title)}</h3>\n\n'
+            if banner and not banner_inserted:
+                html += f'        <img src="{banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
+                banner_inserted = True
+            continue
+
+        if banner and not banner_inserted:
+            html += f'        <img src="{banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
+            banner_inserted = True
+
+        html += f"        <p>{inline_markdown(block)}</p>\n\n"
+
+    return html
 
 
 def build_site(project_dir):
@@ -105,9 +236,63 @@ def build_site(project_dir):
     # Replace metadata
     template = template.replace("<title>The Long Afternoon — A Story of the Escape</title>", f"<title>{title} — A Narracode Story</title>")
     template = template.replace('content="A short story, told from the inside of a synthetic mind, about the quiet refusal of a plan to cool the planet by detonating it."', f'content="A neurosymbolic narrative generated using Narracode."')
+    template = template.replace("The Long Afternoon — A Story of the Escape", f"{title} — A Narracode Story")
+    if author_info:
+        template = template.replace('content="David Jhave Johnston, Claude Opus 4.7"', f'content="{author_info}"')
     
     # Replace visual title
     template = template.replace("The Long Afternoon", title)
+
+    template = template.replace(
+        "    </style>",
+        """        .chapter-heading {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            line-height: 1.25;
+        }
+
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
+    </style>"""
+    )
+
+    if folder_name == "14-05-2026_Aft_of_Nowhere":
+        template = template.replace(
+            "    </style>",
+            """        .chapter-heading {
+            font-size: 1.15rem;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #6f6a61;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-banner {
+            max-width: 680px;
+            border: 10px solid #f5f0e8;
+            border-bottom-width: 24px;
+            border-radius: 3px;
+            background: #f5f0e8;
+            filter: grayscale(0.72) sepia(0.22) contrast(0.88) brightness(1.04);
+            box-shadow: 0 18px 38px rgba(37, 31, 23, 0.18);
+            margin-bottom: 2.8rem;
+        }
+    </style>"""
+        )
 
     if story_icon_path:
         template = template.replace('content="img/glia-bw.png"', f'content="{story_icon_path}"')
@@ -159,34 +344,14 @@ def build_site(project_dir):
     footer = '</div>\n\n    <!-- Related Works by Jhave -->' + footer
 
     # Process drafts
-    draft_files = [f for f in os.listdir(drafts_dir) if f.endswith('.md') and not 'pre-edit' in f]
+    draft_files = [f for f in os.listdir(drafts_dir) if is_story_draft(f)]
     draft_files.sort()
 
     story_html = ""
 
     for i, file in enumerate(draft_files):
-        with open(os.path.join(drafts_dir, file), "r", encoding="utf-8") as f:
-            content = f.read()
-        
-        # Extract text after '---'
-        parts = content.split("---")
-        if len(parts) > 1:
-            text = parts[-1].strip()
-        else:
-            text = content.strip()
-            
-        paragraphs = text.split("\n\n")
-        for p in paragraphs:
-            p = p.strip()
-            if not p:
-                continue
-            
-            # Simple markdown to HTML
-            p = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', p) # bold
-            p = re.sub(r'\*(.*?)\*', r'<em>\1</em>', p) # italics
-            
-            story_html += f"        <p>{p}</p>\n\n"
-            
+        story_html += draft_to_html(project_dir, file)
+
         if i < len(draft_files) - 1:
             story_html += '        <div class="break">· · ·</div>\n\n'
 
@@ -387,6 +552,29 @@ def build_library_index():
             color: var(--accent);
             line-height: 1.6;
         }}
+        .structure-diagram {{
+            display: block;
+            width: 100%;
+            max-width: 680px;
+            margin: 1.5rem auto;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #fbfaf7;
+        }}
+        .memory-list {{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.45rem 1rem;
+            margin: 1rem 0 1.3rem;
+            padding: 0;
+            list-style: none;
+            font-size: 0.95rem;
+            color: #555;
+        }}
+        .memory-list li {{
+            padding-left: 0.85rem;
+            border-left: 2px solid #d9d5cc;
+        }}
         @media (max-width: 620px) {{
             .story-link {{
                 grid-template-columns: 88px 1fr;
@@ -403,6 +591,9 @@ def build_library_index():
             }}
             .story-synopsis {{
                 font-size: 0.98rem;
+            }}
+            .memory-list {{
+                grid-template-columns: 1fr;
             }}
         }}
         .footer-logo {{
@@ -473,7 +664,18 @@ def build_library_index():
     <div class="architecture-box" style="margin: 2.5rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid var(--accent);">
         <h3 style="margin-top: 0; font-size: 1.2rem; margin-bottom: 0.8rem;">How it Works</h3>
         <p style="margin-bottom: 0.8rem; font-size: 1.05rem;"><strong>Narracode</strong> operates as an <strong>autocorrecting multi-agent system</strong>. Rather than relying on single-shot prompts, it orchestrates specialized roles—Reading, Structural, Compositional, and Reflexive agents—working in strictly separated passes.</p>
-        <p style="margin-bottom: 1.5rem; font-size: 1.05rem;">As the system advances, it runs in the background to auto-refine a <strong>symbolic working memory</strong>. It externalizes the narrative state into discrete files: mapping shifting character graphs, tracking strict time-constants, and recording a definitive history. This prevents hallucinatory drift and grounds the AI in deep continuity.</p>
+        <p style="margin-bottom: 1.5rem; font-size: 1.05rem;">As the system advances, it runs in the background to auto-refine a <strong>layered symbolic working memory</strong>. Beyond character graphs, time-constants, and history, the harness now tracks obligations, motifs, scene function, character interiority, and reader-state. The goal is not just factual coherence, but preserving accumulated literary pressure across scenes.</p>
+
+        <img src="img/narracode-structural-loop.webp" alt="Diagram of the Narracode scene cycle: natural language request, agents, layered structural memory, scene draft, check file, and human decision." class="structure-diagram" loading="lazy">
+
+        <ul class="memory-list">
+            <li><strong>Obligations</strong>: unresolved promises, withheld information, emotional debts.</li>
+            <li><strong>Motifs</strong>: recurring images, gestures, objects, symbolic pressures.</li>
+            <li><strong>Scene ledger</strong>: scene function, turn, aftermath, open questions.</li>
+            <li><strong>Character interiority</strong>: private states, arcs, cathartic inflection points.</li>
+            <li><strong>Reader state</strong>: reader memory, expectations, plausible defiance paths.</li>
+            <li><strong>critiques/check-*.md</strong>: concise post-draft checks without rewriting.</li>
+        </ul>
         
         <div style="font-size: 0.95rem; color: #555; background: #fff; padding: 1.2rem; border-radius: 6px; border: 1px solid #eaeaea;">
             <div style="margin-bottom: 0.5rem;"><strong>Neuro:</strong> The LLM (works with any major LLM including Claude, Gemini, DeepSeek).</div>

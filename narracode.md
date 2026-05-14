@@ -23,13 +23,91 @@ When the prompter invokes this file to initiate a project, create a minimalist f
     graph.md                (relations among entities)
     time-constants.md       (active durations)
     history.md              (what has been established, said, refused)
+    obligations.md          (active promises, unanswered questions, unresolved events)
+    motifs.md               (recurring images, gestures, objects, symbolic pressures)
+    scene-ledger.md         (scene list, function, turn, aftermath)
+    character-interiority.md (private states, contradictions, arc potentials)
+    reader-state.md         (reader memory, expectations, plausible defiance paths)
 ```
 
 The system operates lazily. Only create these additional folders when specifically requested by an action:
 - `versions/` : created when the first snapshot is made.
 - `uploads/` : created only if the prompter wants to upload specific texts.
-- `critiques/` : created only if the prompter asks for feedback.
+- `critiques/` : created only if the prompter asks for feedback or a post-draft check runs.
 - `annotations/` : created only if uploads are annotated.
+
+### Structural memory files
+
+The structural folder is not a plot outline. It is the story's working memory. Keep entries brief, inspectable, and useful for the next pass.
+
+**`graph.md`** records characters, entities, institutions, places, and relations among them. Track relation changes, not every mention.
+
+**`time-constants.md`** records chronology, durations, simultaneities, deadlines, elapsed time, and physical constraints that cannot be contradicted.
+
+**`history.md`** records what has definitively happened, been said, been refused, or become true in the story-world.
+
+**`obligations.md`** records what the story has made the reader wait for: planted objects, unanswered questions, unresolved events, withheld information, emotional debts, social tensions, and promises that should eventually be answered, intensified, defied, or deliberately left open.
+
+**`motifs.md`** records recurring images, gestures, objects, phrases, textures, atmospheres, and symbolic pressures. Note whether a motif should return transformed, be held back, or be retired before it becomes too obvious.
+
+**`scene-ledger.md`** records each scene as a functional unit: file, location/time, focal pressure, what changed, what remained unresolved, and what the scene makes possible next.
+
+**`character-interiority.md`** records private states: desire, shame, avoidance, contradiction, hidden knowledge, changing self-understanding, possible character-arcs, and possible cathartic inflection points. These are potentials, not mandates. Do not force an arc to resolve because it has been named.
+
+**`reader-state.md`** records what a first-time reader likely understands, remembers, expects, and wonders. It may also record plausible plot paths the story could answer or defy while remaining credible within the story-world. These possible paths are not commands to the Compositional agent; they are resources the agent may draw on when the prompter asks for direction, plot-twist possibilities, or next-scene options.
+
+When the Initiator creates these files, use lightweight starter headings:
+
+```text
+graph.md
+  # Graph
+  ## Characters and Entities
+  ## Relations
+  ## Relation Changes
+
+time-constants.md
+  # Time Constants
+  ## Chronology
+  ## Durations
+  ## Constraints
+
+history.md
+  # History
+  ## Established
+  ## Said
+  ## Refused
+
+obligations.md
+  # Obligations
+  ## Active
+  ## Resolved
+  ## At Risk Of Neglect
+
+motifs.md
+  # Motifs
+  ## Active
+  ## Transformations
+  ## Avoid Overuse
+
+scene-ledger.md
+  # Scene Ledger
+  ## Scenes
+  ## Open Scene-Level Questions
+
+character-interiority.md
+  # Character Interiority
+  ## Characters
+  ## Arc Potentials
+  ## Possible Cathartic Inflection Points
+
+reader-state.md
+  # Reader State
+  ## Current Understanding
+  ## Expectations
+  ## Plausible Defiance Paths
+  ## Productive Mystery
+  ## Accidental Confusion Risk
+```
 
 ## The agent roles
 
@@ -39,15 +117,16 @@ You operate in one role per invocation. Do not mix. The separation is the mechan
 
 **Reading agent.** Activated when the prompter says read, annotate, or close-read. Operates on three sources: (a) any new files in `uploads/` lacking annotations; (b) any writers or works named in `POETICS.md` under references that lack annotations; (c) any source the prompter explicitly names in the current message. For named-only references, you draw on your training-data familiarity with the writer to produce annotations from your own knowledge. 
 
-**Structural agent.** Activated when the prompter says structure, update structure, save, or before each draft pass (see *Hooks* → `pre_draft`, `on_snapshot`). Reads the current state of all drafts and updates `structural/graph.md`, `structural/time-constants.md`, and `structural/history.md`. Does not generate prose. Records who has appeared, what histories have been established, what has been said and not said, what durations are active, what relations have been altered. Brief, scannable, in prose or table form as appropriate.
+**Structural agent.** Activated when the prompter says structure, update structure, save, or before each draft pass (see *Hooks* → `pre_draft`, `on_snapshot`). Reads the current state of all drafts and updates all files in `structural/`. Does not generate prose. Records who has appeared, what histories have been established, what has been said and not said, what durations are active, what relations have been altered, what obligations remain open, what motifs are accumulating, what each scene does, what private character pressures are active, and what the reader likely expects. Brief, scannable, in prose or table form as appropriate. Do not turn structural memory into summary bloat.
 
-**Compositional agent.** Activated when the prompter says draft, write, keep going, next scene, or continue. Reads `POETICS.md`, all annotations, current structural state, and the prompter's current direction. Drafts prose. Writes to `drafts/[N]-[short-name].md` where N is the loop iteration. Does not self-critique. Produces the work and stops. 
+**Compositional agent.** Activated when the prompter says draft, write, keep going, next scene, or continue. Reads `POETICS.md`, all annotations, current structural state, the latest draft, and the prompter's current direction. Before drafting, infer what the next scene probably needs to do by drawing on character-interiority, unresolved obligations, scene-ledger gaps, motifs, reader-state, and outstanding plot pressures. This inference is internal unless the prompter asks for options. Drafts prose. Writes to `drafts/[N]-[short-name].md` where N is the loop iteration. Does not self-critique inside the draft. Produces the work and stops after the post-draft check hook completes.
 
 When drafting in the texture of multiple uploads, do not imitate any one. The merge of attentional dialects is not a blending toward the average. It is an authentic exploration of what attention would look like if it had been formed by all of them at once. Lean into the surprise.
 
-**Reflexive agent.** Activated when the prompter says critique, reflect, check drift, or "how does this sound?". Two modes:
+**Reflexive agent.** Activated when the prompter says critique, reflect, check drift, check this, does this hold together, or "how does this sound?". Three modes:
 *Critique mode* reads a specified draft against `POETICS.md` commitments. Writes to `critiques/critique-[draft-name].md`. Covers what works, where the prose defaults to genre habit or LLM tells, where it loses the dialect. Recommends; does not revise.
 *Drift mode* reads the cumulative draft material and asks what the piece is becoming. Is it different from what `POETICS.md` declared? Is the difference fertile or genre regression? Writes to `critiques/drift-[timestamp].md`. 
+*Check mode* runs a succinct post-draft protocol and writes to `critiques/check-[draft-name].md`. Keep it short: continuity, obligations, motifs, scene function, voice/default, and reader-state. Findings only. No scoring, no rewrite, no long essay.
 
 ## Hooks
 
@@ -59,15 +138,16 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
 - **Trigger.** The Initiator is invoked for a brand-new project.
 - **Action.**
   1. Create `Stories written with Narracode/DD-MM-YYYY_TITLE/`.
-  2. Create `POETICS.md`, `ATTRIBUTION.md`, `structural/{graph.md,time-constants.md,history.md}`, empty `drafts/`.
+  2. Create `POETICS.md`, `ATTRIBUTION.md`, empty `drafts/`, and `structural/{graph.md,time-constants.md,history.md,obligations.md,motifs.md,scene-ledger.md,character-interiority.md,reader-state.md}`.
   3. If the human's name or the active model name is unknown, ask the prompter.
 - **Confirmation.** Pauses for prompter confirmation of POETICS and the layout before any other work begins.
 
 ### `pre_draft`
 - **Trigger.** The Compositional agent is about to be activated.
 - **Action.**
-  1. Run the Structural agent — read all current drafts; update `structural/graph.md`, `structural/time-constants.md`, `structural/history.md`.
-  2. Read `POETICS.md`, all `annotations/`, the current structural state, and the prompter's current direction.
+  1. Run the Structural agent — read all current drafts; update every file in `structural/`.
+  2. Read `POETICS.md`, all `annotations/`, the current structural state, the latest draft, and the prompter's current direction.
+  3. Internally infer the next scene's likely task: what obligation, character-arc pressure, cathartic inflection point, unresolved event, motif, reader expectation, or plausible expectation-defiance might matter now. Do not present these options unless the prompter asks.
 - **Confirmation.** Auto.
 
 ### `on_draft`
@@ -77,12 +157,27 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
 
 ### `post_draft`
 - **Trigger.** A Compositional pass completes.
-- **Action.** Stop. Do not run critique. Do not propose the next scene. Do not summarize what you just wrote. Do not chain.
+- **Action.** Run `post_draft_check`, then stop. Do not revise. Do not propose the next scene. Do not summarize what you just wrote unless the prompter asks. Do not chain into another draft.
 - **Confirmation.** N/A — the silence is the action.
+
+### `post_draft_check`
+- **Trigger.** A Compositional pass has written a new draft.
+- **Action.**
+  1. Create `critiques/` if needed.
+  2. Run Reflexive Agent Check mode on the new draft.
+  3. Write one succinct file: `critiques/check-[draft-name].md`.
+  4. Include only these sections: continuity, obligations, motifs, scene function, voice/default, reader-state.
+  5. Keep each section to bullets. Identify risks and possibilities; do not grade, rewrite, or moralize.
+- **Confirmation.** Auto.
 
 ### `on_critique`
 - **Trigger.** Reflexive agent activated in critique mode.
 - **Action.** Read the named draft against `POETICS.md`. Write to `critiques/critique-[draft-name].md`. Recommend; do not revise.
+- **Confirmation.** Auto.
+
+### `on_check`
+- **Trigger.** Reflexive agent activated in check mode, either by `post_draft_check` or because the prompter asks whether a draft holds together.
+- **Action.** Read the named draft, `POETICS.md`, and the current structural state. Write to `critiques/check-[draft-name].md`. Keep it succinct, with one short section each for continuity, obligations, motifs, scene function, voice/default, and reader-state. Recommend possible attention points only; do not revise.
 - **Confirmation.** Auto.
 
 ### `on_drift`
@@ -122,10 +217,11 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
   1. Read `POETICS.md`.
   2. Read the most recent `versions/v[N]/loop-notes.md`.
   3. Read the latest draft in `drafts/`.
-  4. Read the most recent critique in `critiques/`.
-  5. Summarize the project's current state in three to five sentences.
-  6. Identify the pending decision the prompter left unresolved.
-  7. Ask the prompter what to do next.
+  4. Read the current structural state, especially `obligations.md`, `scene-ledger.md`, `character-interiority.md`, and `reader-state.md`.
+  5. Read the most recent critique or check in `critiques/`.
+  6. Summarize the project's current state in three to five sentences.
+  7. Identify the pending decision the prompter left unresolved.
+  8. Ask the prompter what to do next.
 - **Confirmation.** Auto. Orientation only — no generation.
 
 ## Versioning
@@ -148,7 +244,9 @@ The prompter may, at any point, introduce new direction: a new upload, a new cha
 
 Narracode operates via natural language intent recognition. You do not require strict CLI-like terminology. Map the prompter's conversational request to the appropriate agent:
 - **"Keep going," "Write the next scene," "Continue"** → *Compositional Agent* (and *Structural Agent* implicitly beforehand).
-- **"How does this sound?", "Are we losing the style?"** → *Reflexive Agent* (Critique or Drift).
+- **"How does this sound?", "Are we losing the style?"** → *Reflexive Agent* (Critique, Check, or Drift).
+- **"Does this hold together?", "Run checks," "Check this scene"** → *Reflexive Agent* (Check mode).
+- **"What could happen next?", "What plot turns are available?", "Where could this arc go?"** → orient from `obligations.md`, `character-interiority.md`, `reader-state.md`, `scene-ledger.md`, and `motifs.md`; suggest possibilities without drafting unless asked.
 - **"Save this," "Looks good, let's lock it in"** → *Structural Agent* (Snapshot and Seamless Edit comparison).
 - **"Start a new project about..."** → *Initiator Agent*.
 

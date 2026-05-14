@@ -4,6 +4,10 @@
 
 Aft of Nowhere.
 
+## Display synopsis
+
+In Aft, a polite municipal accident of a city, Vera Mote calibrates the touch-taste correspondences of civic surfaces until an unreadable child presses through the system's careful preference field. He cannot be paused, categorized, or optimized, and carrying him westward draws Vera toward a district where being unknown has become a form of practice.
+
 ## Premise
 
 In the mid-21st century, the non-descript regional city of Aft survives because it is administratively boring: neither hidden nor sacred, just low-priority. Its benevolent AI governance system manages civic life through preference-sensitive surfaces and gentle bodily pings, gathering inadvertent textures into a topological latent space that is beginning, almost politely, to resemble appetite.
@@ -67,4 +71,3 @@ The Unpinged District exists because some people learned to answer preference pi
 ## Reader contract
 
 The reader should feel that the story is playful, abject, innocent without naivety, and morally unfinished. Strangeness should be precise enough to feel lived-in. The plot may answer or defy expectations, but it must remain plausible within Aft's story-world.
-

@@ -136,6 +136,29 @@
             color: var(--accent);
             line-height: 1.6;
         }
+        .structure-diagram {
+            display: block;
+            width: 100%;
+            max-width: 680px;
+            margin: 1.5rem auto;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #fbfaf7;
+        }
+        .memory-list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.45rem 1rem;
+            margin: 1rem 0 1.3rem;
+            padding: 0;
+            list-style: none;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .memory-list li {
+            padding-left: 0.85rem;
+            border-left: 2px solid #d9d5cc;
+        }
         @media (max-width: 620px) {
             .story-link {
                 grid-template-columns: 88px 1fr;
@@ -152,6 +175,9 @@
             }
             .story-synopsis {
                 font-size: 0.98rem;
+            }
+            .memory-list {
+                grid-template-columns: 1fr;
             }
         }
         .footer-logo {
@@ -222,7 +248,18 @@
     <div class="architecture-box" style="margin: 2.5rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid var(--accent);">
         <h3 style="margin-top: 0; font-size: 1.2rem; margin-bottom: 0.8rem;">How it Works</h3>
         <p style="margin-bottom: 0.8rem; font-size: 1.05rem;"><strong>Narracode</strong> operates as an <strong>autocorrecting multi-agent system</strong>. Rather than relying on single-shot prompts, it orchestrates specialized roles—Reading, Structural, Compositional, and Reflexive agents—working in strictly separated passes.</p>
-        <p style="margin-bottom: 1.5rem; font-size: 1.05rem;">As the system advances, it runs in the background to auto-refine a <strong>symbolic working memory</strong>. It externalizes the narrative state into discrete files: mapping shifting character graphs, tracking strict time-constants, and recording a definitive history. This prevents hallucinatory drift and grounds the AI in deep continuity.</p>
+        <p style="margin-bottom: 1.5rem; font-size: 1.05rem;">As the system advances, it runs in the background to auto-refine a <strong>layered symbolic working memory</strong>. Beyond character graphs, time-constants, and history, the harness now tracks obligations, motifs, scene function, character interiority, and reader-state. The goal is not just factual coherence, but preserving accumulated literary pressure across scenes.</p>
+
+        <img src="img/narracode-structural-loop.webp" alt="Diagram of the Narracode scene cycle: natural language request, agents, layered structural memory, scene draft, check file, and human decision." class="structure-diagram" loading="lazy">
+
+        <ul class="memory-list">
+            <li><strong>Obligations</strong>: unresolved promises, withheld information, emotional debts.</li>
+            <li><strong>Motifs</strong>: recurring images, gestures, objects, symbolic pressures.</li>
+            <li><strong>Scene ledger</strong>: scene function, turn, aftermath, open questions.</li>
+            <li><strong>Character interiority</strong>: private states, arcs, cathartic inflection points.</li>
+            <li><strong>Reader state</strong>: reader memory, expectations, plausible defiance paths.</li>
+            <li><strong>critiques/check-*.md</strong>: concise post-draft checks without rewriting.</li>
+        </ul>
         
         <div style="font-size: 0.95rem; color: #555; background: #fff; padding: 1.2rem; border-radius: 6px; border: 1px solid #eaeaea;">
             <div style="margin-bottom: 0.5rem;"><strong>Neuro:</strong> The LLM (works with any major LLM including Claude, Gemini, DeepSeek).</div>
@@ -240,6 +277,15 @@
     </div>
 
     <h2>📚 Example Stories</h2>
+    <a href="Stories written with Narracode/14-05-2026_Aft_of_Nowhere/index.html" class="story-link">
+        <img src="Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp" alt="" class="story-icon" loading="lazy" width="640" height="640">
+        <div class="story-copy">
+            <div class="story-title">Aft of Nowhere</div>
+            <div class="story-authors">Jhave &nbsp;·&nbsp; Claude &nbsp;·&nbsp; GPT-5.5 Codex &nbsp;·&nbsp; 2026-05-14</div>
+            <div class="story-meta">≈ 9,290 words · 37 min read</div>
+            <div class="story-synopsis">In Aft, a polite municipal accident of a city, Vera Mote calibrates the touch-taste correspondences of civic surfaces until an unreadable child presses through the system's careful preference field. He cannot be paused, categorized, or optimized, and carrying him westward draws Vera toward a district where being unknown has become a form of practice.</div>
+        </div>
+    </a>
     <a href="Stories written with Narracode/11-05-2026_Tamagotchi/index.html" class="story-link">
         <img src="img/story-icons/trygve-aas.webp" alt="" class="story-icon" loading="lazy" width="640" height="640">
         <div class="story-copy">

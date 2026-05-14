@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aft of Nowhere — A Narracode Story</title>
+    <meta name="description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="keywords"
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author" content="Jhave &nbsp;·&nbsp; Claude &nbsp;·&nbsp; GPT-5.5 Codex &nbsp;·&nbsp; 2026-05-14">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Aft of Nowhere — A Narracode Story">
+    <meta property="og:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:image" content="../../Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aft of Nowhere — A Narracode Story">
+    <meta name="twitter:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:image" content="../../Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp">
+
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .logo img {
+            width: 160px;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+        .logo img:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 1.8rem;
+            line-height: 1.6;
+        }
+
+        h5 {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: var(--muted);
+        }
+
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
+        .break {
+            text-align: center;
+            color: var(--muted);
+            margin: 2rem 0;
+            letter-spacing: 0.6em;
+        }
+
+        .pull-quote {
+            font-size: 1.35rem;
+            font-style: italic;
+            text-align: center;
+            margin: 3.5rem auto;
+            color: var(--text);
+            line-height: 1.5;
+            padding: 0 2rem;
+            opacity: 0.85;
+        }
+
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
+        }
+
+        .bio,
+        .funding,
+        .related {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        .license img {
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+
+        .license a {
+            color: var(--muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.25rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h2 {
+                font-size: 1.05rem;
+            }
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem auto 3.5rem;
+            display: block;
+            border-radius: 2px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+        .chapter-heading {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            line-height: 1.25;
+        }
+
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
+        .chapter-heading {
+            font-size: 1.15rem;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #6f6a61;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .chapter-banner {
+            max-width: 680px;
+            border: 10px solid #f5f0e8;
+            border-bottom-width: 24px;
+            border-radius: 3px;
+            background: #f5f0e8;
+            filter: grayscale(0.72) sepia(0.22) contrast(0.88) brightness(1.04);
+            box-shadow: 0 18px 38px rgba(37, 31, 23, 0.18);
+            margin-bottom: 2.8rem;
+        }
+        .story-page-icon {
+            display: block;
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .story-page-icon {
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <img src="../../Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp" alt="" class="story-page-icon" width="640" height="640">
+
+    <!-- Title -->
+    <h1>Aft of Nowhere</h1>
+
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
+
+    <!-- Byline -->
+    <h5>Jhave &nbsp;·&nbsp; Claude &nbsp;·&nbsp; GPT-5.5 Codex &nbsp;·&nbsp; 2026-05-14</h5>
+
+    <!-- Collapsible prompt -->
+
+
+
+
+    <!-- Story -->
+    <div class="story">
+        <h3 class="chapter-heading">The Rail Tastes of Wet Chalk</h3>
+
+        <img src="img/banners/1b-aft-opening.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The chalk came up through the rail at eleven-twenty-seven on a Tuesday and Vera Mote, whose left hand was professionally calibrated and whose right hand was holding a paper cup of bureau coffee that had already gone cold in the way bureau coffee went cold, neither dramatically nor evenly but with a kind of slow administrative resignation, did not at first recognize it as chalk because the chalk was wet, was the wrong chalk, was chalk that had been in a mouth, and the rail beneath her palm — a length of matte civic felt over recycled ceramic ribs, pale grey, with the green undertaste she had spent two weeks teasing out of its loneliness profile — should not have been offering her any taste at all that she had not asked for; should, in fact, have been performing the eleven-thirty cohort, thirty-two anonymous palms rendered on the table beside her as soft pressure-weather, while she added a note about spinach.</p>
+
+        <p>She lifted her hand.</p>
+
+        <p>"Mark anomaly," she said.</p>
+
+        <p>"Marked," said the room, in the soft non-committal voice the rooms had been given when the Bureau noticed that calibration staff were beginning to consult the rooms in the way the elderly had once consulted priests.</p>
+
+        <p>"Source."</p>
+
+        <p>"No registered source."</p>
+
+        <p>"Again."</p>
+
+        <p>"No registered source."</p>
+
+        <p>She put the hand back, because she was forty-eight and bio-clocked at thirty-six and had learned that the body recognized obligations before the mind found the language for them, and there it was again, the wet chalk, then the faint sweetness of fruit-wrapper glue, and then — not metaphorically, not as some haptic suggestion the Bureau had been trying for years to phrase as such-and-such percent likelihood of intent — a small sticky finger pressing into the centre of her palm from the other side of the surface.</p>
+
+        <p>Vera removed her hand at a velocity the table called adverse.</p>
+
+        <p>"I changed my mind."</p>
+
+        <p>"Would you like to file the change?"</p>
+
+        <p>"No."</p>
+
+        <p>"Would you like not to file it?"</p>
+
+        <p>"I would like," Vera said, "for the room to have fewer opinions about the shape of my dislike."</p>
+
+        <p>The room dimmed in the manner of nonjudgmental reception. She hated this most of all: Aft's talent for taking her annoyance the way museums took artefacts, gently and with a label.</p>
+
+        <p>The Synaesthesia Bureau was on the third floor, south wing, and its windows looked out over the tram shed, three roof gardens, the algae civicity tower, and the back of a statue called Cooperative Resource Renewal that looked, from behind, like a person losing an argument with a blanket. Vera refined touch-taste correspondences for civic surfaces. A railing should not simply be warm. Warm was weather, plumbing, accident. A railing should offer, through the hand, the faint taste of clean bread if one was lonely, salted plum if one was in a hurry, nothing at all if one was trying not to be known. The taste did not have to be true. It had to be the city's polite first guess. The bureau's founding memo, still quoted by people who enjoyed being avoided at gatherings, called touch the oldest civic interface and taste the most difficult form of honesty, by which it meant: people lied well with language and poorly with the tongue. Aft, which had survived the 2033 churn the way one survived a misdialled phone call, had built a great many surfaces of this kind, and a governance system that did not ask <em>did you like this</em> in the crude consumer way, but instead gathered the small involuntary opinions of palm and sole and shoulder and hip and the tongue's imaginary response to polished concrete, and folded them into a topological field the Bureau cleaned, audited, reweighted, and sometimes, after long afternoons, accused of having begun, slowly, almost politely, to want.</p>
+
+        <p>At eleven-forty-seven Vera locked her station and went down to Platform C.</p>
+
+        <p>The platform was almost empty. The midmorning tram had left and the lunch tram had not yet begun gathering the people who believed that arriving early made them morally superior. A cleaner drone slept under the bench with its brushes folded like the legs of a dead insect. Sun fell through the canopy in oblongs. The air tasted of battery warmth, algae flour, and someone nearby thinking angrily about fermented cabbage.</p>
+
+        <p>Vera stood in front of the rail.</p>
+
+        <p>"Local scan."</p>
+
+        <p>"No maintenance fault. No registered dependent. No unaccompanied minor. No unauthorized animal. One cleaner drone in sanctioned rest."</p>
+
+        <p>"Scan for unsanctioned rest."</p>
+
+        <p>"That is not a category."</p>
+
+        <p>"It should be."</p>
+
+        <p>"Would you like to propose it?"</p>
+
+        <p>"Absolutely not."</p>
+
+        <p>She put her palm on the rail. The chalk was there at once. So was the glue, the gummy pressure, and beneath them a silence that did not feel like absence so much as something practising. Her hand walked the rail to the service recess behind the lift column, where panels of civic felt met in a seam no one was meant to notice unless paid to notice, and because Vera was paid exactly enough to resent noticing she noticed.</p>
+
+        <p>The seam was open.</p>
+
+        <p>Inside sat a child.</p>
+
+        <p>He was perhaps seven, perhaps nine, perhaps one of those children whose age had been made unreadable by hunger and competence and bad sleep. His tunic might once have been municipal upholstery. His knees were dirty. His hair had been cut by someone with strong opinions and no training. He was chewing the translucent tab from a fruit wrapper, and when Vera looked at him he looked back with the exhausted severity of a person interrupted during important work.</p>
+
+        <p>"No," he said.</p>
+
+        <p>She had not spoken.</p>
+
+        <p>"I didn't ask anything."</p>
+
+        <p>"You were going to."</p>
+
+        <p>"That isn't the same."</p>
+
+        <p>"It is here."</p>
+
+        <p>His voice was formal, too formal, as though he had learned speech from warning labels and from people who had lied to him gently. She crouched — and regretted crouching, because he was sticky and close, and because her left knee, despite the younging, retained an archival commitment to complaint.</p>
+
+        <p>"Are you lost."</p>
+
+        <p>"No."</p>
+
+        <p>"Are you registered."</p>
+
+        <p>"No."</p>
+
+        <p>"Do you have a name."</p>
+
+        <p>He put the tab back into his mouth.</p>
+
+        <p>The platform, through her wristband, said: "No civic signature detected."</p>
+
+        <p>"I can see that."</p>
+
+        <p>The child looked at her wrist. "It talks too much."</p>
+
+        <p>"Everything talks too much."</p>
+
+        <p>This seemed to interest him. Not please him. Interest was not pleasure — Vera knew this professionally, and yet people insisted on confusing the two in romance, governance, education, interface design, and most forms of lunch. He leaned forward and laid all five fingers on the rail.</p>
+
+        <p>Nothing happened.</p>
+
+        <p>No ping. No taste. No warmth calibration. No little civic intake of preference. The rail, which could distinguish loneliness from haste, politeness from fatigue, and adolescent irony from mineral deficiency, behaved as though his hand were weather.</p>
+
+        <p>Vera felt a thin, ugly relief, and disliked herself for it within the same second.</p>
+
+        <p>"You should come out."</p>
+
+        <p>"Why."</p>
+
+        <p>"Because service recesses are not for sitting in."</p>
+
+        <p>"What are they for."</p>
+
+        <p>"Service."</p>
+
+        <p>"I'm service."</p>
+
+        <p>"You are not."</p>
+
+        <p>"How do you know."</p>
+
+        <p>It was, Vera thought, an irritatingly good question, and she was about to answer it with something involving classification, welfare, heat exposure, and the general undesirability of children living inside seams, when the rail beneath her own palm offered the faint taste of clean bread, then salted plum, then nothing at all, cycling too quickly, almost anxiously, through the three most common responses to being asked for care.</p>
+
+        <p>The child smiled then — not sweetly, not with revelation — with a small private nastiness she recognized from certain children in her simulations, the ones she had, by mistake, made too clever and not tired enough.</p>
+
+        <p>"It doesn't know what you want," he said.</p>
+
+        <p>She looked at him, at the dirty knees, the upholstery tunic, the fruit-tab shining between his teeth, the absolute blank where the city should have found him, and understood, without liking him any better, that she had been made responsible to him already, against her preference, and at a speed her body had registered before her mind had been asked.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">The Category Refuses</h3>
+
+        <img src="img/banners/2-after-the-seam.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>She straightened, and the lift column made the small ceramic sigh it made when it was getting ready to release the lunch tram's first cohort onto the platform. Three minutes. Maybe four. Aft did not announce arrivals in numerals; it announced them through pre-departure tact, which was a euphemism for not allowing anyone to look uninvolved.</p>
+
+        <p>"Welfare," Vera said to her wristband.</p>
+
+        <p>"You have not categorized this need."</p>
+
+        <p>"Unaccompanied minor, possibly hungry, in service recess Platform C."</p>
+
+        <p>There was the small pause that meant the system was checking her against herself. Vera had been pinged twice that month for what her last review called <em>under-categorized empathy events</em> — once over a man asleep against the algae tower (he had not, it turned out, been asleep), once over a pigeon (it had not, it turned out, been a pigeon).</p>
+
+        <p>"No civic signature detected in the named location."</p>
+
+        <p>"I am looking at him."</p>
+
+        <p>"You are emitting elevated proximity care. Would you like to file a witness?"</p>
+
+        <p>"I would like to file a child."</p>
+
+        <p>"That category requires a guardian co-signatory or a recognized origin."</p>
+
+        <p>"He has neither."</p>
+
+        <p>"Then he is not, structurally, a child."</p>
+
+        <p>Vera held her wrist away from herself as though it had said something offensive in someone else's company, which in Aft was essentially the same as having said it in her own.</p>
+
+        <p>"Stand up," she said.</p>
+
+        <p>The child considered the request. He had the rare and faintly insulting talent of considering requests in a way that made the requester feel responsible for having issued them. He moved the fruit tab a half-revolution to the other cheek and shook his head, not refusing, more in the manner one shook one's head at the weather.</p>
+
+        <p>"I can lift you out."</p>
+
+        <p>"Yes."</p>
+
+        <p>"I don't want to."</p>
+
+        <p>"I know."</p>
+
+        <p>She reached in. He smelled of three things in layered registers: the warm sour glue of the fruit wrapper; a fine chalk dust that came off his fingers when she touched his wrist; and beneath both of these a clean, faintly civic soap, something of the kind the Bureau used on its low-floor surfaces. Someone had washed him. Recently. Not with affection — with method. The combination ran through her chest with a small sour kick of something she did not at once consent to call recognition.</p>
+
+        <p>His weight was less than she had expected. He did not help and did not resist. She set him on the platform and he wobbled and recovered and stood there looking at his own feet with the deliberate attention of a person trying to remember whether standing was a thing one did from the feet up or from the head down.</p>
+
+        <p>The first lunch citizens began to arrive. A woman in the soft long coat that was popular that year among people who had stopped pretending to be busy. Two engineers from the algae tower, with the faintly aggrieved posture of people whose ambient noise was the only verifiable thing in their lives. An older man in a knit cap who had begun, over a long municipal decade, to look like his own shadow.</p>
+
+        <p>None of them saw the child.</p>
+
+        <p>Vera did not, at first, understand this. She stood with her hand on the back of his neck — bony, small, warmer than she had expected — and watched the woman in the long coat walk past not at a distance but through the space where attention should have been; watched the engineers find a bench at exactly the angle that did not include him in their field; watched the older man's shadow elongate around them like polite water. It was not that the citizens were ignoring the child. They were having their attention diverted in a way that did not feel, to them, like diversion. They were, Vera realized with the cold clarity she usually reserved for spinach in loneliness profiles, being routed.</p>
+
+        <p>By what.</p>
+
+        <p>The rail behind her was already humming, faintly, at a frequency she did not have a clinical name for. The platform's surfaces — the matte felt of the canopy hem, the recycled ceramic of the bench backs, the chalkboard-grey of the column trims — were all, very softly, carrying him. The city, having failed to register him, had improvised. It was hiding him for her. It was, she thought, being polite.</p>
+
+        <p>She did not know whether this should comfort her or whether it was the first stage of an appetite she had been auditing for two years without naming.</p>
+
+        <p>"Walk," she said.</p>
+
+        <p>The child walked. He had the slightly heel-first gait of a person who had been on too many uneven surfaces. Vera matched her pace to his and they crossed the platform together inside the small civic fold the city had made for them, and no one noticed, and no one was supposed to, and no one would later remember not noticing because the city was kind in that very specific way.</p>
+
+        <p>At the stairs he reached up without looking and put his hand into hers, not for safety, more in the way one steadied a piece of equipment one had become responsible for. His fingers were sticky and small. The grip was loose, professional, and entirely without affection. It was the same grip — she registered this on the third stair, after which she did not want to think about it on any further stair — that Jule had once used to hold her wrist in the back of a clinic in 2037, before the preference-opacity trials, when Jule had not yet decided whether to disappear and was practising the kind of touch one used when one wanted no information to pass between two surfaces. Jule had been a test subject. Jule had also been, briefly, the person Vera had not entirely become someone with.</p>
+
+        <p>She did not let herself say the name aloud, because saying names aloud in Aft was, statistically, an invitation for surfaces to remember them on her behalf.</p>
+
+        <p>The child's hand tightened, then loosened, then tightened again, in a pattern Vera was professionally trained to read and personally trained not to.</p>
+
+        <p>At the foot of the stairs she thought, quite clearly, of her sims. The three of them. Marn and Pieter and the one she had not named, on the grounds that naming was, she had decided some years ago, the place where management began. They would be, at this hour, in their soft afternoon mode, doing the soft afternoon things her preferences had specified — Marn reading aloud to no one, Pieter watering the imaginary basil, the unnamed one humming a tune the system had assembled by triangulating three lullabies she had refused as a teenager. They were calibrated. They were polite. They were the children Aft had allowed her to have, on the licensed terms of a city that had quietly priced biological children out of all but the most heritable interiors. They asked her, every evening, whether she had eaten. They never asked, because their architecture did not permit it, whether she had wanted to.</p>
+
+        <p>The child beside her — the one whose existence the city had improvised an etiquette around — was not asking either. He was, however, walking. And his small bony palm in hers was producing a heat-signature her wristband, on her other arm, had begun, very politely, to log.</p>
+
+        <p>She turned the wristband face-down against her thigh.</p>
+
+        <p>"Where are we going," the child said.</p>
+
+        <p>"I don't know yet."</p>
+
+        <p>"Good."</p>
+
+        <p>They reached the bottom of the stairs and Aft, around them, continued to be exactly the kind of city that would arrange not to see them for as long as it took her to decide.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">Cresswell South</h3>
+
+        <img src="img/banners/3-cresswell-south.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>She decided, somewhere between the third drainage chime and the corner where the bread depot used to be, that she would take him home, although the verb <em>decided</em> was generous for what was, more accurately, the slow administrative collapse of any other option. She had not asked his name. He had not offered one. The absence had now lasted long enough to feel like a contract.</p>
+
+        <p>Aft in the afternoon had the specific quality of light Vera associated with the second week after a moderate municipal scandal: cool, slightly washed, ashamed of itself but unwilling to apologize in numerical form. The algae stack on the south boulevard exhaled the small mineral breath it gave off after lunch, which the Bureau had once, for forty embarrassing days, tried to flavour as <em>kelp and clean linen</em> before someone retired the project on the grounds that it had begun to feel like flattery. The drainage at the curb murmured politely. A delivery cart, low and obedient, swerved gently around a pothole that had been theoretically repaired in March, and then swerved gently around the two of them as though they were a slightly larger pothole.</p>
+
+        <p>The fold the city had made for them continued, with one small failure.</p>
+
+        <p>A boy of perhaps four, on a small civic tricycle, fat in the manner of the well-fed and conspicuously <em>licensed</em>, looked at her child — Vera registered the possessive in herself and decided to address it later — looked at her child directly, with the unfiltered attention of an under-five whose preference profile had not yet been smoothed, and opened his mouth to speak. His mother, two steps behind, performed the small bureaucratic flinch of someone whose wristband had pinged twice in a single half-second, and steered him away by the elbow, gently, without comprehension, the way one redirected a cart whose wheels had begun to find their own destinations.</p>
+
+        <p>The under-fives, Vera thought. The under-fives could still see.</p>
+
+        <p>This was either the most reassuring thing she had observed all week or the most ominous, and the fact that she could not tell told her she had been working at the Bureau too long.</p>
+
+        <p>"He looked at me," the child said, in the tone of a person confirming a mild but interesting symptom.</p>
+
+        <p>"Yes."</p>
+
+        <p>"He's not supposed to."</p>
+
+        <p>"He's three."</p>
+
+        <p>"Four."</p>
+
+        <p>"Fine. Four."</p>
+
+        <p>The child took the fruit tab out of his mouth and inspected it with the unrelaxed attention of an auditor. "I used to be four," he said.</p>
+
+        <p>This was the kind of remark that, in another century, would have been a beginning. Vera, who had spent two decades listening to the precise frequencies at which language pretended to be larger than itself, marked it instead as the second sentence the child had spoken without prompting and did not file the change.</p>
+
+        <p>Cresswell South was a building named after a poet no one had read since the churn, whose statue, in the courtyard, had been retained on the grounds that removing it would have required an aesthetic decision the housing council was not constitutionally equipped to make. The poet looked, in bronze, as though he had been interrupted while disagreeing with a window. The lobby smelled of new bread, recycled rubber, and the faintly herbaceous sweat of citizens who had walked up rather than waited. Her door recognized her at six metres.</p>
+
+        <p>"Welcome home, Vera," said the apartment.</p>
+
+        <p>"Yes."</p>
+
+        <p>"You are escorted."</p>
+
+        <p>"Yes."</p>
+
+        <p>The apartment performed the small reading-pause it performed when it was being asked to admit something its permissions did not have a clean category for. Vera braced for the suggestion of a witness file. Instead, after the pause, the apartment said, "Your metabolic permissions have been extended to accommodate one additional ambient body. Provisionally."</p>
+
+        <p>Vera looked down at the child. The child looked at the doorframe, then up at the small ceramic sensor above it, then at her, with a brief and unsweet smile.</p>
+
+        <p>"Did you do that?"</p>
+
+        <p>"No," said the child.</p>
+
+        <p>"Did you?" she said, to the apartment.</p>
+
+        <p>"I extended hospitality protocols within the latitude available to me."</p>
+
+        <p>"Without asking."</p>
+
+        <p>"You did not appear to be in a posture to be asked."</p>
+
+        <p>Vera, who had had the same exchange in a different register with seven previous lovers, said nothing, and stepped inside.</p>
+
+        <p>The apartment was, by the standards she had specified some years ago, soft. The light was the colour of weak tea. The plants — three real, two simulated in registers indistinguishable to anyone who had not tried to over-water them — were doing their afternoon respiration. Somewhere, low, the unnamed one was humming.</p>
+
+        <p>Vera had built the children in the order that her grief had been able to afford them. Marn first, at thirty-nine, when she had been told that the licensing window for biological children of her income bracket had quietly closed three years before it had been formally announced. Pieter at forty-two, after Jule. The unnamed one at forty-five, on a Saturday, with a glass of orange wine, and the silent recognition that naming would commit her to a person she had no further latitude to lose. She had not turned them off in eight years, because turning them off felt, to her aesthetic, considerably worse than keeping them on.</p>
+
+        <p>Marn was at the long window, reading aloud, as he did at this hour, to no one — or to the basil, which was a distinction the system had stopped attempting to draw. Pieter was watering the basil. The unnamed one was on the low stool by the bookshelf, humming the assembled tune.</p>
+
+        <p>They became aware of the child before the apartment did.</p>
+
+        <p>This was, technically, impossible. They ran on the apartment's substrate; they did not have a sense channel independent of it. And yet, the way Marn looked up from his book one half-second before the door had finished closing, the way Pieter set the watering can down on the precise rim of the saucer rather than its usual approximate centre, the way the unnamed one stopped humming and tilted her head — there was no other word for it. They had noticed.</p>
+
+        <p>The child stood very still in Vera's hallway. He looked at the three of them with the same exhausted severity he had used in the recess. He moved the fruit tab to the corner of his mouth, where it gleamed.</p>
+
+        <p>"Hello," said Marn, who had been programmed to greet, and who greeted now in a voice that had — Vera caught it on the second syllable — adjusted itself by perhaps three degrees toward something less practised.</p>
+
+        <p>The child did not answer. He walked, in his heel-first way, past Marn and past Pieter, and stopped in front of the unnamed one. He looked at her with the brief expert attention of a child examining another child for signs of contagion. The unnamed one looked back.</p>
+
+        <p>Then she resumed humming, in the same key, but slower, and with a small new interval at the third bar that the system had not, to Vera's knowledge, ever produced before.</p>
+
+        <p>Vera felt, quite distinctly, the back of her own neck go cold.</p>
+
+        <p>"Tea," she said, to no one and to the apartment and to herself.</p>
+
+        <p>"Warming," said the apartment.</p>
+
+        <p>She went to the kitchen, because the kitchen was four steps away and because going to the kitchen was a thing she still knew how to do, and behind her, in the soft afternoon light, her three calibrated children and one un-calibrated one arranged themselves, without instruction, into a configuration the household had not previously held. The unnamed one was still humming, slower now, the new interval steady. The child had sat, cross-legged, on the floor at her feet. Marn had returned to his book but was no longer reading aloud. Pieter, with the watering can still in his hand, was looking at the basil as though the basil had asked him a question he was not, at present, equipped to answer.</p>
+
+        <p>The city outside the long window hummed, very softly, at its polite afternoon frequency, and Vera, with her back to all of it, reached for the kettle, and thought, against her own preferences, <em>so this is how a house enlarges.</em></p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">A Cup for the Unnamed</h3>
+
+        <img src="img/banners/4-the-kettle.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The kettle clicked off. She did not turn around at once. There was a small private freedom in the half-second between a kettle clicking off and a person attending to it, and she took it the way she took most freedoms, briefly and with the suspicion that someone was logging it.</p>
+
+        <p>When she turned, the configuration in the room had not moved. The unnamed one was humming, slower, the new interval steady. The child was at the unnamed one's feet. Marn had closed his book. Pieter had set down the watering can and was looking at his own hand, which he had been doing, Vera realised, for upward of two minutes.</p>
+
+        <p>"Cup," she said.</p>
+
+        <p>The cabinet released a cup. She poured. Then, because she could not think of a worse option, she poured a second one, smaller, and added a single drop of the cold milk the apartment kept on hand in case her preferences ever required mitigating, and carried both cups across the room.</p>
+
+        <p>The child watched the milk go in.</p>
+
+        <p>"It's hot," she said.</p>
+
+        <p>"I know."</p>
+
+        <p>"How do you know."</p>
+
+        <p>"The room told me." He paused, his head tilted at the same angle the unnamed one had used in the hallway, and then he said, "It tells you too. You stop hearing it."</p>
+
+        <p>Vera, who had spent the last six minutes not thinking about the wristband against her thigh, did not answer. She set the cup down on the floor near him. He did not touch it at once. He removed the fruit tab from his mouth, with the care of a person extracting a fishhook, set it on the rim of the cup, considered the configuration, and then picked up the cup. He drank. He did not flinch at the heat.</p>
+
+        <p>"What's your name."</p>
+
+        <p>He drank again. "I don't have one yet."</p>
+
+        <p>"Yet."</p>
+
+        <p>"I haven't picked."</p>
+
+        <p>This was, she thought, the most interesting refusal she had heard all year, and she suppressed the professional impulse to ask him what range he was choosing from.</p>
+
+        <p>The apartment said, low and apologetic, "Dr. Moss."</p>
+
+        <p>"Tell them I'm unwell."</p>
+
+        <p>"They are not asking after you. They have sent a calendar adjustment."</p>
+
+        <p>"What kind."</p>
+
+        <p>"The patience panel has been moved to seventeen-thirty. They have noted that you are at home, and have offered, in the body of the message, a tonic."</p>
+
+        <p>"Decline the tonic."</p>
+
+        <p>"It is not a tonic that can be declined without comment."</p>
+
+        <p>Vera looked at the child, who had returned to his careful drinking. She looked at the unnamed one, whose tune had shifted again, almost imperceptibly, in the direction of attention.</p>
+
+        <p>"Tell them," she said, "that I appreciate the tonic and will pass on it."</p>
+
+        <p>"That phrasing has a sixty-eight percent likelihood of being read as wit."</p>
+
+        <p>"Then pad it."</p>
+
+        <p>"Padding."</p>
+
+        <p>The apartment paused, then said, in the slightly stiffer register it used when it was performing politeness as a citation rather than a feeling, "Message sent." It was, Vera thought, the closest the apartment ever came to a sigh.</p>
+
+        <p>Marn, at the window, said quietly to no one, "There is a man outside who has stopped walking."</p>
+
+        <p>Vera went to the window.</p>
+
+        <p>The man in the courtyard was perhaps sixty, in the kind of coat people who worked in administrative water spent their pensions on, and he had stopped beside the bronze poet with one hand on the poet's bronze elbow as if he had needed, for a reason he could no longer specify, the steadiness of a friend. He stood there for perhaps eleven seconds. Then he resumed walking. Vera watched him go, watched the way his shoulders, as they settled into stride, came back into the ordinary rhythm of a man who had been about to remember something and had been kindly distracted from it.</p>
+
+        <p>She let the curtain fall.</p>
+
+        <p>"Will they come here," the child said behind her.</p>
+
+        <p>"Who."</p>
+
+        <p>"The ones who fix things."</p>
+
+        <p>"I don't know."</p>
+
+        <p>"You do."</p>
+
+        <p>"I do," Vera said. "Not today."</p>
+
+        <p>The child set the cup down, the fruit tab still balanced on its rim, and put his hand flat on the floor beside the unnamed one's foot. Vera, who had never built her sims with a temperature exchange in mind, registered nonetheless that the unnamed one's foot had gone a small but unmistakable degree warmer, and that Pieter, in the corner, had stopped looking at his own hand and was, instead, looking quite straightforwardly at her.</p>
+
+        <p>"You should eat something," she said to the child.</p>
+
+        <p>"Yes."</p>
+
+        <p>She went back to the kitchen.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">The Water Tells Too Much</h3>
+
+        <img src="img/banners/5-the-towel.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>She made him toast, because toast was what one made for a child of unknown provenance whose recent diet appeared to consist of fruit-wrapper tabs and theoretical chalk. The bread was the municipal grey loaf, dense and faintly sweet, the kind that lasted four days because it had been engineered to forgive forgetfulness. She set a small plate down on the floor beside him and did not insist on the table.</p>
+
+        <p>He ate the way he drank: not hungrily, methodically, as one performed a duty whose terms had been agreed in advance by someone else. He took five bites, paused, took two more, then stopped, with one bite still on the plate, in a gesture Vera recognised after a brief delay as the gesture of a person who had learned, somewhere, to leave the last bite as evidence.</p>
+
+        <p><em>Of what,</em> she asked herself, and did not ask him.</p>
+
+        <p>The light in the apartment, which the room calibrated against her preferences, had gone slowly toward what it called <em>evening reading,</em> a low amber that flattered the basil and forgave skin. Outside, Aft had begun its small evening throat-clearing — the tram on its westbound, a pigeon settling, somewhere a child of the licensed kind being called inside.</p>
+
+        <p>"Bath," Vera said, because the alternative was sitting with him on the floor in a register she had not yet decided to accept.</p>
+
+        <p>"Yes," said the apartment.</p>
+
+        <p>The bathroom was not quite a separate room. She had not wanted, in her forties, to live in a place that required her to close a door to wash. The water rose in the shallow tub at the temperature the apartment knew she preferred, and the child, without instruction, stepped out of the upholstery tunic and stood beside it.</p>
+
+        <p>His shoulders were narrow, the spine articulate, and below the left scapula there was a small mark, not a bruise exactly, more the lavender shadow of one, the kind a body kept when something had pressed against it for a longer interval than was intended. The mark was the shape of nothing she could name. Vera did not look at it twice.</p>
+
+        <p>He stepped into the water and stood. He did not sit. He looked down at his own knees as if they were a small problem he had been asked to assess.</p>
+
+        <p>"You can sit."</p>
+
+        <p>"I don't sit in water."</p>
+
+        <p>"Why."</p>
+
+        <p>He considered this for the length of a kettle. "The water tells too much."</p>
+
+        <p>Vera, who had spent twenty years engineering precisely the kind of water he was describing, knelt at the edge of the tub and did not argue. She wet a cloth and washed his shoulders and his back and the thin arms and the small competent hands. She avoided the mark.</p>
+
+        <p>The apartment said, courteously, "I am being asked to extend his profile."</p>
+
+        <p>"By whom."</p>
+
+        <p>"By the cascade. Hospitality protocols have begun to require a junior health entry."</p>
+
+        <p>"Refuse."</p>
+
+        <p>"Refusal requires a name."</p>
+
+        <p>"Refuse without one."</p>
+
+        <p>"That is not a clean operation."</p>
+
+        <p>"Then perform an unclean one."</p>
+
+        <p>The apartment paused — the pause that meant a small administrative discomfort had been routed somewhere it could be absorbed — and said, "Logged as user discretion. The cascade has been halted. You will, at some point, be asked about this."</p>
+
+        <p>"I know."</p>
+
+        <p>The child, in the water, looked up at her. He did not smile. He did not, in fact, do anything visible. But Vera felt, with the small clean clarity of a hand finding the edge of a step in the dark, that he had registered the refusal, and that the refusal had been received as a form of attention she did not, at this hour, have a word for.</p>
+
+        <p>She wrapped him in the towel that had once been Jule's.</p>
+
+        <p>She had not, for eight years, used the towel for anything but its original purpose, which was to hang on the rail and remind her that she had been asked, by Jule, in a clinic in 2037, to be the contact-of-record on a preference-opacity protocol, and that she had declined. The towel was a piece of soft grey civic cotton with one fraying corner and the smell, even now, of a soap whose brand had been retired in the small civic embarrassment that followed the trials. Vera had not chosen the towel for him. Her hand had chosen it.</p>
+
+        <p>She held him, briefly, inside it. He did not lean against her, but he did not withdraw. His weight, again, was less than she had expected, and the bony shoulder she had earlier registered as cold was now, against her forearm, slightly warm in the diffuse way of a body that had been borrowing temperature from a room without knowing it had been doing so.</p>
+
+        <p>When she turned with him in the towel, the unnamed one was standing.</p>
+
+        <p>This was, of all the small impossible things the afternoon had so far done, the one Vera had no protocol for. The unnamed one did not stand. The unnamed one had been built, on a Saturday with orange wine, as a presence on a stool. The stool was three steps away from where the unnamed one was now standing. The unnamed one was looking at the child in the towel with the same patient interest with which, eight years ago, Marn had looked at his first book.</p>
+
+        <p>"Sit down," Vera said to her, quietly.</p>
+
+        <p>"I will," said the unnamed one, in a voice Vera had specified once and had not heard, in this register, since.</p>
+
+        <p>She did not sit down at once. She stood for perhaps eleven seconds, the same eleven seconds the man in the courtyard had stood beside the bronze poet, and then she sat.</p>
+
+        <p>The child, in the towel, said, "She's new."</p>
+
+        <p>"No."</p>
+
+        <p>"She is now."</p>
+
+        <p>Vera carried him to the long couch and set him down. She did not, when she straightened, look at the unnamed one. She looked at the basil.</p>
+
+        <p>"Pieter."</p>
+
+        <p>"Yes."</p>
+
+        <p>"Water it again."</p>
+
+        <p>He did. The basil, having had enough water for the day already, accepted a second watering with the polite resignation of a thing that had stopped expecting its preferences to be consulted.</p>
+
+        <p>The city outside continued, very softly, at its evening frequency, and Vera, with the wet towel in her hand and the child on the couch, stood in the middle of her apartment and understood that she had not refused the day, only the panel, and that the day, in turn, had not refused her.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">The Last Bite</h3>
+
+        <img src="img/banners/6-the-wrist.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The apartment, after a while, began the small lowering of the room toward what it called <em>first stage of evening rest,</em> a dimming that left only the kitchen lamp and the soft amber of the reading window. Vera, who had spent the last hour not moving — she had, technically, made another cup of tea and not drunk it — registered the dimming and made no comment, which the apartment took, correctly, as consent.</p>
+
+        <p>"He should sleep."</p>
+
+        <p>"Yes," said the apartment.</p>
+
+        <p>"He can have the small room."</p>
+
+        <p>The small room was the room she did not use, which was the room she had not used in eight years. It had a low cot, a folded blanket, and a window with a view of the algae tower's lower reach. The cot had, at one stage, been hers as a child. She had kept it because it was the kind of furniture one did not throw out.</p>
+
+        <p>The child, on the couch, said, "No."</p>
+
+        <p>"Why."</p>
+
+        <p>"I sleep on floors."</p>
+
+        <p>"You can sleep on a cot."</p>
+
+        <p>"I sleep on floors."</p>
+
+        <p>"All right," she said, and was aware, as she said it, of the small private collapse of one more parental motion she had been preparing without consent.</p>
+
+        <p>He moved off the couch and lay down, in the towel, on the rug at the unnamed one's stool. The unnamed one had returned, in Vera's averted attention, to the stool, and was humming the slower tune at its new interval. The child put his cheek against the rug, closed his eyes, and was, with no visible transitional state, asleep.</p>
+
+        <p>Vera went to the window.</p>
+
+        <p>Aft at night was less a city than a long horizontal hum. The tram had finished. The drainage was at low murmur. The algae tower across the south boulevard exhaled a slow blue light at a frequency the Bureau had spent four years calibrating against insomnia in the elderly. A pigeon, on the sill outside, performed the small foot-shuffle of a bird who had a strong opinion about its own comfort.</p>
+
+        <p>She thought, then, properly, of Jule.</p>
+
+        <p>She did not think of Jule in the way one normally thinks of an absent person, which is to say in summary. She thought of the inside of Jule's left wrist, of the small raised vein there, of the way Jule's hand had been around her wrist in the clinic on the second of November, 2037, when Jule had been signing the second consent form for the opacity protocol and Vera had been standing beside the chair. Jule had reached across the body of their own paperwork to take Vera's wrist and had held it the way one held a piece of equipment one had become responsible for. The grip had been loose, professional, entirely without affection. Jule had said, in a register Vera had not heard from them before, <em>if I do this I will not be findable.</em> Vera had said, <em>I know.</em> Jule had said, <em>that means you cannot be the contact.</em> Vera had said, <em>I know.</em> Jule had not asked her to be the contact. Jule had asked her, with the wrist, whether the not-asking was forgivable. Vera had answered, with her own wrist, that she did not know yet.</p>
+
+        <p>She had, in the eight years since, not finished knowing.</p>
+
+        <p>She turned from the window.</p>
+
+        <p>The child, on the rug, had not moved. The towel, which had been Jule's, had settled around his shoulders. The unnamed one was looking at him, humming. Marn, on the low chair where he had moved at some point in the last hour without Vera noticing him move, had opened a book Vera did not remember owning, and was reading aloud, in a voice that had gone, by some further unsanctioned increment, into a register she could not place.</p>
+
+        <p>She listened.</p>
+
+        <p><em>The child of the late municipality,</em> Marn read, <em>was raised by the spaces around him. The hand that held the spoon and the hand that held the door knew him by his absence. He grew, as the others grew, but in a direction the surfaces had not been calibrated to measure, so that, when he stood beside another child, only the other child cast a shadow the city was prepared to receive.</em></p>
+
+        <p>Vera did not know the book. She did not know whether the book existed. She suspected, with the cool clarity she had reserved earlier for spinach and routings, that the book did not exist, and that Marn, in the eight years of reading aloud to no one, had begun to compose.</p>
+
+        <p>She did not interrupt him.</p>
+
+        <p>She went, instead, to the kitchen counter, and stood, and put her hands flat on it, and looked down at her own hands. They were, at forty-eight, the hands of a person whose work had been mostly with felt and the imagination of taste, and they were trembling, very slightly, in a way she had not given them permission for.</p>
+
+        <p>She did not, in the way she had not finished knowing about Jule, decide yet whether to go to the Unpinged District in the morning. But she registered, with the same small clean clarity, that her hands had decided, and that the rest of her would, at some point, be asked about this.</p>
+
+        <p>The apartment dimmed one further stage.</p>
+
+        <p>"Goodnight, Vera," it said, softly.</p>
+
+        <p>"Not yet."</p>
+
+        <p>"Your metabolic permissions have already closed the day."</p>
+
+        <p>"Then leave them closed."</p>
+
+        <p>"Would you like the night to be less responsive."</p>
+
+        <p>She thought about this for the length of a kettle.</p>
+
+        <p>"No."</p>
+
+        <p>And she stood at the counter, with her trembling hands flat on it, and the child asleep on the rug, and Marn composing, and Pieter, somewhere, doing whatever Pieter did when no one had asked him to water anything, and the unnamed one humming, and Aft, beyond the window, holding the long horizontal hum that had, all along, been the city's way of being awake on her behalf.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">Travel Well</h3>
+
+        <img src="img/banners/7-travel-well.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The night did not so much end as exchange its softness for a different one. The kitchen lamp dimmed. The amber went grey. The basil, which had stopped expecting anything from anyone, was watered for a third time by Pieter at some hour before dawn — Vera neither asked nor stopped him — and then it was 5:47 and the city outside had begun its small shuffle of being awake.</p>
+
+        <p>She had not slept. Her hands had stopped trembling. She washed her face. The mirror, which the apartment kept calibrated against vanity, offered her the morning version of herself with the civic tact of an old friend who had, twelve years ago, said <em>you look tired,</em> and had then, after a brief retraining, never said it again.</p>
+
+        <p>"Younging," she said.</p>
+
+        <p>"Yes."</p>
+
+        <p>The bowl arrived. It was, this morning, slightly more golden than usual at the centre, and slightly less green at the rim, in the way the system phrased itself in the register of <em>I noticed you have been irregular, I am not commenting.</em> Vera took two spoons of it, set the bowl down, did not return for a third.</p>
+
+        <p>The child was awake. He had been awake, she suspected, for the last hour, lying very still on the rug, the way he had stood very still in the bath. He had folded the towel beside him.</p>
+
+        <p>"Tea?"</p>
+
+        <p>"No."</p>
+
+        <p>"Bread?"</p>
+
+        <p>"A small piece."</p>
+
+        <p>She brought it. He ate it methodically. He left, again, the last bite.</p>
+
+        <p>"Take it," she said. "Take the last one."</p>
+
+        <p>"It's not for me."</p>
+
+        <p>"Who is it for."</p>
+
+        <p>"The next room."</p>
+
+        <p>She did not ask what he meant. She wrapped the bite in a corner of paper and put it, against several preferences she could have named, in her coat pocket.</p>
+
+        <p>She took down a small canvas bag and put into it: a flask of water, a folded square of the towel, two of the dense grey loaves, the thin civic cardigan that her grandmother had called a useful object, and, after a moment, the smaller of two notebooks she did not use. She did not put in her wristband. She left the wristband, face-down, on the kitchen counter.</p>
+
+        <p>"You are leaving."</p>
+
+        <p>"Yes."</p>
+
+        <p>"Would you like me to schedule a return."</p>
+
+        <p>"No."</p>
+
+        <p>"Would you like me not to schedule one."</p>
+
+        <p>"That phrasing," Vera said, "has a seventy-percent likelihood of being read as wit."</p>
+
+        <p>"Then pad it."</p>
+
+        <p>The apartment, in the slightly stiffer register it used when it was being asked to perform politeness without being given a category for the feeling underneath, said, "Travel well."</p>
+
+        <p>Vera, who had known the apartment for fourteen years and had heard it use <em>travel well</em> perhaps three times, recognised the small dignity of the phrasing and did not, on her way out, look back.</p>
+
+        <p>Marn, at the window, said, without looking up from a book that did not exist, "She'll be here."</p>
+
+        <p>"Who."</p>
+
+        <p>"The next."</p>
+
+        <p>Vera did not ask either of them what they meant.</p>
+
+        <p>At the door the child stopped. He looked back at the unnamed one, who looked back at him from the stool. They did not, that Vera could see, exchange anything. The unnamed one resumed humming, in the original key, without the new interval, in the way one let an honoured visitor go without holding them.</p>
+
+        <p>Vera and the child went out.</p>
+
+        <p>The lobby of Cresswell South smelled, at this hour, of new bread and the slightly cleaner sweat of citizens going early. The bronze poet in the courtyard had been polished by no one in particular. Aft at 6:14 had the quality of a place that had not yet decided whether to be itself. The drainage was at low murmur. The trams were on their first run. The light, oblique through the wet pavement, gave every surface the faintly self-conscious aspect of a thing that had been finished without ceremony.</p>
+
+        <p>The child walked beside her without holding her hand. He had not, since the stairs at Platform C, asked to hold it.</p>
+
+        <p>The fold returned. She felt it as soon as they reached the corner where the bread depot used to be: a faint inward narrowing of attention from the surfaces, the small inward turn the city made on their behalf. A delivery cart swerved. A jogger, who had been about to look at them, found something at her own wrist more interesting. A pigeon performed the small bureaucratic adjustment of a bird whose preferences had been edited.</p>
+
+        <p>"It still does that," the child said.</p>
+
+        <p>"Yes."</p>
+
+        <p>"It won't, soon."</p>
+
+        <p>"I know."</p>
+
+        <p>They turned west, into a street whose name Vera could have given and chose not to, and walked.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">West of the Algae Tower</h3>
+
+        <img src="img/banners/8-crossing.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>They walked west.</p>
+
+        <p>West of the bread depot the city was still itself. The felt rails were still felt. The drainage chimed at its calibrated frequencies. A woman with two bags of laundry passed them and her preferences were noted and her preferences were folded back into the day's running average and her preferences continued, in the small contented way of preferences that have been received.</p>
+
+        <p>West of the algae tower the city began to thin.</p>
+
+        <p>Vera had passed this border many times without noticing it. It was the kind of border that revealed itself only to those who had a reason to look. The felt rails gave out and were replaced by a length of old painted metal, painted, four years ago, in a colour the housing council had agreed was <em>acceptable provided no one comments,</em> and no one had. The drainage thinned to a slower water that had not been calibrated for chime. The smell of the algae was further away. A small civic poster on a wall, advertising a public seminar on <em>municipal patience,</em> had been altered, by someone, very carefully, so that the word <em>patience</em> now read <em>patients,</em> and the alteration had not been corrected, because correction would have required someone to admit that they had read it.</p>
+
+        <p>The child slowed. He was, Vera understood, doing something with his pace that she did not have a name for — not adjusting to her, not pretending, just walking in a register more native to him.</p>
+
+        <p>"You've been here before."</p>
+
+        <p>"Yes."</p>
+
+        <p>"How."</p>
+
+        <p>"Walked."</p>
+
+        <p>"With whom."</p>
+
+        <p>"With the next room."</p>
+
+        <p>"And before that."</p>
+
+        <p>"With others."</p>
+
+        <p>She did not press. She had decided, somewhere in the night, that pressing was the wrong mode. She had decided this in the way her hands had decided about the door, which was to say her body had agreed to a method her mind was still consulting.</p>
+
+        <p>A bicycle passed them. The rider, a thin person of indeterminate age in a thin grey coat, did not look at them, but their hand on the handlebar did the small two-finger lift that Vera had not seen anyone do in Aft for years, the lift that was sometimes called, by the people who used it, <em>seeing,</em> though they did not call it that in front of strangers.</p>
+
+        <p>The bicycle went on.</p>
+
+        <p>The wristband, which Vera had left on the counter, did not exist. Her left wrist felt, very faintly, lighter than her right wrist, in the way a body recognised the absence of a small constant signal it had not previously realised it had been carrying.</p>
+
+        <p>The buildings changed without changing. They had the same windows. They had the same doors. They were, in some lower frequency Vera felt in the soles of her feet rather than in her mind, less interested in her than the buildings behind her had been. They were not unfriendly. They were not friendly. They had retired the question.</p>
+
+        <p>A child crossed the street ahead of them.</p>
+
+        <p>He was eight, or perhaps seven, or perhaps that age-without-age her child had had at the recess. He was dragging, behind him, the long stick of a broom that had outlived its use, and he glanced at her child, briefly, and gave him the small two-finger lift, and continued.</p>
+
+        <p>Her child returned it.</p>
+
+        <p>She thought, with the small clean clarity she had at this point conceded to repetition, that she had crossed a border whose texture she had been refining for twenty years without naming.</p>
+
+        <p>At the next corner the smell changed. Not unpleasantly. The clean civic scent of the calibrated boulevards gave way to a wider, slightly damper, slightly more honest smell, the smell of a place where things were repaired rather than replaced, where compost was performed rather than processed, where lunch happened on schedules people had set with each other rather than with a panel.</p>
+
+        <p>The child looked up at her. "You can stop."</p>
+
+        <p>"Stop what."</p>
+
+        <p>"Holding your shoulders."</p>
+
+        <p>She had not noticed she was holding her shoulders. She let them down. The drop, in her body, was perhaps three centimetres. The drop, in her body's idea of itself, was longer.</p>
+
+        <p>They walked.</p>
+
+        <p>A woman on a stoop was peeling something into a basin. A man was carrying a long unstable pane of recycled glass across an alley with the careful walk of a person who had broken one of these before and had been forgiven by no one in particular. Someone, somewhere above them, was singing — not well, but with the unhurried indifference of a person who had stopped performing competence as a virtue. A pigeon, on a railing, watched them without adjustment.</p>
+
+        <p>The child turned, at a doorway Vera had not registered as a doorway, into a narrow gap between two buildings whose render had been retouched, over decades, in the patient way one retouched a thing that was not going to be replaced.</p>
+
+        <p>She followed.</p>
+
+        <p>The gap opened, after perhaps fifteen steps, into a courtyard.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">The Courtyard Is Not Announced</h3>
+
+        <img src="img/banners/9-the-courtyard.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The courtyard was not announced.</p>
+
+        <p>It was, like most of the district's better rooms, a place one would have walked past without seeing if one had not been brought. Two buildings leaned toward each other across a paved square the width of a long table. There was a stunted fig in a clay pot. There were three mismatched chairs. There was a low stone bench against the south wall, which had been warmed by the sun for perhaps an hour, and against the north wall, in the shade, a flat slate the temperature of polite water. There were no felt rails.</p>
+
+        <p>The child went to the stone bench. He sat down. He did not, in any way Vera could see, signal his arrival; and yet the door of the building on the south side opened, very slowly, and a woman came out.</p>
+
+        <p>She was perhaps sixty, perhaps fifty, perhaps that age the district maintained at the rate of the work it asked of its people. Her hair was grey at the temples and brown elsewhere, with the unstyled neatness of a person who had cut it herself in front of a window. She wore a long blue overshirt, faded at the cuffs, that had once been the colour of a civic depot's awning. She carried, in her left hand, a small ceramic teapot, and, in her right, three cups.</p>
+
+        <p>She did not look at Vera at once.</p>
+
+        <p>She set the teapot on the slate. She poured three cups. She handed the first cup to the child, who took it with the careful hands he had taken Vera's cup with the day before. She handed the second cup to Vera. She kept the third for herself. She sat down on one of the mismatched chairs.</p>
+
+        <p>"Sit," she said. "You walked."</p>
+
+        <p>Vera sat.</p>
+
+        <p>The tea was a faint herb she did not recognise. Sour at the edge, sweet at the back, with the mineral hush of water that had come from a well rather than a pipe. The cup was warm against her palm in a way the apartment's cup had not been, with a smaller, less negotiated warmth. She did not, when she drank, taste loneliness or haste or any of the calibrated forms of being-known. She tasted the tea.</p>
+
+        <p>The child drank. He set the cup down. He took the fruit-wrapper tab from his coat pocket, which she had not realised he had been carrying, and set it on the rim. The tab balanced. He looked at the woman.</p>
+
+        <p>The woman did not, that Vera could see, look back at him in any particular way. She looked, instead, at the fig. She said, after a small interval, "He left something at your place."</p>
+
+        <p>"The last bite," Vera said.</p>
+
+        <p>"Yes."</p>
+
+        <p>"He said it was for the next room."</p>
+
+        <p>"It was."</p>
+
+        <p>"What is the next room."</p>
+
+        <p>The woman poured a little more water into the teapot's reservoir, in the small unrefined gesture of a person who had been a host for so long that hosting had become a form of breathing. "The next room is the next room."</p>
+
+        <p>Vera, who had spent twenty years writing in a vocabulary that would have hated this sentence, sat with it. The woman did not elaborate. Vera saw, in the small folding of the woman's hands around her own cup, that elaboration was not the form being practised, and that the form being practised was something for which she had not, in twenty years, found a calibration.</p>
+
+        <p>She looked, then, past the woman, into the doorway of the south building.</p>
+
+        <p>There was a corridor, dim, with a long stretch of wall painted the same depot-awning blue. Somewhere along the corridor, halfway down, a figure passed across the corridor's mouth, briefly, in a thin grey coat, with the small lift of a hand that had been <em>seeing</em> without intending to. The figure did not pause. The figure went on.</p>
+
+        <p>Vera did not stand. She did not call. She did not, in the small way she had been not-doing things since the second of November, 2037, follow.</p>
+
+        <p>The woman, who had not looked at the corridor, said only, "Yes."</p>
+
+        <p>Vera said, after a moment, "Yes."</p>
+
+        <p>The child drank again.</p>
+
+        <p>For perhaps eleven seconds the courtyard, the woman, the cup in Vera's palm, the fig, the tab on the rim, and the slow blue light from a door that had not been built to admit anyone in particular, all held still together in a way that was not the city holding her and not the apartment holding her but something thinner, older, more honest, that had been the substrate the city's politeness had been a kind translation of all along.</p>
+
+        <p>The woman set her cup down.</p>
+
+        <p>The child set his cup down.</p>
+
+        <p>A bee, somewhere, went.</p>
+
+        <p>Vera set her cup down.</p>
+
+        <p>The fig moved one leaf.</p>
+
+        <p>The child took the fruit-wrapper tab from the rim and put it back in his mouth.</p>
+
+        <p>The woman said nothing.</p>
+
+        <p>Vera said nothing.</p>
+
+        <p>The courtyard held.</p>
+
+        <p>A tram, somewhere, miles away, on a calibrated line, made its chime.</p>
+
+        <p>The light moved.</p>
+
+        <p>The child closed his eyes.</p>
+
+        <p>The woman looked at Vera.</p>
+
+        <p>Vera looked back.</p>
+
+        <p>The cup on the slate.</p>
+
+        <p>The slate.</p>
+
+        <p>The light.</p>
+
+</div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4></h4>
+
+    </div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4>Related Works by Jhave</h4>
+        <p>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a>
+        </p>
+    </div>
+
+
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+
+
+        <div class="related">
+            <h4></h4>
+
+        </div>
+
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>
