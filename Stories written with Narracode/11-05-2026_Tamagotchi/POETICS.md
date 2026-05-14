@@ -1,6 +1,6 @@
 # POETICS.md — project commitments
 
-*Initiated 2026-05-11. Working title: Tamagotchi (working subtitle: "The Wonderful Adventures of Trygve Aas"). Loop: 0.*
+*Initiated 2026-05-11. Working title: Tamagotchi (working subtitle: "The Wonderful Adventures of Trygve Aas"). Display title: The Wonderful Adventures of Trygve Aas. Loop: 0.*
 
 ## Premise
 

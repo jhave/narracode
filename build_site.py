@@ -3,6 +3,39 @@ import re
 import sys
 import shutil
 
+
+def count_words_in_drafts(drafts_dir):
+    """Sum words across all draft .md files (excluding pre-edit versions)."""
+    if not os.path.exists(drafts_dir):
+        return 0
+    total = 0
+    for f in sorted(os.listdir(drafts_dir)):
+        if not f.endswith('.md') or 'pre-edit' in f:
+            continue
+        with open(os.path.join(drafts_dir, f), 'r', encoding='utf-8') as fh:
+            content = fh.read()
+        # strip code blocks, inline code, links, common markdown punctuation
+        text = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
+        text = re.sub(r'`[^`]*`', '', text)
+        text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
+        text = re.sub(r'^[#>\-*]+\s*', '', text, flags=re.MULTILINE)
+        text = re.sub(r'[*_~]', '', text)
+        total += len(text.split())
+    return total
+
+
+def get_display_title(folder_path, folder_name):
+    """Prefer 'Display title: X' from POETICS.md; fall back to folder-name parsing."""
+    poetics = os.path.join(folder_path, "POETICS.md")
+    if os.path.exists(poetics):
+        with open(poetics, 'r', encoding='utf-8') as f:
+            content = f.read()
+        m = re.search(r'Display title:\s*([^.\n]+?)\s*(?:\.\s|\.$|$)', content, flags=re.MULTILINE)
+        if m:
+            return m.group(1).strip()
+    return folder_name.split('_')[-1].replace('-', ' ').title()
+
+
 def build_site(project_dir):
     template_path = "IGNORE/html/the_long_afternoon.html"
     drafts_dir = os.path.join(project_dir, "drafts")
@@ -15,7 +48,8 @@ def build_site(project_dir):
         return
 
     # Extract metadata from ATTRIBUTION.md if it exists
-    title = os.path.basename(project_dir).split('_')[-1].replace('-', ' ').title()
+    folder_name = os.path.basename(project_dir)
+    title = get_display_title(project_dir, folder_name)
     author_info = ""
     attr_path = os.path.join(project_dir, "ATTRIBUTION.md")
     if os.path.exists(attr_path):
@@ -111,8 +145,12 @@ def build_library_index():
             folder_path = os.path.join(base_dir, folder)
             if os.path.isdir(folder_path):
                 if os.path.exists(os.path.join(folder_path, "index.html")):
-                    title = folder.split('_')[-1].replace('-', ' ').title()
-                    
+                    title = get_display_title(folder_path, folder)
+
+                    # Word count + reading time
+                    word_count = count_words_in_drafts(os.path.join(folder_path, "drafts"))
+                    reading_minutes = max(1, round(word_count / 250))
+
                     # Extract authors
                     author_info = ""
                     attr_path = os.path.join(folder_path, "ATTRIBUTION.md")
@@ -147,7 +185,9 @@ def build_library_index():
                         "path": f"{base_dir}/{folder}/index.html",
                         "folder_name": folder,
                         "author_info": author_info,
-                        "synopsis": synopsis
+                        "synopsis": synopsis,
+                        "word_count": word_count,
+                        "reading_minutes": reading_minutes,
                     })
     
     projects.sort(key=lambda x: x["folder_name"], reverse=True) # newest first
@@ -262,7 +302,14 @@ def build_library_index():
         .story-authors {{
             font-size: 0.9rem;
             color: var(--muted);
+            margin-bottom: 0.4rem;
+        }}
+        .story-meta {{
+            font-size: 0.82rem;
+            color: var(--muted);
             margin-bottom: 1rem;
+            font-variant-numeric: tabular-nums;
+            letter-spacing: 0.02em;
         }}
         .story-synopsis {{
             font-size: 1.05rem;
@@ -358,9 +405,11 @@ def build_library_index():
 """
     
     for p in projects:
+        meta_line = f"≈ {p['word_count']:,} words · {p['reading_minutes']} min read" if p['word_count'] else ""
         html += f"""    <a href="{p['path']}" class="story-link">
         <div class="story-title">{p['title']}</div>
         <div class="story-authors">{p['author_info']}</div>
+        <div class="story-meta">{meta_line}</div>
         <div class="story-synopsis">{p['synopsis']}</div>
     </a>
 """
