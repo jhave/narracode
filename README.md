@@ -13,9 +13,13 @@ Narracode is a storytelling harness for agentic AI. Inspired by Claude Code, it 
 - **LLM** = Neuro layer
 - **Harness** = Symbolic layer
 
+🌐 **Download the harness:** [narracode.md](./narracode.md) [It's one file that unfolds into the system. Just ask your agent to read it and initiate a new project.]
+
+Narracode is not just a tool; it is a philosophical statement. It is an argument that narrative, too, can be treated as a form of code—structured, intentional, and amenable to the kind of architectural reasoning that has made AI so powerful for programming.
+
 It emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code, specifically re-purposed for narrative literature.  
 
-## Installation
+## Full Installation (with examples)
 
 1. Clone this repository to your local machine.
 2. Open the repository in your IDE alongside an agentic AI assistant (like Claude Code, Cursor, or Gemini).
