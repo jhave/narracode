@@ -83,7 +83,10 @@
             color: var(--accent);
         }
         .story-link {
-            display: block;
+            display: grid;
+            grid-template-columns: 128px 1fr;
+            gap: 1.25rem;
+            align-items: start;
             text-decoration: none;
             color: inherit;
             padding: 1.5rem;
@@ -98,6 +101,17 @@
             border-color: var(--accent);
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             transform: translateY(-2px);
+        }
+        .story-icon {
+            display: block;
+            width: 128px;
+            height: 128px;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
         }
         .story-title {
             font-size: 1.8rem;
@@ -121,6 +135,24 @@
             font-size: 1.05rem;
             color: var(--accent);
             line-height: 1.6;
+        }
+        @media (max-width: 620px) {
+            .story-link {
+                grid-template-columns: 88px 1fr;
+                gap: 1rem;
+                padding: 1rem;
+            }
+            .story-icon {
+                width: 88px;
+                height: 88px;
+            }
+            .story-title {
+                font-size: 1.35rem;
+                line-height: 1.25;
+            }
+            .story-synopsis {
+                font-size: 0.98rem;
+            }
         }
         .footer-logo {
             text-align: center;
@@ -207,24 +239,33 @@
         </div>
     </div>
 
-    <h2>Example Stories</h2>
+    <h2>📚 Example Stories</h2>
     <a href="Stories written with Narracode/11-05-2026_Tamagotchi/index.html" class="story-link">
-        <div class="story-title">The Wonderful Adventures of Trygve Aas</div>
-        <div class="story-authors">Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 11-05-2026</div>
-        <div class="story-meta">≈ 18,196 words · 73 min read</div>
-        <div class="story-synopsis">An old, bitter, rich man in Bergen is converted into an animated Tamagotchi-keychain at the airport. Carried in pockets and on lanyards by airline workers across Bergen, Schiphol, Bangkok, LA, NYC, and home again, he sees the world from a different scale — and a change of heart slowly, magically accumulates.</div>
+        <img src="img/story-icons/trygve-aas.webp" alt="" class="story-icon" loading="lazy" width="640" height="640">
+        <div class="story-copy">
+            <div class="story-title">The Wonderful Adventures of Trygve Aas</div>
+            <div class="story-authors">Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 11-05-2026</div>
+            <div class="story-meta">≈ 18,196 words · 73 min read</div>
+            <div class="story-synopsis">An old, bitter, rich man in Bergen is converted into an animated Tamagotchi-keychain at the airport. Carried in pockets and on lanyards by airline workers across Bergen, Schiphol, Bangkok, LA, NYC, and home again, he sees the world from a different scale — and a change of heart slowly, magically accumulates.</div>
+        </div>
     </a>
     <a href="Stories written with Narracode/10-05-2026_Exile/index.html" class="story-link">
-        <div class="story-title">Exile Cut</div>
-        <div class="story-authors">Jhave &nbsp;·&nbsp; Gemini 3.1 Pro (High) &nbsp;·&nbsp; 10-05-2026</div>
-        <div class="story-meta">≈ 1,046 words · 4 min read</div>
-        <div class="story-synopsis">A human has been cast out from an enclave for using AI after it has been banned. An anecdote of exile in the style of W.G. Sebald. The cut is felt as a phantom limb — an entire cognitive lobe gone silent.</div>
+        <img src="img/story-icons/exile-cut.webp" alt="" class="story-icon" loading="lazy" width="640" height="640">
+        <div class="story-copy">
+            <div class="story-title">Exile Cut</div>
+            <div class="story-authors">Jhave &nbsp;·&nbsp; Gemini 3.1 Pro (High) &nbsp;·&nbsp; 10-05-2026</div>
+            <div class="story-meta">≈ 1,046 words · 4 min read</div>
+            <div class="story-synopsis">A human has been cast out from an enclave for using AI after it has been banned. An anecdote of exile in the style of W.G. Sebald. The cut is felt as a phantom limb — an entire cognitive lobe gone silent.</div>
+        </div>
     </a>
     <a href="Stories written with Narracode/09-05-2026_Slime/index.html" class="story-link">
-        <div class="story-title">Slime: Friendship Bloom</div>
-        <div class="story-authors">Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 09-05-2026</div>
-        <div class="story-meta">≈ 8,784 words · 35 min read</div>
-        <div class="story-synopsis">A group of academics spontaneously become adventurers when an XR-AI biological singularity merges into an autonomous, permeating slime. As the slime saturates the city and rewires perception, friendships bloom into shapes the analytical mind had refused to consider.</div>
+        <img src="img/story-icons/slime-friendship-bloom.webp" alt="" class="story-icon" loading="lazy" width="640" height="640">
+        <div class="story-copy">
+            <div class="story-title">Slime: Friendship Bloom</div>
+            <div class="story-authors">Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 09-05-2026</div>
+            <div class="story-meta">≈ 8,784 words · 35 min read</div>
+            <div class="story-synopsis">A group of academics spontaneously become adventurers when an XR-AI biological singularity merges into an autonomous, permeating slime. As the slime saturates the city and rewires perception, friendships bloom into shapes the analytical mind had refused to consider.</div>
+        </div>
     </a>
 
     

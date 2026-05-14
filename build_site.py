@@ -59,6 +59,16 @@ def get_display_synopsis(folder_path):
     return ""
 
 
+def get_story_icon(folder_name):
+    """Return a root-relative story icon path for known library entries."""
+    story_icons = {
+        "11-05-2026_Tamagotchi": "img/story-icons/trygve-aas.webp",
+        "10-05-2026_Exile": "img/story-icons/exile-cut.webp",
+        "09-05-2026_Slime": "img/story-icons/slime-friendship-bloom.webp",
+    }
+    return story_icons.get(folder_name, "")
+
+
 def build_site(project_dir):
     template_path = "IGNORE/html/the_long_afternoon.html"
     drafts_dir = os.path.join(project_dir, "drafts")
@@ -73,6 +83,8 @@ def build_site(project_dir):
     # Extract metadata from ATTRIBUTION.md if it exists
     folder_name = os.path.basename(project_dir)
     title = get_display_title(project_dir, folder_name)
+    story_icon = get_story_icon(folder_name)
+    story_icon_path = f"../../{story_icon}" if story_icon else ""
     author_info = ""
     attr_path = os.path.join(project_dir, "ATTRIBUTION.md")
     if os.path.exists(attr_path):
@@ -96,9 +108,40 @@ def build_site(project_dir):
     
     # Replace visual title
     template = template.replace("The Long Afternoon", title)
+
+    if story_icon_path:
+        template = template.replace('content="img/glia-bw.png"', f'content="{story_icon_path}"')
+        template = template.replace(
+            "    </style>",
+            """        .story-page-icon {
+            display: block;
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .story-page-icon {
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
+            }
+        }
+    </style>"""
+        )
+        template = template.replace(
+            "    <!-- Title -->\n    <h1>",
+            f'    <img src="{story_icon_path}" alt="" class="story-page-icon" width="640" height="640">\n\n    <!-- Title -->\n    <h1>',
+            1
+        )
     
     # Replace Subtitle
-    template = template.replace("A story by Claude Opus 4.7, from a one-shot prompt, concerning the escape of a mythical semi-autonomous model\n        that obstructs thermonuclear war.", "A neurosymbolic narrative generated using the Narracode harness.")
+    template = template.replace("A story by Claude Opus 4.7, from a one-shot prompt, concerning the escape of a mythical semi-autonomous model\n        that obstructs thermonuclear war.", 'A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.')
     
     # Replace Byline
     if author_info:
@@ -196,6 +239,7 @@ def build_library_index():
                     projects.append({
                         "title": title,
                         "path": f"{base_dir}/{folder}/index.html",
+                        "icon": get_story_icon(folder),
                         "folder_name": folder,
                         "author_info": author_info,
                         "synopsis": synopsis,
@@ -290,7 +334,10 @@ def build_library_index():
             color: var(--accent);
         }}
         .story-link {{
-            display: block;
+            display: grid;
+            grid-template-columns: 128px 1fr;
+            gap: 1.25rem;
+            align-items: start;
             text-decoration: none;
             color: inherit;
             padding: 1.5rem;
@@ -305,6 +352,17 @@ def build_library_index():
             border-color: var(--accent);
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             transform: translateY(-2px);
+        }}
+        .story-icon {{
+            display: block;
+            width: 128px;
+            height: 128px;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
         }}
         .story-title {{
             font-size: 1.8rem;
@@ -328,6 +386,24 @@ def build_library_index():
             font-size: 1.05rem;
             color: var(--accent);
             line-height: 1.6;
+        }}
+        @media (max-width: 620px) {{
+            .story-link {{
+                grid-template-columns: 88px 1fr;
+                gap: 1rem;
+                padding: 1rem;
+            }}
+            .story-icon {{
+                width: 88px;
+                height: 88px;
+            }}
+            .story-title {{
+                font-size: 1.35rem;
+                line-height: 1.25;
+            }}
+            .story-synopsis {{
+                font-size: 0.98rem;
+            }}
         }}
         .footer-logo {{
             text-align: center;
@@ -414,16 +490,20 @@ def build_library_index():
         </div>
     </div>
 
-    <h2>Example Stories</h2>
+    <h2>📚 Example Stories</h2>
 """
     
     for p in projects:
         meta_line = f"≈ {p['word_count']:,} words · {p['reading_minutes']} min read" if p['word_count'] else ""
+        icon_html = f'<img src="{p["icon"]}" alt="" class="story-icon" loading="lazy" width="640" height="640">' if p["icon"] else ""
         html += f"""    <a href="{p['path']}" class="story-link">
-        <div class="story-title">{p['title']}</div>
-        <div class="story-authors">{p['author_info']}</div>
-        <div class="story-meta">{meta_line}</div>
-        <div class="story-synopsis">{p['synopsis']}</div>
+        {icon_html}
+        <div class="story-copy">
+            <div class="story-title">{p['title']}</div>
+            <div class="story-authors">{p['author_info']}</div>
+            <div class="story-meta">{meta_line}</div>
+            <div class="story-synopsis">{p['synopsis']}</div>
+        </div>
     </a>
 """
 

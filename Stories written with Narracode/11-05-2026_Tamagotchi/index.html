@@ -17,14 +17,14 @@
     <meta property="og:title" content="The Wonderful Adventures of Trygve Aas — A Story of the Escape">
     <meta property="og:description"
         content="A neurosymbolic narrative generated using Narracode.">
-    <meta property="og:image" content="img/glia-bw.png">
+    <meta property="og:image" content="../../img/story-icons/trygve-aas.webp">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Wonderful Adventures of Trygve Aas — A Story of the Escape">
     <meta name="twitter:description"
         content="A neurosymbolic narrative generated using Narracode.">
-    <meta name="twitter:image" content="img/glia-bw.png">
+    <meta name="twitter:image" content="../../img/story-icons/trygve-aas.webp">
 
     <style>
         :root {
@@ -264,6 +264,25 @@
             border-radius: 2px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
         }
+        .story-page-icon {
+            display: block;
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .story-page-icon {
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
+            }
+        }
     </style>
 </head>
 
@@ -276,11 +295,13 @@
         </a>
     </div>
 
+    <img src="../../img/story-icons/trygve-aas.webp" alt="" class="story-page-icon" width="640" height="640">
+
     <!-- Title -->
     <h1>The Wonderful Adventures of Trygve Aas</h1>
 
     <!-- Subtitle (aphoristic) -->
-    <h2>A neurosymbolic narrative generated using the Narracode harness.</h2>
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
 
     <!-- Byline -->
     <h5>Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 11-05-2026</h5>
