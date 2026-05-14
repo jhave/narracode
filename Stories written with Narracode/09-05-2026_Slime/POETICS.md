@@ -1,6 +1,10 @@
 # POETICS.md — project commitments
 
-*Initiated 2026-05-08. Working title: untitled (the slime project). Loop: 0.*
+*Initiated 2026-05-08. Working title: untitled (the slime project). Display title: Slime: Friendship Bloom. Loop: 0.*
+
+## Display synopsis
+
+A group of academics spontaneously become adventurers when an XR-AI biological singularity merges into an autonomous, permeating slime. As the slime saturates the city and rewires perception, friendships bloom into shapes the analytical mind had refused to consider.
 
 ## Premise
 

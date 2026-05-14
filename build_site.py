@@ -36,6 +36,29 @@ def get_display_title(folder_path, folder_name):
     return folder_name.split('_')[-1].replace('-', ' ').title()
 
 
+def get_display_synopsis(folder_path):
+    """Prefer a '## Display synopsis' section in POETICS.md; fall back to first paragraph of '## Premise'."""
+    poetics = os.path.join(folder_path, "POETICS.md")
+    if not os.path.exists(poetics):
+        return ""
+    with open(poetics, 'r', encoding='utf-8') as f:
+        content = f.read()
+    # First try Display synopsis section
+    if "## Display synopsis" in content:
+        part = content.split("## Display synopsis", 1)[1]
+        text = part.split("\n##", 1)[0].strip()
+        first_paragraph = text.split("\n\n")[0].strip()
+        if first_paragraph:
+            return first_paragraph
+    # Fallback to ## Premise
+    if "## Premise" in content:
+        part = content.split("## Premise", 1)[1]
+        text = part.split("\n##", 1)[0].strip()
+        first_paragraph = text.split("\n\n")[0].strip()
+        return first_paragraph
+    return ""
+
+
 def build_site(project_dir):
     template_path = "IGNORE/html/the_long_afternoon.html"
     drafts_dir = os.path.join(project_dir, "drafts")
@@ -164,21 +187,11 @@ def build_library_index():
                             if attrs:
                                 author_info = " &nbsp;·&nbsp; ".join(attrs)
                     
-                    # Extract synopsis from POETICS.md
-                    synopsis = ""
-                    poetics_path = os.path.join(folder_path, "POETICS.md")
-                    if os.path.exists(poetics_path):
-                        with open(poetics_path, "r", encoding="utf-8") as f:
-                            content = f.read()
-                            if "## Premise" in content:
-                                part = content.split("## Premise")[1]
-                                # get text until next ##
-                                synopsis_text = part.split("##")[0].strip()
-                                # take the first paragraph
-                                synopsis = synopsis_text.split("\n\n")[0].strip()
-                                # basic markdown bold/italic removal or conversion
-                                synopsis = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', synopsis)
-                                synopsis = re.sub(r'\*(.*?)\*', r'<em>\1</em>', synopsis)
+                    # Extract synopsis (Display synopsis preferred, else first ## Premise paragraph)
+                    synopsis = get_display_synopsis(folder_path)
+                    if synopsis:
+                        synopsis = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', synopsis)
+                        synopsis = re.sub(r'\*(.*?)\*', r'<em>\1</em>', synopsis)
 
                     projects.append({
                         "title": title,

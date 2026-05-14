@@ -1,6 +1,10 @@
 # POETICS.md — project commitments
 
-*Initiated 2026-05-10. Working title: Exile (May10). Loop: 0.*
+*Initiated 2026-05-10. Working title: Exile (May10). Display title: Exile Cut. Loop: 0.*
+
+## Display synopsis
+
+A human has been cast out from an enclave for using AI after it has been banned. An anecdote of exile in the style of W.G. Sebald. The cut is felt as a phantom limb — an entire cognitive lobe gone silent.
 
 ## Premise
 

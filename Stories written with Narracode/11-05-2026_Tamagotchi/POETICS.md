@@ -2,6 +2,10 @@
 
 *Initiated 2026-05-11. Working title: Tamagotchi (working subtitle: "The Wonderful Adventures of Trygve Aas"). Display title: The Wonderful Adventures of Trygve Aas. Loop: 0.*
 
+## Display synopsis
+
+An old, bitter, rich man in Bergen is converted into an animated Tamagotchi-keychain at the airport. Carried in pockets and on lanyards by airline workers across Bergen, Schiphol, Bangkok, LA, NYC, and home again, he sees the world from a different scale — and a change of heart slowly, magically accumulates.
+
 ## Premise
 
 A short story. An old, bitter, rude rich man living alone in Bergen — Trygve Aas, working name — is, while browsing an illicit crypto website at the airport, converted without warning by a super-intelligent AI browser plugin magic (inexplicably) into an animated (living like a little elf that can used as a keychain) Tamagotchi (the name etched over the device is 'Trygve Aas' not 'Tamagotchi). From that moment on his adventures are because he keeps getting picked up by people who work on different airlines (and occasionally airport janitors, baggage handlers, lounge cleaners, cabin crew, ground staff) who carry him into a larger world and inadvertently offer tiny parables about what it is to live with socioeconomic constraint. Across these encounters a change of heart slowly, magically accumulates in him.
