@@ -8,8 +8,10 @@ Computer code is a solved problem for AI. Why not literature?
 
 Narracode is a storytelling harness for agentic AI. Inspired by Claude Code, it is a neurosymbolic approach to narrative generation.
 
-LLM = Neuro layer
-Harness = Symbolic layer
+🌐 **Live site:** [jhave.github.io/narracode](https://jhave.github.io/narracode/)
+
+- **LLM** = Neuro layer
+- **Harness** = Symbolic layer
 
 It emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code, specifically re-purposed for narrative literature.  
 
