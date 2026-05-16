@@ -800,7 +800,7 @@ def build_library_index():
     </a>
 """
 
-    html += "\n    \n" + build_related_footer(projects) + """
+    html += "\n    \n" + RELATED_WORKS_HTML + """
 
     <div class="footer-logo">
         <a target="_blank" href="https://glia.ca/">
