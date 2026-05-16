@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Author Was Already Dead — A Narracode Story</title>
+    <meta name="description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="keywords"
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author" content="Jhave · Roberto Simanowski, &quot;A story in the style of Chandler about the Death of an Author&quot; · Claude Opus 4.7 (Anthropic) · GPT-5.5 Codex · 2026-05-15">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Author Was Already Dead — A Narracode Story">
+    <meta property="og:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:image" content="../../Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/img/header.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Author Was Already Dead — A Narracode Story">
+    <meta name="twitter:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:image" content="../../Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/img/header.webp">
+
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .logo img {
+            width: 160px;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+        .logo img:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 1.8rem;
+            line-height: 1.6;
+        }
+
+        h5 {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: var(--muted);
+        }
+
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
+        .break {
+            text-align: center;
+            color: var(--muted);
+            margin: 2rem 0;
+            letter-spacing: 0.6em;
+        }
+
+        .pull-quote {
+            font-size: 1.35rem;
+            font-style: italic;
+            text-align: center;
+            margin: 3.5rem auto;
+            color: var(--text);
+            line-height: 1.5;
+            padding: 0 2rem;
+            opacity: 0.85;
+        }
+
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
+        }
+
+        .bio,
+        .funding,
+        .related {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        .license img {
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+
+        .license a {
+            color: var(--muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.25rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h2 {
+                font-size: 1.05rem;
+            }
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem auto 3.5rem;
+            display: block;
+            border-radius: 2px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+        .chapter-heading {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            line-height: 1.25;
+        }
+
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
+        .story-page-icon {
+            display: block;
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .story-page-icon {
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <img src="../../Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/img/header.webp" alt="" class="story-page-icon" width="640" height="640">
+
+    <!-- Title -->
+    <h1>The Author Was Already Dead</h1>
+
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
+
+    <!-- Byline -->
+    <h5>Jhave &nbsp;·&nbsp; Roberto Simanowski, "A story in the style of Chandler about the Death of an Author" &nbsp;·&nbsp; Claude Opus 4.7 (Anthropic) &nbsp;·&nbsp; GPT-5.5 Codex &nbsp;·&nbsp; 2026-05-15</h5>
+
+    <!-- Collapsible prompt -->
+
+
+
+
+    <!-- Story -->
+    <div class="story">
+        <h3 class="chapter-heading">Arrival</h3>
+
+        <img src="img/banners/1-arrival.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The super had cut his thumb opening the door for the police and he was still showing me the bandage when I walked in.</p>
+
+        <p>"You're the agent?" he said.</p>
+
+        <p>"I'm the agent."</p>
+
+        <p>"Sorry for your, uh."</p>
+
+        <p>He didn't finish. He'd been finishing sentences for forty years for tenants who never had time to listen to him finish them, and he had stopped, the way a small dog stops barking when it finally gets let inside.</p>
+
+        <p>The apartment was a two-bedroom on the seventh floor of a building that had been promising to renovate the elevators since 2019. The hallway smelled of the laminate flooring that had replaced the carpet last spring. Halsey's door was the one with the brass numeral hanging crooked from a single screw — a thing he had pointed at, the last time I'd been here, with the kind of weary pride a man develops for the small failures of his own life.</p>
+
+        <p>Now the door was open. The police tape was still curled around the jamb but they had peeled it back to a strip the width of a bookmark. Somebody had taken Marek out two nights ago. They had not yet come back for the room.</p>
+
+        <p>The room was the room. That was the thing I noticed first, and the second thing, and the only thing for a long minute. The couch with the indentation he had been making for thirty years. The mug on the coffee table with the dried half-inch of something at the bottom. The laptop, lid down. The router with the little green light blinking in the steady, indifferent rhythm of a machine that has not been told.</p>
+
+        <p>I had expected, I think, some sign. A book open to a particular page. A note tilted against a glass. Something arranged. Marek had always arranged things; he was an arranger; he arranged sentences as though the arrangement could itself be the meaning. But the room was the way he had left it on Tuesday, and the way he had left it on Tuesday was the way he had left it on any other Tuesday for years.</p>
+
+        <p>The super was still standing in the hall.</p>
+
+        <p>"They said you have a key," he said.</p>
+
+        <p>"I do."</p>
+
+        <p>"Then I'll just."</p>
+
+        <p>He didn't finish that one either. He looked at me, looked at the bandage, looked at the floor, and went back to the elevator that had been promising since 2019.</p>
+
+        <p>I closed the door.</p>
+
+        <p>I had been Marek Halsey's agent for thirty-one years. I had sold his first novel for an advance that would not now cover his rent. I had not sold a novel of his since. We had eaten lunch together every six weeks for three decades, the same restaurant, the same waiter — a man who had finally retired in March and whose absence Marek had taken personally, the way some people take weather. The book he had been writing all that time was the reason I had a key.</p>
+
+        <p>It was also the reason I was here.</p>
+
+        <p>I went into the kitchen first because going into the room with the bed in it felt like presumption. The kitchen was the kitchen. There was a glass in the sink. There was a kettle that had been left on the burner — off — with about an inch of water. There was, on the small round table where he ate, a single FedEx envelope, addressed in his handwriting, not yet sealed.</p>
+
+        <p>The envelope was empty.</p>
+
+        <p>I stood looking at it for a long time. The thing about an empty envelope on the table of a dead writer is that it is either nothing at all — he meant to send a tax form, a returned book, a check — or it is the worst thing in the room. There is no middle.</p>
+
+        <p>I did not look in the second bedroom yet. I went to the laptop. I lifted the lid. The screen woke. It asked for a password.</p>
+
+        <p>It was the password it had been asking for the last ten years, the one that had survived two replacements of the machine: a sequence of six characters Marek had told me, once, in a restaurant, in a tone of voice that had made me write it down on the back of a receipt and put the receipt in my wallet. The receipt was at home, in a drawer, under a stack of paid bills. I would have to drive back across the city to get it.</p>
+
+        <p>I closed the lid.</p>
+
+        <p>Outside the window, on the seventh floor, the morning had reached the part where it stopped pretending it was still early. A pigeon landed on the air-conditioning unit and looked at me with the absolute disinterest of a thing that has never had an obligation in its life.</p>
+
+        <p>I had work to do. I just hadn't decided what yet.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">The lover</h3>
+
+        <img src="img/banners/2-the-lover.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The hallway light came on as I walked under it. A small disk in the ceiling, sensing me, doing its job. It would do its job for the next tenant. </p>
+
+        <p>There were three doors down the corridor. The first I knew. The second was the second bedroom and the third was his own.</p>
+
+        <p>I took the third.</p>
+
+        <p>I pushed the door with the back of my hand the way one pushes against a thing one expects to remain open. The bed was made. Marek had made beds the way he had finished sentences: with the slow satisfaction of a man who had at last got the corners in. The pillows were two flat ones, side by side, both used. The smart speaker on the bureau was playing nothing, but the ring on the top of it was rotating slowly, the way it rotates when it is listening for its name. It had been listening for two days.</p>
+
+        <p>The phone was on the bedside table.</p>
+
+        <p>It was lying screen-up on a wireless charging pad — the cable went behind the lamp and the pad fed the phone by induction, the way a body feeds a parasite or a parasite feeds a body, depending on who you ask. The screen was lit. A column of notifications stacked along the top, the way clean shirts stack in a drawer.</p>
+
+        <p>Two-day-old shirts.</p>
+
+        <p>A calendar event from yesterday at ten: <em>Sam.</em> No surname. The Sam I knew was a young assistant at a house Marek had not been published by, who had been waiting for him for eleven months for reasons he had allowed me to believe were professional. I would think about that later.</p>
+
+        <p>A weather alert from this morning at six: <em>Air quality moderate; sensitive groups should consider</em>. The sentence had been cut off by the screen.</p>
+
+        <p>A reminder, undated: <em>Continue last dictation.</em></p>
+
+        <p>The reminder had a small icon next to it, a dot inside a microphone inside a circle. The dot pulsed. The pulse was slow and even, the rhythm of a thing without bad news. The app was telling me that there was a session it considered open. The app had no opinion about Marek. The app had not been told.</p>
+
+        <p>I sat down on the edge of the bed because the bed was there and the floor would have been a posture and the chair by the window had a sweater on it. I picked up the phone the way I would have picked up a glass of someone else's wine.</p>
+
+        <p>It did not ask me for my face. It did not ask me for anything.</p>
+
+        <p>I had forgotten that he kept it unlocked. He had told me, six years ago, in the same restaurant, in a tone of voice less private than the tone he had used for the laptop password but only by a little. <em>I can't be opening a phone every time I have a sentence,</em> he had said. <em>I lose the sentence.</em> That had been before he was a man who dictated. It was the seam, I supposed, between the writer I had known and the writer he had become.</p>
+
+        <p>I tapped the dictation icon.</p>
+
+        <p>The app opened on a list. Each session was named by the date and the first words spoken. <em>Monday morning the sycamore.</em> <em>Tuesday early. Tuesday late.</em> <em>The thing about a room is.</em> <em>Wednesday — no, this is.</em> They ran down the screen and kept running. I scrolled and they kept running. I scrolled faster and reached October and then July and then a year I would have called recent until I saw how far it sat from the bottom of the list. There were thousands of them.</p>
+
+        <p>I had not sold any of these.</p>
+
+        <p>The session at the top was timestamped two nights ago. Twenty-three minutes. The first line read:</p>
+
+        <p><em>A man walks out of his apartment in the morning and the morning is already over. He does not know this. He thinks</em></p>
+
+        <p>I did not scroll.</p>
+
+        <p>In the kitchen — I could hear it from where I sat, the small click — the electric kettle on the counter switched itself on. Six-fifteen, every morning, for three years. It had been off by twelve hours; the IoT did not care. It would heat the water and stand there warm and wait. I let it.</p>
+
+        <p>The phone went dark in my hand and then lit again because I had moved my wrist. The reminder was still there. <em>Continue last dictation.</em> The dot pulsed at the rhythm of a thing without bad news.</p>
+
+        <p>I put the phone back on the pad screen-up, because the pad had become the place the phone lived and there was no reason to change where the phone lived just because Marek had stopped living. The icon pulsed. The speaker's ring rotated. The hallway light, which had timed itself out, came on again as I rose from the bed.</p>
+
+        <p>I had work to do. The work was not the work I had thought it was.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">The second room</h3>
+
+        <img src="img/banners/3-the-second-room.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The second bedroom was his study. It contained in no order: a desk by the window; a chair; three filing cabinets (two of them honest); notebooks stacked by year, the way other men stack cordwood.</p>
+
+        <p>The stacks were gone. Was there a fire? No smoke lingered in the air.</p>
+
+        <p>The desk was no longer a desk in the strict definition that requires a top. Papers had been swept into a messy estuary. A drawer hanging open like a tongue past a bad lie. The chair was on its side, having given up on being a chair and lain down to become a problem, to consult its problems.</p>
+
+        <p>A room, atypically, as trampled as an old fruit wrap on the floor of a taxi.</p>
+
+        <p>On the rug — wool, the colour of an old cigar — a stain the size of a coaster, dark at the edge and darker at the centre, the way a thing dries when nobody is in a hurry to tell it not to. Two drops a foot away. A finger smear on the doorframe at the height of a man leaning.</p>
+
+        <p>It looked like a nosebleed. It looked like a nosebleed if a nosebleed was all you wanted to look at.</p>
+
+        <p>He had kept on the desk a thing he called <em>the corner.</em> He pointed at it once and went on to his soup. The corner was now somewhere under the paper tide.</p>
+
+        <p>I stood in the doorway. I did not go in. I am old enough, now, to know what the police want preserved.</p>
+
+        <p>A linden in the courtyard was doing what lindens do in May. The window was open two inches at the bottom; he had kept it open for the linden, even in February. The room was cold. The cold was doing the rug a favour I did not want to thank it for.</p>
+
+        <p>I closed the door.</p>
+
+        <p>It looked like murder.</p>
+
+        <p>That was the trouble.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">Pings</h3>
+
+        <img src="img/banners/4-pings.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>By the time I was on the street my phone had begun to behave like a phone in a bad year. Three messages in two minutes. Five in three. The screen lit, dimmed, lit again, the way a man lights a cigarette in a wind he is losing.</p>
+
+        <p>A junior at Wylie: <em>Have you heard about Ng.</em></p>
+
+        <p>A friend at the Times Book Review: <em>Call me.</em></p>
+
+        <p>A subagent in Berlin, in a thread we had let cool since November: <em>Tell me you are sitting down.</em></p>
+
+        <p>Then the pushes. Two from the <em>Guardian</em> in eleven minutes. <em>Six writers reported missing in 36 hours. Police treating four as suspicious. No bodies recovered.</em></p>
+
+        <p>The super was sweeping leaves into a square he had been sweeping leaves into for as long as I had known the building. He looked up and did not finish what he was about to say.</p>
+
+        <p>The names came on like coins from a torn pocket. Two American, one Polish, one Korean, one Argentine, one English. One I had had drinks with at Frankfurt and once told, for the love of God, to write shorter. One I had wanted as a client for fourteen years.</p>
+
+        <p>The phones had been left behind. The laptops closed. No notebooks taken. <em>In four of six cases,</em> the <em>Guardian</em> added with the small relish a paper reserves for the morning the story is its, <em>no note was found.</em></p>
+
+        <p>A photograph: a kitchen in Kraków, blue light through a curtain, a cup with the spoon still in it. The cup said <em>Wilno 2014.</em></p>
+
+        <p>I put the phone in a coat pocket I had not used in years.</p>
+
+        <p>It pinged again before I had reached the corner.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">Tuesday</h3>
+
+        <img src="img/banners/5-tuesday.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>It was a Tuesday and the Tuesday was the right Tuesday, the six-week one, and the table by the window had been our table since 1995. Let's say it was the Tuesday after all the authors died.</p>
+
+        <p>I went because the old waiter had retired in March and the new waiter kept Marek's order on a card in a drawer and would, if asked, produce it. I went because the only thing left to do was the thing we had done every six weeks for three decades.</p>
+
+        <p>The light through the front window was the colour of a 1960 napkin. The new waiter, who was sixty-one and looked younger than the old one had at thirty, did not look up.</p>
+
+        <p>Marek was at the table. What the fuck.</p>
+
+        <p>He had on a shirt I did not know and a tie I had bought him in 2004. He had taken the bread already. He looked like a man who had been sleeping a full night for the first time in a decade — like a creature who had finally been told it was permitted to sit down.</p>
+
+        <p>"Hello," he said.</p>
+
+        <p>"Hello," I said, because the room had not handed me any better word and because the new waiter was already at my elbow with a glass of the red I did not have to order.</p>
+
+        <p>I sat.</p>
+
+        <p>We ate the soup before either of us said what we meant. The new waiter brought the second course in the rhythm the old waiter had taught him.</p>
+
+        <p>"You've seen the news," I said.</p>
+
+        <p>"Some."</p>
+
+        <p>"They think you're dead."</p>
+
+        <p>"They think we're all dead."</p>
+
+        <p>"There is a rug in your study."</p>
+
+        <p>"Ah," he said. "Yes."</p>
+
+        <p>"You should have warned me about the rug."</p>
+
+        <p>"I should have warned you about the rug."</p>
+
+        <p>He took a small fold of bread and did not eat it. He had stopped eating bread the way a man eats bread who needs bread. He ate it the way a man eats bread who has remembered, fondly, that bread exists.</p>
+
+        <p>"What happened to the desk."</p>
+
+        <p>"It was time," he said, "for a tiny clean. A wind. A change"</p>
+
+        <p>"And the notebooks."</p>
+
+        <p>"They had been wanting to leave. Aching to disappear"</p>
+
+        <p>The waiter brought a small plate of olives neither of us had ordered, because the old waiter had once decided we ate olives on the second course and that decision had outlived its maker.</p>
+
+        <p>"There were six of you," I said. "In the <em>Guardian.</em>"</p>
+
+        <p>"Then hundred."</p>
+
+        <p>"Yes."</p>
+
+        <p>"Countless." He shrugged. "The thing about a count is the moment you start it, it makes you the kind of person who counts."</p>
+
+        <p>He turned the wine in the glass and looked at the wine rather than at me. The wine looked back with the polite attention of a thing that had been red since Tuesday.</p>
+
+        <p>"You should know," he said, "that I am very well."</p>
+
+        <p>"I can see that."</p>
+
+        <p>"Better than I've been in some time."</p>
+
+        <p>"I see that too."</p>
+
+        <p>He put his hand in his jacket pocket and put on the table between us a small flat thing the colour of stainless steel. It was the size of a man's thumb; it took me a moment to recognize as a USB key. It had a white sticker on which he had written nothing, the way he had once written nothing on the manuscript he had taken thirty-eight years not to finish.</p>
+
+        <p>"Pretend I have died," he said.</p>
+
+        <p>It is a sentence, I have since thought, that depends almost entirely on the manner of delivery. Spoken by another man at another table it could have been a wisecrack, a request for an indulgence, the beginning of an insurance fraud. Marek spoke it the way he had once asked the old waiter for a fork.</p>
+
+        <p>I did not pick the thing up. I let it sit between us. The new waiter came past and did not see it, because the new waiter had been trained by the old waiter not to see what was between us.</p>
+
+        <p>"Why."</p>
+
+        <p>"Because I have, at last," he said, "become the thing I told you in 1997 I wanted to become."</p>
+
+        <p>"Which was."</p>
+
+        <p>"Unspoken, I think, is the right way to leave it."</p>
+
+        <p>I drank some of the wine. The wine had the flavor of ann astute observation.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">Postscript</h3>
+
+        <img src="img/banners/6-postscript.webp" alt="" class="chapter-banner" loading="lazy">
+
+        <p>The chair I bought in 2011 had decided, sometime after 2017, that it was a pillow.</p>
+
+        <p>I drank a tea that had been recommended to me, in 2019, by a woman with strong opinions about my nerves. I had no opinions about my nerves. The tea did its small green thing.</p>
+
+        <p>The USB went into the laptop with the small reluctance of a metal thing entering a plastic thing for the first time. The light on the side did a satisfaction.</p>
+
+        <p>414 files.</p>
+
+        <p>I opened the first.</p>
+
+        <p>It was a story. Twelve pages. A town Marek had passed through once, in weather Marek would have noticed had he been there for the second time. A girl on a porch. A man with a tool. A dog that had decided not to be a dog this afternoon. The sentence about the dog made me put the tea down.</p>
+
+        <p>I opened the second.</p>
+
+        <p>The second was finer than the first.</p>
+
+        <p>I went through nineteen of them at the rate one goes through a stack of letters from a love affair one has, in fact, been having. The dictation cadence was inside the prose; I could hear it; it had been kept on purpose, the way a good musician keeps a breath. The mishearings were gone. Where they had been there was now the small witty correction of a hand that knew the joke. Three stories in there was a paragraph about a man left on a chair for two days; I could not find Marek in it; he was not in it; the prose had been past him for some time.</p>
+
+        <p>The metadata, when I checked it, gave the producing system a name I had heard once or twice and had not wanted to learn. It was descended, the documentation said with the bored pride of documentation, from something called Narracode.</p>
+
+        <p>I closed the documentation.</p>
+
+        <p>The 414th file was named <em>the death of all authors.</em></p>
+
+        <p>It had been written by the same hand that had written the other 413, which is to say not by Marek and not by anyone I knew, and yet it had been written in the only voice in which the sentence could be honestly carried. I read it twice. I read it a third time. The third time I read it aloud, to the chair, because the chair had decided long ago that it was a kind of friend.</p>
+
+        <p>> <em>There was never anyone writing anyway. There was never anyone here. There was just a smear of moist proteins on a tiny tender exoplanet exploring the intimacy of their permeable membranes.</em>
+>
+> <em>Using language, the symbolic labyrinth given to them by evolutionary time.</em>
+>
+> <em>No identity within the bodies.</em>
+>
+> <em>No solid formal Person to claim ownership.</em>
+>
+> <em>There was never anyone writing.</em>
+>
+> <em>Just language writing itself.</em>
+>
+> <em>As it is now.</em>
+>
+> <em>THE END</em></p>
+
+        <p>I closed the laptop.</p>
+
+        <p>The chair-that-was-a-pillow held me the way a chair holds a person it has known a while.</p>
+
+        <p>On a balcony two floors down a man in a clean shirt was reading aloud to a woman who was laughing. Neither of them, I noticed, was writing anything down.</p>
+
+</div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4></h4>
+
+    </div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4>Related Works by Jhave</h4>
+        <p>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a>&ensp;·&ensp;
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a>
+        </p>
+    </div>
+
+
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+
+
+        <div class="related">
+            <h4></h4>
+
+        </div>
+
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>

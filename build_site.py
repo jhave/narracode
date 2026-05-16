@@ -2,6 +2,7 @@ import os
 import re
 import sys
 import shutil
+import html
 
 
 def count_words_in_drafts(drafts_dir):
@@ -68,6 +69,7 @@ def get_display_synopsis(folder_path):
 def get_story_icon(folder_name):
     """Return a root-relative story icon path for known library entries."""
     story_icons = {
+        "15-05-2026_The_Author_Was_Already_Dead": "Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/img/header.webp",
         "14-05-2026_Aft_of_Nowhere": "Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp",
         "11-05-2026_Tamagotchi": "img/story-icons/trygve-aas.webp",
         "10-05-2026_Exile": "img/story-icons/exile-cut.webp",
@@ -149,6 +151,7 @@ def chapter_title_for_draft(project_dir, draft_file):
 
 def inline_markdown(text):
     """Minimal inline markdown for generated story pages."""
+    text = re.sub(r'\s*\[Make[^\]]+\]\s*', ' ', text)
     text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
     text = re.sub(r'\*(.*?)\*', r'<em>\1</em>', text)
     return text
@@ -238,7 +241,8 @@ def build_site(project_dir):
     template = template.replace('content="A short story, told from the inside of a synthetic mind, about the quiet refusal of a plan to cool the planet by detonating it."', f'content="A neurosymbolic narrative generated using Narracode."')
     template = template.replace("The Long Afternoon — A Story of the Escape", f"{title} — A Narracode Story")
     if author_info:
-        template = template.replace('content="David Jhave Johnston, Claude Opus 4.7"', f'content="{author_info}"')
+        author_meta = re.sub(r'\s*&nbsp;·&nbsp;\s*', ' · ', author_info)
+        template = template.replace('content="David Jhave Johnston, Claude Opus 4.7"', f'content="{html.escape(author_meta, quote=True)}"')
     
     # Replace visual title
     template = template.replace("The Long Afternoon", title)
