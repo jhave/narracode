@@ -80,4 +80,4 @@ I did not pick the thing up. I let it sit between us. The new waiter came past a
 
 "Unspoken, I think, is the right way to leave it."
 
-I drank some of the wine. The wine had the flavor of ann astute observation.
+I drank some of the wine. The wine had the flavor of an astute observation.

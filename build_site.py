@@ -5,6 +5,65 @@ import shutil
 import html
 
 
+RELATED_WORKS_HTML = """    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4>Related Works by Jhave</h4>
+        <p style="line-height: 1.8;">
+            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/the-long-afternoon/">The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/the-good-light/">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/stimverse/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
+        </p>
+    </div>"""
+
+
+def build_related_footer(projects=None, current_folder=None, for_story_page=False):
+    """Build the shared footer, optionally adding links to the story library."""
+    footer = RELATED_WORKS_HTML
+    if not projects:
+        return footer
+
+    links = []
+    for project in projects:
+        if current_folder and project["folder_name"] == current_folder:
+            continue
+
+        href = project["path"]
+        if for_story_page:
+            href = f'../{project["folder_name"]}/index.html'
+
+        meta = ""
+        if project.get("word_count"):
+            meta = f' <span class="story-meta">({project["word_count"]:,} words)</span>'
+
+        links.append(
+            f'            <a href="{href}">{project["title"]}</a>{meta}&ensp;·&ensp;<br>'
+        )
+
+    if not links:
+        return footer
+
+    footer += """
+
+    <div class="related">
+        <h4>Also Written by Narracode</h4>
+        <p style="line-height: 1.8;">
+"""
+    footer += "\n".join(links)
+    footer = footer.rsplit("&ensp;·&ensp;<br>", 1)[0]
+    footer += """
+        </p>
+    </div>"""
+    return footer
+
+
 def count_words_in_drafts(drafts_dir):
     """Sum words across all draft .md files (excluding pre-edit versions)."""
     if not os.path.exists(drafts_dir):
@@ -64,6 +123,53 @@ def get_display_synopsis(folder_path):
         first_paragraph = text.split("\n\n")[0].strip()
         return first_paragraph
     return ""
+
+
+def get_story_projects(base_dir="Stories written with Narracode"):
+    projects = []
+    if not os.path.exists(base_dir):
+        return projects
+
+    for folder in os.listdir(base_dir):
+        folder_path = os.path.join(base_dir, folder)
+        if not os.path.isdir(folder_path):
+            continue
+        if not os.path.exists(os.path.join(folder_path, "index.html")):
+            continue
+
+        title = get_display_title(folder_path, folder)
+        word_count = count_words_in_drafts(os.path.join(folder_path, "drafts"))
+        reading_minutes = max(1, round(word_count / 250))
+
+        author_info = ""
+        attr_path = os.path.join(folder_path, "ATTRIBUTION.md")
+        if os.path.exists(attr_path):
+            with open(attr_path, "r", encoding="utf-8") as f:
+                attrs = []
+                for line in f:
+                    if ":" in line:
+                        attrs.append(line.split(":", 1)[1].strip())
+                if attrs:
+                    author_info = " &nbsp;·&nbsp; ".join(attrs)
+
+        synopsis = get_display_synopsis(folder_path)
+        if synopsis:
+            synopsis = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', synopsis)
+            synopsis = re.sub(r'\*(.*?)\*', r'<em>\1</em>', synopsis)
+
+        projects.append({
+            "title": title,
+            "path": f"{base_dir}/{folder}/index.html",
+            "icon": get_story_icon(folder),
+            "folder_name": folder,
+            "author_info": author_info,
+            "synopsis": synopsis,
+            "word_count": word_count,
+            "reading_minutes": reading_minutes,
+        })
+
+    projects.sort(key=lambda x: x["folder_name"], reverse=True)
+    return projects
 
 
 def get_story_icon(folder_name):
@@ -246,6 +352,7 @@ def build_site(project_dir):
     
     # Replace visual title
     template = template.replace("The Long Afternoon", title)
+    template = template.replace(f"{title}: a mythical semi-autonomous model obstructs thermonuclear war.", "The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.")
 
     template = template.replace(
         "    </style>",
@@ -338,6 +445,7 @@ def build_site(project_dir):
 
     # Remove prompt-toggle and specific images
     template = re.sub(r'<details class="prompt-toggle">.*?</details>', '', template, flags=re.DOTALL)
+    template = re.sub(r'\s*<!-- Related Works by Jhave -->\s*<div class="related">\s*<h4></h4>.*?</div>\s*', '\n', template, flags=re.DOTALL)
     template = re.sub(r'<img src="img/the_long_afternoon_cover[^>]+>', '', template, flags=re.DOTALL)
     template = re.sub(r'<div class="related">\s*<h4></h4>\s*<img src="img/the_long_afternoon_cover[^>]+>\s*</div>', '', template, flags=re.DOTALL)
 
@@ -346,6 +454,13 @@ def build_site(project_dir):
     header = parts[0] + '<div class="story">\n'
     footer = parts[1].split('</div>\n\n\n    <!-- Related Works by Jhave -->')[1]
     footer = '</div>\n\n    <!-- Related Works by Jhave -->' + footer
+    footer = re.sub(
+        r'    <!-- Related Works by Jhave -->\s*<div class="related">.*?</div>',
+        build_related_footer(get_story_projects(), current_folder=folder_name, for_story_page=True),
+        footer,
+        count=1,
+        flags=re.DOTALL,
+    )
 
     # Process drafts
     draft_files = [f for f in os.listdir(drafts_dir) if is_story_draft(f)]
@@ -372,51 +487,7 @@ def build_site(project_dir):
 def build_library_index():
     base_dir = "Stories written with Narracode"
     root_index = "index.html"
-    
-    # Find all projects that have been built
-    projects = []
-    if os.path.exists(base_dir):
-        for folder in os.listdir(base_dir):
-            folder_path = os.path.join(base_dir, folder)
-            if os.path.isdir(folder_path):
-                if os.path.exists(os.path.join(folder_path, "index.html")):
-                    title = get_display_title(folder_path, folder)
-
-                    # Word count + reading time
-                    word_count = count_words_in_drafts(os.path.join(folder_path, "drafts"))
-                    reading_minutes = max(1, round(word_count / 250))
-
-                    # Extract authors
-                    author_info = ""
-                    attr_path = os.path.join(folder_path, "ATTRIBUTION.md")
-                    if os.path.exists(attr_path):
-                        with open(attr_path, "r", encoding="utf-8") as f:
-                            lines = f.readlines()
-                            attrs = []
-                            for line in lines:
-                                if ":" in line:
-                                    attrs.append(line.split(":", 1)[1].strip())
-                            if attrs:
-                                author_info = " &nbsp;·&nbsp; ".join(attrs)
-                    
-                    # Extract synopsis (Display synopsis preferred, else first ## Premise paragraph)
-                    synopsis = get_display_synopsis(folder_path)
-                    if synopsis:
-                        synopsis = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', synopsis)
-                        synopsis = re.sub(r'\*(.*?)\*', r'<em>\1</em>', synopsis)
-
-                    projects.append({
-                        "title": title,
-                        "path": f"{base_dir}/{folder}/index.html",
-                        "icon": get_story_icon(folder),
-                        "folder_name": folder,
-                        "author_info": author_info,
-                        "synopsis": synopsis,
-                        "word_count": word_count,
-                        "reading_minutes": reading_minutes,
-                    })
-    
-    projects.sort(key=lambda x: x["folder_name"], reverse=True) # newest first
+    projects = get_story_projects(base_dir)
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -713,25 +784,7 @@ def build_library_index():
     </a>
 """
 
-    html += """
-    
-    <!-- Related Works by Jhave -->
-    <div class="related">
-        <h4>Related Works by Jhave</h4>
-        <p style="line-height: 1.8;">
-            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/the-long-afternoon/">The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/the-good-light/">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/stimverse/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
-        </p>
-    </div>
+    html += "\n    \n" + build_related_footer(projects) + """
 
     <div class="footer-logo">
         <a target="_blank" href="https://glia.ca/">
