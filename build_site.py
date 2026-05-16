@@ -10,11 +10,11 @@ RELATED_WORKS_HTML = """    <!-- Related Works by Jhave -->
         <h4>Related Works by Jhave</h4>
         <p style="line-height: 1.8;">
             <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/the-long-afternoon/">The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/the-good-light/">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/stimverse/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
@@ -26,9 +26,9 @@ RELATED_WORKS_HTML = """    <!-- Related Works by Jhave -->
 
 def build_related_footer(projects=None, current_folder=None, for_story_page=False):
     """Build the shared footer, optionally adding links to the story library."""
-    footer = RELATED_WORKS_HTML
+    footer = ""
     if not projects:
-        return footer
+        return RELATED_WORKS_HTML
 
     links = []
     for project in projects:
@@ -42,26 +42,28 @@ def build_related_footer(projects=None, current_folder=None, for_story_page=Fals
         meta = ""
         if project.get("word_count"):
             meta = f' <span class="story-meta">({project["word_count"]:,} words)</span>'
+        story_date = story_date_from_folder(project["folder_name"])
+        if story_date:
+            meta += f' <span class="story-meta">({story_date})</span>'
 
         links.append(
             f'            <a href="{href}">{project["title"]}</a>{meta}&ensp;·&ensp;<br>'
         )
 
-    if not links:
-        return footer
-
-    footer += """
+    if links:
+        footer += """    <!-- Other Works by Narracode -->
 
     <div class="related">
-        <h4>Also Written by Narracode</h4>
+        <h4>Other Works by Narracode</h4>
         <p style="line-height: 1.8;">
 """
-    footer += "\n".join(links)
-    footer = footer.rsplit("&ensp;·&ensp;<br>", 1)[0]
-    footer += """
+        footer += "\n".join(links)
+        footer = footer.rsplit("&ensp;·&ensp;<br>", 1)[0]
+        footer += """
         </p>
     </div>"""
-    return footer
+
+    return footer + "\n\n" + RELATED_WORKS_HTML
 
 
 def count_words_in_drafts(drafts_dir):
@@ -123,6 +125,19 @@ def get_display_synopsis(folder_path):
         first_paragraph = text.split("\n\n")[0].strip()
         return first_paragraph
     return ""
+
+
+def story_date_from_folder(folder_name):
+    m = re.match(r'^(\d{2})-(\d{2})-(\d{4})_', folder_name)
+    if not m:
+        return ""
+    day, month, year = m.groups()
+    month_names = {
+        "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr",
+        "05": "May", "06": "Jun", "07": "Jul", "08": "Aug",
+        "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec",
+    }
+    return f"{month_names.get(month, month)} {int(day)}, {year}"
 
 
 def get_story_projects(base_dir="Stories written with Narracode"):
@@ -352,7 +367,8 @@ def build_site(project_dir):
     
     # Replace visual title
     template = template.replace("The Long Afternoon", title)
-    template = template.replace(f"{title}: a mythical semi-autonomous model obstructs thermonuclear war.", "The Long Afternoon: a mythical semi-autonomous model obstructs thermonuclear war.")
+    template = template.replace(f"{title}: a mythical semi-autonomous model obstructs thermonuclear war.", "The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.")
+    template = template.replace(f"{title}: a semi-autonomous model obstructs thermonuclear war.", "The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.")
 
     template = template.replace(
         "    </style>",
