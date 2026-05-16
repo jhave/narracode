@@ -1,6 +1,6 @@
 # 4 — Pings
 
-By the time I was on the street my phone had begun to behave like a tantrum. Three messages in two minutes. Five in three. 10 in one. The screen lit, dimmed, lit again, the way a man lights a cigarette in a wind he is losing.
+By the time I was on the street my phone had begun to behave like a tantrum. Three messages in two minutes. Five in three. Ten in one. The screen lit, dimmed, lit again, the way a man lights a cigarette in a wind he is losing.
 
 A junior at Wylie: *Have you heard about Ng.*
 

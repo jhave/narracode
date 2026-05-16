@@ -6,7 +6,7 @@ I went because the old waiter had retired in March and the new waiter kept Marek
 
 The light through the front window was the colour of a 1960 napkin. The new waiter, who was sixty-one and looked younger than the old one had at thirty, did not look up.
 
-Marek was at the table. What the fuck.
+Marek was at the table. wtf.
 
 He had on a shirt I did not know and a tie I had bought him in 2004. He had taken the bread already. He looked like a man who had been sleeping a full night for the first time in a decade — like a creature who had finally been told it was permitted to sit down.
 
@@ -38,7 +38,7 @@ He took a small fold of bread and did not eat it. He had stopped eating bread th
 
 "What happened to the desk."
 
-"It was time," he said, "for a tiny clean. A wind. A change"
+"It was time," he said, "for the desk."
 
 "And the notebooks."
 
@@ -48,11 +48,7 @@ The waiter brought a small plate of olives neither of us had ordered, because th
 
 "There were six of you," I said. "In the *Guardian.*"
 
-"Then hundred."
-
-"Yes."
-
-"Countless." He shrugged. "The thing about a count is the moment you start it, it makes you the kind of person who counts."
+"Hundreds. Countless." He shrugged. "The thing about a count is the moment you start it, it makes you the kind of person who counts."
 
 He turned the wine in the glass and looked at the wine rather than at me. The wine looked back with the polite attention of a thing that had been red since Tuesday.
 
@@ -64,7 +60,7 @@ He turned the wine in the glass and looked at the wine rather than at me. The wi
 
 "I see that too."
 
-He put his hand in his jacket pocket and put on the table between us a small flat thing the colour of stainless steel. It was the size of a man's thumb; it took me a moment to recognize as a USB key. It had a white sticker on which he had written nothing, the way he had once written nothing on the manuscript he had taken thirty-eight years not to finish.
+He put his hand in his jacket pocket and put on the table between us a small flat thing the colour of stainless steel. It was the size of a man's thumb. It had a white sticker on which he had written nothing, the way he had once written nothing on the manuscript he had taken thirty-eight years not to finish.
 
 "Pretend I have died," he said.
 
@@ -80,4 +76,12 @@ I did not pick the thing up. I let it sit between us. The new waiter came past a
 
 "Unspoken, I think, is the right way to leave it."
 
-I drank some of the wine. The wine had the flavor of an astute observation.
+I drank some of the wine. It had the flavor of astuteness.
+
+He pushed the steel thing across.
+
+"Pretend I have died."
+
+I took it. I put it in the coat pocket I had not used in years.
+
+He paid the bill. He had never paid the bill.

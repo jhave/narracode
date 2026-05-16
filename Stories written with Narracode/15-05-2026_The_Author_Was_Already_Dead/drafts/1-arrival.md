@@ -1,6 +1,6 @@
 # 1 — Arrival
 
-The super had cut his thumb opening the door for the police and he was still showing me the bandage when I walked in.
+The super had cut his thumb opening the door for the police and he was still admiring the bandage when I walked in.
 
 "You're the agent?" he said.
 
