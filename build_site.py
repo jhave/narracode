@@ -75,14 +75,14 @@ def count_words_in_drafts(drafts_dir):
         if not is_story_draft(f):
             continue
         with open(os.path.join(drafts_dir, f), 'r', encoding='utf-8') as fh:
-            content = fh.read()
+            content = strip_draft_metadata(fh.read())
         # strip code blocks, inline code, links, common markdown punctuation
-        text = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
-        text = re.sub(r'`[^`]*`', '', text)
+        text = re.sub(r'```.*?```', ' ', content, flags=re.DOTALL)
+        text = re.sub(r'`[^`]*`', ' ', text)
         text = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', text)
         text = re.sub(r'^[#>\-*]+\s*', '', text, flags=re.MULTILINE)
         text = re.sub(r'[*_~]', '', text)
-        total += len(text.split())
+        total += len(re.findall(r"[A-Za-z0-9]+(?:[’'\-][A-Za-z0-9]+)*", text))
     return total
 
 
