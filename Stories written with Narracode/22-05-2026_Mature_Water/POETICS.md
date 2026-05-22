@@ -2,17 +2,17 @@
 
 ## Display title
 
-What Did Not Begin.
-
-*(Working title. Alternatives: The Necessity for Maturity. The First Water. The Limpid Field. The Carapace. To be revised.)*
+Mature Water.
 
 ## Display synopsis
 
-A young researcher, raised on moss and old oak and the rhythm of seasons, stands at a podium in the mid-21st century and gives a lecture on what he calls the necessity for maturity. He has landed, miraculously, a research chair in a job market gutted by chatbots. His subject is AI alignment. His argument is that ethics enforced from outside are necessary but not sufficient — that until the ethical enters the body, is integrated, becomes cellular, there is a ravenous wildness to the mind that constraint cannot reach. The lecture folds around a life. Around a discovery. Around a molecule of water that arose twelve billion years ago, without beginning, from the pressure of energy potentials in cold space.
+A young researcher — billed in the programme as a Research Communicator — stands in a lecture hall in the mid-21st century and begins a sentence about the necessity for maturity. He was raised on moss and old oak and the rhythm of seasons. He also loved the mall. He has landed, miraculously, a research chair in a job market gutted by chatbots. His subject is AI alignment. His argument is that ethics enforced from outside are necessary but not sufficient — that until the ethical enters the body, becomes cellular, there is a ravenous wildness to the mind that constraint cannot reach. The lecture folds around a life. Around a discovery. Around a molecule of water that arose twelve billion years ago, without beginning, from the pressure of energy potentials in cold space. By the end he is no longer describing himself. He is addressing the audience as their own reflection.
 
 ## Project
 
-*What Did Not Begin.* A short literary fiction in the form of a lecture — not a transcription but a rendering: the speaker's memory, digression, and sudden cosmological rerouting are structural material, not interruptions of the form. The narrator is not a professor reading from notes. He is a person discovering, in the act of speaking publicly for the first time about what he actually thinks, that the argument is larger than the room.
+*Mature Water.* A short literary fiction in the form of a lecture — not a transcription but a rendering: the speaker's memory, digression, and sudden cosmological rerouting are structural material, not interruptions of the form. The narrator enters mid-sentence; the room materializes around the argument already running. He is not a professor reading from notes. He is a person discovering, in the act of speaking publicly for the first time about what he actually thinks, that the argument is larger than the room — and that the speaker is larger than the argument — and that by "larger" he means something that will take the whole lecture to approach.
+
+The title is structural. Mature water is the water that has endured: twelve billion years in space, 140 trillion ocean-masses held in an interstellar cloud. The lecturer's body is sixty percent water; his mind has been in the process of maturing for all of his remembered life. The maturity and the water are the same substance at different scales. The title names this without explaining it.
 
 The story's axis is a paradox: alignment is external constraint; maturity is internal integration. Both are necessary. Neither is sufficient without the other. The wildness of mind — ravenous, volatile, creative, dangerous — is not the problem alignment solves. It is the energy from which maturity is made. The lecturer is, himself, mid-integration. The lecture is the evidence.
 
@@ -31,7 +31,13 @@ The lecture is the primary container. Inside it:
 - Recursive return — the speaker circles back, but the second pass through material is different from the first
 - Fragmentary permission: the lecture may break, drift, lose its sentence and find a different one
 
+**Entry**: In media res, mid-sentence. The room does not precede the argument; the argument produces the room. The reader is dropped into a thought already moving.
+
+**Identity arc**: The speaker is introduced in programme copy as "Research Communicator" — an institutional designation, a carapace. Through the lecture, this identity splinters. The personal history emerges not as self-presentation but as the argument discovering its own source. In the final movement, the speaker addresses the audience as mirrors — not "I was a farm boy" but "you are a farm boy," "you are the alignment researcher," "you are this water." The dissolution of the self/other boundary enacts the lecture's philosophical claim in real time. It is not announced; it happens.
+
 Setting: a lecture hall or auditorium, mid-21st century. The Singularity is near-fact — widely expected, still being argued, felt rather than declared. The academic job market has been thinned by the promulgation of expert knowledge through chatbots. The researcher's appointment is called a miracle, including by him.
+
+**Farm geography**: Deliberately unanchored. The farm is elemental — organisms, seasons, rhythm — without national or regional identity. The specific species of moss and oak are precise but do not place the farm on a map.
 
 ## Attentional dialect
 

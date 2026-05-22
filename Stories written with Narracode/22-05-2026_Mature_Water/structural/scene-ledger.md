@@ -7,8 +7,9 @@
 ### Opening movement
 - **Act position**: I
 - **Location/time**: The lecture hall. A specific time of day, mid-21st century.
-- **Focal pressure**: The room, the speaker, the announced subject. A first pass at the maturity/alignment argument. The first memory surfaces.
-- **What must change**: The reader must understand the form (a lecture, embedded with reminiscence), the stakes (alignment is not enough), and the speaker (a person in the middle of something, not a completed authority).
+- **Entry**: In media res, mid-sentence. The room materializes around the argument already running. The speaker is designated "Research Communicator" in programme copy — an institutional carapace. No introduction scene; the lecture is already happening.
+- **Focal pressure**: The argument is the room. The first memory surfaces from inside the argument, not as setup.
+- **What must change**: The reader must understand the form (a lecture, embedded with reminiscence), the stakes (alignment is not enough), and the speaker (a person in the middle of something, not a completed authority). The designation "Research Communicator" should be felt as a shell that will later crack.
 
 ### The farm/city passage
 - **Act position**: II
@@ -27,9 +28,10 @@
 - **Act position**: III/IV pivot
 - **Focal pressure**: The first water molecule — arriving mid-argument, as discovery. The cosmological fact in full. The speaker cannot stop; the argument has outgrown the room.
 
-### The limpid field
+### The limpid field / mirror address
 - **Act position**: IV
 - **Focal pressure**: The changeless luminosity; the word *refuge*; what the speaker is, tentatively, resting in. The lecture's last movement — not a conclusion.
+- **Identity completion**: The pronoun shifts here. "I" becomes "you." The audience is addressed as mirrors — not "I was a farm boy" but "you are this water." The dissolution of self/other boundary enacts the philosophical claim in the syntax. Should arrive without announcement.
 
 ## Open Scene-Level Questions
 
