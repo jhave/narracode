@@ -2,14 +2,15 @@
 
 ## Characters
 
-### The Lecturer (designated: Research Communicator)
+### Dayo Lim (designated in programme: Research Communicator)
 
-- **Desire**: To say something true in public — possibly for the first time — about what maturity actually requires. The lecture is not performance; it is discovery in real time.
-- **Shame/avoidance**: The appointment was called a miracle; he knows it. There is something unearned about standing here. The wildness he is describing is not past tense; it is present tense and he knows that too.
-- **Contradiction**: He is a researcher in alignment whose deepest argument is that alignment is insufficient. He is mid-integration, which is to say still ravenous in places. He is describing a refuge he has not fully reached.
-- **Hidden knowledge**: He knows that the argument will outgrow the room today. He does not know what it will become when it does.
-- **Changing self-understanding**: The lecture is the event. He will understand more at the end of the lecture than he does at the beginning. This should be legible to the reader even if not announced by the narrator.
-- **Identity splintering**: The speaker enters as an institutional designation. As the lecture proceeds, the personal history surfaces not as self-presentation but as the argument finding its own source. In the final movement the pronoun shifts — the first person dissolves into a universal address; the audience becomes the mirror. This enacts the philosophical claim bodily, in the syntax of the lecture itself. The carapace dissolves in real time.
+- **Who he is**: Millennial. Grew up at the estuary of multiple cultures — his name holds more than one inheritance. His grandmother's world and his father's world and the various cities where he was formed do not resolve into a single identity; they coexist the way an estuary is neither river nor sea. He navigated systems not designed with him in mind, which trained him to see their assumptions. He does not use notes. He is mid-integration.
+- **Desire**: To say something true in public — not performed truth, discovered truth. The lecture is a live event of thinking, not a delivery of prepared conclusions.
+- **Shame / avoidance**: The appointment was a minor miracle in a devastated market; he knows this and has not entirely made peace with it. The wildness he is describing in others is still partly his own, present tense.
+- **Contradiction**: He is an alignment researcher whose argument is that alignment is insufficient. He is describing integration he has not fully achieved. He is describing a refuge he is still approaching.
+- **Hidden knowledge**: He does not know the lecture will arrive at the first water molecule until it does.
+- **Estuary quality**: His most useful intellectual habit — seeing the assumptions of any system — comes directly from having been positioned outside every system he moved through. This is biographical and epistemological at once.
+- **Identity arc**: Programme designation (Research Communicator, carapace) → the argument surfaces the personal → in the final movement the pronoun shifts from *I* to *you*; the audience is addressed as mirrors; the carapace dissolves in the syntax of the lecture itself.
 
 ## Arc Potentials
 

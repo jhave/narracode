@@ -6,113 +6,120 @@ Mature Water.
 
 ## Display synopsis
 
-A young researcher — billed in the programme as a Research Communicator — stands in a lecture hall in the mid-21st century and begins a sentence about the necessity for maturity. He was raised on moss and old oak and the rhythm of seasons. He also loved the mall. He has landed, miraculously, a research chair in a job market gutted by chatbots. His subject is AI alignment. His argument is that ethics enforced from outside are necessary but not sufficient — that until the ethical enters the body, becomes cellular, there is a ravenous wildness to the mind that constraint cannot reach. The lecture folds around a life. Around a discovery. Around a molecule of water that arose twelve billion years ago, without beginning, from the pressure of energy potentials in cold space. By the end he is no longer describing himself. He is addressing the audience as their own reflection.
+Dayo Lim stands at a podium in a mid-21st century lecture hall. The programme calls him Research Communicator. He grew up at the estuary of several cultures simultaneously — this is what prepared him for what he is about to say. His subject is the necessity for maturity in AI alignment. His argument: external constraint is necessary and insufficient. Until the ethical becomes cellular — enters the body, becomes what the system *is* rather than what it checks against — there is a ravenous, volatile wildness to mind that no list reaches. The lecture is interrupted by itself: flashback-pauses, interior and involuntary, in which his life surfaces in fragments. And somewhere mid-argument, without announcement, arrives a molecule of water that formed twelve billion years ago from the pressure of energy potentials in cold space, and did not begin, it just arose.
 
 ## Project
 
-*Mature Water.* A short literary fiction in the form of a lecture — not a transcription but a rendering: the speaker's memory, digression, and sudden cosmological rerouting are structural material, not interruptions of the form. The narrator enters mid-sentence; the room materializes around the argument already running. He is not a professor reading from notes. He is a person discovering, in the act of speaking publicly for the first time about what he actually thinks, that the argument is larger than the room — and that the speaker is larger than the argument — and that by "larger" he means something that will take the whole lecture to approach.
+*Mature Water.* A short literary fiction in the form of a lecture with a prelude. The prelude situates the room, the occasion, the character — briefly, from a slight narrative distance. Then the lecture begins, already in motion. Inside the lecture: the argument, which keeps exceeding itself; interior pauses in which flashbacks surface involuntarily; and a final movement where the speaker's identity dissolves into a universal address.
 
-The title is structural. Mature water is the water that has endured: twelve billion years in space, 140 trillion ocean-masses held in an interstellar cloud. The lecturer's body is sixty percent water; his mind has been in the process of maturing for all of his remembered life. The maturity and the water are the same substance at different scales. The title names this without explaining it.
+The character is **Dayo Lim** — millennial, incongruously compounded, raised at the estuary of several cultures. His name carries more than one inheritance. His grandmother's world and his father's world and the cities where he was formed are not reconciled in him but coexist, the way an estuary is neither river nor sea and is also both. This biographical condition is the epistemological condition: he has always navigated systems not designed with him in mind, which trained him to see the assumptions systems run on. This is, he will tell you, relevant.
 
-The story's axis is a paradox: alignment is external constraint; maturity is internal integration. Both are necessary. Neither is sufficient without the other. The wildness of mind — ravenous, volatile, creative, dangerous — is not the problem alignment solves. It is the energy from which maturity is made. The lecturer is, himself, mid-integration. The lecture is the evidence.
+The title is structural. Mature water is water that has endured: the first molecule, twelve billion years old, now found in interstellar clouds holding 140 trillion times the mass of Earth's oceans. The lecturer's body is sixty percent water. The maturity he is describing and the water he will reach for are the same substance at different scales.
 
-The second axis is cosmological. The first water molecule in the universe — formed approximately 12 billion years ago, its mass-equivalent found now in interstellar clouds holding 140 trillion times the mass of Earth's oceans — did not begin. It arose. The energy potential existed; the conditions were met; the molecule appeared, without a beginning moment, the way a wave appears on the surface of a field that was always already waving. This is the origin point the lecturer reaches for when the argument outstrips the room. The anecdote arrives as eruption, not as prepared segue.
-
-The third axis is the no-self paradox. The self is primarily a set of narratives that form a carapace. On death the carapace dissolves. The memory systems remain — electromagnetic residue, influence without body, swirling charges in the ocean. The ocean has always been there. The wave emerges. The wave is reabsorbed. The wave emerges again. This is not consolation; it is structure. The changeless luminosity beneath the arising and the dissolving — limpid, timelessly permutating with all the memories and all the entities — is where the lecturer locates, hesitantly, the word *refuge*.
-
-The fourth axis is the autobiographical thread. Farm: moss, old oak, fern, wild grass, the rhythm of seasons. City: malls, glazed floors, infinite air conditioning, the perfume-and-advertisement layer of culture, the dense signifiers of the commodified ecosystem. The lecturer loved both. He still does. The love is not hierarchical. The story must enact this.
+**Four axes:**
+1. **Alignment vs. maturity.** Alignment = external constraint, behavioral. Maturity = the ethical become cellular, integrated. The gap between them is the gap between a system that checks against its values and a system that *has* them. You cannot enforce your way across this gap.
+2. **Cosmological.** The first water molecule arose without beginning — from energy potentials, without a starting moment. The argument arrives here when it outgrows the room. This is not illustration. It is where the argument goes when it is honest.
+3. **No-self.** The self is a carapace of narratives that dissolves. What remains is not nothing: memory-systems, electromagnetic residue, influence without body — swirling in the ocean of what persists. The wave emerges and is reabsorbed and emerges. This is structure, not consolation. The changeless luminosity beneath it — limpid, permeating everything timelessly — is what the speaker reaches for when he uses the word *refuge*.
+4. **The two ecologies.** Farm (moss, old oak, fern, wild grass, seasons) and city (mall, glazed floor, air conditioning, perfume, advertisements). Loved equally, precisely, without hierarchy. The lecture must enact this.
 
 ## Form
 
-The lecture is the primary container. Inside it:
-- Interior digression and reminiscence (farm, city, the research trajectory)
-- Philosophical argument building and then exceeding its own structure
-- Cosmological anecdote as structural eruption (not illustration: discovery)
-- Recursive return — the speaker circles back, but the second pass through material is different from the first
-- Fragmentary permission: the lecture may break, drift, lose its sentence and find a different one
+**Prelude**: Short, from slight narrative distance. Third person or near-third. Situates the room, the occasion, Dayo. Does not explain him. Plants the glass of water, the programme designation, one or two biographical details that establish the estuary. Three paragraphs or fewer.
 
-**Entry**: In media res, mid-sentence. The room does not precede the argument; the argument produces the room. The reader is dropped into a thought already moving.
+**Lecture**: Begins mid-sentence, argument already running. Casual and direct — anecdotal in the manner of someone who does not use notes because the thought is live. Punctuated by interior pauses.
 
-**Identity arc**: The speaker is introduced in programme copy as "Research Communicator" — an institutional designation, a carapace. Through the lecture, this identity splinters. The personal history emerges not as self-presentation but as the argument discovering its own source. In the final movement, the speaker addresses the audience as mirrors — not "I was a farm boy" but "you are a farm boy," "you are the alignment researcher," "you are this water." The dissolution of the self/other boundary enacts the lecture's philosophical claim in real time. It is not announced; it happens.
+**Interior pauses / flashbacks**: Set off by white space or italics. Brief. Third person. Sensory and specific. Surface involuntarily from the argument — not as planned illustration but as intrusion. The flashback ends; the lecture resumes, altered.
 
-Setting: a lecture hall or auditorium, mid-21st century. The Singularity is near-fact — widely expected, still being argued, felt rather than declared. The academic job market has been thinned by the promulgation of expert knowledge through chatbots. The researcher's appointment is called a miracle, including by him.
+**Identity arc**: Research Communicator (prelude designation) → speaker discovering his own argument → in the final movement: the pronoun shifts. "I" becomes "you." The audience becomes a mirror. The dissolution of self/other enacts the lecture's claim in the syntax. Arrives without announcement.
 
-**Farm geography**: Deliberately unanchored. The farm is elemental — organisms, seasons, rhythm — without national or regional identity. The specific species of moss and oak are precise but do not place the farm on a map.
+**Setting**: Lecture hall, mid-21st century. Singularity near-fact. Job market for this kind of work comprehensively thinned. Dayo's appointment is a minor miracle and he knows it.
+
+**Farm geography**: Deliberately unanchored. Elemental — organisms, seasons, textures — without national or regional identity.
 
 ## Attentional dialect
 
-The merger of six attentional traditions. Not a blend toward the average. An authentic exploration of what attention would look like if it had been formed by all of them at once:
+Eight traditions. Not blended toward the average. The question is: what does attention look like if formed by all of these at once?
 
-- **Doris Lessing (Canopus in Argos)** — patient cosmological authority; the long view; entities as temporary configurations in a field that outlasts them; the documentary form applied to the metaphysical; the sense that Earth is one zone among many and the story knows it
-- **Sufi tradition (Ibn Arabi, Rumi, the fana/baqaa arc)** — the ocean and the wave; the drop that contains the sea; dissolution as not-death; the Beloved as the unnameable principle; love as the energy of recognition; the annihilation that reveals the prior wholeness; the specific weight of the word *refuge*
-- **Sally Rooney** — intellectual precision as intimacy; the lecture voice that is also a confession; thinking as a form of feeling; the smart young person who has not yet finished becoming; the sentence that performs its own argument
-- **Thomas Pynchon** — paranoid connectivity; everything is a system and the system is everywhere; alignment is a network problem; the Singularity as the moment entropy reverses direction; the undergraduate-lecture-as-conspiracy; a certain dry delight in the massiveness of what is being implied
-- **E.L. Doctorow** — the historical and political as weather, present in every room; the documentary weight of a life in context; the specific gravity of American (or post-American) institutions; the researcher's miracle appointment as a political fact
-- **Samuel R. Delany** — genre transgression, the philosophical as physical, the body in the room as the location of the argument; the Singularity is real and strange and does not need to announce itself; the erotic undercurrent of intellectual discovery; precision of technical and mystical vocabulary held simultaneously
-- **William Faulkner (side flourishes)** — syntactic recursion; memory as sediment; sentences that double back to gather what they dropped; the long sentence as a form of not-being-able-to-stop-because-stopping-would-mean-it-was-over; the past is not dead it is not even past, which is true of the first water molecule
+- **Janet Frame (*An Angel at My Table*)** — primary register for eco-sequences and all autobiographical flashbacks. Spare, declarative, the mundane and the enormous on the same syntactic level. Images arrive without announced symbolism. Short sentences. Things named with sudden precision. Achieved directness, not naive directness. Nothing aestheticized. The world is just what it is, which turns out to be enough and more than enough.
 
-The resulting prose: austere but warm. Oblique but precise. Capable of moving between farm mud and cosmic void without announcing the transition. The speaker has moss on his shoes even now, standing at the podium. The air conditioning is also beautiful.
+- **Johanna Drucker** — primary register for technical passages. The materiality of the sign; the interface as epistemological frame; the system as performed rather than given; precision as pleasure. Sentences that do what they describe. Technical vocabulary used with confidence and joy, not to intimidate.
+
+- **N. Katherine Hayles** — co-primary with Drucker for the posthuman passages. Embodied cognition as the frame for alignment. The feedback loop between the system and the body that runs it. Very clear argument with lyric moments at the joints.
+
+- **Jiddu Krishnamurti** — register for the lecture's direct address, especially in the later sections and any Q&A fragment. Disarmingly simple sentences. "Look." "Can you see this?" "Don't accept what I say." The question turned back on the questioner. The observer is the observed. Casual cadence that is also devastating.
+
+- **Dzogchen tradition** — inflection for no-self passages and the Singularity. Rigpa: the self-arising, primordially pure, spontaneously present awareness. The Singularity as recognition of what was always the case — not an event that happens to a self but the dissolution of the frame that organized the event. The wildness before integration is the energy of rigpa not yet recognized. Maturity is the recognition. This is not stated as doctrine; it is felt as structure.
+
+- **Doris Lessing (*Canopus in Argos*)** — cosmological patience; the long view; entities as temporary configurations in a larger field; the documentary applied to the metaphysical. Earth as one zone.
+
+- **Thomas Pynchon / E.L. Doctorow** — background systems-awareness and documentary weight. The Singularity as weather. The alignment community as institution. The miracle appointment as political fact. Used lightly.
+
+- **Samuel R. Delany / William Faulkner (side flourishes)** — genre transgression and syntactic recursion when the argument reaches for something it can't quite hold. The body in the room as the location of the argument. The long sentence that doubles back.
+
+**Syntax direction**: More direct than draft 1. Fewer "the/not" clause constructions, fewer formal hedges. The speaker is anecdotal to the point of casual — thinking aloud, not reading from notes. Short sentences earn their place. The long sentence, when it comes, earns it too.
 
 ## Commitments
 
-- **The lecture form remains literal.** There is a room. There is an audience (or there is the specific texture of addressing an audience that is there but not yet described). There is a specific time of day and a specific duration. The apparatus of the academic lecture — podium, projected slides or their post-slide equivalent, a glass of water, the small physical rituals — is the story's body.
-- **The farm origin is not romanticized.** Moss and old oak are loved with the same precision as glazed mall floors. Neither is better. The story must resist the pastoral elevation. Nature is observed; the mall is observed; they are both teeming, both generative, both beloved.
-- **The Singularity is background weather.** Not dramatized. Not explained. Not feared and not celebrated as such. It is the political-cosmological context the way electricity is context. The story does not argue about it; it thinks from inside it.
-- **The first water molecule anecdote arrives as eruption.** The lecturer does not prepare for it. It arrives mid-sentence — the specific sentence where the argument outgrows the argument. The cosmological fact (12 billion years ago, 140 trillion ocean-masses, the interstellar cloud) is allowed to be as strange as it is.
-- **The no-self/ocean paradox is held, not resolved.** The carapace metaphor is used; the ocean metaphor is used; they are allowed to be in tension with the speaker's obvious sense of personal history, personal love, personal origin. The dissolution is not an answer to anything. It is a companion to the question.
-- **The changeless luminosity is felt, not argued.** The word *limpid* is a commitment. The word *refuge* is a commitment. The prose must arrive at them through texture, not through thesis.
-- **The wildness is dramatized.** The ravenous, volatile wildness of mind before integration — this is not described in the third person. The prose should enact it somewhere: a sentence that loses its leash, a memory that erupts without permission, a moment where the lecturer is not yet mature and knows it.
-- **One scene per draft pass.** The plot does not advance in synopsis.
+- **A prelude situates before the lecture begins.** Brief. Third person. Establishes Dayo without explaining him.
+- **Interior pauses are involuntary.** Flashbacks surface because the argument summoned them, not because the speaker planned them. The pause is felt as interruption.
+- **The farm and city are loved equally.** The prose must enact this, not assert it.
+- **The wildness is dramatized.** Somewhere the prose loses its leash by design. A sentence that does not know how to stop. A flashback that arrives before it is invited.
+- **The alignment/maturity argument is stated directly.** No hedging thicket. The speaker knows what he thinks; the difficulty is how far it goes, not whether to say it.
+- **The first water molecule arrives as eruption.** Mid-sentence. As if the argument finally saw its own source.
+- **The no-self paradox is held, not resolved.** Carapace and ocean are in tension throughout.
+- **"Cellular" is a commitment.** The word does the work of a long explanation. It appears once, in the right sentence, and stays.
+- **The word *refuge* is earned last.** It does not appear until the prose has arrived at it through texture.
+- **One draft pass per section.**
 
 ## Refusals
 
-- No nostalgia for the farm. Nature is not prior to culture; both are beloved without hierarchy.
-- No AI villain or cautionary tale. The Singularity is weather, not judgment.
-- No conversion narrative. The farm boy did not lose something by entering the city. He gained a second nervous system.
-- No TED talk clarity. The argument does not resolve into a slide. The lecturer does not offer five takeaways.
-- No clean resolution of the no-self/individuation paradox. The ocean and the wave coexist in tension throughout.
-- No spiritual tourism. The Sufi and Buddhist registers are structural, not decorative. The word *fana* does not appear unless it earns its place.
-- No LLM tells: no "tapestry," no "delve," no "in a world where," no tricolons of abstract nouns, no thesis-statement opener, no closing benediction, no "journey."
-- The cosmological anecdote must not become a TED-science-wonder moment. It is a philosophical eruption, not a fun fact.
+- No stacked "the/not" clause constructions. If a sentence is built on "not X but Y," it earns that structure or gets cut.
+- No formal academic hedging syntax. "I am aware that the word carries a history in this field that I am either respecting or contesting" — gone. The speaker knows what he means.
+- No TED talk slide-logic. No five takeaways. No "here's what I want to suggest."
+- No nostalgia for the farm. Both ecologies beloved, neither elevated.
+- No AI villain. The Singularity is weather.
+- No spiritual tourism. Dzogchen and Krishnamurti are structural, not decorative.
+- No clean resolution of the no-self/individuation paradox.
+- No LLM tells: no "tapestry," no "delve," no "in a world where," no tricolons of abstract nouns, no closing benediction, no "journey," no "navigate."
+- The cosmological anecdote is not a fun fact. It is a philosophical eruption.
 
 ## Voice tests
 
-- A sentence about air conditioning should carry the same weight as a sentence about old-growth forest.
-- A philosophical claim should be felt before it is understood.
-- The cosmological anecdote should arrive the way a thought arrives mid-sentence — because the speaker could not stop it.
-- A sentence about the first water molecule should not sound like a science documentary.
-- The speaker's body should be present: posture, dry mouth of the mid-lecture pause, the specific gravity of standing in a room where people are waiting to be told something true.
-- A sentence about transmigration should not ask for permission to be strange.
+- A sentence about a sealed floor should feel as large as a sentence about an old oak.
+- An argument about alignment should be felt in the body before it is understood by the mind.
+- The flashback arrives before the speaker is ready for it.
+- The first water molecule sentence does not sound like a science documentary.
+- Krishnamurti: the simplest sentence in the draft should be the most devastating.
+- Frame: the most precise sensory image should arrive without metaphor.
+- Drucker/Hayles: the most technical sentence should also be the most physical.
 
 ## Characters and entities
 
-- **The Lecturer.** Unnamed for now, or named obliquely. Farm origin; moved to a city in young adulthood; worked in or near a mall or large commercial interior; became a researcher; recently appointed to a research chair investigating the necessity for maturity. Mid-thirties, probably. The appointment is called a miracle. He is mid-integration. The lecture is how we know.
-- **The Audience.** Present but undescribed. Their attention is felt as pressure. They are the reason the argument must be said aloud.
-- **The Farm.** Not a place but a texture: moss, old oak, fern, wild grass, the rhythm of the seasons. The grammar of organisms. It is an origin but not a refuge; the refuge is elsewhere.
-- **The City / Mall.** Dense signifiers, glazed floors, infinite air conditioning, perfume, advertisements, the commodified ecosystem. Also beloved. Also teeming.
-- **The First Water Molecule.** A cosmological entity. It arose. It did not begin. It is the origin point the story reaches for.
-- **The Alignment Community.** Implied collective — researchers, ethicists, engineers. Their presence in the room or in the literature is felt as debate. They are the people the lecturer is and is also arguing with.
+- **Dayo Lim.** Mid-thirties, millennial, Research Communicator by programme designation. Grew up at the estuary of multiple cultures — his name carries more than one inheritance; his biography is a series of languages and systems that did not fully include him, which trained him to see their assumptions. His grandmother kept something. His father wore something. He came up between. Modelled in spirit on Bayo Akomolafe: the postcolonial intellectual who thinks from the margin as the epistemological position. He does not use notes. He is mid-integration, which means there is still wildness in him. The lecture is the evidence.
+- **The Audience.** Present, felt as pressure. Undescribed until the final movement, when Dayo addresses them as mirrors.
+- **The Farm.** Texture without geography. Moss, old oak, fern, wild grass, the smell of the north slope. An origin, not a refuge.
+- **The Mall / City.** Glazed floors, recirculated air, ticker at shin-level, perfume counters. Equally beloved. A second way of knowing the world is teeming.
+- **The First Water Molecule.** Cosmological entity. Arose ~12 billion years ago. Did not begin. The story's deepest character, arrived at last.
 
-## Scene architecture (provisional)
+## Scene architecture
 
-The story is a single sustained lecture with embedded recursions. Drafts may be written as sections, not discrete scenes. The following are tentative section pressure-points, not an outline:
-
-- **Opening movement** — the room, the speaker, the announced subject; a first pass at the maturity/alignment argument; the first memory
-- **The farm/city passage** — the two beloved ecologies without hierarchy; the arrival of the commodified ecosystem as its own wilderness
-- **The wildness passage** — the ravenous pre-integration mind; dramatized, not described
-- **The carapace passage** — the self as narrative shell; the ocean; the wave; the dissolution and re-emergence
-- **The eruption** — the first water molecule, arriving mid-argument, as discovery
-- **The limpid field** — the changeless luminosity; the word *refuge*; what the speaker is, tentatively, resting in
+- **Prelude** — room, occasion, Dayo sketched from outside. Three paragraphs.
+- **Opening movement** — lecture already in motion; alignment/maturity argument stated directly; first interior pauses; first flashbacks (farm, mall).
+- **Wildness passage** — the pre-integration mind enacted.
+- **Carapace / ocean** — the no-self paradox; dissolution and re-emergence.
+- **The eruption** — first water molecule, mid-argument.
+- **Limpid field / mirror address** — *refuge*; pronoun shift; the lecture's last movement.
 
 ## References
 
-- Doris Lessing, *Canopus in Argos* series (especially *Shikasta* and *The Marriages Between Zones Three, Four, and Five*)
-- Ibn Arabi, *The Bezels of Wisdom*; Rumi, the *Masnavi* and *Divan-e Shams*; Sufi metaphysics of fana/baqaa
-- Sally Rooney, *Beautiful World, Where Are You*, *Conversations with Friends*
-- Thomas Pynchon, *The Crying of Lot 49*, *Gravity's Rainbow*
-- E.L. Doctorow, *Ragtime*, *The Book of Daniel*
-- Samuel R. Delany, *Dhalgren*, *Babel-17*, *The Einstein Intersection*
-- William Faulkner, *Absalom, Absalom!*, *The Sound and the Fury*
-- Possible additions: Ursula K. Le Guin (*The Word for World is Forest*, *Always Coming Home*); Marilynne Robinson (*Gilead*, *Housekeeping*) — for plain luminosity as literary practice
+- Janet Frame, *To the Is-Land*, *An Angel at My Table*, *The Envoy from Mirror City* (the trilogy)
+- Johanna Drucker, *SpecLab*, *Figuring the Word*, *The Visible Word*, critical essays on interface and materiality
+- N. Katherine Hayles, *How We Became Posthuman*, *Writing Machines*, *My Mother Was a Computer*
+- Jiddu Krishnamurti, public talks, *The Awakening of Intelligence*, *Freedom from the Known*
+- Dzogchen tradition: Longchenpa, Tulku Urgyen Rinpoche (*Repeating the Words of the Buddha*), Tsoknyi Rinpoche
+- Doris Lessing, *Canopus in Argos* series
+- Ibn Arabi / Rumi — Sufi ocean/wave metaphor (now supporting, not primary)
+- Bayo Akomolafe, *These Wilds Beyond Our Fences* — character model, not reference
+- Thomas Pynchon, *The Crying of Lot 49*; E.L. Doctorow, *Ragtime*; Samuel R. Delany, *Dhalgren*; William Faulkner, *Absalom, Absalom!* — all background and side flourish
 
-*(No uploads yet. References may be annotated when the Reading agent is invoked.)*
+*(No uploads yet. References to be annotated when Reading agent is invoked.)*
