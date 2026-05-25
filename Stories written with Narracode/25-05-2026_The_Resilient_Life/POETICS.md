@@ -145,18 +145,34 @@ The warmth is real. The optimization is real. The two have fused. The prose must
 
 The vocabulary is mid-21st century domestic-compliance. Sherri thinks:
 
-- "the Score" (never with capitals in her head; lowercase, immediate, familiar)
-- "the dashboard" (the Compliance Dashboard, the central instrument)
-- "Calen's numbers" (the weight data, the nutrition data, the academic indices)
-- "Drave's band" (his commission tier at Kessler & Norde)
-- "the Circle" (the Stewardship Circle)
+- "the ok level" (the composite household metric; she has named it with a deflating precision that contains the whole civilization — not aspirational, not dramatic, just: are we ok? yes. ok.)
+- "the Display" (what she opens in the morning; warm, immediate, domestic — the word for the thing on the kitchen wall she looks at the way her grandmother looked at the weather)
+- "her picture" (Calen's health/academic aggregate; maternal, impressionistic — "the picture is fine" is a sentence a mother says)
+- "his line" (Drave's commission track at Kessler & Norde; old commercial English, the most natural word)
+- "the Compact" (the SLD-7 Community Stewardship Compact; civic, historically rooted, implies mutual obligation)
 - "the application" (always definite, always Calen's, always the central project)
-- "the Range" (the visible distance to the Green Ring; spoken inside her head as direction)
+- "the Bright" (Sherri's private name for the visible distance to the Green Ring towers; she coined it at the kitchen window years ago and has never said it aloud; a child's word that survived; direction, light, aspiration without the architectural vocabulary)
 - "the orientation" (Academy orientation week, the immediate deadline pressure)
 - "zone-stable" / "zone-adjacent" (Drave's professional vocabulary that has migrated into her domestic thinking)
 - "Calen" (the word returns constantly; the mind tracks back to it from every other domain)
 
 Sentence rhythm: Lewis is a long-breath writer who accumulates clauses and cuts short for comic timing. Bellow is a dense-clause writer whose sentences absorb multiple domains before resolving. The Compositional agent should braid them. Long sentences when Sherri is managing competently; tight short sentences at the moments of contact with Calen; medium-length sentences with internal pivots when the cascade redirects mid-thought. The free indirect discourse is most exposed when the sentence commits fully to Sherri's voice before the author's intelligence registers the gap.
+
+## The Carlin Register — satirical swirl and the little wind
+
+The prose carries a third energy beneath the Lewis architecture and the Bellow density: a Carlin-esque satirical swirl. George Carlin's comedy worked by stripping the soft language down to the hard thing, stating it plainly, and then watching the audience absorb it and laugh and continue. The key quality: the outburst passes. It passes like a little wind. The facade splinters, closes, and the morning continues. Humans accept how they are and where they are. How else would they be happy?
+
+This register produces three specific effects in the prose:
+
+**The sudden declarative.** Amid the cascade of optimized thinking — the Bellow density, the Lewis proper nouns, the earnest management of every domain — a sentence strips down without warning to the plain thing. No euphemism. No connective tissue. No preposition. Just the fact. "The ok level was fine. They were fine. Calen ate half." Then the cascade resumes. The declarative doesn't linger; it passes through. The effect is comic and devastating in the same breath, and the comedy lands first.
+
+**Sentences without prepositions at the moment of clarity.** Carlin's best lines removed the qualifying structure that keeps thought comfortable: not "in a sense," not "so to speak," not "one might say" — just the stripped assertion, verb-direct, object immediate. When the prose reaches a moment of clarity, syntax drops its connective tissue. The sentence says the actual thing. Then the next sentence is already back inside the management vocabulary, and the clarity is simply gone, the way a window opens and closes.
+
+**The list that tips over.** Sherri's consciousness accumulates items with genuine competence — the Display checked, the application tab open, the Compact meeting noted, his line holding, her picture stable — and at a certain point the list exceeds its own logic, and the excess is where the comedy lives. The list of maintained things becomes longer than the thing being maintained. The Compositional agent should allow at least one such list to run until it tips, then cut it short with a plain sentence about Calen.
+
+**The acceptance as the punchline.** Carlin's audiences laughed and went home and nothing changed. This is the structural joke of the story. Sherri sees clearly, briefly, in the little-wind moments — sees the ok level for what it is, sees the Bright for what it represents, hears Calen's code for what it is — and then accepts. Continues. Checks the Display. The acceptance is not defeat; it is adaptation. It is warmth and limitation fused. The reader laughs and feels the grief of the laugh simultaneously.
+
+The Carlin register is the satirical conscience of the prose. It fires in small bursts, never dominates, never turns cruel. It passes like a little wind. The facade closes. The morning continues. Sherri loves her family. The ok level is 74.3.
 
 ## Voice tests
 
@@ -164,25 +180,37 @@ The following sentences illustrate the target dialect. Each demonstrates a corre
 
 Correct (presence, specificity, cascade):
 
-- "The Score was 74.3 at 5:47, which was where it had been at 5:47 yesterday, which Sherri took as the result of the lentil dinner and the additional thirty minutes Drave had logged in the Wellness app, and which left a margin of 2.3 above the Watch threshold and 2.7 below the next tier, and which meant the Academy application was secure for the orientation week, and Calen had eaten half the apple at dinner, the other half wrapped in the wax paper in the second drawer, where Sherri would find it tonight."
+*Cascade (Lewis/Bellow register):*
 
-- "Drave laughed at the Stewardship Circle joke and meant it, his whole face committed to the laugh the way his whole face committed to every gesture, and Sherri watched him and loved him and made a mental note that his blood pressure reading was due Thursday."
+- "The ok level was 74.3 at 5:47, which was where it had been at 5:47 yesterday, which Sherri took as the result of the lentil dinner and the additional thirty minutes Drave had logged in the Wellness app, and which left a margin of 2.3 above the threshold and 2.7 below the next band, and which meant the application was secure for the orientation week, and Calen had eaten half the apple at dinner, the other half wrapped in the wax paper in the second drawer, where Sherri would find it tonight."
+
+- "Drave laughed at the Compact joke and meant it, his whole face committed to the laugh the way his whole face committed to every gesture, and Sherri watched him and loved him and made a mental note that his blood pressure reading was due Thursday."
 
 - "Calen typed in the dark. The projector threw blue syntax across the bedroom wall. Sherri stood in the hallway in her robe and listened to the room without the music on yet, only the keys, and decided to step back to her own room before Calen sensed her there."
 
-- "The Range was clear today, the towers catching morning light, and Sherri saw them and saw the route through them — orientation week, conditional acceptance, the first year, the secondary track — and her mind landed where it always landed, on the half-apple in the drawer."
+- "The Bright was clear today, the towers catching morning light, and Sherri saw them and saw the route through them — orientation week, conditional acceptance, the first year, the secondary track — and her mind landed where it always landed, on the half-apple in the drawer."
 
-Forbidden patterns and their correction:
+*Carlin register (sudden declarative, stripped syntax, list that tips):*
 
-- Forbidden: "Sherri was efficient but not cold." Correction: "Sherri had the Calendar synchronized before six, the lunch packed, the apple sliced into the wax paper, the orientation paperwork printed and tabbed."
+- "The Display showed the ok level was fine, and his line was holding, and her picture was within range, and the Compact attendance was current, and the application was in revision, and they were fine, the family was fine. Calen had eaten four bites of the rice."
+
+- "She loved them. Both of them. She had organized her entire life around the fact of loving them. The Display showed 74.3. Fine."
+
+- "The Bright was visible. Route: orientation, conditional, first year, second year, placement, life. Route open. Ok level holding. Calen: in her room. Half-apple: in the drawer. Morning: continuing."
+
+- "Calen was in there coding music by hand. By hand. In a world where the AI wrote everything in milliseconds, her daughter sat in the dark typing music letter by letter into a machine that didn't know it was supposed to do this for her already. Sherri stood in the hallway. Then she went back to bed. The ok level was still 74.3 in the morning."
+
+*Forbidden patterns corrected:*
+
+- Forbidden: "Sherri was efficient but not cold." Correction: "Sherri had the Display checked before six, the lunch packed, the apple sliced into the wax paper, the orientation paperwork printed and tabbed."
 
 - Forbidden: "The apartment was pleasant, if not grand." Correction: "The apartment held east light on the kitchen wall and a print of Lake Michigan Sherri had chosen in the second year and the faint smell of the air filter."
 
 - Forbidden: "Calen was quiet, not sullen." Correction: "Calen answered when Sherri asked and returned to the keyboard."
 
-- Forbidden: "Drave was kind, though not naive." Correction: "Drave told the Norden story for the third time that month, and Sherri laughed at the right beat, and her eyes went to the Score on the kitchen wall."
+- Forbidden: "Drave was kind, though not naive." Correction: "Drave told the Norden story for the third time that month, and Sherri laughed at the right beat, and her eyes went to the Display on the kitchen wall."
 
-- Forbidden: "The Score was stable, not high." Correction: "The Score was 74.3. The threshold was 72. The next tier began at 78."
+- Forbidden: "The ok level was stable, not high." Correction: "The ok level was 74.3. The threshold was 72. The next band began at 78."
 
 ## References
 
@@ -195,6 +223,7 @@ Forbidden patterns and their correction:
 - Rachel Cusk, *A Life's Work*. For the texture of contemporary maternal attention rendered with formal severity.
 - George Orwell, *Keep the Aspidistra Flying* (1936). For the texture of economic anxiety managed with dignity, the small rituals of aspiration.
 - Thomas Frank, *What's the Matter with Kansas?* (2004). Background, never style: the political economy of why people maintain the conditions of their own decline.
+- George Carlin, standup corpus (1970s–2000s), especially *Jammin' in New York* and *Life is Worth Losing*. For: the sudden declarative that strips soft language to the hard thing; the list that tips over into absurdity; the acceptance as structural punchline; the satirical conscience that fires and passes like a wind; the democratic tenderness beneath the rage. Carlin's key insight for this story: the audience laughs and goes home and nothing changes, and this is both funny and the whole point.
 
 ## Working title
 

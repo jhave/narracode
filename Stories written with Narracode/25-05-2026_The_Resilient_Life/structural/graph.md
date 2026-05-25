@@ -5,12 +5,12 @@
 - **Sherri Holum**, 42. The center of consciousness. Manages the household Compliance Dashboard. Helicopter mother, impeccably organized, genuinely warm. Swimming hard, swimming well. Her competence is real; her love is real; the system has fused both into a single optimized substance.
 - **Drave Holum**, 44. Sherri's husband. Residential Transition Facilitator at Kessler & Norde. Loving, good-natured, somewhat oblivious. He is one of the things Sherri manages. The Babbitt-figure now seen from inside the wife's consciousness.
 - **Calen Holum**, 14. Daughter. Quiet, competent, disappearing in two directions at once: into her bedroom and her code, and into her body. Pre-anorexic eating, methodical, within range. Live-codes algoraves in TidalCycles in her room at night, the projector throwing syntax across the wall. Craft as anachronistic DIY in a world of superhuman AI coding. Resistance she has yet to name.
-- **The Resilience Score**: 74.3. Household composite metric. A presence governing all relations. Sherri checks it before six.
-- **The Compliance Dashboard**: Sherri's instrument. Her competence, her domain, her contribution. The medium of her care.
-- **The Community Stewardship Circle**: SLD-7's civic organism. Sherri participates with sincere belief. Participation is logged.
+- **The ok level**: 74.3. Sherri's name for the composite household metric. She has named it with a deflating precision that contains the whole civilization. A presence governing all relations. Sherri checks it before six.
+- **The Display**: Sherri's instrument. Her competence, her domain, her contribution. The medium of her care. She opens it the way her grandmother opened the weather.
+- **The Compact**: the SLD-7 Community Stewardship Compact. Civic organism. Sherri participates with sincere belief. Participation is logged.
 - **Kessler & Norde**: Drave's mid-tier agency. His commission band lives in Sherri's awareness as one more metric.
 - **The Meridian Academy for Exceptional Futures**: Calen's application target. The orientation week is three weeks away. The portfolio is being assembled. The Score threshold is 72; the Holums are at 74.3.
-- **The Green Ring towers**: visible from the kitchen window on clear days. Sherri calls this distance "the Range" and reads it as direction toward, with the Academy as the route and Calen as the vehicle.
+- **The Bright**: Sherri's private name for the visible Green Ring towers seen from the kitchen window. She coined it years ago; has never said it aloud. A child's word that survived into her adult private use. Direction, light, aspiration without the architectural vocabulary. The Academy is the route. Calen is the vehicle.
 - **The half-apple**: Calen's residue. Eaten in eight bites at dinner; the second half wrapped in wax paper, placed in the second drawer. Sherri finds it later. The Dashboard has no field for it.
 - **The projector**: in Calen's bedroom. Throws her TidalCycles syntax onto the wall. Visible from the hallway through the gap under the door. Sherri stands at the gap and listens before stepping back.
 
