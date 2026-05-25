@@ -10,106 +10,194 @@ A Civic Account in Seven Renewals
 
 ## Display synopsis
 
-Drave Holum, forty-four, Residential Transition Facilitator, resident of Sustainable Living District 7, husband, father of one Academy-application-age son, checks his Resilience Score every morning with the same focused attention that George F. Babbitt once checked his alarm clock. Everything is fine. Almost fine. Fine within acceptable parameters. A satire of the disappearing mid-21st century middle class: the third panel of the triptych, the squeezed center between the cancellation logic of *The Symposium* and the extractionist feast of *The Long Feast*.
+Sherri Holum, forty-two, manages the household Compliance Dashboard for her family in Sustainable Living District 7. The Resilience Score is 74.3. Her husband Drave is a Residential Transition Facilitator with a stable commission track. Her daughter Calen is fourteen, applying to the Meridian Academy for Exceptional Futures, and eating in a way that Sherri watches obliquely because watching it directly might accelerate it. Sherri seizes every day. She is good at this. The third panel of the triptych: the squeezed center, the compliant interior, the maternal love that has been formatted by the system into a form of optimized love.
 
 ## Project
 
-The third and final panel of the narracode triptych. Where *The Symposium* shows the Contrition Epoch from the periphery (looking inward at the logic of cancellation) and *The Long Feast* shows the Lush Epoch from the center (the Dex-tier gorging that cannot name what it eats), *The Resilient Life* shows the middle: the people being squeezed by both, who have the language of neither, who are fluent only in the language of compliance and aspiration that keeps them exactly where they are.
+The third and final panel of the narracode triptych. *The Symposium* showed the Contrition Epoch from the periphery — the musicologist at the exoplanet conference, the cancellation logic that erases selfhood. *The Long Feast* showed the Lush Epoch from the center — the senior director at the extractionist firm, the gorging that lacks a name for what it eats. *The Resilient Life* shows the middle: the household between, the family squeezed by both, fluent only in the language of compliance and aspiration that keeps them exactly where they are.
 
-The predecessor text is Sinclair Lewis's *Babbitt* (1922). Lewis gave us George F. Babbitt: a Midwestern real-estate broker whose conformity, boosterism, and fear of social descent are rendered in free indirect discourse so precise that his name became a common noun. The technique is love without sentimentality — Lewis sees Babbitt clearly and does not condescend to him, which is why the book still hurts. Drave Holum is the 2051 inheritor of that tradition: same mechanism, different vocabulary, smaller room to stand in.
+The predecessor texts are two: Sinclair Lewis's *Babbitt* (1922) and Saul Bellow's *Seize the Day* (1956).
+
+Lewis gave us George F. Babbitt — a Midwestern broker whose conformity, boosterism, and fear of social descent are rendered in free indirect discourse so precise that his name became a common noun. Lewis sees Babbitt clearly and refuses to condescend, which is why the book still hurts. From Lewis we take the social-satirical architecture: the named civic institutions, the booster speech, the recurring fantasy, the moment of revolt, the return.
+
+Bellow gave us Tommy Wilhelm in a New York hotel, drowning in a single day's anxiety and regret, the consciousness circling back on itself, everything felt at maximum intensity, the present moment simultaneously urgent and slipping away. From Bellow we take the interior weight: dense interiority, the mind that digresses and returns, the seizing of the day that releases the day anyway.
+
+Sherri Holum is the 2051 inheritor of both traditions. The Lewis comedy is the architecture around her. The Bellow density is the texture inside her. She seizes every day. The days pass.
 
 ## The Lewis Inheritance — specific techniques to be deployed
 
-**Free indirect discourse**: the narrative voice inhabits Drave's consciousness without announcing itself. We think in his language — the Resilience Score, the Community Stewardship Circle, the School Zone Premium — while the author's intelligence stands slightly above, making visible what Drave cannot see. The comedy is in the gap; the pathos is in the genuineness of what Drave wants beneath it.
+**Free indirect discourse**: the narrative voice inhabits Sherri's consciousness without announcing itself. We think in her language — the Resilience Score, the Compliance Dashboard, the Stewardship Circle commitments, the Academy timeline — while the author's intelligence stands slightly above, making visible what Sherri cannot see from inside her own competence. The comedy is in the gap; the pathos is in the genuineness of what she wants beneath it.
 
-**Booster speech**: Drave should have at least one moment of sincere, expansive civic faith — a declaration of belief in the system that is brilliant in its specificity and hollow in its foundations. Lewis's Babbitt gives a speech to the Zenith Real Estate Board that is a masterpiece of ideological self-revelation. Drave's equivalent might be internal — a moment of genuine pride in SLD-7, in his family's Compliance Dashboard, in what he has built — rendered so precisely that the reader feels its genuine warmth and its genuine limitation simultaneously.
+**Booster speech**: Sherri should have at least one moment of sincere, expansive civic faith — a declaration of belief in the system rendered so precisely that the reader feels its warmth and its limitation at the same instant. Babbitt's was a speech to the Zenith Real Estate Board. Sherri's might be at the Stewardship Circle quarterly, or in conversation with another mother at the Academy application orientation, or internally while assembling Calen's lunch with the nutrition data already entered for the day. A moment of genuine pride in the family she has built, the metrics she has secured, the daughter she is launching.
 
-**Specific proper nouns**: Lewis names the Boosters' Club, the Athletic Club, the Babbitts' Rosedale neighborhood, the Standardized American Citizen. Specificity is the engine of satire: vagueness lets the reader off the hook, precision holds them there. The 2051 equivalents must be invented with equal care and named without winking at the reader. The Resilience Advisory Panel. The SLD designation. The Wellness Tier system. The Transition Facilitation industry. The Community Stewardship Circle. The Academy application process. These should feel as real as "the Boosters' Club" felt in 1922.
+**Specific proper nouns**: Lewis named the Boosters' Club, the Athletic Club, the Standardized American Citizen. Specificity is the engine of satire. The 2051 equivalents must be invented with equal care and named with full sincerity: the Resilience Advisory Panel, the SLD-7 Stewardship Circle, the Wellness Tier system, the Meridian Academy for Exceptional Futures, the Kessler & Norde commission band, the Compliance Dashboard, the School Zone Premium, the Range. These should feel as solid in Sherri's mind as "the Boosters' Club" felt in 1922 Zenith.
 
-**The recurring fantasy**: Babbitt has a dream of a fairy-child who is freer than he is, that recurs throughout the novel. Drave should have an equivalent — a small, specific fantasy that returns in moments of pressure and that he is unable to follow through on. Not grand. Something small: a particular view, an activity from before the scoring system, something belonging to the category of things that cannot be optimized.
+**The recurring fantasy**: Babbitt has the fairy-child dream. Sherri should have an equivalent — a small specific image that returns under pressure, belonging to the category of things that resist optimization. A memory of her own mother's kitchen before scoring. A particular afternoon. The smell of something unbranded. The image returns; the day continues.
 
-**The moment of revolt**: Babbitt, mid-novel, has a period of rebellion — he befriends a socialist, has a mild affair, drinks, loosens. Then his wife's illness brings him back, and his friends close around him with their kindness and their expectations, and he returns. Drave's revolt should be of a different scale (the middle class in 2051 has less room) — perhaps a digital flirtation with a community or feed outside his tier, a conversation with someone in the wrong direction on the social spectrum, a single afternoon of ungoverned time. And the return: the system doesn't punish him, it simply continues, and continuation is sufficient.
+**The moment of revolt**: Babbitt befriends a socialist, drinks, loosens. Sherri's revolt will be smaller — the middle class in 2051 has less room. A single afternoon when she closes the Dashboard tab and does something the system has no field for. A conversation outside her tier. An hour with Calen in which she lets the metrics go and watches her daughter eat or refuse to eat without intervening. The system continues regardless. The return is silent.
 
-**The son**: Babbitt ends with his son Ted announcing that he's run away to elope and won't go to college. Babbitt, who has just recommitted to conformity, tells Ted: "I've never done a single thing I've wanted to in my whole life. I don't know's I've accomplished anything except just get along. I figure out I've been a failure." And then he tells Ted to go ahead, to do what he wants. It is the most heartbreaking moment in the novel. Drave's relationship with his son Calen and the Academy application should carry this weight — not replicated, but transformed.
+**The daughter**: Babbitt ends with his son Ted announcing the elopement. Sherri's relationship with Calen and the Academy application carries that weight, transformed and intensified by the gender axis. The Babbitt moment — "I've never done a single thing I've wanted to in my whole life" — becomes for Sherri something even harder: the recognition that what she has wanted has been precisely what the system has wanted her to want, and that her daughter is disappearing inside the same logic, and that the love she has for her daughter is the engine that powers the disappearance.
 
-## Character
+## The Bellow Inheritance — specific techniques from *Seize the Day*
 
-**Drave Holum**, 44. Residential Transition Facilitator at Kessler & Norde, a mid-tier agency. He helps families navigate the process of selling or leasing down when economic pressure requires it — when the mortgage algorithm has flagged them, when income disruption has dropped their Resilience Score, when the school zone they need is no longer within their range. He does this compassionately. He genuinely helps people. He does not dwell on the fact that he is, in aggregate, the human face on the middle class eroding — or rather, he has a thought about this occasionally that passes quickly. He is Babbitt: not a bad man, not a cynical man, a man whose goodness has been formatted by a system he cannot see from inside.
+**Dense interiority**: Bellow's sentences carry more than they should. A single paragraph passes through finance, fatherhood, the smell of the lobby, the failed marriage, the wrong tie, the father's contempt, and back to the money — without losing the thread, because the thread is the consciousness itself. Sherri's interior should achieve a similar density. One thought about the Score becomes a thought about Calen's lunch becomes a thought about the Academy application essay becomes a thought about Drave's commission band becomes a thought about Calen. Always Calen.
 
-His professional language: "transition facilitation," "lifestyle rebalancing," "zone-adjacent opportunity," "the reset as a chance to reconfigure." He believes these phrases. They are not euphemisms to him; they are the vocabulary of genuine help.
+**Circular anxiety as love**: in Bellow, the anxiety circling on itself is the form love takes when love has lost its outlet. Tommy's panic about money is also his panic about his sons, his father, his selfhood. Sherri's optimization is her love. The two are identical at the cellular level. The Compositional agent must render this so the reader feels the warmth and the trap as a single substance.
 
-**Sherri Holum**, 42. Manages the household Compliance Dashboard with genuine skill. She monitors their Resilience Score, their children's school zone eligibility, their wellness metrics, their Community Stewardship Circle participation points, their ESG household rating. She is good at this. She is the engine of the family's maintenance. She loves Drave in a way that is real and that has been, over fifteen years, shaped by the system's demands until it is difficult to know where the love ends and the compliance begins. This should not be rendered cruelly — it is simply what happens to love inside certain structures.
+**Drowning while swimming**: Tommy Wilhelm is drowning. Sherri is swimming hard. Sherri's competence is the difference — and also the trap. She is good at this. The water rises evenly with her stroke. The Bellow influence is in the felt sense that effort and submersion are the same gesture.
 
-**Calen Holum**, 14. Applying to the Meridian Academy for Exceptional Futures. He is quiet in the way children are quiet when they understand something about their situation that they have not been given the language to say. He plays an instrument (guitar, but acoustic, an old one from before) and sometimes Drave hears him through the wall of his room playing something that has no score, and this is the closest thing in Drave's life to the Kessler Recordings in Mara Selene's — except that Drave doesn't know to call it that. He just registers it as Calen being a teenager.
+**The final genuine feeling**: *Seize the Day* ends with Tommy at a stranger's funeral, weeping with a grief that is finally fully his, that breaks through everything. Sherri's equivalent must come at the end of Section VII. A moment when the Dashboard cannot hold what she feels. The system continues; the moment opens and closes; the day resumes. The reader carries it forward.
 
-**The Resilience Score**: not a character, but a presence. A composite household metric — financial, health, civic participation, environmental footprint — that governs mortgage rates, school zone access, health tier eligibility, and community amenity access. Drave checks it every morning. It is 74.3. "Stable." Anything below 70 triggers a "Watch" status, which begins the mortgage algorithm review process. The Score is not Drave's enemy; it is his context. He manages within it the way a fish manages within water.
+**The motif inverted**: "Seize the day" — Sherri seizes every day. Each day is seized and optimized and entered into the household record. The days pass through her hands anyway. The seizing is the losing.
+
+## The "not" prohibition — absolute technical constraint
+
+The word **"not"** as a comparative attractor is forbidden in the prose of this story. The comparative negation structure is an AI tell: it defines things by exclusion rather than by presence. Examples of the forbidden pattern:
+
+- "She was warm but not overbearing."
+- "The apartment was pleasant, if not grand."
+- "He was kind, though not naive."
+- "Sherri was efficient but not cold."
+- "Calen was quiet, not sullen."
+- "The Score was stable, not high."
+
+In every case the writer is reaching for definition by what the subject fails to be. This is forbidden.
+
+The correct alternative is definition by accumulation of present detail. Examples of the correct pattern:
+
+- "Sherri had the Calendar synchronized before six."
+- "The apartment held morning light on the east wall and a faint smell of the air filter and a print of Lake Michigan that Sherri had chosen in the second year."
+- "Drave laughed at the wrong moment and meant it."
+- "Calen ate the half-apple in eight precise bites and entered the data."
+- "The Score was 74.3."
+
+Bellow and Lewis both write this way: they accumulate detail until the thing is solid, present, undeniable. The standard is specificity over negation, presence over absence.
+
+If a comparative negation structure appears in the final draft, the prose has failed this constraint. The Compositional agent must scan for the construction at every pass.
+
+The constraint applies to the prose of the story. Functional negation — "she did not look" as a literal action, "he had never been to Chicago" as a fact — remains permitted. The forbidden form is the comparative attractor used for characterization, atmosphere, or definition.
+
+## Characters
+
+**Sherri Holum**, 42. The center of consciousness. Manages the household Compliance Dashboard. Helicopter mother, impeccably organized, genuinely warm. The cascade of responsibilities — the Score, the health metrics, the meal planning, the Academy application timeline, the Stewardship Circle commitments, Drave's career track, Calen's weight, Calen's coding — is the substance of her interior. She is swimming hard. She is good at it. Her goodness has been formatted by the system into a form of optimized love. The critique is structural. Sherri's love is real. Sherri's competence is real. The two have fused with the metrics into a single substance that the prose must render with full warmth and full clarity at the same time.
+
+Her professional-domestic vocabulary: "the Score," "zone-stable," "the application," "the Range," "Calen's numbers," "Drave's band," "the Circle," "the orientation week," "the dashboard." She thinks in these terms without irony. The irony is structural.
+
+**Drave Holum**, 44. Sherri's husband. Residential Transition Facilitator at Kessler & Norde. Loving, good-natured, somewhat oblivious. He helps families navigate selling or leasing down when the mortgage algorithm flags them. He believes the language of his work — "transition facilitation," "lifestyle rebalancing," "zone-adjacent opportunity." He is a presence Sherri loves and manages. He is one of the things on the dashboard, in a sense she would refuse to articulate. The Babbitt-figure displaced into the role of beloved companion: still fully formatted, still genuinely warm, viewed now from inside the consciousness of the wife who keeps the system running around him.
+
+**Calen Holum**, 14. Daughter. Quiet, competent, disappearing in two directions at once: into her bedroom and her code, and into her body. She eats carefully, methodically. Her numbers stay within range. The food data is entered. The disappearance has no field in the dashboard. Sherri watches obliquely, manages around it, because naming it directly might accelerate it.
+
+Calen's craft: live coding for **algorave** performance. Algoraves are real — live events where performers code music in real-time, projecting the code so the audience sees it alongside hears the music. The code is the score. In 2051, with superhuman AI doing all professional coding, a teenager hand-typing code for a music performance is a specific kind of anachronistic DIY — like learning calligraphy when every surface generates its own text, like hand-throwing pottery in a world of printed ceramics. It is craft. It is, without Calen having articulated this, a form of resistance: making something by hand in an era of infinite automated generation. Sherri has tried to frame the practice as "computational arts enrichment" for the Academy application. The framing slides off. The Dashboard has no category for what Calen is doing in her bedroom at 11 p.m. with the lights off and the projector throwing TidalCycles syntax onto the wall.
+
+**The Resilience Score**: a presence rather than a character. Household composite metric — financial, health, civic participation, environmental footprint, child development indices. It governs mortgage rates, school zone access, health tier eligibility, community amenity access, Academy application eligibility. It is 74.3. "Stable." A score below 70 triggers Watch status, which begins the mortgage algorithm review. The Score is the medium Sherri swims in. She checks it before six.
 
 ## Setting
 
-**Sustainable Living District 7 (SLD-7)**: a mid-tier residential zone in the merged megalopolis formerly known as Milwaukee-Chicago (now: the Great Lakes Corridor, administered by the Meridian Regional Authority). SLD-7 is demonstrably above the Deep Grid zones and demonstrably below the Green Ring residential towers. This is the fact around which Drave's entire life is organized. SLD-7 has: a Community Garden (maintained by Stewardship Circle volunteers), an AI-managed shared mobility fleet, a Wellness Rating of 7.4 (out of 10), and access to Academy application pathways for qualifying families (Score 72 and above). The school zone that feeds the Academy runs through SLD-7 on its southern edge. The Holums live in the southern quarter. This is not an accident.
+**Sustainable Living District 7 (SLD-7)**: mid-tier residential zone in the Great Lakes Corridor, the merged megalopolis formerly known as Milwaukee-Chicago, administered by the Meridian Regional Authority. SLD-7 sits demonstrably above the Deep Grid zones and demonstrably below the Green Ring residential towers. This positional fact is the geography around which Sherri's entire interior is organized. SLD-7 has a Community Garden (maintained by Stewardship Circle volunteers), an AI-managed shared mobility fleet, a Wellness Rating of 7.4, and access to Academy application pathways for qualifying families (Score 72 and above). The school zone that feeds the Academy runs through SLD-7 on its southern edge. The Holums live in the southern quarter. This was deliberate. Sherri chose it in year three, with the Academy already in mind.
 
 **The year**: 2051.
 
-**The physical world**: SLD-7's air is filtered but not Alpine Grade. The sky is the sky. In the distance on clear days the Green Ring towers are visible, their windows catching the light in a way that could be mistaken for beauty. Drave does not think of this as inequity; he thinks of it as aspiration. The distance between where he is and where the towers are is not an injustice in his vocabulary — it is a distance with a direction.
+**The Range**: the sky-visible distance to the Green Ring towers, which the Holums see from the kitchen window on clear days. The towers' windows catch the light in a way that could be mistaken for beauty. Sherri thinks of this distance as a direction. The Academy is the route. Calen is the vehicle.
+
+**The Academy application**: imminent. The orientation week is in three weeks. The essay is in revision. The portfolio is being assembled. The biometric data is current. The Score is holding at 74.3, which is comfortable, above the 72 threshold, and which Sherri checks each morning the way a sailor checks a barometer in a coastal town.
 
 ## Structure
 
-Seven sections, labeled I through VII (maintaining triptych symmetry). The sections might correspond to a single day or to a week, or to the seven renewal events of Drave's year (mortgage renewal, health plan renewal, school zone reassessment, Compliance Dashboard annual review, Community Stewardship Circle membership renewal, Wellness Tier assessment, Academy application cycle). The Compositional agent should choose the time structure that best serves the satire — a single representative day is the Babbitt model, and it may be the right choice.
+Seven sections, labeled I through VII, maintaining triptych symmetry. The Compositional agent should render the seven as the renewal events of Sherri's compressed week leading to the Academy application deadline, or as a single representative day from waking through return-to-waking, whichever serves the satire best. The Babbitt model is the single-day structure. The Bellow model is the single-day structure intensified to suffocation. Both pressures converge on this choice.
 
-The seven renewals as working section titles (internal, not necessarily to appear in the text):
-- MORTGAGE (the financial ground)
-- WELLNESS (the body as compliance)
-- TRANSITION (a day at work — facilitating someone else's descent)
-- COMMUNITY (the Stewardship Circle, the booster speech)
-- ACADEMY (Calen, the application, the weight of the investment)
-- REVOLT (the small, doomed attempt to step outside)
-- RENEWAL (the return; the morning after; the loop)
+Working section titles, internal:
+
+- I. DASHBOARD — morning, Sherri checks the Score, the Calendar, the metrics, the day's structure assembled before six
+- II. KITCHEN — breakfast with Calen, the watching-obliquely, the data entered carefully
+- III. CIRCLE — Stewardship Circle commitment, the booster moment, Sherri's civic faith rendered fully
+- IV. KESSLER — Drave at work, glimpsed through Sherri's awareness of his commission band, a call between them
+- V. APPLICATION — the essay, the portfolio, the algorave question, the framing that slides off
+- VI. REVOLT — the small afternoon, the closed tab, the hour without metrics
+- VII. RENEWAL — evening, Calen in her room, the projector throwing code, Sherri at the door, the moment that opens and closes, the Score the next morning
 
 ## Commitments
 
-- **Free indirect discourse is the primary technique.** The narrative voice inhabits Drave without announcing itself. The reader understands what Drave does not.
-- **The comedy must not condescend.** Lewis's Babbitt is funny and sympathetic simultaneously. If the story only mocks Drave, it fails. If it only pities him, it also fails. The target is the system, not the person.
-- **Drave's goodness must be real.** He loves his family. He wants genuinely good things for Calen. He is not a hypocrite in his own experience of himself. The satire is not about his bad faith but about his good faith being formatted by something he cannot see.
-- **The language of compliance should feel natural inside Drave's head.** He does not experience "the Resilience Score" as jargon; he experiences it as reality. The Compositional agent must render his interior vocabulary without ironic quotation marks — the irony is structural, not punctuational.
-- **Specificity over generality.** Name things. The score is 74.3, not "a middling score." The school zone runs along Pemberton Road, not "the southern boundary." The guitar is acoustic and old. The dream, when it comes, has a specific texture.
-- **The triptych position must be felt without being stated.** Drave is being squeezed from both directions — by the cancellation logic (which he nervously monitors for compliance) and by the distance from the Dex tier (which he aspires toward). He does not name these forces. They are the water.
-- **The ending carries Babbitt's weight, transformed.** Something passes between Drave and Calen. Drave reaches for the system's language to hold it, and the language diminishes it, and he watches the moment close. He does not know what he has lost. The reader does.
+- **The "not" prohibition is absolute.** The comparative negation structure is forbidden as a definitional move. The Compositional agent must scan for it and remove it at every pass. Specificity over negation. Presence over absence. This is the load-bearing constraint of the prose.
+- **Free indirect discourse is the primary technique.** The narrative voice inhabits Sherri without announcing itself. The reader understands what Sherri cannot see from inside her competence.
+- **The comedy must hold the warmth.** Lewis and Bellow both refuse the choice between mockery and sentiment. Sherri's competence is funny in its precision and devastating in its function. Render both simultaneously.
+- **Sherri's love must be real.** She loves Drave. She loves Calen with a force that organizes every minute of her day. The satire works only if the love is undeniable. The structural critique attaches to the form love has taken inside this system, never to the love itself.
+- **The language of compliance must feel native inside Sherri's head.** "The Score," "the application," "Calen's numbers" — she thinks in these terms without ironic quotation marks. The irony is structural, never punctuational.
+- **Specificity over generality.** The Score is 74.3. The threshold is 72. The Wellness Rating is 7.4. The orientation week is in three weeks. Calen's apple is eaten in eight bites. The projector throws TidalCycles syntax. Particulars do the work.
+- **Bellow density in the sentences.** The mind that digresses and returns. One thought passes through five domains and arrives back at Calen. The pressure of simultaneity inside the consciousness.
+- **The triptych position must be felt without being named.** Sherri has never heard of Cerulean Strategic, has never been to an exoplanet conference, has no vocabulary for "the Lush Epoch." She is the water between those worlds. The reader sees the position. Sherri inhabits it.
+- **The ending carries the Bellow weight, transformed.** A moment of feeling that the Dashboard cannot hold. The system continues. The Score the next morning is 74.3, or it is 74.4, or it is 74.2. The number remains. The moment remains in the reader.
 
 ## Refusals
 
-- **No knowing cynicism from Drave.** He does not secretly see through the system. That would be too easy.
-- **No cartoonish dystopia.** SLD-7 is not a prison camp. It is pleasant. The Wellness Rating is 7.4. The community garden is real. The pleasantness is part of the trap.
-- **No direct comparison to the other triptych panels.** Drave has never heard of Cerulean Strategic. He has never been to an exoplanet conference. These worlds exist but are not his horizon.
-- **No moralizing narrator.** The author's intelligence is present in the structure, not in editorializing sentences.
-- **No LLM tells**: no "tapestry," no "delve," no tricolons of abstract nouns, no thesis-statement opening, no closing benediction. The Lewis inheritance is the antidote: concrete nouns, active verbs, sentences that think.
-- **Do not soften the ending.** The return to conformity should not be redeemed. Drave's goodness should not rescue him. The loop should close.
+- **No knowing cynicism from Sherri.** She does not secretly see through the system. Her competence is sincere. Her belief in the Academy pathway is sincere. The reader sees what she cannot.
+- **No cartoonish dystopia.** SLD-7 is pleasant. The Wellness Rating is 7.4. The community garden produces tomatoes. The pleasantness is the trap.
+- **No direct reference to the other triptych panels.** Sherri's horizon ends at the Range. The Contrition Epoch and the Lush Epoch exist outside her language.
+- **No moralizing narrator.** The author's intelligence lives in the structure, in the selection of detail, in the rhythm of accumulation. Editorial sentences are refused.
+- **No LLM tells.** Forbidden: "tapestry," "delve," "navigate" used metaphorically, abstract-noun tricolons, thesis-statement openings, closing benedictions, the rhetorical question that performs depth. The Lewis/Bellow inheritance is the antidote: concrete nouns, active verbs, sentences that carry thought.
+- **No comparative negation in characterization.** See the "not" prohibition. Sherri is rendered by what she does, what she sees, what she thinks, what she touches. Never by what she fails to be.
+- **No softened ending.** Sherri's love will hold. Calen's disappearance will continue. The Score will hold. The system will continue. The reader's grief is the point.
 
 ## Attentional dialect
 
-Look at the world the way someone looks at it when they are always, slightly, managing their presentation of looking at it. The eye that is simultaneously experiencing and checking the experience against a standard. The warmth of genuine feeling moving through the channels of compliance. When Drave looks at Calen, let both things be true at once: the love that is real, and the investment thesis that has colonized the love's expression.
+Sherri's interior is a cascade of simultaneous tracks, each one carrying a domain, all of them returning to Calen. Her mind looks at a kitchen surface and sees the surface and the wipe-frequency and the data-entry checkbox and the texture of the morning light and the question of whether Calen ate dinner and the Score and the Academy deadline and the surface again. The Bellow density is exactly this. The cascade is the form.
 
-Sentence rhythm: Lewis is a long-breath writer — he accumulates clauses the way his characters accumulate civic memberships, and then cuts short for comic timing. The Compositional agent should find this rhythm and trust it. The free indirect discourse works best when the sentence commits fully to Drave's voice before the authorial intelligence gives it away.
+The warmth is real. The optimization is real. The two have fused. The prose must render them without separating them. When Sherri reaches for Calen's hair as Calen passes the counter, the gesture carries the love and the visual check of scalp condition simultaneously. The Compositional agent must hold both. To separate them would be to falsify Sherri.
 
-Specific vocabulary to deploy (Drave's internal lexicon):
-- "Resilience Score" / "the Score" (never in quotation marks in his head)
-- "zone-adjacent" / "zone-stable" (his professional vocabulary bleeding into domestic)
-- "the transition" (both a professional term and how he categorizes all change)
-- "the stewardship" (Community Stewardship Circle, but shortened in his mind)
-- "the application" (Calen's Academy application — the central project of the household)
-- "Sherri's dashboard" (the Compliance Dashboard, which he relies on but doesn't quite understand)
-- "the Range" (the sky-visible distance to the Green Ring towers, which he has named in his head as a horizon, not a reminder)
+The vocabulary is mid-21st century domestic-compliance. Sherri thinks:
+
+- "the Score" (never with capitals in her head; lowercase, immediate, familiar)
+- "the dashboard" (the Compliance Dashboard, the central instrument)
+- "Calen's numbers" (the weight data, the nutrition data, the academic indices)
+- "Drave's band" (his commission tier at Kessler & Norde)
+- "the Circle" (the Stewardship Circle)
+- "the application" (always definite, always Calen's, always the central project)
+- "the Range" (the visible distance to the Green Ring; spoken inside her head as direction)
+- "the orientation" (Academy orientation week, the immediate deadline pressure)
+- "zone-stable" / "zone-adjacent" (Drave's professional vocabulary that has migrated into her domestic thinking)
+- "Calen" (the word returns constantly; the mind tracks back to it from every other domain)
+
+Sentence rhythm: Lewis is a long-breath writer who accumulates clauses and cuts short for comic timing. Bellow is a dense-clause writer whose sentences absorb multiple domains before resolving. The Compositional agent should braid them. Long sentences when Sherri is managing competently; tight short sentences at the moments of contact with Calen; medium-length sentences with internal pivots when the cascade redirects mid-thought. The free indirect discourse is most exposed when the sentence commits fully to Sherri's voice before the author's intelligence registers the gap.
+
+## Voice tests
+
+The following sentences illustrate the target dialect. Each demonstrates a correct move. Each refuses the comparative-negation construction.
+
+Correct (presence, specificity, cascade):
+
+- "The Score was 74.3 at 5:47, which was where it had been at 5:47 yesterday, which Sherri took as the result of the lentil dinner and the additional thirty minutes Drave had logged in the Wellness app, and which left a margin of 2.3 above the Watch threshold and 2.7 below the next tier, and which meant the Academy application was secure for the orientation week, and Calen had eaten half the apple at dinner, the other half wrapped in the wax paper in the second drawer, where Sherri would find it tonight."
+
+- "Drave laughed at the Stewardship Circle joke and meant it, his whole face committed to the laugh the way his whole face committed to every gesture, and Sherri watched him and loved him and made a mental note that his blood pressure reading was due Thursday."
+
+- "Calen typed in the dark. The projector threw blue syntax across the bedroom wall. Sherri stood in the hallway in her robe and listened to the room without the music on yet, only the keys, and decided to step back to her own room before Calen sensed her there."
+
+- "The Range was clear today, the towers catching morning light, and Sherri saw them and saw the route through them — orientation week, conditional acceptance, the first year, the secondary track — and her mind landed where it always landed, on the half-apple in the drawer."
+
+Forbidden patterns and their correction:
+
+- Forbidden: "Sherri was efficient but not cold." Correction: "Sherri had the Calendar synchronized before six, the lunch packed, the apple sliced into the wax paper, the orientation paperwork printed and tabbed."
+
+- Forbidden: "The apartment was pleasant, if not grand." Correction: "The apartment held east light on the kitchen wall and a print of Lake Michigan Sherri had chosen in the second year and the faint smell of the air filter."
+
+- Forbidden: "Calen was quiet, not sullen." Correction: "Calen answered when Sherri asked and returned to the keyboard."
+
+- Forbidden: "Drave was kind, though not naive." Correction: "Drave told the Norden story for the third time that month, and Sherri laughed at the right beat, and her eyes went to the Score on the kitchen wall."
+
+- Forbidden: "The Score was stable, not high." Correction: "The Score was 74.3. The threshold was 72. The next tier began at 78."
 
 ## References
 
-- Sinclair Lewis, *Babbitt* (1922). Primary. The free indirect discourse, the booster speech, the specific proper nouns, the genuine pathos within the satire. Not to be imitated at the level of style — to be inhabited at the level of technique. The 1922 vocabulary must become the 2051 vocabulary.
-- Sinclair Lewis, *Main Street* (1920). For the suffocation of aspiration by the civic organism.
-- Richard Yates, *Revolutionary Road* (1961). For the specific cruelty of the gap between self-image and situation, rendered without redemption.
-- George Saunders, *CivilWarLand in Bad Decline* and the Tenth of December stories. For: free indirect discourse with genuine warmth toward characters who are fully inside their own delusion, the comedy-pathos simultaneity.
-- Thomas Frank, *What's the Matter with Kansas?* (2004). As background, not as style: the political economy of why people vote for the conditions of their own decline.
-- George Orwell, *Keep the Aspidistra Flying* (1936). For: the specific texture of economic anxiety managed with dignity, the small rituals of aspiration.
+- Sinclair Lewis, *Babbitt* (1922). Primary. Free indirect discourse, the booster speech, the named civic apparatus, the recurring fantasy, the moment of revolt, the return. The 1922 vocabulary becomes the 2051 vocabulary. Inhabit the technique; refuse imitation at the level of style.
+- Saul Bellow, *Seize the Day* (1956). Co-primary. Dense interiority, the circular anxiety that is also love, the day seized and slipping, the final feeling that breaks through. The Bellow texture lives inside the Lewis architecture.
+- Sinclair Lewis, *Main Street* (1920). For the suffocation of aspiration by the civic organism, viewed from a woman's interior.
+- Richard Yates, *Revolutionary Road* (1961). For the specific cruelty of the gap between self-image and situation, rendered with full sympathy and zero rescue.
+- George Saunders, *CivilWarLand in Bad Decline* and *Tenth of December*. For free indirect discourse with genuine warmth toward characters fully inside their own delusion; for the comedy-pathos simultaneity.
+- Lorrie Moore, *Birds of America*. For the maternal interior under pressure, the wit that holds grief, the mid-sentence pivot from competence to dread.
+- Rachel Cusk, *A Life's Work*. For the texture of contemporary maternal attention rendered with formal severity.
+- George Orwell, *Keep the Aspidistra Flying* (1936). For the texture of economic anxiety managed with dignity, the small rituals of aspiration.
+- Thomas Frank, *What's the Matter with Kansas?* (2004). Background, never style: the political economy of why people maintain the conditions of their own decline.
 
 ## Working title
 
 *The Resilient Life*
 
-The title is Drave's self-description and the system's promise and the reader's irony, simultaneously.
+The title is Sherri's daily achievement and the system's promise and the reader's grief, simultaneously.
