@@ -1,0 +1,20 @@
+# Section I: Dashboard
+*Draft 1a — Compositional pass, revised*
+
+At five forty-seven Sherri Holum was already at the kitchen wall, robe loose at the waist, hair still flat at the back from the pillow, the cup warming her palm before she had decided to drink from it, and the Display was on. The ok level was 74.3. It had been 74.3 at five forty-seven yesterday and 74.3 at five forty-seven the day before, which Sherri took as the cumulative effect of the lentil dinner Monday, the additional twenty-two minutes Drave had logged in the Wellness module on Tuesday, the Compact volunteer hour she had banked Sunday afternoon weeding the tomato bed in the community garden, and the steady current of Calen's morning biometrics, which the household sensor in the bathroom mirror had registered between six twelve and six fourteen daily for forty-one consecutive days. The margin was 2.3 above the threshold and 3.7 below the next band. The application sat secure inside that margin like a small clean dish inside a larger clean dish.
+
+The orientation was in twenty days.
+
+She opened the timeline. The portfolio review window was Thursday at two. The essay revision was due to the Academy intake portal by Friday at six. The Compact quarterly was Thursday at eleven, which she had already pre-cleared with the orientation prep slot at one, so the day would hold, the day would hold if she moved the application revision into the morning and pushed the kitchen inventory to Wednesday and let the Wellness check ride on the weekly aggregate, which she could allow herself because his line was holding, Drave's commission band was tracking at the Kessler & Norde median, the family was within the Range, and her picture — Calen's picture — was within range, within the green, within the soft band at the center of the chart Sherri had pinned to the top of the Display because looking at it was the first thing she did after the ok level.
+
+Calen's picture: BMI 17.2, iron 11.4, sleep at six hours forty over the trailing seven, the sleep figure flagged twice this month with a gentle yellow advisory, addressed with a dim-cycle adjustment, bumped briefly to seven hours, settled back to the six forty the Display now seemed to accept as Calen's natural variant, the way a doctor learns a child runs slightly cool. The picture was fine. The picture was within range.
+
+Drave was asleep with his mouth slightly open and one hand under the pillow and the other across his chest the way he had slept since the second year of the marriage, and Sherri took the shape of him into the day's open inventory the way she took the weather, his blood pressure check due Thursday, his Compact attendance current, his commission band steady — the love and the data the same motion of attention, fully fused, the way her hand was already on the cup.
+
+The east window held the sky in the gray-blue of before-light, and the Bright was visible above the low roofs of the southern quarter — the towers catching the first weather of sun behind them, the windows beginning to take it. The Bright was clear today. Sherri saw it and saw the route through it: orientation, conditional, first year, secondary track, placement, life. Route open. Ok level holding. The cup was warm. The family was fine.
+
+A sentence passed through her like a little wind. *The number was the number.* It passed. She moved to the lunch tab. The wax paper was in the second drawer. The half-apple from last night was still in there, wrapped, the cut surface beginning to brown along the edge. Sherri opened the nutrition module and logged the leftover into today's variable allotment and closed the drawer in her mind and then physically closed the drawer in the kitchen and the cup was at her mouth and the coffee was hot and the day had started.
+
+The Compact agenda loaded. His line refreshed. Calen's overnight biometrics ticked across the chart in the gentle pale green Sherri had selected three years ago from the Display's color palette. The Bright was lit now along the upper tier. The kitchen was warm.
+
+She had been seizing the day for years. Today was already going.
