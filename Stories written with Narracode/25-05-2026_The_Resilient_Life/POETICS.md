@@ -77,6 +77,22 @@ If a comparative negation structure appears in the final draft, the prose has fa
 
 The constraint applies to the prose of the story. Functional negation — "she did not look" as a literal action, "he had never been to Chicago" as a fact — remains permitted. The forbidden form is the comparative attractor used for characterization, atmosphere, or definition.
 
+## Prohibited Stylistic Formulas — absolute technical constraints
+
+To maintain distinct stylistic freshness and prevent default agentic phrasing, the following structural formulas are strictly forbidden:
+
+1. **Comparative Tautologies ("X was X"):**
+   - *Forbidden:* "The hallway was the hallway." / "The door was the door."
+   - *Alternative:* Ground the scene in somatic details, physical weight, light, or active observation (e.g., "The hallway smelled of pine and air filter." / "The cedar door frame stood between them.").
+
+2. **Emotional Evasion Formulas ("X went where it went" / "no name for it"):**
+   - *Forbidden:* "Sherri's chest went where it went." / "She had no name for what was happening in her chest."
+   - *Alternative:* State the precise emotion, somatic physical reaction, or bodily sensation directly (e.g., "Sherri's chest hammered." / "Her lungs tightened like cold leather.").
+
+3. **Passive Environmental Sentence Starters ("The room..."):**
+   - *Forbidden:* "The room made the small sound..." / "The room held..."
+   - *Alternative:* Let characters active-sense the environment, or describe the components directly (e.g., "Applause spattered." / "Sherri heard the ice maker click.").
+
 ## Characters
 
 **Sherri Holum**, 42. The center of consciousness. Manages the household Compliance Dashboard. Helicopter mother, impeccably organized, genuinely warm. The cascade of responsibilities — the Score, the health metrics, the meal planning, the Academy application timeline, the Stewardship Circle commitments, Drave's career track, Calen's weight, Calen's coding — is the substance of her interior. She is swimming hard. She is good at it. Her goodness has been formatted by the system into a form of optimized love. The critique is structural. Sherri's love is real. Sherri's competence is real. The two have fused with the metrics into a single substance that the prose must render with full warmth and full clarity at the same time.
