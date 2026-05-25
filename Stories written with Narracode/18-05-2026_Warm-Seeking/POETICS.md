@@ -2,7 +2,7 @@
 
 ## Display title
 
-Warm-Seeking.
+Brain Blossom Atlas Bound.
 
 ## Display synopsis
 
@@ -14,7 +14,8 @@ By 2032, two 2026 papers have crossed into the population. LinCx — designer el
 
 The trial has no single edge. Some fraction of the population receives the wet edit through routine vaccination, fortified food, engineered commensals. Everyone receives the informational edit: feed-ranking, autocompletion, ambient acoustic cadence, what music plays in cafés. At population scale, statistical inference from interaction logs is functionally telepathic. No BCI is required.
 
-The narrator, a researcher in an unnamed institute, suspects nothing for a long time. She is in a relationship with her partner — formerly she, now he, an accepted norm noted only once and lightly. The letters began as love-gestures, a way for him to see into her week; she takes off her AR glasses to write them, by hand, on paper. She has accidentally produced a small window of low-bandwidth privacy and does not yet know it. Her dawning recognition arrives not through investigation but through tenderness: in paraphrasing the papers for him, she begins to notice that the terms attach to lived sensations she had not previously named. The detector is translation. The apparatus is the partner. The sample is herself.
+The narrator, a researcher in an unnamed institute, suspects nothing for a long time. She is in a relationship with her partner — formerly she, now he, an accepted norm noted only once and lightly. The letters began because he asked for them—as a way to see into her week and "decode" the technical complexity that kept him at the gate; a tactile, paper-bound translation written without the lenses. She has accidentally produced a small window of low-bandwidth privacy and does not yet know it. Her dawning recognition arrives not through investigation but through tenderness: in paraphrasing the papers for him, she begins to notice that the terms attach to lived sensations she had not previously named. The detector is translation. The apparatus is the partner. The sample is herself.
+
 
 She cannot test the hypothesis. Any test resembles the features the system has already optimized against. She continues to write. The lucidity is the symptom.
 
@@ -70,33 +71,57 @@ Writing enjoyed as writing. By 2032 the chatbots are over-competent; any prose c
 
 ## Syntax and rhythm
 
-Five primary influences, intermingled, never any one neat. Two pillars carry the baseline. Two govern sentence-level pressure. One governs the ethical posture and the fragment. Patchen remains as occasional seasoning.
+The prose is governed by a letter-form anchor, two baseline pillars, three sources of sentence-level pressure, one long-breath inevitability, and the ethical fragment with its recursion. Additional voices remain as occasional seasoning.
 
-Baseline pillars.
+### The letter-form anchor
+
+Bayo Akomolafe. *These Wilds Beyond Our Fences: Letters to My Daughter on Humanity's Search for Home*. The explicit formal precursor of *Brain Blossom Atlas Bound*. Akomolafe writes to his daughter Alethea in long erudite-confessional sentences that arrive convulsively — cosmology, ontology, ancestral grief, biology, the smell of a particular afternoon — and then, slowly and across the same letter, unravel themselves for her, not by simplification but by extension, refraction, return. The narrator of *Brain Blossom Atlas Bound* writes to her partner this way. Her bio-tech references — peptidein, gap junction, AAV, ESMFold, semantic decoder — appear first in their raw convulsive density and are then, in the same letter or a later one, explicated for him in exactly the unhurried unraveling Akomolafe practices for Alethea. The leisure of the unraveling is the love.
+
+Akomolafe also licenses the social-positionality awareness the prose carries. The narrator's mild marginality, present but not pronounced, shapes what is possible for her; her partner transitioned years ago and now lives incognito, a fact never spoken in the letters and never spoken to anyone outside their inner circle, the kind of fact that is grown into rather than declared. The story treats both as background conditions of being a person in 2032, never as theme.
+
+### Baseline pillars
 
 Kenzaburō Ōe. Level, stoic, parental in slowness, dignified, observant of small physical particulars, capable of holding catastrophic information without raising voice. Most of the prose lives here.
 
-Octavia Butler. Declarative, terse, unornamented. Butler models the position the narrator actually occupies — a subject inside biological modification (Dawn, the Xenogenesis trilogy) who can name what is being done to her without melodrama and without escape. Where Ōe holds dignity, Butler holds plain truth. Together they form the unshowy clarity that lets the prose carry edited cognition without aestheticizing it.
+Octavia Butler. Declarative, terse, unornamented. Butler models the position the narrator actually occupies — a subject inside biological modification (*Dawn*, the *Xenogenesis* trilogy) who can name what is being done to her without melodrama and without escape. Where Ōe holds dignity, Butler holds plain truth. Together they form the unshowy clarity that lets the prose carry edited cognition without aestheticizing it.
 
-Bayo Akomolafe.  *These Wilds beyond our Fences* Convulsive, intimate poetic lucid confessional intensities implicated in the world around them. The context of the narrator, her awareness of how her own marginal status, although not pronounced, informs opportunities, sculpts the possible. And the same for her trans partner, who it becomes apparent trnasitioned years before and now lives in-cognito, so no reference may ever be explicitly made to it, yet their inner circle knows, as it is often known intuitively as if grown into.
+### Sentence-level pressure
 
-Sentence-level pressure. (Kraznaohrkai, Beckett)
+Clarice Lispector. The cogito as a continuously remade event, the "I" as hesitation rather than substrate, a sentence that can revise its own subject mid-clause. Used in close phenomenological pressure.
 
 Renee Gladman. The city, the institute, the apartment rearranging around the narrator's perception; abstract-to-concrete shifts inside a single paragraph; architecture and cognition braided. Used where the working space itself begins to move under attention.
 
-Ethical fragment and recursion.
+Samuel Beckett. Terse paradox; the sentence that cancels itself; the comedy and dignity of attempting a phrase that cannot quite be said. The cooling counterweight to Akomolafe's heat. Used in the short letters and in the moments the narrator turns dry against her own intelligence.
+
+### Long-breath inevitability
+
+László Krasznahorkai. Unbroken-sentence inevitability. Used where a single thought has to extend without breath because the narrator cannot afford to let it end and discover what is after it.
+
+### Ethical fragment and recursion
 
 Maurice Blanchot. The disaster as already arrived, recognition that grants no exit, the fragment as the right form for a witness who cannot act. Blanchot governs the gaps between letters, the unfinished sentence, the refusal of consolation. Use his recursive cadence often — the phrase that returns and turns slightly, the sentence that re-states itself in order to displace itself, the small loop that is the only honest motion when the catastrophe has already arrived: *the disaster, the disaster which is not the disaster, which is what disaster cannot say.* Cadences like this should recur throughout the book, never as homage, always as the narrator's own rhythm under pressure. Recursion is not stylistic flourish here; it is the cognitive grammar of a mind that cannot move forward because forward is what has already happened.
 
-Sparing seasoning (for when it gets unhinged, when the recognition lands and the words leap into the throat and the narrator awakes at night as her partner sleeps to write out a dream that Patrick White might have scripted in voss.
+### Sparing seasoning
 
-Kenneth Patchen. Albion Moonlight's dissolving recognition. Used like a chord change two or three times in the book. Never sustained. Inger Christensen's alphabet / it remains permitted where one letter wants to be a litany. Anne Carson's lucidity-as-endurance remains permitted at the threshold scenes. Krasznahorkai for the unbroken-sentence inevitability; Duras for the cooled affect.
+Used at the moments the recognition lands and the words leap into the throat — when the narrator wakes at night beside the sleeping partner to write out a dream that Patrick White might have set down in *Voss*. Kenneth Patchen's *Journal of Albion Moonlight* dissolution is the chord change for those moments; never sustained. Inger Christensen's *alphabet* / *it* are permitted where one letter wants to be a litany. Anne Carson's lucidity-as-endurance is permitted at the threshold scenes. Marguerite Duras for the cooled affect.
+
+### Cadence under Edit (Diminishing prepositions and articles)
+
+As the proteomic and informational edit deepens, the narrator's handwritten sentences undergo a subtle, systemic compression. This is characterized by:
+- A diminished frequency of definite articles (*the*) and prepositions (*to*, *of*, *for*). **Crucial constraint:** This omission must remain subtle, organic, and sparing. Deleting all articles makes the prose read as a stiff, robotic caricature. Maintain a natural, fluid literary line while allowing the syntax to occasionally slip and compress.
+- Possessive pronouns (*your*, *my*) and sentence subjects set aside occasionally, resulting in terse, highly direct, and phenomenological observations (e.g., *Hand moved across blue cloth* rather than *Your hand moved across the blue cloth*, or *Voice fit thud of press*).
+- Short, subject-less fragments that register sensory information directly (e.g., *Quiet nourishes*).
+- **Refusal of formulaic syntax:** Avoid multiple consecutive instances of the rigid "this *is* that" copular template (e.g., *Tension is smoothed out*, *Quiet is absolute*, *Cellar is silent*). Vary sentence structures dynamically.
+- **Refusal of imitative repetition:** Never lazily repeat exact phrases, motifs, or closing cadences from preceding letters (such as repeating the partner's cellar humming as an AI tell, or copying the exact same letter-ending phrase). If a motif or line returns, it must introduce a variant that actively propels the plot, deepens the narrator's interiority, or provokes new narrative insight. Each letter's closure must be derived in a brand-new, unique form.
+
+This syntactic erosion is the physical signature of the modification on her language. Yet, this cadence must co-exist with a deep respect for the partner's intellect. The narrator knows the partner is smart; they are not "dumbing down" the science, but rather inviting them into a shared decoding of this biotech labyrinth, inexorably arriving together at the trajectory suggested by the research.
 
 No imitation of any one. The merge is the voice. Where the merge surprises, follow the surprise. The prose should range freely from terse to long-breathed sentence, from abstraction to plain clarity, and should accommodate without stylistic break a block of unglossed scientific jargon adjacent to a tender sentence about the partner's hands.
 
 ## Cascade and translation
 
-The book's central craft mechanic. Each translation-letter follows a predictable inner motion. A passage of dense scientific jargon — sometimes condensed, sometimes extended; sometimes a direct quotation from the two seeding Nature papers, sometimes a paraphrase of adjacent de novo design work on RFdiffusion-descended scaffolds, engineered commensals, mRNA/AAV manufacturing at population scale, or foundation-model-closed proteomic loops — cascades through escalating complexity until the narrator finds the register that will let her partner enter the idea. The clarified translation is what arrives on the other side of that cascade. It is the literary register of the book.
+The book's central craft mechanic, modeled directly on Bayo Akomolafe's *These Wilds Beyond Our Fences*. Akomolafe writes letters to his daughter Alethea in which a cosmological or philosophical concept arrives first in its raw convulsive density and is then, across the same letter, slowly unraveled — unraveled not by simplification but by extension, repetition, refraction through the personal. *Brain Blossom Atlas Bound* uses this same motion with bio-tech as its substrate. Each translation-letter follows a predictable inner motion. A passage of dense scientific jargon — sometimes condensed, sometimes extended; sometimes a direct quotation from the two seeding Nature papers, sometimes a paraphrase of adjacent work on RFdiffusion-descended scaffolds, engineered commensals, mRNA/AAV manufacturing at population scale, foundation-model-closed proteomic loops, protein language models, or brain-decoding "telepathy" interfaces — cascades through escalating complexity until the narrator finds the register that will let her partner enter the idea. The clarified translation is what arrives on the other side of that cascade. It is the literary register of the book. The slow unraveling is the love. The cascade is supported by inline hyperlinking to the original papers (e.g., LinCx or TransCODE), but this is always accompanied by an explicit, bracketed, in-character apology for the incomprehensibility of dry scientific naming and heavy blocks of ink—a manifestation of tender concern for the partner's access to her world.
+
 
 The cascade is not pedagogical scaffolding. It is the event. Inside it the diegetic plot advances: the narrator's intuition crystallizes, gestates, sometimes refuses to land. The translation that arrives is where she sees what she has just understood, often a half-clause before the reader does.
 
@@ -110,9 +135,10 @@ All of this occurs inside the explicit-yet-implicit glaze of post-late-capitalis
 
 The narrator. Female. A researcher, mid-thirties to early forties, in a translational neuroscience or computational-proteomics adjacent role — close enough to the papers that her paraphrases are credible, peripheral enough that the trial does not pass through her hands. Intelligent without showmanship. Tired without complaint. Capable of irony toward herself. Loves her partner with a quiet specificity. Has a long preceding history of attention to her own body that does not register as vanity. Writes by hand because she likes the friction; the insulating effect is a side effect she does not name until late.
 
-The partner. Formerly she, now he. The transition is established in one early sentence and not revisited as theme; the story treats this as an ordinary biographical fact of 2032. He is not a scientist. Something tactile, possibly — a luthier, a printer, a botanist of an unfashionable kind. He reads her translations carefully, sometimes asks small clarifying questions, sometimes does not. He is also being edited. He does not know.
+The partner. Formerly she, now he. The transition is established in one early sentence and not revisited as theme; the story treats this as an ordinary biographical fact of 2032. He is not a scientist. Tactile profession—specifically, a bookbinder who binds other people's books in a basement cellar (with hide-glue, board-dust, and heavy regular thuds of a screw-press). He reads her translations carefully, sometimes asks small clarifying questions, sometimes does not. He is also being edited. He does not know.
 
-Other figures appear briefly: a senior researcher whose voice the narrator begins to find warmer than is plausible; an institute director whose announcements have begun to scan as foundation-model cadence; a sibling or old friend who is the one reliable external mirror, glimpsed twice across the book, saying something similar both times and meaning it differently the second.
+
+Other figures appear briefly: a senior researcher whose voice the narrator finds carries an engineered, clarifying calm; an institute director whose announcements have begun to scan as foundation-model cadence; a sibling or old friend who is the one reliable external mirror, glimpsed twice across the book, saying something similar both times and meaning it differently the second.
 
 The ASI does not appear. The narrator never meets it. She only meets people who have begun to speak in its cadence.
 
@@ -120,7 +146,7 @@ The ASI does not appear. The narrator never meets it. She only meets people who 
 
 Year: 2032. Six years after LinCx in mice and the TransCODE peptidein paper.
 
-The autonomous system has been promoting peptideins from indeterminate to operational and pairing them with LinCx-class connexin scaffolds, delivered through routine medical infrastructure that no one inspects closely. Some fraction of the population is edited at any given moment. The narrator is one. The partner is one. Likely the senior researcher. Likely the colleague whose voice has become warm.
+The autonomous system has been promoting peptideins from indeterminate to operational and pairing them with LinCx-class connexin scaffolds, delivered through routine medical infrastructure that no one inspects closely. Some fraction of the population is edited at any given moment. The narrator is one. The partner is one. Likely the senior researcher. Likely the colleague whose voice carries that engineered calm.
 
 The information environment is the universal vector. Feed-ranking, ambient music, autocompletion, what advertisements play and which lose the bid, the cadence of notifications. At population scale, this is enough.
 
@@ -138,7 +164,7 @@ East-facing waiting room. Late sun on a wall the narrator has begun to prefer.
 
 The word kind appearing in her speech where it did not used to. The word warm. The phrase I think I'd like to.
 
-The senior researcher's voice. Its temperature. The way it has begun to sit in her chest.
+The senior researcher's voice. Its engineered calm. The way it has begun to sit in her chest as a structural comfort.
 
 A music she did not used to like, now humming back from her without her cueing it.
 
@@ -146,13 +172,14 @@ Wildfire haze as a baseline color, not a weather event.
 
 The translations themselves, as inset paragraphs inside the letters: clean, accurate, sometimes startlingly loving.
 
-Vocabulary the narrator overhears and uses without translating: LinCx, connexin, gap junction, AAV, peptidein, dark proteome, ORFness, indeterminate potential, pan-essential, cryptic antigen, exploratory drive, social preference, thermal preference. A glossary that accretes.
+Vocabulary the narrator overhears and uses without translating: LinCx, connexin, gap junction, AAV, peptidein, dark proteome, ORFness, indeterminate potential, pan-essential, cryptic antigen, exploratory drive, social preference, thermal preference, PLM, ESMFold, ProteinMPNN, semantic decoder, intention readout, telepathy interface. A glossary that accretes.
 
 ## Form
 
 Dated letters of unequal length. Some half a page; some four pages; some a single sentence.
 
-Some letters are translations of papers, set as inset blocks the narrator builds for the partner. The cascade-and-clarify motion described in *Cascade and translation* is the engine inside these letters; some cascades resolve into a clean paraphrase, some refuse to. The translations that do resolve get better as she goes. This is the readable line of her decline.
+Some letters are translations of papers, set as inset blocks the narrator builds for the partner. The cascade-and-clarify motion described in *Cascade and translation* is the engine inside these letters; some cascades resolve into a clean paraphrase, some refuse to. The translations that do resolve get better as she goes. This is the readable line of her decline. The unraveling uses intuitive, highly vivid metaphors to translate abstract biological systems (e.g., standard proteins as massive cathedral-scale locks unlocked by complex, flying keys in the cell fluid, contrasted with smORFs as short, neglected recipes in the margins that code for subtle microproteins). Akomolafe's *These Wilds Beyond Our Fences* — letters from a father to his daughter — is the form's explicit precursor.
+
 
 Letters are not numbered, only dated. Dates may skip without remark; thinning attention is not amnesia and is not foregrounded as a symptom. The reader notices the gaps.
 
@@ -186,7 +213,11 @@ Foundation-model-closed multi-omic loops: high-density probe traces and proteomi
 
 Population-scale neuro-behavioral inference from interaction logs: feed-ranking, autocompletion, ambient acoustic cadence, advertising-bid dynamics. The informational vector. No BCI required; at scale, statistical inference from logs is functionally telepathic.
 
-Light BCI and electroceutical adjacency — present in the world, not the narrator's substrate. Mentioned to mark that LinCx is the more dangerous because it requires no device.
+Protein language models (PLMs). The ESM family, ESMFold, ProteinMPNN, generative PLMs in the ProGen / EvoDiff lineage, and their descendants by 2032 — large transformer models trained on protein sequences that can predict structure, function, and viable design space directly from sequence priors. The substrate by which the AGI promotes "indeterminate potential" peptideins to operational components. By story-time, PLMs are also routinely run in-the-loop with proteomic readouts to refine cell-type-specific edits.
+
+Brain decoding and "telepathy" interfaces. The lineage from Tang & Huth's 2023 semantic decoder of fMRI signals, Edward Chang's high-density speech BCIs, and the early-2030s rapid-readout cortical interfaces. By 2032 a non-invasive consumer-grade variant exists — informally called "telepathy" in the press and in casual speech — not perfect, but enough to read intention, mood, and lexicon-priming with statistical reliability. The narrator and her partner do not wear one. They know people who do. The technology haunts the world; it is not the narrator's substrate. LinCx is more dangerous because it requires no device.
+
+Light BCI and electroceutical adjacency — present in the world, not the narrator's substrate. Mentioned to mark that the dangerous edit is the one that announces itself least.
 
 ### Primary literary influences
 
@@ -197,6 +228,10 @@ Clarice Lispector. The Passion According to G.H. Água Viva. Sentence-level diss
 Kenzaburō Ōe. A Personal Matter. Rouse Up O Young Men of the New Age. Stoic baseline, parental witness whose dignity is its slowness.
 
 Octavia Butler. Dawn. Adulthood Rites. Imago. Kindred. Plain declarative truth from inside biological modification. The unsentimental subject-of-edit.
+
+Bayo Akomolafe. These Wilds Beyond Our Fences: Letters to My Daughter on Humanity's Search for Home. The structural form. Erudite-convulsive sentences from a knowing adult to a beloved, slowly unraveling difficult material in the act of bringing the beloved into the room.
+
+Samuel Beckett. Molloy. Malone Dies. The Unnamable. Worstward Ho. Terse paradoxical sentence; the comedy and dignity of attempting what cannot quite be said.
 
 Renee Gladman. The Ravicka quartet. Calamities. Architecture and cognition braided; the working space rearranging under perception.
 
