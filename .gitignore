@@ -4,3 +4,4 @@ node_modules/
 .env
 html/
 claude-code-rebuilt-main/
+.claude/
