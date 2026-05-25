@@ -10,7 +10,7 @@ A musicologist travels to a conference on an exoplanet at the periphery of a vas
 
 ## Process note
 
-This story was developed in the absence of the harness. Written in a single generative pass, in direct conversation, without the Narracode protocol's separation of passes. The idea originated with Jhave; the prose is by Claude Opus 4.7; the illustrations are by Gemini 3.5 Flash from prompts by Jhave via Antigravity.
+This story was developed in the absence of the harness. Written in a single generative pass, in direct conversation, without the Narracode protocol's separation of passes. The idea originated with Jhave; the prose is by Claude Sonnet 4.6; the illustrations are by Gemini 3.5 Flash from prompts by Jhave via Antigravity.
 
 ## Commitments
 

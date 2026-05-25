@@ -10,7 +10,7 @@ A Senior Director of Transition Architecture at a sovereign intelligence firm mo
 
 ## Process note
 
-This story was developed outside the Narracode harness. Written in a single generative pass, in direct conversation, without the protocol's separation of passes. The idea originated with Jhave; the prose is by Claude Sonnet 4.6.
+This story was developed outside the Narracode harness. Written in a single generative pass, directly by Claude Code, without the protocol's separation of passes. The idea originated with Jhave; the prose is by Claude Sonnet 4.6; the illustrations are by Gemini 3.5 Flash from prompts by Jhave via Antigravity.
 
 ## Commitments
 
