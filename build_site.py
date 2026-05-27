@@ -174,7 +174,7 @@ def get_story_projects(base_dir="Stories written with Narracode"):
 
         projects.append({
             "title": title,
-            "path": f"{base_dir}/{folder}/index.html",
+            "path": f"{base_dir}/{folder}/",
             "icon": get_story_icon(folder),
             "folder_name": folder,
             "author_info": author_info,
@@ -188,7 +188,7 @@ def get_story_projects(base_dir="Stories written with Narracode"):
 
 
 def get_story_icon(folder_name):
-    """Return a root-relative story icon path for known library entries."""
+    """Return a root-relative story icon path for known library entries or local images."""
     story_icons = {
         "15-05-2026_The_Author_Was_Already_Dead": "Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/img/header.webp",
         "14-05-2026_Aft_of_Nowhere": "Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp",
@@ -196,7 +196,16 @@ def get_story_icon(folder_name):
         "10-05-2026_Exile": "img/story-icons/exile-cut.webp",
         "09-05-2026_Slime": "img/story-icons/slime-friendship-bloom.webp",
     }
-    return story_icons.get(folder_name, "")
+    if folder_name in story_icons:
+        return story_icons[folder_name]
+    
+    # Fallback to local img/header.png or img/header.webp
+    base_dir = "Stories written with Narracode"
+    for filename in ("header.png", "header.webp"):
+        candidate = os.path.join(base_dir, folder_name, "img", filename)
+        if os.path.exists(candidate):
+            return candidate
+    return ""
 
 
 def is_story_draft(filename):
@@ -355,7 +364,7 @@ def build_site(project_dir):
 
     # Read template
     with open(template_path, "r", encoding="utf-8") as f:
-        template = f.read()
+        template = f.read().replace("\r\n", "\n")
 
     # Replace metadata
     template = template.replace("<title>The Long Afternoon — A Story of the Escape</title>", f"<title>{title} — A Narracode Story</title>")
@@ -468,7 +477,7 @@ def build_site(project_dir):
     # Split template at story div
     parts = template.split('<div class="story">')
     header = parts[0] + '<div class="story">\n'
-    footer = parts[1].split('</div>\n\n\n    <!-- Related Works by Jhave -->')[1]
+    footer = parts[1].split('<!-- Related Works by Jhave -->', 1)[1]
     footer = '</div>\n\n    <!-- Related Works by Jhave -->' + footer
     footer = re.sub(
         r'    <!-- Related Works by Jhave -->\s*<div class="related">.*?</div>',

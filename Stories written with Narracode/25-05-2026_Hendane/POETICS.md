@@ -2,6 +2,10 @@
 
 A novella-in-acts about a bored Bergen administrator who becomes an anonymous handcraft-influencer and is undone, not by exposure, but by an algorithm doing its job.
 
+## Display synopsis
+
+A bored administrator at a Bergen environmental research institute launches a faceless social media channel, demonstrating mundane household tips using his hands against beautiful, AI-generated historical backdrops. As his hands become an anonymous local sensation, he is forced to navigate the community's curiosity and a platform classifier that flags his human labor as synthetic. A quiet, dryly comedic, and deeply textured Bergen novella about digital craft, municipal rain, and the quiet joy of being unmasked.
+
 ---
 
 ## 1. Premise (compressed)

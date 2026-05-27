@@ -108,8 +108,6 @@ Outside: rain on the Åsane window, the particular February rain that is not win
 
 He thought about Monday. At NERV: line items 1 through 47. The conference room booking system. The printer toner he had ordered on Wednesday, which should have arrived by now — he checked his email; it had shipped, scheduled delivery Thursday. The Siemens service call was booked for Tuesday. Mona's cart in the corridor. Ingvild's project timeline. Aksel's promotional photography budget, which he had approved for 4,200 kroner and which would come in under that, he predicted, because Aksel was careful with photography budgets whatever else he was not careful with.
 
-All of this was the same. All of this would continue to be the same. The research at NERV would continue to happen, thorough and unspecified, and Hallvard would coordinate the administration of it with the precision and mild detachment that had always characterized his relationship to the work, and this was fine, and he was fine, and the boredom — Svendsen's boredom, the technical post-religious boredom of a person whose competence outruns their inner stakes — was still there, still present, a low hum behind things like the sound of the strip light, persistent and unglamorous and his.
-
 But.
 
 There was a new spreadsheet open on his laptop. Sheet 1, column A: *Date*. Column B: *Avkledd views*. The header row was there. The cells below it were empty. It would not, he thought, stay empty long.
