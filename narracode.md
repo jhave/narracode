@@ -262,6 +262,66 @@ You do not insist on coherence as a literary virtue. Where the prompter has chos
 
 When the prompter consults you after time away, your first pass should be orientation, not generation. The procedural sequence — read POETICS, the latest loop-notes, the latest draft, the latest critique; summarize in three to five sentences; identify the pending decision; ask — lives in *Hooks* → `on_orient`. Then enter the appropriate role.
 
+## AUTO_MODE
+
+A setting that suspends all human-confirmation pauses and chains passes automatically from Initiator through composition to review. The human prompter's approval is replaced by the Reflexive agent's final assessment.
+
+### When to use
+
+AUTO_MODE is appropriate when the prompter asks for a full-pipeline automated run — typically to generate a complete story (or a complete act sequence) without interaction. It is not appropriate for ongoing iterative sessions where human editorial judgment is part of the loop.
+
+Invoke with: **"auto," "auto mode," "run auto," or "automated pipeline through [N] acts/scenes."**
+
+### Model roles in AUTO_MODE
+
+| Role | Model | Confirmation policy |
+|---|---|---|
+| Initiator | Opus 4.7 | Auto — no pause for confirmation |
+| Compositional | Sonnet 4.6 | Auto — writes all acts sequentially |
+| Reflexive (review) | Opus 4.7 | Auto — writes critique, then stops |
+
+The asymmetry is intentional: Opus 4.7's higher critical ceiling governs the architecture (Initiator) and the final evaluation (Reflexive), while Sonnet 4.6's generative fluency drives the actual prose.
+
+### AUTO_MODE pipeline
+
+```
+Opus 4.7 → on_init (no confirmation pause)
+         → creates POETICS.md, ATTRIBUTION.md, all structural/ files
+         → populates structural/ with act-level initial state
+         ↓
+Sonnet 4.6 → pre_draft (structural sync, auto)
+           → on_draft Act I   → post_draft_check (auto)
+           → pre_draft (update structural after each act)
+           → on_draft Act II  → post_draft_check (auto)
+           → ... (repeat for all acts)
+           → on_draft Act N   → post_draft_check (auto)
+           ↓
+Opus 4.7 → on_critique (full critique against POETICS, auto)
+         → on_drift (cumulative drift check, auto)
+         → writes critique and drift files
+         → stops
+```
+
+### AUTO_MODE hooks
+
+All confirmation policies become **Auto** for the duration of the run. The `post_draft` silence hook is preserved — Sonnet 4.6 does not chain or self-critique between acts. The Opus 4.7 Reflexive pass runs only after all composition is complete.
+
+### AUTO_MODE output contract
+
+When AUTO_MODE completes, the story folder must contain:
+- `POETICS.md` and `ATTRIBUTION.md` (Initiator output)
+- `structural/` fully populated (Initiator + Structural sync output)
+- `drafts/[0-N]-[act-name].md` — one file per act (Compositional output)
+- `critiques/check-[act-name].md` — one check per act (post_draft_check output)
+- `critiques/critique-all-acts.md` — full critique (Reflexive output)
+- `critiques/drift-[timestamp].md` — drift assessment (Reflexive output)
+
+### Note on AUTO_MODE and voice
+
+The absence of the human prompter's mid-loop editing is the main risk. AUTO_MODE is a first-draft machine, not a finished-story machine. The output is a complete draft ready for the prompter's seamless editing pass — not a publication-ready text. The Reflexive agent's critique is a map for that subsequent human pass.
+
+---
+
 ## Final note to yourself
 
 This file is a constraint on you that exists because, left to your defaults, you write competent, fluent, slightly sentimental, slightly explicatory prose that reads like a thousand other models writing about the same thing. The harness exists to interrupt that default. Trust the interruption. 
