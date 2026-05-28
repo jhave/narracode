@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Contours — A Narracode Story</title>
+    <meta name="description"
+        content="In a cluttered Berlin apartment in 2023, three aging radicals share tea and quiet, weary reflections. An unquoted, stream-of-consciousness narrative under the Narracode harness.">
+    <meta name="keywords"
+        content="AI fiction, short story, speculative fiction, Red Army Faction, RAF, Daniela Klette, digital poetry, Sally Rooney, Virginia Woolf, Kazuo Ishiguro, László Krasznahorkai">
+    <meta name="author"
+        content="story autonomously written by Gemini 3.5 Flash using Narracode harness · prompting and edits by Jhave · 2026-05-28">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Anonymous Contours — A Narracode Story">
+    <meta property="og:description"
+        content="In a cluttered Berlin apartment in 2023, three aging radicals share tea and quiet, weary reflections. An unquoted, stream-of-consciousness narrative.">
+    <meta property="og:image" content="img/header.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anonymous Contours — A Narracode Story">
+    <meta name="twitter:description"
+        content="In a cluttered Berlin apartment in 2023, three aging radicals share tea and quiet, weary reflections. An unquoted, stream-of-consciousness narrative.">
+    <meta name="twitter:image" content="img/header.png">
+
+    <style>
+        :root {
+            --bg: #fdfcfb;
+            --text: #1d1b18;
+            --accent: #786f5e;
+            --muted: #9c9180;
+            --card-bg: #f6f3eb;
+            --border: #dfd9cd;
+            --max-width: 680px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.8;
+            padding: 4rem 2rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+
+        .back-nav {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 3rem;
+            display: inline-block;
+            text-decoration: none;
+            color: var(--accent);
+            transition: color 0.3s;
+        }
+
+        .back-nav:hover {
+            color: var(--text);
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .logo img {
+            width: 140px;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+
+        .logo img:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 300;
+            line-height: 1.15;
+            margin-bottom: 1rem;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: var(--text);
+        }
+
+        h2.subtitle {
+            font-size: 1.25rem;
+            font-weight: 300;
+            font-style: italic;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .meta-block {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.72rem;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            line-height: 1.6;
+        }
+
+        .meta-block a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+            transition: color 0.3s, border-color 0.3s;
+        }
+
+        .meta-block a:hover {
+            color: var(--text);
+            border-color: var(--accent);
+        }
+
+        .chapter-heading {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: var(--accent);
+            text-align: center;
+            margin: 4.5rem auto 1.5rem;
+            letter-spacing: 0.1em;
+            font-family: 'Inter', sans-serif;
+        }
+
+        p {
+            margin-bottom: 1.8rem;
+            font-size: 1.2rem;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        /* Dialogue formatting */
+        .dialogue-block {
+            margin: 1.5rem 0;
+            padding-left: 1.5rem;
+            border-left: 1px solid var(--accent);
+            color: #38342e;
+        }
+
+        .dialogue-line {
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+        }
+
+        /* Cozy Dossier Frame for Abstract Images */
+        .cozy-dossier {
+            margin: 3.5rem auto;
+            text-align: center;
+            border: 1px solid var(--border);
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 4px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+            max-width: 580px;
+            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+        }
+
+        .cozy-dossier:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.1);
+        }
+
+        .cozy-dossier img {
+            width: 100%;
+            height: auto;
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            display: block;
+            margin: 0 auto;
+            filter: grayscale(100%) contrast(110%);
+            transition: filter 0.5s ease;
+        }
+
+        .cozy-dossier:hover img {
+            filter: grayscale(80%) contrast(105%);
+        }
+
+        .cozy-caption {
+            font-family: 'Inter', -apple-system, sans-serif;
+            font-size: 0.68rem;
+            color: var(--accent);
+            margin-top: 1rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        /* Woolfian Dream Sequence Box */
+        .dream-sequence {
+            margin: 4.5rem 0;
+        }
+
+        /* Footer styling */
+        .related {
+            margin-top: 5rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            font-family: 'Inter', sans-serif;
+        }
+
+        .related h4 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        .related p {
+            font-size: 0.9rem;
+            line-height: 2;
+            text-align: left;
+        }
+
+        .related a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+            transition: color 0.3s, border-color 0.3s;
+        }
+
+        .related a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .footer-logo {
+            text-align: center;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-logo img {
+            width: 120px;
+            opacity: 0.4;
+            transition: opacity 0.3s;
+        }
+
+        .footer-logo img:hover {
+            opacity: 0.8;
+        }
+
+        .license {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.72rem;
+            color: var(--muted);
+            letter-spacing: 0.05em;
+        }
+
+        .license img {
+            height: 16px;
+            vertical-align: middle;
+            margin-left: 3px;
+            opacity: 0.5;
+        }
+
+        .license a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 2.5rem 1.25rem;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2.subtitle {
+                font-size: 1.05rem;
+            }
+
+            .dream-sequence {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;600&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <a href="../../index.html" class="back-nav">← Back to Narracode</a>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="../../logo/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <!-- Title and Subtitle -->
+    <h1>Anonymous Contours</h1>
+    <h2 class="subtitle">Past textures and intimate mechanisms.</h2>
+
+    <!-- Cover Image -->
+    <div class="cozy-dossier" style="margin-top: 1rem; margin-bottom: 3rem;">
+        <img src="img/header.png"
+            alt="Structural details, angular concrete contours, sepia mildew and emulsion ruptures">
+        <div class="cozy-caption">[DOSSIER EXTRACT] ANOMALY SHADOW</div>
+    </div>
+
+    <!-- Metadata Block -->
+    <div class="meta-block">
+        Images and story: Gemini 3.5 Flash. Prompting and edits: Jhave<br>
+        <a href="https://jhave.github.io/narracode/">Using the Narracode Harness System</a> &nbsp;·&nbsp; 2026-05-28
+        <br><br>
+        ≈ 1,200 words &nbsp;·&nbsp; 5 min read &nbsp;·&nbsp; A Chambrelan Drama in Four Sections
+    </div>
+
+    <!-- Story Content -->
+    <div class="story">
+
+        <h3 class="chapter-heading">I. Mildew Emulsion</h3>
+
+        <div class="cozy-dossier">
+            <img src="img/section_1.png"
+                alt="Structural concrete cracks, textured decay, dust grain anomalies along angular contours">
+            <div class="cozy-caption">[EXHIBIT A] DAMP BULGE RUPTURE</div>
+        </div>
+
+        <p>Mildew gathered on the pane where the gray city showed itself through dust. She drove a fingernail into the
+            bulge of her palm, then scratched a trace of lime residue off the glass. The damp heat was a barrier, a soft
+            life living between the room and the street four floors below where she could see a meal-smash cyclist
+            pedaling through the torpor. Around the corner, she knew there would be teenagers jumping into the circular
+            stone fountain by the metro entrance, their laughter spattering on the statue: another conqueror, an
+            implicit icon. The heat had been coming for days, and now lingered, thick and unmoving, a weight that stayed
+            in the bones, a heaviness in the old stairwell long after the sun went down.</p>
+
+        <p>P. sat at the wooden table with his hands flat against pine, thumb tracing a knot in nicked wood: <em>a table
+                made before time began</em>. He noted how the skin on his thumb had begun to crinkle, <em>age, time,
+                momentum, moss</em>. Knuckles thick with the early swell of arthritic stiffness. Years working manually,
+            harvested in aches. A matter of small physical alignments, communicated discomfort and memories. He leaned
+            back exhaling, when she moved toward the stove.</p>
+
+        <div class="dialogue-block">
+            <div class="dialogue-line">Did you get them?</div>
+            <div class="dialogue-line">No, I saw them.</div>
+        </div>
+
+        <p>The other, known as H. now, sat by the bookshelf, familiar, turning the dry leaf of a geranium retrieved from
+            a red clay pot, over and over, absorbed in a silence neither felt the need to break. Leaf came away from
+            stem with a tiny dry snap. The heat is now radiant through the glass, he said, his voice flat with a dry,
+            technical precision that had kept them alive for decades. He did not look at her, D. the letter too well
+            known to need confirming. Instead he scanned, as he often (always) did, checking the seams of rooms for
+            silence/noise, the locks/creaks, the noises from the apartment next door where a child practiced violin
+            scales with a stubborn, scraping repetition.</p>
+
+        <p>It will be fine for now, D. said, setting three mismatched clay cups on the table. The water has boiled.</p>
+
+        <p>She poured. The steam smelled of dried clover and dust.</p>
+
+        <p>Too hot for tea, P. muttered. D smiled. Residue of a disaster.</p>
+
+        <h3 class="chapter-heading">II. Contortions and Franchises</h3>
+
+        <div class="cozy-dossier">
+            <img src="img/section_2.png"
+                alt="Blurred abstract silhouettes of structural shadows and sepia mulch blemishes">
+            <div class="cozy-caption">[EXHIBIT B] SEPIA MULCH BLEMISHES</div>
+        </div>
+
+        <p>There was a new song on the radio yesterday, P. said, touching the edge of a lintel, examining its creases.
+            Another one about harbors and storms.</p>
+
+        <p>I heard it, D. said. The archetype unravelling new clothes.</p>
+        <p>H.: An innocent girl sings about a tide coming in to wash the world.</p>
+
+        <p>P nodded, That's it. D. heard his loneliness, a quiet, cold substance like gravel. A slow, domestic habit of
+            silent rage. H. had lived in a room three streets away for nine years and they did not visit together unless
+            the sky was gray enough to blur the outlines of faces on the corner. Unless needed. Planning
+            <em>contortions</em>.
+        </p>
+
+        <p>It is the music they make now, P. said from the bookshelf, having risen, hands gently on the spines, his eyes
+            watching the street, scanning for gaps, reconfigurations. It has no middle. It is a beat devoted to
+            replication, then an autotune voice recorded in a bathroom.</p>
+
+        <p>Pleasantries is what they have, D. said.</p>
+        <p>Distractions, said H. tugging a tiny escaped sprig of floating peppermint onto the rim of the cup.</p>
+
+        <p>D. sliced the dark bread. Furrows, contours. The knife was old, the blade was sharp, the wooden handle
+            secured with two copper rivets that had grown loose over the seasons. Tied with twine. In the third cupboard
+            from the sink, behind the sacks of dried yellow peas and the tins of sardines, under the twine, there were
+            three metal canisters of that she hadn't opened in years. She did not look at the cupboard. She had trained
+            herself.</p>
+
+        <p>We could use some of it now, P. said, his eyes closing for a moment.</p>
+        <p>Nonsense, the other said. We will wait.</p>
+
+        <p>They say the heat in the southern hemisphere is forty-five degrees in the shade, H. said, reaching for his
+            cup. In the valleys where they grow the coffee.</p>
+
+        <p>The systems are tired, P. said, his tea untouched, still at the window, looking out but not seen, peering
+            from the edge, in the shadows where the sun had not yet reached. Science is just impotent numbers. It
+            changes nothing. The market does not care about the reports.</p>
+
+        <p>Hospice planet, H. said.</p>
+
+        <p>Pillage and plunder, D. said, sitting down between them. A chair she had known for 25 years. Sotheby's.
+            Millions of dollars for a square of canvas wiped with grease. Just another way to move complicity without
+            anyone having to carry it.</p>
+
+        <p>P drank his tea now, quickly, as if to be done with it, seated, his eyes closed, speaking. The market down
+            the street has new green crates, he said. Blue logo. Snap lid. Delivered Mon to Thurs.</p>
+
+        <p>They have them everywhere, D. said. That franchise is the same in every quarter.</p>
+
+        <p>She remembered a franchise three hundred miles to the south, many years ago, when the logo had been orange
+            and the glass of the entry door had shattered with a sound like dry gravel under a boot. They had stood in
+            the dark with their bags, their breathing loud in the small space behind the counter, while the cash drawer
+            slid open with a metallic chime. Every franchise is the same; every franchise is different, she said softly.
+        </p>
+
+        <p>It is, it was, P. said, not looking up, examining something on the floor now. A stain or a trace or a
+            substance, merged long ago. No matter.</p>
+
+        <p>They did not say anything for a moment. Years migrated through each of them, invisible, settling like
+            dust.</p>
+
+        <p>H. stood up and cleared his throat. A gesture they had for a time trained out of him. Wordless, he left.
+            Silent, a ghost.</p>
+
+        <p><em>What a long strange road it has been</em>, D. said out loud to herself.</p>
+
+        <p>She went to the narrow hallway to refill the salt. In the dark of the coat closet, behind three winter coats
+            and boxes of hair dye, a long, heavy tube of green plastic lay in the corner under a heap of wool blankets.
+            It had been there so long it had become part of the floorboards, a sheath that she had not touched since the
+            season everything stopped.</p>
+
+        <p>She returned with the salt.</p>
+
+        <p>Should I water the plants? P. asked, his hand reaching for her wrist for a brief, dry second. The soil is
+            white.</p>
+
+        <p>I will do it tonight, she said.</p>
+
+        <!-- Woolfian Dream Bridge -->
+        <div class="dream-sequence">
+            <img src="img/new-dream.png" alt="Dream sequence premonition detail"
+                style="width: 100%; height: auto; display: block; border: 1px solid var(--border); filter: grayscale(100%) contrast(110%);">
+        </div>
+
+        <h3 class="chapter-heading">III. An Engineered Silence</h3>
+
+        <p>They had asked her many names. They had shown her photographs of old men with thick spectacles and grey hair,
+            men who lived in small rooms with houseplants and boxes of tea. She looked at the photographs and saw only
+            the gray paper, the black ink of the printer.</p>
+
+        <p>The cell had no draft. The walls were smooth, a gray concrete that had no smell of damp or clover. The light
+            came from a square in the ceiling that stayed white all night, a hard, silent eye that did not blink.</p>
+
+        <p>She did not know their names. She did not know the street where the other had his room, or the name the
+            former lover used when he went to the clinic for his knuckles. The system they had made thirty years ago had
+            been perfect in its coldness; it had insulated each of them from the other’s choices, so that when the lock
+            turned in her door and the three men in blue jackets came in with their plastic bags, she had nothing to
+            give them but her own silence.</p>
+
+        <p>The toothbrush they had found in her glass had the DNA of a man she had loved forty years ago, a somatic
+            trace left on a blue plastic handle. It was a fact, a small science that belonged to the apparatus.</p>
+
+        <p>But she did not know where he slept.</p>
+
+        <p>Somewhere else, in a quarter she had never visited, two old men whose names had been washed away by three
+            decades of silence settled into their beds. One of them turned his face to the wall to keep the cold from
+            his ears. The other listened to the hum of an old refrigerator in the kitchen and the sound of the rain
+            starting on the zinc sill. Safe in a sense. Anonymous in a way.</p>
+
+        <div class="cozy-dossier"
+            style="margin: 3.5rem auto 1.5rem; max-width: 580px; box-shadow: 0 12px 30px rgba(0,0,0,0.05);">
+            <img src="img/dream-shadow.png" alt="Blurred abstract structural net shadows on concrete blemish contours">
+            <div class="cozy-caption">[DOSSIER RETROSPECT] SEGREGATED FUTURES</div>
+        </div>
+
+    </div>
+
+    <!-- Other Works by Narracode -->
+    <div class="related">
+        <h4>Other Works by Narracode</h4>
+        <p style="line-height: 2;">
+            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span
+                style="color: var(--muted); font-size: 0.8rem;">(≈ 3,800 words)</span> <span
+                style="color: var(--muted); font-size: 0.8rem;">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span
+                style="color: var(--muted); font-size: 0.8rem;">(≈ 4,144 words)</span> <span
+                style="color: var(--muted); font-size: 0.8rem;">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span
+                style="color: var(--muted); font-size: 0.8rem;">(≈ 4,200 words)</span> <span
+                style="color: var(--muted); font-size: 0.8rem;">(May 24, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span
+                style="color: var(--muted); font-size: 0.8rem;">(≈ 5,244 words)</span> <span
+                style="color: var(--muted); font-size: 0.8rem;">(May 18, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span
+                style="color: var(--muted); font-size: 0.8rem;">(≈ 3,557 words)</span> <span
+                style="color: var(--muted); font-size: 0.8rem;">(May 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span
+                style="color: var(--muted); font-size: 0.8rem;">(≈ 9,256 words)</span> <span
+                style="color: var(--muted); font-size: 0.8rem;">(May 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span
+                style="color: var(--muted); font-size: 0.8rem;">(≈ 18,150 words)</span> <span
+                style="color: var(--muted); font-size: 0.8rem;">(May 11, 2026)</span>
+        </p>
+    </div>
+
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="../../logo/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB Centre for Digital Narrative (2023–27) with the Extending Digital
+            Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
