@@ -16,7 +16,7 @@ In a cluttered apartment in an unnamed city, three aging companions share an aft
 
 A fictionalized, highly atmospheric account of a trio of aging radical activists (modeled after Daniela Klette, Ernst-Volker Staub, and Burkhard Garweg) living outside the legal apparatus for decades as fugitives. 
 
-The piece is set in Daniela Klette's cluttered apartment in Berlin in 2023. No names are revealed. No country is specified. No years are named. The entire narrative relies on the flash of interiority mingled with dialogue, using no quotation marks, drawing on the stylistic register of Sally Rooney and the stream-of-consciousness detail of Virginia Woolf. The emotional temperature is governed by the austerity and profound reserve of Kazuo Ishiguro’s *Never Let Me Go*, shot through with the heavy, circular inevitability of László Krasznahorkai’s characters who are reconciled to their own quiet capture.
+The piece is set in a cluttered apartment in an unnamed city in 2023. No names are revealed. No country is specified. No years are named. The entire narrative relies on the flash of interiority mingled with dialogue, using no quotation marks, drawing on the stylistic register of Sally Rooney and the stream-of-consciousness detail of Virginia Woolf. The emotional temperature is governed by the austerity and profound reserve of Kazuo Ishiguro’s *Never Let Me Go*, shot through with the heavy, circular inevitability of László Krasznahorkai’s characters who are reconciled to their own quiet capture.
 
 ## Style and Architecture
 
