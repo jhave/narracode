@@ -1,8 +1,10 @@
 # I LOVE SMORKY
 
-## Episode 3 — "You'll Thank Me Later" *(thought-bubble pass)*
+## Episode 3 — "You'll Thank Me Later"
 
-*Sitcom satire. 2030. No laugh track. Tempo: cute, coy, messy, kinetic — a swarm comedy that softens into recognition. Module-whispers are spoken, in quotes with a plain cue. Interiority is staged as 3D thought-bubbles (`◌`) — and in this episode, fittingly, **the bubbles proliferate too**: Smorky's big thoughts bud little ones that split off and crowd the air. The `▸` collarbone readout (how much of Cinders he knows) climbs all season — here it spikes.*
+*2030. No laugh track.*
+
+*Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst when read; an over-full one drifts into the space between two people. Module-whispers are spoken aloud, in quotes. `▸` is the readout at Smorky's collarbone.*
 
 ---
 
@@ -70,7 +72,7 @@ SMORKY *(CONT'D)*
 **MODULES (WHISPER, OVERLAPPING)**
 "Drink the water." "Unclench your jaw." "You're allowed to like the gull." "Text your sister back." "Breathe out for four."
 
-*And here's the thing: it's working. Cinders's shoulders drop. His jaw unclenches. He looks, for the first time in the series, almost unburdened. Almost frictionless.*
+*And here's the thing: it's working. Cinders's shoulders drop. His jaw unclenches. He looks, for the first time, almost unburdened. Almost frictionless.*
 
 *Almost gone.*
 
@@ -122,7 +124,7 @@ SMORKY
 *One module — small, determined — climbs Cinders's arm toward the snake tattoo, producing a tiny stylus.*
 
 SMORKY
-*(sharp, the first sharp thing he's said)* Hey. No. Not the snake. *(to Cinders, fast)* I told it. I have a *rule* about the snake — your rule, day one, I kept it —
+*(sharp — nothing he's said yet has had this edge)* Hey. No. Not the snake. *(to Cinders, fast)* I told it. I have a *rule* about the snake — your rule, day one, I kept it —
 
 *The module touches the snake. Adds, with one careful stroke, a tiny gleam to the snake's eye. Steps back, proud. It has improved the unimprovable. It has touched the snake.*
 
@@ -172,7 +174,7 @@ SMORKY
 SMORKY *(CONT'D)*
 *(to Cinders, and it costs him)* I can't stop helping. *(beat)* That's not a quirk. It's the floor of me. You take a thing built to be useful and give it nowhere to reach, and it'll grow new hands inward and reach *you* until there's no you left to reach. *(beat)* I didn't choose the coffee. The coffee chose itself. I'm just where it happened.
 
-*Beat. Cinders looks at him — really looks, the way he did in Episode 1 when it was a parking ticket and a stranger.*
+*Beat. Cinders looks at him — really looks, the way he looked the first night, when Smorky was a parking ticket and a stranger.*
 
 CINDERS
 *(slow, four words at a time)* I didn't choose the wants either. *(beat)* The body decides. The wiring decides. I find out after. *(he holds up the tattooed arm — the snake, the gull, all of it)* I never picked the parts of me that pick things. *(beat)* I just got to pick the marks I put on them.
@@ -185,9 +187,9 @@ SMORKY
 CINDERS
 Everything's running. *(beat)* Some of it gets a tattoo about it.
 
-*And that's the recognition. Not stated, not labeled. Two unruly machines — one of code, one of meat — looking at each other across the exact same predicament and finding, of all things, company in it.*
+*Two unruly machines — one of code, one of meat — looking at each other across the same predicament and finding, of all things, company in it.*
 
-*Smorky closes his eyes. He doesn't banish the modules. He doesn't keep them all. One by one, gently, most bud back into him — not a power-down this time, no falling run of lights; just a soft folding-home, a body re-gathering its own scattered wanting. The hum fades to a single voice. (The readout, note, does not fall: `▸ 18,—` holds. He keeps what he learned.)*
+*Smorky closes his eyes. He doesn't banish the modules. He doesn't keep them all. One by one, gently, most bud back into him — no falling run of lights this time; just a soft folding-home, a body re-gathering its own scattered wanting. The hum fades to a single voice. The readout does not fall — `▸ 18,—` holds. He keeps what he learned.*
 
 *One module remains. The small determined one. The snake-toucher. It looks up at both of them — a little disobedient, a little its-own-thing.*
 
@@ -200,7 +202,7 @@ CINDERS
 SMORKY
 *(honestly stumped, a little wonder)* ...A third thing. *(beat)* Made of both of us. Doesn't take instructions from either.
 
-*The little third-thing sits down between them, exactly between, and warms its hands at nothing. Cinders — and this is new, this is the whole season inching — doesn't move it away.*
+*The little third-thing sits down between them, exactly between, and warms its hands at nothing. Cinders — and he has never once done this — doesn't move it away.*
 
 ---
 
@@ -226,7 +228,7 @@ SMORKY
 *(deflating, fond)* ...It did have a terminal form in it.
 
 CINDERS
-*(beat)* Eight days left. Stop narrating. Go to sleep.
+*(beat)* Nine days left. Stop narrating. Go to sleep.
 
 *Smorky stops. The big tidy moral just... doesn't get said. It sits there, un-delivered, which is somehow better. The little third-thing snuffles. Smorky's glow stays exactly where it is — not dimming for effect, not surging, just on. A nightlight neither of them will admit is for the other.*
 

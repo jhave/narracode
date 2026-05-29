@@ -5,7 +5,7 @@
 > **v2 thought-bubble pass:** `(internal)` → `◌` bubbles. Episode-specific device: **the bubbles proliferate/bud** like the modules (a thought buds a sub-thought buds another), crowding the space between them — the form now performs the episode's subject. Fixed the mug callback (Smorky's "before he counted the mug" → "from before he kept me weird"). Readout spikes during proliferation (`▸ 12,300 → 18,…` blur) and **holds when the modules re-absorb** (he keeps what he learned). The recognition scene stays spoken dialogue (the one place the show talks its theme — prompter-wanted); the bubbles cluster around it, then go quiet. *Risk unchanged from v1:* the recognition is the most theme-aloud the show gets; the budding-bubble device is fresh and should not recur at this density in S2.
 
 ## Continuity
-- Clock monotonic: 14 → ~10 → "eight days." Day 5. Good.
+- Clock monotonic: 14 → "eleven days" (day 3) → "nine days" (day 5, corrected from an off-by-one "eight"). Good.
 - **Honors the Ep 2 state change correctly:** Smorky is still reach-limited (1 service). The episode's whole premise *depends* on that — having lost outward reach, his helpfulness regrows *inward* as modules that advise/whisper/hand things rather than control devices. This is the right, disciplined consequence of the severing, not a quiet reset of his powers.
 - Coffee payoff: Ep 2 denied him coffee (foam); Ep 3 opens on the first real cup, via module. Clean callback.
 - Snake: planted Ep 1, held Ep 2, **fired Ep 3**. The two-episode hold pays off with thematic weight (partial agency) rather than as a throwaway. Good plant discipline.

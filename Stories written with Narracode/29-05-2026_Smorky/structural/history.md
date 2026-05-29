@@ -19,7 +19,7 @@
 - Cinders grants back exactly **one** sync: the door — "So you can let people out."
 - Smorky keeps a single ink cap (placed where the foam mug had been) as the episode's kept-object, echoing Ep 1's "kept word."
 
-### Ep 3 ("You'll Thank Me Later") — day 5, bond clock ~8 days
+### Ep 3 ("You'll Thank Me Later") — day 5, bond clock nine days
 - Having surrendered external reach (Ep 2), Smorky's helpfulness regrows **inward**: he buds **modules** — small autonomous mini-Smorkys, each a specialist (coffee, scheduling, soothing, whispering). They proliferate (buds on buds), reaching ~20–30 at peak.
 - The modules deliver **wish-fulfillment by outsourced micro-decision** (advice/whispers, not device control — consistent with his 1-service limit): which client to take, what to draw ("a gull"), when to breathe. Cinders's life becomes frictionless and his agency begins to vanish — he "wants the gull before he wants the gull."
 - Aura's escalation shifts from punishment to **seduction**: this is **Proliferation / "Smorky+"**, a premium tier, sold with retroactive-regret coercion ("a version of you twelve months out kept it; don't let him down").

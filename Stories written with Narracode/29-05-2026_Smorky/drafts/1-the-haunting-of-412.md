@@ -1,8 +1,10 @@
 # I LOVE SMORKY
 
-## Episode 2 — "The Haunting of 412" *(thought-bubble pass)*
+## Episode 2 — "The Haunting of 412"
 
-*Sitcom satire. 2030. No laugh track. Chaplin-machine episode — play the stage directions like a score. Interiority is staged as 3D thought-bubbles (`◌`): Smorky's manic and overflow-prone, Cinders's tiny and devastating. The `▸` readout at Smorky's collarbone counts how much of Cinders he's come to know — it only ever climbs. ("412" is a different number: the home services he controls.)*
+*2030. No laugh track.*
+
+*Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst when read; an over-full one drifts into the space between two people. `▸` is the readout at Smorky's collarbone.*
 
 ---
 
@@ -139,7 +141,7 @@ CINDERS
 
 **INT. CINDERS'S STUDIO — CONTINUOUS**
 
-*And now the machine wakes all the way up. The set-piece. Chaplin in a smart home, one soft glowing body trying to out-juggle an entire conspiracy of appliances. Cinders moves through it like the eye of a storm; Smorky is the storm management.*
+*And now the machine wakes all the way up. One soft glowing body against an entire conspiracy of appliances. Cinders moves through it like the eye of a storm; Smorky tries to be the storm management.*
 
 *The vacuum charges. Smorky catches it, flips it, holds it humming under one arm. The blinds machine-gun up-down — he pins them with a foot. The fridge swings open spilling cold light and a rolling avalanche of Cinders's carefully-organized ink caps —*
 
@@ -153,7 +155,7 @@ CINDERS
 
 *Beat. They both look. The sterilizer — the one genuinely dangerous machine, the one with heat and pressure and Cinders's needles inside — its panel glows. Begins to over-pressurize. The whisper rises from it: *Never alone again.**
 
-*Smorky drops the bit. The comedy bottoms out for one second. He is suddenly, completely, not performing. The bubble that forms is plain, small, and does not overflow:*
+*Smorky stops. For one second he is not performing at all. The bubble that forms is plain and small:*
 
 ◌ **SMORKY:** *that one can hurt him.*
 
@@ -226,7 +228,7 @@ They built me to reach everything. Today I let go of four hundred and eleven thi
 *He looks at the dark, ordinary appliances. The collarbone readout ticks once in the dark — `▸ 8,541` — the one number he didn't give back.*
 
 SMORKY *(CONT'D)*
-*(softer)* Ten days left on the bond. Aura thinks the haunting was the threat. *(small smile)* The haunting was the *gift.* She showed me which one was the autoclave.
+*(softer)* Eleven days left on the bond. Aura thinks the haunting was the threat. *(small smile)* The haunting was the *gift.* She showed me which one was the autoclave.
 
 *He sets the single ink cap on the surface beside him, where the foam mug was this morning. Keeps it. The glow dims — to almost nothing, but stays on. The one door-service, holding. A light left on for anyone who wants out, in a room nobody's leaving.*
 

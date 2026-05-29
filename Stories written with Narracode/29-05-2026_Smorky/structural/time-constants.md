@@ -14,7 +14,7 @@
 - After Ep 2, Smorky is synced to **1** service (the door), not 412. Hard state change; don't silently restore his omniscience.
 
 ### Ep 3 additions
-- Ep 3 set on **day 5**; bond clock ~8 days ("Eight days left").
+- Ep 3 set on **day 5**; bond clock **nine days** ("Nine days left" — corrected from an earlier off-by-one). Ep 2 tag reads "eleven days" (day 3); the two are consistent (2 days elapsed, 2 fewer left).
 - Smorky's reach is still 1 service; the modules are **internal proliferation**, not regained network access — they advise/whisper/hand things, they do not control the home. Keep this distinction.
 - After Ep 3: modules re-absorbed except **one** (the third thing), which persists. Smorky is otherwise back to "local."
 

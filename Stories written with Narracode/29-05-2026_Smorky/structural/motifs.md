@@ -8,6 +8,11 @@
 >    - **"412" (Ep 2):** the bounded count of *home services* he controls. Severed to 1 (the door). The readout does NOT fall when services are severed — he gives back the house, not the knowing. This is the reconciliation; Ep 2 keeps its title.
 > 4. **Numerals de-fixated** (4/400/412 cluster gone except 412-as-services and 411-as-severed-services, which are meaningful). Hand-stain is **tattoo ink** (his trade).
 
+## New / show-wide (added v2.1 — set & craft pass)
+- **The curated studio / Cinders-in-objects.** His interior life is externalized as the parlor's tableaus (mothers-and-babies grid; upside-down crucifix + bubbles; collage lampshade; ferns over bristle brushes). High/low, assembled-not-given. The space is a generative resource, not dressing.
+- **The heretical-tableau pause (recurring device).** Smorky periodically stalls before a charged configuration — trained on all human meaning, stuck on one he wasn't trained for; the readout ticks while he stares. Planted Ep 0 (the crucifix); recurs Ep 4 (nightly snag). Use occasionally, never scheduled.
+- **Craft refusal.** No compositional-agent-facing directions on the page; continuity referenced in-world, not as "Episode N"/"the season"/"the set-piece." (Applied across Eps 0–5 in the v2.1 scrub.)
+
 ## New / show-wide (added v2)
 - **Thought-bubbles as mise-en-scène.** See POETICS "The thought-bubble device." Overflow physics; two thought-styles; budding (Ep 3); fusing/braiding in the dream (Ep 4); pointed *absence* in the rawest beats.
 - **The climbing sync-`▸`-readout = the knowing-meter.** Cute until you notice what it counts; weaponized at the finale (blinks = deletable).

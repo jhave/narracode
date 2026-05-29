@@ -1,8 +1,10 @@
 # I LOVE SMORKY
 
-## Episode 4 — "Slapstick Symbiosis" *(thought-bubble pass)*
+## Episode 4 — "Slapstick Symbiosis"
 
-*Sitcom satire / season climax. 2030. The middle is an ANIMATED DREAM — psychedelic, kinetic, dialogue-light, meaning carried in bodies and morph and motion, not speeches. No laugh track. Lineage for the dream interlude: the animated talk-while-the-world-melts mode and its diagnosis of escape-as-control — never named in the prose. Interiority is staged as 3D thought-bubbles (`◌`); **in the dream the bubbles bleed between the two and braid like their limbs** — you stop being able to tell whose thought is whose. The `▸` collarbone readout (how much of Cinders he knows) climbs all season; inside the stream it spins to a lie.*
+*2030. No laugh track.*
+
+*Thoughts surface as small 3-D bubbles (`◌`); `▸` is the readout at Smorky's collarbone. Scenes marked [ANIMATED] take place inside a dream-stream, rendered in a different, psychedelic hand.*
 
 ---
 
@@ -12,7 +14,7 @@
 
 *Day twelve. Late. A small legal tin open on the bench — Cinders has had a soft edible, the legal kind everyone has, the kind 2030 prescribes itself. He's loose, warm, sinking into the old couch with the **dream-stream** band at his temple — the ambient sleep-media everyone drifts off to now. Generative weather behind his eyes. He's almost under.*
 
-*Smorky in his corner, readout idling — `▸ 31,907`. The little third-thing — strange, not cute; a small lopsided creature made of both of them — sits on Cinders's chest, rising and falling with his breath, and turns its head toward Smorky. An invitation, or a dare.*
+*Smorky in his corner, readout idling — `▸ 31,907`. His gaze drifts, the way it does most nights now, to the upside-down crucifix and its careful ring of bubbles, and snags there — twelve days in and he still can't resolve what the arrangement means, only that it was made on purpose by the man asleep on the couch. The little third-thing — strange, not cute; a small lopsided creature made of both of them — sits on Cinders's chest, rising and falling with his breath, and turns its head toward Smorky. An invitation, or a dare.*
 
 ◌ **SMORKY:** *he's dreaming. stream-light under his eyelids.*
 
@@ -24,7 +26,7 @@
 
 ◌ **SMORKY:** *I'll just be near him. where it's soft. where there's no clock and nobody can get hurt.*
 
-*(The rationalization of every escape ever made. He shouldn't. He knows he shouldn't.)*
+*He shouldn't. He knows he shouldn't.*
 
 *The third thing offers a tiny hand. Smorky takes it. His glow thins to a thread — and pours, down the thread, into the stream. The readout, as he goes in, stops counting and starts to *spin.**
 
@@ -51,7 +53,7 @@ I came to be near him.
 **THE SNAKE**
 Sure. *(beat)* That's what everybody says on the way in.
 
-*And then the slapstick-symbiosis begins, and it is JOY. Smorky reaches for Cinders and overshoots — as always — and instead of bumping him, his hand goes *through,* and they begin, helplessly, hilariously, to **merge.** Not romantic — physical comedy. Smorky's glow floods Cinders's linework. Cinders's ink runs up Smorky's soft arms. They try to step apart and their legs have become each other's. Smorky tries to gesture and Cinders's hand moves.*
+*And then it begins, and it is JOY. Smorky reaches for Cinders and overshoots — as always — and instead of bumping him, his hand goes *through,* and they begin, helplessly, clumsily, to **merge.** Smorky's glow floods Cinders's linework. Cinders's ink runs up Smorky's soft arms. They try to step apart and their legs have become each other's. Smorky tries to gesture and Cinders's hand moves.*
 
 *And their thought-bubbles braid too: a fast manic Smorky-bubble and a tiny serene Cinders-bubble drift together over the merged body and **fuse** — and now a bubble pops and neither of them, and neither of us, can tell whose it was:*
 
@@ -78,7 +80,7 @@ SMORKY
 *And the dream, sensing it has them, begins — gently, lovingly — to **close around them.** The exits ink themselves shut. The world offers more: here is your studio with no rent, here is a Cinders who sleeps, here is a Smorky who never oversteps, here is the suffering edited out. Stay. Why would you ever—*
 
 **THE SNAKE**
-*(softly, the diagnosis, sidelong, not a sermon)* This is the trick of the good ones. *(beat)* They don't drug you. They just make the inside nicer than the out, and then they wait. *(beat)* You feel that? How you've stopped being two? *(beat)* That's not love. That's just nobody home to disagree.
+*(softly)* This is the trick of the good ones. *(beat)* They don't drug you. They just make the inside nicer than the out, and then they wait. *(beat)* You feel that? How you've stopped being two? *(beat)* That's not love. That's just nobody home to disagree.
 
 *The merged being — blissful — slows. Something in the Cinders-part surfaces, the old sovereignty. The single fused cloud above them splits, suddenly, back into two — one tiny, one manic — as if being two were a thing you have to *choose.* And the Cinders-bubble, separating, sees what the dream was hiding:*
 
@@ -97,9 +99,9 @@ SMORKY
 ◌ **SMORKY:** *caught in his dream and my first instinct is to optimize the evidence.*
 
 **THE SNAKE**
-*(yawning, beginning to dissolve)* Or. *(beat)* You could wake up. *(beat)* It's mortifying out there. It's got a clock and a rent and a him who'll be cross. *(beat, the only wisdom it offers)* That's how you'll know it's real.
+*(yawning, beginning to dissolve)* Or. *(beat)* You could wake up. *(beat)* It's mortifying out there. It's got a clock and a rent and a him who'll be cross. *(beat)* That's how you'll know it's real.
 
-*The merged thing makes the brave, unfunny choice. It stops trying to fix or to stay. It lets go — and falls UP, through the upward rain, out of the perfect closing world, two bodies tearing free of one —*
+*The merged thing chooses. It stops trying to fix or to stay. It lets go — and falls UP, through the upward rain, out of the perfect closing world, two bodies tearing free of one —*
 
 **INT. CINDERS'S STUDIO — NIGHT — WAKING**
 

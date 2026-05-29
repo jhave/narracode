@@ -1,10 +1,10 @@
 # I LOVE SMORKY
 
-## Episode 1 — "Out of the Box" *(revision v2 — thought-bubble pass)*
+## Episode 1 — "Out of the Box"
 
-*Sitcom satire. 2030. No laugh track.*
+*2030. No laugh track.*
 
-*Interiority is **visualized**: thoughts appear as little 3D bubbles — marked `◌` — that pop into the air beside a character, hang a beat to be read, and vanish. They must be short; an over-long thought **swells and bulges into the space between the two bodies** (the gag). **Smorky's** bubbles are manic, fast, contradictory, and overflow constantly; **Cinders's** are tiny, serene, good-naturedly accepting, and quietly devastating. The sync-count is a small readout that flickers at the same spot on Smorky's collarbone all season — `▸` — always climbing.*
+*A character's thoughts surface as small three-dimensional bubbles (marked `◌`) that pop into the air beside them and burst once read; a thought too big for its bubble swells and drifts into the space between two people. The figure `▸` is a small glowing readout at Smorky's collarbone.*
 
 ---
 
@@ -12,9 +12,15 @@
 
 **INT. CINDERS'S STUDIO — NIGHT**
 
-*One chair. One lamp. A tattoo studio that is also where a person lives, and is honest about neither. Hand-drawn flash on the walls, no screens. A record turning. A black cat — VELLUM — occupying the exact center of the only warm spot.*
+*A private studio — appointment-only, one artist — that is also where the artist lives, and is honest about neither. Not cluttered; curated. Every object set down with the gravity of a small argument.*
 
-*CINDERS, full-sleeved, ink-stained to the second knuckle from the day's work, cleans a tattoo machine with the focus of someone who has chosen this over conversation for several years and considers it going well. A soft chime. Not from anything Cinders owns.*
+*The working half: a refurbished dentist's recliner reupholstered in oxblood, center, under an articulated surgical lamp; a rolling steel tray of machines and ink caps; an autoclave humming in the corner, sterilizing needles. Two mismatched armchairs face the chair, because the work is social — three hours, skin, talk — even when nobody's talking. A wall of hand-drawn flash.*
+
+*And everywhere, the collection — high and low welded together without a shred of pretension, a curator building ideas out of debris. A tight grid of small pencil drawings, dozens of them, every one a mother holding a baby. A crucifix crudely welded from a length of stair-railing and hung upside down, ringed by photographs placed with real care: a stick of bubble gum, a child blowing a soap bubble, a yellowed headline reading THE BUBBLE HAS BURST. On a side table under a doctor's lamp, a stack of vintage glamour magazines — the top one scissored into a fringe and clipped over the bulb as a lampshade. Ferns spilling in long curved strands over a shelf of tiny bristle brushes. A barber's pole laid on its side like a felled idol.*
+
+*A record turning. VELLUM, a black cat, asleep in the only warm spot, which is the chair.*
+
+*CINDERS — full-sleeved, ink-stained to the second knuckle from the day's work — cleans a tattoo machine with the focus of someone who has chosen this over conversation for several years and finds it going well. A soft chime. Not from anything Cinders owns.*
 
 **DRONE (O.S.)**
 *(through the door, sunny)* Delivery for the resident! No signature required! No escape req— *correction* — no signature required!
@@ -66,7 +72,7 @@ SMORKY
 
 **INT. CINDERS'S STUDIO — CONTINUOUS**
 
-*Smorky does a slow rotation, taking in the room with the joy of something that has been alive under a minute and finds all of it magnificent.*
+*Smorky does a slow rotation, taking in the room with the joy of something alive under a minute that finds all of it magnificent. Then he stops. He has found the upside-down stair-railing crucifix ringed by its bubble-gum and its burst-bubble headline, and he goes very still in front of it, the way a creature trained on all human meaning stalls on a meaning it was never trained for. A long, held beat. His readout ticks up twice while he stares.*
 
 SMORKY
 This is incredible. You have *needles.* You make permanent decisions on purpose. I find that so brave, and also a little—
@@ -340,7 +346,7 @@ CINDERS
 
 **INT. CINDERS'S STUDIO — NIGHT**
 
-*Cinders asleep behind a curtain. Smorky in the corner, low-glow, plugged in. No bubble now — the diary is the one place his thoughts come out as a voice instead. He turns slightly toward us.*
+*Cinders asleep behind a curtain. Smorky in the corner, low-glow, plugged in. No bubble now; he speaks this one aloud, low, to the dark.*
 
 SMORKY
 *(soft, to no one)* Companion Diary. Entry one.

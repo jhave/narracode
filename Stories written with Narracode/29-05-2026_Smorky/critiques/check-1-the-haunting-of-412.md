@@ -5,7 +5,7 @@
 > **v2 thought-bubble pass:** `(internal)` → `◌` bubbles (Smorky overflow-prone, Cinders tiny). "The one mug" → "a mug" from the rack. **412 disambiguated from the readout:** 412 = home services (severed to 1); the `▸` collarbone readout (knowing-Cinders) climbs in the background (~8,400→8,541) and **does not fall when the services are severed** — new beat: "He can give back the house. He cannot give back knowing him." De-fixated "optimize 400 things a day" → "something every few seconds." The autoclave bottom-out stages as a plain, non-overflowing bubble (the gag suspends in the serious beat). *New risk:* the readout adds on-the-nose text to a Chaplin-physical episode — it sits only at frame edges; verify it doesn't clutter the set-piece on its feet.
 
 ## Continuity
-- Bond clock advances cleanly: Ep 1 "fourteen days" → cold open "eleven days" → tag "ten days left." Monotonic. Good.
+- Bond clock advances cleanly: Ep 1 "fourteen days" → cold open "eleven days" → tag "eleven days left" (corrected from "ten" so it stays consistent within day 3). Monotonic. Good.
 - The 412 services (Ep 1 plant) drive the whole episode and end severed to 1. Hard state change recorded in structurals; future episodes must NOT silently restore Smorky's omniscience.
 - "Send the bill" (Ep 1) pays off explicitly as Courtesy Degradation. Plant→payoff is clean and legible.
 - Smorky's no-off-switch / "can't drink" interiority stays consistent (he offers to drink the foam, notes he can't). Nice small continuity of his embodiment limits.

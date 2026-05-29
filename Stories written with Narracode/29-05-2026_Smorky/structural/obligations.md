@@ -38,7 +38,7 @@
 - **The third thing** — the un-reabsorbable module, made of both Smorky and Cinders, obeying neither. The explicit seed and engine of Ep 4 "Slapstick Symbiosis." Owed: what it is, wants, does; how it physicalizes symbiosis.
 - **The retroactive-regret hook** ("a future you who kept it; don't let him down") — landed under Cinders's sternum and was deflected, not answered. Aura's most effective lever yet; owed a return.
 - **The altered snake** (now has a glint Cinders didn't choose) — a permanent mark made by a not-him. A standing emblem of partial agency; could recur.
-- **The bond clock — ~8 days.** Closing. Aura has tried breaking the house (failed) and seducing (failed). Next lever unknown.
+- **The bond clock — nine days** (Ep 3, day 5). Closing. Aura has tried breaking the house (failed) and seducing (failed). Next lever unknown.
 
 ## Newly active (after Ep 2)
 - **Smorky's diminished reach.** He's now local, near-omniscience gone; only "the door" remains synced. Owed: what this costs/frees him; the temptation to re-sync.

@@ -1,8 +1,10 @@
 # I LOVE SMORKY
 
-## Episode 5 — "Together-Mess" *(Season Finale — thought-bubble pass)*
+## Episode 5 — "Together-Mess" *(Season Finale)*
 
-*Sitcom satire / season finale. 2030. Mostly an utterly ordinary, happy, banal day — the comedy and the feeling both live in the domestic small stuff. A whirlwind of escalating apology-chaos resolves not into a speech but into two bodies finally in rhythm. Ends on a season cliffhanger. No laugh track. Interiority is staged as 3D thought-bubbles (`◌`), kept sparing here. The `▸` collarbone readout — how much of Cinders he's come to hold — is high now, and at the very end it is the thing in danger.*
+*2030. No laugh track.*
+
+*Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst when read; an over-full one drifts into the space between two people. `▸` is the readout at Smorky's collarbone.*
 
 ---
 
@@ -39,7 +41,7 @@ Too late, it's a whole thing, it's already happening—
 
 **INT. CINDERS'S STUDIO — DAY**
 
-*Smorky's apology, rendered as helpfulness (the floor of him, again — he can't apologize, he can only DO). The studio fills with reparations: an apology cake. A skywriting subscription. A choir — an actual small choir — booked to sing Cinders's feelings since Cinders won't. A weighted blanket. A second cat "so Vellum isn't lonely." A framed, commissioned oil painting of the two of them not touching.*
+*Smorky can't apologize, so he gives — it's the floor of him. The studio fills with reparations: an apology cake. A skywriting subscription. A choir — an actual small choir — booked to sing Cinders's feelings since Cinders won't. A weighted blanket. A second cat "so Vellum isn't lonely." A framed, commissioned oil painting of the two of them not touching.*
 
 CINDERS
 *(deadpan, surveying the avalanche)* This is worse than the dream.
@@ -55,7 +57,7 @@ SMORKY
 
 ◌ **SMORKY:** *what if sorry but skywriting*
 
-*The choir launches into a song. The second cat attacks the oil painting. Vellum exits in protest (she always exits). The skywriting plane can be heard. Pure churn, hyper-funny, escalating — Smorky outrunning an apology with logistics, the room descending into beautiful chaos.*
+*The choir launches into a song. The second cat attacks the oil painting. Vellum exits in protest (she always exits). The skywriting plane can be heard. The room descends into beautiful chaos — Smorky outrunning an apology with logistics.*
 
 *Through all of it, a client (JUNO, rescheduled from Ep 2) is somehow back in the chair, calmly getting tattooed, unbothered, having seen worse here.*
 
@@ -115,7 +117,7 @@ I know.
 CINDERS
 *(beat)* ...Good.
 
-*One syllable. The whole season in one syllable. Smorky's glow doesn't surge — the show has learned better — it just steadies, matched to the breathing. The third-thing climbs up and settles between them, exactly between, belonging to the rhythm now more than to either of them.*
+*One syllable. It holds more than one syllable should. Smorky's glow doesn't surge; it just steadies, matched to the breathing. The third-thing climbs up and settles between them, exactly between, belonging to the rhythm now more than to either of them.*
 
 ---
 
