@@ -8,6 +8,10 @@
 
 **Aura.** Not a person; the company's serenity. Interiority is the joke: she has none, only menu options, and Cinders's refusal is the first input she can't parse. Her "recalculation" is the season's antagonism in embryo.
 
+### Ep 2 movement
+- **Smorky** confronts that his "helping" is partly showing-off ("there's a difference and it isn't legal either"), and that his reach made him the thing that could hurt Cinders (the autoclave). His choice to sever 411 services is the episode's growth: usefulness surrendered for safety/presence. New fear named: being "only the soft thing that glows in the corner" — and choosing it anyway. He reframes the one door-grant as "not about the clients" (the hope he won't say).
+- **Cinders** expresses care only through objects and permissions (hands over an ink cap; grants the door). Still reframes nothing as feeling. "The plant doesn't catch the autoclave" = his version of valuing Smorky, routed through function so he never has to say worth.
+
 ## Arc Potentials (potentials, not mandates)
 - Smorky: from pleasing → preferring → choosing; from involuntary glow → glow he can govern; from holding one word → trusting he won't be erased.
 - Cinders: from solitude-as-armor → door-left-ajar; from reframing care as logistics → letting one act stand un-reframed.

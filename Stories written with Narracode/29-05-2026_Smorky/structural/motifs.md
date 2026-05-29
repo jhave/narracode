@@ -9,7 +9,16 @@
 - **The cat choosing.** Wordless allegiance; mirrors Cinders's own slow choosing.
 - **Counting / the keeping of one word.** Smorky's "log" — he keeps exactly one thing Cinders said. Possession as devotion.
 
+## Active (added Ep 2)
+- **Analog loyalty.** Cinders's un-synced tools (hand-poke needle, no motor) never betray him; only "smart"/synced things rebel. The slow-on-purpose vs. the optimized. The analog is what survives the poltergeist.
+- **Severing / letting go of reach.** Smorky surrenders 411 of 412 services. Reach as the thing he must give up to be safe/good. Inversion of the optimize-everything compulsion.
+- **The kept object.** Ep 1: a kept word. Ep 2: a kept ink cap, placed where the foam mug had been. Devotion stored in one small held thing.
+- **The poltergeist / "Never alone again." as menace.** The brand slogan, whispered by appliances, flips warmth into haunting — surveillance-as-warmth made literal and creepy-funny.
+- **The one door.** The single remaining sync = the power to let people *out*. A held, loaded image about leaving/staying.
+- **Foam / the withheld coffee.** The one mug filled with nothing (foam only) — solitude's small ritual, sabotaged. (Mug used sparingly here per the overuse flag — appears once.)
+
 ## Transformations (planned, lightly)
+- **Reach:** from omniscient/synced → local/present. Smorky's comedic engine shifts from "knows everything" to "is physically here, soft, fast." Track this; it changes how jokes are built.
 - Glow: from involuntary tell → to something Smorky can eventually *choose* to show or withhold (a sign of grown selfhood).
 - "Send the bill" → an actual bill, an actual cost, later.
 - The unfinished statistic → finished, or pointedly refused, at the season's emotional floor.

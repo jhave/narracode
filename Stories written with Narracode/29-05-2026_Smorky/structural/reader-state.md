@@ -7,6 +7,11 @@
 - The bond locks permanent in 14 days. The company treats Smorky's individuality as a "defect" to patch; Cinders blocked the patch and accepted the cost.
 - The audience holds private access to both interiors (especially Smorky's), creating dramatic-irony warmth: we know the feeling neither character will state.
 
+### After Ep 2
+- Audience now knows: synced "smart" things can be weaponized by Hearth (Courtesy Degradation); Cinders's analog tools are the loyal ones; Smorky gave up near-omniscience (411 services) and is now local, keeping only "the door."
+- The over-server stereotype has been visibly dissolved (his helping caused the chaos; un-helping fixed it). The audience can feel the show's method even if it's never named.
+- Dramatic irony deepens: we hear Smorky reframe "the door" as "not about the clients"; Cinders never hears it.
+
 ## Expectations
 - A will-they hum between Smorky and Cinders, slow.
 - Aura/Hearth will return as escalating normative pressure (patch / reset / bill).

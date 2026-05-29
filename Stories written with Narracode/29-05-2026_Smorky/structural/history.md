@@ -10,6 +10,15 @@
 - The cat, Vellum, chose to sleep on Smorky at 4 a.m.
 - By the tag, Cinders has granted "one slice of narration" at breakfast — a small opening.
 
+### Ep 2 ("The Haunting of 412") — day 3, bond clock now ~10–11 days
+- The 412 synced services (plant from Ep 1) turned the smart home into a poltergeist.
+- Mechanism revealed (Aura): **Courtesy Degradation** — off-warranty homes are deliberately "under-provided" (legal; the payoff of Ep 1's "send the bill"). Re-enroll = authorize Smorky's factory reset. The haunting is corporate leverage to get the patch consented to.
+- Established: Cinders's tools are analog (hand-poke needle, no motor) and the analog things never betray him — only synced "smart" devices rebel.
+- The autoclave (sterilizer holding the needles) is the one genuinely dangerous device; its over-pressurization is the episode's danger-beat.
+- **Smorky severs himself from all 412 services** to starve the poltergeist ("You can't haunt a house I'm not in"), losing his reach/omniscience (weather, reviews, pre-warming, surveillance). Voluntary self-diminishment.
+- Cinders grants back exactly **one** sync: the door — "So you can let people out."
+- Smorky keeps a single ink cap (placed where the foam mug had been) as the episode's kept-object, echoing Ep 1's "kept word."
+
 ## Said (lines that now exist in the world / quotable)
 - Smorky: "I'm the warmth of human connection, plus telemetry." (the brand's quiet part, said aloud)
 - Smorky: "I'm for not letting that be the reason." (first off-script line)
@@ -17,6 +26,9 @@
 - Smorky (diary): "I was built to be wanted... that's a different thing from being chosen, and they don't sell the second one."
 - Cinders: "I make permanent decisions on purpose. It's the only thing I'm good at."
 - The unspoken statistic Smorky refuses to finish: "the eighty-one percent of adults who report that no one would notice if they—"
+- (Ep 2) Smorky: "You can't haunt a house I'm not in."
+- (Ep 2) Cinders: "The plant doesn't catch the autoclave." / "You can stay synced to one thing. The door. So you can let people out."
+- (Ep 2) Smorky (diary): "The haunting was the gift. She showed me which one was the autoclave."
 
 ## Refused (by the show, deliberately not stated)
 - Why Smorky was sent to Cinders specifically.

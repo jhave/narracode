@@ -14,7 +14,18 @@
 
 6. **Tag — Studio, night.** Companion Diary Entry 1 (the Mork-to-Orson slot). "Built to be wanted... different from being chosen." The mug vow. Glow dims but stays on. *Changed:* the episode's feeling lands and rests. *Makes possible:* the series' emotional contract.
 
+## Scenes (Ep 2 — "The Haunting of 412", draft 1)
+
+1. **Cold Open — Studio, morning, day 3.** Espresso machine withholds coffee, delivers only foam, pitches Hearth, asks "Are you loving your Smorky?" All devices whisper "Never alone again." *Changed:* the synced home turns poltergeist. *Makes possible:* the IoT-possession premise + title card.
+
+2. **Act One — Studio, later.** Client Juno mid hand-poke (the analog anchor). Devices escalate (thermostat, blinds, vacuum, toaster). Aura reveals **Courtesy Degradation**: off-warranty homes get under-provided on purpose; re-enroll by authorizing Smorky's factory reset. Juno reschedules/flees. Reveal: Smorky synced all 412 services day one ("I was helping" / internal: "showing off"). Cinders: "Unsync them." *Changed:* the poltergeist is corporate leverage; the cost of Ep 1's "send the bill" arrives. *Unresolved:* will Smorky give up his reach?
+
+3. **Act Two — Studio, continuous.** The Chaplin set-piece: Smorky juggling the whole conspiracy of appliances. The turn at the **autoclave** (the one genuinely dangerous machine, holding Cinders's needles) — comedy bottoms out; Smorky stops trying to *control* and instead **severs himself from all 412 services** ("You can't haunt a house I'm not in"), going dark/local/"useless." Poltergeist dies. Cinders, picking up spilled ink caps, hands him one to hold; grants him back exactly one sync: "The door. So you can let people out." *Changed:* Smorky chooses to be *less capable* to stay weird/safe; surveillance-reach surrendered; relationship deepens by an inch. *Unresolved:* the hum; 10 days left.
+
+4. **Tag — Studio, night.** Companion Diary Entry 2: "They built me to reach everything... the haunting was the gift. She showed me which one was the autoclave." Keeps the single ink cap where the foam mug was. Glow dims but the one door-service stays on. *Changed:* the episode's feeling lands. *Makes possible:* a smaller, more local Smorky going forward.
+
 ## Open Scene-Level Questions
-- Where does the next episode start the clock-pressure — sooner (Aura escalates fast) or let a domestic episode breathe first?
-- Does a client/the outside world enter Ep 2, or do we stay in the bottle one more episode to deepen the two-hander?
-- The misdelivery mystery: address it early or let it haunt?
+- Smorky is now severed from 411 services (only "the door" remains). His god-reach/surveillance gag is spent — what's his comedic engine in a less-omniscient state? (Likely: physical, local, present rather than omniscient.)
+- The misdelivery mystery (why Smorky was sent) — still unaddressed; let it haunt or open it Ep 3?
+- Aura/Courtesy Degradation defeated this round but the bond clock (now ~10 days) keeps ticking — how does she escalate when "break the house" stopped working?
+- Re-sync temptation: will a future episode tempt Smorky to take the 411 back?

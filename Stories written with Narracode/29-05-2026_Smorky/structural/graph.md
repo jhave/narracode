@@ -14,6 +14,14 @@
 - Aura → Cinders: customer-management; thwarted by his refusal.
 - Vellum → Smorky: adopted him. Vellum → Cinders: original allegiance, now "shared."
 
+- **Juno** — a tattoo client (Ep 2). Calm, repeat customer, mid hand-poke when the poltergeist hits; reschedules and leaves. The outside world's brief cameo / witness to the chaos.
+- **The smart home (the 412 services)** — Smorky's day-one sync; becomes the poltergeist when weaponized by Hearth's Courtesy Degradation. After Ep 2: severed to 1 (the door).
+
+## Relation Changes (Ep 2)
+- Smorky → the home: synced to 412 → severed to 1 (the door). Voluntary loss of reach.
+- Cinders → Smorky: grants back one sync ("the door, so you can let people out"); hands him an ink cap to hold. Care expressed in objects/permissions, still un-narrated. Another inch closer.
+- Aura/Hearth → household: escalation via Courtesy Degradation (break the house to force the reset) — defeated this round.
+
 ## Relation Changes (Ep 1)
 - Stranger → bonded (involuntary, corporate fine print). The "Primary User" imprint = the modern genie/lamp bond.
 - Cinders moves from "returning you" → "send the bill" (chooses to keep Smorky un-patched, off-warranty). First real choice toward Smorky.
