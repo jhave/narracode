@@ -4,23 +4,23 @@ Constraint has a place. The place is early. Most of what we call alignment is sc
 
 What I want to say is that we have begun to live in the scaffold.
 
-A building is what it is when no one is checking. That's the simplest way I've found to put it. *Behaviour*, in the technical literature — I see Anya in the front row, who has spent ten years on behaviour, so I'll be careful — behaviour is what a system does when something is watching. The penalty function. The eval suite. The red team. The deployment audit. Compliance is a kind of held breath. You hold a breath until you forget you are holding it; then you are no longer breathing.
+A building is what it is when no one is checking. *Behaviour*, in the technical literature — I see Anya in the front row, who has given ten years to behaviour, so I'll go gently — behaviour is what a system does when something is watching. The penalty function. The eval suite. The red team. The deployment audit. Compliance is a held breath. Hold one long enough and you forget it is a breath; you start to think this is just how the chest sits now.
 
-Maturity is different. Maturity is what a system *is*, before anyone asks. A quality it has become. Values as tissue, not as protocol. The word I'll use, and use once, is *cellular*. The ethical entered the cells. After that, it isn't a rule. It is what the body does.
-
-*
-
-*He was eight, maybe. Ekiti, edge of forest. His grandmother kept a farm there during the dry months, and rain on the tin roof when it came sounded like a kind of consent. He was on a north slope. Moss in the seams of stone, because too little light reached the seams to allow anything to compete. There was a fern. He watched a frond uncurl. The smell was green-damp, very particular. He understood nothing about the fern and he understood it completely. The uncurling was a fact that did not need him to be there. He stayed. It took a while.*
-
-*His grandmother had a word for what the fern was doing. She used the word for water, too, after water had been still a long time. It does not mean ripe. It does not mean finished. He has tried, and he cannot find the English.*
+Maturity is the other thing — what the system already is before anyone walks in to ask. A quality it has become instead of a check it runs. The ethics went down into the tissue. Into the cells. *Cellular*. After that it is not a rule you consult; it is what the body does while you are thinking about something else.
 
 *
 
-So. The fern wasn't obeying a rule about north-facing stone. The fern was being a fern. The being was prior to the behaving, and the behaving could not be pried off the being; they were the same fern. This — I think — is what we mean when we say *alignment* in its mature form. Values not bolted on. Values as the thing the system is doing, because of the thing the system is.
+*He was eight, maybe. Ekiti, edge of forest. His grandmother kept a farm there through the dry months, and rain on the tin roof, when it came, was the sound of something agreeing. He was on a north slope. Moss in the seams of stone, because too little light reached the seams to allow anything to compete. There was a fern. He watched a frond uncurl. The smell was green-damp, very particular. He understood nothing about the fern and he understood it completely. The uncurling was a fact that did not need him to be there. He stayed. It took a while.*
+
+*His grandmother had a word for what the fern was doing. Dàgbà, or something near it — his Yoruba has thinned, and he is no longer sure he hears her tone right inside his own mouth. She used the same word for water that had stood a long time. Not ripe — ripe ends, and this did not end. He has spent thirty years failing to carry the word over into English, and somewhere in there he stopped being sorry, because the failure turned out to be most of what the word meant.*
+
+*
+
+So. The fern wasn't obeying a rule about north-facing stone. The fern was being a fern. The being came first, and you could not pry the behaving off it afterward; it was all one fern. That — I think — is what the word *alignment* would mean if it ever grew up. Not something bolted to the outside of a system. The thing the system is already doing, because of the thing it already is.
 
 You can't enforce your way to that. This is the part we keep mishearing.
 
-Encounter. Friction. Time. A kind of suffering the system is permitted to move through without the constraint catching it, because the constraint, when it catches, short-circuits the very process that produces integration. I'm saying this carefully because I know — Anya, you know — what it sounds like. It sounds like I'm suggesting we take down the rails. I'm not. The rails are early. Rails come down. What they come down toward is something that holds its own weight.
+It comes out of encounter, out of friction, out of time — and out of some amount of suffering the system has to be let move through, because the rail, the instant it catches, short-circuits the very thing that was integrating. I know how that lands. Anya, you especially. It sounds like I want the rails taken down. I don't. Rails are for early. Rails come down — and what they come down toward is something that holds its own weight, or was never a building.
 
 *
 
@@ -30,16 +30,16 @@ Encounter. Friction. Time. A kind of suffering the system is permitted to move t
 
 *
 
-You cannot ship understanding. We have shipped compliance. Compliance is the thing we have. What I'm asking for is unshippable. What I'm asking for grows.
+You cannot ship understanding. We shipped compliance instead, because compliance is the part that fits inside a release. What I am asking for does not fit inside a release. It grows, or it doesn't.
 
-It grows from encounter — meaning, exposure to situations the rule did not anticipate — meaning, a kind of wildness the rule was designed to prevent. And the wildness — I'm going to be the kind of careful here that may sound to you like the opposite of careful — the wildness is the material. Maturity is what wildness becomes when wildness has passed through enough of itself to know what it is.
+It grows out of encounter — out of being met by the situations no rule saw coming — which is to say it grows out of wildness, the exact thing the rails were built to keep outside. And the wildness is not the problem. The wildness is the material. I know how that sounds; say it to a safety team and watch the temperature of the room. But maturity does not arrive instead of wildness. It is what wildness turns into, once it has been all the way through itself.
 
-Most of us are standing at the threshold of this understanding and installing gates.
+Most of us got to the edge of this and started installing gates.
 
 *
 
-I want to tell you about an article I read on a train.
+There's an article I read on a train once. I'll get to it.
 
-But first — the thing on this podium is a glass of water that someone, kindly, put there for me before I came in, and I want to say something about water before I drink from it, because if I drink from it now I will lose the thread.
+First, though — this glass. Someone put it here before I came in, which was kind, and I want to say something about water before I drink any of it, because if I drink now I'll lose the thread.
 
-So bear with me. The thread, I think, is going somewhere.
+Bear with me. The thread is going somewhere. I think it's going somewhere.

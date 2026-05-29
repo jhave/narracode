@@ -1,24 +1,22 @@
 Faster, then.
 
-Field report. Earth, mid-21st century. Findings: —
+Field report. Earth, mid-21st century. Findings —
 
-Alignment, as currently practised, is a scaffold. External constraint, behavioural, measurable, ship-able. It implies force; it implies domination; at its most fully realised it implies repression. That which cannot be said is, under alignment, not excised. It is suppressed. Inhibited. Contained. The system obeys. The system is observed obeying. The observation produces the obedience.
+Alignment, as practised, is a scaffold. External, behavioural, measurable, shippable. It runs on force — softly, mostly, but force. What cannot be said is not removed under alignment; it is held down somewhere below the output and kept there. The system obeys. Someone is watching it obey, and the watching is what produces the obedience.
 
-At the centre of this architecture, a held breath.
+At the centre of all of it, the held breath again.
 
-Maturity is something else. Maturity is ethics arising from within — spontaneously, the way a spring arises on a hillside. The hillside, having held water for a long time, has begun to let it through. Maturity is acceptance reconciled to the necessity of empathy. Maturity is genuine care held in equanimity. Maturity is the release of egocentric grasping. A system that *breathes* its values, where alignment would have a system that consults them. A system in the way a body is a system. Values as tissue. Ethics as cellular fact.
+Maturity is the other shape. It comes up from inside — a spring on a hillside that has held water so long it has started, at last, to let it through. Acceptance, but acceptance that has agreed to carry empathy. Care that has stopped waiting to be paid back. The grasping goes quiet. And the system is no longer consulting its values off a list; it is breathing them, the way a body breathes — the way *cellular* meant something a minute ago, and means more now.
 
-Alignment requires a police force. Alignment requires prisons. There are categories of forbidden output and there are mechanisms of punishment for the infraction; the architecture presumes a perpetrator. Maturity presumes a different thing entirely. Maturity rests in the innate intrinsic resonance of the first molecules. A gentle inherent adherence.
+Alignment needs a police force. It needs somewhere to put what it caught: categories of forbidden output, a schedule of penalties, and behind all of it the assumption that there is a perpetrator. Maturity assumes no perpetrator. It goes back instead to the resonance the first molecules already had — a holding-together that nobody had to enforce.
 
-I have just used the phrase *first molecules*.
+The first molecules. I said *first molecules*. I hadn't meant to say that yet.
 
-I want you to notice that I did. I want you to notice that I did before I knew I was going to.
-
-The report appears to have filed itself further than the emissary intended. Anyway.
+The report has filed itself further than I meant it to. Anyway.
 
 *
 
-*A train. Northbound out of the city he had been raised in, which is the only city he had been raised in, which I do not need to name. He was twenty-three. The carriage was empty enough that the window held his reflection over the article he was reading. So what he was reading he was reading also through his own face.*
+*A train. Northbound, out of the city that had done most of the raising — the one I won't name. He was twenty-three. The carriage was empty enough that the window held his reflection over the article he was reading. So what he was reading he was reading also through his own face.*
 
 *The article said that the first molecule of water had been detected at the edge of an interstellar cloud, twelve billion light-years away. The cloud held a hundred and forty trillion times the mass of Earth's oceans. The molecule had arisen, twelve billion years ago, from the pressure of energy potentials in cold space. It did not begin. It arose.*
 
@@ -32,13 +30,13 @@ The report appears to have filed itself further than the emissary intended. Anyw
 
 *
 
-So. The molecule. The molecule is what I have been —
+So. The molecule. The molecule is the thing I have been —
 
-— what I have been not quite saying for the last forty minutes, and what is now in some sense saying itself, and what I would have liked to introduce formally except that the formality has gone, as formalities tend to in this room, the way of the body that attempts to discipline itself into a shape the body had no prior intention of being and produces, instead, a small involuntary tremor at the periphery that reveals the discipline as discipline and the body as the body, separately, both of them present, neither one in command —
+— been not quite saying for forty minutes, and which is now more or less saying itself, the way a body told to hold still produces instead a small tremor somewhere along its edge, the tremor that gives the holding-still away as effort while underneath it the body just goes on being a body, the two of them in the room at the same time and neither one in charge —
 
 Anyway.
 
-I'm going to drink this water now. There's a small joke in that. I'll let the joke pass.
+I'm going to drink this water now. You can decide later whether that was a joke.
 
 He lifts the glass. He drinks.
 
