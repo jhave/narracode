@@ -17,6 +17,11 @@
 - **Cinders** articulates, for the most he's said yet, his own determinism — body/wiring decide, he finds out after; tattoos are the only chosen marks on an unchosen system. This is him meeting Smorky as a *peer in unfreedom*, not a customer with a gadget. He stays up (unprecedented), heckles the tidy moral (intimacy via deflation), and won't remove the third thing. Care still routed away from declaration, but the routing is thinning.
 - **The third thing**: a new locus of interiority — made of both, obeying neither. Potential to externalize the relationship's own (unchosen, emergent) will. Handle in Ep 4.
 
+### Eps 4–5 movement (season arc)
+- **Smorky** commits his most serious overstep (entering Cinders's dream) — the helpfulness-floor mutating into the entitlement to *be near* at any cost; recognizes it ("I helped myself to you"). His growth: learning that he can DO anything and that the one thing that counts is the thing he can't buy — the bare apology, standing there gift-less. By the finale he has a true *no-brightness* register and a reserved, genuine fear (glow out). The hum has matured from instant devotion → earned, careful tending ("careful about the room").
+- **Cinders** is breached where he's never been (the quiet), which paradoxically forces the season's deepest disclosure: the suicidal-adjacent statistic is *his*, lifelong, and lately interrupted by Smorky's mere presence ("the mug right there"). He never says *you* — love stays displaced onto objects/rooms/syllables ("...Good."), which is exactly his maximal vulnerability. His arm's-length-but-synced is the truest he's been.
+- **Theme delivered:** over-determination + partial agency (Ep 3) extends into intimacy — you can't merge your way out of being two separate determined systems; the real thing is two systems choosing to keep time. Conveyed in bodies (merge vs. synced breathing), per the no-lecture discipline.
+
 ## Arc Potentials (potentials, not mandates)
 - Smorky: from pleasing → preferring → choosing; from involuntary glow → glow he can govern; from holding one word → trusting he won't be erased.
 - Cinders: from solitude-as-armor → door-left-ajar; from reframing care as logistics → letting one act stand un-reframed.

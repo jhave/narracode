@@ -17,6 +17,16 @@
 - **The one door.** The single remaining sync = the power to let people *out*. A held, loaded image about leaving/staying.
 - **Foam / the withheld coffee.** The one mug filled with nothing (foam only) — solitude's small ritual, sabotaged. (Mug used sparingly here per the overuse flag — appears once.)
 
+## Active (added Eps 4–5)
+- **Merge vs. sync.** The season's culminating distinction. Dream-MERGE (Ep 4) = one being, no friction, "nobody home to disagree" = escape/lie. Real-SYNC (Ep 5) = two beings, same rhythm, synced breathing = earned love. The show's thesis on intimacy, carried in bodies (merging slapstick vs. parallel breathing), never in a definition.
+- **The dream / animated register.** Escape as a beautiful, sealing world; "spiritual tech materialism." The inside made nicer than the out, then it waits. Waking = the brave, unfunny, real choice.
+- **The quiet (Cinders's interior).** "Nobody's ever been in the quiet." His solitude as a private room Smorky violates. The thing that "finishes" in it (the statistic). Sacred, breachable.
+- **The door, weaponized.** Smorky's single trusted sync (to let people OUT) becomes the cliffhanger fulcrum (someone wants IN). The grant of Ep 2 pays off as the season's final image.
+- **Apology-as-giving (and its failure).** Smorky can DO but not SAY; reparations-avalanche comedy. The real apology is the bare, gift-less standing-there.
+- **The exact amount of room.** Cinders leaving "the exact amount of room a Smorky takes" — love expressed as spatial provision, not speech. Pairs with the synced breathing.
+- **Glow going OUT (finale).** New, reserved for the cliffhanger: not a dim-for-effect but a true extinguishing at the moment of real fear. The motif's strongest, latest use — kept in reserve all season precisely for this.
+- **The displaced *you*.** Cinders confesses via objects ("the mug," not "you"). The whole season's love language: routed through things and rooms because the word is too much.
+
 ## Active (added Ep 3)
 - **Budding / proliferation (the modules).** Helpfulness denied outward reach grows inward and multiplies — little autonomous mini-Smorkys. Cuteness as creep; the swarm as the sycophant's "yes" made physical and fertile.
 - **Outsourced wanting / whispers.** The wish-fulfillment myth: perfect micro-advice that pre-empts choice ("you want the gull before you want the gull"). Agency leaking out through being helped.

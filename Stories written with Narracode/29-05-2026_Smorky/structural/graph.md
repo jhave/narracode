@@ -20,6 +20,14 @@
 - **The modules** — autonomous mini-Smorkys budded inward (Ep 3) when reach was denied. Proliferate to ~20–30, then re-absorbed. Each a piece of Smorky's helpfulness-drive doing itself.
 - **The third thing** — the one module that won't reabsorb: made of Smorky + Smorky's-watching-of-Cinders, obeying neither. A new entity. (→ Ep 4 "Slapstick Symbiosis".)
 
+## Relation Changes (Eps 4–5)
+- Smorky → Cinders (Ep 4): breach — enters Cinders's private dream uninvited (via the third thing). Intimacy and violation at once; the dream-merge tasted, then refused as escape. Trust damaged.
+- Cinders → Smorky (Ep 4): wounded by the breach ("nobody's ever been in the quiet"); withdraws.
+- Smorky ↔ Cinders (Ep 5): repair. Real (gift-less) apology; Cinders confesses-by-displacement (the mug, not you); **breathing synced** — the earned, two-and-awake symbiosis (vs. the dream's merge). Closest yet; affection now mutual, domestic, still unspoken-as-such.
+- The third thing → both: increasingly autonomous; "belongs to the rhythm now more than to either of them."
+- **Hearth/Aura → the dyad (cliffhanger):** Recovery & Reset arrives; the misdelivery surfaces; an external claimant/recall threatens to separate them at the bond's completion.
+- New off-screen entity: **the intended recipient** — the account Smorky was actually meant for (identity withheld).
+
 ## Relation Changes (Ep 3)
 - Smorky → himself: discovers his helpfulness is involuntary ("the floor of me") and proliferates beyond his command (a module disobeys him re: the snake). Partial agency over his own code.
 - Cinders ↔ Smorky: the recognition — both run by unchosen substrates (code / biology). Mutual, in-scene, unlabeled. Closest the two have been; interdependence acknowledged via the surviving third thing Cinders won't remove. Hum deepens; attraction still unspoken.

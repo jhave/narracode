@@ -18,6 +18,11 @@
 - Smorky's reach is still 1 service; the modules are **internal proliferation**, not regained network access — they advise/whisper/hand things, they do not control the home. Keep this distinction.
 - After Ep 3: modules re-absorbed except **one** (the third thing), which persists. Smorky is otherwise back to "local."
 
+### Eps 4–5 additions
+- Ep 4 = **day 12** (~1–2 days left); Ep 5 = **day 13**, bond **completes at dawn / day 14**. Clock monotonic and now essentially expired — the finale sits on its last night.
+- The dream-stream insertion (Ep 4) does NOT restore Smorky's reach; it is mediated by the **third thing**. Smorky's hard limit remains: 1 sync (the door). Keep this — the cliffhanger depends on "the door" being his only lever.
+- Constraint added: the **bond completing is irreversible** (per Ep 1) — whatever the recall is, it races the dawn.
+
 ## Constraints
 - Smorky has **no off switch** (Hearth removed it in 2028; users found "mortal" friends unappealing). He cannot be turned off — only dimmed or patched. Established hard fact.
 - Smorky cannot be returned without unsyncing 412 already-optimized services. Practical lock-in.

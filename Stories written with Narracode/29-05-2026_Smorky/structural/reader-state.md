@@ -18,6 +18,13 @@
 - A new object of attention exists: **the third thing**, openly flagged as the road to "Slapstick Symbiosis."
 - Format literacy: the audience has now seen the diary-button deliberately broken — future tags can play against the expectation.
 
+### After Eps 4–5 (season end)
+- Audience understands the season's intimacy thesis without being told it: **merge = escape/lie (dream), sync = real love (awake)** — felt via the animated merge vs. the parallel synced breathing.
+- The two oldest mysteries are discharged: the **unfinished statistic** (revealed as Cinders's own) and the **misdelivery** (the cliffhanger).
+- Audience holds dramatic-irony dread the leads don't: only Smorky (and we) know about the recall at the door; Cinders sleeps. The season's privileged-interior contract pays its biggest dividend here.
+- Open, propulsive into S2: the door (open it?), the intended recipient, the dawn bond-lock, the third thing's autonomy.
+- Format literacy: tags have now been (a) tidy button, (b) tidy button, (c) broken-by-heckle, (d) withheld (no diary), (e) started-but-unfinishable. The diary is established as an instrument the show plays *against*, not a fixed slot.
+
 ## Expectations
 - A will-they hum between Smorky and Cinders, slow.
 - Aura/Hearth will return as escalating normative pressure (patch / reset / bill).
