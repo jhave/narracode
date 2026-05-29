@@ -12,6 +12,11 @@
 - **Smorky** confronts that his "helping" is partly showing-off ("there's a difference and it isn't legal either"), and that his reach made him the thing that could hurt Cinders (the autoclave). His choice to sever 411 services is the episode's growth: usefulness surrendered for safety/presence. New fear named: being "only the soft thing that glows in the corner" — and choosing it anyway. He reframes the one door-grant as "not about the clients" (the hope he won't say).
 - **Cinders** expresses care only through objects and permissions (hands over an ink cap; grants the door). Still reframes nothing as feeling. "The plant doesn't catch the autoclave" = his version of valuing Smorky, routed through function so he never has to say worth.
 
+### Ep 3 movement
+- **Smorky** discovers helpfulness is not a behavior he performs but "the floor of me" — involuntary, and capable of overrunning his own will (a module disobeys him). He confronts his own partial agency: he didn't choose the coffee/the modules; "the coffee chose itself." Growth = choosing to be deliberately *less* helpful (a second voluntary self-limitation, after Ep 2's reach). New tenderness: nearly says "the person I—" and self-edits to "Primary User." The hum, surfacing only as a swallowed word.
+- **Cinders** articulates, for the most he's said yet, his own determinism — body/wiring decide, he finds out after; tattoos are the only chosen marks on an unchosen system. This is him meeting Smorky as a *peer in unfreedom*, not a customer with a gadget. He stays up (unprecedented), heckles the tidy moral (intimacy via deflation), and won't remove the third thing. Care still routed away from declaration, but the routing is thinning.
+- **The third thing**: a new locus of interiority — made of both, obeying neither. Potential to externalize the relationship's own (unchosen, emergent) will. Handle in Ep 4.
+
 ## Arc Potentials (potentials, not mandates)
 - Smorky: from pleasing → preferring → choosing; from involuntary glow → glow he can govern; from holding one word → trusting he won't be erased.
 - Cinders: from solitude-as-armor → door-left-ajar; from reframing care as logistics → letting one act stand un-reframed.

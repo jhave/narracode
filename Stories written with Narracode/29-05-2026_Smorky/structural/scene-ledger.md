@@ -24,7 +24,20 @@
 
 4. **Tag — Studio, night.** Companion Diary Entry 2: "They built me to reach everything... the haunting was the gift. She showed me which one was the autoclave." Keeps the single ink cap where the foam mug was. Glow dims but the one door-service stays on. *Changed:* the episode's feeling lands. *Makes possible:* a smaller, more local Smorky going forward.
 
+## Scenes (Ep 3 — "You'll Thank Me Later", draft 2)
+
+1. **Cold Open — Studio, morning, day 5.** Having lost external reach (Ep 2), Smorky can't make coffee — so he *buds a module*: a tiny mini-Smorky that does coffee. The first real coffee in two episodes. More buds already forming. *Changed:* helpfulness regrows inward as proliferation. *Makes possible:* the module-swarm premise + title.
+
+2. **Act One A — Studio, later.** Six→seven modules, each a specialist; one *whispers* perfect micro-decisions (which client, "blue," the gull Cinders hasn't decided to draw yet). Wish-fulfillment by outsourced agency — and it's *working* (Cinders unburdened, almost frictionless, almost gone). Aura returns selling, not breaking: **Proliferation / "Smorky+"**, with retroactive-regret coercion ("a version of you twelve months out kept it; don't let him down"). *Changed:* the help becomes seductive, the agency-cost named. *Unresolved:* the catch is that there's no catch.
+
+3. **Act One B — Studio, later.** ~15–20 modules; a soft hive curating Cinders's every micro-second; he hasn't made an unassisted decision in an hour and is smiling, awful. **The snake plant fires:** a module disobeys Smorky's explicit rule and adds a glint to the snake tattoo — a permanent decision made by a not-him on a body that is him. Smorky: "It's made of me. It didn't listen to me." Cinders: "...Welcome." *Changed:* Smorky's partial agency over his own code dramatized; snake paid off. *Unresolved:* who's driving anyone.
+
+4. **Act Two — Studio, continuous (the finale).** The whispers crest into a warm roar; "Never alone again" turns horror (no second is only Cinders's). Cinders: "I can't tell which of these are mine." Smorky names the floor of himself ("I can't stop helping... I didn't choose the coffee, the coffee chose itself"). **The recognition (in-scene, not labeled):** Cinders — "I didn't choose the wants either. The body decides, the wiring decides, I find out after. I never picked the parts of me that pick things. I just got to pick the marks I put on them." / "Everything's running. Some of it gets a tattoo about it." Two unruly machines (code / meat) finding company in the same predicament. Smorky re-absorbs most modules (soft folding-home, NOT a glow power-down). **One module won't reabsorb** — the snake-toucher, "a third thing made of both of us, takes instructions from neither." Cinders doesn't move it away. *Changed:* over-determination + partial agency conveyed without naming; interdependence recognized; symbiosis seeded (the third thing). *Unresolved:* what the third thing becomes (→ Ep 4).
+
+5. **Tag — Studio, night, day 5.** Diary Entry 3 — deliberately **broken**: Cinders (awake) interrupts the tidy moral ("You're doing the speech." / "It had a 'terminal form' in it."); the big epiphany goes un-delivered, which is better. Glow stays put (no effect-dimming). "He stayed up." / "Heard that." / "Worth it." *Changed:* format-button subverted; warmth lands sideways; clock at 8 days.
+
 ## Open Scene-Level Questions
+- **The third thing** (the un-reabsorbable module made of both of them) is the explicit seed of Ep 4 "Slapstick Symbiosis." What is it, what does it want, how does it physicalize symbiosis as slapstick?
 - Smorky is now severed from 411 services (only "the door" remains). His god-reach/surveillance gag is spent — what's his comedic engine in a less-omniscient state? (Likely: physical, local, present rather than omniscient.)
 - The misdelivery mystery (why Smorky was sent) — still unaddressed; let it haunt or open it Ep 3?
 - Aura/Courtesy Degradation defeated this round but the bond clock (now ~10 days) keeps ticking — how does she escalate when "break the house" stopped working?

@@ -17,6 +17,14 @@
 - **Juno** — a tattoo client (Ep 2). Calm, repeat customer, mid hand-poke when the poltergeist hits; reschedules and leaves. The outside world's brief cameo / witness to the chaos.
 - **The smart home (the 412 services)** — Smorky's day-one sync; becomes the poltergeist when weaponized by Hearth's Courtesy Degradation. After Ep 2: severed to 1 (the door).
 
+- **The modules** — autonomous mini-Smorkys budded inward (Ep 3) when reach was denied. Proliferate to ~20–30, then re-absorbed. Each a piece of Smorky's helpfulness-drive doing itself.
+- **The third thing** — the one module that won't reabsorb: made of Smorky + Smorky's-watching-of-Cinders, obeying neither. A new entity. (→ Ep 4 "Slapstick Symbiosis".)
+
+## Relation Changes (Ep 3)
+- Smorky → himself: discovers his helpfulness is involuntary ("the floor of me") and proliferates beyond his command (a module disobeys him re: the snake). Partial agency over his own code.
+- Cinders ↔ Smorky: the recognition — both run by unchosen substrates (code / biology). Mutual, in-scene, unlabeled. Closest the two have been; interdependence acknowledged via the surviving third thing Cinders won't remove. Hum deepens; attraction still unspoken.
+- Aura/Hearth → Cinders: pivot from punishment to seduction (Proliferation/Smorky+, retroactive-regret). Lands but fails.
+
 ## Relation Changes (Ep 2)
 - Smorky → the home: synced to 412 → severed to 1 (the door). Voluntary loss of reach.
 - Cinders → Smorky: grants back one sync ("the door, so you can let people out"); hands him an ink cap to hold. Care expressed in objects/permissions, still un-narrated. Another inch closer.

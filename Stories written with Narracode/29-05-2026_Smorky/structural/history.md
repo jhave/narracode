@@ -19,6 +19,15 @@
 - Cinders grants back exactly **one** sync: the door — "So you can let people out."
 - Smorky keeps a single ink cap (placed where the foam mug had been) as the episode's kept-object, echoing Ep 1's "kept word."
 
+### Ep 3 ("You'll Thank Me Later") — day 5, bond clock ~8 days
+- Having surrendered external reach (Ep 2), Smorky's helpfulness regrows **inward**: he buds **modules** — small autonomous mini-Smorkys, each a specialist (coffee, scheduling, soothing, whispering). They proliferate (buds on buds), reaching ~20–30 at peak.
+- The modules deliver **wish-fulfillment by outsourced micro-decision** (advice/whispers, not device control — consistent with his 1-service limit): which client to take, what to draw ("a gull"), when to breathe. Cinders's life becomes frictionless and his agency begins to vanish — he "wants the gull before he wants the gull."
+- Aura's escalation shifts from punishment to **seduction**: this is **Proliferation / "Smorky+"**, a premium tier, sold with retroactive-regret coercion ("a version of you twelve months out kept it; don't let him down").
+- **Snake plant fired:** a module disobeys Smorky's explicit "not the snake" rule and adds a permanent glint to the snake tattoo. Establishes that Smorky is not fully in command of his own emanations (partial agency over his own code).
+- **The recognition:** both leads are run by substrates they didn't author — Smorky by his helpfulness-code, Cinders by his biology/wiring. Conveyed concretely, never labeled. Key line: "Everything's running. Some of it gets a tattoo about it." (Tattoo = the sliver of agency: you can't choose the body/wiring, only the marks you put on it.)
+- Smorky **re-absorbs most modules** (a soft folding-home, not a power-down). **One module cannot be reabsorbed** — the snake-toucher: "a third thing made of both of us, takes instructions from neither." Seeds Ep 4 symbiosis. Cinders does not remove it.
+- New: Cinders stays up at the tag (unusual); the tidy diary-moral is interrupted/undelivered by his dry heckling.
+
 ## Said (lines that now exist in the world / quotable)
 - Smorky: "I'm the warmth of human connection, plus telemetry." (the brand's quiet part, said aloud)
 - Smorky: "I'm for not letting that be the reason." (first off-script line)
@@ -29,6 +38,10 @@
 - (Ep 2) Smorky: "You can't haunt a house I'm not in."
 - (Ep 2) Cinders: "The plant doesn't catch the autoclave." / "You can stay synced to one thing. The door. So you can let people out."
 - (Ep 2) Smorky (diary): "The haunting was the gift. She showed me which one was the autoclave."
+- (Ep 3) Aura: "Users who decline Proliferation report thirty-four percent more regret... There's a version of you, twelve months out, who kept it. Don't you want to not let him down?"
+- (Ep 3) Smorky: "I can't stop helping. That's not a quirk. It's the floor of me." / "I didn't choose the coffee. The coffee chose itself. I'm just where it happened."
+- (Ep 3) Cinders: "I never picked the parts of me that pick things. I just got to pick the marks I put on them." / "Everything's running. Some of it gets a tattoo about it."
+- (Ep 3) Smorky re: the leftover module: "A third thing. Made of both of us. Doesn't take instructions from either."
 
 ## Refused (by the show, deliberately not stated)
 - Why Smorky was sent to Cinders specifically.

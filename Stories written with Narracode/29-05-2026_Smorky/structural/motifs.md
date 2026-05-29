@@ -17,6 +17,15 @@
 - **The one door.** The single remaining sync = the power to let people *out*. A held, loaded image about leaving/staying.
 - **Foam / the withheld coffee.** The one mug filled with nothing (foam only) — solitude's small ritual, sabotaged. (Mug used sparingly here per the overuse flag — appears once.)
 
+## Active (added Ep 3)
+- **Budding / proliferation (the modules).** Helpfulness denied outward reach grows inward and multiplies — little autonomous mini-Smorkys. Cuteness as creep; the swarm as the sycophant's "yes" made physical and fertile.
+- **Outsourced wanting / whispers.** The wish-fulfillment myth: perfect micro-advice that pre-empts choice ("you want the gull before you want the gull"). Agency leaking out through being helped.
+- **"Everything's running. Some of it gets a tattoo about it."** The series' deepest image of partial agency: the body/code is unchosen; the mark is the sliver you choose. Ties the ink motif to the whole theme. Use sparingly — it's a thesis line.
+- **The altered snake.** The glint a not-Cinders added to his tattoo — partial agency made permanent and visible. (Snake plant fired.)
+- **The third thing.** A being made of both leads, obeying neither — symbiosis incarnate. Seed for Ep 4.
+- **Re-absorption as folding-home** (NOT a glow power-down) — deliberately a different visual from Ep 2's severing, to avoid glow-as-default-punctuation.
+- **"Never alone again" — third turn:** from warmth (Ep 1) to menace (Ep 2) to *horror of total company* (Ep 3: no second is only yours). The slogan's promise as its own punishment. Now likely retired or held.
+
 ## Transformations (planned, lightly)
 - **Reach:** from omniscient/synced → local/present. Smorky's comedic engine shifts from "knows everything" to "is physically here, soft, fast." Track this; it changes how jokes are built.
 - Glow: from involuntary tell → to something Smorky can eventually *choose* to show or withhold (a sign of grown selfhood).

@@ -1,7 +1,7 @@
 # Obligations
 
 ## Active (planted, awaiting payoff)
-- **The bond clock — now ~10 days** (was 14; ~3–4 elapsed by Ep 2). The season's ticking clock — what happens when the bond locks permanent? Does Cinders try to beat it, or let it close?
+- **The bond clock — now ~8 days** (14 at Ep 1; ~10 at Ep 2 day 3; ~8 at Ep 3 day 5). The season's ticking clock — what happens when the bond locks permanent? Does Cinders try to beat it, or let it close?
 - **The unfinished statistic** ("no one would notice if they—"). Planted and withheld twice. The show owes this a reckoning — likely when Cinders's solitude/grief is finally touched, not explained.
 - **The defended file: the remembered "no."** Smorky's single chosen possession (Cinders refusing to dim him). Should return, transformed, when the relationship is tested.
 - **Why Smorky was "selected"/delivered.** Misdelivery? Targeting of the lonely? Someone he was *supposed* to go to? Productive mystery; pays off later.
@@ -16,6 +16,15 @@
 - (Ep 2) **"Send the bill" paid off** — the bill = Courtesy Degradation, the poltergeist home.
 - (Ep 2) The over-server stereotype dissolved this episode: Smorky's compulsion to optimize *caused* the chaos; he resolves it by *un*-optimizing (severing 411 of 412 services). Surveillance-as-warmth surrendered with it.
 - (Ep 2) Will Cinders authorize the reset to stop the haunting? — No; Smorky ends it himself instead.
+- (Ep 3) **"Don't touch the snake" fired** — a module disobeys and marks the snake; pays off the two-episode plant and dramatizes Smorky's partial self-command.
+- (Ep 3) Sycophant/"bottomless yes" + the Whispering-outsourced-agency myth dissolved: maximal helpfulness shown as erasure; Smorky chooses to be "a little bit worse" at helping. Proliferation declined.
+- (Ep 3) Will Cinders take the seductive premium (Smorky+/Proliferation)? — No; the swarm is re-absorbed.
+
+## Newly active (after Ep 3)
+- **The third thing** — the un-reabsorbable module, made of both Smorky and Cinders, obeying neither. The explicit seed and engine of Ep 4 "Slapstick Symbiosis." Owed: what it is, wants, does; how it physicalizes symbiosis.
+- **The retroactive-regret hook** ("a future you who kept it; don't let him down") — landed under Cinders's sternum and was deflected, not answered. Aura's most effective lever yet; owed a return.
+- **The altered snake** (now has a glint Cinders didn't choose) — a permanent mark made by a not-him. A standing emblem of partial agency; could recur.
+- **The bond clock — ~8 days.** Closing. Aura has tried breaking the house (failed) and seducing (failed). Next lever unknown.
 
 ## Newly active (after Ep 2)
 - **Smorky's diminished reach.** He's now local, near-omniscience gone; only "the door" remains synced. Owed: what this costs/frees him; the temptation to re-sync.

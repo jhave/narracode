@@ -12,6 +12,12 @@
 - The over-server stereotype has been visibly dissolved (his helping caused the chaos; un-helping fixed it). The audience can feel the show's method even if it's never named.
 - Dramatic irony deepens: we hear Smorky reframe "the door" as "not about the clients"; Cinders never hears it.
 
+### After Ep 3
+- Audience now understands: Smorky's helpfulness is involuntary and self-proliferating (modules), that maximal help erases the helped, and that both leads run on unchosen substrates (code / biology) — the show's central equivalence, delivered in-scene and unlabeled.
+- The snake plant has paid off; the sycophant/outsourced-agency stereotype is dissolved.
+- A new object of attention exists: **the third thing**, openly flagged as the road to "Slapstick Symbiosis."
+- Format literacy: the audience has now seen the diary-button deliberately broken — future tags can play against the expectation.
+
 ## Expectations
 - A will-they hum between Smorky and Cinders, slow.
 - Aura/Hearth will return as escalating normative pressure (patch / reset / bill).
