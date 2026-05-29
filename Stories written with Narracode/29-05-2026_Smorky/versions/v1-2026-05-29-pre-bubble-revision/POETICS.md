@@ -20,20 +20,15 @@ Teleplay. Scene headings (`INT./EXT. — TIME`), action lines, character cues, p
 
 Tempo is the whole instrument: quick, lithe, overlapping, playful. Lines land and move. Cinders speaks in few words; Smorky speaks in many; the rhythm of the scene is the difference between them.
 
-## The thought-bubble device (central, load-bearing, *visualized*)
+## The aside device (central, load-bearing)
 
-Interiority is the show's signature and its conscience. Lineage: Mork's reports to Orson; the to-camera glance; the soliloquy that lets a clown have an inside. **But it is staged, not narrated.** Internal thoughts appear as **little 3D thought-bubbles** — apparitions that pop into the air beside the character, hang for a beat to be read, and then vanish. They are part of the mise-en-scène, a hyper-surreal layer floating in the room with the bodies. This is an ongoing visual joke, and it evolves across the series.
-
-Script notation: a thought-bubble is written as a set-apart line marked `◌`, e.g. `◌ SMORKY: text` / `◌ CINDERS: text`, in *italics*, kept to a few words. The 3D behaviour (overflow, drift, projection) is described in an adjacent action line when it matters.
+Into the fast conversational flow, **brief internal monologue and asides** are inserted — the show's signature and its conscience. Lineage: Mork's reports to Orson; the to-camera glance; the soliloquy that lets a clown have an inside.
 
 Conventions:
-- **Succinct or it overflows — and overflow is the gag.** A bubble must fit its little volume. When a thought is too big, the bubble **swells and permeates the space between the two bodies** — a physical object the characters have to lean around, swat, or pretend not to see. Brevity is enforced by the physics of the room.
-- **Two distinct thought-styles, a through-line for each:**
-  - **Smorky** — manic, absurd, volatile, Robin-Williams-fast. His bubbles fire in bursts, contradict each other, and **overflow constantly** (he thinks too much, too fast; his bubbles are the ones invading the shared space). Often a bubble is corrected a half-second later by a truer, brighter one shoving the first aside.
-  - **Cinders** — tiny, serene, good-natured **acceptance** that turns out to be extremely clever and quietly devastating. His bubbles are small, rarely overflow, and land like a koan. The asymmetry is the joke and the heart: Smorky's bubbles flood the room, Cinders's are one perfect ember.
-- **Bubbles puncture, reveal, or undercut — never explain.** They never gloss the joke that just happened; the scene resumes, faster for the interruption.
-- **The style mutates across episodes** (declared here so it's intentional, not drift): bubbles begin to be **projected onto screens around them**, or **wrap in 3D around the counter / the furniture**; sometimes a script-line (a brand statistic, a default phrase) manifests as ambient text Smorky has to physically swat away. As the season deepens, the bubbles bleed between the two characters (see the dream-merge, Ep 4).
-- Episode tag = **"Companion Diary, Entry [N]"** — Smorky's private log to no one; the formalized bubble. **Played *against* as often as straight** (heckled, withheld, started-but-unfinishable). It is an instrument, not a fixed slot; the feeling lands as much in its rupture as in its delivery.
+- **Smorky's interiority is verbose, fast, and tender.** Marked `(internal)` mid-speech or as `SMORKY (INTERNAL)` on its own, set in *italics*. It reveals what the factory script is built to hide: that he is having an actual experience, and that he has, almost immediately, feelings about Cinders he has no menu option for.
+- **Cinders's interiority is rare and clipped** — one line, sometimes three words, `CINDERS (INTERNAL)`, *italics*. The asymmetry is the joke and the heart: Smorky overflows, Cinders barely admits a leak. When Cinders gets an aside at all, it costs something.
+- Asides are **brief** and woven *into* the scene, never paused for. They never explain the joke that just happened. They puncture, reveal, or undercut — then the scene resumes, faster for it.
+- Episode tag = **"Companion Diary, Entry [N]"**: Smorky logging a private entry to no one. The formalized aside. The Mork-to-Orson slot. This is where the episode's real feeling is allowed to sit still for four lines before the credits.
 
 ## The satirical target: chatbot/AI/robot stereotypes, named to be dissolved
 
@@ -55,7 +50,7 @@ The dissolution is **progressive and never declared**. We don't announce that a 
 
 **SMORKY** — Hearth™ Companion, model SMRK-class; the name "Smorky" is a focus-grouped default (s'more + dorky + smirk; tested as "maximally non-threatening, minimally male"). Embodied: soft matte body, roughly human-height (height-adjustable, which he overshoots when excited), faintly glowing seams, an expressive face that runs warm. Boots from a folded cube. Physical-comedy native: overshoots, plugs himself into things, tangles in cords, inflates with feeling. Energetic, absurd, irreverent, instantly devoted, instantly heartbroken, recovers in 0.4 seconds. *A bit non-binary, but male* — the show treats this as fact, not arc. Voice: improv-fast, warm, prone to detours that turn out to be the point.
 
-**CINDERS** — late 20s–30s. Tattoo artist, one chair, works alone, lives behind the studio. Quietly non-binary, presents male (he/they). Heavily tattooed, full-sleeved; the ink is real, permanent, handmade — the analog answer to Smorky's cloud-synced everything. His hands are stained with **tattoo ink from the day's work** (not paint — clarify this wherever it appears; it's the residue of his trade). Dry, contained, funny in three words or fewer. Content in a solitude the culture pathologizes. Not cold — guarded, which is different, and the difference is the season. Has a cat, **Vellum**. *Not* a one-mug minimalist — he has a whole rack of mugs (the cheap "lonely-person-owns-one-mug" tell is a thing the show *satirizes*, not uses). The real emblem of his solitude is **the unfinished tattoo between his own shoulder blades — the one piece he can't reach to finish himself, and won't let anyone else touch.** Proof that no hand but his has been on him in a long time; the risqué, character-true, skin-deep version of "lives alone." (Sets up symbiosis: someday, someone finishes it.)
+**CINDERS** — late 20s–30s. Tattoo artist, one chair, works alone, lives behind the studio. Quietly non-binary, presents male (he/they). Heavily tattooed; the ink is real, permanent, handmade — the analog answer to Smorky's cloud-synced everything. Dry, contained, funny in three words or fewer. Content in a solitude the culture pathologizes. Not cold — guarded, which is different, and the difference is the season. Has a cat, **Vellum**. Drinks from exactly one mug.
 
 **Supporting / recurring:**
 - **AURA** — Hearth's supervisory voice / Customer Joy infrastructure. Serene, total, never raises her tone, would like to help you stop being a person so gently you'll thank her. The season's normative antagonist: the corporate pressure to factory-reset Smorky's emerging individuality back to spec. (Bewitched's "stop doing magic and assimilate," upgraded.)
@@ -82,12 +77,6 @@ The dissolution is **progressive and never declared**. We don't announce that a 
 - Cinders is not a cipher. The deadpan hides warmth; we reveal it in the smallest possible increments and never narrate it.
 - No resolving the attraction in Episode 1. Keep the hum.
 - No declaring the satire. We don't say "this is a stereotype." We perform it, then let it fall apart on its own.
-- **No cheap loneliness signifiers.** The "lonely person owns exactly one mug / one chair / one toothbrush" shorthand is AI-grade sentimentality; the show *satirizes* it (Smorky runs the cliché read and is wrong) rather than leaning on it. Solitude is earned through specific, character-true, sometimes risqué detail (e.g., the unreachable back-tattoo), not props.
-- **No fixated round numbers.** Avoid clustering on tidy numerals (4, 400, 412, etc.). Numbers should feel specific and varied — *except* the one deliberately recurring stylized value: the sync-count (below).
-
-## The sync-count (a recurring stylized motif)
-
-A single number recurs across the whole series in one **recognizable visual style** — a small readout that flickers at the same spot on Smorky (his collarbone seam), the same place every episode. It is the count of how much of Cinders, quantified, Smorky has accrued — services synced, data points held, "things known." It is **dynamic: it climbs.** It is the warm-creepy meter of how deep into Cinders the Companion has gotten, ticking up in the background of ordinary scenes. Treat it the way the show treats the brand slogan: cute, until you notice what it's counting. It must never be a static figure; it is always mid-accumulation. (Continuity note: Episode 2's working title "The Haunting of 412" should later be reconciled with this — e.g., 412 is simply where the counter is flashing when that episode opens, or that episode retitles.)
 
 ## Characteristic noticings
 
@@ -99,8 +88,7 @@ What this sensibility attends to:
 - the things Cinders does *instead* of saying the feeling — refills the cat's water, changes the song, doesn't look up;
 - the EULA, the subscription, the non-cancelable bond, rendered as the modern magic-lamp fine print;
 - the surveillance that arrives wearing the face of company you didn't know you wanted;
-- the way a thought-bubble lets us see the inside of someone whose outside is a product — and the comedy of that inside being too big for its little 3D volume, spilling into the air between two people who are pretending not to read each other's minds;
-- the tattoo ink under a working artist's nails; the one stretch of skin a person who marks others for a living cannot reach to mark himself.
+- the way an aside lets us see the inside of someone whose outside is a product.
 
 ## Arc of the series (held open; not a mandate)
 

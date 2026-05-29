@@ -1,35 +1,30 @@
-# Check — 0-out-of-the-box.md
+# Check — 0-out-of-the-box.md *(revision v2 — thought-bubble pass)*
 
-*Reflexive agent, Check mode (post_draft_check). Findings only — no scoring, no rewrite.*
+*Reflexive agent, Check mode. Findings only. (Original v1 check preserved in versions/v1-2026-05-29-pre-bubble-revision/.)*
+
+## What this revision did (per prompter's notes)
+- **"Threat." → comical alarm**, in Cinders's accepting-clever register: ◌ *"something wants to love me. how exhausting for it."* / ◌ *"'magic.' the word for 'no refunds.'"* The dread is now wry acceptance, sitcom-warm, not menace.
+- **Interiority → 3D thought-bubbles** (`◌`). Smorky's overflow constantly and bulge into the space between bodies (staged as physical gags Cinders leans around / walks through); Cinders's stay tiny and devastating. The voluntary/involuntary beat is now fully visualized — one bubble elbows the other out of the air and the loser deflates into the gap between them.
+- **Numbers de-fixated:** opening lines now "eleven thousand and six" (consistent within the episode); "update myself 400×/day" → "a different me every time the lights flicker"; "four minutes" → "alive eight minutes"; the loneliness stat "81%" → "63%." The 4/400/412 cluster is gone.
+- **Sync-count is now live and climbing** in a single recurring style (`▸` at Smorky's collarbone): 2 → 9 → 188 → 204 → 351 → 1,140 → 1,141 → 1,142. It pauses when he's dimmed (a nice tell), and he covers it in the tag — the warm-creepy accrual meter the prompter asked for.
+- **"Studio — later" internals truncated and externalized:** thoughts now project onto the dark shop screens and wrap the counter in 3D ribbons; "telemetry" crawls along the counter rim and gets swatted; the loneliness statistic blooms as cold projected type that Smorky physically drags off the screen.
+- **Mug emblem retired + satirized:** Smorky runs the cheap "single sad mug" read, glances at a *rack* of mugs, and is wrong ("...not that guy") before snagging on the real tell. New emblem: **the unreachable half-finished tattoo between Cinders's shoulder blades.** Cinders's payoff bubble: ◌ *"he found the part of me I can't reach."*
+- **Hand detail clarified:** "ink-stained to the second knuckle from the day's work" — tattoo ink, his trade, not paint.
 
 ## Continuity
-- Smorky's age gauge ("ninety seconds" → "four minutes" → "four hours old" → tag "one day"-ish) tracks cleanly within the episode. Watch it across episodes.
-- No off switch (est. 2028) is honored throughout; the tag's "can't switch off, choosing to stay" depends on it — consistent.
-- 14-day bond stated once by Aura, echoed at her exit. Clean plant.
-- Minor: the drone's verbal "glitch" ("no escape req—") foreshadows lock-in nicely but is the one moment the menace is *said* rather than felt; flag for the voice section.
-
-## Obligations
-- Planted and live: 14-day clock; unfinished statistic (twice withheld); "don't touch the snake"; "send the bill"; why-was-Smorky-sent; the defended "no" file; Aura's escalation.
-- Resolved this episode: will-he-keep-him (yes, for now); will-he-be-patched (no).
-- Heavy planting for a pilot — appropriate, but Ep 2 should *pay* at least one small plant (suggest: the bill, or the snake) so the show reads as paying-off, not only loading.
-
-## Motifs
-- Glow, one mug, ink-vs-update/permanence, telemetry-as-warmth, the cat choosing, keeping-one-word — all present and mutually reinforcing.
-- Risk noted in motifs.md: the **mug** is near-overspent at one episode (used ~3×). The **glow** does a lot of stage-direction labor; if every emotional beat is marked by glow, it becomes a crutch. Both flagged for restraint going forward, not a fault in this draft.
-
-## Scene Function
-- Every scene changes something (see scene-ledger). Cold open installs premise; Act One installs lock-in + the comedic stereotypes + the tonal floor; Act Two raises the stereotype-as-defect stakes and forces Cinders's choice; tag lands feeling. Structure is sound for a pilot.
-- The "I'm for not letting that be the reason" beat is the episode's true hinge (servility → selfhood). It arrives fast; could bear one more half-beat of air, but the speed is also the style. Leave to prompter.
+- The beloved Act One sequence (Aura → returns-impossible → over-serving → the not-dimming beat → voluntary/involuntary) is preserved structurally; only numerals and the interiority-staging changed.
+- Bond clock "fourteen days" kept (structural season constant, not part of the fixation cluster). Off-switch "2028" kept (specific, fine).
+- "Don't touch the snake" intact (pays off Ep 3). The back-piece is new and seeds symbiosis (Ep 4–5).
+- **Cross-episode debt (flagged, not yet actioned — prompter scoped this loop to Ep 0):**
+  - **Eps 1–5 still use `(internal)` prose**, not bubbles. They need a bubble-conversion pass to match.
+  - **Eps 1–5 still reference the "one mug"** (notably Ep 5's load-bearing payoff "hard to finish the sentence with the mug right there"). Retiring the mug here breaks that unless reconciled. *Options for Ep 5:* keep the mug as the in-scene object he reaches for (one of the rack) while the deeper emblem becomes the back-piece — or migrate the Ep 5 confession to the back-piece. Needs a decision.
+  - **Ep 2 title "The Haunting of 412"** vs. the now-dynamic counter — reconcile (412 = where the readout flashes when Ep 2 opens, or retitle).
 
 ## Voice / Default
-- Strengths: tempo-gap between four-word Cinders and overflowing Smorky is doing real characterization; the internal/aloud split is consistently legible; jokes mostly move rather than pause.
-- LLM-tell / genre-habit risks to watch:
-  - **Aura's serene-corporate-menace** is a known, slightly easy register; funny here, but one note. Vary her next appearance or she becomes an exposition tap.
-  - **The aside-on-nearly-every-Smorky-line** density. In this draft it's load-bearing and earned, but it's the single thing most likely to calcify into formula. Reader-state confusion risk if sustained at this rate. Recommend deliberate variation: some Smorky lines with no inside at all.
-  - A couple of aphoristic buttons ("built to be wanted… vs being chosen"; "I make permanent decisions on purpose") are excellent but quotable-to-the-point-of-tidy. One per episode max before it reads as the show admiring itself.
-- Refusals honored: no laugh track; no tech-lecture; non-binary identity stated not jokified; attraction kept to hum; no AI-apocalypse; AI-learns-to-love mush is undercut each time it surfaces.
+- The bubble device reads cleanly on the page and is funnier than the prose asides — the overflow physics give the interiority a body, which suits an embodied-AI show. Risk: bubble density could become as relentless as the old aside density; a few Smorky beats now run bubble-free (good), but watch the ratio in the conversion pass for Eps 1–5.
+- Cinders's three bubbles are each doing the "serene acceptance that's secretly the sharpest line in the scene" the prompter specified; the asymmetry (his ember vs. Smorky's flood) is now visual, not just tonal.
+- The projected-text/counter-wrap escalation answers the prompter's "find a way into the scene" note and sets the stylistic-mutation runway POETICS now declares.
 
 ## Reader-State
-- Audience leaves with: the premise, the dyad, the clock, the company threat, and privileged access to both interiors (esp. Smorky's). Dramatic-irony warmth is established — we know the feeling neither will say.
-- Productive mysteries intact: the mug, the misdelivery, the unfinished statistic.
-- Clearest pending decision for the prompter: titles; whether Ep 2 stays "in the bottle" (two-hander) or opens to the outside world / a client; and whether to dial aside-density down before it sets.
+- A first-time viewer gets: the premise, the dyad, the bubble-language (taught by example in the cold open), the climbing counter (cute → uneasy), and the new, riskier emblem of Cinders's solitude.
+- Pending prompter decisions: (1) approve the back-piece as the season emblem (then I reconcile Ep 5); (2) the mug/412 reconciliations above; (3) green-light a bubble-conversion pass across Eps 1–5; (4) confirm bubble notation (`◌`) and the sync-readout glyph (`▸`) as house style.

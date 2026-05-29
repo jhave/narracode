@@ -1,16 +1,5 @@
 # Motifs
 
-> **DIRECTION CHANGE (2026-05-29, v2):** Two show-wide changes introduced by the prompter, applied to **Episode 0 only so far** — Eps 1–5 still carry the old conventions and need a later reconciliation pass.
-> 1. **Interiority is now visualized as 3D thought-bubbles** (`◌`), not narrated `(internal)` prose. Succinct or they overflow into the space between bodies (the gag). Smorky = manic/overflow-prone; Cinders = tiny/serene/devastating. Style mutates across episodes (projection on screens, wrapping the counter, bleeding between characters).
-> 2. **The "one mug" emblem is retired** (implausible for a full-sleeved alt minimalist; also a cheap AI-sentimentality tell the show now satirizes — Cinders owns a rack of mugs). **New emblem of solitude: the unfinished tattoo between his own shoulder blades**, the one piece he can't reach to finish and won't let anyone else touch. Risqué, character-true, seeds symbiosis.
-> 3. **The sync-count is now a live, climbing, singularly-styled readout** on Smorky's collarbone (recurring HUD), not a static "412." Counts how much of Cinders he's accrued; climbs in the background. (Reconcile Ep 2 title "The Haunting of 412" later.)
-> 4. **Numerals de-fixated** — vary numbers; the sync-count is the only deliberately recurring one. The hand-stain is **tattoo ink** (his trade), not paint.
-
-## New / show-wide (added v2)
-- **Thought-bubbles as mise-en-scène.** See direction note above + POETICS "The thought-bubble device." The hyper-surreal floating layer; overflow physics; two distinct thought-styles; the voluntary/involuntary beat now staged as one bubble shoved aside by a truer one.
-- **The climbing sync-count.** The warm-creepy accumulation meter; cute until you notice what it counts.
-- **The unreachable back-piece.** Replaces the mug. The one spot a man who marks others can't reach to mark himself = solitude, longing for another's hands, the symbiosis seed.
-
 ## Active
 - **The glow / the seams.** Smorky's involuntary brightening = his interiority leaking past the script. Dims as flinch, surges as joy. In the tag it dims "to almost nothing — but stays on" = mortal-adjacent, chosen presence. The body as honesty the script can't suppress.
 - **One mug.** Cinders's solitude, emblematized in an object, never explained. "He counted the mug." Smorky vows care around it.
