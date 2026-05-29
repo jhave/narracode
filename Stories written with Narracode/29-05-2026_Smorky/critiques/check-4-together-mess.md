@@ -2,6 +2,8 @@
 
 *Reflexive agent, Check mode (post_draft_check). Findings only.*
 
+> **v2 thought-bubble pass:** `(internal)` → `◌` bubbles. **"One mug" retired:** cold-open mug is now "a mug from the rack" placed at the coordinate of his reach (care-as-placement, intact); **the confession migrated from the mug to the back-piece** — "somebody's looking at the one piece of me I can't reach… the part of your back you gave up on" — paying off Ep 0 v2's solitude emblem and Smorky's season-long scanning of that spot. Apology-avalanche now has overflowing bubbles ("a cake says sorry / a choir says it LOUDER / what if sorry but skywriting"). Bubble **absence** marks the real apology and the cliffhanger (too real / too frightened to think in anything that fits). **Cliffhanger raised:** the `▸` readout (~35,400) **blinks like a file about to be deleted** — reset = keep the door, lose the knowing — so the recall now threatens the season's most-developed asset (everything he knows of Cinders). *Risk:* the back-piece confession is stronger and more consistent than the mug version, but it leans a half-step more overtly intimate; it's still displaced (he says "the part of my back," not "you"), which holds the hum. The Juno "marriage" beat now also floats an un-read bubble over Cinders — keep it un-read (don't let a later cut reveal it).
+
 ## Continuity
 - Clock: day 13, "bond completes tomorrow," cliffhanger on the final night. Monotonic and now expiring. Good.
 - Reach-limit honored to the end: the cliffhanger turns on "the door" being Smorky's *only* sync — the Ep 2 grant ("so you can let people out") pays off as the season's last image. Tight.

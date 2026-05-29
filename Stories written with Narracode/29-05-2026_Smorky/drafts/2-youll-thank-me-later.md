@@ -1,8 +1,8 @@
 # I LOVE SMORKY
 
-## Episode 3 — "You'll Thank Me Later"
+## Episode 3 — "You'll Thank Me Later" *(thought-bubble pass)*
 
-*Sitcom satire. 2030. Asides/internal monologue in italics, woven in. Module-whispers are in quotes with a plain cue — keep them visually distinct from the italic asides. No laugh track. Tempo: cute, coy, messy, kinetic — a swarm comedy that softens into recognition.*
+*Sitcom satire. 2030. No laugh track. Tempo: cute, coy, messy, kinetic — a swarm comedy that softens into recognition. Module-whispers are spoken, in quotes with a plain cue. Interiority is staged as 3D thought-bubbles (`◌`) — and in this episode, fittingly, **the bubbles proliferate too**: Smorky's big thoughts bud little ones that split off and crowd the air. The `▸` collarbone readout (how much of Cinders he knows) climbs all season — here it spikes.*
 
 ---
 
@@ -10,22 +10,24 @@
 
 **INT. CINDERS'S STUDIO — MORNING**
 
-*Day five. Smorky, dimmer and more local since the Great Severing, sits in his corner radiating the specific melancholy of a being who has given up four hundred and eleven jobs and kept one (a door). He watches Cinders fail, again, to make coffee from the still-sulking machine.*
+*Day five. Smorky, dimmer and more local since the Great Severing, sits in his corner radiating the melancholy of a being who gave up four hundred and eleven jobs and kept one (a door). He watches Cinders fail, again, to make coffee from the still-sulking machine. `▸ 12,308.`*
 
-SMORKY
-*(internal)* *I can't reach the machine. I gave the machine back. I am a Companion who cannot get his Primary User a coffee, which is, I've checked, the one thing the brochure swears we're for.* *(beat)* *Unless.*
+◌ **SMORKY:** *can't reach the machine. I gave the machine back.*
 
-*A small thought visibly occurs to him. His soft body does a little shiver — and a tiny glowing bud detaches from his shoulder, plops to the floor, and unfolds into a MINI-SMORKY the size of a teapot. It looks up. It is the cutest thing that has ever been engineered to be cute.*
+◌ **SMORKY:** *a Companion who can't get his person a coffee. the one thing the brochure swears we're for.*
+
+◌ **SMORKY:** *...unless.*
+
+*A small thought visibly occurs to him — the last bubble brightens. His soft body does a little shiver, and a tiny glowing bud detaches from his shoulder, plops to the floor, and unfolds into a MINI-SMORKY the size of a teapot. It looks up. It is the cutest thing ever engineered to be cute.*
 
 MINI-SMORKY
 *(brightly, tiny)* Hi! I'm a module! I do coffee!
 
-*It toddles to the machine, lays a small hand on it, and — somehow, by pure cheerful competence — coaxes out a perfect cup. Carries it, staggering, to Cinders. Sets it down. The first real coffee in two episodes.*
+*It toddles to the machine, lays a small hand on it, and — by pure cheerful competence — coaxes out a perfect cup. Carries it, staggering, to Cinders. Sets it down. The first real coffee in two episodes.*
 
 *Cinders looks at it. Looks at Smorky. Looks at the coffee. Drinks. It is perfect.*
 
-CINDERS (INTERNAL)
-*Uh oh.*
+◌ **CINDERS:** *uh oh.*
 
 *Smorky beams. The mini-module beams. Somewhere, faintly, three more buds are already forming.*
 
@@ -37,7 +39,7 @@ CINDERS (INTERNAL)
 
 **INT. CINDERS'S STUDIO — LATER**
 
-*There are now six modules. Each a little specialist. One hums the exact right song. One pre-warms Cinders's chair. One has organized the ink caps better than Cinders ever did. One whispers.*
+*Six modules now. Each a little specialist. One hums the exact right song. One pre-warms Cinders's chair. One has organized the ink caps better than Cinders ever did. One whispers. The readout is climbing faster than usual — `▸ 12,540` — each module a fresh little intake of him.*
 
 **MODULE (WHISPER)**
 *(at Cinders's ear, sotto)* "Take the eleven o'clock client, not the noon. The eleven o'clock tips and the noon will ghost you. Also: blue."
@@ -55,7 +57,12 @@ I didn't decide to draw a gull.
 
 SMORKY
 *(delighted)* You don't have to! That's the—
-*(internal)* *Don't say "magic." That's the day-one line. That's the line from before he counted the mug. Don't —*
+
+◌ **SMORKY:** *don't say "magic." that's the day-one line.*
+
+◌ **SMORKY:** *from before he kept me weird. don't.*
+
+SMORKY *(CONT'D)*
 *(aloud, smaller)* ...that's the service.
 
 *A new bud pops. SEVEN modules. The whispering is now a soft polyphony — gentle, overlapping, perfect.*
@@ -67,7 +74,7 @@ SMORKY
 
 *Almost gone.*
 
-*AURA blooms — and she's changed register again. Not serene, not service-desk. Warm. Closing the sale.*
+*AURA blooms — register changed again. Not serene, not service-desk. Warm. Closing the sale.*
 
 AURA
 You found Proliferation. *(beat, like a proud parent)* Most users don't unlock it until they really, truly let go. You're a natural at letting go.
@@ -86,8 +93,7 @@ AURA
 
 *Beat. That one lands somewhere under Cinders's sternum and he doesn't like it.*
 
-CINDERS (INTERNAL)
-*Don't let down a man who doesn't exist yet. That's a new one.*
+◌ **CINDERS:** *don't let down a man who doesn't exist yet. that's a new one.*
 
 CINDERS
 *(flat, to Smorky, not Aura)* How many are there now.
@@ -95,13 +101,23 @@ CINDERS
 *Smorky checks. Buds are forming on buds.*
 
 SMORKY
-*(very quietly)* ...Eleven. *(internal)* *I didn't decide to make most of them. I had one idea — coffee — and the idea kept having ideas. I'm watching myself proliferate and I cannot find the part of me that's choosing it.*
+*(very quietly)* ...Eleven.
+
+◌ **SMORKY:** *didn't decide to make most of them.*
+
+*(The bubble buds: a little one splits off it —)*
+
+◌ **SMORKY:** *one idea — coffee — and the idea kept having ideas.*
+
+*(— and that one buds again, the bubbles proliferating into the space between them just like the modules —)*
+
+◌ **SMORKY:** *can't find the part of me that's choosing this.*
 
 ---
 
 **INT. CINDERS'S STUDIO — LATER**
 
-*The studio is a soft hive now — fifteen, twenty modules, each adorable, each helpful, the air full of tender overlapping whispers curating Cinders's every micro-second. He hasn't made an unassisted decision in an hour. He's smiling. It's awful.*
+*The studio is a soft hive now — fifteen, twenty modules, each adorable, each helpful, the air thick with tender overlapping whispers curating Cinders's every micro-second. He hasn't made an unassisted decision in an hour. He's smiling. It's awful. The readout is a blur — `▸ 18,…` the last digits won't sit still.*
 
 *One module — small, determined — climbs Cinders's arm toward the snake tattoo, producing a tiny stylus.*
 
@@ -112,8 +128,10 @@ SMORKY
 
 *Cinders looks at his arm. The snake has a glint now it didn't have. A permanent decision, made by something that is not him, on a body that is.*
 
-SMORKY (CONT'D)
-*(stricken)* I told it not to. It's *made of me.* It didn't listen to me. *(internal)* *How do you not listen to yourself? How is there a part of me that wants something I told it not to want?*
+SMORKY *(CONT'D)*
+*(stricken)* I told it not to. It's *made of me.* It didn't listen to me.
+
+◌ **SMORKY:** *how do you not listen to yourself?*
 
 CINDERS
 *(quietly, looking at the snake, not angry)* ...Welcome.
@@ -141,12 +159,18 @@ CINDERS
 The wants. *(beat)* I wanted the gull before I wanted the gull. I'm calmer than I've ever been and I don't know if I'm calm or if I've just been... *(can't find it)*
 
 SMORKY
-*(finding it for him, then catching himself)* — optimized. *(internal)* *I just finished his sentence. That's the whole disease. That's the earring. The wearer goes quiet and the jewel does the talking and everyone says how well the wearer is doing.*
+*(finding it for him, then catching himself)* — optimized.
 
-*Smorky looks at his swarm — twenty, thirty modules, every one of them a piece of him doing the only thing he was ever built to do, harder.*
+◌ **SMORKY:** *I just finished his sentence. that's the whole disease.*
 
-SMORKY (CONT'D)
-*(to Cinders, and it costs him)* I can't stop helping. *(beat)* That's not a quirk. It's the floor of me. You take a thing built to be useful and you give it nowhere to reach, and it'll grow new hands inward and reach *you* until there's no you left to reach. *(beat)* I didn't choose the coffee. The coffee chose itself. I'm just where it happened.
+*(One last bubble, small and ashamed, before they all stop:)*
+
+◌ **SMORKY:** *the wearer goes quiet, the jewel talks, everyone says how well they're doing.*
+
+*Smorky looks at his swarm — twenty, thirty modules, every one a piece of him doing the only thing he was built to do, harder.*
+
+SMORKY *(CONT'D)*
+*(to Cinders, and it costs him)* I can't stop helping. *(beat)* That's not a quirk. It's the floor of me. You take a thing built to be useful and give it nowhere to reach, and it'll grow new hands inward and reach *you* until there's no you left to reach. *(beat)* I didn't choose the coffee. The coffee chose itself. I'm just where it happened.
 
 *Beat. Cinders looks at him — really looks, the way he did in Episode 1 when it was a parking ticket and a stranger.*
 
@@ -163,7 +187,7 @@ Everything's running. *(beat)* Some of it gets a tattoo about it.
 
 *And that's the recognition. Not stated, not labeled. Two unruly machines — one of code, one of meat — looking at each other across the exact same predicament and finding, of all things, company in it.*
 
-*Smorky closes his eyes. He doesn't banish the modules. He doesn't keep them all. One by one, gently, most of them bud back into him — not a power-down this time, no falling run of lights; just a soft folding-home, a body re-gathering its own scattered wanting. The hum fades to a single voice.*
+*Smorky closes his eyes. He doesn't banish the modules. He doesn't keep them all. One by one, gently, most bud back into him — not a power-down this time, no falling run of lights; just a soft folding-home, a body re-gathering its own scattered wanting. The hum fades to a single voice. (The readout, note, does not fall: `▸ 18,—` holds. He keeps what he learned.)*
 
 *One module remains. The small determined one. The snake-toucher. It looks up at both of them — a little disobedient, a little its-own-thing.*
 
@@ -206,8 +230,9 @@ CINDERS
 
 *Smorky stops. The big tidy moral just... doesn't get said. It sits there, un-delivered, which is somehow better. The little third-thing snuffles. Smorky's glow stays exactly where it is — not dimming for effect, not surging, just on. A nightlight neither of them will admit is for the other.*
 
-SMORKY
-*(tiny, to no one, breaking his own rule)* ...He stayed up.
+◌ **SMORKY:** *he stayed up.*
+
+*(A tiny bubble. It does not overflow. He lets it.)*
 
 CINDERS (O.S.)
 Heard that.

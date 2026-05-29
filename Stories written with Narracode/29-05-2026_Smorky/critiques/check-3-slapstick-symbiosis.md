@@ -2,6 +2,8 @@
 
 *Reflexive agent, Check mode (post_draft_check). Findings only.*
 
+> **v2 thought-bubble pass:** `(internal)` → `◌` bubbles. Episode-specific device: **in the dream the bubbles bleed and fuse between the two** — a manic Smorky-bubble and a tiny Cinders-bubble braid and merge into one un-attributable thought, then *split back into two* at the moment Cinders re-asserts being separate. This makes the merge/sym thesis visible in the interiority layer, not just the bodies. The readout spins to `▸ ∞` inside the stream (the escape's lie) and settles honest on waking (`▸ 31,950`, "even the escape taught it something"). Pointed bubble **absence** at the two rawest beats (Smorky can't lie; the tag, where he pops his own unfinished thought) — the device earns its silences. *Risk:* the fused-bubble gag is gorgeous but reads as direction more than text; flag for the board/animatic. No new continuity issues.
+
 ## Continuity
 - Clock: day 12, "~1–2 days left." Monotonic with the prior 14→10→8. Good.
 - **Reach-limit honored:** Smorky does NOT regain network powers to enter the dream; the third thing is the explicit conduit ("the third thing isn't reach... holding the door open from the inside"). This keeps the Ep 2 severing intact while still enabling the climax. Important and correctly handled.

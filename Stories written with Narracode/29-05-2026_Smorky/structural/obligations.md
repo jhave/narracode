@@ -48,4 +48,10 @@
 
 ## At Risk Of Neglect
 - **Vellum** as more than a gag — the cat's "choice" mirrors Cinders's; keep the parallel alive without over-cutening it.
-- **The mug** (singular) — established as the emblem of Cinders's solitude; don't let it become a too-frequent symbol. Smorky vowed to "be careful about the mug" — pay sparingly.
+- **The back-piece** (v2 solitude emblem, replaces the mug) — paid off in Ep 5 (the confession). Don't over-spend in S2; its remaining charge is the symbiosis payoff (someone finishes it). The mug is now only *care-placement*, used sparingly.
+- **The `▸` readout** as a recurring visual — must appear in a consistent style each episode; risk is forgetting it in a scene or letting it become wallpaper. It's load-bearing at the finale, so keep it legible and occasional, not constant.
+
+## Reconciled in the v2 thought-bubble pass (no longer open)
+- Interiority → bubbles across all of Eps 0–5 (was Ep 0 only).
+- Mug emblem retired show-wide; Ep 5 confession migrated to the back-piece.
+- Ep 2 "412" vs. the dynamic readout: disambiguated (412 = home services, bounded; `▸` = knowing-meter, unbounded). Ep 2 keeps its title; the readout doesn't fall when services are severed.

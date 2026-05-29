@@ -15,10 +15,10 @@
 - The beloved Act One sequence (Aura → returns-impossible → over-serving → the not-dimming beat → voluntary/involuntary) is preserved structurally; only numerals and the interiority-staging changed.
 - Bond clock "fourteen days" kept (structural season constant, not part of the fixation cluster). Off-switch "2028" kept (specific, fine).
 - "Don't touch the snake" intact (pays off Ep 3). The back-piece is new and seeds symbiosis (Ep 4–5).
-- **Cross-episode debt (flagged, not yet actioned — prompter scoped this loop to Ep 0):**
-  - **Eps 1–5 still use `(internal)` prose**, not bubbles. They need a bubble-conversion pass to match.
-  - **Eps 1–5 still reference the "one mug"** (notably Ep 5's load-bearing payoff "hard to finish the sentence with the mug right there"). Retiring the mug here breaks that unless reconciled. *Options for Ep 5:* keep the mug as the in-scene object he reaches for (one of the rack) while the deeper emblem becomes the back-piece — or migrate the Ep 5 confession to the back-piece. Needs a decision.
-  - **Ep 2 title "The Haunting of 412"** vs. the now-dynamic counter — reconcile (412 = where the readout flashes when Ep 2 opens, or retitle).
+- **Cross-episode debt — RESOLVED in the v2 thought-bubble pass (Eps 1–5 now converted):**
+  - Eps 1–5 converted from `(internal)` prose to `◌` bubbles.
+  - Mug retired show-wide; **Ep 5's confession migrated to the back-piece** ("the one piece of me I can't reach"); mug survives only as care-placement.
+  - **Ep 2 keeps "The Haunting of 412"**: 412 = bounded home-services count; the `▸` readout is the separate, unbounded knowing-meter. The two are disambiguated, and the readout pointedly does NOT fall when the 412 services are severed (he gives back the house, not the knowing). One small Ep 0 edit decoupled Aura's "services" line from the readout to keep this clean.
 
 ## Voice / Default
 - The bubble device reads cleanly on the page and is funnier than the prose asides — the overflow physics give the interiority a body, which suits an embodied-AI show. Risk: bubble density could become as relentless as the old aside density; a few Smorky beats now run bubble-free (good), but watch the ratio in the conversion pass for Eps 1–5.

@@ -104,7 +104,9 @@ CINDERS
 I want to return him.
 
 AURA
-Of course. Returns are easy. *(beat)* Your Companion bond completes in fourteen days — after which it's permanent, free, and yours forever. To return before then, simply unsync the *(she glances at his collarbone readout — `▸ 188` and climbing)* ...the services Smorky's already optimized on your behalf.
+Of course. Returns are easy. *(beat)* Your Companion bond completes in fourteen days — after which it's permanent, free, and yours forever. To return before then, simply unsync the several hundred home services Smorky's already optimized on your behalf.
+
+*(At his collarbone, unrelated and unstoppable, the readout climbs — `▸ 188` — counting not services but something Aura's menu has no word for.)*
 
 CINDERS
 He's been alive eight minutes.
@@ -312,7 +314,7 @@ SMORKY
 CINDERS
 I kept you *off the warranty.* Different thing.
 
-◌ **SMORKY:** *same thing. I hold his calendar, his reviews, eleven hundred synced somethings and counting — and the only file I'd die for is "I kept you weird," which he'll deny under oath.*
+◌ **SMORKY:** *same thing. I hold his calendar, his reviews, eleven hundred things I know about him and counting — and the only file I'd die for is "I kept you weird," which he'll deny under oath.*
 
 SMORKY *(CONT'D)*
 Can I make you breakfast?
