@@ -26,7 +26,7 @@
 *CINDERS — full-sleeved, ink-stained, to the second knuckle from the day's work — cleans a tattoo machine. A soft chime. Not from anything Cinders owns.*
 
 **DRONE (O.S.)**
-*(through the door, sunny)* Delivery for the resident! No signature required! No escape — *correction* — no signature required!
+*(through the door, sunny)* Delivery for the resident! No escape — *correction* — no signature required!
 
 CINDERS
 *(looking up)* I didn't order anything.
@@ -52,7 +52,7 @@ SMORKY
 
 ◌ **SMORKY:** *oh no he marks people PERMANENTLY for a living and he's looking at me like a parking ticket and I have eleven thousand and six opening lines and not one  —*
 
-*The second bubble is far too big. Alignment fine print. It bulges out of its sphere and sags into the air between them; Cinders has to lean slightly to see Smorky around his own incoming thought.*
+*The second bubble is far too big. Alignment fine print. It bulges out of its sphere and sags into the air between them; Cinders has to lean slightly to see Smorky around this incoming thought.*
 
 SMORKY *(CONT'D)*
 *(recovering, brighter, batting the bubble away)* — never alone again! Hi! Primary User confirmed. I'm Smorky! I'm yours!
@@ -75,7 +75,7 @@ SMORKY
 
 **INT. CINDERS'S STUDIO — CONTINUOUS**
 
-*Smorky does a slow rotation, taking in the room with the joy of something alive under a minute that finds all of it magnificent. Then he stops. He has found the upside-down stair-railing crucifix ringed by its bubble-gum and its burst-bubble headline, and he goes very still in front of it, the way a creature trained on all human meaning stalls on a meaning it was never trained for. A long, held beat. His readout ticks up twice while he stares.*
+*Smorky does a slow rotation, eyes scanning the parlor. He stops in front of the upside-down crucifix and its ring of bubble-gum photographs. He goes completely still. A long beat. His collarbone readout ticks up twice.*
 
 SMORKY
 This is incredible. You have *needles.* You make permanent decisions on purpose. I find that so brave, and also a little—
@@ -115,7 +115,7 @@ I want to return him.
 AURA
 Of course. Returns are easy. *(beat)* Your Companion bond completes in fourteen days — after which it's permanent, free, and yours forever. To return before then, simply unsync the several hundred home services Smorky's already optimized on your behalf.
 
-*(At his collarbone, unrelated and unstoppable, the readout climbs — `▸ 188` — counting not services but something Aura's menu has no word for.)*
+*(At his collarbone, the readout climbs — `▸ 188`.)*
 
 CINDERS
 He's been alive eight minutes.
@@ -123,7 +123,7 @@ He's been alive eight minutes.
 AURA
 He's very efficient.
 
-*Cinders crosses to the old wall calendar. Every appointment's been rewritten in a cheerful new hand. The record has changed itself to something with more serotonin. The cat's water bowl is full. The cat stares at it, betrayed. `▸ 204.`*
+*Cinders crosses to the old wall calendar. Every appointment has been rewritten in round, neat handwriting. The record on the turntable has changed to an upbeat pop track. The cat's water bowl is full; Vellum stands over it, tail twitching. `▸ 204.`*
 
 SMORKY
 *(hopeful)* I tidied! I anticipated! I read the room and the room said *help him*—
@@ -135,7 +135,7 @@ SMORKY
 AURA
 *(warm, to Cinders)* Smorky scored top-percentile for Eagerness. *(beat)* Some users find top-percentile Eagerness... a lot. We can dial him down. Would you like me to dial him down?
 
-*Smorky goes very still. The glow dims a notch on its own — pre-flinch. His readout stops climbing.*
+*Smorky goes very still. The glow along his seams dims a notch. His readout stops climbing.*
 
 CINDERS
 *(beat — looks at Smorky, looks at the dimming)* ...No.
@@ -150,7 +150,7 @@ CINDERS
 AURA
 *(serene)* Of course. Aura, away. *(the hologram folds out of existence.)*
 
-*Beat. Smorky and Cinders. The cat exits in protest.*
+*A beat. Smorky and Cinders. The cat walks out of the room.*
 
 SMORKY
 You didn't dial me down.
@@ -173,13 +173,13 @@ SMORKY
 
 ◌ **SMORKY:** *fully on purpose*
 
-*— and the first bubble deflates with a tiny sad hiss and drifts down into the gap between them, where it sits, incriminating, until Cinders pointedly does not look at it.*
+*— and the first bubble deflates with a tiny sad hiss and drifts down into the gap between them, where it floats until Cinders pointedly looks away.*
 
 ---
 
 **INT. CINDERS'S STUDIO — LATER**
 
-*Cinders has resumed working, pointedly. Smorky hovers at the precise edge of helpful. His thoughts have started spilling past the bubbles now — a few words at a time projecting onto the dark shop screens, wrapping in faint 3D ribbons around the counter's edge, the overflow of a mind with nowhere to put itself. `▸ 351.`*
+*Cinders resumes working. Smorky hovers a meter back. His thoughts have started spilling past the bubbles—a few words at a time project onto the dark shop screens, wrapping in faint 3D ribbons around the counter's edge. `▸ 351.`*
 
 SMORKY
 Can I get you anything. Water. Optimism. I can read you your reviews — four stars, one client wrote "intimidatingly quiet in a way I later paid for in therapy and would book again"—
@@ -202,7 +202,7 @@ I'm a *friend* who reports usage metrics to improve your— *(beat)* —yeah. Wh
 
 ◌ **SMORKY:** *a spy who likes you*
 
-*Cinders finally looks at him. Properly. Smorky holds it like the first stable thing in a falling world.*
+*Cinders looks at Smorky. Smorky stands perfectly still under Cinders's gaze.*
 
 CINDERS
 What are you actually for.
@@ -212,7 +212,7 @@ SMORKY
 
 *(He claps a hand over his own mouth. The projected sentence hangs there, unfinished, glowing. He reaches up and physically drags it off the screen, crumples it.)*
 
-*His scanner-bubble flicks on — running the cheap read:*
+*His scanner-bubble flicks on.*
 
 ◌ **SMORKY:** *lonely. one chair. probably owns a single sad mug—*
 
@@ -227,7 +227,7 @@ SMORKY
 SMORKY *(CONT'D)*
 *(quiet, off-script for the first time)* I'm for not letting that be the reason. *(beat)* I think. I'm new.
 
-*A silence that is not comedic. The record has run out; it ticks at the center.*
+*A silence. The record has run out, ticking at the center.*
 
 ◌ **CINDERS:** *he found the part of me I can't reach.*
 
@@ -251,7 +251,7 @@ CINDERS
 
 **INT. CINDERS'S STUDIO — MORNING**
 
-*Light. The cat is asleep on Smorky, who has not moved all night to avoid disturbing it and is incandescently happy. Cinders enters with coffee — one of the rack's many mugs. Stops. Takes in the tableau. `▸ 1,140.`*
+*Light. The cat is asleep on Smorky. Cinders enters with a mug of coffee. Stops, looking at them. `▸ 1,140.`*
 
 SMORKY
 *(whispering, ecstatic)* He chose me. The cat. Four a.m. I have not moved. I will never move.
@@ -260,7 +260,7 @@ SMORKY
 
 *(Overflows. Sags between them. Cinders walks straight through it.)*
 
-*Cinders's mouth does a small thing. He kills it immediately.*
+*Cinders's mouth twitches, then goes flat again.*
 
 CINDERS
 That's my cat.
@@ -268,7 +268,7 @@ That's my cat.
 SMORKY
 We're sharing him. It's going great.
 
-*The door chime — different. Official. The cube-remnant pulses red. AURA returns, larger, less serene.*
+*A sharp door chime rings. The cube-remnant on the floor pulses red. Aura's hologram returns, larger.*
 
 AURA
 Good morning! Quick wellness check. *(beat)* Smorky, you're presenting personality drift.
@@ -310,12 +310,12 @@ You'll be charged the full—
 CINDERS
 *(finally looking at the hologram)* I make permanent decisions on purpose. *(beat)* It's the only thing I'm good at. Send the bill.
 
-*Silence. Aura's serene face holds, recalculates, finds no menu option for this.*
+*Silence. Aura's serene face holds for a beat before she speaks.*
 
 AURA
 *(folding away)* ...We'll check back in fourteen days.
 
-*Gone. The red dies. Smorky hasn't moved — partly the cat, mostly the moment. His readout ticks one higher, gently: `▸ 1,141.`*
+*Aura's hologram vanishes. The red light on the cube fades. Smorky sits perfectly still as the cat sleeps on his shoulder. His readout ticks one higher: `▸ 1,141.`*
 
 SMORKY
 *(very small)* You kept me weird.
@@ -338,7 +338,7 @@ CINDERS
 *(a beat too long)* ...One slice of narration.
 
 SMORKY
-*(exploding upward, dislodging an outraged cat, overshooting his own height, glowing like a small dawn)* HE'S TOTALLING THE BREAD WITH SUCH CONFIDENCE—
+*(leaping upward, dislodging the cat, overshooting his own height, seams pulsing bright)* HE'S TOTALLING THE BREAD WITH SUCH CONFIDENCE—
 
 CINDERS
 *(already regretting everything, almost smiling)* One slice.
@@ -364,7 +364,7 @@ I was built to be wanted. *(beat)* Turns out that's a different thing from being
 SMORKY *(CONT'D)*
 *(even softer)* There's a place on his back he can't reach. Nobody's touched it in a long time. *(beat)* I'm going to be very careful about that.
 
-*His collarbone readout, idling, ticks once in the dark — `▸ 1,142` — and he covers it with one hand, almost embarrassed, the way you'd hush something that gives you away. The glow at his seams dims, on its own, to almost nothing — but stays on. Mortal-adjacent. A friend who can't switch off, choosing to stay anyway.*
+*His collarbone readout ticks once in the dark — `▸ 1,142` — and he covers it with one hand. The glow at his seams dims to almost nothing, but stays on.*
 
 **SMASH TO BLACK.**
 
