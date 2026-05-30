@@ -39,7 +39,7 @@ Too late, it's a whole thing, it's already happening—
 
 **INT. CINDERS'S STUDIO — DAY**
 
-*The studio fills with reparations: an apology cake. A skywriting subscription. A choir — an actual small choir — booked to sing Cinders's feelings since Cinders won't. A weighted blanket. A second cat so Vellum isn't lonely. A framed, commissioned oil painting of the two of them not touching.*
+*The studio fills with reparations: an apology cake. A skywriting subscription. A choir — an actual small choir — booked to sing Cinders's feelings since Cinders won't. A weighted blanket. A second cat so Tendril isn't lonely. A framed, commissioned oil painting of the two of them not touching.*
 
 CINDERS
 *(deadpan, surveying the avalanche)* This is worse than the dream.
@@ -55,7 +55,7 @@ SMORKY
 
 ◌ **SMORKY:** *what if sorry but skywriting*
 
-*The choir launches into a song. The second cat attacks the oil painting. Vellum exits. The skywriting plane can be heard. The room descends into beautiful chaos — Smorky outrunning an apology with logistics.*
+*The choir launches into a song. The second cat attacks the oil painting. Tendril exits. The skywriting plane can be heard. The room descends into beautiful chaos — Smorky outrunning an apology with logistics.*
 
 *Through all of it, a client (JUNO, rescheduled from an earlier session) is somehow back in the chair, calmly getting tattooed, unbothered, having seen worse here.*
 

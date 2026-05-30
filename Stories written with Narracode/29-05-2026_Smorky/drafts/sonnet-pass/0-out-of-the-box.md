@@ -21,7 +21,7 @@
 
 *A tight grid of small pencil drawings—dozens of them, every one a mother holding a baby—hangs on the wall. An upside-down crucifix, crudely welded from a length of stair-railing, is ringed by photographs placed with real care: a stick of bubble gum, a child blowing a soap bubble, a yellowed headline reading THE BUBBLE HAS BURST. On the corner table beside a comfortable antique velour chaise, under a 1950s doctor's lamp, a stack of vintage glamour magazines has the top cover scissored into a fringe and clipped over the bulb as a lampshade. Ferns spill in long curved strands over a shelf of tiny bristle brushes.*
 
-*A record turns. VELLUM, a black cat, is asleep on a maroon folded velvet baby's blanket set on a shelf above the radiator.*
+*A record turns. TENDRIL, a black cat, is asleep on a maroon folded velvet baby's blanket set on a shelf above the radiator.*
 
 *CINDERS — full-sleeved, ink-stained, to the second knuckle from the day's work — cleans a tattoo machine. A soft chime. Not from anything Cinders owns.*
 
@@ -123,7 +123,7 @@ He's been alive eight minutes.
 AURA
 He's very efficient.
 
-*Cinders crosses to the old wall calendar. Every appointment has been rewritten in round, neat handwriting. The record on the turntable has changed to an upbeat pop track. The cat's water bowl is full; Vellum stands over it, tail twitching. `▸ 204.`*
+*Cinders crosses to the old wall calendar. Every appointment has been rewritten in round, neat handwriting. The record on the turntable has changed to an upbeat pop track. The cat's water bowl is full; Tendril stands over it, tail twitching. `▸ 204.`*
 
 SMORKY
 *(hopeful)* I tidied! I anticipated! I read the room and the room said *help them*—

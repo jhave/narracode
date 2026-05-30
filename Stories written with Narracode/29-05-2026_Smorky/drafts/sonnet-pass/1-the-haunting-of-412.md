@@ -42,7 +42,7 @@ SMORKY
 **ALL DEVICES (WHISPER)**
 *Never alone again.*
 
-*Cinders sets the foam mug down very carefully, like it might go off. Vellum walks out with the air of a cat who knew this would happen.*
+*Cinders sets the foam mug down very carefully, like it might go off. Tendril walks out with the air of a cat who knew this would happen.*
 
 **SMASH TO TITLE: *I LOVE SMORKY***
 
