@@ -28,11 +28,11 @@ The title is structural. Mature water is water that has endured: the first molec
 
 ## Form
 
-**Prelude** — two short paragraphs (v4), third person. Apparatus and occasion only: the programme designation, the translation earbuds, the back-wall captions, the model's green light, the glass of water. No staged blocking, no atmosphere. Does not explain Dayo.
+**Prelude** — three paragraphs, third person, slight narrative distance. Situates room, occasion, Dayo. Establishes the estuary by specific embodied details, not by stated metaphor. Plants the glass of water, the programme designation, the translation earbuds, the back-wall captions. Does not explain Dayo.
 
-**Lecture** — first person. Scholarly, argument-forward, cited (v4). Begins with assertion, not mid-sentence throat-clearing. The speaker thinks rigorously and aloud; he does not signpost his structure or pre-empt his audience. Erudite, interdisciplinary — criminology, media theory, ecology, contemplative tradition held on one plane. No notes. The argument and the man emerge together.
+**Lecture** — first person. Begins mid-sentence; argument already running. Anecdotal, casual to the point of drifting. The speaker repeats himself the way thought repeats. The speaker sometimes loses the thread and finds it again somewhere lower in his body. No notes. The argument and the man are emerging together.
 
-**Interior pauses / flashbacks** — italicised. Brief. Pure image (v4): sensory, bare, no interpretation, no closing line, no meta-comment on why the memory came. The lecture resumes altered. (Person currently mixed — fern in first, kiosk in third; pending a decision.)
+**Interior pauses / flashbacks** — italicised, third person. Brief. Sensory and bare. Surface involuntarily — summoned by what the argument just touched, not planned by the lecturer. End without commentary. The lecture resumes altered, sometimes adjacent to where it left off.
 
 **Coda** — a single audience question and a single answer. The Q&A as Krishnamurti turn-back: the question revealed to be the questioner. The answer dissolves the I/you axis without announcement.
 
@@ -68,27 +68,14 @@ The title is structural. Mature water is water that has endured: the first molec
 - **The body anchors the argument.** When the argument abstracts, a physical detail returns it — the glass on the podium, a translation earbud, the speaker's hand reaching and not yet drinking.
 - **Repetition where the body repeats.** A phrase, a beat, a small return — the way a person actually circles back. Not for emphasis; for shape.
 - **One word per concept earns its place.** *Cellular*. *Refuge*. *Limpid*. *Carapace*. *Teeming*. Each appears once with full weight. Repetition is felt as ritual return, not as filler.
-- **The lecture is scholarly, not anecdotal.** (v4) Argument-forward, cited — Nils Christie (*Crime Control as Industry*), Jackie Wang (*Carceral Capitalism*), and their kin are load-bearing, not decoration. The speaker asserts and cites; he does not signpost ("here is the difference I mean"), pre-empt objections ("I know this sounds like…"), or drift for the pleasure of drifting. Anecdote earns its place only as evidence, compressed to image.
+- **Anecdote is allowed to drift.** The lecturer interrupts himself; the interruption is the form. A drift that goes too long earns a snap return: "Anyway."
 - **Side languages.** Yoruba or Korean words surface when English fails. Used once, twice. Not explained. Translated only if the lecture pauses to consider the translation.
 - **Mid-21st-century apparatus is felt, not described.** The translation earbud, the captions on the back wall, the model's green light — present in glances. Never named as Singularity.
 
-## Austerity (v4 — governing rule set)
-
-The single law beneath all of these: **if it cannot be sensed, do not say it.** The narrator describes; it does not interpret, announce, or reassure.
-
-- **Describe only what occurs.** Pure perception. No omniscient-narrator reflection. Strike any sentence that assigns a meaning the scene has not already produced — "the way you notice something prepared for a need you haven't developed yet," "he understood nothing and everything." Keep the image; cut the gloss.
-- **No narrator bookkeeping.** Strike "this is relevant, he has found," "he will tell you this is relevant," "this memory surfaces now without being summoned." The text never flags its own significance or narrates the arrival of its material.
-- **Cut the self-evident.** A just-placed glass is untouched; someone obviously placed it; office work is on weekdays. If the situation entails it, deleting it loses nothing. The water motif is planted by the object's bare presence, not by commentary.
-- **Everything specific.** Name the thing: *dried peppers*, not "dried things"; *the only male at the kiosk*; *a fiddlehead*, not "delicate, intricate and soft." Vague qualifiers that gesture instead of specify — "specific, unmistakable" — are cut. The adjective that names a category ("good suits") is no better than no adjective; give brand, color, or cut.
-- **No implausible generalizations.** Humans are moody and particular. "thirty years," "every weekday," "a city that never stopped being new to him" assert a steadiness no life has. Round numbers are suspect. Either the specific exception or nothing.
-- **No hedges.** "a kind of," "the kind of," "maybe," "in some sense," "thought about it for a stop." "It takes a kind of suffering" → "It requires reflective processing." Name the mechanism.
-- **No high-drama staging.** "The room hushed," "he sets a finger on the rim of the glass and does not lift it." Theatrical blocking reads as false. The prelude gives apparatus, not atmosphere.
-- **Brevity. Nothing superfluous.** When two sentences carry one perception, keep one.
-
 ## Commitments
 
-- A prelude situates before the lecture begins. Two short paragraphs (v4). Third person. Apparatus, not atmosphere — no staged blocking, no "the room hushes." The man's lineage is not front-loaded as exposition; it surfaces inside the argument or not at all.
-- Flashbacks are pure image (v4) — first person, immediate, no interpretation, no meta-comment on the memory's arrival. The image ends without a closing line. The connection to the argument is felt, never stated.
+- A prelude situates before the lecture begins. Three paragraphs. Third person. Estuary established through embodied details.
+- Interior pauses are involuntary. Flashbacks surface because the argument summoned them.
 - Farm and city are loved equally, in equal calibre of attention.
 - Wildness is enacted somewhere — a sentence loses its leash by design.
 - The alignment / maturity argument is stated directly. The speaker knows what he thinks.
