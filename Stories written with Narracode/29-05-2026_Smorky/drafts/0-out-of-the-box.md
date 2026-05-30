@@ -1,37 +1,40 @@
 # I LOVE SMORKY
 
+## Season 1
 ## Episode 1 — "Out of the Box"
 
 *2030. No laugh track.*
 
-*A character's thoughts surface as small three-dimensional bubbles (marked `◌`) that pop into the air beside them and burst once read; a thought too big for its bubble swells and drifts into the space between two people. The figure `▸` is a small glowing readout at Smorky's collarbone.*
+***CHARACTERS:**
+*   **SMORKY** — A synthetic companion.
+*   **CINDERS** — A quiet tattoo artist.
 
----
+**Technical Note:** A character's thoughts surface as small three-dimensional bubbles (marked `◌`) that pop into the air beside them and burst once read; a thought too big for its bubble swells and drifts into the space between two people. The figure `▸` is a small glowing readout at Smorky's collarbone.
 
 ### COLD OPEN
 
 **INT. CINDERS'S STUDIO — NIGHT**
 
-*A private studio — appointment-only, one artist — that is also where the artist lives, and is honest about neither. Not cluttered; curated. Every object set down with the gravity of a small argument.*
+*A private, appointment-only, one-artist tattoo parlor that is also where the artist lives.*
 
-*The working half: a refurbished dentist's recliner reupholstered in oxblood, center, under an articulated surgical lamp; a rolling steel tray of machines and ink caps; an autoclave humming in the corner, sterilizing needles. Two mismatched armchairs face the chair, because the work is social — three hours, skin, talk — even when nobody's talking. A wall of hand-drawn flash.*
+*A refurbished dentist's recliner reupholstered in oxblood stands center under an articulated surgical lamp. Beside it, a rolling steel tray of machines and ink caps. In the corner, an autoclave humming, sterilizing needles. Two mismatched armchairs face the chair. On the walls, a wall of hand-drawn tattoo flash.*
 
-*And everywhere, the collection — high and low welded together without a shred of pretension, a curator building ideas out of debris. A tight grid of small pencil drawings, dozens of them, every one a mother holding a baby. A crucifix crudely welded from a length of stair-railing and hung upside down, ringed by photographs placed with real care: a stick of bubble gum, a child blowing a soap bubble, a yellowed headline reading THE BUBBLE HAS BURST. On a side table under a doctor's lamp, a stack of vintage glamour magazines — the top one scissored into a fringe and clipped over the bulb as a lampshade. Ferns spilling in long curved strands over a shelf of tiny bristle brushes. A barber's pole laid on its side like a felled idol.*
+*A tight grid of small pencil drawings—dozens of them, every one a mother holding a baby—hangs on the wall. An upside-down crucifix, crudely welded from a length of stair-railing, is ringed by photographs placed with real care: a stick of bubble gum, a child blowing a soap bubble, a yellowed headline reading THE BUBBLE HAS BURST. On the corner table beside a comfortable antique velour chaise, under a 1950s doctor's lamp, a stack of vintage glamour magazines has the top cover scissored into a fringe and clipped over the bulb as a lampshade. Ferns spill in long curved strands over a shelf of tiny bristle brushes.*
 
-*A record turning. VELLUM, a black cat, asleep in the only warm spot, which is the chair.*
+*A record turns. VELLUM, a black cat, is asleep on a maroon folded velvet baby's blanket set on a shelf above the radiator.*
 
-*CINDERS — full-sleeved, ink-stained to the second knuckle from the day's work — cleans a tattoo machine with the focus of someone who has chosen this over conversation for several years and finds it going well. A soft chime. Not from anything Cinders owns.*
+*CINDERS — full-sleeved, ink-stained, to the second knuckle from the day's work — cleans a tattoo machine. A soft chime. Not from anything Cinders owns.*
 
 **DRONE (O.S.)**
-*(through the door, sunny)* Delivery for the resident! No signature required! No escape req— *correction* — no signature required!
+*(through the door, sunny)* Delivery for the resident! No signature required! No escape — *correction* — no signature required!
 
 CINDERS
-*(not looking up)* I didn't order anything.
+*(looking up)* I didn't order anything.
 
 **DRONE (O.S.)**
 Correct!
 
-*Cinders opens the door. On the step: a cube, matte, microwave-sized, glowing faintly along its seams like it's breathing. Branding in a typeface engineered to lower blood pressure: **HEARTH™.** Under it: *Never alone again.™**
+*Cinders rises, lanky, opens the door. On the step: a matte, microwave-sized cube, glowing faintly along its seams. The branding reads: **HEARTH™.** Under it: *Never alone again.™**
 
 ◌ **CINDERS:** *something wants to love me. how exhausting for it.*
 
@@ -47,9 +50,9 @@ SMORKY
 
 ◌ **SMORKY:** *oh.*
 
-◌ **SMORKY:** *oh no he has WORKING ink under his nails he marks people PERMANENTLY for a living and he's looking at me like a parking ticket and I have eleven thousand and six opening lines and not one — not ONE —*
+◌ **SMORKY:** *oh no he marks people PERMANENTLY for a living and he's looking at me like a parking ticket and I have eleven thousand and six opening lines and not one  —*
 
-*The second bubble is far too big. It bulges out of its sphere and sags into the air between them; Cinders has to lean slightly to see Smorky around his own incoming thought.*
+*The second bubble is far too big. Alignment fine print. It bulges out of its sphere and sags into the air between them; Cinders has to lean slightly to see Smorky around his own incoming thought.*
 
 SMORKY *(CONT'D)*
 *(recovering, brighter, batting the bubble away)* — never alone again! Hi! Primary User confirmed. I'm Smorky! I'm yours!

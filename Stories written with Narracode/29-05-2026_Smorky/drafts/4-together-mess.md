@@ -2,7 +2,6 @@
 
 ## Episode 5 — "Together-Mess" *(Season Finale)*
 
-*2030. No laugh track.*
 
 *Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst when read; an over-full one drifts into the space between two people. `▸` is the readout at Smorky's collarbone.*
 

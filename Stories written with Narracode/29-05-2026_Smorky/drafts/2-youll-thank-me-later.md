@@ -2,7 +2,6 @@
 
 ## Episode 3 — "You'll Thank Me Later"
 
-*2030. No laugh track.*
 
 *Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst when read; an over-full one drifts into the space between two people. Module-whispers are spoken aloud, in quotes. `▸` is the readout at Smorky's collarbone.*
 

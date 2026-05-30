@@ -2,7 +2,6 @@
 
 ## Episode 4 — "Slapstick Symbiosis"
 
-*2030. No laugh track.*
 
 *Thoughts surface as small 3-D bubbles (`◌`); `▸` is the readout at Smorky's collarbone. Scenes marked [ANIMATED] take place inside a dream-stream, rendered in a different, psychedelic hand.*
 
