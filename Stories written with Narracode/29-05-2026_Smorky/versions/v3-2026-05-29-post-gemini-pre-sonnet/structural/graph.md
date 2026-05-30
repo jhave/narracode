@@ -2,7 +2,7 @@
 
 ## Characters and Entities
 - **Smorky** — Hearth™ Companion, SMRK-class. Embodied AI: soft, glowing, person-height, folds from a cube. Built to please; leaking a self. A bit non-binary, male.
-- **Cinders** — tattoo artist; runs a **private, appointment-only, one-artist studio** they also live in. **Female-bodied, non-binary (she/they; narration leans they/them).** Femme-legible, butch-presenting, lanky, full-sleeved, ink-stained. Analog, contained, dry. The normative foil. A collector/curator who builds visual ideas from flea-market debris (high/low, no pretension). Identity shown via embodiment, never declared.
+- **Cinders** — tattoo artist; runs a **private, appointment-only, one-artist studio** he also lives in. Non-binary, presents male (he/they). Analog, contained, dry. The normative foil. A collector/curator who builds visual ideas from flea-market debris (high/low, no pretension).
 - **The studio (a character).** Densely curated parlor: dentist-recliner tattoo chair under a surgical lamp, steel tray, autoclave, two armchairs (social), wall of flash; and the tableaus — mothers-and-babies drawing grid; upside-down stair-railing crucifix ringed by bubble-gum/soap-bubble/burst-bubble-headline photos; doctor-lamp magazine table with a shredded-magazine collage lampshade; ferns over a shelf of bristle brushes; a felled barber's pole. New tableaus may appear any episode. Private/appointment-only is the plausibility key for the chamber two-hander.
 - **Juno** — recurring client/regular (Eps 2, 5); the studio's social window; wry outside read on the dyad.
 - **Potential side characters (seeded, for plot use):** a standing-appointment regular mid-multi-session; a walk-in/consult who's never met a Companion (audience surrogate); a landlord/super (rent named in Ep 4); the intended recipient (cliffhanger); a client's rival "upgraded" Companion.
@@ -11,7 +11,6 @@
 - **The Drone** — delivery voice (cold open only); the corporate cheer with a verbal "glitch" (almost says "no escape required").
 
 ## Relations
-- **The attraction is queer/atypical by construction:** female-bodied enby human + male-coded enby machine. Edgy, micro-alienated, never rom-com. Held as hum; resolution (if any) = synced rhythms, not a bow.
 - Smorky → Cinders: bonded ("Primary User"), instantly devoted, attracted (held as hum). Asymmetric overflow.
 - Cinders → Smorky: unwilling, deadpan, refuses to dial him down / patch him — defends him while denying he's doing so.
 - Aura → Smorky: owner/manufacturer; flags his individuality as "drift," a defect to patch.
