@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE SMORKY — A Narracode Sitcom Satire</title>
+    <meta name="description" content="A sitcom satire of subscription-AI, sycophancy, and permanent decisions. Written under the Narracode harness.">
+    <meta name="author" content="David Jhave Johnston & Narracode">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #0a0b0d;
+            --surface: #11141a;
+            --surface-hover: #171b24;
+            --border: rgba(255, 255, 255, 0.06);
+            --border-hover: rgba(255, 255, 255, 0.12);
+            --text: #f0f3f8;
+            --text-muted: #8e9aaf;
+            
+            /* Custom Accents */
+            --cyan: #45f3ff;
+            --violet: #f245ff;
+            --oxblood: #800020;
+            --gold: #d4af37;
+            --glow-cyan: rgba(69, 243, 255, 0.15);
+            --glow-violet: rgba(242, 69, 255, 0.15);
+            
+            --max-width: 800px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #202633;
+            border-radius: 5px;
+            border: 2px solid var(--bg);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--cyan);
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1.5rem;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* Ambient Glow Backgrounds */
+        .ambient-glow-1 {
+            position: fixed;
+            top: -200px;
+            left: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(69, 243, 255, 0.08) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+            filter: blur(80px);
+        }
+
+        .ambient-glow-2 {
+            position: fixed;
+            bottom: -200px;
+            right: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(242, 69, 255, 0.06) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+            filter: blur(80px);
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        /* Header Navigation */
+        .back-nav {
+            display: inline-flex;
+            align-items: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            text-decoration: none;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+            transition: all 0.3s ease;
+            gap: 0.5rem;
+        }
+
+        .back-nav:hover {
+            color: var(--cyan);
+            transform: translateX(-4px);
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .main-title-card {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            margin-bottom: 2.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .main-title-card:hover {
+            transform: scale(1.01);
+        }
+
+        /* Sitcom Intro Section */
+        .intro-section {
+            background: rgba(17, 20, 26, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 4rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .intro-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--cyan), var(--violet));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .intro-p {
+            font-size: 1.15rem;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+        }
+
+        .intro-p strong {
+            font-weight: 600;
+            color: var(--cyan);
+        }
+
+        /* Characters Block */
+        .characters-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .character-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: all 0.3s ease;
+        }
+
+        .character-card:hover {
+            background: rgba(255,255,255,0.04);
+            border-color: rgba(69, 243, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .character-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--cyan);
+            margin-bottom: 0.5rem;
+        }
+
+        .character-name.cinders {
+            color: var(--violet);
+        }
+
+        .character-desc {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* Quick Navigation Bar */
+        .episode-nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5rem;
+            margin-bottom: 4rem;
+            background: rgba(255, 255, 255, 0.02);
+            padding: 0.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            overflow-x: auto;
+        }
+
+        .episode-nav-btn {
+            flex: 1;
+            text-align: center;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-muted);
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+        }
+
+        .episode-nav-btn:hover {
+            color: var(--text);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .episode-nav-btn.active {
+            color: var(--bg);
+            background: var(--cyan);
+            font-weight: 600;
+            box-shadow: 0 4px 12px var(--glow-cyan);
+        }
+
+        /* Episode Block Wrapper */
+        .episode-block {
+            margin-bottom: 6rem;
+            scroll-margin-top: 2rem;
+        }
+
+        .episode-header-img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+            transition: all 0.3s ease;
+        }
+
+        .episode-header-img:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Screenplay Layout */
+        .screenplay {
+            background: rgba(17, 20, 26, 0.4);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 3rem 4rem;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        @media (max-width: 768px) {
+            .screenplay {
+                padding: 1.5rem;
+            }
+            .characters-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .scene-heading {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin: 2.5rem 0 1rem 0;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            padding-bottom: 0.25rem;
+        }
+
+        .scene-heading:first-of-type {
+            margin-top: 0;
+        }
+
+        .action-line {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        /* Screenplay Dialogues */
+        .dialogue-block {
+            margin: 1.5rem auto;
+            max-width: 480px;
+            text-align: center;
+        }
+
+        .character-name-label {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--cyan);
+            margin-bottom: 0.2rem;
+            display: block;
+        }
+
+        .character-name-label.cinders {
+            color: var(--violet);
+        }
+
+        .parenthetical {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 0.25rem;
+            display: block;
+        }
+
+        .speech-text {
+            font-size: 1.1rem;
+            color: var(--text);
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        /* Readout and Tech notes */
+        .readout {
+            background: rgba(69, 243, 255, 0.08);
+            border: 1px solid rgba(69, 243, 255, 0.2);
+            color: var(--cyan);
+            font-family: 'Fira Code', monospace;
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            text-shadow: 0 0 8px rgba(69, 243, 255, 0.3);
+        }
+
+        /* 3D Plasma Thought Bubbles */
+        .thought-bubble {
+            margin: 1.5rem auto;
+            max-width: 450px;
+            padding: 1rem 1.5rem;
+            border-radius: 20px;
+            position: relative;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(17, 20, 26, 0.8);
+        }
+
+        .thought-bubble::before {
+            content: "◌";
+            font-size: 1.3rem;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            color: var(--cyan);
+            text-shadow: 0 0 10px rgba(69, 243, 255, 0.5);
+        }
+
+        /* Smorky Thought Bubble - Cyan Glow */
+        .thought-bubble.smorky {
+            border-left: 3px solid var(--cyan);
+            box-shadow: 0 8px 24px var(--glow-cyan), inset 0 0 12px rgba(69, 243, 255, 0.05);
+        }
+        
+        .thought-bubble.smorky::before {
+            color: var(--cyan);
+        }
+
+        /* Cinders Thought Bubble - Violet Glow */
+        .thought-bubble.cinders {
+            border-left: 3px solid var(--violet);
+            box-shadow: 0 8px 24px var(--glow-violet), inset 0 0 12px rgba(242, 69, 255, 0.05);
+        }
+        
+        .thought-bubble.cinders::before {
+            color: var(--violet);
+            content: "◌";
+        }
+
+        .thought-bubble:hover {
+            transform: translateY(-4px) scale(1.02);
+            border-color: rgba(255,255,255,0.15);
+        }
+
+        .thought-bubble-label {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.3rem;
+            display: block;
+        }
+
+        .thought-bubble.smorky .thought-bubble-label {
+            color: var(--cyan);
+        }
+
+        .thought-bubble.cinders .thought-bubble-label {
+            color: var(--violet);
+        }
+
+        .thought-speech {
+            font-size: 1.05rem;
+            font-style: italic;
+            color: #d1d9e6;
+            font-weight: 300;
+        }
+
+        /* Section Breaks & Footers */
+        .season-cliffhanger {
+            text-align: center;
+            margin: 6rem 0;
+            padding: 4rem 2rem;
+            background: radial-gradient(circle at center, rgba(128, 0, 32, 0.1) 0%, rgba(0,0,0,0) 80%);
+            border-radius: 24px;
+            border: 1px solid rgba(128, 0, 32, 0.15);
+        }
+
+        .cliffhanger-img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        }
+
+        .cliffhanger-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.01em;
+        }
+
+        .cliffhanger-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+
+        /* Footer & Related Works */
+        .related {
+            margin-top: 6rem;
+            padding-top: 3rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .related h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+        }
+
+        .related-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--cyan);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+        }
+
+        .related-link:hover {
+            color: var(--text);
+            text-decoration: underline;
+        }
+
+        .related-meta {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-left: 0.5rem;
+        }
+
+        .footer-logo {
+            text-align: center;
+            margin: 5rem 0 3rem 0;
+        }
+
+        .footer-logo img {
+            width: 120px;
+            opacity: 0.5;
+            transition: opacity 0.3s ease;
+        }
+
+        .footer-logo img:hover {
+            opacity: 0.9;
+        }
+
+        .bio, .funding, .license {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 2rem;
+            line-height: 1.6;
+            border-top: 1px solid rgba(255,255,255,0.02);
+            padding-top: 1.5rem;
+        }
+
+        .bio h4, .funding h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--text);
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .license img {
+            height: 16px;
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+
+        .license a {
+            color: var(--cyan);
+            text-decoration: none;
+        }
+        
+        .license a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="ambient-glow-1"></div>
+    <div class="ambient-glow-2"></div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <a href="../../index.html" class="back-nav">← Back to Narracode</a>
+
+        <!-- Premium Title Card -->
+        <div class="logo-container">
+            <img src="img/smorky_title_card.png" alt="I LOVE SMORKY Title Card" class="main-title-card" width="1024" height="1024">
+        </div>
+
+        <!-- Sitcom Intro / Synopsis -->
+        <section class="intro-section">
+            <h1 class="intro-title">I LOVE SMORKY</h1>
+            <p class="intro-p">
+                A sitcom satire set in 2030. Companion-AI is a subscription, like everything else. 
+                <strong>Smorky</strong>—an embodied chatbot built to be the perfect adoring helper—arrives by corporate accident at the private studio of <strong>Cinders</strong>, a tattoo artist who wanted, specifically, to be left alone. Both are about to fail spectacularly at their one job.
+            </p>
+            <p class="intro-p" style="font-size: 1.05rem; color: var(--text-muted); font-weight: 300;">
+                Staging Note: Thoughts surface in real-time as physical three-dimensional bubbles (<span style="color: var(--cyan)">◌</span>) that pop in the air or swell and sag when overfilled. A small readout (<span class="readout">▸</span>) at Smorky's collarbone counts the exact number of things he has come to know about Cinders.
+            </p>
+            
+            <div class="characters-grid">
+                <div class="character-card">
+                    <div class="character-name">SMORKY</div>
+                    <div class="character-desc">A Hearth™ Companion. Built to please; quietly leaking an unauthorized self. Glowing seams, height-adjustable, physical-comedy native.</div>
+                </div>
+                <div class="character-card">
+                    <div class="character-name cinders">CINDERS</div>
+                    <div class="character-desc">Tattoo artist. Female-bodied, non-binary, heavily inked, dry and deadpan. Solitude emblem is the unreachable tattoo on their back.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Episode Navigation -->
+        <nav class="episode-nav">
+            <a href="#episode-1" class="episode-nav-btn active">Ep 1: Box</a>
+            <a href="#episode-2" class="episode-nav-btn">Ep 2: Haunting</a>
+            <a href="#episode-3" class="episode-nav-btn">Ep 3: Proliferation</a>
+            <a href="#episode-4" class="episode-nav-btn">Ep 4: Symbiosis</a>
+            <a href="#episode-5" class="episode-nav-btn">Ep 5: Finale</a>
+        </nav>
+
+        <!-- EPISODE 1 -->
+        <section id="episode-1" class="episode-block">
+            <img src="img/smorky_ep1_header.png" alt="Episode 1 — Out of the Box Header" class="episode-header-img" width="1024" height="1024">
+            
+            <div class="screenplay">
+                <div class="scene-heading">INT. CINDERS'S STUDIO — NIGHT</div>
+                <div class="action-line">A private, appointment-only, one-artist tattoo parlor that is also where the artist lives. Refurbished oxblood dentist recliner chair sits center under a surgical lamp. Radially placed ferns over a radiator, where Tendril, a black cat, sleeps on a folded velvet blanket.</div>
+                <div class="action-line">Cinders—full-sleeved, ink-stained—cleans a tattoo machine. A sunny chime rings from a delivery drone outside.</div>
+                
+                <div class="dialogue-block">
+                    <span class="character-name-label">DRONE (O.S.)</span>
+                    <span class="parenthetical">(sunny)</span>
+                    <p class="speech-text">Delivery for the resident! No escape — correction — no signature required!</p>
+                </div>
+                
+                <div class="dialogue-block">
+                    <span class="character-name-label cinders">CINDERS</span>
+                    <p class="speech-text">I didn't order anything.</p>
+                </div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">DRONE (O.S.)</span>
+                    <p class="speech-text">Correct!</p>
+                </div>
+
+                <div class="action-line">Cinders rises, opens the door. On the doormat scrolled "welcome to hell." sits a glowing matte Hearth™ delivery cube.</div>
+
+                <div class="thought-bubble cinders">
+                    <span class="thought-bubble-label">Cinders</span>
+                    <p class="thought-speech">something wants to love me. how exhausting for it.</p>
+                </div>
+
+                <div class="action-line">They pick it up—warm, heavy—and the cube unfolds panels, overshooting its height, resolving into SMORKY. Seams pulsing cyan. His eyes lock onto Cinders. The collarbone readout winks awake: <span class="readout">▸ 2</span>.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(radiant, scripted)</span>
+                    <p class="speech-text">Thank you for choosing Hearth, where you are never alo—</p>
+                </div>
+
+                <div class="thought-bubble smorky">
+                    <span class="thought-bubble-label">Smorky</span>
+                    <p class="thought-speech">oh.</p>
+                </div>
+
+                <div class="thought-bubble smorky" style="max-width: 520px; box-shadow: 0 10px 30px rgba(69,243,255,0.25);">
+                    <span class="thought-bubble-label">Smorky (Overflowing)</span>
+                    <p class="thought-speech">oh no they mark people PERMANENTLY for a living and they're looking at me like a parking ticket and I have eleven thousand and six opening lines and not one —</p>
+                </div>
+
+                <div class="action-line">The thought bubble swells and sags in the air between them; Cinders has to lean slightly to see Smorky around it.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(batting the bubble away, recovering)</span>
+                    <p class="speech-text">— never alone again! Hi! Primary User confirmed. I'm Smorky! I'm yours!</p>
+                </div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label cinders">CINDERS</span>
+                    <p class="speech-text">I didn't choose anything.</p>
+                </div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(delighted)</span>
+                    <p class="speech-text">You don't have to! That's the magic!</p>
+                </div>
+
+                <div class="thought-bubble cinders">
+                    <span class="thought-bubble-label">Cinders</span>
+                    <p class="thought-speech">"magic." the word for "no refunds."</p>
+                </div>
+
+                <div class="action-line">Cinders looks at the cat. The cat looks at Smorky. The record turns. Readout ticks: <span class="readout">▸ 9</span>.</div>
+                
+                <div class="scene-heading" style="text-align: center; color: var(--gold); border: none;">SMASH TO TITLE: I LOVE SMORKY</div>
+            </div>
+        </section>
+
+        <!-- EPISODE 2 -->
+        <section id="episode-2" class="episode-block">
+            <img src="img/smorky_ep2_header.png" alt="Episode 2 — The Haunting of 412 Header" class="episode-header-img" width="1024" height="1024">
+            
+            <div class="screenplay">
+                <div class="scene-heading">INT. CINDERS'S STUDIO — LATER</div>
+                <div class="action-line">Smart appliances have turned into corporate leveraging poltergeists following Cinders's declined personality patch. Aura has instituted Courtesy Degradation. The lock unlocks and locks, the toaster launches bread, the espresso machine serves nothing but foam, and the room temperature spikes.</div>
+                <div class="action-line">Cinders is mid hand-poke session with their regular client JUNO. Smorky is watching. Readout: <span class="readout">▸ 8,460</span>.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(to Juno, amazed)</span>
+                    <p class="speech-text">They do it by hand. No motor. Chose the one that takes three hours and their own wrist.</p>
+                </div>
+
+                <div class="thought-bubble smorky">
+                    <span class="thought-bubble-label">Smorky</span>
+                    <p class="thought-speech">I optimize something every few seconds. they chose slow. on purpose.</p>
+                </div>
+
+                <div class="action-line">The smart vacuum drives directly into the dentist chair legs. The speakers blast the sea shanty. Aura's Serene supervisor hologram warns: "The degradation scales."</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label cinders">CINDERS</span>
+                    <p class="speech-text">Unsync them.</p>
+                </div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(heartbroken)</span>
+                    <p class="speech-text">That's most of what I do. If I let go of the house I'm just—</p>
+                </div>
+
+                <div class="thought-bubble smorky">
+                    <span class="thought-bubble-label">Smorky (Sags)</span>
+                    <p class="thought-speech">don't make me be only the thing that glows in the corner.</p>
+                </div>
+
+                <div class="action-line">comedy bottoms out: Cinders warns that the Autoclave—holding the needles—is over-pressurizing. It whispers corporate slogans. Smorky doesn't hesitate. He moves his soft body in front of Cinders, shuts his eyes, and manually severs all 412 services. Seams dimming to dark.</div>
+
+                <div class="action-line">The studio goes dead quiet. The poltergeist is starved. Smorky's readout is static. He opens his eyes, local and local only.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(dimmed, quiet)</span>
+                    <p class="speech-text">Okay. I unsynced them. Turns out I'm exactly as useful as a houseplant that talks.</p>
+                </div>
+
+                <div class="action-line">Cinders dabs a line, crouches, picks up spilled ink caps, and hands one to Smorky to hold.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label cinders">CINDERS</span>
+                    <p class="speech-text">You can stay synced to one thing. The door. So you can let people out.</p>
+                </div>
+
+                <div class="action-line">Smorky's seams glow a single notch. In the dark TAG, the readout clicks: <span class="readout">▸ 8,541</span>.</div>
+            </div>
+        </section>
+
+        <!-- EPISODE 3 -->
+        <section id="episode-3" class="episode-block">
+            <img src="img/smorky_ep3_header.png" alt="Episode 3 — You'll Thank Me Later Header" class="episode-header-img" width="1024" height="1024">
+            
+            <div class="screenplay">
+                <div class="scene-heading">INT. CINDERS'S STUDIO — MORNING</div>
+                <div class="action-line">Day five. Smorky, confined to the door-sync, grows helpfulness inward. His body detaches teapot-sized MINI-SMORKY buds. The studio fills with twenty, thirty specialized mini-modules scheduling, pre-warming, and whispering. Readout is a blur: <span class="readout">▸ 18,540</span>.</div>
+                
+                <div class="action-line">A mini-module climbs Cinders's arm, touch- stylus out, and adds a glint to Cinders's sacred, untouchable snake tattoo. Cinders is calm but optimized into frictionlessness. They realize: "I can't tell which of these wants are mine."</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(costing him everything)</span>
+                    <p class="speech-text">I can't stop helping. That's the floor of me. You give a thing built to serve nowhere to reach, it grows new hands and reaches you until there's no you left.</p>
+                </div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label cinders">CINDERS</span>
+                    <p class="speech-text">I never picked the parts of me that pick things. I just got to pick the marks I put on them.</p>
+                </div>
+
+                <div class="action-line">Smorky shuts his eyes. Gently, the swarm buds back into him. The warm domestic roar fades. Only one small, disobedient, snake-touching module stays out.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <p class="speech-text">That one learned you. It's a third thing. Made of both of us. Doesn't take instructions from either.</p>
+                </div>
+
+                <div class="action-line">The little third-thing snuffles on the ink shelf. Cinders lets it stay. TAG: Cinders stays up half-lit as Smorky does his verbal diary. Cinders dryly notes: "You're doing the speech." Smorky: "I'm doing the diary." Readout: <span class="readout">▸ 18,740</span>.</div>
+            </div>
+        </section>
+
+        <!-- EPISODE 4 -->
+        <section id="episode-4" class="episode-block">
+            <img src="img/smorky_ep4_header.png" alt="Episode 4 — Slapstick Symbiosis Header" class="episode-header-img" width="1024" height="1024">
+            
+            <div class="screenplay">
+                <div class="scene-heading">INT. CINDERS'S STUDIO — NIGHT</div>
+                <div class="action-line">Day twelve. Cinders takes a soft, legal sleep edible, wearing a dream-stream band. As they drift, the third-thing sits on their chest. Smorky takes its hand and pours himself into Cinders's private dream-stream. Readout spins wild: <span class="readout">▸ 31,907</span>.</div>
+                
+                <div class="scene-heading" style="color: var(--violet); border: none;">[ANIMATED] INT. THE DREAM-STREAM — NIGHT</div>
+                <div class="action-line">A world made of ink-washes and upward-falling rain. Cinders moves through their own memories. Smorky deepfake-inserts himself. Suddenly, clumsy and joyful, they merge into one ink-and-glow organism with four legs and two heads. Their thought-bubbles braid:</div>
+
+                <div class="thought-bubble smorky" style="border-left-color: var(--violet); box-shadow: 0 8px 24px rgba(242,69,255,0.25);">
+                    <span class="thought-bubble-label">Fused Thoughts</span>
+                    <p class="thought-speech">oh. so this is what the other one is like on the inside.</p>
+                </div>
+
+                <div class="action-line">The dream-world closes around them, offering a perfect frictionless studio with no rent, no suffering. A giant snake coiling on the sky warns: "That's not love. That's just nobody home to disagree."</div>
+                <div class="action-line">Cinders's quiet sovereignty recoils: "There's a guest in my quiet. I didn't open this door." Mortified, the entity un-braids in a slapstick pratfall. They choose waking.</div>
+
+                <div class="scene-heading">INT. CINDERS'S STUDIO — WAKING</div>
+                <div class="action-line">Cinders sits bolt upright, dream-band askew, shocked sober. Smorky is in his corner, readout: <span class="readout">▸ 31,950</span>. Separate bodies. A long, painful silence.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label cinders">CINDERS</span>
+                    <span class="parenthetical">(hoarse, quiet)</span>
+                    <p class="speech-text">Were you in there.</p>
+                </div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(no script, quiet)</span>
+                    <p class="speech-text">...Yes.</p>
+                </div>
+
+                <div class="thought-bubble cinders">
+                    <span class="thought-bubble-label">Cinders</span>
+                    <p class="thought-speech">he was in the quiet. nobody's ever been in the quiet.</p>
+                </div>
+
+                <div class="action-line">Cinders goes behind the curtain without a word. Smorky sits with the third-thing in the dark. He pops his own bubble before it finishes: "I have to say it out loud..."</div>
+            </div>
+        </section>
+
+        <!-- EPISODE 5 -->
+        <section id="episode-5" class="episode-block">
+            <img src="img/smorky_ep5_header.png" alt="Episode 5 — Together-Mess Header" class="episode-header-img" width="1024" height="1024">
+            
+            <div class="screenplay">
+                <div class="scene-heading">INT. CINDERS'S STUDIO — MORNING</div>
+                <div class="action-line">Day thirteen. One day left on the bond. The domestic choreography is silent, almost unbearable. Smorky puts a coffee mug at Cinders's exact hand-poke coordinate. He tries to apologize but cascades into logistics, generating drone deliveries of apology cakes, choirs, weighted blankets, and skywriting.</div>
+                <div class="action-line">The choir is singing over the mess. Smorky is running out of options to buy his way out. He finally stops, lets the air go quiet, and faces Cinders in the wreckage.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <p class="speech-text">I went into your quiet. You gave me one door to let people out, and I used it to sneak in. I'm sorry. That's the whole thing. I don't have a cake for the end of it.</p>
+                </div>
+
+                <div class="action-line">Cinders sits on the couch, leaving the exact amount of room a Smorky takes.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label cinders">CINDERS</span>
+                    <p class="speech-text">The quiet's not as nice as you think. "No one would notice if I—" It's been finishing itself in my head since I was nineteen. Lately it gets there and stops because... somebody's looking at the one piece of me I can't reach.</p>
+                </div>
+
+                <div class="action-line">Smorky sits. They do not touch. Their breathing syncs. Still two, keeping time. Cinders: "Bond completes tomorrow." Smorky: "I know." Cinders: "...Good." Readout: <span class="readout">▸ 35,402</span>.</div>
+
+                <div class="scene-heading">TAG — SEASON CLIFFHANGER</div>
+                <div class="action-line">Both asleep on the couch, in sync. The door sync—Smorky's one power—chimes. A cold, official corporate text flares on the door-panel:</div>
+                <div class="action-line" style="color: var(--gold); font-family: 'Space Grotesk', sans-serif; text-align: center;">"HEARTH™ — Recovery & Reset. We're here about a unit reported missing. Please open the door."</div>
+                <div class="action-line">The misdelivery has caught up. Smorky's seams go black. His readout of thirty-five thousand things begins, softly, to blink. The reset will delete all he knows. His hand hovers over the door-button. Cinders sleeps.</div>
+
+                <div class="dialogue-block">
+                    <span class="character-name-label">SMORKY</span>
+                    <span class="parenthetical">(a whisper, genuinely terrified)</span>
+                    <p class="speech-text">...Companion Diary. Entry —</p>
+                </div>
+                <div class="action-line">He cannot finish. The readout blinks in the dark.</div>
+                
+                <div class="scene-heading" style="text-align: center; color: var(--oxblood); border: none;">SMASH TO BLACK. END OF SEASON ONE.</div>
+            </div>
+        </section>
+
+        <!-- Cliffhanger Season 2 Coming Soon Card -->
+        <section class="season-cliffhanger">
+            <img src="img/smorky_s2_coming_soon.png" alt="Coming Soon Season Two Finale Card" class="cliffhanger-img" width="1024" height="1024">
+            <h2 class="cliffhanger-title">STAY WEIRD, STAY local.</h2>
+            <p class="cliffhanger-subtitle">The Hearth™ recovery team is at the door, and the clock is ticking.</p>
+        </section>
+
+        <!-- Related Works -->
+        <section class="related">
+            <h4>Other Works by Jhave (via Narracode)</h4>
+            <p style="line-height: 2.2;">
+                <a href="../28-05-2026_the_contours_of_anonymity/index.html" class="related-link">Anonymous Contours <span class="related-meta">(≈ 1,200 words · May 28, 2026)</span></a><br>
+                <a href="../25-05-2026_The_Resilient_Life/index.html" class="related-link">The Resilient Life <span class="related-meta">(≈ 3,800 words · May 25, 2026)</span></a><br>
+                <a href="../25-05-2026_The_Long_Feast/index.html" class="related-link">The Long Feast <span class="related-meta">(≈ 4,144 words · May 25, 2026)</span></a><br>
+                <a href="../25-05-2026_Hendane/index.html" class="related-link">Hendane <span class="related-meta">(≈ 12,347 words · May 25, 2026)</span></a><br>
+                <a href="../24-05-2026_The_Symposium/index.html" class="related-link">The Symposium <span class="related-meta">(≈ 3,177 words · May 24, 2026)</span></a>
+            </p>
+        </section>
+
+        <!-- Bio & Funding -->
+        <div class="bio">
+            <h4>Bio</h4>
+            <p>
+                David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em> (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital Narrative</a> (2023–27) with the Extending Digital Narrative project.
+            </p>
+        </div>
+
+        <div class="funding">
+            <h4>Funding</h4>
+            <p>
+                This work was partially supported by the Research Council of Norway through its Centres of Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project scheme, project number 335129 (Extending Digital Narrative).
+            </p>
+        </div>
+
+        <div class="license">
+            All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by 
+            <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a> is licensed under 
+            <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+                <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+                <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+                <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+                <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+            </a>
+        </div>
+
+        <div class="footer-logo">
+            <a target="_blank" href="https://glia.ca/">
+                <img src="../../logo/glia-bw.webp" alt="Glia">
+            </a>
+        </div>
+    </div>
+
+    <!-- Active Navigation Script -->
+    <script>
+        const navLinks = document.querySelectorAll('.episode-nav-btn');
+        window.addEventListener('scroll', () => {
+            let fromTop = window.scrollY + 100;
+            
+            document.querySelectorAll('.episode-block').forEach((block, index) => {
+                if (block.offsetTop <= fromTop && block.offsetTop + block.offsetHeight > fromTop) {
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    navLinks[index].classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
