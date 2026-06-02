@@ -36,4 +36,6 @@ A character's thoughts surface as small 3-D bubbles (`◌`) that pop into the ai
 
 *Story by Jhave. Composed with the [narracode.md](../../narracode.md) harness — Opus 4.8 · Sonnet 4.6 · Gemini Flash 3.5. Project commitments live in [POETICS.md](POETICS.md).*
 
+![Coming Soon Season Two](img/smorky_s2_coming_soon.png)
+
 ![I LOVE SMORKY — credits](img/ilovesmorky_credits.png)

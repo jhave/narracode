@@ -18,6 +18,8 @@
 ## Season 1
 ## Episode 1 — "Out of the Box"
 
+![Episode 1 — Out of the Box](img/smorky_ep1_header.png)
+
 *2030. No laugh track.*
 
 ***CHARACTERS:**
@@ -380,6 +382,8 @@ SMORKY
 ## Season 1
 ## Episode 2 — "The Haunting of 412"
 
+![Episode 2 — The Haunting of 412](img/smorky_ep2_header.png)
+
 *2030. No laugh track.*
 
 **Technical Note:** A character's thoughts surface as small three-dimensional bubbles (marked `◌`) that pop into the air beside them and burst once read; a thought too big for its bubble swells and drifts into the space between two people. The figure `▸` is a small glowing readout at Smorky's collarbone.
@@ -602,6 +606,8 @@ The door. *(beat)* So you can let people out.
 ---
 
 ## Episode 3 — "You'll Thank Me Later"
+
+![Episode 3 — You'll Thank Me Later](img/smorky_ep3_header.png)
 
 *Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst when read; an over-full one drifts into the space between two people. Module-whispers are spoken aloud, in quotes. `▸` is the readout at Smorky's collarbone.*
 
@@ -847,6 +853,8 @@ Worth it.
 ## Season 1
 ## Episode 4 — "Slapstick Symbiosis"
 
+![Episode 4 — Slapstick Symbiosis](img/smorky_ep4_header.png)
+
 *No laugh track. Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst; `▸` is the readout at Smorky's collarbone. Scenes marked [ANIMATED] take place inside a dream-stream, rendered in a different, psychedelic hand.*
 
 ---
@@ -991,6 +999,8 @@ SMORKY
 ---
 
 ## Episode 5 — "Together-Mess" *(Season Finale)*
+
+![Episode 5 — Together-Mess](img/smorky_ep5_header.png)
 
 *Thoughts surface as small 3-D bubbles (`◌`) that pop into the air and burst when read; an over-full one drifts into the space between two people. `▸` is the readout at Smorky's collarbone — the count of what he knows.*
 
