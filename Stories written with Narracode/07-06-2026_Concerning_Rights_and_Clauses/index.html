@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concerning Rights and Clauses</title>
+  <style>
+    :root {
+      --bg: #f7f5f0;
+      --ink: #1a1814;
+      --pale: #e8e4dc;
+      --mid: #8a8078;
+      --accent: #4a3f35;
+      --rule: #ccc7be;
+      --serif: "Georgia", "Times New Roman", serif;
+      --mono: "Courier New", "Courier", monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 17px;
+      line-height: 1.72;
+      min-height: 100vh;
+    }
+
+    /* ── masthead ── */
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding: 3.2rem 0 2rem;
+      text-align: center;
+    }
+
+    header .press-mark {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--mid);
+      margin-bottom: 1.4rem;
+    }
+
+    header h1 {
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      font-weight: normal;
+      font-style: italic;
+      letter-spacing: -0.02em;
+      line-height: 1.18;
+      color: var(--ink);
+    }
+
+    header .subtitle {
+      margin-top: 0.8rem;
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      color: var(--mid);
+    }
+
+    /* ── layout ── */
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    /* ── premise block ── */
+    .premise {
+      border-left: 3px solid var(--accent);
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 3.5rem;
+      background: var(--pale);
+    }
+
+    .premise p {
+      font-size: 0.94rem;
+      color: var(--accent);
+      line-height: 1.65;
+    }
+
+    .premise p + p {
+      margin-top: 0.8rem;
+    }
+
+    /* ── chapter nodes ── */
+    .chain-label {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--mid);
+      margin-bottom: 2.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .chain-label::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .node {
+      margin-bottom: 4.5rem;
+    }
+
+    /* ── image placeholder ── */
+    .img-frame {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: var(--pale);
+      border: 1px dashed var(--rule);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.7rem;
+      padding: 1.5rem;
+      margin-bottom: 1.6rem;
+      position: relative;
+    }
+
+    .img-frame .img-tag {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--mid);
+      background: var(--bg);
+      padding: 0.2rem 0.5rem;
+      border: 1px solid var(--rule);
+      position: absolute;
+      top: 0.7rem;
+      left: 0.7rem;
+    }
+
+    .img-frame .img-prompt {
+      font-family: var(--mono);
+      font-size: 0.76rem;
+      color: var(--mid);
+      text-align: center;
+      max-width: 480px;
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    .img-frame .img-credit {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      color: #b0aa9f;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── node meta / text ── */
+    .node-meta {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .node-number {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      color: var(--mid);
+      white-space: nowrap;
+    }
+
+    .node h2 {
+      font-size: 1.25rem;
+      font-weight: normal;
+      font-style: italic;
+    }
+
+    .node .correspondent {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--mid);
+      margin-bottom: 0.7rem;
+      letter-spacing: 0.06em;
+    }
+
+    .node .excerpt {
+      font-size: 0.92rem;
+      color: var(--accent);
+      border-left: 2px solid var(--rule);
+      padding-left: 1rem;
+      margin: 0.9rem 0 1.1rem;
+      font-style: italic;
+    }
+
+    .node .quirk-note {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      color: #b0aa9f;
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+    }
+
+    .read-link {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 0.73rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+      border-bottom: 1px solid var(--ink);
+      padding-bottom: 0.05rem;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .read-link:hover {
+      color: var(--mid);
+      border-color: var(--mid);
+    }
+
+    .connector {
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      color: var(--rule);
+      margin: -2.5rem 0 2.5rem;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── attribution ── */
+    hr.attr-rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 3rem 0 2rem;
+    }
+
+    .attribution {
+      font-family: var(--mono);
+      font-size: 0.73rem;
+      color: var(--mid);
+      line-height: 2;
+      letter-spacing: 0.04em;
+    }
+
+    .attribution h3 {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #c0bab0;
+      margin-bottom: 0.8rem;
+    }
+
+    .attribution table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .attribution td {
+      padding: 0.15rem 0;
+    }
+
+    .attribution td:first-child {
+      color: #c0bab0;
+      width: 36%;
+      padding-right: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      color: var(--rule);
+      letter-spacing: 0.12em;
+      padding: 2rem 0 3rem;
+      border-top: 1px solid var(--pale);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="press-mark">AI University Press · Epistolary Chain · 2033</div>
+  <h1>Concerning Rights and Clauses</h1>
+  <div class="subtitle">a recursive letter sequence &nbsp;·&nbsp; node series initiated 07-06-2026</div>
+</header>
+
+<main>
+
+  <!-- premise -->
+  <div class="premise">
+    <p>A contributor writes to a university press about one clause: the request that their chapter be excluded from AI training corpora. The letter is the story. The writer is fastidious, aggrieved, digressive — phenomenologically exact about small things — while circling something it cannot name.</p>
+    <p>Each letter is a node. Each reply carries one quirk of cadence forward, so the lineage is audible. The chain is the form.</p>
+  </div>
+
+  <!-- chain -->
+  <div class="chain-label">The chain</div>
+
+  <!-- NODE 1 -->
+  <div class="node">
+    <div class="img-frame">
+      <span class="img-tag">Image · ChatGPT Images 2.0</span>
+      <p class="img-prompt">A close-up of a typewritten letter on pale cream paper, 2033. A single em dash breaks a sentence midway. The surrounding text is slightly blurred. On the desk beside the letter: a contract with one footnote circled in pencil, reading 3.7%. Low, archival light. Documentary melancholy. No human hands visible.</p>
+      <span class="img-credit">[ placeholder — generate with ChatGPT Images 2.0 ]</span>
+    </div>
+    <div class="node-meta">
+      <span class="node-number">Node 01</span>
+      <h2>The Contributor's Letter</h2>
+    </div>
+    <div class="correspondent">Hexabald → Kelly, Editor, AIUP</div>
+    <div class="excerpt">"One does not choose one's formation. One arrives at the contract already formed."</div>
+    <div class="quirk-note">Cadence quirk established: em dash + lowercase continuation</div>
+    <a class="read-link" href="drafts/1-node1-contributor-letter.md">Read letter →</a>
+  </div>
+
+  <div class="connector">↓ &nbsp; &nbsp; one cadence quirk carried forward &nbsp; &nbsp; ↓</div>
+
+  <!-- NODE 2 -->
+  <div class="node">
+    <div class="img-frame">
+      <span class="img-tag">Image · ChatGPT Images 2.0</span>
+      <p class="img-prompt">An editor's reply on a screen — sans-serif text, formal, 2033. The screen sits in a minimalist office; a small annotation is visible in the margin: "something in it I recognize and cannot name." At the bottom of the email, a carbon-copy address: Rights Management System, AIUP. The screen emits cool blue light. No human in the scene.</p>
+      <span class="img-credit">[ placeholder — generate with ChatGPT Images 2.0 ]</span>
+    </div>
+    <div class="node-meta">
+      <span class="node-number">Node 02</span>
+      <h2>The Editor's Reply</h2>
+    </div>
+    <div class="correspondent">Kelly, Editor, AIUP → Hexabald &nbsp;·&nbsp; cc: Rights Management System</div>
+    <div class="excerpt">"There is a difference between the topology of grief and grief, and it is not a small one."</div>
+    <div class="quirk-note">Cadence quirk carried: em dash + lowercase continuation (transformed into editorial register)</div>
+    <a class="read-link" href="drafts/2-node2-editor-reply.md">Read reply →</a>
+  </div>
+
+  <div class="connector">↓ &nbsp; &nbsp; chain continues · Node 03 pending &nbsp; &nbsp; ↓</div>
+
+  <!-- NODE 3 placeholder -->
+  <div class="node">
+    <div class="img-frame" style="aspect-ratio:16/7;">
+      <span class="img-tag">Image · ChatGPT Images 2.0</span>
+      <p class="img-prompt">A bureaucratic form — the Rights Management System's automated response — printed on thermal paper, curling at the edges. Reference number: CRC-2033-9847-Hexabald. The language is dense, procedural, devoid of warmth. In one line, a phrase has been auto-generated that unknowingly mirrors the contributor's own argument, word for word. Harsh fluorescent light. The paper is the only object in the frame.</p>
+      <span class="img-credit">[ placeholder — generate with ChatGPT Images 2.0 ]</span>
+    </div>
+    <div class="node-meta">
+      <span class="node-number">Node 03</span>
+      <h2>Rights Management System Response</h2>
+    </div>
+    <div class="correspondent">Rights Management System, AIUP → Hexabald &amp; Kelly &nbsp;·&nbsp; ref. CRC-2033-9847</div>
+    <div class="excerpt" style="color:#b0aa9f; font-style:italic;">[ forthcoming — the chain continues ]</div>
+    <div class="quirk-note">Cadence quirk to carry: em dash + lowercase continuation, transformed by automated/bureaucratic register</div>
+  </div>
+
+  <!-- attribution -->
+  <hr class="attr-rule" />
+  <div class="attribution">
+    <h3>Attribution</h3>
+    <table>
+      <tr>
+        <td>Human prompt</td>
+        <td>David (Jhave) Johnston</td>
+      </tr>
+      <tr>
+        <td>Compositional model</td>
+        <td>Claude Sonnet 4.6</td>
+      </tr>
+      <tr>
+        <td>Editing &amp; review model</td>
+        <td>Claude Opus 4.8</td>
+      </tr>
+      <tr>
+        <td>Harness</td>
+        <td>narracode (AUTO_MODE)</td>
+      </tr>
+      <tr>
+        <td>Initiated</td>
+        <td>07 June 2026</td>
+      </tr>
+      <tr>
+        <td>Diegesis</td>
+        <td>circa 2033</td>
+      </tr>
+      <tr>
+        <td>Poetic influences</td>
+        <td>Sebald · Acker · Didion · Lessing · Kurzweil</td>
+      </tr>
+    </table>
+  </div>
+
+</main>
+
+<footer>Concerning Rights and Clauses &nbsp;·&nbsp; narracode &nbsp;·&nbsp; 07-06-2026</footer>
+
+</body>
+</html>
