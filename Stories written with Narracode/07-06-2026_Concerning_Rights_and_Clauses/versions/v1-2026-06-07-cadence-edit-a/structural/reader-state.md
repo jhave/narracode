@@ -15,9 +15,6 @@
 - **Productive mystery:** Kelly can state the contradiction accurately without
   following it into self-knowledge. The AUTHOR SAFETY code and CC line create
   procedural dread.
-- **After Node 2b:** the institution is no longer passive setting. It edits the
-  correspondents while processing their claim, and the reader expects Node 3
-  to return their language without acknowledging its source.
 - **Plausible defiance paths for later nodes:** the Rights Management System denies the amendment on precisely the grounds that make the denial self-referential; or approves it retroactively, which changes nothing; or generates a response that carries the irony without knowing it does.
 - **Accidental confusion risk:** substantially reduced by distinct working
   rhythms. Node 3 must not revert to either Hexabald's lyric abstraction or

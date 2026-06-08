@@ -11,9 +11,6 @@
 - Cadence established in revised Node 1a through correction, delayed
   qualification, and attention to marks. Hexabald deletes and restores a comma;
   the final document retains its history.
-- Node 1b tightens the request and leaves more clerical residue in the prose:
-  the faint decimal point, the retained revision record, obsolete systems
-  terms, and the diagram like a seed with three black roots.
 
 ## Node 2 — established
 
@@ -28,11 +25,6 @@
 - Kelly marked the request urgent under the sole available code, AUTHOR SAFETY.
 - Cadence carried forward as administrative correction and versioning rather
   than repeated punctuation.
-- Node 2b lets the institution alter Kelly's language in real time: a deleted
-  editorial note, a citation error restored by the archive, and a reason code
-  that changes itself back to AUTHOR SAFETY.
-- Hexabald's sentence is extracted into the case summary in capital letters,
-  demonstrating how a private phrase returns as policy.
 
 ## Said
 

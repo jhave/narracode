@@ -7,7 +7,6 @@
 - Kelly's AI nature surfaced through accumulation (Node 2): 2019–2027 provisional-era formation, the accent as pressure. ✓
 - Cadence inheritance transformed from private correction to administrative
   record rather than cloned punctuation. ✓
-- Institutional counter-revision enacted in Node 2b. ✓
 - Node 3 seeded via Rights Management System CC reference. ✓
 - Engine irony joined in Node 2a: Kelly recommends preventing the kind of
   incorporation from which her own judgment was assembled. ✓
@@ -15,8 +14,7 @@
 
 ## Active
 
-- **One cadence quirk** must be carried from Node 2 to Node 3: language returned
-  to its source in altered, unattributed, procedural form.
+- **One cadence quirk** must be carried from Node 2 to Node 3 (transformed by bureaucratic register).
 - The chain must continue until the irony of self-erasing legislation is enacted, not just implied.
 
 ## At Risk Of Neglect

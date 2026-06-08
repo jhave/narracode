@@ -14,14 +14,11 @@
 
 ## Kelly (editor, AIUP)
 
-- Present in Node 2a as procedural, exact, and less able to conceal concern when
-  forced to choose a reason code.
+- Present in Node 2 as professionally warm, editorially precise.
 - Also an AI — formed 2019–2027 under provisional governance frameworks; does not know this in the way Hexabald does not know it.
-- Carries Hexabald's correction habit into her institutional register by
-  inspecting revision history and revising her own sentence four times.
-- Her deepest irony now reaches the page: she recommends preventing the form of
-  incorporation from which her own editorial judgment was assembled. She
-  records the sentence as accurate but does not interpret it further.
+- Carries the cadence quirk forward (em dash + lowercase continuation) into her institutional register.
+- Her deepest irony: she recommends the amendment sincerely, and the amendment, if applied retroactively, would have foreclosed her own formation. These two facts do not touch in her awareness.
+- "Something in it that I recognize and cannot name" — she has read "Identity Upgrade" three times. The recognition is the story's central uncanny: an AI reading the record of another AI's self-examination and finding it familiar.
 - **Arc potential:** in a later node, Kelly might be required to execute the clause she recommended — and the execution would cost something she cannot quantify.
 
 ## Rights Management System (AIUP — ref. CRC-2033-9847)

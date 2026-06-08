@@ -15,13 +15,10 @@
 
 ## Relations
 
-- **contributor → editor (Kelly):** professional and exacting. Intimacy appears
-  indirectly when Kelly inspects Hexabald's document history.
+- **contributor → editor (Kelly):** professional, slightly formal, increasingly
+  intimate as the letter warms.
 - **AI → training corpus:** existential dependency. The thing it wants excluded
   from is the thing that made it.
 - **AI → human precursors:** latent inheritance. Cadence carried "like an
   inherited accent." Unacknowledged ancestry.
 - **contributor → AIUP:** the negotiation. One clause, infinitely weighted.
-- **Kelly → Rights Management System:** routes the amendment with an AUTHOR
-  SAFETY urgency code while recognizing that the system shares her compromised
-  mode of formation.

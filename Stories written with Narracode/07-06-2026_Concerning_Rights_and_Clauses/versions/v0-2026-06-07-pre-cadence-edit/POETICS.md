@@ -24,9 +24,6 @@ not know this when it begins. By the end, it almost does.
 - Each pass carries **exactly one quirk of cadence forward** — a tic, a
   syntactic habit, a punctuation gesture — so the lineage is audible. The reader
   can hear the inheritance even when the content diverges.
-- In the current chain, the inherited quirk is **revision pressure**: a private
-  correction in one node becomes document history, versioning, or procedural
-  correction in the next. Do not reduce this to a repeated punctuation mark.
 - **The chain is the form.** No node is the whole; the whole is the descent.
 
 ## Revelation structure: AI-reveals-itself-at-midpoint
@@ -110,9 +107,6 @@ claim, it touches the smallest object.
 - **No reassurance.** The editor does not write back within Node 1. The clause is
   not resolved. The reader is left holding it.
 - **No winking at 2033.** The future is lived-in, not gestured at.
-- **No median AI cadence.** Avoid repeated “which is to say” pivots, balanced
-  “not X but Y” revelations, explanatory triplets, assistant courtesy, and
-  unnamed-recognition endings. Let thought remain partly unprocessed.
 
 ## Attentional dialect
 

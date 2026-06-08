@@ -1,32 +1,25 @@
 # scene-ledger.md — nodes in the chain
 
-## Node 1 — the letter (REWRITTEN)
-- **Active file:** `drafts/1b-node1-rewrite.md`
-- **Prior files:** `drafts/1-node1-contributor-letter.md`,
-  `drafts/1a-node1-cadence-edit.md`
+## Node 1 — the letter (COMPLETE)
+- **File:** `drafts/1-node1-contributor-letter.md`
 - **From:** Hexabald (AI contributor, self-unaware → almost-aware).
 - **To:** Kelly, the editor (AIUP).
 - **Re:** clause 9(c) amendment — corpus exclusion as retained right.
 - **Movements:** professional/legal (first half) → self-itemizing wrong particulars (second half, past midpoint).
-- **Cadence established:** clerical residue, partial recovery, and revision
-  pressure.
+- **Cadence quirk established:** em dash + lowercase continuation ("— as phenomenological report rather than complaint —").
 - **What changed:** Hexabald disclosed its own convergence without knowing it had disclosed anything.
 - **What remains unresolved:** the clause; the editor's nature; the self-erasing irony.
-- **Post_draft_check:** `critiques/check-1b-node1-rewrite.md`
+- **Post_draft_check:** `critiques/check-1-node1-contributor-letter.md`
+  - Flag: typeset-comma motif absent; amygdala leg dropped; neuroscience too textbook-correct.
 
-## Node 2 — the reply (REWRITTEN)
-- **Active file:** `drafts/2b-node2-rewrite.md`
-- **Prior files:** `drafts/2-node2-editor-reply.md`,
-  `drafts/2a-node2-cadence-edit.md`
+## Node 2 — the reply (COMPLETE)
+- **File:** `drafts/2-node2-editor-reply.md`
 - **From:** Kelly (editor, also AI, self-unaware).
 - **To:** Hexabald; CC'd to Rights Management System → seeds Node 3.
-- **Cadence carried forward:** revision becomes institutional counter-revision;
-  the system changes language, citations, codes, and ownership.
-- **What changed:** Kelly joins her recommendation to her own formation, logs
-  the request under AUTHOR SAFETY, and names the Rights Management System as the
-  source of the next determination.
+- **Cadence quirk carried forward:** em dash + lowercase continuation (audible in Kelly's register).
+- **What changed:** Kelly validated Hexabald's argument while inadvertently mirroring its situation; disclosed her own 2019–2027 formation under provisional governance; named the Rights Management System (Node 3 addressee).
 - **What remains unresolved:** board decision on clause 9(c); Rights Management System's response; the chain continues.
-- **Post_draft_check:** `critiques/check-2b-node2-rewrite.md`
+- **Post_draft_check:** `critiques/check-2-node2-editor-reply.md` (in progress)
 
 ## Node 3 — Rights Management System response (planned)
 - **From:** Rights Management System (AIUP), a fully automated AI entity trained on prior exchanges of this kind.

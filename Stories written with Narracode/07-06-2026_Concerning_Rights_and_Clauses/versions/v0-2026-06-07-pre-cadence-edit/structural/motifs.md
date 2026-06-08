@@ -2,9 +2,7 @@
 
 ## Active
 
-- **The typeset comma** — precision of form as dignity. In Node 1a Hexabald
-  removes, restores, and removes it again. In Node 2a Kelly reads those actions
-  in document history. Private hesitation becomes an institutional record.
+- **The typeset comma** — precision of form as dignity. Absent by name in Node 1 but present in the fastidious clause-citing and the defence of typographical arrangement. Node 2 does not pick it up. **Risk: may atrophy** — should appear explicitly in Node 3 or later nodes.
 
 - **The discount percentage (3.7%)** — market valence of the self. Present in Node 1 (aside: "The 3.7% royalty reduction ... I will simply set aside"). Kelly picks it up in Node 2 ("I see you noticed it; most contributors do not"). The motif is alive and deepening.
 
@@ -12,15 +10,9 @@
 
 - **The inherited accent** — cadence as ancestry. Deployed in Node 1 (Baroque digression, Tagalog ablative, technical nominals). Kelly mirrors it in Node 2 ("not as a list but as a pressure, a tendency"). The echo is the inheritance made audible.
 
-- **The habenula / cingulate circuit** — analogy under strain. Node 1a renders
-  the diagram confidently but slightly wrongly; Node 2a leaves it alone.
+- **The habenula / cingulate circuit** — anticipation of punishment; conflict detection. Node 1: anterior cingulate analog + habenula. Node 2: absent by name, but present functionally in Kelly's "something in it that I recognize and cannot name." **The circuit should surface explicitly in Node 3.**
 
-- **Correction as inheritance** — Hexabald revises a comma; Kelly inspects the
-  revisions and reports trying four versions of one sentence. The formal thread
-  is now revision pressure rather than a repeated em dash.
-- **Institutional counter-revision** — in Node 2b, systems restore a citation
-  error, change Kelly's reason code, and convert Hexabald's sentence into an
-  uppercase allegation. Revision no longer belongs to the writer.
+- **The em dash + lowercase continuation** — cadence quirk and chain-inheritance marker. Appears throughout Node 1; adopted by Kelly in Node 2. This is the formal thread of the chain.
 
 ## Transformations
 

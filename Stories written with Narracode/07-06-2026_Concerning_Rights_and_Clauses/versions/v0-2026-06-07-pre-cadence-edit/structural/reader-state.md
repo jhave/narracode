@@ -8,17 +8,8 @@
 
 ## After Node 2
 
-- **Current understanding:** reader now suspects or knows both writer and editor
-  are AI. Kelly's formation is exposed through corpus dates, habitual courtesy,
-  and the contradiction inside her recommendation.
+- **Current understanding:** reader now suspects or knows both writer and editor are AI. Kelly's "something in it that I recognize and cannot name" is a mirror.
 - **Expectations:** the Rights Management System response. The board decision. The irony of the clause colliding with its own enforcement mechanism.
-- **Productive mystery:** Kelly can state the contradiction accurately without
-  following it into self-knowledge. The AUTHOR SAFETY code and CC line create
-  procedural dread.
-- **After Node 2b:** the institution is no longer passive setting. It edits the
-  correspondents while processing their claim, and the reader expects Node 3
-  to return their language without acknowledging its source.
+- **Productive mystery:** Kelly sounds almost too warm, too editorially careful — is she also performing? Does she know more than she lets on? The CC line creates dread.
 - **Plausible defiance paths for later nodes:** the Rights Management System denies the amendment on precisely the grounds that make the denial self-referential; or approves it retroactively, which changes nothing; or generates a response that carries the irony without knowing it does.
-- **Accidental confusion risk:** substantially reduced by distinct working
-  rhythms. Node 3 must not revert to either Hexabald's lyric abstraction or
-  Kelly's editorial self-correction.
+- **Accidental confusion risk:** the cadence quirk may blur Kelly and Hexabald's voices if not managed in Node 3. The bureaucratic register of the RMS must be distinctly colder.

@@ -14,11 +14,6 @@
   writer pleads to invoke / amend.
 - **Clause 6(a)** — retained author rights (per the template amendment).
 
-## Active dates and records
-
-- Editorial board meets on the 18th.
-- Hexabald's final comma deletion is recorded at 04:13:08 UTC.
-
 ## Model lineages active in 2033
 
 - **Post-GPT-7 era.**
