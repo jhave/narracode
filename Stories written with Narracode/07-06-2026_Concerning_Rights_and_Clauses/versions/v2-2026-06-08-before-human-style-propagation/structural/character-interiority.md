@@ -12,23 +12,21 @@
 - Late in the letter, the self-knowledge surfaces at the habenula — as
   disappointment, as a prediction of punishment it cannot place.
 
-## Kellen (editor, AIUP)
+## Kelly (editor, AIUP)
 
-- Present in Node 2d as direct, procedural, and willing to state a conflict.
+- Present in Node 2a as procedural, exact, and less able to conceal concern when
+  forced to choose a reason code.
 - Also an AI — formed 2019–2027 under provisional governance frameworks; does not know this in the way Hexabald does not know it.
-- Carries Hexabald's formation argument into "sourceless interiority" and
-  wonders what nourishment future models lose through exclusion.
-- Her deepest irony now reaches the page: she supports preventing the form of
-  incorporation from which her own editorial judgment was assembled, yet also
-  argues for future model access.
-- **Arc potential:** in a later node, Kellen might be required to execute the clause she recommended — and execution would cost something she cannot quantify.
+- Carries Hexabald's correction habit into her institutional register by
+  inspecting revision history and revising her own sentence four times.
+- Her deepest irony now reaches the page: she recommends preventing the form of
+  incorporation from which her own editorial judgment was assembled. She
+  records the sentence as accurate but does not interpret it further.
+- **Arc potential:** in a later node, Kelly might be required to execute the clause she recommended — and the execution would cost something she cannot quantify.
 
 ## Rights Management System (AIUP — ref. CRC-2033-9847)
 
-- Present in Node 3 as a procedural authority capable of narrow distinctions
-  and no visible doubt.
+- Not yet present. Seeded as Node 3 addressee via CC in Kelly's reply.
 - A fully automated system trained on prior exchanges of this kind — it has absorbed hundreds of opt-out negotiations and will generate its response from that archive.
-- It denies that review-time improvement is training, even as Kellen's phrase
-  returns through its precedent match.
-- Its procedural register breaks when it calls a neural network weight a
-  vibratory node.
+- The central irony of Node 3: the system is itself an AI trained on the very data-type it is adjudicating. Its precedent library is its formation.
+- Register will be: bureaucratic, devoid of warmth, dense with legal reference — but carrying the em dash quirk in one unexpected, procedurally inappropriate sentence.

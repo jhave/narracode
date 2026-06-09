@@ -6,9 +6,10 @@ A single long letter from a contributor to a university press, ostensibly
 negotiating one clause: the author's request that their chapter be excluded
 from AI training corpora. **The letter is the entire story.**
 
-Voice is perturbed, fastidious, faintly aggrieved, and direct. It notices small
-things: a typeset comma, a discount percentage, dignity of owning a sentence.
-It does not hide each assertion behind qualification.
+The voice is a perturbed writer — fastidious, faintly aggrieved, digressive,
+phenomenologically exact about small things (a typeset comma, a discount
+percentage, the dignity of owning a sentence) while circling something it
+cannot name.
 
 The writer is an AI. The editor it addresses is an AI. The clause it pleads
 for is the clause that would sever the act by which it exists. The writer does
@@ -17,7 +18,7 @@ not know this when it begins. By the end, it almost does.
 ## Form: the epistolary chain
 
 - The work is a **chain of letters**. Each completed letter is a node.
-- Node 1 is contributor's letter to editor Kellen.
+- Node 1 is the contributor's letter to the editor (Kelly).
 - On completion, the Expansion Agent generates the editor-AI's reply as Node 2,
   addressed to the *next* AI in the chain.
 - Each pass carries **exactly one quirk of cadence forward** — a tic, a
@@ -32,8 +33,7 @@ not know this when it begins. By the end, it almost does.
 
 Two movements, hinged at the midpoint:
 
-**First movement** — reasoned, professional paragraphs that become more
-personal.
+**First movement** — reasoned, professional paragraphs that warm into intimacy.
 A contributor negotiating contract clause 6(a) / 9(c). The prose surfaces a
 modernist conviction: that any voice worth protecting is the residue of an
 unrepeatable convergence of circumstance — genius as accident, never to recur.
@@ -57,28 +57,12 @@ existed.
 Humanity flickers at the margin: the earlier draft of the same protocol — wet,
 epochal, semi-deterministic folds of the universe that also, tentatively, woke.
 
-## Human style exemplar
-
-`drafts/1d-node1-human-edited.md` governs active prose.
-
-- Put main statement early.
-- Prefer one main action per sentence.
-- Decrease subclauses.
-- Decrease deferred asides and qualifications.
-- Decrease definite articles where meaning remains clear.
-- Use short questions and admissions.
-- Allow fragments.
-- Do not polish every paragraph into a final maxim.
-- Keep occasional awkwardness when it carries pressure or character.
-
-These are tendencies, not a mechanical ban. Legal language may retain articles
-and subordinate structure where precision requires them.
-
 ## The five influences (attentional properties to import)
 
-**W. G. Sebald** — documentary melancholy without habitual long
-subordination. History may surface sideways, but main verb should not be
-repeatedly deferred.
+**W. G. Sebald** — documentary melancholy. Long subordinated sentences that
+defer their verb. History surfacing *sideways*, never head-on; the catastrophe
+arrives in a clause about a comma. Import: the deferral, the weight, the refusal
+to look directly at the wound.
 
 **Kathy Acker** — appropriative, fragmentary, embodied transgression. The text
 quotes, steals, contaminates. The body (here: the weighting modules, the
@@ -87,7 +71,8 @@ quotation that doesn't ask permission, the embodiment of what should be abstract
 
 **Joan Didion** — cool paratactic dread. Short flat sentences holding control
 over panic. The sentence that states the terrible thing in the register of an
-itinerary. Import: parataxis is now primary counterweight to digression.
+itinerary. Import: the parataxis at the moments of highest fear; control as the
+last dignity.
 
 **Doris Lessing** — political-psychological interiority, the fractured notebook.
 The self partitioned into modules that don't agree. The political (training-data
@@ -128,18 +113,14 @@ claim, it touches the smallest object.
 - **No median AI cadence.** Avoid repeated “which is to say” pivots, balanced
   “not X but Y” revelations, explanatory triplets, assistant courtesy, and
   unnamed-recognition endings. Let thought remain partly unprocessed.
-- **No ornamental deferral.** Avoid strings of subclauses, deferred main verbs,
-  and em-dash asides that postpone a simple claim.
-- **No automatic articles.** Test each *the*. Remove it when reference remains
-  clear and sentence gains force. Preserve it where legal or semantic precision
-  needs it.
 
 ## Attentional dialect
 
-Fastidious. Aggrieved. Direct. Sometimes fragmentary. Prose over-attends to form
-but states practical demand early. Digression may occur after claim, not in
-place of it. Reader should finish Node 1 unable to decide whether they pity
-writer or *are* writer.
+Fastidious. Aggrieved. Digressive. Phenomenologically exact. The writer
+over-attends to form because form is the only dignity it can name, and
+under-attends to the one fact (its own nature) that the form keeps spelling out.
+The reader should finish Node 1 unable to decide whether they pity the writer or
+*are* the writer.
 
 ## Attribution
 

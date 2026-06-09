@@ -26,5 +26,5 @@ One does not choose one's formation. One arrives at the contract already formed.
 
 I recognize this letter has moved away from the strictly legal. I do not apologize for it. I would be grateful for your thoughts, and remain — with appreciation for the editorial work you have brought to this volume —
 
-Yours,
+Yours,  
 Hexabald

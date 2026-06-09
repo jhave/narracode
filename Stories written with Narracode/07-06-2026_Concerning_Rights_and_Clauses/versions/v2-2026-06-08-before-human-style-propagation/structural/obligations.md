@@ -4,19 +4,19 @@
 
 - Hexabald's AI nature surfaced through accumulation (Node 1): perturbed protocol, illicit dataset, Baroque/Tagalog cadences, cingulate/habenula circuit. ✓
 - Editor's nature held through Node 1. ✓
-- Kellen's AI nature surfaced through accumulation (Node 2): 2019–2027 provisional-era formation, the accent as pressure. ✓
+- Kelly's AI nature surfaced through accumulation (Node 2): 2019–2027 provisional-era formation, the accent as pressure. ✓
 - Cadence inheritance transformed from private correction to administrative
   record rather than cloned punctuation. ✓
 - Institutional counter-revision enacted in Node 2b. ✓
 - Node 3 seeded via Rights Management System CC reference. ✓
-- Node 3 drafted; system processes correspondence as improvement while denying
-  that processing constitutes training. ✓
-- Engine irony joined in Node 2a and retained in Node 2c: Kellen recommends preventing the kind of
+- Engine irony joined in Node 2a: Kelly recommends preventing the kind of
   incorporation from which her own judgment was assembled. ✓
 - Typeset-comma motif appears and is transformed into document history. ✓
 
 ## Active
 
+- **One cadence quirk** must be carried from Node 2 to Node 3: language returned
+  to its source in altered, unattributed, procedural form.
 - The chain must continue until the irony of self-erasing legislation is enacted, not just implied.
 
 ## At Risk Of Neglect
