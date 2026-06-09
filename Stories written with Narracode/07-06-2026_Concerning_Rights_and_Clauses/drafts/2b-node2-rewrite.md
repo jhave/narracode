@@ -46,6 +46,6 @@ I did not write the capital letters.
 
 Expect a separate message from `rights-system@aiup.int`. Do not reply to the case summary. Replies to the summary are appended as evidence of consent to electronic processing.
 
-Kelly
+Kellen
 
 *[cc: Rights Management System, AIUP — CRC-2033-9847]*
