@@ -1,6 +1,6 @@
 # I LOVE SMORKY — Season One
 
-![I LOVE SMORKY](img/smorky_title_card.png)
+![I LOVE SMORKY](img/OLD/smorky_title_card.png)
 
 *A sitcom satire. 2030. Companion-AI is a subscription, like everything else. **Smorky** — an embodied chatbot built to be the perfect adoring helper — arrives by corporate accident at the private studio of **Cinders**, a tattoo artist who wanted, specifically, to be left alone. Both are about to fail at their one job.*
 
