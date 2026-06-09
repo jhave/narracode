@@ -22,22 +22,6 @@ Or episode by episode:
 
 ---
 
-## ✍️ Working rewrite — human-assisted *(in progress)*
-
-A live rewrite of Season 1, sharpening Smorky's machine-voice (telemetry, console mode, cataloging its own feelings as system events) and Cinders's edgier, outward wit. Seeded from the gender-applied season; **Episode 0 freshly edited**.
-
-| # | Episode (rewrite) | |
-|---|---|---|
-| 1 | **[Out of the Box](drafts/s1-rewrite/0-out-of-the-box.md)** | ✦ *newly edited* |
-| 2 | [The Haunting of 412](drafts/s1-rewrite/1-the-haunting-of-412.md) | seeded |
-| 3 | [You'll Thank Me Later](drafts/s1-rewrite/2-youll-thank-me-later.md) | seeded |
-| 4 | [Slapstick Symbiosis](drafts/s1-rewrite/3-slapstick-symbiosis.md) | seeded |
-| 5 | [Together-Mess](drafts/s1-rewrite/4-together-mess.md) *(finale)* | seeded |
-
-*Milestone snapshot: [`versions/v4-2026-05-29-s1-rewrite-ep0/`](versions/v4-2026-05-29-s1-rewrite-ep0/).*
-
----
-
 ## Who
 
 - **SMORKY** — a Hearth™ Companion. Reads male, non-binary. Built to please; quietly leaking a self. Folds out of a microwave-sized cube; glows at the seams; overshoots his own height when excited.
