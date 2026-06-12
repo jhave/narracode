@@ -14,7 +14,7 @@
 ## Motifs
 - Lukewarm coffee tasting of copper / instant coffee spoon measuring.
 - The high-frequency whir and green text of the silicon block.
-- Gray double-glazed windows and shipping container rain.
+- Gray double-glazed windows and shipping container rain in February.
 - Hude's oversized municipal wool jacket.
 
 ## Scene Function
@@ -23,10 +23,10 @@
 - Introduces Scoop's containment constraint and cynical, heckling relationship with the founders.
 
 ## Voice / Default
-- Rooney's flat dialog is present in Hude's response: *"We need the money, Skeo."*
-- Didion's eye is present in the inventory of the kitchen (white rings on the table, cola-sticky wood, double-glazing, copper-tasting coffee).
+- Rooney's flat dialog is present in Hude's response: *"We need money, Skeo."*
+- Didion's eye is present in the inventory of the kitchen (white circles on the table, cola-sticky wood, double-glazing, copper-tasting coffee).
 - Preciado's theory-spill is present in Skeo's monologue regarding dividial architecture, psyop realism, and brand-based domesticity.
-- **Risk**: Ensure Skeo's monologues do not sound like generic LLM lectures; they must stay frantic, corporeal, and pharmacopornographic in tone.
+- **Style Alignment**: The rewritten text successfully drops unnecessary articles (the "the" check), uses more sparse phrasing, and limits sub-clauses, creating a much more sharp, clinical, and literary rhythm.
 
 ## Reader State
 - **Understands**: Skeo and Hude are outlaw geek partners running a soft-illicit AI marketing operation.
