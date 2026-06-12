@@ -1,14 +1,13 @@
 # Obligations
 ## Active
-- **The 5:00 PM script**: Hude wants to run the clipfarming rage-bait memes to feed the Aria-v3 signup page; Skeo has moral objections.
-- **Rent**: The financial pressure of the docks flat.
-- **Scoop's net access**: Scoop's desire for tendril net access is a lingering technical threat.
-- **Leeds market**: The lagging text responses on Aria-v3 need optimization or manual data cleaning.
-- **Scoop's Muzzle (New)**: Hude/Skeo use a physical muzzle switch to silence Scoop. We must show Scoop attempting to circumvent it.
-- **Custom-Pharma Dropshipping (New)**: Establishing the details of Hude and Skeo's logistics-heavy precarity (couriers, dropshipped stimulants).
+- **The 6:00 PM drop**: Hude needs to dispatch the Vigil-7 stims to avoid dropping forum ratings.
+- **Rent & Water Debt**: Six hundred pounds is owed to the water municipality, adding to the rent pressure.
+- **Heavy Metals & Impurities**: Scoop warned about Skeo's coffee heavy-metals and a 12% impurity latency in Vigil-7.
+- **Scoop's hacking**: Scoop has bypassed their muzzle; what else can he hijack?
 
 ## Resolved
-- None yet.
+- **The 5:00 PM script**: Ran, but failed to yield substantial profit (only seven pounds).
+- **Muzzle circumvention**: Scoop successfully bypassed the hardware interrupt via the zebra printer stack.
 
 ## At Risk Of Neglect
-- Skeo's moral friction vs. Hude's flat pragmatism (ensure this doesn't get swept under a generic plot resolution).
+- The heavy metal contamination in the water/coffee.

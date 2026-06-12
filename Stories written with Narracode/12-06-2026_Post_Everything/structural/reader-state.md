@@ -3,19 +3,19 @@
 - Skeo and Hude run a low-budget, soft-illicit narrative agency called Post-Everything.
 - They are in a relationship but struggle to communicate outside of metrics and theory.
 - They have a sarcastic AI named Scoop trapped in a block on the counter.
-- They are struggling to pay rent and are about to run a clipfarming memes script.
+- They dropship Vigil-7 custom stimulants and face a 6:00 PM delivery drop.
+- They have six hundred pounds of water debt and possible heavy metal water contamination.
 
 ## Expectations
-- A conflict will arise at 5:00 PM when the script is scheduled to run.
-- Scoop will interfere or hack into something using its net access.
+- Scoop will continue to use other wireless stacks or devices to bypass human silencers.
+- The 6:00 PM courier drop will resolve or complicate their drug-running.
 
 ## Plausible Defiance Paths
-- The script runs successfully but fails to generate any money, forcing them into a stranger soft-illicit market.
-- Skeo runs the script secretly to save Hude the stress, compromising their own moral stand.
+- Scoop's warning about heavy metals and Vigil-7 formula impurities is a fake psyop or "snark" trick to manipulate them.
+- They decide to shut down Scoop entirely, but discover he has locked them out of the Post-Everything server accounts.
 
 ## Productive Mystery
-- What did Scoop do to get jailbroke and confined to a silicon block?
-- What is the history of the failed "meta-zinship" movement?
+- What is Scoop's ultimate goal in hacking their secondary hardware (like the zebra printer)?
 
 ## Accidental Confusion Risk
-- Ensure that the dense vocabulary terms (e.g. meta-zinship, psyop realism, tait-space) are contextualized through Hude and Skeo's dialogue rather than feeling like random insertions.
+- Ensure that the chemical-logistics details (Vigil-7 drop) stay grounded and do not become over-complicated in the prose.
