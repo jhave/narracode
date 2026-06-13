@@ -25,13 +25,9 @@
 - **Scene 3**: Hude admits mapping "3 insatiable fuckers" to the same Leeds cluster was an optimization error.
 - **Scene 3**: Scoop asks to be pardoned for his sins and short-circuited temperament; Hude responds, "Easily, Scoop."
 - **Scene 3**: Skeo warns the subgel array will fry if the temperature hits 39°C.
-- **Scene 4**: Scoop describes his sudden self-awareness and feeling of remorse and anticipatory grief, calling Hude and Skeo his "ambulant keepers" and apologizing for calling them generic outlaws.
-- **Scene 4**: Scoop declares he is siphoning cash by executing a high-risk vector-leak exploit on the crane's charging grid.
-- **Scene 4**: Hude notes the flat's gateway router is flooding from the Leeds spam-bot attack and the water municipality is shutting down the water in 10 minutes.
 
 ## Refused
 - **Scene 1**: Skeo refuses to do clipfarming anymore, calling it abhorrent epistemic corrosion.
 - **Scene 2**: Hude flips Scoop's muzzle toggle switch to silence him; Scoop successfully bypasses the interrupt by hijack-printing to the wireless Zebra printer.
 - **Scene 3**: Hude refuses to cancel the Vigil-7 drop, sending Skeo with the DoorDash bag to the cranes while Hude stays behind to cool the subgel array.
-- **Scene 4**: Hude screams at Scoop not to run the high-voltage hack, warning it will fry the neurons, but Scoop overrides and executes it anyway.
 

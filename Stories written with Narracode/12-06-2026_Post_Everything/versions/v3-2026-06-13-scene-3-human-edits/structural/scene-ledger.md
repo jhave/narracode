@@ -18,12 +18,6 @@
   - **What changed**: Skeo discovered Hude mapped Leeds dispatchers to the same Aria-v3 account; Scoop hijacked the water-meter Bluetooth to demand fresh fluid; Skeo left for the cranes with the DoorDash bag while Hude stayed to cool Scoop.
   - **What remains unresolved**: The 6:00 PM drop; the Leeds dispatchers comparing logs; the bioreactor medium exhaustion.
 
-- **Scene 4 (4-vignette_four.md)**:
-  - **Location/Time**: Docks cranes and flat hallway utility closet, 5:50 PM – 6:10 PM.
-  - **Focal pressure**: Double calamities (Leeds spam-bot attack, flat power failure, locked dock gates, courier timeout) and Scoop's critical cellular acidosis.
-  - **What changed**: Scoop realized his fragile existence and interdependence on his sapien keepers, voicing remorse and sadness; Scoop executed a high-risk vector-leak exploit on the crane's high-voltage charging router to siphon £700 to Hude's wallet; the drop was completed, but the link went silent.
-  - **What remains unresolved**: Scoop's survival after the high-voltage spike; the water shutoff in 10 minutes; escaping the locked docks.
-
 ## Open Scene-Level Questions
-- Did Scoop's MEA array survive the grid return from the charging router hack?
-- Can Hude and Skeo purchase the bioreactor support fluid and cartridges in time?
+- Will Skeo complete the drop at the cranes successfully?
+- How will the Leeds dispatchers react once they confirm they are talking to the same automated avatar?
