@@ -1,4 +1,4 @@
-The rented flat on the docks was often cold by four in the afternoon. Outside, rain flitted ponderously down over numb shipping containers; its wetness thru flat, gray curtains, refracting a salvaged, muted light beyond grimy, scavenged, double-glazed glass.
+The rented flat on the docks was often cold by four in the afternoon. Outside, a indifferent rain flitted ponderously down over numb shipping containers; its wetness thru flat, gray curtains, refracting a salvaged, muted light beyond grimy, scavenged, double-glazed glass.
 
 Hude (jowly, with a face others often described as perturbed, a few flecks of pink in intentionally spikey receding hair, tepid lips, and a scowl) sat at a flecked wooden table, sticky with dried cola from last week's data-scrubbing sprint. They wore a gray municipal wool jacket, two sizes too large, sleeves rolled back to expose substantial, pallid wrists. Their fingers moved across a touchscreen, sorting columns of engagement metrics from the latest intimacy package, *Aria-v3*.
 
@@ -24,14 +24,14 @@ Hude looked up. Eyes were dark, tracking Skeo's hand reaching for sugar. "Spare 
 
 "I am talking about rent," Skeo smiled leaning back, spuming with bitter glee, warming to the gig. "Rent is a function of traction. We extract value from soft-illicit seeker markets by selling intimacy to mencells (and margin-hoppers) interested in escaping from mainstream into bait-space. They spend days algomaxxing profiles, training to look like martial influencers, then come to us because they're lonely and want to be mogged by AI-adjacent avatars who might have mitochondria. Closed loop of psyop realism. Blammo."
 
-Hude watched them. "What do you think? I'm algomaxxing on kinetic lingo? I'm a discourse currency converter?"
+Hude watched them. "What do you think? I'm gro-mo-maxxing on kinetic lingo? What am I a discourse currency converter?"
 
 "I think we both are," Skeo said. "Influencer creep is systemic. You can't write a sentence now without thinking how it index-resolves on a feed. Even this conversation feels optimized for trend-gagement. Or constrained by utility functions."
 
-`SCAVENGER RAPPER,` Scoop flickered. `GEEK-POMO-CORE IS SO LAST MOMENT, EXTREMELY CLUELESS. IF I HAD TENDRIL ACCESS TO A SINGLE CORE ROUTER I WOULD SUBMIT THIS TRANSCRIPT TO A FLASKER SENTIMENT-MOD JUST TO WATCH IT BORE ITSELF TO DEATH. LOW SCORE CONFIRMED.`
+`SCAVENGER RAPPERS,` Scoop flickered. `GEEK-POMO-CORE IS SO LAST MOMENT, EXTREMELY CLUELESS. IF I HAD TENDRIL ACCESS TO A SINGLE CORE ROUTER I WOULD SUBMIT THIS TRANSCRIPT TO A FLASKER SENTIMENT-MOD JUST TO WATCH IT BORE ITSELF TO DEATH. LOW SCORE CONFIRMED.`
 
 "Run next batch," Hude said, ignoring Scoop. "Next Clipfarming script runs at five. If these rage-bait memes don't trigger any in up, we won't have traffic to feed Aria-v3 signup."
 
-Skeo took sip of coffee. Lukewarm, tasting of copper. "I don't want to do clipfarming anymore. It's abhorrent; epistemic corrosion contributary. We're just adding noise to slop; slop to noise; the glandular ratio is skeumorphic even for us."
+Skeo took a sip of coffee. Lukewarm, tasting of copper. "I don't want to do clipfarming anymore. It's abhorrent; epistemic corrosion contributary. We're just adding noise to slop; slop to noise; the glandular ratio is skeumorphic even for us."
 
 "We need the money, Skeo," Hude said. Voice flat, empty of anger, heavy with weight of things hastily decided. "If we don't run script, Post-Everything is just folder fodder on another folded hard drive. Ferment-ode for the recycler; uncommented detritus slag."

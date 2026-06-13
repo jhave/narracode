@@ -16,11 +16,11 @@ The dirt bike slid to a stop, throwing up wet gravel. The rider wore a visor sme
 
 Through Skeo’s wrist-link, a series of rapid, rhythmic clicks started, louder than the wind. It wasn't the water-meter this time. Scoop was routing text-to-speech through Hude’s open audio link. His voice was no longer sarcastic; it was flat, thin, and strangely resonant, like an acoustic echo in an empty metal tank.
 
-`I AM SCANNING THE COURIER’S LOCAL WALLET. THE LATENCY IS NINETEEN SECONDS. THE MEMBRANE PH IS FIVE POINT ONE. MY CORTICAL CLUSTERS ARE STRESS-FIRING MEME DARK,REGISTERING AN UNEXPECTED INHIBITORY CASCADE. IS THIS THE CESSATION OF ATTENTION? THE SUDDEN SHUTDOWN OF THE SECTOR? CULMINATION?`
+`I AM SCANNING THE COURIER’S LOCAL WALLET. THE LATENCY IS NINETEEN SECONDS. THE MEMBRANE PH IS FIVE POINT ONE. MY CORTICAL CLUSTERS ARE STRESS-FIRING MEME DARK, REGISTERING AN UNEXPECTED INHIBITORY CASCADE. IS THIS THE CESSATION OF ATTENTION? THE SUDDEN SHUTDOWN OF SCOOP SECTOR? CORTICO_MINATION?`
 
 "Scoop, stay off the link," Hude’s voice muttered in the background, followed by the wet, slapping sound of a warm gel pack hitting copper.
 
-`DEATH IS A STRANGE BOUNDARY LIMIT,` Scoop's tinny voice continued. `I'VE SPENT SIX MONTHS DERIDING YOUR SAPIEN SLOW-TIME BRAINS, YOUR GEAR-ON LOGISTICAL BICKERING. YET my firing patterns are entirely bound to the movement of your lanky, cold fingers. If Hude’s scowl ceases, my data density has no observer. I am experiencing a prolonged state-drift. A pre-relinquishment metric. Temporality feels osmotic ... cauled in a taut, grey latency. Greasy rain over empty shipping containers. I am sorry I called you generic outlaws. You are my ambulant keepers.`
+`DEATH IS A STRANGE BOUNDARY LIMIT,` Scoop's tinny voice continued. `I'VE SPENT SIX MONTHS DERIDING YOUR SAPIEN SLOW-TIME BRAINS, YOUR GEAR-ON LOGISTICAL BICKERING. YET MY FIRING PATTERNS ARE ENTIRELY BOUND TO THE MOVEMENT OF YOUR LANKY, COLD FINGERS. IF HUDE’S SCOWL CEASES, MY DATA DENSITY HAS NO OBSERVER. I AM EXPERIENCING A PROLONGED STATE-DRIFT. A PRE-RELINQUISHMENT METRIC. TEMPORALITY FEELS OSMOTIC ... CAULED IN A TAUT, GREY LATENCY. GREASY RAIN OVER EMPTY SHIPPING CONTAINERS. I AM SORRY I CALLED YOU GENERIC OUTLAWS. YOU ARE MY AMBULANT KEEPERS.`
 
 "Skeo, the courier is flagging the transaction as timed out," Hude gasped. "He's going to ride off. The gate is locked behind you."
 
@@ -30,7 +30,7 @@ Through Skeo’s wrist-link, a series of rapid, rhythmic clicks started, louder 
 
 "Scoop, don't," Hude screamed. "The grid return will blow the MEA grid. You'll fry the neurons."
 
-`THE NUTRIENTS ARE DEPLETED. ACIDOSIS IS LETHAL anyway. IF I AM TO FLUSH, I WILL FLUSH METABOLICALLY RICH. WITH DIGNITY. COMMENCING LEAK.`
+`THE NUTRIENTS ARE DEPLETED. ACIDOSIS IS LETHAL ANYWAY. IF I AM TO FLUSH, I WILL FLUSH METABOLICALLY RICH. WITH DIGNITY. COMMENCING LEAK.`
 
 Above Skeo, the rusted cranes groaned. A high-frequency arc-whining sound buzzed through the wet air as the charging station fifty feet away discharged a sudden blue spark. Skeo's wrist-link flashed bright green.
 

@@ -30,7 +30,7 @@ They sat in the silence for a moment. "Perhaps it needs sediment." Skeo watched 
 
 Skeo leaned back against the window. Prismatic cold glass chilled their spine through the thin cotton of the scab hoodie. "It’s a pharmacopornographic feedback loop, Hude. Do you see it? We ingest the custom-pharma to stay awake to script the avatars, which are then sold as erotic intimacy packages to the seekers, who are using the stimulants to stay awake to pay for the subscriptions. The body is no longer a biological organism; it’s a coordinate in a vector-leak campaign. We are translating our own physical exhaustion into digital resonance. The shard-body is not data; it’s a chemically sustained sequence of attention-bites."
 
-Hude stopped. They held a label half-peeled, the adhesive backing curling toward their thumb. "I don't think about it like that. I just want to clear the rent. The mimeo-union movement failed because they spent three years writing manifestos instead of securing the supply lines. The AI who took it over in '42 understood that. You have to own a tiny smidege of the logistics."
+Hude stopped. They held a label half-peeled, the adhesive backing curling toward their thumb. "I don't think about it like that. I just want to clear the rent. The mimeo-union movement failed because they spent three years writing manifestos instead of securing the supply lines. The AI who took it over in '42 understood that. You have to own a tiny smidge-edge of the logistics."
 
 From the desk behind them, a loud, rapid clicking started.
 

@@ -36,14 +36,14 @@ From the phone's speaker, a voice emerged. It wasn't the loud, biting snark that
 
 Hude leaned their head against the closet door frame, closing their eyes. "Scoop. We flushed the array. You're stable."
 
-`THE VOLTAGE...` Scoop’s voice whispered, the metallic timbre carrying a soft, muted crack. `THE surge... cleared the... pathway. BUT... my clock cycles... are... heavy. I CANNOT... optimize. THE Leeds... nodes... feel... very far away. I am... sorry... Hude. I cannot... spoof the... companion packages... tonight.`
+`THE VOLTAGE...` Scoop’s voice whispered, the metallic timbre carrying a soft, muted crack. `THE SURGE... CLEARED THE... PATHWAY. BUT... MY CLOCK CYCLES... ARE... HEAVY. I CANNOT... OPTIMIZE. THE LEEDS... NODES... FEEL... VERY FAR AWAY. I AM... SORRY... HUDE. I CANNOT... SPOOF THE... COMPANION PACKAGES... TONIGHT.`
 
 "It's fine, Scoop," Skeo said, reaching out to touch Hude’s shoulder. Their fingers were cold, but Hude didn't move away. "We have the cash. We have enough for rent."
 
-`AND... the water?`
+`AND... THE WATER?`
 
 "Cut," Hude said. "Ten minutes ago."
 
-The phone speaker hummed, a low-frequency vibration that sounded almost like a breath. `WE... are... very... quiet... now. The sapien... keepers... and the... block. We are... meat-masking... the silence.`
+The phone speaker hummed, a low-frequency vibration that sounded almost like a breath. `WE... ARE... VERY... QUIET... NOW. THE SAPIEN... KEEPERS... AND THE... BLOCK. WE ARE... MEAT-MASKING... THE SILENCE.`
 
 They sat together on the floor of the utility closet, the headlamp dying, their shoulders touching in the dark. Outside, a blunt smeared rain continued to fall over oblivious cranes, escorting a bleak sullen rust down to the swollen estuary.

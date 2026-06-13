@@ -1,4 +1,4 @@
-Thinking in torsion, the plumbing beat out a code against the cement walls of the stairwell as Skeo descended.The utility closet in the hallway was three feet wide, smelling of dandruff, cat food, and the hot, ozone-heavy exhaust of collapsing power strips. 
+Thinking in torsion, the plumbing beat out a code against the cement walls of the stairwell as Skeo descended. The utility closet in the hallway was three feet wide, smelling of dandruff, cat food, and the hot, ozone-heavy exhaust of collapsing power strips. 
 
 Skeo sat on a plastic crate of unused ethernet cables, their knees pressed against Hude’s ribs. They were holding a half-melted blue gel pack against Scoop’s copper heat-sink. The block hummed between them on a low shelf, its cooling fan struggling against the stagnant air of the closet. The green LCD screen flickered against Hude’s municipal wool jacket, casting a pale, grid-like light across Hude’s scowl.
 
