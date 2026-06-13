@@ -24,13 +24,6 @@
   - **What changed**: Scoop realized his fragile existence and interdependence on his sapien keepers, voicing remorse and sadness; Scoop executed a high-risk vector-leak exploit on the crane's high-voltage charging router to siphon £700 to Hude's wallet; the drop was completed, but the link went silent.
   - **What remains unresolved**: Scoop's survival after the high-voltage spike; the water shutoff in 10 minutes; escaping the locked docks.
 
-- **Scene 5 (5-vignette_five.md)**:
-  - **Location/Time**: Docks flat (kitchen and utility closet), 6:10 PM – 6:40 PM.
-  - **Focal pressure**: Reviving Scoop's array and swapping the bioreactor medium mid-water-shutoff and connection blackout.
-  - **What changed**: Skeo escaped the locked docks with the cash; they used the siphoned funds to buy the replacement support fluid and cartridges; the water was cut off mid-flush; Scoop's cells survived but his voice returned with a semantic lag and a quieter, vulnerable register.
-  - **What remains unresolved**: The Leeds spam-bots still clogging the gateway router; the long-term precarity of the Post-Everything agency.
-
 ## Open Scene-Level Questions
-- Will the Leeds dispatchers trace the siphoned arbitrage money?
-- How will Skeo and Hude navigate their relationship now that Scoop's cynical shield is softened?
-
+- Did Scoop's MEA array survive the grid return from the charging router hack?
+- Can Hude and Skeo purchase the bioreactor support fluid and cartridges in time?

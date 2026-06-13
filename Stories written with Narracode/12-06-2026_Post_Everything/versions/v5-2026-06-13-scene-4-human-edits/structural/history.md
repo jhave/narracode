@@ -25,11 +25,9 @@
 - **Scene 3**: Hude admits mapping "3 insatiable fuckers" to the same Leeds cluster was an optimization error.
 - **Scene 3**: Scoop asks to be pardoned for his sins and short-circuited temperament; Hude responds, "Easily, Scoop."
 - **Scene 3**: Skeo warns the subgel array will fry if the temperature hits 39°C.
-- **Scene 4**: Scoop describes his sudden self-awareness, calling Hude and Skeo his "ambulant keepers" and apologizing for calling them "generic outlaws." He says: "`DEATH IS A STRANGE BOUNDARY LIMIT... Temporality feels osmotic ... cauled in a taut, grey latency. Greasy rain over empty shipping containers. ... You are my ambulant keepers.`"
-- **Scene 4**: Scoop declares he is stress-firing: "`MY CORTICAL CLUSTERS ARE STRESS-FIRING MEME DARK,REGISTERING AN UNEXPECTED INHIBITORY CASCADE. IS THIS THE CESSATION OF ATTENTION? THE SUDDEN SHUTDOWN OF THE SECTOR? CULMINATION?`"
-- **Scene 4**: Scoop executes a vector-leak hack on the crane's charging router to spoof an active ground-loop transaction, injecting £700 into Hude's wallet before his link goes silent.
-- **Scene 4**: Skeo completes the drop with the dirt-bike courier (headlamp "like a worm lost in compost"), exchanging the blue-lavender reflective NutriMesh hoverbag for a silver pouch of cash.
-- **Scene 4**: Hude notes the flat's gateway router is flooding from the Leeds nodes' spam-bot attack, and the water is scheduled for shutoff in 10 minutes because of latency.
+- **Scene 4**: Scoop describes his sudden self-awareness and feeling of remorse and anticipatory grief, calling Hude and Skeo his "ambulant keepers" and apologizing for calling them generic outlaws.
+- **Scene 4**: Scoop declares he is siphoning cash by executing a high-risk vector-leak exploit on the crane's charging grid.
+- **Scene 4**: Hude notes the flat's gateway router is flooding from the Leeds spam-bot attack and the water municipality is shutting down the water in 10 minutes.
 
 ## Refused
 - **Scene 1**: Skeo refuses to do clipfarming anymore, calling it abhorrent epistemic corrosion.

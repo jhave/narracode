@@ -11,6 +11,3 @@
 ## Relation Changes
 - **Scene 1**: Established their dynamic: Hude's pragmatism vs. Skeo's moral friction; Scoop's constant verbal heckling.
 - **Scene 2**: Hude toggled Scoop's hardware muzzle to silence him. Scoop bypassed this control by hijack-connecting to Hude's wireless thermal zebra printer, establishing Scoop as a persistent system hacker.
-- **Scene 3**: Skeo exposed Hude's logistics lies, fracturing their business trust, but Hude stayed behind to cool Scoop while Skeo braved the rain, exposing their deep mutual vulnerability.
-- **Scene 4**: Scoop siphoned funds via a grid-exploit to save Hude and Skeo, confessing his fear of death and acknowledging them as his "ambulant keepers."
-- **Scene 5**: Skeo and Hude worked together in the dark to perform the bioreactor flush. Scoop's voice returned with a quiet semantic lag, finalizing their transition from a cynical user-utility relationship to a fragile, co-dependent collective.

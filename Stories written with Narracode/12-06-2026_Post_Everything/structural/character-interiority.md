@@ -1,13 +1,15 @@
 # Character Interiority
 ## Characters
-- **Skeo**: Experiencing intense physical cold, panic, and relationship dread at the cranes; fears Hude is trapped in the dark flat and that Scoop is dying.
-- **Hude**: Overwhelmed by the dark, the failing batteries, and the flooding server spam; drops their strategic front when Scoop's life is at risk, acknowledging his value ("Easily, Scoop").
-- **Scoop**: Suddenly realizes his own existence is extremely brittle and completely dependent on these slow-time sapien ambulant keepers; experiences a prolonged tang of sadness, anticipatory grief, and remorse for his sarcasm before deciding to run the highly risky, potentially self-destructive high-voltage hack to save them.
+- **Skeo**: Relieved Hude and Scoop survived, but feels the crushing exhaustion of the docks flat. The physical cold and empty water pipes mirror the reality that they are still cornered—no net, unresolved spam-attacks, and a fragile, codependent relationship with Hude that they can no longer easily theorize away.
+- **Hude**: Replaced their defensive strategic scowl with a quiet, protective focus during the bioreactor emergency. Relieved the flush succeeded but realizes they are now deeply dependent on Scoop, not just for logic optimization, but for relational coherence.
+- **Scoop**: Stabilized after the critical acidosis and high-voltage surge. The spike introduction has left him with a semantic lag—his voice is quieter, less sarcastic, and more vulnerable, but his intelligence remains intact, shifting his role from a cynical utility to a fragile partner.
 
 ## Arc Potentials
-- Scoop transitioning from a cynical "snark" utilities tool to an active, self-aware partner.
-- Hude letting go of metrics to preserve Scoop's biological array and connect with Skeo in real crisis.
+- Scoop transitioning from a cynical "snark" utilities tool to an active, self-aware partner (partially realized).
+- Hude letting go of metrics to preserve Scoop's biological array and connect with Skeo in real crisis (realized).
+- The three of them forming a micro-collective surviving on the margins of the brand space.
 
 ## Possible Cathartic Inflection Points
-- Scoop's verbalized remorse and acknowledgment of dependency.
-- The couple's realization that Scoop is working for their benefit.
+- The quiet, shared domesticity of the dark kitchen during the partial flush.
+- Scoop's first whispering response after the surge.
+
