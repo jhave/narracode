@@ -213,6 +213,7 @@ def is_story_draft(filename):
     lowered = filename.lower()
     return (
         filename.endswith('.md')
+        and lowered != 'readme.md'
         and 'pre-edit' not in lowered
         and 'codex' not in lowered
         and 'donotuse' not in lowered
@@ -282,6 +283,13 @@ def chapter_title_for_draft(project_dir, draft_file):
             "7-travel-well.md": "Travel Well",
             "8-crossing.md": "West of the Algae Tower",
             "9-the-courtyard.md": "The Courtyard Is Not Announced",
+        },
+        "12-06-2026_Post_Everything": {
+            "1-first_scene.md": "The Bio-Baked Neuromorph",
+            "2-vignette_two.md": "The Logistics Assembly",
+            "3-in_the_closet.md": "Apoptosis in the Closet",
+            "4-vignette_four.md": "The Crane Arbitrage Exploit",
+            "5-vignette_five.md": "Flushing the System",
         }
     }
     return titles.get(folder_name, {}).get(draft_file, "")
@@ -369,6 +377,10 @@ def build_site(project_dir):
                     attrs.append(line.split(":", 1)[1].strip())
             if attrs:
                 author_info = " &nbsp;·&nbsp; ".join(attrs)
+
+    if folder_name == "12-06-2026_Post_Everything":
+        word_count = count_words_in_drafts(drafts_dir)
+        author_info = f"David Jhave Johnston (Jhave), human &nbsp;·&nbsp; Google Gemini (orchestrated via Antigravity harness), text &nbsp;·&nbsp; ChatGPT (GPT images: two to be exact), images &nbsp;·&nbsp; June 12, 2026 &nbsp;·&nbsp; {word_count:,} words"
 
     # Read template
     with open(template_path, "r", encoding="utf-8") as f:
@@ -468,6 +480,54 @@ def build_site(project_dir):
             f'    <img src="{story_icon_path}" alt="" class="story-page-icon" width="640" height="640">\n\n    <!-- Title -->\n    <h1>',
             1
         )
+
+    if folder_name == "12-06-2026_Post_Everything":
+        template = template.replace(
+            "    </style>",
+            """        .back-link {
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--muted);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .back-btn:hover {
+            color: var(--text);
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+            animation: chevron-flash 1s infinite alternate;
+        }
+
+        @keyframes chevron-flash {
+            0% { opacity: 0.2; }
+            100% { opacity: 1; }
+        }
+    </style>"""
+        )
+        template = template.replace(
+            "<body>",
+            """<body>
+    <!-- Back Link -->
+    <div class="back-link">
+        <a href="../../index.html" class="back-btn">← Back to Narracode</a>
+    </div>"""
+        )
     
     # Replace Subtitle
     template = template.replace("A story by Claude Opus 4.7, from a one-shot prompt, concerning the escape of a mythical semi-autonomous model\n        that obstructs thermonuclear war.", 'A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.')
@@ -476,8 +536,25 @@ def build_site(project_dir):
     if author_info:
         template = re.sub(r"<h5>.*?</h5>", f"<h5>{author_info}</h5>", template, flags=re.DOTALL)
 
-    # Remove prompt-toggle and specific images
-    template = re.sub(r'<details class="prompt-toggle">.*?</details>', '', template, flags=re.DOTALL)
+    # Insert or remove prompt-toggle
+    prompt_toggle_html = ""
+    if os.path.exists(attr_path):
+        with open(attr_path, "r", encoding="utf-8") as f:
+            attr_content = f.read()
+        m = re.search(r'## Seed Prompt\s*\n```text\s*\n(.*?)\n```', attr_content, flags=re.DOTALL)
+        if m:
+            prompt_text = m.group(1).strip()
+            prompt_paragraphs = "".join(f"            <p>{html.escape(p)}</p>\n" for p in prompt_text.split("\n\n") if p.strip())
+            prompt_toggle_html = f"""    <details class="prompt-toggle">
+        <summary>prompt</summary>
+        <div class="prompt-body">
+{prompt_paragraphs}        </div>
+    </details>"""
+
+    if prompt_toggle_html:
+        template = re.sub(r'<details class="prompt-toggle">.*?</details>', prompt_toggle_html, template, flags=re.DOTALL)
+    else:
+        template = re.sub(r'<details class="prompt-toggle">.*?</details>', '', template, flags=re.DOTALL)
     template = re.sub(r'\s*<!-- Related Works by Jhave -->\s*<div class="related">\s*<h4></h4>.*?</div>\s*', '\n', template, flags=re.DOTALL)
     template = re.sub(r'<img src="img/the_long_afternoon_cover[^>]+>', '', template, flags=re.DOTALL)
     template = re.sub(r'<div class="related">\s*<h4></h4>\s*<img src="img/the_long_afternoon_cover[^>]+>\s*</div>', '', template, flags=re.DOTALL)
@@ -514,6 +591,12 @@ def build_site(project_dir):
     # Copy img folder
     if not os.path.exists(img_dest):
         shutil.copytree(img_src, img_dest)
+    else:
+        for f in os.listdir(img_src):
+            src_f = os.path.join(img_src, f)
+            dest_f = os.path.join(img_dest, f)
+            if os.path.isfile(src_f) and not os.path.exists(dest_f):
+                shutil.copy2(src_f, dest_f)
 
     print(f"Generated HTML successfully for {title} at {output_path}")
 
