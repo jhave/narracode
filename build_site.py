@@ -201,7 +201,7 @@ def get_story_icon(folder_name):
     
     # Fallback to local img/header.png or img/header.webp
     base_dir = "Stories written with Narracode"
-    for filename in ("header.png", "header.webp", "banners/0.png", "banners/0.webp"):
+    for filename in ("banners/0.png", "banners/0.webp", "header.png", "header.webp"):
         candidate = os.path.join(base_dir, folder_name, "img", filename)
         if os.path.exists(candidate):
             return candidate
@@ -364,7 +364,13 @@ def build_site(project_dir):
     folder_name = os.path.basename(project_dir)
     title = get_display_title(project_dir, folder_name)
     story_icon = get_story_icon(folder_name)
-    story_icon_path = f"../../{story_icon}" if story_icon else ""
+    story_icon_path = ""
+    if story_icon:
+        prefix = f"Stories written with Narracode/{folder_name}/"
+        if story_icon.startswith(prefix):
+            story_icon_path = story_icon[len(prefix):]
+        else:
+            story_icon_path = f"../../{story_icon}"
     author_info = ""
     attr_path = os.path.join(project_dir, "ATTRIBUTION.md")
     if os.path.exists(attr_path):
@@ -380,7 +386,7 @@ def build_site(project_dir):
 
     if folder_name == "12-06-2026_Post_Everything":
         word_count = count_words_in_drafts(drafts_dir)
-        author_info = f"David Jhave Johnston (Jhave), human &nbsp;·&nbsp; Google Gemini (orchestrated via Antigravity harness), text &nbsp;·&nbsp; ChatGPT (GPT images: two to be exact), images &nbsp;·&nbsp; June 12, 2026 &nbsp;·&nbsp; {word_count:,} words"
+        author_info = f"Human: Jhave &nbsp;·&nbsp; Text: Gemini 2.5 Flash (Antigravity) &nbsp;·&nbsp; Images: GPT Images-2 &nbsp;·&nbsp; Date: June 12, 2026 &nbsp;·&nbsp; Length: {word_count:,} words"
 
     # Read template
     with open(template_path, "r", encoding="utf-8") as f:
@@ -475,9 +481,12 @@ def build_site(project_dir):
         }
     </style>"""
         )
+        img_width, img_height = "640", "640"
+        if folder_name == "12-06-2026_Post_Everything":
+            img_width, img_height = "900", "480"
         template = template.replace(
             "    <!-- Title -->\n    <h1>",
-            f'    <img src="{story_icon_path}" alt="" class="story-page-icon" width="640" height="640">\n\n    <!-- Title -->\n    <h1>',
+            f'    <img src="{story_icon_path}" class="story-page-icon" width="{img_width}" height="{img_height}">\n\n    <!-- Title -->\n    <h1>',
             1
         )
 
@@ -518,6 +527,14 @@ def build_site(project_dir):
             0% { opacity: 0.2; }
             100% { opacity: 1; }
         }
+
+        .story-page-icon {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 15 / 8;
+            object-fit: cover;
+        }
     </style>"""
         )
         template = template.replace(
@@ -530,7 +547,10 @@ def build_site(project_dir):
         )
     
     # Replace Subtitle
-    template = template.replace("A story by Claude Opus 4.7, from a one-shot prompt, concerning the escape of a mythical semi-autonomous model\n        that obstructs thermonuclear war.", 'A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.')
+    subtitle_html = 'A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.'
+    if folder_name == "12-06-2026_Post_Everything":
+        subtitle_html = 'A narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.'
+    template = template.replace("A story by Claude Opus 4.7, from a one-shot prompt, concerning the escape of a mythical semi-autonomous model\n        that obstructs thermonuclear war.", subtitle_html)
     
     # Replace Byline
     if author_info:
