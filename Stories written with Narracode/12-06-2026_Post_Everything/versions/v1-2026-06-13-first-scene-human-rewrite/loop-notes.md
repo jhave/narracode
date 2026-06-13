@@ -20,6 +20,7 @@ The state of the **Post-Everything** story after integrating the Scene 1 human-a
 
 - **Do not copy edits by rote**: Scene 1 changes are not templates to duplicate in later scenes.
 - **Latent space exploration**: The compositional agent should extrapolate along orthogonal lines, growing the fiction with surprise, nuance, and grace.
+- **Vocabulary deformation**: Reduced core vocabulary repetition in Scene 2. Modeled characters actively deforming and inventing adjacent terms (*shell-shimming*, *spit-glitch*, *bait-pump*, *phono-latching*, *seam-tracking*, *shard-body*, *mimeo-union*) to cope with their precarity.
 
 ## State
 

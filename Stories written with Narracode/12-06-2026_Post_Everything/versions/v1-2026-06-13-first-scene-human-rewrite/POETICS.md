@@ -4,7 +4,8 @@
 
 > [!IMPORTANT]
 > **Compositional Mandate: Latent Space Navigation & Extrapolation**
-> The Compositional Agent must NOT copy by rote the styles, vocabulary, or idioms of the previous scenes, nor repetitively reinforce details previously established. This is fiction, not a literal template. The agent's task is to navigate tiny, orthogonal potentialities in the latent space—to guess, extrapolate, extrude, explore, and collaboratively grow the narrative. Extrapolations should be complex, nuanced, plausible, yet surprising and graceful, allowing the fictional world to expand rather than loop on its own established tics.
+> - The Compositional Agent must NOT copy by rote the styles, vocabulary, or idioms of the previous scenes, nor repetitively reinforce details previously established. This is fiction, not a literal template. The agent's task is to navigate tiny, orthogonal potentialities in the latent space—to guess, extrapolate, extrude, explore, and collaboratively grow the narrative. Extrapolations should be complex, nuanced, plausible, yet surprising and graceful, allowing the fictional world to expand rather than loop on its own established tics.
+> - **Vocabulary Extrapolation & Coping Mechanisms**: The vocabulary constraint terms do not need to be repeated in every scene. Over time, as a slow reveal, Hude, Skeo, and Scoop cope with the anxiety of their precarity by playing with these terms, deforming them, and inventing new ones. Reduce the direct recurrence of core vocabulary terms. Instead, look for terms that are proximal or adjacent inside the latent space to these niche net-meme/AI hipster lore vocabularies (e.g., deforming "fauxtomation" into adjacent forms like "meat-masking" or "gasket-work").
 
 
 ## Display synopsis
