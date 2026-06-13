@@ -761,6 +761,9 @@ def build_library_index():
             box-shadow: 0 2px 4px rgba(0,0,0,0.02);
             transition: all 0.2s ease;
         }}
+        .story-link.no-image {{
+            grid-template-columns: 1fr;
+        }}
         .story-link:hover {{
             border-color: var(--accent);
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -828,6 +831,9 @@ def build_library_index():
                 grid-template-columns: 88px 1fr;
                 gap: 1rem;
                 padding: 1rem;
+            }}
+            .story-link.no-image {{
+                grid-template-columns: 1fr;
             }}
             .story-icon {{
                 width: 88px;
@@ -946,7 +952,8 @@ def build_library_index():
     for p in projects:
         meta_line = f"≈ {p['word_count']:,} words · {p['reading_minutes']} min read" if p['word_count'] else ""
         icon_html = f'<img src="{p["icon"]}" alt="" class="story-icon" loading="lazy" width="640" height="640">' if p["icon"] else ""
-        html += f"""    <a href="{p['path']}" class="story-link">
+        link_class = "story-link" if p["icon"] else "story-link no-image"
+        html += f"""    <a href="{p['path']}" class="{link_class}">
         {icon_html}
         <div class="story-copy">
             <div class="story-title">{p['title']}</div>
