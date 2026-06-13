@@ -183,7 +183,14 @@ def get_story_projects(base_dir="Stories written with Narracode"):
             "reading_minutes": reading_minutes,
         })
 
-    projects.sort(key=lambda x: x["folder_name"], reverse=True)
+    def parse_folder_date(folder_name):
+        m = re.match(r"^(\d{2})-(\d{2})-(\d{4})", folder_name)
+        if m:
+            day, month, year = m.groups()
+            return f"{year}-{month}-{day}"
+        return folder_name
+
+    projects.sort(key=lambda x: parse_folder_date(x["folder_name"]), reverse=True)
     return projects
 
 
