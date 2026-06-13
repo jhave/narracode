@@ -1,8 +1,8 @@
-The kitchen smelled of burnt zinc and Hude’s damp municipal wool. Skeo sat on the edge of the formica table, their jeans soaked to the thighs, drawing their knees up to their chest to keep from shivering. Between them lay the wet silver pouch of courier cash and the empty blue-lavender NutriMesh hoverbag, its reflective lining catching the orange pulse of Hude’s phone screen.
+It felt like a fade-in after blackout; Skeo was certain of that. The kitchen smelled of burnt zinc and damp municipal wool. Skeo sat on the edge of the formica table, their jeans soaked to the thighs, drawing their knees up to their chest to keep from shivering. Hude was at the counter, puttering, trying to appear noncholant. Between them lay the wet silver pouch of courier cash and the empty blue-lavender NutriMesh hoverbag, its reflective lining caching a buffered orange pulse off Hude’s phone screen.
 
 "It took three minutes to clear the gate," Skeo said, their voice thin. "I had to climb the gantry ladder and drop onto the transformer box. My knee's bleeding."
 
-"Let me see," Hude muttered, not looking up. Their fingers were greasy with thermal paste. They had tethered Hude’s laptop to Skeo’s wrist-link, bypassing the spam-flooded router. The screen showed the transaction ledger for the dimweb medical outlet: £120 for the CL1-compat bioreactor fluid, £80 for the semi-permeable waste-filtration cartridges, and £150 for immediate drone dispatch. A red progress bar pulsed against the latency. "The arbitrage cleared. Scoop’s spoofed ground-loop held. The transfer went through."
+"Let me see," Hude muttered, not looking up, fingers greasy with thermal paste. They had tethered the PostEverything hubtop to Skeo’s wrist-link, bypassing the spam-flooded router. Its cracked screen showed a transaction ledger for dimweb medical outlets: €120 for the CL1-compat bioreactor fluid, €80 for the semi-permeable waste-filtration cartridges, and €150 for immediate drone dispatch. A red progress bar pulsed against the latency. "The arbitrage cleared. Scoop’s spoofed ground-loop held. The transfer went through."
 
 "And Scoop?"
 

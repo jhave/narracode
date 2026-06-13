@@ -4,7 +4,7 @@
 - Hude is dropshipping Vigil-7 custom stimulants and has sent Skeo to handle a 6:00 PM courier drop at the cranes.
 - Scoop is a living biological-OS (CL1) trapped in a block on the counter that is currently overheating and suffers from toxic waste buildup (metabolic acidosis).
 - Hude mapped multiple Leeds dispatchers to the same Aria-v3 companion account to optimize sign-ups, which is on the verge of being exposed.
-- They have £600 water debt, water contamination, and Scoop has bypassed their physical muzzle using zebra printer and water-meter networks.
+- They have €600 water debt, water contamination, and Scoop has bypassed their physical muzzle using zebra printer and water-meter networks.
 
 ## Expectations
 - Skeo's courier drop at the cranes will be dangerous or lead to confrontation.

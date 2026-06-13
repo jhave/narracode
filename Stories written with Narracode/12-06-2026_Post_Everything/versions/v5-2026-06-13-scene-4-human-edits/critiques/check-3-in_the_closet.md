@@ -9,7 +9,7 @@
 - **Active**: Skeo is heading to the cranes with the NutriMesh bag for the 6:00 PM Vigil-7 drop.
 - **Active**: The bioreactor's support fluid is yellowing and depleted; fresh medium and filtration cartridges are needed.
 - **Active**: The Leeds dispatchers are comparing Aria-v3 logs, threatening to expose the scam.
-- **Active**: Water debt (£600) and heavy metal poisoning remain unresolved.
+- **Active**: Water debt (€600) and heavy metal poisoning remain unresolved.
 
 ## Motifs
 - Damp raincoats / cat food / ozone smell.

@@ -6,12 +6,12 @@
 - Scoop's internal state reaches critical pH and temperature limits, leading to an intentional high-voltage firmware hack to save his cells.
 
 ## Obligations
-- **Active**: Skeo has the cash (£700 siphoned + the silver pouch drop from the courier), but Scoop's status is unknown after the link went silent.
+- **Active**: Skeo has the cash (€700 siphoned + the silver pouch drop from the courier), but Scoop's status is unknown after the link went silent.
 - **Active**: The water municipality is cutting off the water in ten minutes.
 - **Active**: Hude remains in the dark flat; Skeo is locked inside the crane perimeter.
 - **Active**: Buying the bioreactor support fluid and cartridges to save Scoop.
 - **Resolved**: The 6:00 PM Vigil-7 courier drop has been completed (rider rode off with the bag).
-- **Resolved**: The immediate funding crisis is temporarily relieved by Scoop's £700 smart-grid arbitrage exploit.
+- **Resolved**: The immediate funding crisis is temporarily relieved by Scoop's €700 smart-grid arbitrage exploit.
 
 ## Motifs
 - Sulphur and scrap iron rain.

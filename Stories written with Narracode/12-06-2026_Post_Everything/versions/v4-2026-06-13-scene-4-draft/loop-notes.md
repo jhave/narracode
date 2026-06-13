@@ -8,7 +8,7 @@
 
 The state of the **Post-Everything** story after drafting Scene 4 ("Chaos at the Cranes"):
 
-- **Drafted `drafts/4-vignette_four.md`**: Implemented the overlapping calamities (Leeds spam-bot attack, flat power failure, locked dock gates, courier timeout), Scoop's sudden self-awareness and anticipatory grief about his "sapien ambulant keepers," and his high-risk charging station arbitrage hack which siphons £700 before going silent.
+- **Drafted `drafts/4-vignette_four.md`**: Implemented the overlapping calamities (Leeds spam-bot attack, flat power failure, locked dock gates, courier timeout), Scoop's sudden self-awareness and anticipatory grief about his "sapien ambulant keepers," and his high-risk charging station arbitrage hack which siphons €700 before going silent.
 - **Created `critiques/check-4-vignette_four.md`**: Completed the post-draft check of Scene 4, verifying continuity, resolved/active obligations, motifs, and voice.
 - **Updated structural memory**: Synced `scene-ledger.md`, `history.md`, `obligations.md`, `time-constants.md`, `character-interiority.md`, and `reader-state.md` to incorporate the results of Scene 4.
 

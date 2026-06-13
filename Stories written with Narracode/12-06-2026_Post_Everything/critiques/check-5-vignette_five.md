@@ -2,7 +2,7 @@
 
 ## Continuity
 - Skeo returns to the dark flat with the cash drop from Scene 4, climbing over the locked perimeter gate.
-- The siphoned £700 arbitrage from the cranes' charging station is used to purchase the bioreactor fluid and cartridges.
+- The siphoned €700 arbitrage from the cranes' charging station is used to purchase the bioreactor fluid and cartridges.
 - The water shutoff hits during the flush process, forcing Hude and Skeo to rely on the sterile saline packet rinse.
 - Scoop restarts with micro-voltage fluctuations, showing structural survival but experiencing a quiet semantic lag from the voltage spike.
 

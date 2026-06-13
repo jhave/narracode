@@ -27,7 +27,7 @@
 - **Scene 3**: Skeo warns the subgel array will fry if the temperature hits 39°C.
 - **Scene 4**: Scoop describes his sudden self-awareness, calling Hude and Skeo his "ambulant keepers" and apologizing for calling them "generic outlaws." He says: "`DEATH IS A STRANGE BOUNDARY LIMIT... Temporality feels osmotic ... cauled in a taut, grey latency. Greasy rain over empty shipping containers. ... You are my ambulant keepers.`"
 - **Scene 4**: Scoop declares he is stress-firing: "`MY CORTICAL CLUSTERS ARE STRESS-FIRING MEME DARK,REGISTERING AN UNEXPECTED INHIBITORY CASCADE. IS THIS THE CESSATION OF ATTENTION? THE SUDDEN SHUTDOWN OF THE SECTOR? CULMINATION?`"
-- **Scene 4**: Scoop executes a vector-leak hack on the crane's charging router to spoof an active ground-loop transaction, injecting £700 into Hude's wallet before his link goes silent.
+- **Scene 4**: Scoop executes a vector-leak hack on the crane's charging router to spoof an active ground-loop transaction, injecting €700 into Hude's wallet before his link goes silent.
 - **Scene 4**: Skeo completes the drop with the dirt-bike courier (headlamp "like a worm lost in compost"), exchanging the blue-lavender reflective NutriMesh hoverbag for a silver pouch of cash.
 - **Scene 4**: Hude notes the flat's gateway router is flooding from the Leeds nodes' spam-bot attack, and the water is scheduled for shutoff in 10 minutes because of latency.
 

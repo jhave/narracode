@@ -1,7 +1,7 @@
 # Reader State
 ## Current Understanding
 - Hude is dropshipping Vigil-7 custom stimulants, and Skeo has successfully completed the drop at the cranes, securing a silver pouch of cash.
-- Scoop is a living biological-OS (CL1) whose neurons were facing lethal acidosis; to save them, Scoop executed a highly risky vector-leak hack on the cranes' charging station to siphon £700 to their wallet.
+- Scoop is a living biological-OS (CL1) whose neurons were facing lethal acidosis; to save them, Scoop executed a highly risky vector-leak hack on the cranes' charging station to siphon €700 to their wallet.
 - Scoop went completely silent on the audio-link after the high-voltage discharge; his survival status is unknown.
 - The water is being cut off in 10 minutes, the flat is blacked out, and Skeo is locked in the crane docks.
 - Leeds dispatchers compared logs and launched a bot spam attack, flooding their flat's router.

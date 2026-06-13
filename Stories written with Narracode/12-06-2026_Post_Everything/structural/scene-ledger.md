@@ -21,7 +21,7 @@
 - **Scene 4 (4-vignette_four.md)**:
   - **Location/Time**: Docks cranes and flat hallway utility closet, 5:50 PM – 6:10 PM.
   - **Focal pressure**: Double calamities (Leeds spam-bot attack, flat power failure, locked dock gates, courier timeout) and Scoop's critical cellular acidosis.
-  - **What changed**: Scoop realized his fragile existence and interdependence on his sapien keepers, voicing remorse and sadness; Scoop executed a high-risk vector-leak exploit on the crane's high-voltage charging router to siphon £700 to Hude's wallet; the drop was completed, but the link went silent.
+  - **What changed**: Scoop realized his fragile existence and interdependence on his sapien keepers, voicing remorse and sadness; Scoop executed a high-risk vector-leak exploit on the crane's high-voltage charging router to siphon €700 to Hude's wallet; the drop was completed, but the link went silent.
   - **What remains unresolved**: Scoop's survival after the high-voltage spike; the water shutoff in 10 minutes; escaping the locked docks.
 
 - **Scene 5 (5-vignette_five.md)**:
