@@ -162,6 +162,8 @@ def get_story_projects(base_dir="Stories written with Narracode"):
             with open(attr_path, "r", encoding="utf-8") as f:
                 attrs = []
                 for line in f:
+                    if line.strip().startswith("## Seed Prompt"):
+                        break
                     if ":" in line:
                         attrs.append(line.split(":", 1)[1].strip())
                 if attrs:
