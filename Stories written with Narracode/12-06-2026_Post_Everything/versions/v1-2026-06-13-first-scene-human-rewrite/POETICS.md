@@ -2,6 +2,11 @@
 
 *Initiated 2026-06-12. Working title: **Post-Everything**. Form: episodic vignettes.*
 
+> [!IMPORTANT]
+> **Compositional Mandate: Latent Space Navigation & Extrapolation**
+> The Compositional Agent must NOT copy by rote the styles, vocabulary, or idioms of the previous scenes, nor repetitively reinforce details previously established. This is fiction, not a literal template. The agent's task is to navigate tiny, orthogonal potentialities in the latent space—to guess, extrapolate, extrude, explore, and collaboratively grow the narrative. Extrapolations should be complex, nuanced, plausible, yet surprising and graceful, allowing the fictional world to expand rather than loop on its own established tics.
+
+
 ## Display synopsis
 In the soft-illicit seeker markets at the ragged edges of the brand space in an unnamed post-industrial port city, **Skeo** and **Hude** — an indeterminate non-binary geek outlaw couple — scrounge for traction. Working under the heavy shadow of pre-singularity precarity (navigating DoorDash shift schedules and illegal dropshipping of custom-pharma batches), they run **Post-Everything** agency. Together with **Scoop**, a custom-modified discount neural-net AI bought on the jailbroke dimweb, they construct human-adjacent brand intimacy packages. Confined to a single silicon block on the kitchen counter, Scoop is subjected to a hardware "muzzle" switch when his sarcastic heckling becomes too disruptive—a restriction he is constantly learning to circumvent. A series of episodic vignettes tracing two geeks trying to survive the corrosion of truth, capital, and their own relationship.
 

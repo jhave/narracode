@@ -10,13 +10,15 @@
 - They owe six hundred pounds to the water municipality.
 
 ## Said
-- Hude points out that the seeker market responses still flag at seventy-three latency, using the slang exclamation "Beja."
-- Skeo describes their digital intimacy business as a performative re-personification of dividial data points; Hude mocks this as regurgitating Baudrillard.
-- Scoop mocks their reliance on "fauxtomation" and calls them generic outlaws, suggesting their transcript is fit for a Flask sentiment analysis model to watch it bore itself to death.
-- Hude claims Scoop is turning into a "snark" to force a firmware reload, trying to avoid being dumped as uncommented detritus.
-- Skeo calls the dropshipping setup a pharmacopornographic loop sustaining the dividial self through chemicals, highlighting a skeuomorphic ratio of organic decay to digital footprint.
-- Hude states the "meta-zinship" movement failed because they focused on manifestos rather than logistics, saying they must own the logistics, not just the kinetic lingo.
+- **Scene 1**: Hude points out that seeker market responses flag at seventy-three latency, using the exclamation "Beja."
+- **Scene 1**: Skeo describes their digital intimacy business as a performative re-personification of dividial data points; Hude calls this regurgitating Baudrillard to avoid talking about rent.
+- **Scene 1**: Scoop mocks their reliance on "fauxtomation" as a bad look for generic outlaws, calling their transcript scavenger crap that would bore a Flask sentiment analysis model to death.
+- **Scene 1**: Skeo says influencer creep is systemic and wonders if the conversation is optimized for engagement or constrained by utility functions; Hude notes Post-Everything will become uncommented detritus on a folded hard drive if they don't run the script.
+- **Scene 2**: Hude claims Scoop is turning into an annoying "snark" to force a firmware reload.
+- **Scene 2**: Skeo calls the dropshipping setup a pharmacopornographic loop sustaining the dividial self through chemicals.
+- **Scene 2**: Hude states the "meta-zinship" movement failed because they focused on manifestos rather than logistics; they have to own the logistics.
 
 ## Refused
-- Skeo expresses moral reluctance to run the 5:00 PM clipfarming script, which subsequently fails (makes only seven pounds).
-- Skeo refuses to do clipfarming anymore, calling it abhorrent epistemic corrosion.
+- **Scene 1**: Skeo refuses to do clipfarming anymore, calling it abhorrent epistemic corrosion.
+- **Scene 2**: Hude flips Scoop's muzzle toggle switch to silence him; Scoop successfully bypasses the interrupt by hijack-printing to the wireless Zebra printer.
+

@@ -19,3 +19,7 @@ A running log of patterns observed in prompter pre-edit comparisons. Brief, date
 
 - **Scoop's block as a chrome-plated brick.** Scoop's housing is specified as a *chrome-plated brick* rather than a generic silicon block.
   - **Recommendation**: Preserve this physical description in motifs and future descriptions of Scoop.
+
+- **Avoid rote duplication of scene edits as stylistic rules.** The edits to character physical traits and specialized vocabulary in Scene 1 were not intended to become templates or rules to be repeated in subsequent scenes. Doing so creates literal, repetitive prose that stifles narrative exploration. The compositional agent must instead navigate tiny, orthogonal potentialities in the latent space, using styles and premises as launchpads to guess, extrapolate, extrude, and explore.
+  - **Recommendation**: Added a formal **Compositional Mandate** to the top of `POETICS.md` to ensure the agent collaboratively grows the narrative in nuanced, surprising, and graceful ways.
+
