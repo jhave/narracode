@@ -571,8 +571,21 @@ def build_site(project_dir):
 {prompt_paragraphs}        </div>
     </details>"""
 
+    # Generate synopsis-toggle if folder is Post_Everything
+    synopsis_toggle_html = ""
+    if folder_name == "12-06-2026_Post_Everything":
+        synopsis_text = get_display_synopsis(project_dir)
+        if synopsis_text:
+            synopsis_formatted = inline_markdown(synopsis_text)
+            synopsis_paragraphs = "".join(f"            <p>{p}</p>\n" for p in synopsis_formatted.split("\n\n") if p.strip())
+            synopsis_toggle_html = f"""\n    <details class="prompt-toggle">
+        <summary>synopsis</summary>
+        <div class="prompt-body">
+{synopsis_paragraphs}        </div>
+    </details>"""
+
     if prompt_toggle_html:
-        template = re.sub(r'<details class="prompt-toggle">.*?</details>', prompt_toggle_html, template, flags=re.DOTALL)
+        template = re.sub(r'<details class="prompt-toggle">.*?</details>', prompt_toggle_html + synopsis_toggle_html, template, flags=re.DOTALL)
     else:
         template = re.sub(r'<details class="prompt-toggle">.*?</details>', '', template, flags=re.DOTALL)
     template = re.sub(r'\s*<!-- Related Works by Jhave -->\s*<div class="related">\s*<h4></h4>.*?</div>\s*', '\n', template, flags=re.DOTALL)
