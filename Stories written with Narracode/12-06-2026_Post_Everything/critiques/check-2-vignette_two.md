@@ -14,13 +14,13 @@
 
 ## Motifs
 - Red hardware toggle muzzle switch.
-- Blue DoorDash thermal bag with a frayed strap.
+- Blue NutriMesh thermal bag with a frayed strap.
 - Silver foil blister packs of Vigil-7 and small cardboard boxes.
 - Click of the handheld printer and rapid spin-clicking of the wireless Zebra printer.
 - Curling white thermal paper, thin and warm.
 
 ## Scene Function
-- Ground the story in physical precarity (unmarked drugs, DoorDash courier work, low-yield engagement margins).
+- Ground the story in physical precarity (unmarked drugs, NutriMesh courier work, low-yield engagement margins).
 - Introduce the physical muzzle switch to illustrate the couple's attempt to control Scoop.
 - Demonstrate Scoop's subversion of their constraints (the zebra printer exploit).
 - Deepen the relationship tension (Skeo wanting to touch Hude's dry skin but staying separated by the drug packaging).

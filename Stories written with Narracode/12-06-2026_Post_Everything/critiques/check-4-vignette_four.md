@@ -15,7 +15,7 @@
 
 ## Motifs
 - Sulphur and scrap iron rain.
-- Amber wrist-link / blue DoorDash bag.
+- Amber wrist-link / blue NutriMesh bag.
 - Whistling backup batteries / blue charging arc.
 - Silver pouch on gravel / grey rain.
 

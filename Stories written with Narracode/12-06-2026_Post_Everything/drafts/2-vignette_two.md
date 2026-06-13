@@ -1,4 +1,4 @@
-The kitchen table had been cleared of the Aria-v3 spreadsheets to make room for Hude’s logistics assembly. On the floor lay a blue DoorDash thermal bag, its strap frayed where Hude had dragged it through three miles of wet gravel on the south docks yesterday. On the table lay three hundred unmarked silver foil blister packs of *Vigil-7*, a customized modded stimulant Hude dropshipped to local seekers through a closed chat group on the dimweb.
+The kitchen table had been cleared of the Aria-v3 spreadsheets to make room for Hude’s logistics assembly. On the floor lay a blue NutriMesh thermal bag, its strap frayed where Hude had dragged it through three miles of wet gravel on the south docks yesterday. On the table lay three hundred unmarked silver foil blister packs of *Vigil-7*, a customized modded stimulant Hude dropshipped to local seekers through a closed chat group on the dimweb.
 
 Hude was using a handheld thermal label printer, pressing the adhesive strips onto small cardboard boxes. The printhead clicked with every label, a dry, repetitive sound that seemed to absorb the room's remaining silence.
 

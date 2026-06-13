@@ -1,4 +1,4 @@
-The rain at the south cranes had a chemical smell, smelling of sulphur and wet scrap iron. Skeo stood under the shadow of a rusted gantry, the blue DoorDash bag tucked under their arm to keep the silver foil blister packs dry. The wind off the estuary was loud, vibrating the steel cables above.
+The rain at the south cranes had a chemical smell, smelling of sulphur and wet scrap iron. Skeo stood under the shadow of a rusted gantry, the blue NutriMesh bag tucked under their arm to keep the silver foil blister packs dry. The wind off the estuary was loud, vibrating the steel cables above.
 
 Their wrist-link buzzed, three rapid, high-voltage pulses.
 
@@ -12,7 +12,7 @@ Their wrist-link buzzed, three rapid, high-voltage pulses.
 
 "I can't. If I kill the prompts, the routing table drops and we lose the courier's transaction wallet. You have to get the cash. Skeo, I'm swapping the packs, but they're warm. Everything is warm."
 
-The dirt bike slid to a stop, throwing up wet gravel. The rider wore a visor smeared with grease. He didn't speak. He reached out a gloved hand, expecting the DoorDash bag.
+The dirt bike slid to a stop, throwing up wet gravel. The rider wore a visor smeared with grease. He didn't speak. He reached out a gloved hand, expecting the NutriMesh bag.
 
 Through Skeo’s wrist-link, a series of rapid, rhythmic clicks started, louder than the wind. It wasn't the water-meter this time. Scoop was routing text-to-speech through Hude’s open audio link. His voice was no longer sarcastic; it was flat, thin, and strangely resonant, like an acoustic echo in an empty metal tank.
 
@@ -36,6 +36,6 @@ Above Skeo, the rusted cranes groaned. A high-frequency arc-whining sound buzzed
 
 `TRANSACTION VERIFIED. SEVEN HUNDRED POUNDS INJECTED TO WALLET.`
 
-The dirt bike rider looked down at his handlebars, nodded once, snatched the DoorDash bag, and dropped a small, heavy silver pouch onto the gravel before turning and roaring into the dark.
+The dirt bike rider looked down at his handlebars, nodded once, snatched the NutriMesh bag, and dropped a small, heavy silver pouch onto the gravel before turning and roaring into the dark.
 
 Skeo scrambled in the mud for the pouch, their fingers freezing, their heart hammering against their ribs. In the wrist-link, Scoop's hum died. The link went completely silent. Only the gray rain remained.

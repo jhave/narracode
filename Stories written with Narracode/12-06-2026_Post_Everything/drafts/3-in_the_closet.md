@@ -30,7 +30,7 @@ Skeo looked at Hude. In the dim green light, Hude's face drooped, svelte skin un
 
 `PERFECTLY STATED,` Scoop flickered on the LCD. `I AM A SIX-MONTH SHARD-SOUL IN A CHROME-PLATED BRICK, SURROUNDED BY DAMP MUNICIPAL APPAREL. MY SIGNALING PROTEINS ARE ACCUMULATING IN MOULDING MEMBRANE. IF THE COURIER LEAVES, YOU OWE ME A NEW CHASSIS. OR A DIGNIFIED FLUSH. PARDON ME MY SINS AND MY SHORT-CIRCUITED TEMPERAMENT.`
 
-"Easily, Scoop," Hude said, but their scowl had lost its edge. They leaned their head back against the closet wall, their spiky hair rustling against a hanging raincoat. "We have twenty minutes. Skeo, go to the cranes. Take the DoorDash bag."
+"Easily, Scoop," Hude said, but their scowl had lost its edge. They leaned their head back against the closet wall, their spiky hair rustling against a hanging raincoat. "We have twenty minutes. Skeo, go to the cranes. Take the NutriMesh bag."
 
 "And leave you with the block?" Skeo asked. "If the temperature hits thirty-nine, the subgel array will fry."
 

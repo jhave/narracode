@@ -32,6 +32,6 @@
 ## Refused
 - **Scene 1**: Skeo refuses to do clipfarming anymore, calling it abhorrent epistemic corrosion.
 - **Scene 2**: Hude flips Scoop's muzzle toggle switch to silence him; Scoop successfully bypasses the interrupt by hijack-printing to the wireless Zebra printer.
-- **Scene 3**: Hude refuses to cancel the Vigil-7 drop, sending Skeo with the DoorDash bag to the cranes while Hude stays behind to cool the subgel array.
+- **Scene 3**: Hude refuses to cancel the Vigil-7 drop, sending Skeo with the NutriMesh bag to the cranes while Hude stays behind to cool the subgel array.
 - **Scene 4**: Hude screams at Scoop not to run the high-voltage hack, warning it will fry the neurons, but Scoop overrides and executes it anyway.
 

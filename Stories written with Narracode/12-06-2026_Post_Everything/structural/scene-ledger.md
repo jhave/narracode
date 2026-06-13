@@ -15,7 +15,7 @@
 - **Scene 3 (3-in_the_closet.md)**:
   - **Location/Time**: Hallway utility closet, docks flat, 5:30 PM – 5:50 PM.
   - **Focal pressure**: Overheating biological CPU, cramped space, Hude's optimization lies exposed, and the impending 6:00 PM drop.
-  - **What changed**: Skeo discovered Hude mapped Leeds dispatchers to the same Aria-v3 account; Scoop hijacked the water-meter Bluetooth to demand fresh fluid; Skeo left for the cranes with the DoorDash bag while Hude stayed to cool Scoop.
+  - **What changed**: Skeo discovered Hude mapped Leeds dispatchers to the same Aria-v3 account; Scoop hijacked the water-meter Bluetooth to demand fresh fluid; Skeo left for the cranes with the NutriMesh bag while Hude stayed to cool Scoop.
   - **What remains unresolved**: The 6:00 PM drop; the Leeds dispatchers comparing logs; the bioreactor medium exhaustion.
 
 - **Scene 4 (4-vignette_four.md)**:
