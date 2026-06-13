@@ -141,49 +141,64 @@ def story_date_from_folder(folder_name):
 
 
 def get_story_projects(base_dir="Stories written with Narracode"):
+    metadata_path = os.path.join(base_dir, "metadata.md")
     projects = []
-    if not os.path.exists(base_dir):
+    if not os.path.exists(metadata_path):
+        print(f"Warning: {metadata_path} not found.")
         return projects
 
-    for folder in os.listdir(base_dir):
-        folder_path = os.path.join(base_dir, folder)
-        if not os.path.isdir(folder_path):
+    with open(metadata_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # Split by the "- **Folder**:" marker
+    blocks = re.split(r'-\s*\*\*Folder\*\*:\s*', content)
+    for block in blocks[1:]:  # skip the header block
+        lines = block.splitlines()
+        if not lines:
             continue
-        if not os.path.exists(os.path.join(folder_path, "index.html")):
-            continue
+        
+        folder_name = lines[0].strip()
+        proj = {
+            "folder_name": folder_name,
+            "title": "",
+            "author_info": "",
+            "word_count": 0,
+            "reading_minutes": 0,
+            "synopsis": "",
+            "path": f"{base_dir}/{folder_name}/",
+            "icon": get_story_icon(folder_name)
+        }
+        
+        for line in lines[1:]:
+            line_str = line.strip()
+            if not line_str.startswith("- ") and not line_str.startswith("* "):
+                continue
+            
+            field_part = re.sub(r'^[-*]\s*', '', line_str)
+            if ":" not in field_part:
+                continue
+                
+            key_part, val_part = field_part.split(":", 1)
+            key = key_part.replace("**", "").strip().lower()
+            val = val_part.strip()
+            
+            if key == "title":
+                proj["title"] = val
+            elif key == "attribution":
+                proj["author_info"] = val.replace(" · ", " &nbsp;·&nbsp; ")
+            elif key == "word count":
+                wc = val.replace(",", "")
+                proj["word_count"] = int(wc) if wc.isdigit() else 0
+            elif key == "reading time":
+                proj["reading_minutes"] = int(val) if val.isdigit() else 0
+            elif key == "synopsis":
+                proj["synopsis"] = val
 
-        title = get_display_title(folder_path, folder)
-        word_count = count_words_in_drafts(os.path.join(folder_path, "drafts"))
-        reading_minutes = max(1, round(word_count / 250))
-
-        author_info = ""
-        attr_path = os.path.join(folder_path, "ATTRIBUTION.md")
-        if os.path.exists(attr_path):
-            with open(attr_path, "r", encoding="utf-8") as f:
-                attrs = []
-                for line in f:
-                    if line.strip().startswith("## Seed Prompt"):
-                        break
-                    if ":" in line:
-                        attrs.append(line.split(":", 1)[1].strip())
-                if attrs:
-                    author_info = " &nbsp;·&nbsp; ".join(attrs)
-
-        synopsis = get_display_synopsis(folder_path)
-        if synopsis:
-            synopsis = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', synopsis)
-            synopsis = re.sub(r'\*(.*?)\*', r'<em>\1</em>', synopsis)
-
-        projects.append({
-            "title": title,
-            "path": f"{base_dir}/{folder}/",
-            "icon": get_story_icon(folder),
-            "folder_name": folder,
-            "author_info": author_info,
-            "synopsis": synopsis,
-            "word_count": word_count,
-            "reading_minutes": reading_minutes,
-        })
+        if proj["synopsis"]:
+            proj["synopsis"] = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', proj["synopsis"])
+            proj["synopsis"] = re.sub(r'\*(.*?)\*', r'<em>\1</em>', proj["synopsis"])
+            
+        projects.append(proj)
 
     def parse_folder_date(folder_name):
         m = re.match(r"^(\d{2})-(\d{2})-(\d{4})", folder_name)
