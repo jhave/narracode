@@ -201,7 +201,7 @@ def get_story_icon(folder_name):
     
     # Fallback to local img/header.png or img/header.webp
     base_dir = "Stories written with Narracode"
-    for filename in ("header.png", "header.webp"):
+    for filename in ("header.png", "header.webp", "banners/0.png", "banners/0.webp"):
         candidate = os.path.join(base_dir, folder_name, "img", filename)
         if os.path.exists(candidate):
             return candidate
@@ -252,11 +252,19 @@ def display_chapter_title(raw_title):
 def chapter_banner_path(project_dir, draft_file):
     """Return a relative banner path if one exists for a draft stem."""
     stem = os.path.splitext(draft_file)[0]
+    # Also get prefix number if it starts with one, e.g. "1-first_scene" -> "1"
+    prefix_match = re.match(r'^(\d+)', stem)
+    prefix = prefix_match.group(1) if prefix_match else ""
+    
     banner_dir = os.path.join(project_dir, "img", "banners")
     for ext in (".webp", ".jpg", ".jpeg", ".png"):
         candidate = os.path.join(banner_dir, f"{stem}{ext}")
         if os.path.exists(candidate):
             return f"img/banners/{stem}{ext}"
+        if prefix:
+            candidate = os.path.join(banner_dir, f"{prefix}{ext}")
+            if os.path.exists(candidate):
+                return f"img/banners/{prefix}{ext}"
     return ""
 
 
