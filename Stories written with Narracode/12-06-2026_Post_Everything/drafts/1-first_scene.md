@@ -1,4 +1,4 @@
-The rented flat on the docks was often cold by four in the afternoon. Outside, a indifferent rain flitted ponderously down over numb shipping containers; its wetness thru flat, gray curtains, refracting a salvaged, muted light beyond grimy, scavenged, double-glazed glass.
+The rented flat on the docks was often cold by four in the afternoon. Outside, an indifferent rain flitted ponderously down over numb shipping containers; its wetness thru flat, gray curtains, refracting a salvaged, muted light beyond grimy, scavenged, double-glazed glass.
 
 Hude (jowly, with a face others often described as perturbed, a few flecks of pink in intentionally spikey receding hair, tepid lips, and a scowl) sat at a flecked wooden table, sticky with dried cola from last week's data-scrubbing sprint. They wore a gray municipal wool jacket, two sizes too large, sleeves rolled back to expose substantial, pallid wrists. Their fingers moved across a touchscreen, sorting columns of engagement metrics from the latest intimacy package, *Aria-v3*.
 
