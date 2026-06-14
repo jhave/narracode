@@ -1,6 +1,6 @@
 # Stories Metadata
 
-- **Folder**: 14-06-2026_Dissolution
+- **Draft Folder**: 14-06-2026_Dissolution
   - **Title**: Dissolution Disequilibrium
   - **Attribution**: Human: Jhave · Words: 9,885 · Editing and Images: Gemini Flash 3.5 · Date: 2026-06-14
   - **Word Count**: 9,885

@@ -1026,7 +1026,11 @@ def build_library_index():
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        build_site(sys.argv[1])
-        build_library_index()
+        if sys.argv[1] == "--library":
+            build_library_index()
+        else:
+            build_site(sys.argv[1])
     else:
-        print("Usage: python build_site.py <project_folder_path>")
+        print("Usage:")
+        print("  python build_site.py <project_folder_path>  # Build a single story index")
+        print("  python build_site.py --library              # Rebuild the main library index")
