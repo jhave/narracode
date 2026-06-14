@@ -10,11 +10,9 @@ She read this. She typed: *I'm aware of stimulus control. I find it practically 
 
 *Temperature is a legitimate obstacle and worth working with rather than around,* the AI said. *A thick robe and wool socks address most of it. The issue isn't comfort — it's association. If your brain has learned that the mattress surface predicts wakefulness and cognitive activation, it will produce wakefulness and cognitive activation when you are on the mattress. That is not a metaphor for anything else. It is a conditioning pathway.*
 
-She did not like being told something was not a metaphor. She was aware, with a specific and somewhat fatigued self-awareness, that she spent much of her professional life in the space between what literal things were and what they also meant, and being told to stay strictly in the literal register felt like a reduction. She typed this, more or less.
-
 *What you're describing,* the AI said, *is a professional orientation toward interpretive layering that is very useful in your field and is not what's keeping you awake. The arousal response doesn't care what you understand about it. Understanding is not the treatment. The behavioral protocol is the treatment.*
 
-She sat with this for a moment. She did not find it comforting. She found it accurate.
+She sat with this for a moment.
 
 She pushed back on the outdoor light exposure component. *I understand that outdoor morning lux exposure advances the circadian phase,* she typed. *The requirement for 10,000 lux for thirty minutes before nine AM in Oslo in November means walking in wet and cold conditions that most humans would rate as punitive. I have enough to manage.*
 
@@ -22,7 +20,7 @@ She pushed back on the outdoor light exposure component. *I understand that outd
 
 She closed the interface. She went for a walk in the rain at eight AM the following morning. The Frogner park lower path was wet, the mud at the path margins soft enough to take her shoe print, and the birch trees had lost everything — bare white trunks, the November light coming through them horizontally from the east in a flat gray-white that was nothing like sunlight but which was, she understood, light. Unambiguous outdoor lux. Her shoes were wet within twelve minutes. She walked for forty-two minutes and went home.
 
-She did not feel better. She ate breakfast and noted this.
+She ate breakfast.
 
 She returned to the interface that evening and asked about the adenosine mechanism — not because she did not understand it but because she wanted to hear it described in the context of her specific failure pattern.
 
@@ -36,19 +34,19 @@ This required telling herself, every day, at ten-twenty-five, that the next five
 
 The eight-thirty PM light protocol was the one she found most counterintuitive. *Simulate sunset indoors beginning ninety minutes before your target sleep time,* the AI had said. *Warm-spectrum light only. No screens with blue-light emission. The suprachiasmatic nucleus uses light to set the circadian timer; artificial cool-spectrum light after dark signals continued daytime to the clock.*
 
-She bought two warm-spectrum LED bulbs — 2700K, the hardware store on Hegdehaugsveien — and replaced the kitchen and living room overhead fixtures. She turned them on at eight-thirty PM. She turned off her laptop. She did not turn on the television. She read, in the warm-spectrum light, with a physical book, which she had not done habitually in approximately four years. She was reading about something she was not finding interesting, because the interesting books were on her laptop and her laptop was off. She read the uninteresting book for an hour and went to bed.
+She bought two warm-spectrum LED bulbs — 2700K, the hardware store on Hegdehaugsveien — and replaced the kitchen and living room overhead fixtures. She turned them on at eight-thirty PM. She turned off her laptop. She did not turn on the television. She read, in the warm-spectrum light, with a physical book, which she had not done habitually in approximately four years. She was reading about something she was not finding interesting. She read for an hour and went to bed.
 
 She was asleep by ten-fifteen PM.
 
 She woke at two-forty AM and was awake for forty minutes and went back to sleep.
 
-She did not celebrate this. She got up, did the Hibiscrub, ate breakfast, and walked to the park in the rain.
+She got up, did the Hibiscrub, ate breakfast, and walked to the park in the rain.
 
 The two-process model, she had explained to her third-year seminar three years ago, was an elegant biological system. Process S — the sleep pressure that built from waking and was discharged only by sleep — and Process C — the circadian clock's oscillating alerting signal that opposed sleep pressure during the day and released it in the evening — worked together to produce the daily sleep/wake cycle. The model had been formulated by Alexander Borbély in 1982. She had used it as an analogy in a paper about grief's temporal structure in 2019. She had written: *grief, like sleep, operates according to dual process regulation — the accumulation of unprocessed loss exerting pressure toward confrontation (Process S analog) while adaptive functioning enforces a regulatory rhythm that manages the rate of that confrontation (Process C analog).*
 
 She had been pleased with that paragraph. It was elegantly constructed.
 
-She thought about it now, walking in the rain in the Frogner park mud in her wet shoes at eight-fifteen in the morning, and she could see how the paragraph was constructed and why it had been adequate as an argument and she could not, at this particular moment, feel any of its elegance. She was a person walking in wet shoes. The lux was entering her open eyes. Her suprachiasmatic nucleus was receiving the signal. She did not need to understand the mechanism for the mechanism to work.
+She thought about it now, walking in the rain in the Frogner park mud in her wet shoes at eight-fifteen in the morning. She was a person walking in wet shoes. The lux was entering her open eyes. Her suprachiasmatic nucleus was receiving the signal.
 
 She went home. She made coffee. Eight-fifty AM — within the cutoff. She stood at the kitchen window. The Labrador was not there today. There was a woman with a stroller and the stroller's orange rain cover was very bright against the gray November street.
 

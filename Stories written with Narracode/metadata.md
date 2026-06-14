@@ -1,5 +1,12 @@
 # Stories Metadata
 
+- **Folder**: 14-06-2026_Dissolution
+  - **Title**: Dissolution Disequilibrium
+  - **Attribution**: jhave (prompt & edits) · Claude Opus 4.8 (initiator) · Claude Sonnet 4.6 (composition) · Claude Opus 4.8 (reflexive review) · using Narracode harness · 2026-06-14
+  - **Word Count**: 10,058
+  - **Reading Time**: 40
+  - **Synopsis**: Dr. Monique Cormier has built a career on the theory that emotional disruption is structurable, knowable, taxonomizable — that grief is a system one can model from the outside. The story places her inside a systemic cascade (medical, hormonal, domestic, psychological) she cannot analytically escape.
+
 - **Folder**: 12-06-2026_Post_Everything
   - **Title**: An Almost Moist Post-Post-Everything
   - **Attribution**: David Jhave Johnston (Jhave) · Google Gemini (orchestrated via Antigravity harness) · 2026-06-12

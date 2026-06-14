@@ -10,7 +10,7 @@ She read it twice. Then she read the English automatic translation the portal of
 
 She put the phone face-down on the desk. She looked at the window of her office, which faced north — the inner courtyard of the Blindern campus, the birch trees bare in December light. She had a two PM seminar in forty minutes. She turned back to the document she had been annotating before the notification.
 
-The MSIS registration remained. She understood this: the database entry existed for epidemiological record-keeping and would not be retroactively deleted upon clinical clearance. Her number was a permanent data point. This was appropriate — it was the correct policy. The active weight of the colonization was discharged; the administrative fact of it remained. These were different things and both were accurate.
+The MSIS registration remained. She understood this: the database entry existed for epidemiological record-keeping and would not be retroactively deleted upon clinical clearance. Her number was a permanent data point.
 
 She went to the two PM seminar.
 
@@ -38,9 +38,9 @@ Monique looked at the pale blue twist-tie against the white machine casing. It w
 
 "Takk," Monique said.
 
-Sara shrugged once — not dismissive but economical — and went back to 3B.
+Sara shrugged once and went back to 3B.
 
-Monique stood in the bathroom while the wash cycle completed. Thirty-eight minutes on the 40° cotton setting. She used the time to wipe down the machine exterior and the bathroom shelves, which she had been sanitizing as habit, though the protocol was fully complete and she was MRSA-negative and the behavior was vestigial. She noted it as vestigial. She kept wiping.
+Monique stood in the bathroom while the wash cycle completed. Thirty-eight minutes on the 40° cotton setting. She used the time to wipe down the machine exterior and the bathroom shelves. She kept wiping.
 
 ---
 
@@ -48,7 +48,7 @@ The Aduro 9 had been sitting in the corner for thirteen months. The compressed-n
 
 She had looked up the clean-burn air intake system online three days after the WhatsApp call with Sophia. She had found the Aduro technical documentation and a forum discussion by Norwegian stove owners that included a step-by-step description of the secondary air channel configuration. She had searched for YouTube demonstrations. She had asked the AI interface for clarification on the specific mechanism — what the secondary air ports did to the combustion path, why the glass blackened when they were blocked, how to assess whether the tertiary air wash was functioning. The AI had been thorough on this, and she had found that thorough more useful than she expected.
 
-Her colleague in the UiO social anthropology department — Yngve, who maintained a cabin outside Norefjell and had run a Jøtul stove for twenty years — had told her over lunch that soot-blocked air intakes were common in stoves that had been left unrun, and that the intakes could be cleared manually with the right tool, and that the right tool was something flexible and narrow enough to fit the channels. He had said: try a pipe cleaner. He had actually said *piperenser*, which was the Norwegian word, and Monique had noted that the word was literally pipe-cleaner in both languages and was briefly arrested by this before realizing he meant the thin wire-and-nylon cleaning brush, the craft-store or hardware-store item.
+Her colleague in the UiO social anthropology department — Yngve, who maintained a cabin outside Norefjell and had run a Jøtul stove for twenty years — had told her over lunch that soot-blocked air intakes were common in stoves that had been left unrun, and that the intakes could be cleared manually with the right tool, and that the right tool was something flexible and narrow enough to fit the channels. He had said: try a pipe cleaner. He had actually said *piperenser*, which was the Norwegian word, and meant the thin wire-and-nylon cleaning brush, the craft-store or hardware-store item.
 
 She found them at Jernia on Hegdehaugsveien, the same hardware store where she had bought the 2700K light bulbs. They came in a packet of fifteen, wire-cored with nylon bristles, in assorted colors. She bought one packet.
 
@@ -66,6 +66,5 @@ The flame caught. The glass stayed clear.
 
 She sat in the armchair across the room and watched it. The secondary combustion was visible above the primary flame: a second zone of blue-orange ignition where the combustion gases met the secondary air current, burning off the volatiles that would otherwise have darkened the glass. She could see the mechanism working. The glass stayed clear and the fire burned correctly behind it.
 
-She did not make it mean anything. It was a stove, working as designed.
-
 She watched it for a while. The room was warm.
+
