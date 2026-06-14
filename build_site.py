@@ -948,7 +948,11 @@ def build_library_index():
         </div>
     </div>
 
-    <h2>📚 Example Stories</h2>
+    <div style="text-align: center; margin-top: 2rem; margin-bottom: 0;">
+        <img src="img/Narracode harness system schematic view.png" alt="Narracode" style="width: 320px; max-width: 100%;">
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem; margin-bottom: 0;"><h1>📚 Example Stories</h1></div>
 """
     
     for p in projects:
