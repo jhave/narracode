@@ -18,7 +18,7 @@ She owned two full sets of bed linen — she counted: one cotton flannel set in 
 
 She sanitized: every door handle in the flat with isopropanol wipes, every morning. The bathroom tap, the kitchen tap, the fridge handle. The interior fridge surfaces. Her laptop keyboard. Her phone screen. The desk chair armrests. The remote control, which she had stopped using after day two because she was not watching television during the protocol — she was not doing much that was not the protocol.
 
-On day three she sat on the edge of the stripped mattress at nine PM, having remade the bed for the third time, having hung three towels on the drying rack, having placed the sanitized phone face-down on the sanitized nightstand, and she was tired in a way that had a specific texture: not the fatigue of exertion but the fatigue of sustained procedural attention. The kind of exhausted that came from being nowhere except inside the task. The protocol structured her days into complete occupation.
+On day three she sat on the edge of the stripped mattress at nine PM, having remade the bed for the third time, having hung three towels on the drying rack, having placed the sanitized phone face-down on the sanitized nightstand, and she was tired: not the fatigue of exertion but the fatigue of sustained procedural attention. The kind of exhausted that came from being nowhere except inside the task. The protocol structured her days into complete occupation.
 
 She set her alarm for six-forty AM. She lay down. The clean sheets had a faint chemical smell — the Ecover 60° laundry liquid, lemon-scented. She breathed through her mouth to avoid the Mupirocin register. She was asleep by ten PM.
 

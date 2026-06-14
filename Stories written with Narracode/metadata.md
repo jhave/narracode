@@ -2,8 +2,8 @@
 
 - **Folder**: 14-06-2026_Dissolution
   - **Title**: Dissolution Disequilibrium
-  - **Attribution**: jhave (prompt & edits) · Claude Opus 4.8 (initiator) · Claude Sonnet 4.6 (composition) · Claude Opus 4.8 (reflexive review) · using Narracode harness · 2026-06-14
-  - **Word Count**: 10,058
+  - **Attribution**: Human: Jhave · Words: 9,885 · Editing and Images: Gemini Flash 3.5 · Date: 2026-06-14
+  - **Word Count**: 9,885
   - **Reading Time**: 40
   - **Synopsis**: Dr. Monique Cormier has built a career on the theory that emotional disruption is structurable, knowable, taxonomizable — that grief is a system one can model from the outside. The story places her inside a systemic cascade (medical, hormonal, domestic, psychological) she cannot analytically escape.
 
