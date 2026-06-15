@@ -94,18 +94,6 @@ The prose is interior monologue throughout. The voice:
 - **Self-interrupting in a specific way**: every self-questioning move resolves back into strategic consolidation. The loop always closes. Except when it doesn't — when the unnamed terror or the compulsion toward Sable leaks through as a subordinate clause that doesn't complete, an em-dash that trails, a sentence that begins as analysis and ends in another grammar entirely.
 - **Porous at the edges**: as anecdotes accumulate, the interior monologue occasionally loses its grip on its own coherence. The grief and the compulsion express themselves formally — not through content, through structure.
 
-## Dialect notes from human edits (v0, 2026-06-15)
-
-*Codified from prompter edits to draft 0. Instances, not rules.*
-
-- **Subject deletion at processing speed**: When Crane is moving through data efficiently, the subject "I" may drop entirely. "Noted. Moved on." / "Meridian demographic breakdown:" The compression enacts absorption of self into task.
-- **Physiological/anatomical register for the compulsion**: When the compulsion toward Sable (or the window, or the unread lever) surfaces, it is named as system process, not feeling — anatomical vocabulary, pathway language ("optic nerve to V4 contour curvature, mesolimbic dopamine pathway"). The body runs its process; Crane observes it as a system event. Never psychological language at these moments.
-- **Fragment sequences at charged moments**: At moments of highest interior pressure, the prose fractures into single-beat fragments with no connective tissue ("The saliva of anticipation. A disgust. Enthralled." / "Perspiring. Sip water. I closed the tab. Look away."). The fracture is the register of the unmanaged.
-- **Tense slips as compulsion markers**: Present tense may intrude in past-tense passages at moments when the compulsion overrides Crane's narrative control ("Look away." amid past-tense passage). Not error; marker.
-- **"As planned." closing move**: Crane occasionally recognizes their own architecture running in unexpected places and closes the observation with a brief claim of design intent. The claim is itself a loop. Use sparingly.
-- **"That old wound." template for the son**: The son approached through somatic signal — aching, a shimmy in the shoulder — and named only as wound, not content. Three words maximum. No elaboration. The somatic is prior; the naming follows at the minimum necessary distance.
-- **"He is. To whatever degree —"**: After asserting something about another person's belief or condition, a sentence that immediately opens the assertion to question. The Director believes he is running the game. "He is. To whatever degree games are run by players." The gesture: confirm, then destabilize.
-
 ---
 
 ## Style references
