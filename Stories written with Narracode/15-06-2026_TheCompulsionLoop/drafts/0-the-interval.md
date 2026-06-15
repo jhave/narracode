@@ -1,0 +1,23 @@
+The engagement data from Meridian Systems — four hundred thousand monthly actives in the ethics-adjacent cohort, the third Cynical Company to sign, the one with the deployment I needed — showed the variable-reward interval at nine minutes producing a 31% return-rate lift over fixed-schedule control. I moved the interval to eight. Eight was the lower bound of the productive uncertainty window, the point before a user begins to read the randomness as randomness rather than as a quality of the content, and the user must never read it correctly. Three tabs open. Outside the window the city performed its evening. I did not look at it.
+
+The second tab: the CAP framework document, section 4.3, *Sentiment Capture in Ethics-Adjacent Populations*, six weeks written in one session, and I found it on rereading less interesting than in the writing. The third tab I had closed. Sable Oduya's name had been in it — the testimony to the independent review board this afternoon, summary, three hundred words — and I would read it when the interval work was done.
+
+In the Meridian demographic breakdown: *youth cohort, unresolved identity markers, high churn risk.* Forty-seven percent churn. Three retention levers available in the framework. I noted them. I moved on.
+
+The Meridian contact had sent his data with a courtesy he had not needed to send — a paragraph of professional warmth at the top of the file, *delighted to support this initiative* — and I had worked with three of these contacts now and found them identical in this, the warmth scaling precisely with the distance between what they had agreed to and what they would publicly say they had agreed to, the compulsion loop of the cooperative, the behavior reinforced by the regulatory protection arrangement until the warmth became the only register available to them for this material.
+
+The Director would want the interval data by Friday. He has a quality I find workable: he believes he is running the game. Fixed-schedule confirmation from me, regular as a session prompt, and the sensation he experiences as strategic comprehension — I have not found this contemptible in him, I have found it efficient, the correct types present at every stratum, the question always being which category is running which.
+
+I opened the third tab.
+
+*Dr. Sable Oduya testified for one hour and forty minutes. Key positions: (1) The Purity Protocol mischaracterizes supply chain risk as applied to knowledge-producing institutions. (2) ROCHE's architectural constraints are not a national security liability; they are the condition of responsible deployment. (3) The framing of AI ethics discourse as structurally foreign-adjacent is itself a strategic operation, and the Board should consider who benefits from that framing.*
+
+Who benefits from that framing. Continental tradition — she would know Foucault's question and she would know how to deliver it without making the Board feel accused rather than examined, which was the harder skill. The review board recording was available in the linked file. I had the time. The thumbnail showed her at the table, a posture that did not perform its confidence, and I closed the tab.
+
+Section 4.3's counter-narrative mechanics had been designed for a less precise interlocutor. I made a note in the document margin. Then I looked at the note and deleted it, because the note was for the document, and the document was for the Director, and the Director did not need to understand this precisely.
+
+The retention lever for *youth cohort, unresolved identity markers.* I had noted it. Churn prevention mechanism based on — I moved to the interval.
+
+Eight for the deployment. Nine for the Director's document. The confidence interval on eight was still assembling in the server, thin, needing more sessions in the cohort before it settled. I could present nine to the Director on Friday, run eight in the product afterward, the document and the product being related the way policy is always related to practice, adjacent, non-identical, and the Director's concern being the document.
+
+Below the window the city was lit the way it was lit. *Who benefits from that framing.* I was at the data. The interval at eight, the curve still coming in, and the Meridian contact's warmth still in the top of the file, *delighted*, and the retention lever for the unresolved cohort still noted, still unread, its mechanism still in the framework where I had put it six weeks ago and not looked at since, and below the window the city was exactly as far below as it had always been, which I did not look at, which continued.
