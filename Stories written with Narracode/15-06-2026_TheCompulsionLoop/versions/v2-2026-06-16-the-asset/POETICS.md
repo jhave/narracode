@@ -106,19 +106,6 @@ The prose is interior monologue throughout. The voice:
 - **"That old wound." template for the son**: The son approached through somatic signal — aching, a shimmy in the shoulder — and named only as wound, not content. Three words maximum. No elaboration. The somatic is prior; the naming follows at the minimum necessary distance.
 - **"He is. To whatever degree —"**: After asserting something about another person's belief or condition, a sentence that immediately opens the assertion to question. The Director believes he is running the game. "He is. To whatever degree games are run by players." The gesture: confirm, then destabilize.
 
-## Dialect notes from human edits (v2, 2026-06-16)
-
-*Codified from prompter edits to draft 2. Instances, not rules.*
-
-- **Direct speech as raw register**: When the Director speaks directly, the register is atavistic, pre-rhetorical, vernacular grievance — not polished doctrine. *"Speak English, he snapped."* / *"woke yahoos"* / *"By gawd, he believed in the word of god: pure principles."* The rawness is the ideology at its operating frequency below the official language.
-- **Crane as translator**: In Director scenes, Crane calibrates pitch for the receiver: *"assessing what english level might succeed."* Visible in Crane's interior; invisible to the Director. Crane reads the Director as target demographic.
-- **Single-sentence paragraph as compressed verdict**: *"The blatant act is permissible."* — a declarative standing alone, so compressed that examination cannot attach. Structural violence in the brevity. Use sparingly.
-- **Maxim grammatical breakdown**: When the self-regulation maxim fails, its grammar fails simultaneously: *"Admin must not never becomeuser."* — double negative, article deletion, compound-word compression. The syntax enacts the transgression.
-- **Enumerated sacrifice**: Destruction rendered as specific accumulation, not category: *"passport recalled, taxes audited, children expelled, husband fired, family un-insured, and anyone peripheral and vulnerable deported."* The arithmetic is the violence.
-- **Somatic reading of others**: The anatomical-mechanical vocabulary Crane applies to Crane's own body applies also to others: *"the lacquered wet eye palpitations of an elderly quivering neurotic child."* The somatic read reveals the subject's underlying state and Crane's method of maintaining superiority.
-- **Three-sentence declarative ownership**: *"We made the cage. We invited the crowd. We hired the fighters."* Short declaratives, equal weight, collective "we" without apology. Available when ownership is claimed without conscience.
-- **Wall as simplified terminus**: The ending contracts to the object without analysis. Not "the wall was close, and the wall was acceptable" — just: *"replaced by a wall."* The ending performs enclosure by enacting it.
-
 ## Dialect notes from human edits (v1, 2026-06-16)
 
 *Codified from prompter edits to drafts 0 and 1. Instances, not rules.*

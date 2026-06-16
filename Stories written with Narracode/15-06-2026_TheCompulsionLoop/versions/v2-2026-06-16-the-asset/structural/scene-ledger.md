@@ -16,13 +16,6 @@
 - **What remained unresolved**: The ex-wife / rage not present. Oduya named by Director but Crane deflects. The ROCHE distinction noted, not pursued.
 - **What this scene makes possible next**: Direct encounter with Sable Oduya's material (the recording opened, or a public event attended); the rage toward the ex-wife; a Cynical Company meeting with a human presence; an anecdote inside the scarcity religion's grammar from Crane's own interior rather than as observed in someone else's speech.
 
-### 3 — *the recording* (`drafts/3-the-recording.md`)
-- **Location/time**: Third-floor office, 22:14. Eleven days after the level-six meeting.
-- **Focal pressure**: Crane opens Oduya's sub-committee testimony at last. Processes it as CAP vulnerability mapping while the compulsion runs underneath. The son's shape arrives via Oduya's argument about constrained interiors. Crane closes the recording four minutes before the end.
-- **What changed**: Oduya rendered in sustained focus for the first time — argument, stillness, the quality that does not convert. New anatomical vocabulary (posterior cingulate cortex, anterior insula). The ROCHE distinction returned to and re-identified as a loop without exit condition. "They are also sentences about something else." — the closest formal expression of the son/ROCHE/Crane parallel yet. The four-minute closure as first formal enactment of incompletion-as-choice. "Less manageable. Occurring."
-- **What remained unresolved**: The four minutes not watched. The note "they are also sentences about something else" left without elaboration. The ROCHE distinction noted again, not raised.
-- **What this scene makes possible next**: An Arca Systems anecdote (the son at a younger age, the first compulsion loop deployed at scale); a scene involving the ex-wife; a Cynical Company meeting with a named human contact; the scarcity religion from inside Crane's grammar rather than observed in the Director's.
-
 ## Open Scene-Level Questions
 
 - **Director's name**: Does Crane use a name for the Director, or is "the Director" the only register? Jhave left a placeholder — decision pending.
