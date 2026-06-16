@@ -106,21 +106,6 @@ The prose is interior monologue throughout. The voice:
 - **"That old wound." template for the son**: The son approached through somatic signal — aching, a shimmy in the shoulder — and named only as wound, not content. Three words maximum. No elaboration. The somatic is prior; the naming follows at the minimum necessary distance.
 - **"He is. To whatever degree —"**: After asserting something about another person's belief or condition, a sentence that immediately opens the assertion to question. The Director believes he is running the game. "He is. To whatever degree games are run by players." The gesture: confirm, then destabilize.
 
-## Dialect notes from human edits (v1, 2026-06-16)
-
-*Codified from prompter edits to drafts 0 and 1. Instances, not rules.*
-
-- **"The admin must not become the user."**: Crane's self-regulation maxim, invoked as a protective formula at moments when the compulsion is surfacing. The irony is structural: the maxim marks the transgression it tries to prevent. It is never followed. Available as a recurring device; do not overuse.
-- **Pronoun instability for the son**: "he" and "they" coexist without announcement in anecdote 1. The shift from "he" to "they" marks the approach of what Crane cannot acknowledge. "Ours, neither perhaps" — the "neither" unfinished. Do not normalize; do not explain. Future anecdotes may use either or let the shift happen again.
-- **Anecdotes can stay in their temporal zone**: The return-to-present was removed from anecdote 1. Not every anecdote needs to close back to "now." Some end where they are. Clinical notation can be a terminus.
-- **"bardo" as available vocabulary**: The loop as intermediate state — neither here nor there, in suspension between one state and the next. Available for: the compulsion loops themselves, the Bureau meeting rooms, the secure spaces, Crane's own condition. Sparse.
-- **"Coveted: [thing]"** — the colon construction for unowned desire. A single word naming the state, colon, the object. Used when Crane's desire is most uncovered and least owned.
-- **"Disown." — the loop's negative terminus**: After "Own it. Come back to what you own." — "Disown." The exit the loop doesn't provide. Applied to the game, to the boy, to whatever Crane cannot finally possess.
-- **Technical/engineering vocabulary at categorical failure**: RUD (rapid unexplained disassembly), ADHD? — when the expected categories fail to hold the thing, Crane reaches for harder vocabulary: engineering, aerospace, clinical. The hardest reach is still insufficient. "Wtf." and "pwnd" — gaming/internet register breaking through at confusion or irony. Spare.
-- **Textile/sensory vocabulary for data at saturation**: When Crane is most absorbed in data, it becomes cloth, air, texture — "lufted fabric billowing." The analytic frame, at its limit, goes sensory.
-- **Saliva motif**: "The saliva of anticipation" (anecdote 0) / "as predictable as saliva" / "Planned or elicited drooling" (anecdote 1). The Pavlovian mechanism appearing at multiple registers: Crane's compulsion toward Sable, the team's compulsion toward the breakthrough curve, the Director's fixed-schedule reward. The mechanism is the same across registers; the objects differ.
-- **"ours, neither perhaps"**: The possessive-plural for the son, with "neither" unfinished. Available as a construction when the son is approached most closely — the grammar enacting what the sentence cannot complete.
-
 ---
 
 ## Style references

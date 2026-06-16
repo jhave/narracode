@@ -24,8 +24,6 @@
 
 **The Covenant** — the federated empire; GJ 1901-c; nominally democratic; sliding into neo-nationalist oligarchy.
 
-**Arca Systems** — Crane's first game company; the site of the first compulsion loop deployed at scale (early 2000s equivalent); the conference room where the curve first performed. No longer operational in story present (Crane has "moved on").
-
 ## Relations
 
 - Crane → Department of State: employed, advisory
