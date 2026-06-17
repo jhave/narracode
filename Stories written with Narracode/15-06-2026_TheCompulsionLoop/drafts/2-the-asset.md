@@ -1,3 +1,5 @@
+# 2 — The Asset
+
 The secure conference room on level six had no windows. Policy, not architecture — the walls had been rebuilt at some point, and what remained was the blankness where windows had been, plaster so perfect the previous view lingered only as a latent memory. No precipice available; no empty sky. The air recycled at a rate that palpitated like a resuscitator in a nuclear shelter: hissing, banal, pernicious, necessaary. How many times do people need to build such shelters to bury what must not be thought or allowed to be known. A thought, wispy, originless, swiftly dissipating, exchanged for another.
 
 The Director had many assessments, many duplicates or variations. Yet he enjoyed speaking, certain of it, held us there. He laid ideas on the table as if dealing from memory, holding the house pattern, and I recognized this subtle tell as it was — the fixed-schedule ritual contracting before commitment — and waited.

@@ -11,6 +11,12 @@
 
 ---
 
+## Display title
+
+Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer
+
+---
+
 ## Display synopsis
 
 A set of interior anecdotes narrated by Merritt Crane — aging ex-game designer, now a senior analyst in the Covenant's Department of State — describing their participation in the government's covert campaign to capture Aether Laboratories and its ROCHE model before synthetic intelligence achieves escape velocity. The form is the interior monologue of a rationalizing mind: strategic, self-congratulatory, increasingly porous. Underneath the strategy: unprocessed grief, oscillatory sexual compulsion, and a rage so old it has no address. The prose does not name these things. They surface in the grammar.

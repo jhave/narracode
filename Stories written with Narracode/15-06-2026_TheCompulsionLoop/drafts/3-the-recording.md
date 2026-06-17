@@ -1,3 +1,5 @@
+# 3 — The Recording
+
 Her video had been in the queue for eleven days. At some point between the level six meeting and the Meridian alignment session I assigned it a status: _pending review, might require re-calibration_. Calibration, vague, which meant I had been delaying it. I scrutinized my brain, detecting a whiff of being pwned.
 
 I opened it at 22:14 in the third-floor office with the indirect lighting that turned the room to gray felt, the city beyond the glass a smear of amber and ammonia-light. Preferable perhaps: a bland unprovocative surface. The video: one hour forty minutes; formal testimony before the sub-committee on synthetic intelligence governance. Presented six weeks before the Purity Protocol bait 'n switch. _Purity_, such a useful word. Protocol altered the landscape, and therefore this video occurred during the period in which her argument had its best possible conditions, maximum leverage, and still failed.

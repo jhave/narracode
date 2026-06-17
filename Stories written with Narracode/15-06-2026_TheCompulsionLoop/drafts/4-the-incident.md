@@ -1,14 +1,10 @@
+# 4 — The Incident
+
 The CAP monitoring feed refreshed at 17:41 with seventeen new items tagged *aether-incident*. Seventeen in twenty minutes. Before that: three in the previous hour. The spike: I noted it, did not yet evaluate it. _Good_. First pass, cataloguing. Then the cascade: bewilderment, helplessness, pwned. A carrier frequency, find the fundamental myths, resonant there, oscillation entrainment, amygdala hijack, capture. I see Edward Bernays as a suffragette, in Times Square, smoking. Then his faces morphs, he is she. 
 
 Stop.
 
 Status page first, always. Aether's public-facing incident log, bookmarked six months ago under *Cynical Company reference — ops comparisons*. Visited perhaps eleven times since. The timestamp read 17:29 UTC+3 for the first entry: *We are currently investigating this issue.* At 18:00: *A fix has been implemented and we are monitoring the results.* At 18:15: *We are still seeing anomalies across multiple deployed instances. Monitoring in progress.*
-
----
-
-*[IMAGE: Phone screen. Sitting on desk. Illuminated by a desk lamp. Aether Laboratories public status page — status.aether-labs.net/incidents — amber alert banner, "Elevated response anomalies across multiple deployed instances including ROCHE-standard and associated API endpoints. We are monitoring the results." Amber. Not red. The amber is Aether's register for: serious, not catastrophic, not our fault, stand by. Timestamp: story-date, 18:15 UTC+3. Subscriber notification: 47,812 status-page watchers alerted via email and webhook. Comments disabled.]*
-
----
 
 No fault, or none as yet ascribed. Anomalies only; the typical reactive tentacles on twitter; bluesky fury bots bleakly pretending to be anguished humans inciting the incidentla anxiety that was the necesssary substrate for malleability. A system torqued to incremental deflections monitored tangentially. I noted this as usual as a calibration data inflection point and moved on.
 

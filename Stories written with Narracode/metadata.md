@@ -1,10 +1,10 @@
 # Stories Metadata
 
 - **Draft Folder**: 15-06-2026_TheCompulsionLoop
-  - **Title**: Compulsion's Loop
-  - **Attribution**: Human: Jhave · Words: 6,948 · Editing and Images: Gemini Flash 3.5 · Date: 2026-06-15
-  - **Word Count**: 6,948
-  - **Reading Time**: 28
+  - **Title**: Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer
+  - **Attribution**: Human: Jhave · Words: 6,158 · Editing and Images: Gemini Flash 3.5 · Date: 2026-06-15
+  - **Word Count**: 6,158
+  - **Reading Time**: 25
   - **Synopsis**: A set of interior anecdotes tracking Crane, Meridian Systems, and the architectural loops of corporate cognitive capture.
 
 - **Draft Folder**: 14-06-2026_Dissolution

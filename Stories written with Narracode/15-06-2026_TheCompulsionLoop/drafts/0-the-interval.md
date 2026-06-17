@@ -1,3 +1,5 @@
+# 0 — The Interval
+
 The engagement data from Meridian Systems — four hundred thousand monthly actives in the ethics-adjacent cohort, the third Cynical Company to sign, the one with the necessary deployment — showed the variable-reward interval at nine minutes producing a 31% return-rate lift over fixed-schedule control. I moved the interval down 15 seconds. Eight was the lower bound of the productive uncertainty window, the point before a user begins to get confused rather than encountering *surprise!* as a quality of the feed. 
 
 Three tabs open. Outside the window the city performed another evening. I did not look at it. To gaze at sunsets is to fall for a cliche. The admin must not become the user.
