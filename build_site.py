@@ -416,6 +416,9 @@ def build_site(project_dir):
     elif folder_name == "14-06-2026_Dissolution":
         word_count = count_words_in_drafts(drafts_dir)
         author_info = f"Human: Jhave &nbsp;·&nbsp; Words: {word_count:,} &nbsp;·&nbsp; Editing and Images: Gemini Flash 3.5 &nbsp;·&nbsp; Date: June 14, 2026"
+    elif folder_name == "15-06-2026_TheCompulsionLoop":
+        word_count = count_words_in_drafts(drafts_dir)
+        author_info = f"Human: Jhave &nbsp;·&nbsp; Words: {word_count:,} &nbsp;·&nbsp; Editing and Images: Gemini Flash 3.5 &nbsp;·&nbsp; Date: June 15, 2026"
 
     # Read template
     with open(template_path, "r", encoding="utf-8") as f:
