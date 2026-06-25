@@ -30,14 +30,6 @@
 - The Butler proper-noun name-drop (v1 Act 3) was cut in the rewrite; the argument is kept without the name.
 - No new Act 5 (prompter declined). Act 0 left as the author's v1 text.
 
-## v3 revisions (human edit to Act 2 + propagation to Acts 3–4)
-- Human escalated Act 2: oceanic/tidal flood, Heart Sutra emptiness litany ("No mouths, no eyes, no ear, no tongue"), explicit gender-destabilization ("him or her", "perimeter of selves"), commerce-glitch ("loot box", "TM", "Genes barcoded"), heavier coinage and koan-compression. Sava's register degraded to netspeak ("what r u doing?") and her motive darkened.
-- No typo flagged this loop; Act 2 left wholly intact.
-- Acts 3 & 4 revised to absorb the v3 dialect. Gradient kept by function: Act 3 holds its code-clinical engineer signature at higher corruption; Act 4 goes fullest dissolution (Heart Sutra litany, gender fully dissolved to "no him, no her").
-- Act 4 climax beats adjusted per prior critique flags: "Buffering. Buffering." reduced to single "Buffering"; the sutra now carries the climax rather than the "Turtles" joke.
-- POETICS Dialect section extended additively with v3 deltas (oceanic, śūnyatā litany, gender dissolved, commerce-glitch, koan-compression, gradient-by-function).
-- All three author-edited acts (0,1,2) now share one continuous escalating dialect with the two revised acts (3,4).
-
 ## Said
 - Patch-note / marketing language about freedom and choice (found-text register).
 - Sava saying something ordinary and believing in the game (to be drafted as the held mirror).

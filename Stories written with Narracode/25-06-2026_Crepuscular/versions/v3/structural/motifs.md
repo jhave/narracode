@@ -15,10 +15,6 @@
 - **Emptiness / śūnyatā** — (v2) negative-theology register layered on the bardo: *to know nothingness, what-is-without-body, δs ≈ 0, saṃsāra itemized*. Reincarnation as the wheel of emptiness.
 - **Body-horror / obstetric somatics** — (v2) respawn as birth canal: *suction tunnel, swept into a womb, gasped into the substrate, spasming river stone*.
 - **Code-language intrusion** — (v2) the system's own syntax eats the narration: *Deception would not compile, 8x5, git blame on the soul, gc took the he, whoami, Buffering*. Gradient: heaviest/clinical in Act 3 (the engineer), dissolving in Act 4.
-- **Oceanic / tidal** — (added by human edit, v3) the substrate as recursive tide; *a tide of incarnations, relentless ooze, Water's song, Lives seeping into lives*. Counter-current to the staccato; carried up into Acts 3–4.
-- **Heart Sutra / śūnyatā litany** — (v3) the Prajñāpāramitā negation as climax-spine: *No mouth, no eye, no ear, no tongue… no maker, no made; Form is emptiness, Emptiness a patch note*. Peaks in Act 4.
-- **Gender dissolved** — (v3) pronouns go plural/empty (*him or her, perimeter of selves, no him no her*); one fixed gender survives only inside the Sava relation. Fulfills the brief's gender-as-construct.
-- **Commerce / platform brand-glitch** — (v3) *itemized loot box, TM, Genes barcoded, Smile collated*. The engagement economy stamped into the sentence.
 
 ## Transformations
 - Loadbar: Act 0 anticipation → Act 2 the same bar across all lives, revealing the sameness → Act 4 the bar is the drama's runtime.
