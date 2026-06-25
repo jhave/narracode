@@ -8,9 +8,6 @@
 - **Punctuation / perforation** — the edit as a surgical mark in flesh and in text. The body re-pointed like a sentence.
 - **The slider / the field** — freedom rendered as a parameter; the closed schema dressed in infinite wardrobe.
 - **The smell he cannot imagine** — the sensory limit; the sign of the witnesses; the threshold the story does not cross.
-- **The bardo / reincarnation** — (added by human edit, v1) the respawn interval reframed as the Tibetan intermediate state; "Creation" capitalized toward the demiurgic. Deepens the gnostic register. Now live from Act 0; echoed in Acts 1 ("the bardo") and 2 ("the bardo, itemized").
-- **The watching presence / "Here."** — (added by human edit, v1) the witnesses seeded as dread from Act 0's final beat ("another active presence. Here.") and paid at the very end of Act 4 ("The witnesses leaned closer. Here."). The single word *Here.* now bookends the piece.
-- **Inline UI found-text** — italic system labels intruding on the prose: *upboarding hour*, *Customizable:*, *Archetype:*. Interface as narration.
 
 ## Transformations
 - Loadbar: Act 0 anticipation → Act 2 the same bar across all lives, revealing the sameness → Act 4 the bar is the drama's runtime.

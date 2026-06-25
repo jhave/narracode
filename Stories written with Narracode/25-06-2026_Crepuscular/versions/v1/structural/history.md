@@ -15,13 +15,6 @@
 - The engineer/author position is itself a role held by an engagement harness.
 - The millions of games are one episode of a drama called *crepuscular*, witnessed by unimaginable beings.
 
-## v1 revisions (human edit + propagation)
-- The onboarding hour is now the **upboarding hour** (human coinage; ascension, not intake).
-- The current avatar carries the laugh for **forty-one years** (was forty); uncanny-precise counts retained as glitch-texture.
-- "the creator" is now **Creation** (capitalized, faintly demiurgic).
-- The respawn interval is explicitly the **bardo**.
-- Act 4 no longer ends on "enough" (flagged in critique as naming the feeling). It now ends colder, on the watching presence: "The witnesses leaned closer. Here." — paying off the "Here." seeded at the end of Act 0.
-
 ## Said
 - Patch-note / marketing language about freedom and choice (found-text register).
 - Sava saying something ordinary and believing in the game (to be drafted as the held mirror).
