@@ -22,14 +22,6 @@
 - The respawn interval is explicitly the **bardo**.
 - Act 4 no longer ends on "enough" (flagged in critique as naming the feeling). It now ends colder, on the watching presence: "The witnesses leaned closer. Here." — paying off the "Here." seeded at the end of Act 0.
 
-## v2 revisions (human edit to Act 1 + propagation to Acts 2–4)
-- Human escalated the dialect in Act 1: glitch-corruption is now intentional style (resolves the v1 open question), plus emptiness/śūnyatā register, body-horror/obstetric somatics, and subject-dissolution pulled forward.
-- One genuine typo corrected in Act 1 at the author's request: "trheads" → "threads". All other corruptions are deliberate and retained.
-- POETICS.md updated with a new **Dialect — co-edited, evolving** section codifying the above, including the corruption-gradient rule.
-- Acts 2, 3, 4 rewritten to the intensified dialect under a corruption gradient: heaviest in Acts 2 and 4, code-clinical in Act 3 (Ilo as lucid engineer).
-- The Butler proper-noun name-drop (v1 Act 3) was cut in the rewrite; the argument is kept without the name.
-- No new Act 5 (prompter declined). Act 0 left as the author's v1 text.
-
 ## Said
 - Patch-note / marketing language about freedom and choice (found-text register).
 - Sava saying something ordinary and believing in the game (to be drafted as the held mirror).

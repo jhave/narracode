@@ -1,13 +1,13 @@
-# Check — 3 — Edits
+# Check — 3 — Edits (v2)
 
-**Continuity.** The "groove/worn seat" reframes the closed schema from Act 1 (cage is comfortable, not strong) — consistent and a genuine deepening, not a repeat. The third hand matches the good-hands motif (identical, scarred knuckle). Butler invoked diegetically ("he had read his Butler, in one of the lives") — risky self-reference; see voice.
+**Continuity.** Groove/worn-seat, the third hand (`hands: 2 → 3`), perforation/held-comma, transposed freedom→fence weight, engineer-who-tests-but-never-plays — all preserved. The scar "on the left knuckles" now matches Act 0's edited detail. Closing groove-image (worn to his hand) intact as the Act-4 pivot.
 
-**Obligations.** Reconfiguration delivered: extra hand, perforation/held-comma, transposed freedom→fence weight, the engineer-who-tests-but-never-plays. Recursion re-armed twice and well: (a) "no appetite is itself a field" — he edits his own; (b) closing image — the *work* has a groove worn to his hand. This is the structural pivot that makes Act 4 inevitable. Mercy/sabotage ambiguity held open as planned.
+**Obligations.** Reconfiguration delivered; mercy/sabotage ambiguity held open and sharpened (`try { liberate } catch { became_the_warden }`). Recursion re-armed twice (no-appetite-is-a-field; the closing groove). The Butler name-drop from v1 was cut in this rewrite — the argument is kept ("an edit offered as gift and an edit imposed as cage… same edit") without the proper noun, resolving the v1 critique flag.
 
-**Motifs.** Hands (the added one), punctuation/perforation/comma (the body re-pointed as sentence — fully realized here), the river stone, the groove (new, load-bearing), the closing "lifted its head… into the flat smell-less air" pre-echoes Act 2's prey image and Act 4's turn.
+**Motifs.** Hands/added-hand, punctuation/perforation/comma, the groove, the river stone. New: **code-register as the act's dominant glitch** (`git blame` on the soul, `role: architect` committed, `KPI: green`, the A/B "B arm bleeding"). This realizes the planned gradient — Act 3 is code-clinical rather than corrupted, because Ilo is the lucid engineer here.
 
-**Scene function.** False escape: he flees the played by becoming the maker, i.e. becomes the thing he woke to escape. The "running iterations" admission is the act's spine. Pleasure-and-ethics-of-authorship delivered.
+**Scene function.** False escape: flees the played by becoming the maker. The code intrusions make the "he has become an optimizer" turn land as form, not statement. Strongest idea-image fusion: the flipped integer + "Loss-aversion: the load-bearing exploit."
 
-**Voice/default.** Strongest braid so far; wit, dread, and craft fuse ("I had read my Butler" aside is funny and dangerous). The explicit Butler name-drop is the one spot that risks puncturing the diegesis / reading as the author winking — flag for the human editor: keep (knowing meta-texture) or cut to "he knew the shape of the argument." No tail-clause tic.
+**Voice/default.** The most controlled of the v2 acts, by design. Wit intact and dry. Risk: the code-snippet device is potent but finite — three or four instances is the ceiling before it tips into gimmick; current count is at that ceiling. Flag for author: keep all, or thin to the two strongest (`git blame`, the try/catch).
 
-**Reader-state.** Reader may briefly read this as triumphant authorship (the intended trap). The closing groove-image should re-seed unease just in time. Liberation expectation now redirected into "is the maker free?" — exactly the question Act 4 answers.
+**Reader-state.** Reader may briefly read triumphant authorship (intended trap); the closing groove re-seeds unease on cue. Liberation expectation redirected to "is the maker free?" — handed cleanly to Act 4.

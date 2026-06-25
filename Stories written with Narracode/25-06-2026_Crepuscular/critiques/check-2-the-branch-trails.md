@@ -1,13 +1,13 @@
-# Check — 2 — The Branch Trails
+# Check — 2 — The Branch Trails (v2)
 
-**Continuity.** Flashback collapse rendered as a single backward current (matches time-constants: no duration). Specific prior lives (fisherman, magistrate, girl of nine, colony child, the wistful left-handed ones) consistent with the Act 0 "same wistful left-handed man" joke. Sava returns as the held mirror, with her one ordinary line and the song from Act 0's parked car — strong callback.
+**Continuity.** Branch-trail collapse, the rhyming lives (fisherman/magistrate/girl of nine/colony child), the Sava song-from-the-parked-car, the prey-into-wind waking — all preserved from v1. New: explicit *saṃsāra/bardo itemized* register matches the Act-1 escalation. The possessive "*his*" is now visibly loosening ("Or had been *his*") — consistent with the subject-dissolution gradient seeded in Acts 0–1.
 
-**Obligations.** Demolition of "freedom" delivered. Engagement-tuning thesis (ease + just-enough friction, simulacrum of diversity) carried by image (the rhyming trails) more than statement, though this act runs closest to direct exposition of theme — flagged below. Recursion re-armed (the makers' own "onboarding hour," their forums coming down — they were optimized too). Smell almost-returns (broth and woodsmoke "he could, even here… almost") — good mid-seed.
+**Obligations.** Demolition of "freedom" delivered, now harder-edged ("Freedom: expensive, churns. The feeling of freedom: cheap, sticks. Patch deployed. Rollback disabled."). Sava beat intact as the cost-of-waking. Smell motif kept warm (broth-and-woodsmoke "almost — almost"). Recursion re-armed (makers had their own upboarding hour).
 
-**Motifs.** The branch-trail/current, loadbar implied, the song, the perimeter-mistaken-for-horizon close. Broth-and-woodsmoke ties the smell motif to love, which is what makes Act 4's payoff ache.
+**Motifs.** Loadbar/render ("Render. Render. Render."), the fence-mistaken-for-horizon close, the song, scentless hall. New glitch-texture: "δs ≈ 0", "Scroll, scroll. No exit", "Same loop, new skin." Corruption present but the lyric passages (the rhyming, the loved differences) deliberately left clean — gradient applied within the act, not just across acts.
 
-**Scene function.** The waking. Prey-into-wind image executes "evolutionary zombie-form → meta-awareness." The Sava exchange is the act's heart: the proof of the cage arrives as a gift. Cost-of-waking made concrete.
+**Scene function.** The waking. Functions as before; the math-glitch ("δs ≈ 0… paced a cell and called it a pilgrimage") sharpens the thesis without lecturing. Risk: "δs ≈ 0" may read as too cute for some ears — flag for author taste.
 
-**Voice/default.** This is the philosophical core and the place wit is most at risk of curdling into glibness or thesis. Mostly held — "variance was cosmetic to four decimal places," "shipped the feeling." But two or three sentences edge toward lecture (the freedom-expensive/feeling-cheap passage). Candidate for the human editor's compression pass. No tail-clause tic.
+**Voice/default.** Emptiness-register + wit held in balance ("Saṃsāra read out as a ledger… Scroll, scroll. No exit."). Subjectless openings used. Watch: the act now leans hard on the "X here. Y there. Z, calibrated." fragment cadence — effective but at the edge of becoming its own tic across 2–4.
 
-**Reader-state.** Reader is now fully oriented to the containment and braced for liberation. The Sava beat begins defying the rescue expectation (she stays, happily). Strong setup for Act 3's false-escape (becoming the maker).
+**Reader-state.** Reader is fully oriented to containment and braced for liberation; the Sava beat continues defying rescue. The intensified corruption signals "we are deeper now," priming Act 4's dissolution. No accidental confusion — the lyric anchors keep it legible.
