@@ -1,0 +1,20 @@
+# Character Interiority
+
+## Characters
+- **The narrating water (the only "interiority," and a paradoxical one):**
+  - *Desire:* none in the human sense; a tropism — to find the lowest level, to cross, to permeate. Movement is its nature, not its wish.
+  - *Contradiction:* narrates an "I" while having no self; coheres in order to dissolve; most itself when losing its shape.
+  - *Hidden knowledge:* its provenance (D/H memory) — where it came from, carried as taste, mostly below awareness.
+  - *Self-understanding (shifting):* from "I am this drop" → "I am this body I've entered" → (toward the wager) "there is no I, there is a field that is faintly aware of itself everywhere it is wet."
+  - *Stance (revised v1):* **not corrective.** The earlier draft made the narrator a know-it-all correcting "the storytellers" ("everyone gets it wrong"). The human edit removed this. The water witnesses and gathers; it adds rather than refutes; it ranks nothing. Its authority is presence, not argument.
+  - *Identity (revised v1):* fluid — "I," "It," "this that is speaking" are phases of one voice. The egoic asserting-I loosens toward "the It"; the experiential sensing-I (I was bent) stays. Identity is itself a phase-state, not a possession.
+  - *Identity (revised v2):* **fusion, now committed.** "It which Is I." Pronouns interchange freely, even mid-clause and against grammar, in every movement — not just Movement 0. The voice is one liquid self with no fixed person; grammar may drift to show it ("the way I always happens"). Carry through 2, 3, 4.
+
+## Arc Potentials
+- A *de-individuation* arc rather than a growth arc: the narrating I progressively loosens from singular to distributed, not toward enlightenment but toward accuracy.
+- The synchrony as a *recognition*, not an achievement — perception arriving, the way the dawning arrives in *Warm-Seeking*: "the recognition is the action."
+
+## Possible Cathartic Inflection Points
+- The inhaled molecule that becomes, for ~4 seconds, the wet interior of a stranger's breath — intimacy without relationship — then leaves.
+- The moment provenance-taste and present-host coincide: the water realizes the sea it remembers and the body it inhabits are the same continuity.
+- (Guard: no inflection point should *announce* itself as catharsis; it arrives as the next crossing.)

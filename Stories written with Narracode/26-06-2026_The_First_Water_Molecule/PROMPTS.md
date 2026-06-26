@@ -61,4 +61,11 @@ The human's edit to 3's opening was pushed to GitHub (commit `ea8b147`) and merg
 
 ---
 
+## P8 — human final pass on Movement 3 + last compositional pass on 4 (→ version v5)
+> wonderful. thanks. i human-edited 3. leave it as is. analyze and do a last compositional pass over 4
+
+The human's final pass on `3-synchrony.md` was pushed (commit `2f12525`) and merged for analysis (the achieved voice: maximal compression, telescoped grammar, neologism, self/other merge — see `versions/v5-2026-06-26-final-dissipation/edit-observations.md`). Movement 4 received its last compositional pass to close the piece in that voice; 0, 1, 2, 3 left as the human left them.
+
+---
+
 *Continued in subsequent versions as new prompts arrive.*
