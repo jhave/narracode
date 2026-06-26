@@ -14,8 +14,6 @@
 
 - **New direction (v2, 2026-06-26):** the human rewrote Movement 1 into a **densified, sound-thick, incantatory voice** with permeable grammar, committed identity-fusion (I/It), synesthesia, kenning-clusters, love-as-binding, and the mythteller evidential. Movements 2, 3, 4 re-composed to match. See POETICS → *Register II*. The science/structure/metaphysics are unchanged; only the surface intensified.
 
-- **New direction (v3, 2026-06-26):** the human rewrote Movement 2 into a **dissolution** register (escalation of v2): grammar liquefied, identity-fusion turned relational ("that-which-is-also-I"), oneness allowed to surface as music ("how oneness slides into one"), sound maximal and sensual, science submerged to residue. Movements 3 and 4 edited to match; 0, 1, 2 left as the human left them. See POETICS → *Register III*.
-
 ## Said
 - (none yet)
 

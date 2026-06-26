@@ -47,4 +47,11 @@ The human's rewrite of `1-made-here.md` was pushed to GitHub (commit `fb14970`, 
 
 ---
 
+## P6 — human rewrite of Movement 2 + edit 3,4 (→ version v3)
+> ok, good. i edited on github 2-permeation.md ... do another round, leave 0,1,2 as is. Analyze snapshot, edit 3,4.
+
+The human's rewrite of `2-permeation.md` was pushed to GitHub (commit `8bcc0fe`) and merged for analysis. It escalated the densified voice into the "dissolution" register (see `versions/v3-2026-06-26-dissolution/edit-observations.md`); Movements 3 and 4 were edited to match, leaving 0, 1, 2 as the human left them.
+
+---
+
 *Continued in subsequent versions as new prompts arrive.*

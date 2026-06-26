@@ -31,17 +31,6 @@ The prose is now **sound-thick and incantatory**. Across the v2 edit pass the su
 - **Mythteller evidential, sparing.** "So, as they say…" (Bringhurst/Skaay posture.)
 - **Guardrail — controlled wildness.** Dense, never opaque. The chemistry and the image must still land under the music; if a reader loses the beat (D/H, latent heat, the membrane), the line failed. Match the human's balance: legible incantation, not word-salad. Restraint remains: do not let every sentence max out; the densest passages need plain ones beside them to breathe.
 
-## Register III — dissolution (v3, from the human rewrite of Movement 2)
-A further escalation. The voice now liquefies toward the edge of legibility, on purpose:
-- **Grammar dissolves.** Subjects drop, verbs unmoor, clauses run as participial/nominal currents ("Thronged and crossed toward thinner unchosen level always-arising now"; "Climb a tree by falling clasped gland to gland"). The sentence becomes a flow, not a frame.
-- **Identity-fusion turns relational.** Beyond "It-which-Is-I": the other is named as **"that-which-is-also-I."** Pronouns dissolve into each other; "I-as-it."
-- **Oneness may surface — as music, never doctrine.** Earlier the wager was held back ("do not name it"). The author now lets oneness sing ("how oneness slides into one"). Permitted, with one guard: it must *sing*, never *argue*. No thesis, no "consciousness/oneness" as a claim — only as lyric, sound, sensation.
-- **Sound maximal; sensual.** Near-incantation, alliterative runs, plus an erotic-embodied charge ("fondle enfolds," "succulence," "caressing torsion," "swollen pulsing sac"). Permeation/dissipation as eros.
-- **Neologism & portmanteau** ("Water-ever all yous are," "whaterever," "trachea splice," "bromide thought").
-- **Science submerged to residue.** Chemistry survives as echo, not exposition (latent heat → "native latent hearth cooled by the exact free energy rifted drift"). Keep a few residues per movement as anchors.
-- **Roughness as texture.** Hand-rough coinages and slips are kept, not sanded, in the human's own movements.
-- **Guardrail (still).** A few legible footholds per movement — match the human's ratio (even dissolved Movement 2 keeps "no pump, no heart," "iron-cargo, salt, sugar," "alveoli," the four-second crossing as residue). Anchors keep it incantation, not noise. Movement 4's onset refrain stays recognizable as the Movement-0 echo.
-
 ## The central provenance truth (key insight — governs the whole piece)
 **Earth made most of its water by itself.** Much of it generated from within — atmospheric hydrogen reacting with an oxygen-rich **magma ocean**, the molten planet sweating its own seas into being — while some arrived on stones out of the dark. This is the spine of the story and it rhymes with everything else in it: water born *from within the body of the planet* is the same figure as the synchrony wager's knowing *from within the body of beings*. Origin-as-interiority. The piece should *feel* the homemade water as native — kin because it was never foreign — while holding the delivered water (comet, asteroid) as the same family arriving by a longer road, a relative with a different accent (D/H), not a rival. **No hierarchy of origins, no "true" versus "false" water.** One water, many arrivals, the largest of them from inside. Phases of one process, not a competition the homegrown wins.
 
