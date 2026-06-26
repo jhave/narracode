@@ -1,0 +1,21 @@
+# History
+
+## Established (across drafts 0–4)
+- The narrator is the substance water, narrating across phases/scales; pronoun drift I/we/this/it/you in use.
+- **Governing chemistry (cannot be contradicted):** bond angle 104.5°; water is a bent dipole; hydrogen bonds = the "made-and-broken handhold"; cohesion-tension lifts water up xylem; surface tension = inward handhold; ice anomaly available but not yet used; latent heat of vaporization = the "wage"/"hidden fee" carried off on evaporation, cooling the source.
+- **Cosmic onset:** first molecule arises (not "made") on a frost-furred silicate grain near an early-universe quasar; reservoir >12 Bly, vastly exceeding all Earth oceans.
+- **Provenance (authoritative):** Earth made most of its water itself (magma ocean + atmospheric hydrogen, ~1000×). Asteroids (Winchcombe, Ryugu) = minority top-up; comets = mostly not-kin (high D/H). D/H = the unwashable fingerprint / "accent."
+- **The 4-second alveolus crossing** happened (a stranger on a cold platform); intimacy-without-relationship, then released.
+- **The synchrony wager** was delivered as sensation and explicitly *not named* as doctrine.
+- **The close:** ending reframed as continuation; final instruction "Drink."
+- Pending anchor facts available to be established in-story: cosmic water reservoir (>12 Bly, ~140 trillion ocean-masses); D/H ratio as provenance fingerprint; comet/asteroid/homegrown origin routes; Winchcombe & Ryugu matches; magma-ocean self-watering.
+- **Governing premise (authoritative):** *Earth made most of its water by itself* — the homegrown/magma-ocean route is the primary provenance; delivery (asteroid/comet) is minority counterpoint. This cannot be contradicted by later drafts.
+
+## Said
+- (none yet)
+
+## Refused
+- No personified mascot droplet; no children's water-cycle register.
+- No science-lecture interruption of the lyric.
+- No naming of the synchrony as doctrine ("consciousness," "oneness," etc.).
+- No redemptive arc / homecoming.
