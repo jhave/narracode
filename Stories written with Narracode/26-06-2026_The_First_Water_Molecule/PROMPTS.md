@@ -40,4 +40,11 @@ The human's saved edit to `0-arising.md` was pushed to GitHub (commit `66a1e79`,
 
 ---
 
+## P5 — human rewrite of Movement 1 + re-compose (→ version v2)
+> thank you. Note: I made human-edits to 1-made-here.md ... pls review, analyze, snapshot, follow harness and re-compose 2,3,4
+
+The human's rewrite of `1-made-here.md` was pushed to GitHub (commit `fb14970`, "Update 1-made-here.md human-edit") and merged for analysis. It transformed the register into the "densified voice" (see `versions/v2-2026-06-26-densified-voice/edit-observations.md`); Movements 2–4 were re-composed to match.
+
+---
+
 *Continued in subsequent versions as new prompts arrive.*

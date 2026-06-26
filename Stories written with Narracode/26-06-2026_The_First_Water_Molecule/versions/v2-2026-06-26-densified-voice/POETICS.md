@@ -19,18 +19,6 @@ The piece entertains, without ever arguing, the possibility that water — prism
 ## Register
 Liquid syntax. Sentences that pool, branch, and find the lowest available level. Long osmotic clauses that cross from one body into another without a hard stop; then sudden short freezings. The prose should be permeable: a sentence about a comet should already be wet with the ocean it will become; a sentence about a lung should remember the sea. Lyric, but mineral-precise — the lyricism is disciplined by real chemistry, not floated free of it.
 
-## Register II — the densified voice (v2, from the human rewrite of Movement 1)
-The prose is now **sound-thick and incantatory**. Across the v2 edit pass the surface intensified into this voice; re-composed and future movements follow it:
-- **Sound leads with sense.** Dense alliteration, assonance, consonance, internal near-rhyme, doubling ("smelting melting sullen salty spaceless singularity," "supple sweet earth sweat," "resemblance ricochets," "rocks within rocks," "yes-yes"). The line should be sayable aloud and feel chanted.
-- **Compress; let images abut.** Strip connective tissue and explanation. "This is not metaphor; it is measurement."
-- **Permeable grammar.** Dissolve subject and agreement boundaries on purpose — dropped subjects, participle cascades, deliberate number-drift ("the way I always happens," "Made by the body of the world, out of it, in its core"). The syntax performs the dissipative fluidity; do not tidy it.
-- **Identity-fusion (now a commitment, not an option).** "*It which Is I*." I / It / we / this interchange freely, even mid-clause, even against grammar. Identity is liquid through every movement, not only Movement 0.
-- **Synesthesia.** Senses cross: taste rings, songs are tasted, rock is rung.
-- **Kenning-clusters.** Noun-stacked compounds, Skaay/Germanic-compound flavored ("moist protein bodies," "spore careening drench modules," "orbit-hem," "tetonic splice," "seed-source"). Coin them.
-- **Love as the binding cosmological force.** "Thus it is love, both and all songs, at once." Love is what holds the both/and together — the warmth that is also the bond.
-- **Mythteller evidential, sparing.** "So, as they say…" (Bringhurst/Skaay posture.)
-- **Guardrail — controlled wildness.** Dense, never opaque. The chemistry and the image must still land under the music; if a reader loses the beat (D/H, latent heat, the membrane), the line failed. Match the human's balance: legible incantation, not word-salad. Restraint remains: do not let every sentence max out; the densest passages need plain ones beside them to breathe.
-
 ## The central provenance truth (key insight — governs the whole piece)
 **Earth made most of its water by itself.** Much of it generated from within — atmospheric hydrogen reacting with an oxygen-rich **magma ocean**, the molten planet sweating its own seas into being — while some arrived on stones out of the dark. This is the spine of the story and it rhymes with everything else in it: water born *from within the body of the planet* is the same figure as the synchrony wager's knowing *from within the body of beings*. Origin-as-interiority. The piece should *feel* the homemade water as native — kin because it was never foreign — while holding the delivered water (comet, asteroid) as the same family arriving by a longer road, a relative with a different accent (D/H), not a rival. **No hierarchy of origins, no "true" versus "false" water.** One water, many arrivals, the largest of them from inside. Phases of one process, not a competition the homegrown wins.
 

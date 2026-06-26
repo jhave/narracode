@@ -12,8 +12,6 @@
 - **Governing premise (authoritative):** *Earth made most of its water by itself* — the homegrown/magma-ocean route is the primary provenance; delivery (asteroid/comet) is minority counterpoint. This cannot be contradicted by later drafts.
 - **New direction (v1, 2026-06-26):** premise reframed as *unity of origins, no hierarchy of value* — homegrown is the largest arrival, not the "true" water; delivered water is kin by a longer road, not a rival. No better/worse, right/wrong, true/false. Plus: refuse AI-diction tells (paradox-aphorism, "which is only," corrective-superiority); loosen narrator identity (I/It/this); warm the cosmological register (song, love); season with Lagerlöf (*Nils*) architecture-revealed and Bringhurst/Skaay (*Being in Being*) mythteller plainness. See POETICS (sections marked "added v1").
 
-- **New direction (v2, 2026-06-26):** the human rewrote Movement 1 into a **densified, sound-thick, incantatory voice** with permeable grammar, committed identity-fusion (I/It), synesthesia, kenning-clusters, love-as-binding, and the mythteller evidential. Movements 2, 3, 4 re-composed to match. See POETICS → *Register II*. The science/structure/metaphysics are unchanged; only the surface intensified.
-
 ## Said
 - (none yet)
 

@@ -8,7 +8,6 @@
   - *Self-understanding (shifting):* from "I am this drop" → "I am this body I've entered" → (toward the wager) "there is no I, there is a field that is faintly aware of itself everywhere it is wet."
   - *Stance (revised v1):* **not corrective.** The earlier draft made the narrator a know-it-all correcting "the storytellers" ("everyone gets it wrong"). The human edit removed this. The water witnesses and gathers; it adds rather than refutes; it ranks nothing. Its authority is presence, not argument.
   - *Identity (revised v1):* fluid — "I," "It," "this that is speaking" are phases of one voice. The egoic asserting-I loosens toward "the It"; the experiential sensing-I (I was bent) stays. Identity is itself a phase-state, not a possession.
-  - *Identity (revised v2):* **fusion, now committed.** "It which Is I." Pronouns interchange freely, even mid-clause and against grammar, in every movement — not just Movement 0. The voice is one liquid self with no fixed person; grammar may drift to show it ("the way I always happens"). Carry through 2, 3, 4.
 
 ## Arc Potentials
 - A *de-individuation* arc rather than a growth arc: the narrating I progressively loosens from singular to distributed, not toward enlightenment but toward accuracy.
