@@ -1,0 +1,8 @@
+# Check — 2 · Permeation
+
+- **Continuity.** Osmosis, root-hair uptake, cohesion-tension ascent ("climbed a tree by falling"), stomatal transpiration, blood/eye/nerve-sheath, alveolar gas exchange — all biologically sound. The transpiration paradox (drinking by exhaling) is correct and well-made. Latent heat reintroduced consistently with 0/1 and set up for 4.
+- **Obligations.** Membrane motif accumulated across scales as required. The 4-second alveolus crossing delivers the cathartic inflection *without announcing it* — the poetics' explicit "do not declare catharsis" is honored ("I will not say what I felt, the poetics forbid it and the poetics are right"). **Flag:** that line breaks the fourth wall to name "the poetics" — charming but meta; it's the one place the harness's own language leaks into the fiction. Strong candidate for the human edit (cut or recast as in-world).
+- **Motifs.** Handhold → xylem rope is the best motif-transformation in the piece. "One membrane, repeated" consolidates the through-line. Closing hinge ("I know something the membranes do not yet know about each other") is an excellent bridge to 3.
+- **Scene function.** This is the engine room — most transit, most bodies. Risk of catalogue feel; mitigated by varying the dwell time (long on tree and lung, brief on eye/nerve).
+- **Voice/default.** Rich without purpling. "There is no dry thought" is the kind of line that could tip sentimental but stays earned by the chemistry around it.
+- **Reader-state.** Reader now firmly inside the conceit; the lung passage is where most readers will feel the body-recognition the ending wants to bank.
