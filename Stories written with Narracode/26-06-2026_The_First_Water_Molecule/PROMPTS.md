@@ -54,4 +54,11 @@ The human's rewrite of `2-permeation.md` was pushed to GitHub (commit `8bcc0fe`)
 
 ---
 
+## P7 — human edit of Movement 3's opening + rewrite the rest (→ version v4)
+> i human-edited the first line & first paragraph of 3-synchrony.md, took out many references to human body hand shoulder and the bend ... try now to rewrite, expanding within and beyond that style the rest of 3
+
+The human's edit to 3's opening was pushed to GitHub (commit `ea8b147`) and merged for analysis. It de-anatomized the synchrony (removing hand/shoulder/the bend) and turned it luminous/prismatic; the rest of Movement 3 was rewritten to match and expand (see `versions/v4-2026-06-26-luminous-synchrony/edit-observations.md`). 0, 1, 2, 4 left untouched.
+
+---
+
 *Continued in subsequent versions as new prompts arrive.*

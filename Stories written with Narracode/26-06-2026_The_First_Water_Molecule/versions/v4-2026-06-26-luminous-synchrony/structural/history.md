@@ -16,8 +16,6 @@
 
 - **New direction (v3, 2026-06-26):** the human rewrote Movement 2 into a **dissolution** register (escalation of v2): grammar liquefied, identity-fusion turned relational ("that-which-is-also-I"), oneness allowed to surface as music ("how oneness slides into one"), sound maximal and sensual, science submerged to residue. Movements 3 and 4 edited to match; 0, 1, 2 left as the human left them. See POETICS → *Register III*.
 
-- **New direction (v4, 2026-06-26):** the human edited Movement 3's opening — de-anatomized it (removed hand, shoulder, "the bend," handhold) and turned it **luminous/prismatic** ("It does not parse, it glistens"; "gleaning flecked flickers"; glands not limbs; the "never/always" slash; "I-that-is-It"). The rest of Movement 3 was rewritten to match and expand, reopening the founding prismatic premise (light/refraction/lens/spectrum) and carrying the holding by light rather than by the body. Bend/handhold retired in Movement 3 only; intact elsewhere. Disclaimers and close preserved. 0, 1, 2, 4 untouched. See POETICS / motifs (v4).
-
 ## Said
 - (none yet)
 
