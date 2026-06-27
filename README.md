@@ -19,6 +19,17 @@ Narracode is not just a tool; it is a philosophical statement. It is an argument
 
 It emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code, specifically re-purposed for narrative literature.  
 
+## Publishing workflow & branch hygiene
+
+Stories are developed on short-lived branches and published to `main`, which deploys to the [live site](https://jhave.github.io/narracode/) via GitHub Pages.
+
+1. **One branch per story** — `git switch -c story/<name>` off `main`.
+2. **Draft on the branch** — story folder under `Stories written with Narracode/<DD-MM-YYYY_Title>/` (POETICS, ATTRIBUTION, drafts, structural, versions, img).
+3. **Publish via PR** — in the same PR, add the story folder, its homepage card in `index.html`, and its `metadata.md` entry. (The homepage listing is hand-maintained; don't blindly regenerate it with `build_main_index.py`.) Then `gh pr create --base main --fill` and `gh pr merge --squash --delete-branch`.
+4. **Auto-cleanup** — "Automatically delete head branches" is enabled, so merged branches are removed on merge. For work you won't merge, archive it (`git tag archive/<name> <branch>`) before deleting.
+
+> **On "duplicates in every branch":** git doesn't copy stories into branches. Content is stored once by hash in `.git` (all branches share unchanged objects); a branch is just a pointer. The real disk cost is extra **worktrees** — each is a full checkout (~120 MB here). Keep few; prune stale ones with `git worktree remove`.
+
 ## Full Installation (with examples)
 
 1. Clone this repository to your local machine.
