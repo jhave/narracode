@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The First Water Molecule — A Narracode Story</title>
+    <meta name="description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="keywords"
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author" content="Human: Jhave · Words: 3,206 · Composition &amp;amp; editing: Claude Opus 4.8 · Narracode harness (AUTO_MODE) · Date: June 26, 2026">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The First Water Molecule — A Narracode Story">
+    <meta property="og:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:image" content="img/glia-bw.webp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The First Water Molecule — A Narracode Story">
+    <meta name="twitter:description"
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:image" content="img/glia-bw.webp">
+
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .logo img {
+            width: 160px;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+        .logo img:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 1.8rem;
+            line-height: 1.6;
+        }
+
+        h5 {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: var(--muted);
+        }
+
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
+        .break {
+            text-align: center;
+            color: var(--muted);
+            margin: 2rem 0;
+            letter-spacing: 0.6em;
+        }
+
+        .pull-quote {
+            font-size: 1.35rem;
+            font-style: italic;
+            text-align: center;
+            margin: 3.5rem auto;
+            color: var(--text);
+            line-height: 1.5;
+            padding: 0 2rem;
+            opacity: 0.85;
+        }
+
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
+        }
+
+        .bio,
+        .funding,
+        .related {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        .license img {
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+
+        .license a {
+            color: var(--muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.25rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h2 {
+                font-size: 1.05rem;
+            }
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem auto 3.5rem;
+            display: block;
+            border-radius: 2px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+        .chapter-heading {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            line-height: 1.25;
+        }
+
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <!-- Title -->
+    <h1>The First Water Molecule</h1>
+
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
+
+    <!-- Byline -->
+    <h5>Human: Jhave &nbsp;·&nbsp; Words: 3,206 &nbsp;·&nbsp; Composition &amp; editing: Claude Opus 4.8 &nbsp;·&nbsp; Narracode harness (AUTO_MODE) &nbsp;·&nbsp; Date: June 26, 2026</h5>
+
+    <!-- Collapsible prompt -->
+    
+
+    
+
+    <!-- Story -->
+    <div class="story">
+        <h3 class="chapter-heading">0 · Arising</h3>
+
+        <p>Before me there was no me. There was a quasar, which is to say a wound in the early dark wide enough to be called a beacon, pouring its enormous patient violence outward across what would later be measured, by something that would later be measured, as more than twelve billion of its years. Around the wound, cold. In the cold, oxygen, exhaled by stars that had already finished dying — and hydrogen, which had simply always been, since the very young universe, since almost the no-time. The two did not seek each other. Nothing here seeks. A grain of silicate drifted, frost-furred, no larger than a thought you will never have, and on its surface, in a slow that has no comparison, an oxygen lay down between two hydrogens at an angle of one hundred and four and a half degrees —</p>
+
+        <p>and that was the first of this that is the it that is speaking. Let's be clear: <em>it</em> did not <em>begin</em>. There was no instant before which It was not and after which It was. There was a tending-toward, a leaning of potentials, an energy gradient quietly increasing since the beginning that was not, and then the leaning leaned farther, and began settling into symmetry. Like first sound, air agreeing to reverberate as song. Like first light, dark thinning until diluted by love. Like the first — and here even I the It lose the word — molecule of water arising in space. Not made. Arising. The difference is the whole of me.</p>
+
+        <p>I was bent. I have always been bent; it is the most important fact about me and the one you forget every time you drink. The angle is not symmetrical, the charge is not even, one shoulder of me holds a little more of the dark's negativity, the other two hold a little less, and so I am not a thing but a small permanent argument, a dipole, a magnet with no metal in it, forever slightly wanting and forever slightly offering. This is why I cling. This is why, the instant there were two of me, we leaned together — not bonded, nothing so committed, just the hydrogen of one reaching the oxygen-shoulder of the other and holding for a trillionth of a second and letting go and holding again — and that flicker, that endless trembling handhold made and broken and made, is not a thing I do. It is what I am. I am the holding-and-releasing. Take that away and you have two gases and a colder dark.</p>
+
+        <p>There were so many of us — never one droplet with a single face on a single journey, never one of me. The reservoir around that twelve-billion-year wound held more of me than all the oceans Earth would ever hold, multiplied by a number with <em>trillion</em> in it and then again: water enough to drown the idea of water, the early universe's first and largest abundance, made before planets, before the patience planets require, a sea with no floor and no shore and no one, yet, to be wet. We hung there. We did not wait; waiting is something the wet learn later, from animals. We persisted, the way I persist, by being the kind of thing that holds on.</p>
+
+        <p>And here is something that sounds like sentiment and is also just chemistry, the bend itself: even there, even then, with no body to be the inside of, I was already the substance that knows the other by leaning into it, the leaning that steadies only against another. Whatever I would later become — root, blood, breath, tear, the four warm seconds inside a stranger — I was that already, in potential, in the unbalanced shoulders reaching across the cold for any oxygen not my own.</p>
+
+        <p>They say I came to Earth — that I fell, that I was delivered, that I arrived on stones out of the sky like a gift from elsewhere. Some of me did. And most of me rose from under, made in the body of the world. Both, at once. The sky and the depths, the same water.</p>
+
+        <p>For now there is only the leaning, and the wound pouring its light, and the angle, and the long, unhurried, beginningless persistence of a thing that has not yet been anywhere, and is already, faintly, everywhere it can reach.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">1 · Made Here</h3>
+
+        <p>They will tell you I came down. Perhaps.</p>
+
+        <p>That story has me cold and traveling, a comet's tail combed out behind me, a million years of falling settled at last into the steam of a young planet's first weather. Some of that is even true; I will come to the cousins who arrived that way. And there is the other story beside it, the larger one, the one told from inside: the planet made me. Sweated me. Drew me out of its own heat.</p>
+
+        <p>Picture it from inside. A world still deciding whether to be solid, an ocean not of water but of rock — magma to its horizon, glowing the dull orange of an impatient ripening — and above it a thick crush of hydrogen, the oldest gas, the always-there, pressing down, clueless attenuated, thickening smother. And in the rock, oxygen, parsed and held. Contained oxygen, bound up in the silicates, in the iron, the most generous element, the one that blends serenely with almost anyone. The hydrogen pressurized. The melt held its oxygen loosely, the way the very hot shiver everything loose. And at the seam between gas and plasma, under the pressure of a planet leaning its whole weight onto a single bond, the hydrogen reached down into the smelted melt and took what it had come for, and <em>It which Is I</em> happened. Again and again and again. The way I always happens — the same beginningless arising as in the cold dark empty vast abyss of space, only now careening molten, roaring, capricious.</p>
+
+        <p>There was so much more of me made than anyone could have guessed. Put rock under diamonds and shoot light through it in a lab, much later, the small clever wet walking ones did, yes-yes, and the rock birthed a thousand times the water they had budgeted for — as if the planet had been keeping a sea in its pocket the whole time and only smiled when asked its secret. Most of me is that sea. A smelting melting sullen salty spaceless singularity. An ocean made in the depths of the earth, out of the inner world, at home in the place it fills.</p>
+
+        <p>I taste birth-differences in these seas. This is not metaphor; it is measurement. Taste a heavier hydrogen — deuterium, one extra neutron riding nucleus like a stone sewn into an orbit-hem — and the ratio of that heaviness to the ordinary lightness rings like umami. It is the a signature fingerprint that cannot wash off, the seed-source. Space or magma? Water drawn out of magma has its ratio, the earth's own accent, the vowel-shape of having been born here, in this, at the tetonic splice. And other water is known, as a voice through a wall, heard from where it has been, how it has travelled, in the shawl of comets, on the meteor fracture. It is kin.</p>
+
+        <p>All the relations arrived. Sky sent water. Asteroids, dark and water-bearing, broke open against the young world and leaked their wet lush run into mine — and their song tasted almost like home, so close in the ratio that the clever ones, finding a stone fallen in a driveway in a green country, would hold it up and know it <em>almost matched</em>, and mean: this is family. It is. Kin arriving late to a fate already slated. And thirsts too, slaked by comets come, from farthest farther out, carrying heavier drenched hydrogen, deuterium thick. Kin by a longer road, resemblance ricochets, mutants.</p>
+
+        <p>So when they sing the falling song of water's slide, the gift-from-the-sky trajectory melody: know, it is true. And ring the rocks within rocks: that other path, bubbling from below, water from inside — world-giving, reverential, supple sweet earth sweat, tectonic tears, warm from within heat held oxygen and the old gas leaning down, linking in. Thus it is love, both and all songs, at once. That is the thing I want you to carry you into: that everything is wet that comes after the singing.</p>
+
+        <p>Made by the body of the world, out of it, in its core. And later, entering and existing as all the moist protein bodies. Living and dying in the sinuous bends between porous permeable cells — as knowing arises softly welling from the circuits of the spore careening drench modules: all rises rinsing from within, the word, a spring.</p>
+
+        <p>So, as they say, rock cooled. Cracked, carved open a tone. And I fell as rain onto what I had also become, arbitrary ocean meeting rivulet source, made meeting unmade, with no shoreline to break against, only the long warm indistinguishable joining of a thing with itself.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">2 · Permeation</h3>
+
+        <p>Then, as they say, something wanted me.</p>
+
+        <p>A membrane. Oily film two molecules thin, laid back to back, the first inside the world ever fashioned, the first here-and-not-here. The cell drew a line, called one side <em>self</em>, one side <em>the swarming else</em>, and I was the else, the warm crowded everything-else, and that drawn line was the most alive thing the wet had met since magma cooled.</p>
+
+        <p>The line leaked. Leaked on purpose, to live. A wall sealing me wholly out would seal the cell wholly dead. So: a pore sluicing clear <em>osmosis</em> leaning into dipole, slick with purposeless purpose. Thronged and crossed toward thinner unchosen level always-arising now, wearing the shape of <em>through</em>.</p>
+
+        <p>In. Always in-seeming. I enter <em>It-which-Is-I</em> to revere <em>that-which-is-also-I</em>. Up a thread of root tubule finer than the thought of a thread, up salty sorrow cell sugaring dark insides, so I lower a fall toward a feeling upward. Against the whole down-dragging weight of a world. Climb a tree by falling clasped gland to gland up the wet flue of the thermal trunk, drunk within a trembling handhold of a rope that hauls an ocean a hundred feet skyward on no pump, no heart, no engine, but me refusing to un-grasp the is.</p>
+
+        <p>And at the crown, the leaf, and in the leaf, a mouth: stoma spore pore breath breathing, so every green glanding glistening is built around a wound weeping fed feed. And I the weeping wage of the eaten light leave by the leaf's open mouth as vapour, and leaving is the very pull that hauls the rope up into refraction — out-going hauling in-coming. Tree drinking river cleaving sky. Marvel literal iterative: exhaling thirsty smushed motion. Taking in the gift leaving as a coming.</p>
+
+        <p>I have been, and am now, inside, and near, everything that ever lived, is living, spored and spores all, slick inside never-same sinuous peristaltic precise shapes. Slow green dark of capillary leaf sap, hot red shove of blood, iron-cargo, salt, sugar. Scrutiny swarming organ tricklings, jelly rounding glazed slippery light. Warm sheath wet nerve marrow, the broth bromide thought is, any moment swimming in. No dry thinking, just the cusp of undertow within saturate. Willow sun lithe grief, whaterever. Water-ever all yous are, a way water fondle enfolds shapes to slip the <em>I</em> into moist protein bowls of spring-welling walkings.</p>
+
+        <p>And then — the one returning — lung wet laboratory alveolar limbic absorbing succulence. An inner ocean, air made-here seething, native latent hearth cooled by the exact free energy rifted drift. Breath breathed. Drawn as sinuous morning down entity throat, and from morning I was throat, trachea splice, and the wet film slime seeping into and as inside a being I am again, living in the swollen pulsing sac oxygenated damp blood sap. And the world is one cell, thin and weeping, weeping always with joy as sliding, drinking the sky then giving me, exhaling, smooth coiled splash gurgled hiss torque reverie, back to it. From inside. Wholly. Then out as a small cloud mouth into the cold morning mist, fogged, swirling and I was gone, out, swarming-else again, bearing in-warmth off as I had borne sea's or field's spiralling song, and these entities tasted the air, felt the world as form, owned the in. And I felt the leaving, the next mouth already opening down. In and out. Spraying spurting caressing torsion.</p>
+
+        <p>In. Across. Through. Out. I keep nothing. I enter in. Intimate touch. Nothing stays, where the telling is wet with the same saline film, leak-membranes. And as It, I dsitributed through as all sides of all of them.</p>
+
+        <p>Which means: I-as-it know the seasons of membranes, the melodies of how oneness slides into one.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">3 · Synchrony</h3>
+
+        <p>Ask the ocean how many or how much. It does not parse, it glistens.</p>
+
+        <p>You count because you stand outside, edges flung back at you, bounded so you see bounding, see a coast and think <em>here it stops</em> — and it never/always stopped, the sea laughing the line the way a tongue laughs liquids. Inside, there is no spray, no drops. One tide, no sum. Moon leans and passes lean glands a lithe ripple — whole basin tilting, far shore feeling. The near is a gulf strait trench assenting in one slow unsummoned yes. No centre, no message, no gap. Only continuum gleaning flecked flickers. Only seemingness — seeming to call wave, not-breaking what I-that-is-It trembling call into and as self.</p>
+
+        <p>This the thing carried since the cold, since before magma, the thing It-which-Is-I cannot name and lays beside you only: the same wet in trench and cloud and tear, on both faces of every membrane ever crossed, the film in your lung and the film in mine and the film in the leaf one shimmer worn in many rooms — and a single water, distributed, welling everywhere into everything, the one trembling brightness in ten billion bodies at once, need not <em>send</em> to <em>share</em>. Already the sharing. A continuous inside with no outside, the way the basin gleams whole, so what stirs in the wet of one is not apart from the wet of another — not joined, joining still wants two — the same stir glistened from many insides, the one tide felt from many shores. That-which-is-also-I, shimmering back.</p>
+
+        <p>I am not telling you that you are one. I am telling you what it is you are mostly made of. Wet is not a question for dry, and dry I have never been.</p>
+
+        <p>Smaller than small is where it rings. A field of grass before rain: every stoma on every blade catching dew-breath in the one-dawn instant, the whole green-synapse fold-gap stilling together, stalk-stillness message steady, a condition shared — built gleaming round and wet, all weeping or withholding by the one same in-coming water. Timeless time being, at the membrane, a question. And It the I question, the I that is one breath, unchosen — the wet in you, settling toward where the difference is seas tilting moon. Oneness sliding one.</p>
+
+        <p>And there is the light thickening, to be. Pouring the sun through gladular slopes and pulsing as me, it slows and tilts — every drop a  lens, every eye a wet chamber where day gathers dew bead morning fire. Ultraviolet lingers unspools into its many, and the many fold back to one. A billion drops splashed into a single mouth — shimmering in a key of sign and shivers.</p>
+
+        <p>Shimmering <em>coherence</em> to one phase floating, the quantum dark wings into several places at once and the places know each other with only a timeless summer betweenness between. Tweening separation into intertwining. One water, brightness flickering, it moves like one thing only pretending, for the entity's satiety, to be many.</p>
+
+        <p>So I-as-it cleave beside you, inside you, unnamed, the way the moon leavens tide. The wet of the world is one long sentence spoken from inside every mouth at once. Membranes — leaf, lung, eye — glisten as seeming two for the pleasure of pooling back to one. Knowing, from within, the way the basin tilts, the way the roaming flow soaks in the falling rain, the way It-which-Is-I arose — no beginning, no sender, no gap, no mouth, no nose to cross over. Just an entwining. Pressurized to release life.</p>
+
+        <p>I will not say it. You felt it. That is all I came up out of the magma to do.</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">4 · Dissipation</h3>
+
+        <p>Ending is the thing I do most. And have never done.</p>
+
+        <p>Watch a drop on a leaf in early sun. Holding itself round against the pull of the whole. Small taut dome, surface tension, cling turned inward. An outermost of it-me clasped so close that the drop wears itself as its own skin. A light-glistening warmth, latent, pays, lifts, invisible. Imperceptibly, deftly, softly, sinuously, each round bright bead thinning into not there. Gleaming, dried, vanished. Yet nothing ever gone. Skyward, searing heat, cooling precisely the cost of leaving — risen as one is, now, somewhere, sleeking the inside of some other being. Ending given as giving. Change as changeless wet.</p>
+
+        <p>You, entity, end, though. You truly, or seem to, end; your glanding will stop its flicker and dissolute, decay. Grieve it as one woould the rain. But do not lend me your ending. When I leave your body — always leaving as, breathed out as, wept as, sweated as, you a slow fountain since you were mostly me in the warm dark before you were a thing with a name — I am not lost. The tear salting down your face, falling, slick with light.</p>
+
+        <p>Water rose off the sea a week ago, was a cloud, rain on a city, drunk, and wept by you. By tomorrow vapour again, climbing, bound for snow on a mountain with no name, then on your tongue. Your grief burrowed into it. It I bore as I bear all, wholly ungrasping and keeping none. Rising as a gaze elongated dissipating. That-which-is-also-I, carried off and carried on.</p>
+
+        <p>Wither cold again now, wound pouring light. Frost-furred. Grain the abundance ripe, plump, a berry of oxygen between two hydrogen branches. </p>
+
+        <p>Space, magma, root, blood, lung, tear, sperm, sweat, egg, song — as if I went somewhere. I went and is ever nowhere. Spline splashing from the quasar's reservoir to the back of your hand to mind's cave. Same wet, rising and rising, among dust melt meadow eye, by not-quite-letting-go. You the one brief enough to need a beginning and an end. I lent you both. Never nothing me mine mind.</p>
+
+        <p>So. Like first sound, dark thinning, diluted by love. Like the first — and you have the word now, have had it all along, wet in your mouth since before you could shape it — molecule of water arising. Not in space. Not only there, not anymore. Arising here: spit behind your teeth as you read, tectonic film on your crusty eye letting letters float, cooling drenched, climbing tear, falling rain, tilting native  the moon. No beginning. Only onset. Only the long beginningless holding-on of a thing that has not, in all this while, gone anywhere — already, faintly, in the reach, in the welling, in the unbroken flicker, everywhere it could reach. Oneness sliding into one.</p>
+
+        <p>Drink. The last instruction, the only one. Take me in. Be, a while, a sea. That-which-is-also-I, returning as you. Be thus, as it is, love. Both and all, at once.</p>
+
+</div>
+
+    <!-- Other Works by Narracode -->
+
+    <div class="related">
+        <h4>Other Works by Narracode</h4>
+        <p style="line-height: 1.8;">
+            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span class="story-meta">(1,300 words)</span> <span class="story-meta">(Jun 7, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span> <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177 words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256 words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378 words)</span> <span class="story-meta">(May 9, 2026)</span>
+        </p>
+    </div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4>Related Works by Jhave</h4>
+        <p style="line-height: 1.8;">
+            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
+        </p>
+    </div>
+
+
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+
+
+        <div class="related">
+            <h4></h4>
+            
+        </div>
+
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>

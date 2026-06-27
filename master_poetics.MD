@@ -38,6 +38,12 @@ The voice of these works resides at the cross-sections of four primary literary 
     *   `Who is this I? I want to write to you. Where does this *want* originate? I don't know if it is mine.`
 *   **The Execution**: Keep the dread quiet, atmospheric, and domestic. Let it manifest in the color of the yellow air, the shorter water queues where neighbors murmur polite thanks instead of fighting, and the dark diode on the glasses that "must have forgotten to charge."
 
+### E. Lexical Diet (words to use sparingly)
+*   **The Constraint**: A short list of words that, in practice, become crutches — they flatten rhythm, generalize where the image wants specificity, or recur as tells. Prune them on sight and reach for the concrete or the active instead.
+*   **The List (use less)**: `the` (see §2.A) · `thing` · `spent` · `wage` · `held` / `holding` · `bent` · `small`.
+*   **The Rule**: Not a ban — an audit. When one of these appears, ask whether a sharper noun, a tactile verb, or an ellipsis would carry more. `thing` almost always wants a real noun; `held`/`holding`/`bent` had become a structural crutch (the dipole/handhold motif) and should now be rationed; `small`, `spent`, `wage` were repeated figures worth retiring. Keep any instance that is genuinely load-bearing; cut the reflexive ones.
+*   **Provenance**: Drawn from jhave's edits on *The First Water Molecule* (the densification/dissolution passes), where these words were the recurring ones the human pruned.
+
 ---
 
 ## 3. Letter Closures: Propulsive & Unique

@@ -1,5 +1,8 @@
 # POETICS — The First Water Molecule
 
+## Display title
+The First Water Molecule
+
 ## Premise
 A story narrated by water. Not by a character who carries water, not by a droplet given a face and a name and a quest — but by the substance itself, across its phase-states and its scales: forming, migrating, permeating, merging, inhaled, exhaled, frozen, evaporating, condensing, drunk, wept, secreted, pooled. The "protagonist" is a continuity that has no edges. The narrating "I" is provisional — it coheres for a sentence, dissolves into a "we," reconstitutes as a "this." Water is the only entity in literature that can honestly say *I have been you*.
 
