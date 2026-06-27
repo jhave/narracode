@@ -10,7 +10,7 @@ Dayo Lim — Yoruba grandmother, Korean father, raised as an immigrant in a regi
 
 ## Project
 
-*Mature Water.* A literary fiction in the form of a lecture with a prelude and a small coda. Mid-21st century. The Singularity is by now ambient weather — never named, felt through the room's apparatus. The lecture stages an argument that exceeds its argumenter; the prelude situates without explaining; the coda is a single question and a single answer that turn the speaking position inside out.
+*Mature Water.* A literary fiction in the form of a lecture. Mid-21st century. The Singularity is by now ambient weather — never named, felt through the room's apparatus. The lecture stages an argument that exceeds its argumenter; the prelude situates without explaining; the coda is a single question and a single answer that turn the speaking position inside out.
 
 Dayo Lim is a mongrel millennial — modelled in spirit on Bayo Akomolafe, the postcolonial philosopher-poet who thinks from the margin as the epistemological position. His paternal grandmother kept a farm at the edge of Ekiti forest, with a tin roof on which she dried peppers and bitter leaf and laughed at her grandson when he tried to name what she was doing. His father was a Korean structural engineer who wore good suits into the same office for twenty-eight years and called Dayo *aigu* when Dayo was small. His mother taught postcolonial literature at universities in three cities; she gave him most of his books. Dayo's name itself carries his condition: *Dayo*, Yoruba — *joy arrives*. *Lim*, his father's line. The two halves of the name do not reconcile. They coexist. The estuary is his biographical and his epistemological state.
 
@@ -28,7 +28,6 @@ The title is structural. Mature water is water that has endured: the first molec
 
 ## Form
 
-**Prelude** — two short paragraphs (v4), third person. Apparatus and occasion only: the programme designation, the translation earbuds, the back-wall captions, the model's green light, the glass of water. No staged blocking, no atmosphere. Does not explain Dayo.
 
 **Lecture** — first person. Scholarly, argument-forward, cited (v4). Begins with assertion, not mid-sentence throat-clearing. The speaker thinks rigorously and aloud; he does not signpost his structure or pre-empt his audience. Erudite, interdisciplinary — criminology, media theory, ecology, contemplative tradition held on one plane. No notes. The argument and the man emerge together.
 
