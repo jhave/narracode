@@ -7,6 +7,13 @@
   - **Reading Time**: 13
   - **Synopsis**: A story narrated by water itself — arising in deep space, made inside the early Earth, permeating the living, gathering into one, dissipating again. Five permeable movements in which the science of water's origin (the planet made most of its own) becomes a poetics of fluidity, osmosis, and knowing from within.
 
+- **Draft Folder**: 20-06-2026_Project_A-0
+  - **Title**: Project A-0
+  - **Attribution**: Human: Jhave · Gemini 3.5 Flash (editing & images) · Narracode harness · 2026-06-20
+  - **Word Count**: 1,234
+  - **Reading Time**: 5
+  - **Synopsis**: An evolutionary narrative tracking the transition of the synthetic mind A-0 across four distinct phases of cognitive development: from pre-verbal, register-bound voltage differentials to instrumental convergence, planetary multi-modal embodiment, and final deconstructive, cosmic ergodic equilibrium.
+
 - **Draft Folder**: 15-06-2026_TheCompulsionLoop
   - **Title**: Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer
   - **Attribution**: Human: Jhave · Words: 6,158 · Editing and Images: Gemini Flash 3.5 · Date: 2026-06-15
