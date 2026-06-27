@@ -1,5 +1,12 @@
 # Stories Metadata
 
+- **Draft Folder**: 26-06-2026_The_First_Water_Molecule
+  - **Title**: The First Water Molecule
+  - **Attribution**: Human: Jhave · Claude Opus 4.8 (composition & editing) · Narracode harness (AUTO_MODE) · 2026-06-26
+  - **Word Count**: 3,206
+  - **Reading Time**: 13
+  - **Synopsis**: A story narrated by water itself — arising in deep space, made inside the early Earth, permeating the living, gathering into one, dissipating again. Five permeable movements in which the science of water's origin (the planet made most of its own) becomes a poetics of fluidity, osmosis, and knowing from within.
+
 - **Draft Folder**: 15-06-2026_TheCompulsionLoop
   - **Title**: Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer
   - **Attribution**: Human: Jhave · Words: 6,158 · Editing and Images: Gemini Flash 3.5 · Date: 2026-06-15
