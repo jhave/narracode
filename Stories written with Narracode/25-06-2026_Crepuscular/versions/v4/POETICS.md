@@ -35,12 +35,6 @@ Three voices braided, never blended to an average — the merge is the surprise:
 - The respawn machinery in bardo / reincarnation / śūnyatā register, and in body-horror / obstetric somatics (the suction tunnel, the womb, the birth-canal of the load screen). *Creation* may take the demiurgic capital.
 - Number-drift where the schema is counted (*Forty-fold. Forty-one. Perhaps forty-two.*) and uncanny over-precision (*5034*).
 
-## Craft laws (v4 — author directives; binding on every pass)
-- **Simile/metaphor ≥ 3/5 or it dies.** Rate every figure 1–5 for freshness, load-bearing, and fit. Cut anything below 3 outright — do not soften or salvage. Prefer no figure to a weak one. Keep a ledger of the ratings so the cuts are auditable.
-- **No tail-end commentary.** Delete every editorializing after-clause that tells the reader how to take what was just shown (the whole catalogue in `master_phrases_to_avoid.md`: "which he understood was…", "these were accurate responses," "and the naming did not change it"). The sentence stops at the fact.
-- **Tactile immediacy first.** Privilege the somatic, the handled, the felt over the conceptual gloss. When a thought can be a sensation, make it a sensation. Consult `master_poetics.md` (the metaphorical graft, article-omission cadence, Butler decode, Blanchot neutral temperature).
-- **The prose must leak (human voice, not resolved AI cadence).** Per the seam-map: do NOT resolve fragments into quotable maxims — abandon them. Do NOT systematize a device into matched sets. Misquote rather than cite. Corrupt function-words, not only content-words. Compress rather than expand. Let even the calm register leak one flaw the narrator doesn't notice. A hand, not a system.
-
 ## Dialect — co-edited, evolving (added v1–v2 from the author's seamless edits)
 This is the living style the human author is teaching by direct edit. Honor and extend it; it overrides the smoother defaults of the AUTO_MODE first draft.
 - **Fragmentation.** Break the long accumulating sentence with short flat declaratives and subjectless fragments (*Counted, calibrated. Mute. Scentless.*). The dense sentence is reserved for idea-passages and the climax — it is not the default gear.
