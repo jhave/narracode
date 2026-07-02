@@ -55,3 +55,32 @@ Every letter must end with a distinct, plot-propelling physical or cognitive ges
 The work is a deliberate exploration of co-edited, collaborative digital literature:
 *   **Attribution Formula**: *Images and story written by Gemini 3.5 Flash with prompting and edits by Jhave.*
 *   The human editor (Jhave) acts as the selective filter, introducing cadences, correcting mechanical lapses, and setting the emotional and somatic coordinates. The generative agent (Gemini) acts as the multi-omic designer, running iterations of imagery and prose to dock perfectly with the editor's structural frame.
+
+---
+
+## 5. Compression, the Cut Commentary Tail, and the Overused-Word Watchlist
+*Cross-project craft laws distilled from the editor's hand on the drafts. These are general; apply on every project.*
+
+### A. Cut the commentary tail
+The most reliable improving edit: delete the after-clause that tells the reader how to take what the sentence already showed. The sentence must stop at the fact or the image; the gloss is deleted, not shortened. The editor does this by reflex.
+*   *Before*: "She was, he thought, the happiest person he knew, and he meant this as praise and could not entirely keep the other thing out of it."
+*   *After*: "She was the happiest person he knew."
+The reader infers the ambivalence; naming it kills it. (See the full catalogue of removed self-reflexive clauses in `master_phrases_to_avoid.md`.)
+
+### B. A fact beats a figure — cut even a good simile
+Compression outranks ornament. When a simile and its plain statement both survive in a sentence, the plain statement is usually the keeper. The editor will delete a *well-made* figure to reach the bare fact ("shrinking the way a coastline shrinks…" → "shrinking"; "came down with the enormous patience of snow" → "swirled down with enormous patience"). Rate figures ruthlessly; prefer no figure to a merely-competent one.
+
+### C. Compress ornament, expand meaning — not blanket brevity
+Brevity is not the goal; *density* is. Cut decoration everywhere, but spend words freely where the idea itself deepens (a mechanism made concrete, a character's complicity made explicit). The test is not "is it short" but "does every clause carry idea or sensation."
+
+### D. Definite → indefinite
+Prefer *a* over *the*, *a* over *this*, unless the reference is genuinely specific. The indefinite article makes an instance exemplary rather than singular — useful in any work concerned with types, patterns, or the archetypal ("The magistrate" → "A magistrate").
+
+### E. Overused-word watchlist
+Grep these every pass and prune to the load-bearing instances. Chronic offenders observed across drafts:
+*   **held, small, the** — the editor's named three. *the* especially: definite-article density above ~7% of tokens reads as unpruned (see D).
+*   Project-local repeaters to add to the list as they emerge (e.g., in *crepuscular*: *field/fields, light, preset, config, groove*).
+A word repeated for incantation (deliberate anaphora) is exempt; a word repeated by default is not. The difference is whether cutting it would cost the rhythm or only the habit.
+
+### F. Increase tactile immediacy
+When a thought can be a sensation, make it a sensation. Privilege the handled, the somatic, the felt over the conceptual gloss (the stool the child stands on, the steam on the face, the fire ticking — before any statement about mortality or the schema). Consult §2.B, the metaphorical graft: abstraction earns its place only after it has been made flesh.
