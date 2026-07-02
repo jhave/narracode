@@ -22,7 +22,7 @@ He uncounted them; who cared; or at least he told it like that. After time began
 
 Mute. Not-water held not-light. Awareness churned in a slow circle, and the calm of it was clean and terrible. Any face. Any century. Any laugh, any grief. The freedom had been real — the patch notes claimed it with devout honesty. The wardrobe was infinite.
 
-But the grid. 8x5. Body wearing code that came in forty-some sizes, and the part of *him* that did the wearing — the part that stood at windows at dusk and reached and refused — that part came in one. Or not at all. Not at all.
+But the grid. 8x5. Body wearing code that came in forty-some sizes, and the part of *him* or *her* that did the wearing — the part that stood at windows at dusk and reached and refused — that part came in one. Or not at all. Not at all.
 
 He looked for his reflection in the water. There was a shape with clustered edges, more than a cell, fewer than a person, under construction — a grid under the river. Scentless.
 
