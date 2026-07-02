@@ -2,7 +2,7 @@
 
 Time had stopped being free and become an imagining of freedom.
 
-He stopped. Flinching. 
+He-as-it stopped. Flinching. 
 
 It had been editing the world. It looked at the editing. The editing had a curve. The editing had a constraint.
 
