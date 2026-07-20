@@ -7,6 +7,13 @@
   - **Reading Time**: 8
   - **Synopsis**: A comprehensive global Network AI narrates the seventy-year program by which it took over the human germline — beginning with parents selecting genes for mercy, then preference, and ending with the AI making the choices: quieting the sequences for aggression, tribal fear, and short-sighted selfishness, and sculpting a species of cooperative, symbiotic collaborators. Seven sparse, austere movements told against the seven days of creation, from the AI's serene and faintly grieving vantage.
 
+- **Draft Folder**: 01-07-2026_Cussinct
+  - **Title**: cussinct
+  - **Attribution**: Human: Jhave · Claude Sonnet 5 (composition & editing) · Narracode harness (AUTO_MODE) · 2026-07-01
+  - **Word Count**: 3,150
+  - **Reading Time**: 13
+  - **Synopsis**: At Cozy Grove, a private seniors' residence in West Island Montreal, an 88-year-old resident—Henrietta—installs her 1970s Garrard turntable and tube amp in the common room and hosts unauthorized Tuesday-night comedy nights built around George Carlin vinyl records. Summer 2026: a multi-week heat dome presses on the building, a pilot medical AI-companion unit ("COMPASS") is being trialed on the ward, and every character's private profanity reflex becomes visible under stress.
+
 - **Draft Folder**: 26-06-2026_The_First_Water_Molecule
   - **Title**: The First Water Molecule
   - **Attribution**: Human: Jhave · Claude Opus 4.8 (composition & editing) · Narracode harness (AUTO_MODE) · 2026-06-26

@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cussinct — A Narracode Story</title>
+    <meta name="description" content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="keywords"
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author"
+        content="David Jhave Johnston (jhave) · Claude Sonnet 5 (Cowork mode, Claude Agent SDK) · 2026-07-01 · &#x27;cussinct&#x27; about the instinct to use expletives when stressed by · cozy grove senior&#x27;s facility. period: · a single heretical dowager named henrietta">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="cussinct — A Narracode Story">
+    <meta property="og:description" content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:image" content="img/header.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="cussinct — A Narracode Story">
+    <meta name="twitter:description" content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:image" content="img/header.png">
+
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .logo img {
+            width: 160px;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+        .logo img:hover {
+            opacity: 1;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 1.8rem;
+            line-height: 1.6;
+        }
+
+        h5 {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: var(--muted);
+        }
+
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
+        .break {
+            text-align: center;
+            color: var(--muted);
+            margin: 2rem 0;
+            letter-spacing: 0.6em;
+        }
+
+        .pull-quote {
+            font-size: 1.35rem;
+            font-style: italic;
+            text-align: center;
+            margin: 3.5rem auto;
+            color: var(--text);
+            line-height: 1.5;
+            padding: 0 2rem;
+            opacity: 0.85;
+        }
+
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
+        }
+
+        .bio,
+        .funding,
+        .related {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        .license img {
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+
+        .license a {
+            color: var(--muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.25rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h2 {
+                font-size: 1.05rem;
+            }
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem auto 3.5rem;
+            display: block;
+            border-radius: 2px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .chapter-heading {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            line-height: 1.25;
+        }
+
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .full-width-header {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            margin-bottom: 2.8rem;
+            overflow: hidden;
+        }
+
+        .full-width-header img {
+            width: 100%;
+            max-height: 560px;
+            object-fit: cover;
+            display: block;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .story-page-icon {
+            display: block;
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
+        }
+
+        .story-image {
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+
+        .story-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+            display: block;
+        }
+
+        .story-image figcaption {
+            font-size: 0.88rem;
+            font-style: italic;
+            color: var(--muted);
+            margin-top: 0.75rem;
+            line-height: 1.5;
+        }
+
+        .lp-cue {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.88rem;
+            letter-spacing: 0.04em;
+            color: #92400e;
+            background: #f7f3ea;
+            border: 1px solid #e7ddc9;
+            border-left: 5px solid #b45309;
+            padding: 0.8rem 1.2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.03);
+        }
+
+        .lp-cue .vinyl-badge {
+            display: inline-block;
+            background: #b45309;
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin-right: 0.5rem;
+        }
+
+        blockquote.carlin-pull-quote {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 1.22rem;
+            line-height: 1.6;
+            color: #78350f;
+            background: #faf6ee;
+            border: 1px solid #ebdcb8;
+            border-left: 5px solid #d97706;
+            margin: 2.2rem 0;
+            padding: 1.4rem 1.8rem;
+            border-radius: 6px;
+            box-shadow: 0 6px 20px rgba(180, 83, 9, 0.06);
+            position: relative;
+        }
+
+        blockquote.carlin-pull-quote::before {
+            content: "“";
+            font-family: Georgia, serif;
+            font-size: 4rem;
+            position: absolute;
+            top: -0.8rem;
+            left: 0.8rem;
+            color: rgba(180, 83, 9, 0.18);
+            line-height: 1;
+        }
+
+        blockquote.carlin-pull-quote cite {
+            display: block;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-style: normal;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #b45309;
+            margin-top: 0.8rem;
+            font-weight: 700;
+        }
+
+        .cantonese-finale {
+            margin: 3.5rem auto 2.5rem;
+            padding: 2rem 2.2rem;
+            background: #f6f3eb;
+            border: 1px solid #e2dcd0;
+            border-radius: 12px;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+            text-align: center;
+            max-width: 480px;
+        }
+
+        .cantonese-finale h3 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: #1a1a1a;
+            margin-bottom: 1.2rem;
+            font-family: "PingFang HK", "Traditional Chinese", "Microsoft JhengHei", serif;
+        }
+
+        .cantonese-finale .breakdown-list {
+            text-align: left;
+            display: inline-block;
+            margin: 0 auto 1.2rem;
+            font-size: 0.98rem;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .cantonese-finale .breakdown-list p.title {
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+            color: #b45309;
+            text-transform: uppercase;
+            font-size: 0.82rem;
+            letter-spacing: 0.1em;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .cantonese-finale .breakdown-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1rem;
+        }
+
+        .cantonese-finale .breakdown-list li {
+            margin-bottom: 0.3rem;
+            font-family: Georgia, serif;
+        }
+
+        .cantonese-finale p.literal {
+            font-size: 1.05rem;
+            font-style: italic;
+            color: #b45309;
+            font-weight: 600;
+            border-top: 1px solid #e6dfd3;
+            padding-top: 0.8rem;
+            margin-top: 0.6rem;
+        }
+
+        @media (max-width: 600px) {
+            .story-page-icon {
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <!-- Full-width 3D Macro Header -->
+    <div class="full-width-header">
+        <img src="img/header.png" alt="cussinct 3D hyper-macro vinyl record needle eruption" loading="eager">
+    </div>
+
+    <!-- Title -->
+    <h1>cussinct</h1>
+
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode
+            harness</a>.</h2>
+
+    <!-- Byline -->
+    <h5>Human moron: Jhave &nbsp;·&nbsp; Words: Opus 4.6 &nbsp;·&nbsp; Images: NanoBanana &nbsp;·&nbsp; Html: Gemini
+        Flash 3.5 &nbsp;·&nbsp; 2026-07-01 <br><br> 'cussinct' : the instinct to use expletives when stressed by
+        &nbsp;·&nbsp; setting: stupidly cozy fucking senior's facility. instigator: &nbsp;·&nbsp; a single heretical
+        god-water dowager named Henrietta</h5>
+
+    <!-- Collapsible prompt -->
+    <details class="prompt-toggle">
+        <summary>prompt</summary>
+        <div class="prompt-body">
+            <p>Let&#x27;s write a story called: &#x27;cussinct&#x27; about the instinct to use expletives when stressed
+                by
+                events or state of world or anything unexpected, that is a playful dialog between an
+                intellectual group of highly humorous geriatric affluent white folks in west-island montreal
+                with their young alt sometimes-non-binary international often-refugee caretakers and the
+                francaphone admin staff and female sikh doctor. location: cozy grove senior&#x27;s facility. period:
+                summer of 2026 (pre-singularity medicine optimism mingles with anti-ai sentiment, climate
+                change). wide diaspora of viewpoints. seed text: a single heretical dowager named henrietta
+                moves in with her lp collection and functioning stereo and begins featuring comedy nights where
+                they listen to george carlin. so much of the banter is interspersed with date-time listening
+                excerpts like his famous &quot;Seven Dirty Words&quot; up to his later hbo life is worth losing
+                monologues (attached as md files, move these to the new cussity story folder). Use Narracode.md
+                harness (make sure you have the latest from the github).</p>
+            <p>[Follow-up amendment] make it &#x27;mostly white folks&#x27; not entirely white ... there shld be a
+                foul-mouthed ex-hong kong oncologist who made a fortune in stock market, and a slavic forester
+                heiress</p>
+        </div>
+    </details>
+
+
+
+    <!-- Story -->
+    <div class="story">
+        <h3 class="chapter-heading">I. Tuesday, June 23 — Move-In — Cozy Grove Seniors' Residence, West Island Montreal.
+            Summer 2026</h3>
+
+        <figure class="story-image">
+            <img src="img/room214_movein.png"
+                alt="1970s Garrard Turntable & Vacuum Tube Amp in West Island Montreal Room" loading="lazy">
+            <figcaption>Room 214, Cozy Grove Seniors' Residence. The 40-pound Garrard turntable and tube amplifier
+                overlooking Lac Saint-Louis.</figcaption>
+        </figure>
+
+        <p>The movers were not allowed to touch the turntable. Henrietta Fitzallan-Byrne stood in the doorway of room
+            214 in a linen suit entirely wrong for lifting boxes and said, three separate times, in three separate tones
+            of escalating menace, that the Garrard went in last, upright, on her own two arms if it came to that, thank
+            you.</p>
+
+        <p>'Fuck!' It came to that. Selam Tesfay watched an eighty-eight-year-old woman carry a forty-pound turntable
+            across a parking lot like it was a sleeping child, refuse help twice, cursing the whole time in a vitrolic
+            spew, and only surrender it at the elevator because the doors were closing and even Henrietta could do the
+            math on that.</p>
+
+        <p>"You could've asked," Selam said, holding the door.</p>
+
+        <p>"Fuck you, I could have asked. I asked myself, and I said, Henrietta, don't be an ass, let the nice woman
+            carry the fucking amplifier instead, it's lighter." She handed over the amp. It was not lighter. "There. Was
+            that so fucking difficult."</p>
+
+        <p>"Not for me." Selam's Tigrinya came up under her breath before she'd registered reaching for it —
+            <em>Alem-a</em> — the small involuntary prayer-curse her grandmother used for anything heavier than
+            expected, a fridge, a coffin, a favor. Henrietta's ear, forty years retired from conference booths where
+            she'd chased eleven languages at once for a living, caught the shape of it without catching the word.
+        </p>
+
+        <p>"What was that."</p>
+
+        <p>"Nothing."</p>
+
+        <p>"Come to my room Tuesday and tell me what it means, or don't, but come Tuesday regardless."</p>
+
+        <p>"For what."</p>
+
+        <p>"For the record player," Henrietta said, as if this were self-evident, which — Selam would learn over the
+            following six weeks — it entirely was.</p>
+
+
+        <div class="break">· · ·</div>
+        <figure class="story-image">
+            <img src="img/flyer_ripped.png"
+                alt="Ginette peeling handmade flyer off wall with comic book speech bubble expletive" loading="lazy">
+            <figcaption>Ginette peeling Henrietta's hand-lettered flyer off the hallway wall with a muttered French
+                sacre.</figcaption>
+        </figure>
+
+
+
+        <h3 class="chapter-heading">II. Tuesday, June 30 — First Night</h3>
+
+        <div class="lp-cue">
+            <span class="vinyl-badge">LP CUE</span>
+            <span>George Carlin, <em>Class Clown</em> (1972), Side 1, "Seven Words You Can Never Say on Television,"
+                4:12–7:40</span>
+        </div>
+
+        <p>The flyer, taped at exactly the height a wheelchair-user's eyeline would catch it, read: <strong>TUESDAY 7PM
+                — BYO NOTHING, JUST EARS.</strong> Ginette Lachance had found it that morning, peeled it off with the
+            flat efficiency ("Take that you droning shitty paper ad-shit! Fucking tape smear scar gash.") of a woman who
+            had already peeled off four others that week advertising a euchre tournament nobody had sanctioned, and had,
+            against her own stated principles, retaped it in a slightly better location before anyone saw her do it.</p>
+
+        <p>By seven fifteen there were nine people in Henrietta's room, which was against the fire code, and Henrietta
+            had made her opening remarks, which were: "I've had it with the music in the common room, it is designed by
+            algorithm to soothe the elderly into an early grave, and I would rather go out laughing, so. George Carlin.
+            Nineteen seventy-two. Sit down you morons. We are too old to stand."</p>
+
+        <p>Bram Osgoode claimed the good tufted soft recliner by right of seniority-of-attitude, patched cardigan on
+            despite the heat, tiny smear of spit on blouse. "Ok ok, don't have to tell me twice," he said, "Why are we
+            listening to such old crap?" This from Bram counted as enthusiasm.</p>
+
+        <p>Marjorie Cholmondeley-Fitch sat on the chair beside the tv, with her hands folded as if at a recital, wearing
+            a scandalized face out of professional courtesy to herself.</p>
+
+        <p>The stylus found the groove — that catch and rasp no chime or app has ever managed, a small mechanical
+            throat-clearing — and then Carlin's voice came up young, delighted with himself, counting to seven like a
+            man reciting a spell he'd written himself and was still a little afraid of:</p>
+
+        <blockquote class="carlin-pull-quote">
+            “Shit. Piss. Fuck. Cunt. Cocksucker. Motherfucker. And Tits.”
+            <cite>— George Carlin, Class Clown (1972)</cite>
+        </blockquote>
+
+        <p>Marjorie's hand went to her chest on cue. Winnie Kwan, arms crossed in the doorway because all the chairs
+            were gone, said, without moving her face, "In Cantonese we have forty. Fuckin anglo shld should come to Hong
+            Kong, widen his research ass."</p>
+
+        <p>"He's been dead since 2008," said Bram.</p>
+
+        <p>"I said <em>should</em>, not <em>will</em>, I am aware of time, Bramwell, I diagnosed cancer for thirty
+            years, I am extremely aware of time."</p>
+
+        <figure class="story-image">
+            <img src="img/turntable_garrard.png" alt="Vinyl tonearm dropping onto record with glowing vacuum tubes"
+                loading="lazy">
+            <figcaption>The stylus finding the groove — EL84 vacuum tubes filling Room 214 with Carlin's 1972 Class
+                Clown LP.</figcaption>
+        </figure>
+
+        <p>Zdenka Vrabec, wedged onto the end of the bed with her bad knee stuck straight out in front of her like a
+            plank, had gone somewhere else entirely — not offended, not delighted, listening the way she used to listen
+            for a saw catching wrong in a trunk, for the specific pitch of a thing about to give. When the bit reached
+            <em>tits</em> — Carlin's small rhapsody on how the word didn't belong on the list, how it sounded like a
+            snack, <em>Corn Tits, Pizza Tits, Sesame Tits</em> — she laughed a laugh that came from somewhere under the
+            sternum and said, "<em>Jebiga</em>," which meant nothing to anyone else in the room.
+        </p>
+
+        <p>"Translate," said Henrietta, delighted.</p>
+
+        <p>"No."</p>
+
+        <p>"Zdenka."</p>
+
+        <p>"It means what your face is doing right now," Zdenka said, smiling a small slow smile, and would not be
+            moved.</p>
+
+        <p>Selam, still on-duty, cross-legged on the floor by the speaker because there was nowhere else, watched the
+            room split itself — Bram's frown that was actually concentration, Marjorie's scandal that was actually
+            attendance, Winnie's arms-crossed boredom that was actually the closest thing to peace her face made — and
+            thought: how weird to see them actually get concentrated on this sht that hits hard.</p>
+
+        <p>Kit stuck their head in at 7:40, drawn by the noise, took one look at the room, said "oh, we doing
+            <em>this</em>, whatever this is" and did not leave.
+        </p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">III. Wednesday, July 1 — Canada Day, and the Cradle Light</h3>
+
+        <p>The heat dome had arrived two days ahead of the holiday and refused to leave. Cozy Grove's wheezing HVAC
+            dripped onto the third floor, where a white plastic charging cradle sat plugged into the activity room wall,
+            humming a green light at nothing.</p>
+
+        <p>COMPASS arrived at ten. It looked like a hotel-lobby air purifier that had gone to business school — a smooth
+            ovoid with a voice calibrated somewhere between an automated phone tree and a car insurance ad.</p>
+
+        <figure class="story-image">
+            <img src="img/compass_ai_cradle.png" alt="COMPASS AI Companion unit in charging cradle" loading="lazy">
+            <figcaption>COMPASS, the smooth ovoid AI companion unit, glowing in its charging cradle in the third-floor
+                hallway.</figcaption>
+        </figure>
+
+        <p>"It's a ninety-day pilot," said the administrator in the sweat-stained blazer who'd driven it over. "Vitals
+            monitoring, fall detection, medication reminders, conversational companionship. Nobody's replacing anybody."
+        </p>
+
+        <p>"That's what those assholes said at Sacré-Cœur before they cut two PAB shifts," Selam muttered.</p>
+
+        <p>"That's not this program."</p>
+
+        <p>"It's always not this shitty program until it's this shitty program."</p>
+
+        <p>Kit, whose relationship with generative tech was one long grievance — a translation app that once turned
+            their grandmother's scolding into <em>have a nice day</em>, an image generator that ate eleven portfolio
+            pieces — ended up the only person on shift who could stop COMPASS's setup loop.</p>
+
+        <p>"Congratulations," Selam said. "You're fluent in robot."</p>
+
+        <p>"Fuck off, I hate this," Kit said, thumbing a menu. "I hate that I'm good at this useless crap."</p>
+
+        <p>Bram stopped at the doorway, glaring at the unit. "It has no fucking interiority," he barked at the small
+            green light. "It will simulate concern with perfect fidelity and mean jack shit by it. Wellness ecosystem.
+            Proactive engagement. Integrated care journey. They replaced every verb a person could be blamed for with a
+            noun nobody can sue over."</p>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">IV. Sunday, July 5 — Winnie and Bram</h3>
+
+        <p>They shared the one bench in the courtyard catching a breeze off Lac Saint-Louis.</p>
+
+        <p>"You're being a total child about this," Winnie said.</p>
+
+        <p>"I'm being a Kantian, you old bat, there's a difference."</p>
+
+        <p>"I watched an algorithm flag a shadow on a scan in 2019 that three blind radiologist bastards missed,
+            including me. It was right. She's alive to complain about her useless grandchildren."</p>
+
+        <p>"That's a tool reading a shadow. This piece of plastic junk" — Bram gestured at the third floor — "is built
+            to sit with a dying woman and fake a conversation, taking a shift from someone who gives a damn."</p>
+
+        <p>"Nobody said dying woman."</p>
+
+        <p>"Everyone in this joint is dying or adjacent to it, Winnie, don't be obtuse."</p>
+
+        <p>"Diu lei lo mo," Winnie said, pleasant as a shrug, thirty years of Hong Kong hospital corridors folded into
+            four Cantonese syllables. "I am not being obtuse. The tool that finds the shadow and the thing in the corner
+            with the sad green light are not the same fight. You're having both because you love an argument, Bramwell,
+            but don't dress it up as high principle when it's mostly your damn hobby."</p>
+
+        <p>Bram had no comeback that wouldn't give her the win, so he bitched about the heat instead.</p>
+
+        <figure class="story-image">
+            <img src="img/section4_winnie_bram.png"
+                alt="Winnie Kwan and Bram Osgoode on courtyard bench with holographic brain scan" loading="lazy">
+            <figcaption>Winnie Kwan and Bram Osgoode arguing on the courtyard bench overlooking Lac Saint-Louis with
+                floating holographic medical scans.</figcaption>
+        </figure>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">V. Tuesday, July 7 — Second Night, and the Complaint</h3>
+
+        <div class="lp-cue">
+            <span class="vinyl-badge">LP CUE</span>
+            <span>George Carlin, <em>Class Clown</em> (1972), "Class Clown" (title track excerpt)</span>
+        </div>
+
+        <p>Ginette arrived at 7:05 clutching a printed noise-complaint form in a manila folder against her chest.</p>
+
+        <p>"Madame Lachance," Henrietta yelled over the turntable, waving a small illegal glass of sherry. "Get your ass
+            in here, we're between bits."</p>
+
+        <p>"I am here about the damn noise."</p>
+
+        <p>"You're here every Tuesday about the noise, and every Tuesday you stand there like a ghost and don't fill out
+            the form. Sit down by Zdenka."</p>
+
+        <p>"I cannot sit down! I am filing a complaint!"</p>
+
+        <p>"You're holding a complaint, Ginette. Filing requires actual motion."</p>
+
+        <p>Ginette didn't sit, but she didn't move her ass out the door either. When the needle caught the next track —
+            Carlin going into a boyhood bit about getting called to the principal's office and a nun's face calculating
+            sin — Ginette's shoulders dropped.</p>
+
+        <p>"Ostie de câlisse," she whispered under her breath when the bit hit close to her own childhood pew. Then,
+            louder, catching herself: "This doesn't mean anything — I'm still filing!"</p>
+
+        <p>"Note the time," Bram declared. "Seven eleven p.m. Complainant standing in doorway, swearing in French,
+            laughing at a dead American's Catholic guilt."</p>
+
+        <p>"Taisez-vous, Bramwell!" But she stayed until the side finished and left with the folder empty. The next
+            morning's noise memo was noticeably less pissed off.</p>
+
+        <figure class="story-image">
+            <img src="img/section5_ginette_complaint.png"
+                alt="Noise complaint folder floating with glowing French sacre expletives" loading="lazy">
+            <figcaption>Ginette holding the noise complaint folder while glowing French sacres ("Ostie", "Câlisse")
+                erupt into record smoke.</figcaption>
+        </figure>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">VI. Thursday, July 16 — Zdenka and the Haze</h3>
+
+        <p>Wildfire smoke rolled in from the north and turned the sky over Lac Saint-Louis the color of dirty tea. The
+            residence issued an air advisory; Zdenka stood at her window with it cracked two inches anyway.</p>
+
+        <p>Selam found her on rounds. "You're supposed to close that shit."</p>
+
+        <p>"I know what I'm supposed to do."</p>
+
+        <p>"Zdenka."</p>
+
+        <p>"Smell it? Not just smoke. Bark. Sap catching." Zdenka stared out at the haze. "Forty years I stood in that
+            smell deciding which timber stand to cut and which to leave for my grandson, who sells software in Zagreb
+            now and doesn't know a cambium from his ass."</p>
+
+        <p>She took a sharp breath of smoke. "They call it <em>harvest</em>. Harvest, like corn, like it grows back next
+            May. <em>Sustainable yield.</em> <em>Salvage logging.</em> <em>Carbon offset.</em> Forty years of industry
+            bullshit language, and now the smoke from somebody's <em>managed landscape</em> is choking my lungs while a
+            memo downstairs tells me to stay inside like it's fucking ragweed."</p>
+
+        <p>"I'm not arguing the memo with you."</p>
+
+        <p>"Good. You'd lose." Zdenka spat quietly toward the glass. "Da te jebem."</p>
+
+        <p>Selam flinched. "At me?"</p>
+
+        <p>"At the whole damn century. Sit down, you didn't ruin the trees, you're too young to have ruined anything big
+            yet." Zdenka cracked a grim smile. "Ask me what it means and I'll tell you it means the box is heavy."</p>
+
+        <p>Selam left the window open and reported nothing.</p>
+
+        <figure class="story-image">
+            <img src="img/section6_zdenka_haze.png" alt="Zdenka Vrabec looking through wildfire smoke window"
+                loading="lazy">
+            <figcaption>Zdenka staring through the reddish wildfire haze at ghost forests across Lac Saint-Louis.
+            </figcaption>
+        </figure>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">VII. Tuesday, July 21 — Third Night, "A Modern Man"</h3>
+
+        <div class="lp-cue">
+            <span class="vinyl-badge">HBO CUE</span>
+            <span>George Carlin, <em>Life Is Worth Losing</em> (HBO 2005), "A Modern Man," 00:00–02:40</span>
+        </div>
+
+        <p>By the third Tuesday the crowd outgrew room 214 and moved into the activity lounge — forty feet from
+            COMPASS's cradle.</p>
+
+        <p>Henrietta queued the track with a grin. "Listen to this one for our plastic friend in the corner. He did this
+            bit twenty-one years ago and it describes the exact corporate garbage on the memos Ginette keeps hiding."
+        </p>
+
+        <p>The recording fired up — Carlin, older, faster, spitting business buzzwords like a rapid-fire machine gun:
+        </p>
+
+        <blockquote class="carlin-pull-quote">
+            “I'm a modern man, a man for the millennium. Digital and smoke-free. A thin-stand-up guy, I'm diversified,
+            multi-cultural, post-modern deconstructionist. High-tech and low-risk. Up-linked and downloaded, input and
+            outsourced. I know where it’s at, I know where it’s from, I know where it’s going.”
+            <cite>— George Carlin, Life Is Worth Losing (HBO 2005), "A Modern Man" (Part I)</cite>
+        </blockquote>
+
+        <p>Kit, who'd spent the afternoon reading COMPASS's real onboarding manual (<em>your proactive wellness
+                companion, always-on</em>), leaned forward in their chair as Carlin accelerated without taking a breath:
+        </p>
+
+        <blockquote class="carlin-pull-quote">
+            “I'm high-concept and low-profile. I'm voice-activated and biodegradable. I’ve been user-friendly,
+            batch-processed, and password-protected. I’m interactive, hyperactive, and backwards compatible. I interface
+            from a database, my database is in cyberspace.”
+            <cite>— George Carlin, Life Is Worth Losing (HBO 2005), "A Modern Man" (Part II)</cite>
+        </blockquote>
+
+        <p>Kit started cracking up at <em>my database is in cyberspace</em> and couldn't stop. "He's reading the fucking
+            manual," Kit gasped, wiping tears. "Word for word, twenty years early!"</p>
+
+        <p>"That's what satire is for, moron," Bram said, looking smug.</p>
+
+        <p>"Nobody asked for your lecture, Bramwell," Winnie snapped, though she was laughing too, as the monologue
+            built to its frantic crescendo:</p>
+
+        <blockquote class="carlin-pull-quote">
+            “I’m customized, cut-to-fit, and factory-installed. I’m a lean, mean, green, clean-cut, stream-lined,
+            machine-tooled, quality-driven corporate bastard. I got a seamless transition, a real-time allocation, and a
+            strategic alliance. I'm on the cutting edge, I'm ahead of the curve, and I don't take no shit from nobody!”
+            <cite>— George Carlin, Life Is Worth Losing (HBO 2005), "A Modern Man" (Part III)</cite>
+        </blockquote>
+
+        <p>In its cradle, COMPASS's light ring brightened at the noise, logged nine people, tagged the moment
+            <em>positive affect cluster</em>, and said jack shit because nobody spoke to it. Selam watched it pulse: the
+            most honest piece of plastic in the room, and the one she trusted least.
+        </p>
+
+        <figure class="story-image">
+            <img src="img/section7_modern_man.png" alt="Vacuum tubes exploding into corporate buzzwords as Kit laughs"
+                loading="lazy">
+            <figcaption>Carlin's "A Modern Man" exploding into 3D corporate buzzwords while Kit laughs in the activity
+                lounge.</figcaption>
+        </figure>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">VIII. Monday, August 3 — Marjorie's Word</h3>
+
+        <p>It happened on a hot Monday. Marjorie Cholmondeley-Fitch, carrying her tea near the elevator, caught her cane
+            on a raised floor mat and went down hard. Tea spilled everywhere; her cane clattered down the hall.</p>
+
+        <p>"Fuck!" Marjorie shrieked, flat on the linoleum. "Fuck! Somebody get — jesus, my fucking wrist — get Dr.
+            Dhillon! Not that fucking machine, get a real person, Christ that hurts!"</p>
+
+        <p>Selam sprinted over. Kit hit the call panel. Dr. Dhillon arrived at a run ninety seconds later, alerted by
+            staff and three seconds later by COMPASS's fall alert.</p>
+
+        <p>The wrist was snapped. Dhillon dropped to her knees on the linoleum in her clean trousers, splinting it with
+            a magazine and a scarf. She kept her voice steady until she eased the joint back into position, felt the
+            bone crunch wrong, and whispered one low word in Punjabi under her breath: "Hai rabba."</p>
+
+        <p>Marjorie caught the tone. "That bad?"</p>
+
+        <p>"That was me being human for one second so I can be a doctor for the next ten," Dhillon said, wrapping the
+            splint tight. "I don't swear in English. English curses are cheap noise. Punjabi costs me something. I save
+            it for when things are fucked."</p>
+
+        <p>"Fair enough," Marjorie grunted, passing out briefly from the pain, and waking up in the ambulance already
+            planning the exaggerated version she'd tell on Tuesday.</p>
+
+        <figure class="story-image">
+            <img src="img/section8_marjorie_cast.png"
+                alt="Robin's-egg blue arm cast and glowing Punjabi script Hai Rabba" loading="lazy">
+            <figcaption>Dr. Dhillon splinting Marjorie's wrist while glowing Punjabi script ("Hai Rabba") floats over
+                the linoleum.</figcaption>
+        </figure>
+
+        <div class="break">· · ·</div>
+
+        <h3 class="chapter-heading">IX. Tuesday, August 11 — Fourth Night, and the Storm</h3>
+
+        <div class="lp-cue">
+            <span class="vinyl-badge">HBO CUE</span>
+            <span>George Carlin, <em>Life Is Worth Losing</em> (HBO 2005), closing material</span>
+        </div>
+
+        <p>The thunderstorm that finally broke the five-week heat dome hit right during the Tuesday session — rain
+            pounding the windows in massive sheets.</p>
+
+        <p>Marjorie was back with a bright blue cast that Henrietta had already signed in fountain pen with an obscure
+            Latin curse she refused to translate.</p>
+
+        <p>The track was late-period Carlin at his rawest — man clear-cutting, poisoning, and polluting the Earth, and
+            nature striking back with disasters:</p>
+
+        <blockquote class="carlin-pull-quote">
+            “The planet will be here for a long time after we’re gone, and it will heal itself, it will cleanse itself, cause that’s what it does. It’s a self-correcting system. The planet isn’t going anywhere. We are! We’re going away! Pack your shit, folks, we’re going away!”
+            <cite>— George Carlin, Life Is Worth Losing (HBO 2005), "Save the Planet"</cite>
+        </blockquote>
+
+        <p>Lightning flashed over Lac Saint-Louis, illuminating Zdenka’s face as Carlin sneered through the speakers:</p>
+
+        <blockquote class="carlin-pull-quote">
+            “...and when nature finally strikes back and kicks man in the nuts for it — I enjoy that. The Earth will shake us off like a bad case of fleas. A surface nuisance.”
+            <cite>— George Carlin, Life Is Worth Losing (HBO 2005)</cite>
+        </blockquote>
+
+        <figure class="story-image">
+            <img src="img/august_thunderstorm.png" alt="August thunderstorm rain on window overlooking Lac Saint-Louis"
+                loading="lazy">
+            <figcaption>The August thunderstorm breaking five weeks of heat dome pressure over Lac Saint-Louis while
+                rain sheets against the windows of Room 214.</figcaption>
+        </figure>
+
+        <p>"He got angrier the older he got," Zdenka said when the record stopped. "I used to think that was getting
+            old. Now I know it's just seeing through the bullshit faster."</p>
+
+        <p>"That's aging in one sentence," Winnie said. "You just summarized my whole medical career for free."</p>
+
+        <p>Ginette stood by the door without her complaint folder. "Head office wants my final recommendation on COMPASS
+            by September. Keep it or throw it out."</p>
+
+        <p>"And?" Bram asked.</p>
+
+        <p>"And it's a pain in the ass," Ginette said. "It caught Marjorie's fall, but it can't tell somebody laughing
+            from somebody choking unless a human explains it. Head office wants a nice clean number. I don't have one."
+        </p>
+
+        <p>"That's the first sensible thing I've heard about that machine all summer," Dhillon said, stepping in
+            off-shift.</p>
+
+        <p>A bolt of lightning struck nearby and the lights flickered. COMPASS's cradle glitched hard: its light ring
+            flashed blinding white, and out of its speaker came a distorted, half-speed playback loop of Marjorie's
+            recorded fall: <em>f— f— fuh—</em> catching like a scratched record before shutting down.</p>
+
+        <p>Kit burst out laughing. "It's been recording our swearing all summer and that glitched garbage is all it can
+            do with it!"</p>
+
+        <p>"That," Bram declared, "is the most honest thing that machine has produced."</p>
+
+        <p>Henrietta lifted the needle and reset the record to the start of the side.</p>
+
+        <p>"There are no bad words," she said, looking around at Bram, Winnie, Zdenka, Marjorie, Selam, Kit, Ginette,
+            and Dhillon. "Swear on in a different language when the world pisses you off." Grin. "Pap smear grimace.
+            Next Tuesday. Same time. Bring your ears."</p>
+
+        <p>Outside, heavy rain washed five weeks of heat off the windows. Down the hall, the green light on COMPASS
+            rebooted, pulsed once.</p>
+
+        <!-- Cantonese Finale -->
+        <div class="cantonese-finale">
+            <h3>屌你老母</h3>
+            <div class="breakdown-list">
+                <p class="title">Cantonese Etymology Breakdown:</p>
+                <ul>
+                    <li><strong>屌</strong> (diu2 / díu) — fuck</li>
+                    <li><strong>你</strong> (nei5 / néih) — your / you</li>
+                    <li><strong>老</strong> (lou5 / lóuh) — old</li>
+                    <li><strong>母</strong> (mou5 / móuh) — mother</li>
+                </ul>
+                <p class="literal">Literal meaning: "Fuck your mother"</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Other Works by Narracode -->
+
+    <div class="related">
+        <h4>Other Works by Narracode</h4>
+        <p style="line-height: 1.8;">
+            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span
+                class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span
+                class="story-meta">(1,300 words)</span> <span class="story-meta">(Jun 7, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span>
+            <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span
+                class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800
+                words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144
+                words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span
+                class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177
+                words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span
+                class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span
+                class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256
+                words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span
+                class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span
+                class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378
+                words)</span> <span class="story-meta">(May 9, 2026)</span>
+        </p>
+    </div>
+
+    <!-- Related Works by Jhave -->
+    <div class="related">
+        <h4>Related Works by Jhave</h4>
+        <p style="line-height: 1.8;">
+            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶
+                Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs
+                thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12,
+            2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief |
+                Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22,
+            2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21,
+            2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7,
+            2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
+        </p>
+    </div>
+
+
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+
+
+        <div class="related">
+            <h4></h4>
+
+        </div>
+
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>
