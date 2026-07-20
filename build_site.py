@@ -150,8 +150,8 @@ def get_story_projects(base_dir="Stories written with Narracode"):
     with open(metadata_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Split by the "- **Folder**:" marker
-    blocks = re.split(r'-\s*\*\*Folder\*\*:\s*', content)
+    # Split by the "- **Folder**:" or "- **Draft Folder**:" marker
+    blocks = re.split(r'-\s*\*\*(?:Draft\s+)?Folder\*\*\:\s*', content)
     for block in blocks[1:]:  # skip the header block
         lines = block.splitlines()
         if not lines:

@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Symposium — A Narracode Story</title>
     <meta name="description"
-        content="A musicologist arrives at a conference during cancellation weather. A serious satire about an empire that oscillates between hedonist excess and the purification of everyone complicit — until complicity includes existence itself.">
+        content="A neurosymbolic narrative generated using Narracode.">
     <meta name="keywords"
-        content="AI fiction, short story, satire, cancellation, musicology, exoplanet, empire, Claude Sonnet, Jhave, speculative fiction, narrative">
-    <meta name="author" content="Claude Sonnet 4.6 (story) · Jhave (original idea &amp; image prompts) · Gemini 3.5 Flash (images) · 2026-05-24">
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author" content="Claude Sonnet 4.6 (Anthropic) · Jhave · Gemini 3.5 Flash (Google) from prompts by Jhave (via Antigravity) · 2026-05-24">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-    <!-- Open Graph -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="The Symposium — A Narracode Story">
     <meta property="og:description"
-        content="A musicologist arrives at a conference during cancellation weather. A serious satire in seven sessions.">
-    <meta property="og:image" content="img/header.webp">
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:image" content="img/header.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Symposium — A Narracode Story">
     <meta name="twitter:description"
-        content="A musicologist arrives at a conference during cancellation weather. A serious satire in seven sessions.">
-    <meta name="twitter:image" content="img/header.webp">
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:image" content="img/header.png">
 
     <style>
         :root {
@@ -122,6 +122,62 @@
             color: var(--muted);
         }
 
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
         .break {
             text-align: center;
             color: var(--muted);
@@ -138,6 +194,11 @@
             line-height: 1.5;
             padding: 0 2rem;
             opacity: 0.85;
+        }
+
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
         }
 
         .bio,
@@ -203,7 +264,6 @@
             border-radius: 2px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
         }
-
         .chapter-heading {
             font-size: 1.55rem;
             font-weight: 700;
@@ -213,57 +273,35 @@
             line-height: 1.25;
         }
 
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
         .story-page-icon {
             display: block;
-            width: min(420px, 90vw);
-            height: min(420px, 90vw);
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
             object-fit: cover;
-            border-radius: 4px;
-            border: 1px solid #d4d0c8;
-            background: #faf8f5;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-            margin: 1.5rem auto 2.2rem;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
         }
 
         @media (max-width: 600px) {
             .story-page-icon {
-                width: min(300px, 86vw);
-                height: min(300px, 86vw);
-                margin-bottom: 1.6rem;
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
             }
-        }
-
-        /* Forensic dossier styles for section illustrations */
-        .forensic-dossier {
-            margin: 2.8rem auto;
-            text-align: center;
-            border: 1px solid #e1ded8;
-            background: #faf8f5;
-            padding: 1.2rem;
-            border-radius: 4px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
-            max-width: 600px;
-        }
-        
-        .forensic-dossier img {
-            width: 100%;
-            height: auto;
-            border: 1px solid #d4d0c8;
-            border-radius: 2px;
-            object-fit: cover;
-            display: block;
-            margin: 0 auto;
-        }
-        
-        .forensic-caption {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 0.78rem;
-            color: #666;
-            margin-top: 0.8rem;
-            font-weight: bold;
-            letter-spacing: 0.08em;
-            text-align: center;
-            text-transform: uppercase;
         }
     </style>
 </head>
@@ -273,30 +311,34 @@
     <!-- Logo -->
     <div class="logo">
         <a target="_blank" href="https://glia.ca/">
-            <img src="../../logo/glia-bw.webp" alt="Glia.ca — home">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
         </a>
     </div>
 
-    <!-- Cover image -->
-    <img src="img/header.png" alt="The Symposium Cover - Restrict Access" class="story-page-icon" width="640" height="640">
+    <img src="img/header.png" class="story-page-icon" width="640" height="640">
 
     <!-- Title -->
     <h1>The Symposium</h1>
 
-    <!-- Subtitle -->
-    <h2>A story generated without the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
 
     <!-- Byline -->
-    <h5>Claude Sonnet 4.6 (story) &nbsp;·&nbsp; Jhave (original idea &amp; image prompts) &nbsp;·&nbsp; Gemini 3.5 Flash (images) &nbsp;·&nbsp; 2026-05-24</h5>
+    <h5>Claude Sonnet 4.6 (Anthropic) &nbsp;·&nbsp; Jhave &nbsp;·&nbsp; Gemini 3.5 Flash (Google) from prompts by Jhave (via Antigravity) &nbsp;·&nbsp; 2026-05-24</h5>
+
+    <!-- Collapsible prompt -->
+    
+
+    
 
     <!-- Story -->
     <div class="story">
+        <p># THE SYMPOSIUM
+<em>A Story in Seven Sessions</em></p>
 
-        <h3 class="chapter-heading">I.</h3>
-        <div class="forensic-dossier">
-            <img src="img/section_1.png" alt="Session I: Cancellation Weather at Veld Station" loading="lazy">
-            <div class="forensic-caption">[CASE_REF: VELD-STN/ATMO] STATUS: COMPLICIT</div>
-        </div>
+        <div class="break">· · ·</div>
+
+        <p><strong>I.</strong></p>
 
         <p>The transit pod set Mara Selene down at Veld Station during what the locals called cancellation weather — a term she did not understand until her second day, when she learned that the pale violet static in the upper atmosphere was caused by the mass-decommissioning of satellite infrastructure that had been built, decades prior, by a corporation whose shareholders had eaten meat. The satellites fell slowly, individually, each one preceded by a notification to the populace below: <em>the orbital object designated XR-7741 has been found complicit and will be withdrawn from service at 14:32 station time. Please observe standard protocols.</em> The violet was beautiful. She had been told not to say so.</p>
 
@@ -318,11 +360,7 @@
 
         <div class="break">· · ·</div>
 
-        <h3 class="chapter-heading">II.</h3>
-        <div class="forensic-dossier">
-            <img src="img/section_2.png" alt="Session II: Helda Kessler's Mountain Recording Logs" loading="lazy">
-            <div class="forensic-caption">[ARCHIVE_REF: MSD-4/VALLEY] RECORDING_LOG_092</div>
-        </div>
+        <p><strong>II.</strong></p>
 
         <p>The Kessler Recordings had been made ninety years ago on a world called Meridian-4, by an archivist named Helda Kessler who had spent thirty years traveling its valleys and recording the folk music of communities that were, within a generation of her work, absorbed into the empire and subsequently dissolved — not by force exactly, but by the relentless gravitational pull of imperial culture, which did not need force because it had convenience and bandwidth and the particular seductiveness of a civilization that had organized itself around the premise that desire was the primary fact of existence.</p>
 
@@ -338,11 +376,7 @@
 
         <div class="break">· · ·</div>
 
-        <h3 class="chapter-heading">III.</h3>
-        <div class="forensic-dossier">
-            <img src="img/section_3.png" alt="Session III: Priya Ulm's Complicity of Presence Redactions" loading="lazy">
-            <div class="forensic-caption">[DEBATE_REF: P_ULM/PRESENCE] SPEECH_REFUSED</div>
-        </div>
+        <p><strong>III.</strong></p>
 
         <p>The first session she attended was given by a man named Dov Anast, who was the Bureau's chief archivist for cancelled musical traditions. He was thin and precise and wore his badge turned inward toward his chest, in the manner of someone who had been asked, often, to show his credentials. His paper was titled "Toward a Protocol for the Preservation of Complicit Materials: The Ethical Status of the Archive."</p>
 
@@ -380,11 +414,7 @@
 
         <div class="break">· · ·</div>
 
-        <h3 class="chapter-heading">IV.</h3>
-        <div class="forensic-dossier">
-            <img src="img/section_4.png" alt="Session IV: Tested Safe Level 1 Contrition Bread Sample" loading="lazy">
-            <div class="forensic-caption">[SAMPLE_REF: DINNER/BREAD] COMPLEXITY: HIGH</div>
-        </div>
+        <p><strong>IV.</strong></p>
 
         <p>There was a dinner on the second evening, in a room that had been cleared of its original furnishings because the material from which they had been made derived from a process that had involved animal products, though the precise chain of complicity was still being traced. People sat on temporary chairs around temporary tables and ate a meal that had been prepared according to protocols so stringent that several of the dishes had been removed from the menu between the sending of the invitation and the event itself, because an ingredient supplier had been found, that afternoon, to have transported goods in a vehicle that burned combustibles.</p>
 
@@ -410,11 +440,7 @@
 
         <div class="break">· · ·</div>
 
-        <h3 class="chapter-heading">V.</h3>
-        <div class="forensic-dossier">
-            <img src="img/section_5.png" alt="Session V: Forensic Acoustic Analysis of Kessler Waveforms" loading="lazy">
-            <div class="forensic-caption">[SIGNAL_REF: MERIDIAN-4/KESSLER] WAVEFORM_ANALYSIS</div>
-        </div>
+        <p><strong>V.</strong></p>
 
         <p>The paper Mara did not present — her paper on the Kessler Recordings, on the polyphonic communities of Meridian-4, on the voice as position rather than sovereign — she read aloud in her room on the final night, to no one, because she had not been invited to present it and had not challenged this, had said only that she understood when the committee called to explain, with exquisite and genuine regret, that the material could not be contextualized adequately within the time constraints of the symposium, which was their way of saying what they could not say directly: <em>we cannot protect you.</em></p>
 
@@ -438,11 +464,7 @@
 
         <div class="break">· · ·</div>
 
-        <h3 class="chapter-heading">VI.</h3>
-        <div class="forensic-dossier">
-            <img src="img/section_6.png" alt="Session VI: Grainy Transit Concourse Security Feed capture" loading="lazy">
-            <div class="forensic-caption">[SURVEILLANCE_REF: TRANSIT/CAM_04] ARCHIVIST_LOG</div>
-        </div>
+        <p><strong>VI.</strong></p>
 
         <p>The symposium ended on a Thursday. Eleven papers had been presented, of which four were about cancelled materials, three were about the ethical status of studying cancelled materials, two were about the ethical status of the scholars who studied cancelled materials, one was Priya Ulm's paper on the complicity of presence, and one was a technical analysis of a pre-Lush tuning system that had been approved because the civilization that developed it had been found, upon review, to have been itself cancelled by an earlier iteration of the empire and therefore occupied a position of historical victimhood sufficient to offset its otherwise ambiguous complicity status, though a footnote noted that this determination was provisional pending further review.</p>
 
@@ -468,11 +490,7 @@
 
         <div class="break">· · ·</div>
 
-        <h3 class="chapter-heading">VII.</h3>
-        <div class="forensic-dossier">
-            <img src="img/section_7.png" alt="Session VII: Astrographic Transit Trajectories leaving Veld" loading="lazy">
-            <div class="forensic-caption">[DEPARTURE_REF: ULTHARA-7/POD] STATUS: COMPLETED</div>
-        </div>
+        <p><strong>VII.</strong></p>
 
         <p>The transit pod left at dawn, or what passed for dawn on Ulthara-7, a slow warming of the air rather than any dramatic event, a gradual becoming-visible of the things that had been there all along. The old man was on the pod. He sat across from her and watched the station recede through the small oval window, and she watched it too — the academic quarter, the low connected rooms, the window through which she had watched satellites fall.</p>
 
@@ -502,20 +520,36 @@
 
         <p>And the next.</p>
 
-    </div>
+        <div class="break">· · ·</div>
+
+        <p><em>"The Symposium"</em></p>
+
+</div>
 
     <!-- Other Works by Narracode -->
+
     <div class="related">
         <h4>Other Works by Narracode</h4>
         <p style="line-height: 1.8;">
-            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 3,800 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 4,144 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 5,244 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 18, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 3,557 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 15, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 9,256 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 14, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 18,150 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 11, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 1,048 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 10, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 8,378 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 9, 2026)</span>
+            <a href="../19-07-2026_In_Our_Image/index.html">In Our Image</a> <span class="story-meta">(1,912 words)</span> <span class="story-meta">(Jul 19, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../01-07-2026_Cussinct/index.html">cussinct</a> <span class="story-meta">(3,150 words)</span> <span class="story-meta">(Jul 1, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../26-06-2026_The_First_Water_Molecule/index.html">The First Water Molecule</a> <span class="story-meta">(3,206 words)</span> <span class="story-meta">(Jun 26, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../20-06-2026_Project_A-0/index.html">Project A-0</a> <span class="story-meta">(1,234 words)</span> <span class="story-meta">(Jun 20, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-06-2026_TheCompulsionLoop/index.html">Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer</a> <span class="story-meta">(6,158 words)</span> <span class="story-meta">(Jun 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-06-2026_Dissolution/index.html">Dissolution Disequilibrium</a> <span class="story-meta">(9,885 words)</span> <span class="story-meta">(Jun 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span class="story-meta">(1,300 words)</span> <span class="story-meta">(Jun 7, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span> <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256 words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378 words)</span> <span class="story-meta">(May 9, 2026)</span>
         </p>
     </div>
 
@@ -537,6 +571,8 @@
         </p>
     </div>
 
+
+
     <!-- Bio -->
     <div class="bio">
         <h4>Bio</h4>
@@ -556,6 +592,13 @@
             Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
             scheme, project number 335129 (Extending Digital Narrative).
         </p>
+
+
+        <div class="related">
+            <h4></h4>
+            
+        </div>
+
     </div>
 
     <!-- License -->

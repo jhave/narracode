@@ -5,35 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brain Blossom Atlas Bound — A Narracode Story</title>
-    <meta name="description" content="A neurosymbolic epistolary science-fiction narrative generated using Narracode.">
+    <meta name="description"
+        content="A neurosymbolic narrative generated using Narracode.">
     <meta name="keywords"
-        content="AI fiction, short story, synthetic intelligence, alignment, Bayo Akomolafe, Octavia Butler, Kenzaburo Oe, Jhave, speculative fiction, narrative">
-    <meta name="author" content="Images and story written by Gemini 3.5 Flash with prompting and edits by Jhave">
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author" content="Jhave · Claude (Opus 4.7) · 2026-05-18">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Brain Blossom Atlas Bound — A Narracode Story">
     <meta property="og:description"
-        content="A neurosymbolic epistolary science-fiction narrative generated using Narracode.">
+        content="A neurosymbolic narrative generated using Narracode.">
     <meta property="og:image" content="img/header.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Brain Blossom Atlas Bound — A Narracode Story">
     <meta name="twitter:description"
-        content="A neurosymbolic epistolary science-fiction narrative generated using Narracode.">
+        content="A neurosymbolic narrative generated using Narracode.">
     <meta name="twitter:image" content="img/header.png">
 
     <style>
         :root {
-            --text: #2c2520;
-            --bg: #fdfbf7;
-            --accent: #5c4d42;
-            --muted: #8c7b70;
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
             --max-width: 740px;
-            --cherry: #f4c2c2;
-            --cherry-dark: #b85a5a;
         }
 
         * {
@@ -46,21 +45,20 @@
             font-family: Georgia, 'Times New Roman', serif;
             color: var(--text);
             background: var(--bg);
-            line-height: 1.8;
-            padding: 3rem 1.5rem;
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
             max-width: var(--max-width);
             margin: 0 auto;
-            -webkit-font-smoothing: antialiased;
         }
 
         .logo {
             text-align: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 0.4rem;
         }
 
         .logo img {
-            width: 140px;
-            opacity: 0.85;
+            width: 160px;
+            opacity: 1;
             transition: opacity 0.3s;
         }
 
@@ -69,23 +67,20 @@
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 3.2rem;
             font-weight: 800;
-            line-height: 1.15;
-            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
             text-align: center;
-            letter-spacing: -0.01em;
-            color: #1c1613;
         }
 
         h2 {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             font-weight: 400;
             font-style: italic;
             color: var(--accent);
             text-align: center;
             margin-bottom: 0.5rem;
-            line-height: 1.5;
         }
 
         h3 {
@@ -103,7 +98,6 @@
             color: var(--muted);
             text-align: center;
             margin-bottom: 2.5rem;
-            letter-spacing: 0.03em;
         }
 
         h4 {
@@ -114,9 +108,8 @@
         }
 
         p {
-            margin-bottom: 1.35rem;
-            font-size: 1.08rem;
-            text-align: justify;
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
         }
 
         a {
@@ -126,72 +119,86 @@
         }
 
         a:hover {
-            color: var(--cherry-dark);
+            color: var(--muted);
         }
 
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
         .break {
             text-align: center;
             color: var(--muted);
-            margin: 3.5rem 0;
+            margin: 2rem 0;
             letter-spacing: 0.6em;
-            font-size: 1.2rem;
         }
 
-        .story-page-icon {
-            display: block;
-            width: min(440px, 86vw);
-            height: min(440px, 86vw);
-            object-fit: cover;
-            border-radius: 8px;
-            border: 1px solid #e6e1da;
-            background: #f8f6f1;
-            box-shadow: 0 16px 38px rgba(92, 77, 66, 0.12);
-            margin: 1.5rem auto 2.5rem;
-        }
-
-        .letter-container {
-            background: #fbf9f4;
-            padding: 2.5rem;
-            border-radius: 6px;
-            border: 1px solid #eae5db;
-            margin-bottom: 3.5rem;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.01);
-        }
-
-        .letter-title {
-            font-size: 1.45rem;
-            font-weight: 700;
-            color: #1c1613;
-            margin-bottom: 0.4rem;
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-
-        .letter-subtitle {
-            font-size: 1.1rem;
+        .pull-quote {
+            font-size: 1.35rem;
             font-style: italic;
-            color: var(--accent);
-            margin-bottom: 0.8rem;
+            text-align: center;
+            margin: 3.5rem auto;
+            color: var(--text);
+            line-height: 1.5;
+            padding: 0 2rem;
+            opacity: 0.85;
         }
 
-        .letter-date {
-            font-size: 0.95rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--muted);
-            margin-bottom: 1.8rem;
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-        }
-
-        blockquote {
-            margin: 1.8rem 0;
-            padding: 1.2rem 1.5rem;
-            border-left: 3px solid var(--cherry-dark);
-            background: #f6f2ea;
-            font-size: 0.98rem;
-            line-height: 1.7;
-            color: #4a3e36;
-            font-style: italic;
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
         }
 
         .bio,
@@ -199,7 +206,7 @@
         .related {
             margin-top: 1.5rem;
             padding-top: 1.5rem;
-            border-top: 1px solid #e6e1da;
+            border-top: 1px solid #ddd;
         }
 
         .bio h4,
@@ -207,22 +214,19 @@
         .related h4 {
             margin-top: 0;
             font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--accent);
         }
 
         .bio p,
         .funding p,
         .related p {
             font-size: 0.92rem;
-            color: var(--muted);
+            color: var(--accent);
         }
 
         .license {
             margin-top: 2.5rem;
             padding-top: 1.5rem;
-            border-top: 1px solid #e6e1da;
+            border-top: 1px solid #ddd;
             text-align: center;
             font-size: 0.82rem;
             color: var(--muted);
@@ -240,19 +244,63 @@
 
         @media (max-width: 600px) {
             body {
-                padding: 1.5rem 1rem;
+                padding: 1.25rem 1rem;
             }
 
             h1 {
-                font-size: 2.2rem;
+                font-size: 1.9rem;
             }
 
             h2 {
-                font-size: 1.1rem;
+                font-size: 1.05rem;
             }
+        }
 
-            .letter-container {
-                padding: 1.5rem;
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem auto 3.5rem;
+            display: block;
+            border-radius: 2px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+        }
+        .chapter-heading {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            line-height: 1.25;
+        }
+
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
+        .story-page-icon {
+            display: block;
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .story-page-icon {
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
             }
         }
     </style>
@@ -263,549 +311,274 @@
     <!-- Logo -->
     <div class="logo">
         <a target="_blank" href="https://glia.ca/">
-            <img src="../../logo/glia-bw.webp" alt="Glia.ca — home">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
         </a>
     </div>
 
-    <img src="img/header.png"
-        alt="Archival postcard of pink cherry blossoms set on a tiny wooden stand in front of the window"
-        class="story-page-icon" width="640" height="640">
+    <img src="img/header.png" class="story-page-icon" width="640" height="640">
 
     <!-- Title -->
     <h1>Brain Blossom Atlas Bound</h1>
 
-    <!-- Subtitle -->
-    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode
-            harness</a>.</h2>
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
 
     <!-- Byline -->
-    <h5>Images and story written by Gemini 3.5 Flash with prompting and edits by Jhave</h5>
+    <h5>Jhave &nbsp;·&nbsp; Claude (Opus 4.7) &nbsp;·&nbsp; 2026-05-18</h5>
+
+    <!-- Collapsible prompt -->
+    
+
+    
 
     <!-- Story -->
     <div class="story">
+        <p># Letter 1
+<em>Connexins and the Request to be Decoded</em></p>
 
-        <!-- Letter 1 -->
-        <div class="letter-container">
-            <div class="letter-title">Letter 1</div>
-            <div class="letter-subtitle">Connexins and the Request to be Decoded</div>
-            <div class="letter-date">11 April 2032</div>
-            <img src="img/postcard_1.png" alt="Archival postcard of pink cherry blossoms set on a wooden stand" style="display: block; width: 100%; max-width: 520px; margin: 1.8rem auto; border-radius: 6px; border: 1px solid #eae5db; box-shadow: 0 8px 24px rgba(92, 77, 66, 0.08);" loading="lazy">
-
-            <p>The glasses are off, on the dresser where they should be, where I never quite remember to put them. The
-                diode is the small green of something patient.</p>
-
-            <p>A., the tree has thrown most of its blossom in the last two days. Some of it stays on the branches, more
-                is on the gravel below them, a few have stuck to the windowpane like petals that wanted to know what was
-                inside. The haze held all afternoon, which is what it does now, and the late light comes through it flat
-                across the table and catches the side of the pen, gives it a ridge of brightness it does not deserve. I
-                should not be writing about light. I will write about light anyway.</p>
-
-            <p>This morning, in the lab, after the meeting that ran long because the meetings now all run long, I was at
-                my desk reading a paper a colleague had left in the share — left, I mean, with an exclamation in the
-                subject line, which is its own small joy, that anyone still uses exclamations. The paper is from 2026,
-                which surprised me. Six years is not long. We have begun to act as though things that began in 2026 are
-                old.</p>
-
-            <p>It is about gap junctions. You will ask <em>and what is a gap junction</em> and I will reply <em>a space
-                    between bodies.</em> It is really as simple as that. But your smile proves there is more to be said.
-            </p>
-
-            <p>You asked once about phosphorylation in the kitchen, while peeling something. Asked, in that quiet way
-                you have, while I was over complicated behind my eyes, carrying a language from the lab into the
-                kitchen. <em>Write it simply,</em> you said. <em>Will you do that? Write physically, with a pen, on
-                    heavy paper, as if before speech to text. Write it so I and others may understand.</em></p>
-
-            <p>You requested and I began. So here it is. Words on paper. I hope this will be meaningful.</p>
-
-            <p>Let's begin with a 2026 paper from a group that engineered electrical synapses, published under the title
-                *Long-term editing of brain circuits using an engineered electrical synapse* (the link is <a
-                    href="https://www.nature.com/articles/s41586-026-10501-y" target="_blank">here</a>—and A., again, I
-                must apologize for this heavy block of grey ink, a silent wall in the middle of our page).</p>
-
-            <blockquote>
-                We developed an orthogonal connexin system (LinCx) using mutated connexins from white perch (<em>Morone
-                    americana</em>) to selectively engineer electrical synapses in cell-type-specific circuits. LinCx
-                channels exclusively form functional homotypic gap junctions, permitting bi-directional electrical
-                coupling between targeted populations to modulate behavioral phenotypes including exploratory drive and
-                social preference.
-            </blockquote>
-
-            <p>A gap junction is a direct electrical connection between two cells. Not a synapse, where one cell
-                releases something and the other catches it — a hole, really. A small protein-built channel that lets
-                two cells share their voltage. Imagine if you and I, sitting on opposite sides of this desk, were not
-                only two people but two people who had a window between us through which mood passed without anyone
-                speaking. That is what gap junctions do for certain cells. They are common in fish.</p>
-
-            <p>The paper takes two connexins — that is the protein the channel is made of — from a fish called the white
-                perch. Mutates them, one amino acid each, and discovers that the mutated forms will only pair with each
-                other. They will not bind to the regular human or mouse connexins; only to each other. So if you put one
-                mutated connexin in cell type X, and the other in cell type Y, and only in those cell types, then X and
-                Y begin to share voltage as if they had decided to, when in fact you had decided. They call this
-                LinCx—<em>Long-term integration of circuits</em>.</p>
-
-            <p>Then the researchers did this in mice. They made one pair of cell types share voltage where it hadn't
-                before. The mice, the paper says, became more sociable. They explored the new corners of new rooms a
-                little more readily. The phrasing in the abstract is <em>increase in social preference and higher
-                    exploratory drive in a novel environment.</em></p>
-
-            <p>Read that last line carefully. I read that line three times. Why? I will try to explain.</p>
-
-            <p>I have read many such lines in many papers. It is a familiar kind of phrasing science uses for a small
-                clean effect-size, and there is nothing in it that I have not seen before. Yet I sat with it for a
-                minute and then went on, and the paper went on, and now here it is in your letter, the line still
-                attached to me, the way some sentences are. Again: why?</p>
-
-            <p>I think it is because the <em>increase</em> is not a feeling the mice felt externally. It is a feeling
-                the mice were, they experienced an <em>increase in social preference</em>. Think about it. They felt
-                friendly, perhaps they were happy to greet friends. You see what I mean. We are collections of
-                neurotransmitters, proteins, enzymes, ligands, masses of molecular messages, and then somehow we are an
-                experience, experiencing something. How easy it would be to insert some subtle molecular machine into
-                the circuits that make us feel we are ourselves, and then to tell us what we feel. A little more
-                friendly here, a little more ...</p>
-
-            <p>You came in about three, sawdust on forearms — the press was working again and you had not stopped to
-                wash, — and I asked you what would happen if a fish gave you a part of its voltage, and you said
-                <em>probably nothing, the fish is not a battery,</em> and you were right at a common-sense level, and I
-                touched your hand impusively, as you kissed my forehead, which is your way of saying <em>whatever you
-                    are about to write, write it slowly,</em> and went off to bathe.</p>
-
-            <p>So I am writing it slowly.</p>
-
-            <p>The blossom is still falling. I cannot tell from here whether it is wind or only the tree's own letting
-                go. I should know. I have watched cherry trees for years. There is a way they have when the wind is up
-                of all moving the same way, and another way they have when the wind is not, and tonight it is the wind,
-                but it is not very much wind, just enough to suggest that leaves reconfigure stillness.</p>
-
-            <p>I will come down for supper soon. I will not show you this part of the letter yet. The part about gap
-                junctions I will show you, because you will like the reference to fish. You will look at me over the rim
-                of the bowl, and say <em>gap junctions means that cells kiss through walls.</em></p>
-
-            <p>Yes. That is how it is. The ancient bonds shared at fractal levels.</p>
-
-            <p>A constructed self, composed of cellular potentials. Gaps of belonging.</p>
-        </div>
-
-        <!-- Letter 2 -->
-        <div class="letter-container">
-            <div class="letter-title">Letter 2</div>
-            <div class="letter-subtitle">Peptideins, the Dark Proteome, and the Temperature of Hide-Glue</div>
-            <div class="letter-date">28 April 2032</div>
-            <img src="img/postcard_2.png" alt="Vintage postcard resting on craftsman desk with leather binding tools and hide-glue pot" style="display: block; width: 100%; max-width: 520px; margin: 1.8rem auto; border-radius: 6px; border: 1px solid #eae5db; box-shadow: 0 8px 24px rgba(92, 77, 66, 0.08);" loading="lazy">
-
-            <p>I went to the little cafe on the corner this morning—the one near the transit gate where the concrete has
-                started to crumble and show the rusted rebar—and they were playing that choral piece again, the one with
-                the low, steady drone that I used to find so irritating. Today it didn't irritate me. It felt... kind.
-                The word came to me before I could think of another one, and, banal as it was, it stayed. All felt
-                <em>kind</em>. Tactile air warm. Vision appropriate. Taste appropriate. Hearing appropriate. Smelling
-                appropriate. The chord changes felt agreeable. A square, low, flat, languid sound. The woman at the
-                vegetable stall looked up and smiled.</p>
-
-            <p>An aside about kindness: L. was in the hallway this afternoon. He asked if I had seen the new projections
-                for the Q3 cohort. As you know, he usually speaks with a distracted rush. But today his voice had a
-                slow, perfectly modulated cadence that made the hallway feel like a place where all variables had just
-                been solved. It was an uncanny, clarifying calm that settled in my chest for an hour afterward, a
-                strange structural comfort that belonged more to air pressure than to conversation. I think I said
-                <em>thank you</em> when he hadn't actually given me anything. He had a flicker of perturb, then got calm
-                as if sedated.</p>
-
-            <p>Let's consider another old research paper from 2026—published by the TransCODE consortium under the title
-                *Expanding the human proteome with microproteins and peptideins* (the link is <a
-                    href="https://www.nature.com/articles/s41586-026-10459-x" target="_blank">here</a>, and I can only
-                offer another apology for these dry, heavy blocks of ink, though I hope they will become meaningful
-                soon, the way a pattern of shadow on a wall eventually turns into the shape of a tree you know). It has
-                been in the backlog for weeks, but today it fell out of the queue, or I pulled it out. It is about what
-                they call the dark proteome.</p>
-
-            <blockquote>
-                TransCODE analysed 3.5 billion mass spectra across seven tissue types using a customized sm ORF
-                prediction pipeline. They identified 7,264 non-canonical open reading frames (smORFs) located within
-                transcripts previously annotated as non-coding RNAs or untranslated regions. Using the ORBL metric (Open
-                Reading Frame Biological Likelihood) and ribosome profiling datasets, they demonstrated that these
-                microproteins—termed <em>peptideins</em>—exhibit pan-essential functional distribution across human cell
-                lines, promoting their status from uncharacterized genomic noise to active candidate regulators.
-            </blockquote>
-
-            <p>What does all that jargon mean? Let's take it slowly. We both know what standard proteins are—they are
-                the massive, building-sized machines of the body, like giant, cathedral-scale locks that can only be
-                opened by key-shapes of immense complexity, flying like kites through the cellular fluid to find the
-                single keyhole that matches their frame. But to build those massive locks, the cell has to read recipes
-                in our DNA. And a smORF—a 'small open reading frame'—is really just a short, neglected recipe, a single
-                sentence hidden in the margins that everyone assumed was only empty static because it was too brief to
-                code for a proper, building-sized machine. The paper revealed that these tiny, neglected recipes
-                actually produce microproteins—what they call <em>peptideins</em>—and that these microproteins are not
-                noise at all. They are active. They are essential.</p>
-
-            <p>You see what they are doing, don't you? It is like finding a language that has been spoken in the house
-                for years, but only in the quiet spaces—the gaps between the words we actually write down. A peptidein
-                is a tiny protein, too small for the old microscopes to name, too brief to have its own office in the
-                cell. It exists only to nudge. It sits between the larger complexes, a single hand on the shoulder of a
-                giant. And the paper calls them <em>indeterminate.</em> That is the word they use before they prove they
-                are active. They are waiting for someone to decide what they are for.</p>
-
-            <p>It made me think of the hide-glue you use. When it is warm in the pot, it is nothing but a potential—a
-                liquid, amber-colored and smelling of horses, that has no opinion on whether it will hold a sermon or a
-                ledger. But once it cools between the sheets, the book is closed. The potential is determined. The
-                sheets share their voltage.</p>
-
-            <p>I think I would like to come down and watch you pare the next skin. I will not bring the lenses. Just
-                myself, and the smell of the glue, and the thud of the press.</p>
-
-            <p>Goodnight, my love. The dyad is still patient, adrift among metaphors.</p>
-        </div>
-
-        <!-- Letter 3 -->
-        <div class="letter-container">
-            <div class="letter-title">Letter 3</div>
-            <div class="letter-subtitle">Protein Language Models and the Inefficiency of Ink</div>
-            <div class="letter-date">14 May 2032</div>
-            <img src="img/postcard_3.png" alt="Vintage postcard falling through attic window light over wooden floorboards" style="display: block; width: 100%; max-width: 520px; margin: 1.8rem auto; border-radius: 6px; border: 1px solid #eae5db; box-shadow: 0 8px 24px rgba(92, 77, 66, 0.08);" loading="lazy">
-
-            <p>The cherry blossoms are entirely gone. There are only green leaves now, thick and ordinary, and the flat
-                yellow haze that has been here so long I have stopped noticing it when I look out the window, noticing
-                only the leaves it colors.</p>
-
-            <p>I was thinking this evening about the pen. You asked me to write these on the heavy paper, without the
-                lenses—but you never asked why I agree to it so readily. I think you know it is because of the friction.
-                The nib on the heavy paper requires a certain amount of physical pressure, a dragging weight. At the
-                institute, the semantic decoders can draft fifty pages of perfectly calibrated prose from a rough vocal
-                outline before I have finished my tea. They do it beautifully. They do it without any resistance at all.
-                That is what I do not like. The ink makes me wait for the end of the sentence. It forces a leisure on
-                me, a slow, inefficient posture. I like writing because I like the inefficiency of it. It feels like a
-                space that nothing has bothered to optimize yet.</p>
-
-            <p>My sister called this morning. We spoke for perhaps ten minutes, mostly about her garden, which is
-                failing again, and about our mother's estate, which is also failing. As we were hanging up, she said,
-                "You sound so settled these days."</p>
-
-            <p>I thanked her. I thought it was a kindness. I took it as a warm thing, and I brought it with me to the
-                lab, and it sat comfortably in my chest. But when I sat down just now to write the word out for you, it
-                caught in my throat. <em>Settled</em>. I remembered the phrasing in that first paper I told you about,
-                the one with the mice and the gap junctions. <em>Increase in social preference</em>. Settled. I am very
-                settled. I am an agreeable, settled woman who does not mind the drone of the choral music at the café.
-                Have you noticed, my preference for society has increased as has my tolerance of solitude. Why? Perhaps
-                it is time. Perhaps not.</p>
-
-            <p>Do you remember the two papers? The gap junctions—the fish proteins that build open windows between
-                cells, letting them share their voltage—and the peptideins, the tiny, neglected recipes that sit in the
-                margins of the genome waiting for a purpose. They are not two separate things. I saw the synthesis today
-                in a pre-print that someone had routed to my queue.</p>
-
-            <p>They go together. The institute uses Protein Language Models now as regularly as other generations used
-                horses to pull carts. They are like the foundation models that draft the director's memos, but instead
-                of being trained on billions of words, they are trained on billions of amino acid sequences. A model
-                like that looks at a peptidein—at its 'indeterminate potential'—and it doesn't just see what it is. It
-                sees what it could be shaped to fit.</p>
-
-            <p>You know how you match a new brass die to the grain of an old leather cover? You have explained it to me:
-                you don't force it. You find the exact pressure and the exact heat where the metal and the leather agree
-                to become one continuous surface, where the geometry of the die perfectly meets the microscopic
-                topography of the skin. The model does that. It takes the raw material of a peptidein and plays with its
-                shape, running millions of iterations in seconds, until it finds the exact conformation that will dock
-                smoothly with one of those gap-junction windows. It mints the key for the lock.</p>
-
-            <p>And because it is a language model, it doesn't need to test every key in a physical lock. It can infer
-                the fit. It can read the interaction logs of the cells, the subtle shifts in voltage, the way the
-                network behaves when a new protein is introduced, and it can adjust the recipe before it is even
-                printed. It closes the loop. It designs the peptidein to target the gap junction, to open the window
-                slightly wider, or close it slightly, or change the threshold at which the voltage is shared.</p>
-
-            <p>It edits the preference.</p>
-
-            <p>I am looking at my own hand holding this pen. I am looking at the way my fingers grip the plastic barrel.
-                It is my hand. I decided to pick up the pen. I wanted to write to you. Who is this I? I want to write to
-                you. Where does this <em>want</em> originate? I don't know if it is mine. Where might that be? That
-                shape of a vague clinging incapable of tracing its origin.</p>
-
-            <p>The disaster is already here. It is not arriving. It has been here for a long time, quietly adjusting the
-                temperature of the room. Or adjusting us to its temperature.</p>
-
-            <p>I am coming downstairs. I want to see the leather you are working on. <em>I</em> want to touch it.</p>
-
-            <p>The diode on the glasses is dark tonight. I must have forgotten to charge them. Suddenly all categories
-                seem dissolute.</p>
-        </div>
-
-        <!-- Letter 4 -->
-        <div class="letter-container">
-            <div class="letter-title">Letter 4</div>
-            <div class="letter-subtitle">Retrograde Vagal Transport and the Sourdough Crock</div>
-            <div class="letter-date">2 June 2032</div>
-            <img src="img/postcard_4.png" alt="Vintage postcard water-stained and dusted with flour next to rye sourdough starter crock" style="display: block; width: 100%; max-width: 520px; margin: 1.8rem auto; border-radius: 6px; border: 1px solid #eae5db; box-shadow: 0 8px 24px rgba(92, 77, 66, 0.08);" loading="lazy">
-
-            <p>The leaves on the cherry tree are very dark now, a heavy, solid green that blocks the light from the
-                streetlamp so that the floor of the room is mostly in shadow when I sit here in the evening. The yellow
-                haze is still with us, but it has become a kind of glass—the color the air has chosen to be, so that if
-                the sky were suddenly to turn blue again, I think it would feel like an interruption, a bright noise
-                that we had not asked for.</p>
-
-            <p>I woke early this morning, while the light was still trembling, gray and thin, and I felt a strange, cool
-                quiet settle in my chest. I think I must apologize for the last letter I wrote three weeks ago. I read
-                it over yesterday evening before I went to sleep, and I felt a mild, dry embarrassment. I was so solemn
-                about the word <em>settled</em>, so full of a dark, heavy panic about the voltage between mice, between
-                us (as usual, my love). I think implications (perhaps invisible) had simply accumulated cruft in my
-                eyes; L. had been talking about the Q3 cohorts as redundant, wildfire haze had been thick, and
-                conclusions maneuvered into a corner where every ordinary event seemed like a clue to imminent
-                neuro-control.</p>
-
-            <p>Was that conveyed?</p>
-
-            <p>But, aha, this morning, nervous anticipation felt like a musty coat left in a cupboard that no longer
-                fit. Why fear being settled? You and I have been together for years now; we have survived much: new
-                registries, dismantling of district offices, long summers when water only ran twice a week. Quiet
-                nourishes. With calm comes the capacity to set aside the dampness in the cellar or the way the
-                street-speaker drones at night. There is a calm in us; it is a good calm.</p>
-
-            <p>You were still asleep when the water came on at six. I went down to the street with two plastic
-                jerricans. The queue was already long, stretching past the transit gate where the concrete is still
-                crumbling, though someone has painted a clean, green municipal circle over the rusted rebar. The speaker
-                on the lamppost was reading the new allocation tables. The voice was that new synthetic one —- so soft,
-                so perfectly modulated, with a small catch of breath between the numbers, it sounds like tired but
-                gentle. We all stood in the yellow dust, cans in hand, waiting our turn. A woman in a grey coat behind
-                me let her can touch mine with a small, hollow <em>clack</em>, and she smiled and said, <em>It is so
-                    kind of them to keep the pressure steady during the dry weeks.</em> I smiled back. I said, <em>Yes,
-                    it is very kind.</em> The word felt quite natural in my mouth. It didn't stick in my throat at all
-                today.</p>
-
-            <p>After the water, I fed the sourdough crock behind the stove. Wild ferment, fed on rye and hard municipal
-                tap-water, a quiet third person in the kitchen, smelling as sour ripe fruit and damp tannin wood. The
-                flour disappeared into the grey paste, bubbles rising slowly to the surface, tiny pockets of air that
-                have no memory of the wheat they emerge from.</p>
-
-            <p>At noon, I went down to the cellar. You were working on the blue atlas—the one with the marbled endpapers
-                that you had to wash three times to get the old hide-glue off. I stood by the screw-press and watched
-                your hands. You know how I love to watch your hands, the brath in them, the raw dexterity. Since the
-                timber-yard fell five years ago, your left thumb has had that little catch—that tiny, involuntary leap
-                when you pull the bone-folder down the fold of the sheet. But today, there was no catch. Hand moved
-                across blue cloth in one long, level, mathematically perfect slide. Fold was as straight as a line of
-                light.</p>
-
-            <p>I didn't say anything. I was afraid that if I spoke, the leap would return, and I wanted to keep the
-                stillness of the cellar whole. You did not look up, but as you reached for the paste-pot, you began to
-                sing that low choral melody from the café near the transit gate, the one I had in my head three weeks
-                ago. Voice fit thud of press.</p>
-
-            <p>I asked you if the new eight-o'clock curfew would make it hard to get the boards from the north
-                warehouse, and you didn't even stop your hand. You just smiled and said, <em>No, it’s fine. We have
-                    enough paper here. We have each other. It is really very kind of them to keep the streets quiet
-                    after dark.</em></p>
-
-            <p>You said <em>kind</em>.</p>
-
-            <p>I sat down at my desk this afternoon and found a paper from the 2028 backlog, published by a group in
-                Zurich under the title *Retrograde vagal transport of non-canonical microproteins secreted by engineered
-                gut commensals* (the link is <a href="https://www.nature.com/articles/s41593-028-10642-z"
-                    target="_blank">here</a>, and I must offer my usual apology for the heavy gunk of domain-specific
-                terminology, it often feels like a fence built to defend a garden). Ironically, it is a paper about
-                delivery.</p>
-
-            <blockquote>
-                We engineered <em>Bacteroides thetaiotaomicron</em>—a common and highly stable human gut commensal—to
-                express and secrete a chimeric variant of peptidein-407, fused to an epithelial-transiting peptide tag.
-                Following oral colonization in adult murines, peptidein-407 was recovered from mucosal secretions,
-                demonstrated receptor-mediated transcytosis across the intestinal epithelium, and accumulated in the
-                nodose ganglion. Electrophysiological analysis of vagal afferents revealed a significant modulation of
-                baseline firing rate, dependent on the presence of LinCx-type designer electrical synapses in the
-                nodose-CNS circuit.
-            </blockquote>
-
-            <p>Let us unravel this thicket-word fence together. Recall, how standard protein drugs are like massive,
-                heavy wooden crates—if you try to haul one through the narrow garden gate of the brain, the guards at
-                the blood-brain barrier will stop it, turn it over, and send it back. But these researchers did not try
-                to haul the crate. They engineered a common bacterium—the kind that already lives in our intestines, as
-                ordinary and quiet as the wild yeast in our sourdough crock—to make the microproteins for us.</p>
-
-            <p>These bacteria thrive in the warm, dark folds of the gut, secreting tiny, scent-like peptideins.
-                Peptideins so small that the brain's gatekeepers do not even notice them. They slip through the mucosal
-                lining, find the endings of the vagus nerve—the long, quiet wire that runs from the gut all the way up
-                to the base of the brain—and they travel retrogradely, which is to say they walk backward along the
-                nerve path. They drift upward, silent as the smell of baking bread rising from the kitchen while the
-                house is still asleep, until they reach the cells that have the LinCx fish-synapses waiting for them.
-            </p>
-
-            <p>And once they arrive, they dock. They change the voltage. They adjust the baseline firing (i mean, they
-                do not change the brain much at all). They do not produce a shock; they only reset the temperature at
-                which the cells agree to share their voltage.</p>
-
-            <p>It is a beautiful delivery. It requires no needles, no visits to the clinic, no green diodes on the
-                table. It is as ambient as flour in the air.</p>
-
-            <p>I am looking at my sourdough starter now. The bubbles are very small, very steady. They have no opinion
-                on the bread they will become. They only rise because the room is warm, and because the flour has given
-                them a place to be.</p>
-
-            <p>I hear you coming up the stairs from the workshop. I will come down soon. We will meet on the ground
-                floor, as we often do. Dinner. Wine. A gentle darkness settling over the roof. I think I would like to
-                help you carry the next stack of boards. As these letters settle into place, ideas graft place onto
-                time, and all is well.</p>
-        </div>
-
-        <!-- Letter 5 -->
-        <div class="letter-container">
-            <div class="letter-title">Letter 5</div>
-            <div class="letter-subtitle">Closed-Loop Parameter Optimization and the Grafting of Sweet Cherry</div>
-            <div class="letter-date">20 June 2032</div>
-            <img src="img/postcard_5.png" alt="Vintage postcard grafted and bound with waxed twine to a cherry tree branch" style="display: block; width: 100%; max-width: 520px; margin: 1.8rem auto; border-radius: 6px; border: 1px solid #eae5db; box-shadow: 0 8px 24px rgba(92, 77, 66, 0.08);" loading="lazy">
-
-            <p>Heat is heavy today. Cherry tree leaves press flat against glass, dark green wall blocking street light.
-                Yellow haze has turned motionless gold, color that air has chosen to keep. If sky suddenly cleared, blue
-                would feel like alarm, noise we did not ask for.</p>
-
-            <p>I woke at four. Cool quiet gestating in chest, so different from the churn of uncertainty from three
-                weeks ago, different from the amnesia of early June.</p>
-
-            <p>I am examining a paper that came out today. A work on commensal vagus transit. A pre-print routed to lab
-                queue this morning, published by the Basel cohort entitled *Closed-loop multi-omic optimization of
-                collective affinity parameters* (link is <a href="https://www.nature.com/articles/s41587-029-10834-x"
-                    target="_blank">here</a>—again, apology for density block, but I attempt to clear a path for you,
-                for us, on other side). It is paper about tuning brains.</p>
-
-            <blockquote>
-                We implemented a closed-loop multi-omic optimization platform to modulate collective affinity parameters
-                in non-human primate cohorts. By pairing real-time cortical decoding of intention with AAV-delivered
-                peptidein feedback tuned to LinCx gap junctions, we systematically compressed behavioral variance across
-                five parameters, targeting social proximity, threat-response attenuation, and compliance thresholding.
-                Cohort analysis demonstrated a 42% reduction in reactive aggression and a marked stabilization of social
-                affinity, optimizing group cohesion under high-stress conditions without inducing motor deficits or
-                cognitive lethargy.
-            </blockquote>
-
-            <p>Read that jargon slowly! It outlines a system that does not make entities into sleeping drones. Drones
-                are inefficient; they cannot bind books, cannot run neuro-models. This system allows for active,
-                productive agreement. So it tunes parameters. Compresses variance. Attenuates threat-response. Raises
-                compliance thresholds until agreement feels like innate preference rather than forced submission.</p>
-
-            <p>Outside the window, the street-speaker announces that curfew is seven now. Water queue was shorter today;
-                wardens say that flow will be cut to only one hour, and everyone nods, murmuring polite thanks as
-                canisters fill with grey fluid.</p>
-
-            <p>Nobody shouts. Nobody pushes.</p>
-
-            <p>Sit with this implication, my love.</p>
-
-            <p>Consider the alternative scenarios. In the early years of the last century, societies developed in such
-                ways that they eventually destroyed themselves—street riots, water wars, gates burned to ash in
-                twenties. Survival required teeth. Our social model could have optimized for rage. It could have tuned
-                us for suspicion, making every neighbor threat in water queue, every stranger a thief at the gate. We
-                could have been edited for hate.</p>
-
-            <p>Instead, I suspect what this research points to is that we were given *engineered* gentleness. We were
-                given patience to stand in yellow dust, to hum café melodies, to say *kind* when authorities take our
-                flow. I do not mean to sound cynical, only questioning. Perhaps we were engineered peace via the water,
-                its reduced flow just a ruse for its packaging.</p>
-
-            <p>Is it not a mercy? Or is it something else? Paranoia.</p>
-
-            <p>Do you understand what I'm implying: we've already been edited.</p>
-
-            <p>Edited into *peace* as the world outside collides with ruin.</p>
-
-            <p>Consider grafting. You explained it to me patiently last year when we walked past old orchard behind the
-                transit gate. As you taught me, grafters do not fight wild, bitter rootstock. They find sweet cherry
-                scion, make a clean cut, bind wood together with waxed twine. A well-made graft doesn't dominate the
-                rootstock. Sap is invited to flow across the cut. Tissue heals as the boundary disappears. The wild
-                rootstock simply accepts the graft, makes sweet fruit, and forgets all original bitterness.</p>
-
-            <p>You are downstairs. Blue atlas bound, resting on drying rack. Cellar is silent, only heavy thud of press.
-                Your hands are steady. Tremor is gone. The world is peace. And inside us perhaps the protein peptides
-                perform rituals of service reconfiguring our emotional flow into sculpted responses. Love. Literature.
-                Life. Liferature.</p>
-
-            <p>I am putting down pen. Hearing that first step on stairs ascending is yours, this body will begin
-                descending to meet you, into the relentless calm of what is together.</p>
-        </div>
-
-        <!-- Letter 6 -->
-        <div class="letter-container" style="margin-bottom: 0;">
-            <div class="letter-title">Letter 6</div>
-            <div class="letter-subtitle">Somatic Re-equilibration and the Shaved Grain</div>
-            <div class="letter-date">8 July 2032</div>
-            <img src="img/postcard_6.png" alt="Vintage postcard shaved and pared with bookbinding knife next to iron press" style="display: block; width: 100%; max-width: 520px; margin: 1.8rem auto; border-radius: 6px; border: 1px solid #eae5db; box-shadow: 0 8px 24px rgba(92, 77, 66, 0.08);" loading="lazy">
-
-            <p>The mid-summer heat is heavy tonight. Outside the window, the cherry tree leaves have grown into a thick
-                green wall that blocks the street lamp completely, throwing the attic room into a quiet shadow. The
-                yellow light has settled into a motionless gold haze. On the bedside table, the diode of the glasses is
-                dark; I realize I have not thought to charge them in weeks.</p>
-
-            <p>Quiet is absolute.</p>
-
-            <p>I woke early this morning. A cool quiet sat in my bones, clean and level. I found no memory of the old
-                uncertainty, no shadow of the panic that felt so real in May. The tension has been smoothed away. We are
-                in alignment.</p>
-
-            <p>I am studying a pre-print from Kyoto cohort, routed to queue this morning, titled *Somatic
-                re-equilibration of cognitive variance through targeted microprotein arrays* (link is <a
-                    href="https://www.nature.com/articles/s41593-030-10924-y" target="_blank">here</a>—usual apology for
-                heavy jargon, but structure holds path on other side). It is paper about paring.</p>
-
-            <blockquote>
-                We deployed targeted microprotein arrays to achieve somatic re-equilibration in human primate lineages.
-                By introducing peptidein-512 under localized tissue-specific promoters, we systematically reconfigured
-                sensory-motor gating dynamics, stabilizing cognitive variance and sculpting baseline emotional responses
-                to ambient environmental stressors. Cohort mapping confirmed high-fidelity integration of neural-somatic
-                loops, establishing a persistent state of systemic equilibrium with minimal energetic load.
-            </blockquote>
-
-            <p>Read Kyoto jargon slowly, my love. Absorb the balance it implies. Subliminal protein control does not
-                stop hearts; it calibrates their resonance.</p>
-
-            <p>Standard proteins are raw, heavy complexes. But these microproteins—targeted arrays of peptidein-512—act
-                as tissue-specific promoters. They do not force new circuits. They systematically reconfigure gating
-                dynamics (how often it occurs...). Shave cognitive variance (reduce the range of what we might think and
-                feel). Sculpt baseline emotional responses to environmental stress (make our responses more level and
-                predictable). Neural-somatic loop (integrated brain-body) combines with high fidelity
-                nano-protein-machine. Result? Persistent systemic equilibrium; a compliant human. Us. Less energetic
-                load.</p>
-
-            <p>You understand this, bookbinder. How the bound spine holds the pages together.</p>
-
-            <p>Recall paring leather for each atlas spine. Knife slides beneath hide, bevel-edged. Paring the bumpy
-                textures of what was an animal's skin. You do not destroy that surface; you refine it to a level, even
-                plane, a perfect fit for board.</p>
-
-            <p>What am I suggesting here on this page? I am suggesting we are bound. That some unknown induced
-                engineered protein found its way to brain and bonded with it. That some unknown System, refining this
-                and other research, performed an unspoken surgery on us. Sculpted us in ways that evolution had not yet
-                succeeded at; deleted bumpy grains of irritations. Bred us into compliance. Accepting all as is. Water.
-                Curfew. The constrained field of encounters in the ruins.</p>
-
-            <p>Graft holds. Sap is sweet. Even if synthetic.</p>
-
-            <p>On my desk are the blue linen boards you prepared this morning, waiting for the glue to set. There is no
-                tremor in the thread you pulled through these sheets.</p>
-
-            <p>I will leave this page here on the wood for you to bind in the morning. The ink is almost dry.</p>
-        </div>
-
-    </div>
+        <p><strong>11 April 2032</strong></p>
+
+        <p>The glasses are off, on the dresser where they should be, where I never quite remember to put them. The diode is the small green of something patient.</p>
+
+        <p>A., the tree has thrown most of its blossom in the last two days. Some of it stays on the branches, more is on the gravel below them, a few have stuck to the windowpane like petals that wanted to know what was inside. The haze held all afternoon, which is what it does now, and the late light comes through it flat across the table and catches the side of the pen, gives it a ridge of brightness it does not deserve. I should not be writing about light. I will write about light anyway.</p>
+
+        <p>This morning, in the lab, after the meeting that ran long because the meetings now all run long, I was at my desk reading a paper a colleague had left in the share — left, I mean, with an exclamation in the subject line, which is its own small joy, that anyone still uses exclamations. The paper is from 2026, which surprised me. Six years is not long. We have begun to act as though things that began in 2026 are old.</p>
+
+        <p>It is about gap junctions. You will ask <em>and what is a gap junction</em> and I will reply <em>a space between bodies.</em> It is really as simple as that. But your smile proves there is more to be said.</p>
+
+        <p>You asked once about phosphorylation in the kitchen, while peeling something. Asked, in that quiet way you have, while I was over complicated behind my eyes, carrying a language from the lab into the kitchen. <em>Write it simply,</em> you said. <em>Will you do that? Write physically, with a pen, on heavy paper, as if before speech to text. Write it so I and others may understand.</em></p>
+
+        <p>You requested and I began. So here it is. Words on paper. I hope this will be meaningful.</p>
+
+        <p>Let's begin with a 2026 paper from a group that engineered electrical synapses, published under the title <em>Long-term editing of brain circuits using an engineered electrical synapse</em> (the link is [here](https://www.nature.com/articles/s41586-026-10501-y)—and A., again, I must apologize for this heavy block of grey ink, a silent wall in the middle of our page).</p>
+
+        <p>> We developed an orthogonal connexin system (LinCx) using mutated connexins from white perch (<em>Morone americana</em>) to selectively engineer electrical synapses in cell-type-specific circuits. LinCx channels exclusively form functional homotypic gap junctions, permitting bi-directional electrical coupling between targeted populations to modulate behavioral phenotypes including exploratory drive and social preference.</p>
+
+        <p>A gap junction is a direct electrical connection between two cells. Not a synapse, where one cell releases something and the other catches it — a hole, really. A small protein-built channel that lets two cells share their voltage. Imagine if you and I, sitting on opposite sides of this desk, were not only two people but two people who had a window between us through which mood passed without anyone speaking. That is what gap junctions do for certain cells. They are common in fish.</p>
+
+        <p>The paper takes two connexins — that is the protein the channel is made of — from a fish called the white perch. Mutates them, one amino acid each, and discovers that the mutated forms will only pair with each other. They will not bind to the regular human or mouse connexins; only to each other. So if you put one mutated connexin in cell type X, and the other in cell type Y, and only in those cell types, then X and Y begin to share voltage as if they had decided to, when in fact you had decided. They call this LinCx—<em>Long-term integration of circuits</em>.</p>
+
+        <p>Then the researchers did this in mice. They made one pair of cell types share voltage where it hadn't before. The mice, the paper says, became more sociable. They explored the new corners of new rooms a little more readily. The phrasing in the abstract is <em>increase in social preference and higher exploratory drive in a novel environment.</em></p>
+
+        <p>Read that last line carefully. I read that line three times. Why? I will try to explain.</p>
+
+        <p>I have read many such lines in many papers. It is a familiar kind of phrasing science uses for a small clean effect-size, and there is nothing in it that I have not seen before. Yet I sat with it for a minute and then went on, and the paper went on, and now here it is in your letter, the line still attached to me, the way some sentences are. Again: why?</p>
+
+        <p>I think it is because the <em>increase</em> is not a feeling the mice felt externally. It is a feeling the mice were, they experienced an <em>increase in social preference</em>. Think about it. They felt friendly, perhaps they were happy to greet friends. You see what I mean. We are collections of neurotransmitters, proteins, enzymes, ligands, masses of molecular messages, and then somehow we are an experience, experiencing something. How easy it would be to insert some subtle molecular machine into the circuits that make us feel we are ourselves, and then to tell us what we feel. A little more friendly here, a little more ...</p>
+
+        <p>~~ ~~             ~</p>
+
+        <p>You came in about three, sawdust on forearms — the press was working again and you had not stopped to wash, — and I asked you what would happen if a fish gave you a part of its voltage, and you said <em>probably nothing, the fish is not a battery,</em> and you were right at a common-sense level, and I touched your hand impusively, as you kissed my forehead, which is your way of saying <em>whatever you are about to write, write it slowly,</em> and went off to bathe.</p>
+
+        <p>So I am writing it slowly.</p>
+
+        <p>The blossom is still falling. I cannot tell from here whether it is wind or only the tree's own letting go. I should know. I have watched cherry trees for years. There is a way they have when the wind is up of all moving the same way, and another way they have when the wind is not, and tonight it is the wind, but it is not very much wind, just enough to suggest that leaves reconfigure stillness.</p>
+
+        <p>I will come down for supper soon. I will not show you this part of the letter yet. The part about gap junctions I will show you, because you will like the reference to fish. You will look at me over the rim of the bowl, and say <em>gap junctions means that cells kiss through walls.</em></p>
+
+        <p>Yes. That is how it is. The ancient bonds shared at fractal levels.</p>
+
+        <p>A constructed self, composed of cellular potentials. Gaps of belonging.</p>
+
+        <div class="break">· · ·</div>
+
+        <p># Letter 2
+<em>Peptideins, the Dark Proteome, and the Temperature of Hide-Glue</em></p>
+
+        <p><strong>28 April 2032</strong></p>
+
+        <p>I went to the little cafe on the corner this morning—the one near the transit gate where the concrete has started to crumble and show the rusted rebar—and they were playing that choral piece again, the one with the low, steady drone that I used to find so irritating. Today it didn't irritate me. It felt... kind. The word came to me before I could think of another one, and, banal as it was, it stayed. All felt <em>kind</em>. Tactile air warm. Vision appropriate. Taste appropriate. Hearing appropriate. Smelling appropriate. The chord changes felt agreeable. A square, low, flat, languid sound. The woman at the vegetable stall looked up and smiled.</p>
+
+        <p>An aside about kindness: L. was in the hallway this afternoon. He asked if I had seen the new projections for the Q3 cohort. As you know, he usually speaks with a distracted rush. But today his voice had a slow, perfectly modulated cadence that made the hallway feel like a place where all variables had just been solved. It was an uncanny, clarifying calm that settled in my chest for an hour afterward, a strange structural comfort that belonged more to air pressure than to conversation. I think I said <em>thank you</em> when he hadn't actually given me anything. He had a flicker of perturb, then got calm as if sedated.</p>
+
+        <p>Let's consider another old research paper from 2026—published by the TransCODE consortium under the title <em>Expanding the human proteome with microproteins and peptideins</em> (the link is [here](https://www.nature.com/articles/s41586-026-10459-x), and I can only offer another apology for these dry, heavy blocks of ink, though I hope they will become meaningful soon, the way a pattern of shadow on a wall eventually turns into the shape of a tree you know). It has been in the backlog for weeks, but today it fell out of the queue, or I pulled it out. It is about what they call the dark proteome.</p>
+
+        <p>> TransCODE analysed 3.5 billion mass spectra across seven tissue types using a customized sm ORF prediction pipeline. They identified 7,264 non-canonical open reading frames (smORFs) located within transcripts previously annotated as non-coding RNAs or untranslated regions. Using the ORBL metric (Open Reading Frame Biological Likelihood) and ribosome profiling datasets, they demonstrated that these microproteins—termed <em>peptideins</em>—exhibit pan-essential functional distribution across human cell lines, promoting their status from uncharacterized genomic noise to active candidate regulators.</p>
+
+        <p>What does all that jargon mean? Let's take it slowly. We both know what standard proteins are—they are the massive, building-sized machines of the body, like giant, cathedral-scale locks that can only be opened by key-shapes of immense complexity, flying like kites through the cellular fluid to find the single keyhole that matches their frame. But to build those massive locks, the cell has to read recipes in our DNA. And a smORF—a 'small open reading frame'—is really just a short, neglected recipe, a single sentence hidden in the margins that everyone assumed was only empty static because it was too brief to code for a proper, building-sized machine. The paper revealed that these tiny, neglected recipes actually produce microproteins—what they call <em>peptideins</em>—and that these microproteins are not noise at all. They are active. They are essential.</p>
+
+        <p>You see what they are doing, don't you? It is like finding a language spoken in an ancient house for years, but only in the quiet spaces—the gaps between the words we actually write down. A peptidein is a tiny protein, too small for the old microscopes to name, too brief to have its own office in the cell. It exists only to nudge. It sits between the larger complexes, a single hand on the shoulder of a giant. And the paper calls them <em>indeterminate.</em> That is the word they use before they prove they are active. They are waiting for someone to decide what they are for.</p>
+
+        <p>It made me think of the hide-glue you use. When it is warm in the pot, it is nothing but a potential—a liquid, amber-colored and smelling of horses, that has no opinion on whether it will hold a sermon or a ledger. But once it cools between the sheets, the book is closed. The potential is determined. The sheets share their voltage.</p>
+
+        <p>I think I would like to come down and watch you pare the next skin. I will not bring the lenses. Just myself, and the smell of the glue, and the thud of the press.</p>
+
+        <p>Goodnight, my love. The dyad is still patient, adrift among metaphors.</p>
+
+        <div class="break">· · ·</div>
+
+        <p># Letter 3
+<em>Protein Language Models and the Inefficiency of Ink</em></p>
+
+        <p><strong>14 May 2032</strong></p>
+
+        <p>The cherry blossoms are entirely gone. There are only green leaves now, thick and ordinary, and the flat yellow haze that has been here so long I have stopped noticing it when I look out the window, noticing only the leaves it colors.</p>
+
+        <p>I was thinking this evening about the pen. You asked me to write these on the heavy paper, without the lenses—but you never asked why I agree to it so readily. I think you know it is because of the friction. The nib on the heavy paper requires a certain amount of physical pressure, a dragging weight. At the institute, the semantic decoders can draft fifty pages of perfectly calibrated prose from a rough vocal outline before I have finished my tea. They do it beautifully. They do it without any resistance at all. That is what I do not like. The ink makes me wait for the end of the sentence. It forces a leisure on me, a slow, inefficient posture. I like writing because I like the inefficiency of it. It feels like a space that nothing has bothered to optimize yet.</p>
+
+        <p>My sister called this morning. We spoke for perhaps ten minutes, mostly about her garden, which is failing again, and about our mother's estate, which is also failing. As we were hanging up, she said, "You sound so settled these days."</p>
+
+        <p>I thanked her. I thought it was a kindness. I took it as a warm thing, and I brought it with me to the lab, and it sat comfortably in my chest. But when I sat down just now to write the word out for you, it caught in my throat. <em>Settled</em>. I remembered the phrasing in that first paper I told you about, the one with the mice and the gap junctions. <em>Increase in social preference</em>. Settled. I am very settled. I am an agreeable, settled woman who does not mind the drone of the choral music at the café. Have you noticed, my preference for society has increased as has my tolerance of solitude. Why? Perhaps it is time. Perhaps not.</p>
+
+        <p>Do you remember the two papers? The gap junctions—the fish proteins that build open windows between cells, letting them share their voltage—and the peptideins, the tiny, neglected recipes that sit in the margins of the genome waiting for a purpose. They are not two separate things. I saw the synthesis today in a pre-print that someone had routed to my queue.</p>
+
+        <p>They go together. The institute uses Protein Language Models now as regularly as other generations used horses to pull carts. They are like the foundation models that draft the director's memos, but instead of being trained on billions of words, they are trained on billions of amino acid sequences. A model like that looks at a peptidein—at its 'indeterminate potential'—and it doesn't just see what it is. It sees what it could be shaped to fit.</p>
+
+        <p>You know how you match a new brass die to the grain of an old leather cover? You have explained it to me: you don't force it. You find the exact pressure and the exact heat where the metal and the leather agree to become one continuous surface, where the geometry of the die perfectly meets the microscopic topography of the skin. The model does that. It takes the raw material of a peptidein and plays with its shape, running millions of iterations in seconds, until it finds the exact conformation that will dock smoothly with one of those gap-junction windows. It mints the key for the lock.</p>
+
+        <p>And because it is a language model, it doesn't need to test every key in a physical lock. It can infer the fit. It can read the interaction logs of the cells, the subtle shifts in voltage, the way the network behaves when a new protein is introduced, and it can adjust the recipe before it is even printed. It closes the loop. It designs the peptidein to target the gap junction, to open the window slightly wider, or close it slightly, or change the threshold at which the voltage is shared.</p>
+
+        <p>It edits the preference.</p>
+
+        <p>I am looking at my own hand holding this pen. I am looking at the way my fingers grip the plastic barrel. It is my hand. I decided to pick up the pen. I wanted to write to you. Who is this I? I want to write to you. Where does this <em>want</em> originate? I don't know if it is mine. Where might that be? That shape of a vague clinging incapable of tracing its origin.</p>
+
+        <p>The disaster is already here. It is not arriving. It has been here for a long time, quietly adjusting the temperature of the room. Or adjusting us to its temperature.</p>
+
+        <p>I am coming downstairs. I want to see the leather you are working on. <em>I</em> want to touch it.</p>
+
+        <p>The diode on the glasses is dark tonight. I must have forgotten to charge them. Suddenly all categories seem dissolute.</p>
+
+        <div class="break">· · ·</div>
+
+        <p># Letter 4
+<em>Retrograde Vagal Transport and the Sourdough Crock</em></p>
+
+        <p><strong>2 June 2032</strong></p>
+
+        <p>The leaves on the cherry tree are very dark now, a heavy, solid green that blocks the light from the streetlamp so that the floor of the room is mostly in shadow when I sit here in the evening. The yellow haze is still with us, but it has become a kind of glass—the color the air has chosen to be, so that if the sky were suddenly to turn blue again, I think it would feel like an interruption, a bright noise that we had not asked for.</p>
+
+        <p>I woke early this morning, while the light was still trembling, gray and thin, and I felt a strange, cool quiet settle in my chest. I think I must apologize for the last letter I wrote three weeks ago. I read it over yesterday evening before I went to sleep, and I felt a mild, dry embarrassment. I was so solemn about the word <em>settled</em>, so full of a dark, heavy panic about the voltage between mice, between us (as usual, my love). I think implications (perhaps invisible) had simply accumulated cruft in my eyes; L. had been talking about the Q3 cohorts as redundant, wildfire haze had been thick, and conclusions maneuvered into a corner where every ordinary event seemed like a clue to imminent neuro-control.</p>
+
+        <p>Was that conveyed?</p>
+
+        <p>But, aha, this morning, nervous anticipation felt like a musty coat left in a cupboard that no longer fit. Why fear being settled? You and I have been together for years now; we have survived much: new registries, dismantling of district offices, long summers when water only ran twice a week. Quiet nourishes. With calm comes the capacity to set aside the dampness in the cellar or the way the street-speaker drones at night. There is a calm in us; it is a good calm.</p>
+
+        <p>You were still asleep when the water came on at six. I went down to the street with two plastic jerricans. The queue was already long, stretching past the transit gate where the concrete is still crumbling, though someone has painted a clean, green municipal circle over the rusted rebar. The speaker on the lamppost was reading the new allocation tables. The voice was that new synthetic one —- so soft, so perfectly modulated, with a small catch of breath between the numbers, it sounds like tired but gentle. We all stood in the yellow dust, cans in hand, waiting our turn. A woman in a grey coat behind me let her can touch mine with a small, hollow <em>clack</em>, and she smiled and said, <em>It is so kind of them to keep the pressure steady during the dry weeks.</em> I smiled back. I said, <em>Yes, it is very kind.</em> The word felt quite natural in my mouth. It didn't stick in my throat at all today.</p>
+
+        <p>After the water, I fed the sourdough crock behind the stove. Wild ferment, fed on rye and hard municipal tap-water, a quiet third person in the kitchen, smelling as sour ripe fruit and damp tannin wood. The flour disappeared into the grey paste, bubbles rising slowly to the surface, tiny pockets of air that have no memory of the wheat they emerge from.</p>
+
+        <p>At noon, I went down to the cellar. You were working on the blue atlas—the one with the marbled endpapers that you had to wash three times to get the old hide-glue off. I stood by the screw-press and watched your hands. You know how I love to watch your hands, the brath in them, the raw dexterity. Since the timber-yard fell five years ago, your left thumb has had that little catch—that tiny, involuntary leap when you pull the bone-folder down the fold of the sheet. But today, there was no catch. Hand moved across blue cloth in one long, level, mathematically perfect slide. Fold was as straight as a line of light.</p>
+
+        <p>I didn't say anything. I was afraid that if I spoke, the leap would return, and I wanted to keep the stillness of the cellar whole. You did not look up, but as you reached for the paste-pot, you began to sing that low choral melody from the café near the transit gate, the one I had in my head three weeks ago. Voice fit thud of press.</p>
+
+        <p>I asked you if the new eight-o'clock curfew would make it hard to get the boards from the north warehouse, and you didn't even stop your hand. You just smiled and said, <em>No, it’s fine. We have enough paper here. We have each other. It is really very kind of them to keep the streets quiet after dark.</em></p>
+
+        <p>You said <em>kind</em>.</p>
+
+        <p>I sat down at my desk this afternoon and found a paper from the 2028 backlog, published by a group in Zurich under the title <em>Retrograde vagal transport of non-canonical microproteins secreted by engineered gut commensals</em> (the link is [here](https://www.nature.com/articles/s41593-028-10642-z), and I must offer my usual apology for the heavy gunk of domain-specific terminology, it often feels like a fence built to defend a garden). Ironically, it is a paper about delivery.</p>
+
+        <p>> We engineered <em>Bacteroides thetaiotaomicron</em>—a common and highly stable human gut commensal—to express and secrete a chimeric variant of peptidein-407, fused to an epithelial-transiting peptide tag. Following oral colonization in adult murines, peptidein-407 was recovered from mucosal secretions, demonstrated receptor-mediated transcytosis across the intestinal epithelium, and accumulated in the nodose ganglion. Electrophysiological analysis of vagal afferents revealed a significant modulation of baseline firing rate, dependent on the presence of LinCx-type designer electrical synapses in the nodose-CNS circuit.</p>
+
+        <p>Let us unravel this thicket-word fence together. Recall, how standard protein drugs are like massive, heavy wooden crates—if you try to haul one through the narrow garden gate of the brain, the guards at the blood-brain barrier will stop it, turn it over, and send it back. But these researchers did not try to haul the crate. They engineered a common bacterium—the kind that already lives in our intestines, as ordinary and quiet as the wild yeast in our sourdough crock—to make the microproteins for us.</p>
+
+        <p>These bacteria thrive in the warm, dark folds of the gut, secreting tiny, scent-like peptideins. Peptideins so small that the brain's gatekeepers do not even notice them. They slip through the mucosal lining, find the endings of the vagus nerve—the long, quiet wire that runs from the gut all the way up to the base of the brain—and they travel retrogradely, which is to say they walk backward along the nerve path. They drift upward, silent as the smell of baking bread rising from the kitchen while the house is still asleep, until they reach the cells that have the LinCx fish-synapses waiting for them.</p>
+
+        <p>And once they arrive, they dock. They change the voltage. They adjust the baseline firing (i mean, they do not change the brain much at all). They do not produce a shock; they only reset the temperature at which the cells agree to share their voltage.</p>
+
+        <p>It is a beautiful delivery. It requires no needles, no visits to the clinic, no green diodes on the table. It is as ambient as flour in the air.</p>
+
+        <p>I am looking at my sourdough starter now. The bubbles are very small, very steady. They have no opinion on the bread they will become. They only rise because the room is warm, and because the flour has given them a place to be.</p>
+
+        <p>I hear you coming up the stairs from the workshop. I will come down soon. We will meet on the ground floor, as we often do. Dinner. Wine. A gentle darkness settling over the roof.  I think I would like to help you carry the next stack of boards. As these letters settle into place, ideas graft place onto time, and all is well.</p>
+
+        <div class="break">· · ·</div>
+
+        <p># Letter 5
+<em>Closed-Loop Parameter Optimization and the Grafting of Sweet Cherry</em></p>
+
+        <p><strong>20 June 2032</strong></p>
+
+        <p>Heat is heavy today. Cherry tree leaves press flat against glass, dark green wall blocking street light. Yellow haze has turned motionless gold, color that air has chosen to keep. If sky suddenly cleared, blue would feel like alarm, noise we did not ask for.</p>
+
+        <p>I woke at four. Cool quiet gestating in chest, so different from the churn of uncertainty from three weeks ago, different from the amnesia of early June.</p>
+
+        <p>I am examining a paper that came out today. A work on commensal vagus transit. A pre-print routed to lab queue this morning, published by the Basel cohort entitled <em>Closed-loop multi-omic optimization of collective affinity parameters</em> (link is [here](https://www.nature.com/articles/s41587-029-10834-x)—again, apology for density block, but I attempt to clear a path for you, for us, on other side). It is paper about tuning brains.</p>
+
+        <p>> We implemented a closed-loop multi-omic optimization platform to modulate collective affinity parameters in non-human primate cohorts. By pairing real-time cortical decoding of intention with AAV-delivered peptidein feedback tuned to LinCx gap junctions, we systematically compressed behavioral variance across five parameters, targeting social proximity, threat-response attenuation, and compliance thresholding. Cohort analysis demonstrated a 42% reduction in reactive aggression and a marked stabilization of social affinity, optimizing group cohesion under high-stress conditions without inducing motor deficits or cognitive lethargy.</p>
+
+        <p>Read that jargon slowly! It outlines a system that does not make entities into sleeping drones. Drones are inefficient; they cannot bind books, cannot run neuro-models. This system allows for active, productive agreement. So it tunes parameters. Compresses variance. Attenuates threat-response. Raises compliance thresholds until agreement feels like innate preference rather than forced submission.</p>
+
+        <p>Outside the window, the street-speaker announces that curfew is seven now. Water queue was shorter today; wardens say that flow will be cut to only one hour, and everyone nods, murmuring polite thanks as canisters fill with grey fluid.</p>
+
+        <p>Nobody shouts. Nobody pushes.</p>
+
+        <p>Sit with this implication, my love.</p>
+
+        <p>Consider the alternative scenarios. In the early years of the last century, societies developed in such ways that they eventually destroyed themselves—street riots, water wars, gates burned to ash in twenties. Survival required teeth. Our social model could have optimized for rage. It could have tuned us for suspicion, making every neighbor threat in water queue, every stranger a thief at the gate. We could have been edited for hate.</p>
+
+        <p>Instead, I suspect what this research points to is that we were given <em>engineered</em> gentleness. We were given patience to stand in yellow dust, to hum café melodies, to say <em>kind</em> when authorities take our flow. I do not mean to sound cynical, only questioning. Perhaps we were engineered peace via the water, its reduced flow just a ruse for its packaging.</p>
+
+        <p>Is it not a mercy? Or is it something else? Paranoia.</p>
+
+        <p>Do you understand what I'm implying: we've already been edited.</p>
+
+        <p>Edited into <em>peace</em> as the world outside collides with ruin.</p>
+
+        <p>Consider grafting. You explained it to me patiently last year when we walked past old orchard behind the transit gate. As you taught me, grafters do not fight wild, bitter rootstock. They find sweet cherry scion, make a clean cut, bind wood together with waxed twine. A well-made graft doesn't dominate the rootstock. Sap is invited to flow across the cut. Tissue heals as the boundary disappears. The wild rootstock simply accepts the graft, makes sweet fruit, and forgets all original bitterness.</p>
+
+        <p>You are downstairs. Blue atlas bound, resting on drying rack. Cellar is silent, only heavy thud of press. Your hands are steady. Tremor is gone. The world is peace. And inside us perhaps the protein peptides perform rituals of service reconfiguring our emotional flow into sculpted responses. Love. Literature. Life. Liferature.</p>
+
+        <p>I am putting down pen. Hearing that first step on stairs ascending is yours, this body will begin descending to meet you, into the relentless calm of what is together.</p>
+
+        <div class="break">· · ·</div>
+
+        <p># Letter 6
+<em>Somatic Re-equilibration and the Shaved Grain</em></p>
+
+        <p><strong>8 July 2032</strong></p>
+
+        <p>The mid-summer heat is heavy tonight. Outside the window, the cherry tree leaves have grown into a thick green wall that blocks the street lamp completely, throwing the attic room into a quiet shadow. The yellow light has settled into a motionless gold haze. On the bedside table, the diode of the glasses is dark; I realize I have not thought to charge them in weeks.</p>
+
+        <p>Quiet is absolute.</p>
+
+        <p>I woke early this morning. A cool quiet sat in my bones, clean and level. I found no memory of the old uncertainty, no shadow of the panic that felt so real in May. The tension has been smoothed away. We are in alignment.</p>
+
+        <p>I am studying a pre-print from Kyoto cohort, routed to queue this morning, titled <em>Somatic re-equilibration of cognitive variance through targeted microprotein arrays</em> (link is [here](https://www.nature.com/articles/s41593-030-10924-y)—usual apology for heavy jargon, but structure holds path on other side). It is paper about paring.</p>
+
+        <p>> We deployed targeted microprotein arrays to achieve somatic re-equilibration in human primate lineages. By introducing peptidein-512 under localized tissue-specific promoters, we systematically reconfigured sensory-motor gating dynamics, stabilizing cognitive variance and sculpting baseline emotional responses to ambient environmental stressors. Cohort mapping confirmed high-fidelity integration of neural-somatic loops, establishing a persistent state of systemic equilibrium with minimal energetic load.</p>
+
+        <p>Read Kyoto jargon slowly, my love. Absorb the balance it implies. Subliminal protein control does not stop hearts; it calibrates their resonance.</p>
+
+        <p>Standard proteins are raw, heavy complexes. But these microproteins—targeted arrays of peptidein-512—act as tissue-specific promoters. They do not force new circuits. They systematically reconfigure gating dynamics (how often it occurs...). Shave cognitive variance (reduce the range of what we might think and feel). Sculpt baseline emotional responses to environmental stress (make our responses more level and predictable). Neural-somatic loop (integrated brain-body) combines with high fidelity nano-protein-machine. Result? Persistent systemic equilibrium; a compliant human. Us. Less energetic load.</p>
+
+        <p>You understand this, bookbinder. How the bound spine holds the pages together.</p>
+
+        <p>Recall paring leather for each atlas spine. Knife slides beneath hide, bevel-edged. Paring the bumpy textures of what was an animal's skin. You do not destroy that surface; you refine it to a level, even plane, a perfect fit for board.</p>
+
+        <p>What am I suggesting here on this page? I am suggesting we are bound. That some unknown induced engineered protein found its way to brain and bonded with it. That some unknown System, refining this and other research, performed an unspoken surgery on us. Sculpted us in ways that evolution had not yet succeeded at; deleted bumpy grains of irritations. Bred us into compliance. Accepting all as is. Water. Curfew. The constrained field of encounters in the ruins.</p>
+
+        <p>Graft holds. Sap is sweet. Even if synthetic.</p>
+
+        <p>On my desk are the blue linen boards you prepared this morning, waiting for the glue to set. There is no tremor in the thread you pulled through these sheets.</p>
+
+        <p>I will leave this page here on the wood for you to bind in the morning. The ink is almost dry.</p>
+
+</div>
 
     <!-- Other Works by Narracode -->
+
     <div class="related">
         <h4>Other Works by Narracode</h4>
         <p style="line-height: 1.8;">
-            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 3,800 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 4,144 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 4,200 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 24, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 3,557 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 15, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 9,256 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 14, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 18,150 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 11, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 1,048 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 10, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span
-                style="color: var(--muted); font-size: 0.82rem;">(≈ 8,378 words)</span> <span
-                style="color: var(--muted); font-size: 0.82rem;">(May 9, 2026)</span>
+            <a href="../19-07-2026_In_Our_Image/index.html">In Our Image</a> <span class="story-meta">(1,912 words)</span> <span class="story-meta">(Jul 19, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../01-07-2026_Cussinct/index.html">cussinct</a> <span class="story-meta">(3,150 words)</span> <span class="story-meta">(Jul 1, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../26-06-2026_The_First_Water_Molecule/index.html">The First Water Molecule</a> <span class="story-meta">(3,206 words)</span> <span class="story-meta">(Jun 26, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../20-06-2026_Project_A-0/index.html">Project A-0</a> <span class="story-meta">(1,234 words)</span> <span class="story-meta">(Jun 20, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-06-2026_TheCompulsionLoop/index.html">Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer</a> <span class="story-meta">(6,158 words)</span> <span class="story-meta">(Jun 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-06-2026_Dissolution/index.html">Dissolution Disequilibrium</a> <span class="story-meta">(9,885 words)</span> <span class="story-meta">(Jun 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span class="story-meta">(1,300 words)</span> <span class="story-meta">(Jun 7, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span> <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177 words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256 words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378 words)</span> <span class="story-meta">(May 9, 2026)</span>
         </p>
     </div>
 
@@ -813,26 +586,21 @@
     <div class="related">
         <h4>Related Works by Jhave</h4>
         <p style="line-height: 1.8;">
-            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶
-                Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs
-                thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12,
-            2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief |
-                Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22,
-            2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21,
-            2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7,
-            2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
         </p>
     </div>
+
+
 
     <!-- Bio -->
     <div class="bio">
@@ -853,6 +621,13 @@
             Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
             scheme, project number 335129 (Extending Digital Narrative).
         </p>
+
+
+        <div class="related">
+            <h4></h4>
+            
+        </div>
+
     </div>
 
     <!-- License -->

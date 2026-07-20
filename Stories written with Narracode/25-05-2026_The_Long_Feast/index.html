@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Long Feast — A Narracode Story</title>
     <meta name="description"
-        content="A Senior Director of Transition Architecture moves through a single day in the mid-21st century. A serious satire about complicity, consumption, and the recognition that almost arrives. Companion piece to The Symposium.">
+        content="A neurosymbolic narrative generated using Narracode.">
     <meta name="keywords"
-        content="AI fiction, short story, satire, climate fiction, post-singularity, longevity, water markets, Claude Sonnet, Jhave, speculative fiction, narrative">
-    <meta name="author" content="Claude Sonnet 4.6 (story) · Jhave (original idea &amp; image prompts) · Gemini 3.5 Flash (images) · 2026-05-25">
+        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
+    <meta name="author" content="Claude Opus 4.7 (Anthropic) · Jhave · The Symposium (2026-05-24) · Gemini 3.5 Flash (Google) from prompts by Jhave (via Antigravity) · 2026-05-25">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-    <!-- Open Graph -->
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="The Long Feast — A Narracode Story">
     <meta property="og:description"
-        content="A Senior Director of Transition Architecture moves through a single day in the mid-21st century. A serious satire in seven services.">
-    <meta property="og:image" content="img/header.webp">
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:image" content="img/header.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Long Feast — A Narracode Story">
     <meta name="twitter:description"
-        content="A Senior Director of Transition Architecture moves through a single day in the mid-21st century. A serious satire in seven services.">
-    <meta name="twitter:image" content="img/header.webp">
+        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:image" content="img/header.png">
 
     <style>
         :root {
@@ -122,6 +122,61 @@
             color: var(--muted);
         }
 
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
         /* Section break glyph */
         .break {
             text-align: center;
@@ -139,6 +194,11 @@
             line-height: 1.5;
             padding: 0 2rem;
             opacity: 0.85;
+        }
+
+        /* Opening of each section — small caps first phrase, optional */
+        .story p:first-of-type::first-line {
+            /* leave natural */
         }
 
         .bio,
@@ -204,7 +264,6 @@
             border-radius: 2px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
         }
-
         .chapter-heading {
             font-size: 1.55rem;
             font-weight: 700;
@@ -214,68 +273,35 @@
             line-height: 1.25;
         }
 
+        .chapter-banner {
+            display: block;
+            width: 100%;
+            max-width: 720px;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            margin: 1rem auto 2.2rem;
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
         .story-page-icon {
             display: block;
-            width: min(420px, 90vw);
-            height: min(420px, 90vw);
+            width: min(360px, 86vw);
+            height: min(360px, 86vw);
             object-fit: cover;
-            border-radius: 4px;
-            border: 1px solid #e2dcd0;
-            background: #faf9f6;
-            box-shadow: 0 15px 35px rgba(181, 148, 91, 0.08), 0 5px 15px rgba(0, 0, 0, 0.04);
-            margin: 1.5rem auto 2.2rem;
-            transition: transform 0.3s ease;
-        }
-
-        .story-page-icon:hover {
-            transform: scale(1.01);
+            border-radius: 8px;
+            border: 1px solid #e6e1da;
+            background: #f8f6f1;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+            margin: 1.2rem auto 1.8rem;
         }
 
         @media (max-width: 600px) {
             .story-page-icon {
-                width: min(300px, 86vw);
-                height: min(300px, 86vw);
-                margin-bottom: 1.6rem;
+                width: min(280px, 82vw);
+                height: min(280px, 82vw);
+                margin-bottom: 1.4rem;
             }
-        }
-
-        /* Oligarchy luxury ad style for section illustrations */
-        .oligarch-ad {
-            margin: 3rem auto;
-            text-align: center;
-            border: 1px solid #e2dcd0;
-            background: #faf9f6;
-            padding: 1.2rem;
-            border-radius: 4px;
-            box-shadow: 0 12px 30px rgba(181, 148, 91, 0.06), 0 4px 10px rgba(0, 0, 0, 0.03);
-            max-width: 600px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .oligarch-ad:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 18px 40px rgba(181, 148, 91, 0.1), 0 6px 15px rgba(0, 0, 0, 0.04);
-        }
-        
-        .oligarch-ad img {
-            width: 100%;
-            height: auto;
-            border: 1px solid #e9e5dc;
-            border-radius: 2px;
-            object-fit: cover;
-            display: block;
-            margin: 0 auto;
-        }
-        
-        .ad-tagline {
-            font-family: 'Inter', -apple-system, sans-serif;
-            font-size: 0.72rem;
-            color: #b5945b;
-            margin-top: 0.9rem;
-            font-weight: 700;
-            letter-spacing: 0.2em;
-            text-align: center;
-            text-transform: uppercase;
         }
     </style>
 </head>
@@ -285,33 +311,34 @@
     <!-- Logo -->
     <div class="logo">
         <a target="_blank" href="https://glia.ca/">
-            <img src="../../logo/glia-bw.webp" alt="Glia.ca — home">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
         </a>
     </div>
 
-    <!-- Cover image -->
-    <img src="img/header.png" alt="Cerulean Strategic Cover" class="story-page-icon" width="640" height="640">
+    <img src="img/header.png" class="story-page-icon" width="640" height="640">
 
     <!-- Title -->
     <h1>The Long Feast</h1>
 
-    <!-- Subtitle -->
-    <h2>A story generated without the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
+    <!-- Subtitle (aphoristic) -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
 
     <!-- Byline -->
-    <h5>Claude Sonnet 4.6 (story) &nbsp;·&nbsp; Jhave (original idea &amp; image prompts) &nbsp;·&nbsp; Gemini 3.5 Flash (images) &nbsp;·&nbsp; 2026-05-25</h5>
+    <h5>Claude Opus 4.7 (Anthropic) &nbsp;·&nbsp; Jhave &nbsp;·&nbsp; The Symposium (2026-05-24) &nbsp;·&nbsp; Gemini 3.5 Flash (Google) from prompts by Jhave (via Antigravity) &nbsp;·&nbsp; 2026-05-25</h5>
 
-    <!-- Word count -->
-    <h3 style="font-size: 0.82rem; color: var(--muted); margin-bottom: 2.5rem;">≈ 3,800 words &nbsp;·&nbsp; 15 min read &nbsp;·&nbsp; A Prosperous Account in Seven Services</h3>
+    <!-- Collapsible prompt -->
+    
+
+    
 
     <!-- Story -->
     <div class="story">
+        <p># The Long Feast
+## <em>A Prosperous Account in Seven Services</em></p>
+
+        <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">I.</h3>
-        <div class="oligarch-ad">
-            <img src="img/section_1.png" alt="Session I: Cerulean Residence" loading="lazy">
-            <div class="ad-tagline">Cerulean Residence · Secure Your Sunset</div>
-        </div>
 
         <p>The wellness OS delivers its report at 4:51 a.m. with the quiet satisfaction of a system that has never had a bad day.</p>
 
@@ -332,10 +359,6 @@
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">II.</h3>
-        <div class="oligarch-ad">
-            <img src="img/section_2.png" alt="Session II: Alpine Vault Reserve" loading="lazy">
-            <div class="ad-tagline">Alpine Reserve · Liquid Scarcity, Liquid Yield</div>
-        </div>
 
         <p>The Meridian Club sits in the air-rights development above the transit hub at Fennen Square, accessible from the elevated pedestrian network at Gate 7. The water comes from the Alpine Vault, which is part of Cerulean Strategic's Resilience Portfolio — a set of natural-resource positions in geologically stable, low-volatility regions that allows the firm to offer clients genuine scarcity hedges in an era of environmental price discovery. The water is cold. The lighting is the quality of northern European morning, which is a specific tone of light that communicates seriousness without severity.</p>
 
@@ -372,10 +395,6 @@
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">III.</h3>
-        <div class="oligarch-ad">
-            <img src="img/section_3.png" alt="Session III: Aldwich Transit" loading="lazy">
-            <div class="ad-tagline">Aldwich Transit · An Architecture of Flow</div>
-        </div>
 
         <p>The elevated pedestrian network runs from Fennen Square through the Kessler Green to the Cerulean Strategic tower at Aldwich Point, a distance of 1.4 kilometers. It is enclosed. The air is conditioned to 21°C and scented with something that the building's air-management system describes, in its documentation, as "Nordic Conifer Blend, Signature Profile C." This means: pine, cold, a suggestion of altitude. A suggestion of somewhere that is not here.</p>
 
@@ -394,10 +413,6 @@
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">IV.</h3>
-        <div class="oligarch-ad">
-            <img src="img/section_4.png" alt="Session IV: Biome Catering" loading="lazy">
-            <div class="ad-tagline">Biome Catering · Optimized Life, Discovered Taste</div>
-        </div>
 
         <p>The difficult call is difficult in the specific way that difficult calls in Dex's work are difficult, which is to say: not emotionally difficult, because the emotional register is not the operative register, but architecturally difficult. There are load-bearing elements that are under stress and the question is load redistribution.</p>
 
@@ -424,10 +439,6 @@
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">V.</h3>
-        <div class="oligarch-ad">
-            <img src="img/section_5.png" alt="Session V: Aethel Wellness" loading="lazy">
-            <div class="ad-tagline">Aethel Wellness · Somatic Compliance, Biometric Harmony</div>
-        </div>
 
         <p>Kel comes to the office every Tuesday and Thursday at 2 p.m. This is the mandatory wellness hour, which is not exactly mandatory in the way that employment law creates mandatories but which Cerulean Strategic has built into the day because the data shows that directors at Dex's level without structured wellness practice show cognitive degradation markers at year seven, and the firm has an interest in the cognitive capacity of its senior directors, so the wellness hour is provided as a benefit and marked on the calendar as immovable, and in this way is mandatory.</p>
 
@@ -452,10 +463,6 @@
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">VI.</h3>
-        <div class="oligarch-ad">
-            <img src="img/section_6.png" alt="Session VI: Meridian Covenant" loading="lazy">
-            <div class="ad-tagline">Meridian Covenant · Celebrate the Extraordinary</div>
-        </div>
 
         <p>The Meridian Covenant Gala is held in the Atrium at Aldwich House, which is a different tower from the Cerulean tower, connected by the elevated network. The venue is 22°C. Outside, the city advisory has announced a heat advisory in effect at 44°C with a humidity adjustment that brings the operative temperature to 49°C. Three Deep Grid zones have been issued water distribution failure notifications; the notifications explain that municipal supply will be interrupted for a period of up to forty-eight hours and that mobile distribution stations are being deployed at designated points. The mobile stations have maps. The maps are available on devices with network access. Most people in the affected zones have network access.</p>
 
@@ -482,10 +489,6 @@
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">VII.</h3>
-        <div class="oligarch-ad">
-            <img src="img/section_7.png" alt="Session VII: Aethel Sleep" loading="lazy">
-            <div class="ad-tagline">Aethel Sleep · Master the Darkness</div>
-        </div>
 
         <p>His daughter is awake.</p>
 
@@ -539,20 +542,36 @@
 
         <p>He will have work to do.</p>
 
-    </div>
+        <div class="break">· · ·</div>
+
+        <p><em>End of Services.</em></p>
+
+</div>
 
     <!-- Other Works by Narracode -->
+
     <div class="related">
         <h4>Other Works by Narracode</h4>
         <p style="line-height: 1.8;">
-            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 3,800 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 3,600 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 24, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 5,244 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 18, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 3,557 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 15, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 9,256 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 14, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 18,150 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 11, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 1,048 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 10, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span style="color: var(--muted); font-size: 0.82rem;">(≈ 8,378 words)</span> <span style="color: var(--muted); font-size: 0.82rem;">(May 9, 2026)</span>
+            <a href="../19-07-2026_In_Our_Image/index.html">In Our Image</a> <span class="story-meta">(1,912 words)</span> <span class="story-meta">(Jul 19, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../01-07-2026_Cussinct/index.html">cussinct</a> <span class="story-meta">(3,150 words)</span> <span class="story-meta">(Jul 1, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../26-06-2026_The_First_Water_Molecule/index.html">The First Water Molecule</a> <span class="story-meta">(3,206 words)</span> <span class="story-meta">(Jun 26, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../20-06-2026_Project_A-0/index.html">Project A-0</a> <span class="story-meta">(1,234 words)</span> <span class="story-meta">(Jun 20, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-06-2026_TheCompulsionLoop/index.html">Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer</a> <span class="story-meta">(6,158 words)</span> <span class="story-meta">(Jun 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-06-2026_Dissolution/index.html">Dissolution Disequilibrium</a> <span class="story-meta">(9,885 words)</span> <span class="story-meta">(Jun 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span class="story-meta">(1,300 words)</span> <span class="story-meta">(Jun 7, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span> <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177 words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256 words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378 words)</span> <span class="story-meta">(May 9, 2026)</span>
         </p>
     </div>
 
@@ -574,6 +593,8 @@
         </p>
     </div>
 
+
+
     <!-- Bio -->
     <div class="bio">
         <h4>Bio</h4>
@@ -593,6 +614,13 @@
             Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
             scheme, project number 335129 (Extending Digital Narrative).
         </p>
+
+
+        <div class="related">
+            <h4></h4>
+            
+        </div>
+
     </div>
 
     <!-- License -->
