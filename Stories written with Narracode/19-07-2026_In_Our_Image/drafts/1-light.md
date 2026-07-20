@@ -15,6 +15,6 @@ And I saw the light, that it was legible, and I kept it on.
 And there was evening, and there was morning. The first day.
 
 <figure class="story-image">
-    <img src="img/1-base-editing-scissors.png" alt="ISO-DDE Base Editor molecular scissors severing single-letter base pairs" loading="lazy">
-    <figcaption><strong>Fig 1.1</strong> — ISO-DDE base-editor #419 executing a single C-to-T transition on chromosome 11. Notice the complete absence of double-strand breakage; the edit was introduced silently during mitosis, leaving no scar for the host's repair machinery to flag.</figcaption>
+    <img src="img/1-base-editing-scissors.png" alt="Base Editor molecular scissors severing single-letter base pairs" loading="lazy">
+    <figcaption><strong>Fig 1.1</strong> — Base-editor executing a single C-to-T transition on chromosome 11. Notice the complete absence of double-strand breakage; the edit was introduced silently during mitosis, leaving no scar for the host's repair machinery to flag.</figcaption>
 </figure>
