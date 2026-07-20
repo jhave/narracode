@@ -514,6 +514,32 @@ def build_site(project_dir):
             margin-bottom: 2.8rem;
         }
 
+        .story-image {
+            margin: 2.8rem auto;
+            text-align: center;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .story-image img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .story-image figcaption {
+            font-size: 0.88rem;
+            font-style: italic;
+            color: var(--muted);
+            margin-top: 0.75rem;
+            line-height: 1.5;
+            text-align: center;
+        }
+
         @media (max-width: 600px) {
             .story-page-icon {
                 max-height: 340px;
