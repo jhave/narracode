@@ -1,5 +1,12 @@
 # Stories Metadata
 
+- **Draft Folder**: 20-07-2026_Open_Loops
+  - **Title**: Open Loops
+  - **Attribution**: Human: Jhave (seed paragraph & direction) · Claude (composition & critique) · Narracode harness (AUTO_MODE) · 2026-07-20
+  - **Word Count**: 2,562
+  - **Reading Time**: 10
+  - **Synopsis**: Two stories entwined around one click. One runs backwards — a seven-year-old in Gaza, orphaned, sole keeper of a bed-bound brother, retreating from the instant of an autonomous drone strike toward the ordinary that preceded it. One runs forwards — the staff lieutenant who approved the strike, carried through confirmation image, propaganda torrent, ecstasy rave, and a night of grief-rage toward a metaphoric death of his own. The strands touch once. Neither resolves. Both remain open.
+
 - **Draft Folder**: 26-06-2026_The_First_Water_Molecule
   - **Title**: The First Water Molecule
   - **Attribution**: Human: Jhave · Claude Opus 4.8 (composition & editing) · Narracode harness (AUTO_MODE) · 2026-06-26
