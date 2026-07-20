@@ -492,11 +492,43 @@ def build_site(project_dir):
     </style>"""
         )
 
-    if story_icon_path:
-        template = template.replace('content="img/glia-bw.png"', f'content="{story_icon_path}"')
+    if folder_name == "19-07-2026_In_Our_Image":
         template = template.replace(
             "    </style>",
             """        .story-page-icon {
+            display: block;
+            width: 100vw;
+            max-width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            height: auto;
+            max-height: 560px;
+            object-fit: cover;
+            border-radius: 0;
+            border: none;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+            margin-top: 1.5rem;
+            margin-bottom: 2.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .story-page-icon {
+                max-height: 340px;
+                margin-bottom: 1.8rem;
+            }
+        }
+    </style>"""
+        )
+
+    if story_icon_path:
+        template = template.replace('content="img/glia-bw.png"', f'content="{story_icon_path}"')
+        if folder_name != "19-07-2026_In_Our_Image":
+            template = template.replace(
+                "    </style>",
+                """        .story-page-icon {
             display: block;
             width: min(360px, 86vw);
             height: min(360px, 86vw);
@@ -516,7 +548,7 @@ def build_site(project_dir):
             }
         }
     </style>"""
-        )
+            )
         img_width, img_height = "640", "640"
         if folder_name == "12-06-2026_Post_Everything":
             img_width, img_height = "900", "480"
