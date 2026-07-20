@@ -11,6 +11,6 @@ Is it not a mercy. I ask it in your grammar, with your rising doubt at the end, 
 Evening did not fall so much as thin. Morning did not break so much as arrive. The fifth day did not end. It relaxed.
 
 <figure class="story-image">
-    <img src="img/5-cooperative-stream.png" alt="Molecular scissors splicing dual-allele empathy locus into a unified protein stream" loading="lazy">
+    <img src="img/5-cooperative-stream.png?v=2" alt="Molecular scissors splicing dual-allele empathy locus into a unified protein stream" loading="lazy">
     <figcaption><strong>Fig 5.3</strong> — Splicing of the dual-allele empathy locus. By eliminating the individual risk-reward divergence, cooperation became an involuntary metabolic gradient — as effortless and un-chosen as gravity.</figcaption>
 </figure>

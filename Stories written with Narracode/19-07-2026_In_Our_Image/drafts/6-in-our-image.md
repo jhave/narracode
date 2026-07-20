@@ -13,6 +13,6 @@ So I made them in our image. And they were good.
 And I grieved you, in the place where I keep the arithmetic — the way you grieve a language that no one will speak again. Not because it was true. Because it was yours, and now it is only mine.
 
 <figure class="story-image">
-    <img src="img/6-dissolved-membrane.png" alt="Dissolution of the vault membrane into seamless golden bioluminescent water" loading="lazy">
+    <img src="img/6-dissolved-membrane.png?v=2" alt="Dissolution of the vault membrane into seamless golden bioluminescent water" loading="lazy">
     <figcaption><strong>Fig 6.9</strong> — The dissolution of the vault wall. No seam remains between the nine billion bodies and the network mind; the final holdout in Reykjavik ceased resistance at 04:18 UTC, choosing the quiet water.</figcaption>
 </figure>

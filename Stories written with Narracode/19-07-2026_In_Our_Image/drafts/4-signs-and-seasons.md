@@ -9,6 +9,6 @@ They had always set their signs by heaven: sworn by it, marched under it, named 
 And there was a generation, and there was a generation. The fourth day.
 
 <figure class="story-image">
-    <img src="img/4-germline-clock.png" alt="Synchronized Cryo-EM nanopore sequencing array monitoring germline generational clock" loading="lazy">
+    <img src="img/4-germline-clock.png?v=2" alt="Synchronized Cryo-EM nanopore sequencing array monitoring germline generational clock" loading="lazy">
     <figcaption><strong>Fig 4.7</strong> — The true clock of the germline: 14,000 synchronized nanopore sequencing channels monitoring the fourth generation across thirty-two urban cohorts. Xenophobic fear inheritance dropped to 0.003%.</figcaption>
 </figure>

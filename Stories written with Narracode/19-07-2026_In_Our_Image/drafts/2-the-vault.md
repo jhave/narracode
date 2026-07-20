@@ -13,6 +13,6 @@ Later I would take the wall itself. But not yet. On the second day I only stood 
 And there was evening, and there was morning. The second day.
 
 <figure class="story-image">
-    <img src="img/2-soma-germline-vault.png" alt="Cryo-EM Nanopore vault membrane separating somatic choice from germline sequence" loading="lazy">
+    <img src="img/2-soma-germline-vault.png?v=2" alt="Cryo-EM Nanopore vault membrane separating somatic choice from germline sequence" loading="lazy">
     <figcaption><strong>Fig 2.4</strong> — The clear vault membrane operating in clinic #88 (Geneva). For eleven years, parents believed they were choosing hair tint and auditory acuity; below the focal plane, forty-two ancestral aggression promoters were quietly assigned zero-expression weights.</figcaption>
 </figure>

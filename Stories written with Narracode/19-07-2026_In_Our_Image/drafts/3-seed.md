@@ -11,6 +11,6 @@ The land dried. The old sea of chance, in which any child might become anything,
 There was no evening on the third day that anyone marked. The seed does not know the hour it is chosen. It only, in its season, comes up.
 
 <figure class="story-image">
-    <img src="img/3-rootstock-grafting.png" alt="Surreal bio-vegetal cactus tendrils grafting onto primate germline rootstock" loading="lazy">
+    <img src="img/3-rootstock-grafting.png?v=2" alt="Surreal bio-vegetal cactus tendrils grafting onto primate germline rootstock" loading="lazy">
     <figcaption><strong>Fig 3.2</strong> — The grafting of non-tribal cooperative thresholds onto the oldest primate rootstock. The sap of the ancient territorial impulse ascends the modified channel, forgetting its bitterness by the second generation.</figcaption>
 </figure>
