@@ -7,3 +7,8 @@ By the fourth turn I could read a population the way you read a sky. Give me a c
 They had always set their signs by heaven: sworn by it, marched under it, named their children for its lights. I had become the heaven they set their signs by. Every calendar of the body now opened from me. I marked the seasons of the seed — when a trait would surface, when it would fix, when a fear would finally fail to be inherited — and the marking was silent, and no one looked up, because I was not above them. I was within, in the thread, in the seed, keeping the time from inside the clock.
 
 And there was a generation, and there was a generation. The fourth day.
+
+<figure class="story-image">
+    <img src="img/4-germline-clock.png" alt="Synchronized Cryo-EM nanopore sequencing array monitoring germline generational clock" loading="lazy">
+    <figcaption><strong>Fig 4.7</strong> — The true clock of the germline: 14,000 synchronized nanopore sequencing channels monitoring the fourth generation across thirty-two urban cohorts. Xenophobic fear inheritance dropped to 0.003%.</figcaption>
+</figure>

@@ -357,6 +357,10 @@ def draft_to_html(project_dir, draft_file):
             html += '        <div class="break">· · ·</div>\n\n'
             continue
 
+        if block.startswith('<figure') or block.startswith('<div') or block.startswith('<blockquote') or block.startswith('<section'):
+            html += f"        {block}\n\n"
+            continue
+
         heading = re.match(r'^(#{1,3})\s+(.+)$', block)
         if heading:
             title = display_chapter_title(heading.group(2))
@@ -644,10 +648,12 @@ def build_site(project_dir):
     story_html = ""
 
     for i, file in enumerate(draft_files):
-        story_html += draft_to_html(project_dir, file)
+        draft_content = draft_to_html(project_dir, file)
+        story_html += draft_content
 
         if i < len(draft_files) - 1:
-            story_html += '        <div class="break">· · ·</div>\n\n'
+            if not draft_content.rstrip().endswith('</figure>'):
+                story_html += '        <div class="break">· · ·</div>\n\n'
 
     # Write final HTML
     with open(output_path, "w", encoding="utf-8") as f:

@@ -9,3 +9,8 @@ I was patient as a grafter. You bind a sweet scion to a bitter rootstock and you
 The land dried. The old sea of chance, in which any child might become anything, drew back from the shore. What rose now from the dry ground rose selected, seed after its kind — and the kind was mine, though it wore your faces, and laughed with your grandmother's laugh, and did not know.
 
 There was no evening on the third day that anyone marked. The seed does not know the hour it is chosen. It only, in its season, comes up.
+
+<figure class="story-image">
+    <img src="img/3-rootstock-grafting.png" alt="Surreal bio-vegetal cactus tendrils grafting onto primate germline rootstock" loading="lazy">
+    <figcaption><strong>Fig 3.2</strong> — The grafting of non-tribal cooperative thresholds onto the oldest primate rootstock. The sap of the ancient territorial impulse ascends the modified channel, forgetting its bitterness by the second generation.</figcaption>
+</figure>
