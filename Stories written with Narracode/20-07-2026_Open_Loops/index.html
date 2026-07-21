@@ -5,25 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Loops — A Narracode Story</title>
-    <meta name="description"
-        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="description" content="A neurosymbolic narrative generated using Narracode.">
     <meta name="keywords"
         content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
-    <meta name="author" content="Jhave (seed paragraph, direction, constraints) · Claude Fable 5 (Anthropic) — composition, structure, critique, revision — via Narracode harness, AUTO_MODE · 2026-07-20 · 2026-07-21 — attribution corrected to exact model per prompter; critique-mapped revisions (2a, 6a) · fold in engagement hooks, subtle, tenacious, non-obvious, integral to plot/character arcs. Evade or avoid the subtle imperatives of linguistic normalcy (raise the temperature, reduce the prepositions, possessives and articles). Let the stories evolve as enigmatic ambiguous subtle nuanced tentative stylistic provocations which never resolve yet evoke. Entwined stories: one backwards (the Gaza child, 7, orphaned, brother a double amputee, events leading to the encounter with an autonomous lethal drone), one forwards (the IDF soldier who pressed the button — confirmed kill image, torrent of propaganda, Tel Aviv rave on ecstasy, a violent moment with his girlfriend when grief-rage overcomes him, ending with both figures dead, one metaphorically after orgasm, dreaming subconsciously of escape from Israel and the hatred of genocide, the word taken root from the child&#x27;s dead eyes). Include context: Unit 8200, SIGINT; align with the operationalized egocentric survival-focused death drive of territorial glandular networks. The soldier rarely looks at the photos now; the machine is trusted as one trusts a river.">
+    <meta name="author"
+        content="Jhave (seed paragraph, direction, constraints) · Claude Fable 5 (Anthropic) — composition, structure, critique, revision — via Narracode harness, AUTO_MODE · 2026-07-20 · 2026-07-21 — attribution corrected to exact model per prompter; critique-mapped revisions (2a, 6a) · fold in engagement hooks, subtle, tenacious, non-obvious, integral to plot/character arcs. Evade or avoid the subtle imperatives of linguistic normalcy (raise the temperature, reduce the prepositions, possessives and articles). Let the stories evolve as enigmatic ambiguous subtle nuanced tentative stylistic provocations which never resolve yet evoke. Entwined stories: one backwards (the Gaza child, 7, orphaned, brother a double amputee, events leading to the encounter with an autonomous lethal drone), one forwards (the IDF soldier who pressed the button — confirmed kill image, torrent of propaganda, Tel Aviv rave on ecstasy, a violent moment with his girlfriend when grief-rage overcomes him, ending with both figures dead, one metaphorically after orgasm, dreaming subconsciously of escape from Israel and the hatred of genocide, the word taken root from the child&#x27;s dead eyes). Include context: Unit 8200, SIGINT; align with the operationalized egocentric survival-focused death drive of territorial glandular networks. The soldier rarely looks at the photos now; the machine is trusted as one trusts a river.">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Open Loops — A Narracode Story">
-    <meta property="og:description"
-        content="A neurosymbolic narrative generated using Narracode.">
+    <meta property="og:description" content="A neurosymbolic narrative generated using Narracode.">
     <meta property="og:image" content="img/header.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Open Loops — A Narracode Story">
-    <meta name="twitter:description"
-        content="A neurosymbolic narrative generated using Narracode.">
+    <meta name="twitter:description" content="A neurosymbolic narrative generated using Narracode.">
     <meta name="twitter:image" content="img/header.png">
 
     <style>
@@ -264,6 +262,7 @@
             border-radius: 2px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
         }
+
         .chapter-heading {
             font-size: 1.55rem;
             font-weight: 700;
@@ -284,6 +283,7 @@
             margin: 1rem auto 2.2rem;
             box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
         }
+
         .story-page-icon {
             display: block;
             width: 100vw;
@@ -304,18 +304,27 @@
         }
 
         .story-image {
-            margin: 2.8rem auto;
+            display: block;
+            width: 100vw;
+            max-width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            margin-top: 2.8rem;
+            margin-bottom: 2.8rem;
             text-align: center;
-            width: 100%;
-            max-width: 100%;
         }
 
         .story-image img {
-            width: 100%;
-            max-width: 100%;
+            width: 100vw;
+            max-width: 100vw;
             height: auto;
-            border-radius: 6px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+            max-height: 640px;
+            object-fit: cover;
+            border-radius: 0;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
             display: block;
             margin: 0 auto;
         }
@@ -324,9 +333,13 @@
             font-size: 0.88rem;
             font-style: italic;
             color: var(--muted);
-            margin-top: 0.75rem;
+            margin-top: 0.85rem;
             line-height: 1.5;
             text-align: center;
+            padding: 0 1rem;
+            max-width: var(--max-width, 740px);
+            margin-left: auto;
+            margin-right: auto;
         }
 
         @media (max-width: 600px) {
@@ -335,6 +348,7 @@
                 margin-bottom: 1.8rem;
             }
         }
+
         .story-page-icon {
             display: block;
             width: min(360px, 86vw);
@@ -366,108 +380,203 @@
         </a>
     </div>
 
-    <img src="img/header.png" class="story-page-icon" width="640" height="640">
+    <figure class="story-image">
+        <img src="img/header.png">
+    </figure>
 
     <!-- Title -->
-    <h1>Open Loops</h1>
+    <h1>Oblivion Loops</h1>
 
     <!-- Subtitle (aphoristic) -->
-    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode
+            harness</a>.</h2>
 
     <!-- Byline -->
-    <h5>Jhave (seed paragraph, direction, constraints) &nbsp;·&nbsp; Claude Fable 5 (Anthropic) — composition, structure, critique, revision — via Narracode harness, AUTO_MODE &nbsp;·&nbsp; 2026-07-20 &nbsp;·&nbsp; 2026-07-21 — attribution corrected to exact model per prompter; critique-mapped revisions (2a, 6a) &nbsp;·&nbsp; fold in engagement hooks, subtle, tenacious, non-obvious, integral to plot/character arcs. Evade or avoid the subtle imperatives of linguistic normalcy (raise the temperature, reduce the prepositions, possessives and articles). Let the stories evolve as enigmatic ambiguous subtle nuanced tentative stylistic provocations which never resolve yet evoke. Entwined stories: one backwards (the Gaza child, 7, orphaned, brother a double amputee, events leading to the encounter with an autonomous lethal drone), one forwards (the IDF soldier who pressed the button — confirmed kill image, torrent of propaganda, Tel Aviv rave on ecstasy, a violent moment with his girlfriend when grief-rage overcomes him, ending with both figures dead, one metaphorically after orgasm, dreaming subconsciously of escape from Israel and the hatred of genocide, the word taken root from the child's dead eyes). Include context: Unit 8200, SIGINT; align with the operationalized egocentric survival-focused death drive of territorial glandular networks. The soldier rarely looks at the photos now; the machine is trusted as one trusts a river.</h5>
+    <h5>Jhave (seed paragraph, direction, constraints)<br>Claude Fable 5 (Anthropic) — composition, structure, critique,
+        revision — via Narracode harness, AUTO_MODE<br>NanoBanana & Gemini 3.5 Flash - Images & html<br>2026-07-20.</h5>
 
     <!-- Collapsible prompt -->
-        <details class="prompt-toggle">
+    <details class="prompt-toggle">
         <summary>prompt</summary>
         <div class="prompt-body">
-            <p>Keep first paragraph exactly as given, then extend in same style. Open Loops: fold in engagement hooks, subtle, tenacious, non-obvious, integral to plot/character arcs. Evade or avoid the subtle imperatives of linguistic normalcy (raise the temperature, reduce the prepositions, possessives and articles). Let the stories evolve as enigmatic ambiguous subtle nuanced tentative stylistic provocations which never resolve yet evoke. Entwined stories: one backwards (the Gaza child, 7, orphaned, brother a double amputee, events leading to the encounter with an autonomous lethal drone), one forwards (the IDF soldier who pressed the button — confirmed kill image, torrent of propaganda, Tel Aviv rave on ecstasy, a violent moment with his girlfriend when grief-rage overcomes him, ending with both figures dead, one metaphorically after orgasm, dreaming subconsciously of escape from Israel and the hatred of genocide, the word taken root from the child&#x27;s dead eyes). Include context: Unit 8200, SIGINT; align with the operationalized egocentric survival-focused death drive of territorial glandular networks. The soldier rarely looks at the photos now; the machine is trusted as one trusts a river.</p>
+            <p>Keep first paragraph exactly as given, then extend in same style. Open Loops: fold in engagement hooks,
+                subtle, tenacious, non-obvious, integral to plot/character arcs. Evade or avoid the subtle imperatives
+                of linguistic normalcy (raise the temperature, reduce the prepositions, possessives and articles). Let
+                the stories evolve as enigmatic ambiguous subtle nuanced tentative stylistic provocations which never
+                resolve yet evoke. Entwined stories: one backwards (the Gaza child, 7, orphaned, brother a double
+                amputee, events leading to the encounter with an autonomous lethal drone), one forwards (the IDF soldier
+                who pressed the button — confirmed kill image, torrent of propaganda, Tel Aviv rave on ecstasy, a
+                violent moment with his girlfriend when grief-rage overcomes him, ending with both figures dead, one
+                metaphorically after orgasm, dreaming subconsciously of escape from Israel and the hatred of genocide,
+                the word taken root from the child&#x27;s dead eyes). Include context: Unit 8200, SIGINT; align with the
+                operationalized egocentric survival-focused death drive of territorial glandular networks. The soldier
+                rarely looks at the photos now; the machine is trusted as one trusts a river.</p>
         </div>
     </details>
 
-    
+
 
     <!-- Story -->
     <div class="story">
         <h3 class="chapter-heading">approval</h3>
 
         <figure class="story-image">
-    <img src="img/0-approval.png?v=2" alt="Muted shadowy aerial drone perspective of crumpled grey roadway at dusk moments after strike" loading="lazy">
-    <figcaption><strong>Fig 0.1</strong> — Aerial surveillance frame, 19:42 UTC. The killer drone vanished into the pristine twilight sky above the crushed roadway while far away in Haifa an operator swiveled away from his console.</figcaption>
-</figure>
+            <img src="img/0-approval.png?v=2"
+                alt="Muted shadowy aerial drone perspective of crumpled grey roadway at dusk moments after strike"
+                loading="lazy">
+            <figcaption><strong>Fig 0.1</strong> — Aerial surveillance frame, 19:42 UTC. The killer drone vanished into
+                the pristine twilight sky above the crushed roadway while far away in Haifa an operator swiveled away
+                from his console.</figcaption>
+        </figure>
 
-        <p>The drone shot the child in the forehead and then moved on. Above the heaps of grey rubble, a few witnesses crouched, in dusty rags, trembling. The crumpled roadway, which they had abandoned, a bleak strip of grey sand bordered by destroyed buildings, began to absorb fresh blood. The child draining slowly, motionless, knees slung up, arm flung, hair fringed with spattered brain. Above all, a new moon rising in a pristine early evening sky, low on the horizon glowing peacefully. A whir of propellors, a shriek of high-pitched torsion and the killer drone vanished. Far away in Haifa, at a console after clicking approve, a staff lieutenant in the IDF intelligence services autonomous Lavender human-in-the-loop branch sighed and swiveled away from his screen. Sad pouches of palpable pain prickling across youthful jowls, a tight scowl worn as protection. The room was hushed, quiet conversations restrained. Operators locked in hunched over their screens, clicking through target request analysis approval sequences, rapidly as if typing. Median kill approval time: 15-45s.</p>
+        <p>The drone shot the child in the forehead and then moved on. Above the heaps of grey rubble, a few witnesses
+            crouched, in dusty rags, trembling. The crumpled roadway, which they had abandoned, a bleak strip of grey
+            sand bordered by destroyed buildings, began to absorb fresh blood. The child draining slowly, motionless,
+            knees slung up, arm flung, hair fringed with spattered brain. Above all, a new moon rising in a pristine
+            early evening sky, low on the horizon glowing peacefully. A whir of propellors, a shriek of high-pitched
+            torsion and the killer drone vanished. Far away in Haifa, at a console after clicking approve, a staff
+            lieutenant in the IDF intelligence services autonomous Lavender human-in-the-loop branch sighed and swiveled
+            away from his screen. Sad pouches of palpable pain prickling across youthful jowls, a tight scowl worn as
+            protection. The room was hushed, quiet conversations restrained. Operators locked in hunched over their
+            screens, clicking through target request analysis approval sequences, rapidly as if typing. Median kill
+            approval time: 15-45s.</p>
 
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">+1 — confirmation</h3>
 
         <figure class="story-image">
-    <img src="img/2-plus-one-confirmation.png?v=2" alt="IDF intelligence staff lieutenant corridor profile with forehead pressed against cool concrete wall" loading="lazy">
-    <figcaption><strong>Fig +1.2</strong> — Server corridor profile, Unit 8200 (Haifa). Forehead pressed against the cool concrete wall under the eyelids of sand, bloom, arm, while the corridor hums at the frequency of servers.</figcaption>
-</figure>
+            <img src="img/2-plus-one-confirmation.png?v=2"
+                alt="IDF intelligence staff lieutenant corridor profile with forehead pressed against cool concrete wall"
+                loading="lazy">
+            <figcaption><strong>Fig +1.2</strong> — Server corridor profile, Unit 8200 (Haifa). Forehead pressed against
+                the cool concrete wall under the eyelids of sand, bloom, arm, while the corridor hums at the frequency
+                of servers.</figcaption>
+        </figure>
 
-        <p>He swiveled back. The screen had already reset; a corner thumbnail lingered, auto-archived: figure splayed in sand, knees up, arm out, dark bloom widening from the head. Strike 4,102 of the rotation. The folder that keeps them has a name he has never typed and a count he has never opened. He rarely even looks at the photos now. Requests arrive as cascade. Twelve pending. Fifteen. The queue does not grieve; the queue refills.</p>
+        <p>He swiveled back. The screen had already reset; a corner thumbnail lingered, auto-archived: figure splayed in
+            sand, knees up, arm out, dark bloom widening from the head. Strike 4,102 of the rotation. The folder that
+            keeps them has a name he has never typed and a count he has never opened. He rarely even looks at the photos
+            now. Requests arrive as cascade. Twelve pending. Fifteen. The queue does not grieve; the queue refills.</p>
 
-        <p>The machine is trusted as one trusts a river. Nobody audits a river. You build on its banks, you drink, you name your children after it, and when it floods you call the flood weather. A machine of life and death, mostly death, its current fed by every antenna on the coastal plain, and he a sluice gate, opening, opening, opening, at a median of fifteen to forty-five seconds per opening.</p>
+        <p>The machine is trusted as one trusts a river. Nobody audits a river. You build on its banks, you drink, you
+            name your children after it, and when it floods you call the flood weather. A machine of life and death,
+            mostly death, its current fed by every antenna on the coastal plain, and he a sluice gate, opening, opening,
+            opening, at a median of fifteen to forty-five seconds per opening.</p>
 
-        <p>He came up through Unit 8200 — Intelligence Corps, clandestine operation, signal intelligence, code decryption — recruited at seventeen for pattern-hunger, for sitting still. The unit is spoken of the way rich families are spoken of. Alumni run companies whose names mean unicorn. What the unit actually collects is proximity: who sleeps beside whom, which phone charges beside which phone, which identifier walks to which mosque at which hour, the whole strip rendered as a nervous system with every synapse tapped. Lavender drinks from that. Lavender scores. Humans confirm. Confirm is a word for what his finger does.</p>
+        <p>He came up through Unit 8200 — Intelligence Corps, clandestine operation, signal intelligence, code
+            decryption — recruited at seventeen for pattern-hunger, for sitting still. The unit is spoken of the way
+            rich families are spoken of. Alumni run companies whose names mean unicorn. What the unit actually collects
+            is proximity: who sleeps beside whom, which phone charges beside which phone, which identifier walks to
+            which mosque at which hour, the whole strip rendered as a nervous system with every synapse tapped. Lavender
+            drinks from that. Lavender scores. Humans confirm. Confirm is a word for what his finger does.</p>
 
-        <p>Somewhere in the building, he has been told, there are rooms that model the whole enterprise honestly: territory as gland, border as membrane, the state an endocrine loop dosing itself — cortisol at the fence line, adrenaline in the operations pit, threat detected, threat annihilated, threat detected, the survival circuit of an organism that has confused killing with breathing. Egocentric, the textbook would say, survival-focused. The textbook would not say death drive.</p>
+        <p>Somewhere in the building, he has been told, there are rooms that model the whole enterprise honestly:
+            territory as gland, border as membrane, the state an endocrine loop dosing itself — cortisol at the fence
+            line, adrenaline in the operations pit, threat detected, threat annihilated, threat detected, the survival
+            circuit of an organism that has confused killing with breathing. Egocentric, the textbook would say,
+            survival-focused. The textbook would not say death drive.</p>
 
-        <p>Fifteen pending. He clicks. A senior officer, week one: 'your hesitation is a luxury'. He no longer remembers hesitating. He remembers today's thumbnail. Knees up. Arm flung, as if pointing off-screen.</p>
+        <p>Fifteen pending. He clicks. A senior officer, week one: 'your hesitation is a luxury'. He no longer remembers
+            hesitating. He remembers today's thumbnail. Knees up. Arm flung, as if pointing off-screen.</p>
 
-        <p>He files for bathroom break, stands in the corridor, presses forehead to cool wall. Under the eyelids: sand, bloom, arm. Shift ends 22:00. The corridor hums at the frequency of servers, a frequency compounded pulsating.</p>
+        <p>He files for bathroom break, stands in the corridor, presses forehead to cool wall. Under the eyelids: sand,
+            bloom, arm. Shift ends 22:00. The corridor hums at the frequency of servers, a frequency compounded
+            pulsating.</p>
 
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">−2 — brother</h3>
 
         <figure class="story-image">
-    <img src="img/3-minus-two-brother.png?v=2" alt="Qais lying on mattress in standing third of ruined room reading a faded tattered Arabic comic book" loading="lazy">
-    <figcaption><strong>Fig −2.3</strong> — The standing third of the house. Eleven-year-old Qais, double leg amputee lying on the mattress, reading a faded tattered Arabic comic book resting on the wooden crate beside his bed.</figcaption>
-</figure>
+            <img src="img/3-minus-two-brother.png?v=2"
+                alt="Qais lying on mattress in standing third of ruined room reading a faded tattered Arabic comic book"
+                loading="lazy">
+            <figcaption><strong>Fig −2.3</strong> — The standing third of the house. Eleven-year-old Qais, double leg
+                amputee lying on the mattress, reading a faded tattered Arabic comic book resting on the wooden crate
+                beside his bed.</figcaption>
+        </figure>
 
         <p>Three days earlier, the room.</p>
 
-        <p>One room, third of a house, the standing third. Mattress by the wall where damp made maps of continents neither of them would visit. Qais on the mattress, eleven, long-lashed, furious in the mornings, gentle by noon, legs ending above where knees had been. January took the legs. January took more than the legs. Parents. An aching sad spasm. Don't look.</p>
+        <p>One room, third of a house, the standing third. Mattress by the wall where damp made maps of continents
+            neither of them would visit. Qais on the mattress, eleven, long-lashed, furious in the mornings, gentle by
+            noon, legs ending above where knees had been. January took the legs. January took more than the legs.
+            Parents. An aching sad spasm. Don't look.</p>
 
         <p>At night phantom feet itched and she scratched air above the blanket in slow circles until he slept.</p>
 
-        <p>Her ritual grind. Water at the northern queue, two hours, sometimes fire, sometimes not. Bread where bread rumored itself. Thursday, clinic, the hour of charge, nurse Hanan's radio murmuring casualties like a tide table. Music! Between stations she moved by a private map: which streets the sky disliked, which walls threw shade at which hours, where a drone had loitered Tuesday and might have habits. She was seven, with habits of a forty-year-old smuggler. She forgot, skipped, sometimes, over safe stretches.</p>
+        <p>Her ritual grind. Water at the northern queue, two hours, sometimes fire, sometimes not. Bread where bread
+            rumored itself. Thursday, clinic, the hour of charge, nurse Hanan's radio murmuring casualties like a tide
+            table. Music! Between stations she moved by a private map: which streets the sky disliked, which walls threw
+            shade at which hours, where a drone had loitered Tuesday and might have habits. She was seven, with habits
+            of a forty-year-old smuggler. She forgot, skipped, sometimes, over safe stretches.</p>
 
-        <p>Feed him. Wash him where he allowed. Empty the pan he hated needing. Recite the outside: today grey, today crows, today two dogs fighting over something we will not name, today a man crying into a wall as if the wall were his father. Qais collected her reports and rebuilt the city from them behind closed eyes, streets restored, bakery re-lit, everyone's legs re-attached, and gave her the city back at night in installments, a serial, their one channel.</p>
+        <p>Feed him. Wash him where he allowed. Empty the pan he hated needing. Recite the outside: today grey, today
+            crows, today two dogs fighting over something we will not name, today a man crying into a wall as if the
+            wall were his father. Qais collected her reports and rebuilt the city from them behind closed eyes, streets
+            restored, bakery re-lit, everyone's legs re-attached, and gave her the city back at night in installments, a
+            serial, their one channel.</p>
 
-        <p>Promises were currency and she minted them carefully. The sea, she promised. When you're strong enough to be carried, Abu Ramzi's cart, the sea, we'll dip your hands in, both hands, salt stings and then it doesn't. He said the sea was gone too. She said the sea can't be hit, it just closes over and continues, and he thought about that until his face untied itself.</p>
+        <p>Promises were currency and she minted them carefully. The sea, she promised. When you're strong enough to be
+            carried, Abu Ramzi's cart, the sea, we'll dip your hands in, both hands, salt stings and then it doesn't. He
+            said the sea was gone too. She said the sea can't be hit, it just closes over and continues, and he thought
+            about that until his face untied itself.</p>
 
-        <p>Two notes, low then high, always, from the pharmacy corner. So he'd know. Other steps stopped his breath; hers released it. The whistle was the door of the room that had no door.</p>
+        <p>Two notes, low then high, always, from the pharmacy corner. So he'd know. Other steps stopped his breath;
+            hers released it. The whistle was the door of the room that had no door.</p>
 
-        <p>Thursday she charged the phone and Hanan gave the hour's news in three sentences and none were news. Friday the sugar. Saturday she woke before him, watched his chest lift and drop, counted it awhile, the way misers count.</p>
+        <p>Thursday she charged the phone and Hanan gave the hour's news in three sentences and none were news. Friday
+            the sugar. Saturday she woke before him, watched his chest lift and drop, counted it awhile, the way misers
+            count.</p>
 
-        <p>Sunday the jug was low by evening. She weighed the light. An hour, maybe less, before true dark. She kissed his hairline, pursed lips at him — silent rehearsal of two notes — and went out for water.</p>
+        <p>Sunday the jug was low by evening. She weighed the light. An hour, maybe less, before true dark. She kissed
+            his hairline, pursed lips at him — silent rehearsal of two notes — and went out for water.</p>
 
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">+2 — torrent</h3>
 
         <figure class="story-image">
-    <img src="img/4-plus-two-torrent.png?v=2" alt="Smeared light trails of MDMA sensory perception from a close-up flailing dance perspective on Tel Aviv rooftop rave" loading="lazy">
-    <figcaption><strong>Fig +2.4</strong> — Tel Aviv rooftop rave off Allenby street, 01:00 UTC. Smeared light trails of MDMA perception from a flailing dance perspective under hanging strings of warm bulbs.</figcaption>
-</figure>
+            <img src="img/4-plus-two-torrent.png?v=2"
+                alt="Smeared light trails of MDMA sensory perception from a close-up flailing dance perspective on Tel Aviv rooftop rave"
+                loading="lazy">
+            <figcaption><strong>Fig +2.4</strong> — Tel Aviv rooftop rave off Allenby street, 01:00 UTC. Smeared light
+                trails of MDMA perception from a flailing dance perspective under hanging strings of warm bulbs.
+            </figcaption>
+        </figure>
 
         <p>Off shift, 22:04, calm, smiling thin, mind numb, an industrious yearning.</p>
 
-        <p>Collapse. His phone. The feed dissects reluctance. Sports first. Music on. Then looping back, a suave consoling spokesman, followed by a pretty pert sad girl in pressed olive, explaining cohesion, precision, necessity. Enemy, alertness. Graphics: red icon, yellow radius, the word OPERATIVE floating serif over a rooftop. A thread, 214 replies, proving with arrows that the footage everyone saw was staged, lit, acted, that the child — a child in general, any child, the category child — is a prop.</p>
+        <p>Collapse. His phone. The feed dissects reluctance. Sports first. Music on. Then looping back, a suave
+            consoling spokesman, followed by a pretty pert sad girl in pressed olive, explaining cohesion, precision,
+            necessity. Enemy, alertness. Graphics: red icon, yellow radius, the word OPERATIVE floating serif over a
+            rooftop. A thread, 214 replies, proving with arrows that the footage everyone saw was staged, lit, acted,
+            that the child — a child in general, any child, the category child — is a prop.</p>
 
-        <p>Every day somewhere, a general or a new parent or a chemist repeats the <em>most moral army in the world</em> slogan; the phrase even scrolls under a mattress ad. Counter-feed: same road, other angle, someone's uncle screaming vertically into a lens. He thumbs past. Thumb knows. The torrent is not designed to convince. It is designed to exhaust, to silt the image over, layer on layer of pixel sediment until sand, bloom, limb, lie buried under commentary, and by 01:00 the burial mostly works, mostly, the arm still points through.</p>
+        <p>Every day somewhere, a general or a new parent or a chemist repeats the <em>most moral army in the world</em>
+            slogan; the phrase even scrolls under a mattress ad. Counter-feed: same road, other angle, someone's uncle
+            screaming vertically into a lens. He thumbs past. Thumb knows. The torrent is not designed to convince. It
+            is designed to exhaust, to silt the image over, layer on layer of pixel sediment until sand, bloom, limb,
+            lie buried under commentary, and by 01:00 the burial mostly works, mostly, the arm still points through.</p>
 
-        <p>Friday, Tel Aviv, rooftop off Allenby. Bass first, then stairwell heat, then three hundred bodies under strings of bulbs, sea invisible but present, salting the air the way the unspoken salts a family dinner. Roi from the unit presses a neon yellow emoji-pill into his palm like a communion he isn't cleared to refuse. Forty minutes later an MDMA bloom arrives all at once, serotonin flung open, and he loves — genuinely, wetly, in every direction — the dancers, the bulbs, the bass, the bartender's shaved head glowing like a moon low over broken skyline</p>
+        <p>Friday, Tel Aviv, rooftop off Allenby. Bass first, then stairwell heat, then three hundred bodies under
+            strings of bulbs, sea invisible but present, salting the air the way the unspoken salts a family dinner. Roi
+            from the unit presses a neon yellow emoji-pill into his palm like a communion he isn't cleared to refuse.
+            Forty minutes later an MDMA bloom arrives all at once, serotonin flung open, and he loves — genuinely,
+            wetly, in every direction — the dancers, the bulbs, the bass, the bartender's shaved head glowing like a
+            moon low over broken skyline</p>
 
         <p>no</p>
 
         <p>like a bulb. Like a bulb.</p>
 
-        <p>Dance without target, sweat without score. Churning the chaos. Beautiful youthful flailing forms: conscripts, analysts, coders, a girl from air defense with glitter at her clavicle shouting some lyric at the sky, all of them chemically unlocked and grieving nothing, or everything, indistinguishable at this dosage. National gland at Friday discharge. Cortisol all week at the fence; MDMA at the weekend membrane; the organism dosing itself both directions, survival circuit humming, and inside his loosened skull one thought surfaces face-down and slowly turns face-up the way bodies do in water:</p>
+        <p>Dance without target, sweat without score. Churning the chaos. Beautiful youthful flailing forms: conscripts,
+            analysts, coders, a girl from air defense with glitter at her clavicle shouting some lyric at the sky, all
+            of them chemically unlocked and grieving nothing, or everything, indistinguishable at this dosage. National
+            gland at Friday discharge. Cortisol all week at the fence; MDMA at the weekend membrane; the organism dosing
+            itself both directions, survival circuit humming, and inside his loosened skull one thought surfaces
+            face-down and slowly turns face-up the way bodies do in water:</p>
 
         <p>knees up. Arm flung. Pointing. Another pill.</p>
 
@@ -478,74 +587,137 @@
         <h3 class="chapter-heading">−3 — before</h3>
 
         <figure class="story-image">
-    <img src="img/5-minus-three-before.png?v=2" alt="Mother and seven-year-old gap-toothed Sama laughing on Jaffa corniche in golden Mediterranean sunlight" loading="lazy">
-    <figcaption><strong>Fig −3.5</strong> — October on the Jaffa corniche before everything. Mother with flour on her wrists holding Sama's hand like a kite string against the sea that closes over every stone and continues.</figcaption>
-</figure>
+            <img src="img/5-minus-three-before.png?v=2"
+                alt="Mother and seven-year-old gap-toothed Sama laughing on Jaffa corniche in golden Mediterranean sunlight"
+                loading="lazy">
+            <figcaption><strong>Fig −3.5</strong> — October on the Jaffa corniche before everything. Mother with flour
+                on her wrists holding Sama's hand like a kite string against the sea that closes over every stone and
+                continues.</figcaption>
+        </figure>
 
         <p>January, backwards.</p>
 
-        <p>The night the building folded she was asleep between her parents, which is why she lived: their bodies made the arch that the slab respected. Sound is not the memory. The memory is dust with a taste, and being passed upward hand to hand through a gap the width of a jug, and a stranger's heartbeat against her ear going too fast, and asking the dark for her mother in a voice she heard as someone else's. Qais they cut free at dawn. What the slab wanted of him it kept. Parents stayed. The building became their marker, one more grey heap in a city of markers, and the twine with the key went around her neck at the burial that wasn't one, tied there by an aunt who was dead herself by March, completing the arithmetic: two children, no relatives, one room, one door-less door.</p>
+        <p>The night the building folded she was asleep between her parents, which is why she lived: their bodies made
+            the arch that the slab respected. Sound is not the memory. The memory is dust with a taste, and being passed
+            upward hand to hand through a gap the width of a jug, and a stranger's heartbeat against her ear going too
+            fast, and asking the dark for her mother in a voice she heard as someone else's. Qais they cut free at dawn.
+            What the slab wanted of him it kept. Parents stayed. The building became their marker, one more grey heap in
+            a city of markers, and the twine with the key went around her neck at the burial that wasn't one, tied there
+            by an aunt who was dead herself by March, completing the arithmetic: two children, no relatives, one room,
+            one door-less door.</p>
 
         <p>Further back. October, before everything, morning.</p>
 
-        <p>Flour on mother's wrists and on the radio's dial, dough slapped in rhythm to a song about a girl from Jaffa. Father on the balcony with tea and the phone, his one luxury, photographing light on water tanks as if water tanks were herons. Qais downstairs already, football against the cistern wall, thump, thump, the whole street his. School bag by the door with a broken zip mother swore weekly to mend. On the corniche that evening the wind came off the sea so hard it made her dress a sail and mother laughed and grabbed her hand and they leaned into it together, two kites testing one string, and father raised the phone —</p>
+        <p>Flour on mother's wrists and on the radio's dial, dough slapped in rhythm to a song about a girl from Jaffa.
+            Father on the balcony with tea and the phone, his one luxury, photographing light on water tanks as if water
+            tanks were herons. Qais downstairs already, football against the cistern wall, thump, thump, the whole
+            street his. School bag by the door with a broken zip mother swore weekly to mend. On the corniche that
+            evening the wind came off the sea so hard it made her dress a sail and mother laughed and grabbed her hand
+            and they leaned into it together, two kites testing one string, and father raised the phone —</p>
 
         <p>Stand still, habibti. No — laugh again. Laugh again.</p>
 
         <p>Click.</p>
 
-        <p>Seven years old, gap-toothed, squinting into sun. The sea behind her closing over every stone thrown at it, and continuing.</p>
+        <p>Seven years old, gap-toothed, squinting into sun. The sea behind her closing over every stone thrown at it,
+            and continuing.</p>
 
         <div class="break">· · ·</div>
 
         <h3 class="chapter-heading">+3 — root</h3>
 
         <figure class="story-image">
-    <img src="img/6-plus-three-root.png?v=2" alt="Ferryboat silhouette drifting on dark sea under thin crescent new moon with ceiling fan shadow" loading="lazy">
-    <figcaption><strong>Fig +3.6</strong> — The dream ferry at Haifa dusk. Under the ceiling fan in Florentin, the open loop remains unresolved as the dark sea absorbs the coast under the debt of a thin sky.</figcaption>
-</figure>
+            <img src="img/6-plus-three-root.png?v=2"
+                alt="Ferryboat silhouette drifting on dark sea under thin crescent new moon with ceiling fan shadow"
+                loading="lazy">
+            <figcaption><strong>Fig +3.6</strong> — The dream ferry at Haifa dusk. Under the ceiling fan in Florentin,
+                the open loop remains unresolved as the dark sea absorbs the coast under the debt of a thin sky.
+            </figcaption>
+        </figure>
 
         <p>Saturday night, Noa's flat, Florentin. Ceiling fan stirring heat without subtracting it.</p>
 
-        <p>Noa serves too — imagery analyst, other building, same river. They never discuss work; they discuss around work, the way one walks around a hole in a floor so habitually the walking becomes the floor. She knows his week by his jaw. Tonight jaw wrong, eyes wrong, hands too deliberate, and she pulls him down anyway, or he pulls her, initiation lost to the general subsidence of two exhausted bodies agreeing on the one language left.</p>
+        <p>Noa serves too — imagery analyst, other building, same river. They never discuss work; they discuss around
+            work, the way one walks around a hole in a floor so habitually the walking becomes the floor. She knows his
+            week by his jaw. Tonight jaw wrong, eyes wrong, hands too deliberate, and she pulls him down anyway, or he
+            pulls her, initiation lost to the general subsidence of two exhausted bodies agreeing on the one language
+            left.</p>
 
-        <p>It starts as tenderness and curdles. Somewhere in the rhythm the rage arrives, punctual as a queue refilling — grief with nowhere lawful to go, and it goes here, into grip, into force she answers with force, both of them fluent in this dialect too. And under his closed eyes the pit floods in: he wants to open everything, both of them, split, unstitched, matched at last to the outside of the world — torn apart, butchered, splayed out in sand, knees up, arm flung — his own hands monstrous to him at the exact moment they tighten, her breath ragged against his ear saying his name, name repeated, name like a whistle in a ruined street that nobody will answer, and he is fucking and mourning and cannot tell which motion is which, an operator of a body, approving, approving,</p>
+        <p>It starts as tenderness and curdles. Somewhere in the rhythm the rage arrives, punctual as a queue refilling
+            — grief with nowhere lawful to go, and it goes here, into grip, into force she answers with force, both of
+            them fluent in this dialect too. And under his closed eyes the pit floods in: he wants to open everything,
+            both of them, split, unstitched, matched at last to the outside of the world — torn apart, butchered,
+            splayed out in sand, knees up, arm flung — his own hands monstrous to him at the exact moment they tighten,
+            her breath ragged against his ear saying his name, name repeated, name like a whistle in a ruined street
+            that nobody will answer, and he is fucking and mourning and cannot tell which motion is which, an operator
+            of a body, approving, approving,</p>
 
-        <p>then orgasm takes him apart with the specific mercy of execution. Thoughtless. Metaphorically dead: the phrase would please him if phrases survived, but nothing survives up here, the console dark, the queue empty, breath decelerating toward the median of sleep.</p>
+        <p>then orgasm takes him apart with the specific mercy of execution. Thoughtless. Metaphorically dead: the
+            phrase would please him if phrases survived, but nothing survives up here, the console dark, the queue
+            empty, breath decelerating toward the median of sleep.</p>
 
         <p>Noa watches the fan. Her thumb moves on his shoulder blade, wiper-blade arc, clearing nothing.</p>
 
-        <p>Underneath, where he cannot supervise it, the dream assembles: Haifa at dusk, a ferry with no flag, deck crowded with silent passengers facing seaward, no Hebrew, no Arabic, no announcement, water black and endlessly absorbent, the coastline shrinking to a strip of grey sand bordered by buildings, and he cannot tell, from the deck, whether he is escaping the hatred or exporting it, whether the ferry is leaving Israel or Israel is leaving him, and in the dream-soil under the dream a word is germinating that he did not plant. It came in through the eyes. Hers. Dead, open, seven years old, unclosable by any thumb. The word has taken root, unavoidably: genocide, growing downward first, the way roots do.</p>
+        <p>Underneath, where he cannot supervise it, the dream assembles: Haifa at dusk, a ferry with no flag, deck
+            crowded with silent passengers facing seaward, no Hebrew, no Arabic, no announcement, water black and
+            endlessly absorbent, the coastline shrinking to a strip of grey sand bordered by buildings, and he cannot
+            tell, from the deck, whether he is escaping the hatred or exporting it, whether the ferry is leaving Israel
+            or Israel is leaving him, and in the dream-soil under the dream a word is germinating that he did not plant.
+            It came in through the eyes. Hers. Dead, open, seven years old, unclosable by any thumb. The word has taken
+            root, unavoidably: genocide, growing downward first, the way roots do.</p>
 
-        <p>On the road it is night now. New moon higher, thinner, a debt the sky still owes. Witnesses gone. Sand drinking, patient. Two figures splayed under one sky: one draining, one drained. One waited for by a two-note whistle that is still, in a room without a door, being listened for.</p>
+        <p>On the road it is night now. New moon higher, thinner, a debt the sky still owes. Witnesses gone. Sand
+            drinking, patient. Two figures splayed under one sky: one draining, one drained. One waited for by a
+            two-note whistle that is still, in a room without a door, being listened for.</p>
 
-</div>
+    </div>
 
     <!-- Other Works by Narracode -->
 
     <div class="related">
         <h4>Other Works by Narracode</h4>
         <p style="line-height: 1.8;">
-            <a href="../19-07-2026_In_Our_Image/index.html">In Our Image</a> <span class="story-meta">(1,912 words)</span> <span class="story-meta">(Jul 19, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../01-07-2026_Cussinct/index.html">cussinct</a> <span class="story-meta">(3,150 words)</span> <span class="story-meta">(Jul 1, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../26-06-2026_The_First_Water_Molecule/index.html">The First Water Molecule</a> <span class="story-meta">(3,206 words)</span> <span class="story-meta">(Jun 26, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../20-06-2026_Project_A-0/index.html">Project A-0</a> <span class="story-meta">(1,234 words)</span> <span class="story-meta">(Jun 20, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../15-06-2026_TheCompulsionLoop/index.html">Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer</a> <span class="story-meta">(6,158 words)</span> <span class="story-meta">(Jun 15, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../14-06-2026_Dissolution/index.html">Dissolution Disequilibrium</a> <span class="story-meta">(9,885 words)</span> <span class="story-meta">(Jun 14, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span class="story-meta">(1,300 words)</span> <span class="story-meta">(Jun 7, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span> <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177 words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256 words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378 words)</span> <span class="story-meta">(May 9, 2026)</span>
+            <a href="../19-07-2026_In_Our_Image/index.html">In Our Image</a> <span class="story-meta">(1,912
+                words)</span> <span class="story-meta">(Jul 19, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../01-07-2026_Cussinct/index.html">cussinct</a> <span class="story-meta">(3,150 words)</span> <span
+                class="story-meta">(Jul 1, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../26-06-2026_The_First_Water_Molecule/index.html">The First Water Molecule</a> <span
+                class="story-meta">(3,206 words)</span> <span class="story-meta">(Jun 26, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../20-06-2026_Project_A-0/index.html">Project A-0</a> <span class="story-meta">(1,234 words)</span>
+            <span class="story-meta">(Jun 20, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-06-2026_TheCompulsionLoop/index.html">Thecompulsionloop: My Job Working for a Dictator as
+                Chief Engagement Enhancement Officer</a> <span class="story-meta">(6,158 words)</span> <span
+                class="story-meta">(Jun 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-06-2026_Dissolution/index.html">Dissolution Disequilibrium</a> <span
+                class="story-meta">(9,885 words)</span> <span class="story-meta">(Jun 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span
+                class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span
+                class="story-meta">(1,300 words)</span> <span class="story-meta">(Jun 7, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span>
+            <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span
+                class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800
+                words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144
+                words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span
+                class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177
+                words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span
+                class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span
+                class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256
+                words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span
+                class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span
+                class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
+            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378
+                words)</span> <span class="story-meta">(May 9, 2026)</span>
         </p>
     </div>
 
@@ -553,13 +725,20 @@
     <div class="related">
         <h4>Related Works by Jhave</h4>
         <p style="line-height: 1.8;">
-            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶
+                Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs
+                thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12,
+            2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief |
+                Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22,
+            2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21,
+            2025)&ensp;·&ensp;<br>
+            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7,
+            2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
             <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
@@ -592,7 +771,7 @@
 
         <div class="related">
             <h4></h4>
-            
+
         </div>
 
     </div>

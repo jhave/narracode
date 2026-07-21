@@ -515,18 +515,27 @@ def build_site(project_dir):
         }
 
         .story-image {
-            margin: 2.8rem auto;
+            display: block;
+            width: 100vw;
+            max-width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            margin-top: 2.8rem;
+            margin-bottom: 2.8rem;
             text-align: center;
-            width: 100%;
-            max-width: 100%;
         }
 
         .story-image img {
-            width: 100%;
-            max-width: 100%;
+            width: 100vw;
+            max-width: 100vw;
             height: auto;
-            border-radius: 6px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+            max-height: 640px;
+            object-fit: cover;
+            border-radius: 0;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
             display: block;
             margin: 0 auto;
         }
@@ -535,9 +544,13 @@ def build_site(project_dir):
             font-size: 0.88rem;
             font-style: italic;
             color: var(--muted);
-            margin-top: 0.75rem;
+            margin-top: 0.85rem;
             line-height: 1.5;
             text-align: center;
+            padding: 0 1rem;
+            max-width: var(--max-width, 740px);
+            margin-left: auto;
+            margin-right: auto;
         }
 
         @media (max-width: 600px) {
