@@ -12,7 +12,7 @@ Open Loops
 
 ## Display synopsis
 
-Two stories entwined around one click. One runs backwards: a seven-year-old in Gaza, orphaned, sole keeper of a bed-bound brother, retreating from the instant of an autonomous drone strike toward the unbearable ordinary that preceded it. One runs forwards: the staff lieutenant who approved the strike, carried through confirmation image, propaganda torrent, ecstasy rave, and a night of grief-rage, toward a metaphoric death of his own. The strands never meet again after the first paragraph. Neither resolves. Both remain open. An open loop, in control language, is a system that never reads its own consequence back in.
+Two stories entwined around one click. One runs backwards: a seven-year-old in Gaza, orphaned, sole keeper of a bed-bound brother, retreating from the instant of an autonomous drone strike toward the unbearable ordinary that preceded it. One runs forwards: the staff lieutenant who approved the strike, carried through confirmation image, propaganda torrent, ecstasy rave, and a night of grief-rage, toward a metaphoric death of his own. The strands never meet again after the first paragraph. Neither resolves. Both remain open.
 
 ---
 
