@@ -470,13 +470,23 @@ def build_site(project_dir):
         template = template.replace(
             "    </style>",
             """        .chapter-heading {
-            font-size: 1.15rem;
-            font-weight: 400;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: #6f6a61;
-            margin-top: 4rem;
-            margin-bottom: 1rem;
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            margin-bottom: 4.3rem;
+            line-height: 1.25;
+        }
+
+        .chapter-heading::before {
+            content: "◼︎";
+            display: block;
+            text-align: center;
+            font-size: 0.95rem;
+            font-weight: normal;
+            color: var(--text);
+            margin-bottom: 4.3rem;
         }
 
         .chapter-banner {
