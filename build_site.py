@@ -528,6 +528,15 @@ def build_site(project_dir):
             text-align: center;
         }
 
+        .story-image::before {
+            content: "◼︎";
+            display: block;
+            text-align: center;
+            font-size: 0.95rem;
+            color: var(--text);
+            margin-bottom: 4.3rem;
+        }
+
         .story-image img {
             width: 100vw;
             max-width: 100vw;
