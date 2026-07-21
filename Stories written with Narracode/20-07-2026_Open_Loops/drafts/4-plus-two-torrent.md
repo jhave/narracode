@@ -1,8 +1,13 @@
 # +2 — torrent
 
+<figure class="story-image">
+    <img src="img/4-plus-two-torrent.png?v=2" alt="Smeared light trails of MDMA sensory perception from a close-up flailing dance perspective on Tel Aviv rooftop rave" loading="lazy">
+    <figcaption><strong>Fig +2.4</strong> — Tel Aviv rooftop rave off Allenby street, 01:00 UTC. Smeared light trails of MDMA perception from a flailing dance perspective under hanging strings of warm bulbs.</figcaption>
+</figure>
+
 Off shift, 22:04, calm, smiling thin, mind numb, an industrious yearning.
 
-Collapse. His phone. The feed dissects reluctance. Sports first. Music on. Then looping back, a sauve consoling spokesman, followed by a pretty pert sad girl in pressed olive, explaining cohesion, precision, necessity. Enemy, alertness. Graphics: red icon, yellow radius, the word OPERATIVE floating serif over a rooftop. A thread, 214 replies, proving with arrows that the footage everyone saw was staged, lit, acted, that the child — a child in general, any child, the category child — is a prop. 
+Collapse. His phone. The feed dissects reluctance. Sports first. Music on. Then looping back, a suave consoling spokesman, followed by a pretty pert sad girl in pressed olive, explaining cohesion, precision, necessity. Enemy, alertness. Graphics: red icon, yellow radius, the word OPERATIVE floating serif over a rooftop. A thread, 214 replies, proving with arrows that the footage everyone saw was staged, lit, acted, that the child — a child in general, any child, the category child — is a prop. 
 
 Every day somewhere, a general or a new parent or a chemist repeats the *most moral army in the world* slogan; the phrase even scrolls under a mattress ad. Counter-feed: same road, other angle, someone's uncle screaming vertically into a lens. He thumbs past. Thumb knows. The torrent is not designed to convince. It is designed to exhaust, to silt the image over, layer on layer of pixel sediment until sand, bloom, limb, lie buried under commentary, and by 01:00 the burial mostly works, mostly, the arm still points through.
 
@@ -17,8 +22,3 @@ Dance without target, sweat without score. Churning the chaos. Beautiful youthfu
 knees up. Arm flung. Pointing. Another pill.
 
 He dances harder. Amnesia. The bass agrees to carry him till four.
-
-<figure class="story-image">
-    <img src="img/4-plus-two-torrent.png?v=1" alt="Tel Aviv rooftop rave off Allenby street under strings of bulbs with floating digital media feed overlays" loading="lazy">
-    <figcaption><strong>Fig +2.4</strong> — Rooftop off Allenby street, 01:00 UTC. Chemical discharge of the national gland: MDMA at the weekend membrane silting over the target thumbnail with a torrent of pixel sediment.</figcaption>
-</figure>

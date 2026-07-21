@@ -1,5 +1,10 @@
 # −2 — brother
 
+<figure class="story-image">
+    <img src="img/3-minus-two-brother.png?v=2" alt="Qais lying on mattress in standing third of ruined room reading a faded tattered Arabic comic book" loading="lazy">
+    <figcaption><strong>Fig −2.3</strong> — The standing third of the house. Eleven-year-old Qais, double leg amputee lying on the mattress, reading a faded tattered Arabic comic book resting on the wooden crate beside his bed.</figcaption>
+</figure>
+
 Three days earlier, the room.
 
 One room, third of a house, the standing third. Mattress by the wall where damp made maps of continents neither of them would visit. Qais on the mattress, eleven, long-lashed, furious in the mornings, gentle by noon, legs ending above where knees had been. January took the legs. January took more than the legs. Parents. An aching sad spasm. Don't look. 
@@ -17,8 +22,3 @@ Two notes, low then high, always, from the pharmacy corner. So he'd know. Other 
 Thursday she charged the phone and Hanan gave the hour's news in three sentences and none were news. Friday the sugar. Saturday she woke before him, watched his chest lift and drop, counted it awhile, the way misers count.
 
 Sunday the jug was low by evening. She weighed the light. An hour, maybe less, before true dark. She kissed his hairline, pursed lips at him — silent rehearsal of two notes — and went out for water.
-
-<figure class="story-image">
-    <img src="img/3-minus-two-brother.png?v=1" alt="Qais lying on mattress in standing third of ruined room beside damp map and sugar cubes" loading="lazy">
-    <figcaption><strong>Fig −2.3</strong> — The standing third of the house. Qais on the mattress where damp made maps of unvisited continents, listening for the two-note whistle from the corner of the collapsed pharmacy.</figcaption>
-</figure>

@@ -1,5 +1,10 @@
 # +1 — confirmation
 
+<figure class="story-image">
+    <img src="img/2-plus-one-confirmation.png?v=2" alt="IDF intelligence staff lieutenant corridor profile with forehead pressed against cool concrete wall" loading="lazy">
+    <figcaption><strong>Fig +1.2</strong> — Server corridor profile, Unit 8200 (Haifa). Forehead pressed against the cool concrete wall under the eyelids of sand, bloom, arm, while the corridor hums at the frequency of servers.</figcaption>
+</figure>
+
 He swiveled back. The screen had already reset; a corner thumbnail lingered, auto-archived: figure splayed in sand, knees up, arm out, dark bloom widening from the head. Strike 4,102 of the rotation. The folder that keeps them has a name he has never typed and a count he has never opened. He rarely even looks at the photos now. Requests arrive as cascade. Twelve pending. Fifteen. The queue does not grieve; the queue refills.
 
 The machine is trusted as one trusts a river. Nobody audits a river. You build on its banks, you drink, you name your children after it, and when it floods you call the flood weather. A machine of life and death, mostly death, its current fed by every antenna on the coastal plain, and he a sluice gate, opening, opening, opening, at a median of fifteen to forty-five seconds per opening.

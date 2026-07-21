@@ -700,8 +700,18 @@ def build_site(project_dir):
     )
 
     # Process drafts
-    draft_files = [f for f in os.listdir(drafts_dir) if is_story_draft(f)]
-    draft_files.sort()
+    if folder_name == "20-07-2026_Open_Loops":
+        draft_files = [
+            "0-approval.md",
+            "2-plus-one-confirmation.md",
+            "3-minus-two-brother.md",
+            "4-plus-two-torrent.md",
+            "5-minus-three-before.md",
+            "6a-plus-three-root.md",
+        ]
+    else:
+        draft_files = [f for f in os.listdir(drafts_dir) if is_story_draft(f)]
+        draft_files.sort()
 
     story_html = ""
 
