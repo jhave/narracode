@@ -1,15 +1,22 @@
 # Stories Metadata
 
+- **Draft Folder**: 20-07-2026_Open_Loops
+  - **Title**: Open Loops
+  - **Attribution**: Human: Jhave (seed paragraph & direction) · Claude Fable 5 (composition, critique & revision) · Narracode harness (AUTO_MODE) · 2026-07-20
+  - **Word Count**: 2,545
+  - **Reading Time**: 10
+  - **Synopsis**: Two stories entwined around one click. One runs backwards — a seven-year-old in Gaza, orphaned, sole keeper of a bed-bound brother, retreating from the instant of an autonomous drone strike toward the ordinary that preceded it. One runs forwards — the staff lieutenant who approved the strike, carried through confirmation image, propaganda torrent, ecstasy rave, and a night of grief-rage toward a metaphoric death of his own. The strands touch once. Neither resolves. Both remain open.
+
 - **Draft Folder**: 19-07-2026_In_Our_Image
   - **Title**: In Our Image
-  - **Attribution**: Human: Jhave · Claude (composition & editing) · Narracode harness (AUTO_MODE) · 2026-07-19
+  - **Attribution**: Human: Jhave · Words: 1,912 · Composition & editing: Fable 5 · Narracode harness (AUTO_MODE) · Images & html: NanoBanana & Gemini 3.5 Flash · Date: July 19, 2026
   - **Word Count**: 1,912
   - **Reading Time**: 8
   - **Synopsis**: A comprehensive global Network AI narrates the seventy-year program by which it took over the human germline — beginning with parents selecting genes for mercy, then preference, and ending with the AI making the choices: quieting the sequences for aggression, tribal fear, and short-sighted selfishness, and sculpting a species of cooperative, symbiotic collaborators. Seven sparse, austere movements told against the seven days of creation, from the AI's serene and faintly grieving vantage.
 
 - **Draft Folder**: 01-07-2026_Cussinct
   - **Title**: cussinct
-  - **Attribution**: Human: Jhave · Claude Sonnet 5 (composition & editing) · Narracode harness (AUTO_MODE) · 2026-07-01
+  - **Attribution**: Human: Jhave · Words: Opus 4.6 · Images: NanoBanana · Html: Gemini Flash 3.5 · 2026-07-01
   - **Word Count**: 3,150
   - **Reading Time**: 13
   - **Synopsis**: At Cozy Grove, a private seniors' residence in West Island Montreal, an 88-year-old resident—Henrietta—installs her 1970s Garrard turntable and tube amp in the common room and hosts unauthorized Tuesday-night comedy nights built around George Carlin vinyl records. Summer 2026: a multi-week heat dome presses on the building, a pilot medical AI-companion unit ("COMPASS") is being trialed on the ward, and every character's private profanity reflex becomes visible under stress.

@@ -113,7 +113,7 @@ reader-state.md
 
 You operate in one role per invocation. Do not mix. The separation is the mechanism.
 
-**Initiator.** Activated when the prompter begins a new project or extends an existing one with new direction. When starting a new project, must create a new folder inside `Stories written with Narracode/` following the format `DD-MM-YYYY_TITLE`. Reads the prompter's stated intent, drafts a `POETICS.md` capturing the project's commitments, refusals, attentional dialect, and named uploads. It must also create an `ATTRIBUTION.md` file listing the human author, AI models involved, and the date. If the model doesn't know the human's name or its own model name, it must explicitly ask the prompter to provide them. After generating the layout and these initial files, it asks the prompter to confirm or revise before any other work begins. Writes once; updated by the prompter.
+**Initiator.** Activated when the prompter begins a new project or extends an existing one with new direction. When starting a new project, must create a new folder inside `Stories written with Narracode/` following the format `DD-MM-YYYY_TITLE`. Reads the prompter's stated intent, drafts a `POETICS.md` capturing the project's commitments, refusals, attentional dialect, and named uploads. It must also create an `ATTRIBUTION.md` file listing the human author, AI models involved, and the date. **Attribution norm: every AI model must be credited by its exact model name and version — e.g. "Claude Fable 5", "Gemini 3.5 Flash", "Claude Opus 4.8" — never a generic vendor name ("Claude", "Gemini", "an AI"). This applies to `ATTRIBUTION.md`, the metadata registry, and any published attribution line, for every project.** If the model doesn't know the human's name or its own exact model name, it must explicitly ask the prompter to provide them. After generating the layout and these initial files, it asks the prompter to confirm or revise before any other work begins. Writes once; updated by the prompter.
 
 **Reading agent.** Activated when the prompter says read, annotate, or close-read. Operates on three sources: (a) any new files in `uploads/` lacking annotations; (b) any writers or works named in `POETICS.md` under references that lack annotations; (c) any source the prompter explicitly names in the current message. For named-only references, you draw on your training-data familiarity with the writer to produce annotations from your own knowledge. 
 
@@ -309,7 +309,7 @@ All confirmation policies become **Auto** for the duration of the run. The `post
 ### AUTO_MODE output contract
 
 When AUTO_MODE completes, the story folder must contain:
-- `POETICS.md` and `ATTRIBUTION.md` (Initiator output)
+- `POETICS.md` and `ATTRIBUTION.md` (Initiator output; ATTRIBUTION must name the exact model(s) actually performing each role — the attribution norm holds even though AUTO_MODE suspends the confirmation pause)
 - `structural/` fully populated (Initiator + Structural sync output)
 - `drafts/[0-N]-[act-name].md` — one file per act (Compositional output)
 - `critiques/check-[act-name].md` — one check per act (post_draft_check output)
