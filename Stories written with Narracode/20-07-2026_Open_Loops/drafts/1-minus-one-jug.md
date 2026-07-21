@@ -15,3 +15,8 @@ At the road's far edge she set the jug down to change hands and looked up once. 
 Two-note whistle. That was the code, hers, low then high, from the corner of the collapsed pharmacy, so he'd know her step from other steps and stop being afraid. She was rehearsing it, lips already pursed,
 
 wind lifted. A sound like sewing, high, above.
+
+<figure class="story-image">
+    <img src="img/1-minus-one-jug.png?v=1" alt="Sama carrying yellow water jug across dusty grey rubble street at dusk under razor-thin new moon" loading="lazy">
+    <figcaption><strong>Fig −1.1</strong> — Forty-one steps, rubble to rubble. The yellow jug carried four litres of water while the key around her neck knocked against her breastbone — a door no longer attached to a house.</figcaption>
+</figure>

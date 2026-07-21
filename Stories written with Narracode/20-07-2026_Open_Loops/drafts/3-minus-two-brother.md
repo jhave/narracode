@@ -17,3 +17,8 @@ Two notes, low then high, always, from the pharmacy corner. So he'd know. Other 
 Thursday she charged the phone and Hanan gave the hour's news in three sentences and none were news. Friday the sugar. Saturday she woke before him, watched his chest lift and drop, counted it awhile, the way misers count.
 
 Sunday the jug was low by evening. She weighed the light. An hour, maybe less, before true dark. She kissed his hairline, pursed lips at him — silent rehearsal of two notes — and went out for water.
+
+<figure class="story-image">
+    <img src="img/3-minus-two-brother.png?v=1" alt="Qais lying on mattress in standing third of ruined room beside damp map and sugar cubes" loading="lazy">
+    <figcaption><strong>Fig −2.3</strong> — The standing third of the house. Qais on the mattress where damp made maps of unvisited continents, listening for the two-note whistle from the corner of the collapsed pharmacy.</figcaption>
+</figure>

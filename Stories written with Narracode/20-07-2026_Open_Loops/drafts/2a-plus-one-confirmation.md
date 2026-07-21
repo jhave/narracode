@@ -11,3 +11,8 @@ Somewhere in the building, he has been told, there are rooms that model the ente
 Fifteen pending. He clicks. A senior officer told the branch, week one: your hesitation is a luxury the algorithm has already paid for. He no longer remembers hesitating. He remembers today's thumbnail. Knees up. Arm flung, as if pointing off-screen at something arriving.
 
 He files a bathroom break he doesn't take, stands in the corridor, presses forehead to cool wall. Under the eyelids: sand, bloom, arm. Shift ends 22:00. The corridor hums at the frequency of servers, which is the frequency of breath withheld.
+
+<figure class="story-image">
+    <img src="img/2-plus-one-confirmation.png?v=1" alt="IDF intelligence Unit 8200 autonomous console displaying target map network and kill approval queue" loading="lazy">
+    <figcaption><strong>Fig +1.2</strong> — Sluice gate operating in Unit 8200 (Haifa). Median kill confirmation time: 15 to 45 seconds. The algorithm scores proximity; the human operator swivels away as the queue refills.</figcaption>
+</figure>

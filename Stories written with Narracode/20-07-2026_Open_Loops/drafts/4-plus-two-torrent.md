@@ -17,3 +17,8 @@ Dance without target, sweat without score. Churning the chaos. Beautiful youthfu
 knees up. Arm flung. Pointing. Another pill.
 
 He dances harder. Amnesia. The bass agrees to carry him till four.
+
+<figure class="story-image">
+    <img src="img/4-plus-two-torrent.png?v=1" alt="Tel Aviv rooftop rave off Allenby street under strings of bulbs with floating digital media feed overlays" loading="lazy">
+    <figcaption><strong>Fig +2.4</strong> — Rooftop off Allenby street, 01:00 UTC. Chemical discharge of the national gland: MDMA at the weekend membrane silting over the target thumbnail with a torrent of pixel sediment.</figcaption>
+</figure>

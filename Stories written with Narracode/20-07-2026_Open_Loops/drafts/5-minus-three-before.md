@@ -13,3 +13,8 @@ Stand still, habibti. No — laugh again. Laugh again.
 Click.
 
 Seven years old, gap-toothed, squinting into sun. The sea behind her closing over every stone thrown at it, and continuing.
+
+<figure class="story-image">
+    <img src="img/5-minus-three-before.png?v=1" alt="Mother and seven-year-old gap-toothed Sama laughing on Jaffa corniche in golden Mediterranean sunlight" loading="lazy">
+    <figcaption><strong>Fig −3.5</strong> — October on the Jaffa corniche before everything. Mother with flour on her wrists holding Sama's hand like a kite string against the sea that closes over every stone and continues.</figcaption>
+</figure>

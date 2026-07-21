@@ -13,3 +13,8 @@ Noa watches the fan. Her thumb moves on his shoulder blade, wiper-blade arc, cle
 Underneath, where he cannot supervise it, the dream assembles: Haifa at dusk, a ferry with no flag, deck crowded with silent passengers facing seaward, no Hebrew, no Arabic, no announcement, water black and endlessly absorbent, the coastline shrinking to a strip of grey sand bordered by buildings, and he cannot tell, from the deck, whether he is escaping the hatred or exporting it, whether the ferry is leaving Israel or Israel is leaving him, and in the dream-soil under the dream a word is germinating that he did not plant. It came in through the eyes. Hers. Dead, open, seven years old, unclosable by any thumb. The word has taken root, unavoidably: genocide, growing downward first, the way roots do.
 
 On the road it is night now. New moon higher, thinner, a debt the sky still owes. Witnesses gone. Sand drinking, patient. Two figures splayed under one sky: one draining, one drained. One waited for by a two-note whistle that is still, in a room without a door, being listened for.
+
+<figure class="story-image">
+    <img src="img/6-plus-three-root.png?v=1" alt="Ferryboat silhouette drifting on dark sea under thin crescent new moon with ceiling fan shadow" loading="lazy">
+    <figcaption><strong>Fig +3.6</strong> — The dream ferry at Haifa dusk. Under the ceiling fan in Florentin, the open loop remains unresolved as the dark sea absorbs the coast under the debt of a thin sky.</figcaption>
+</figure>

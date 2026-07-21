@@ -492,7 +492,7 @@ def build_site(project_dir):
     </style>"""
         )
 
-    if folder_name == "19-07-2026_In_Our_Image":
+    if folder_name in ("19-07-2026_In_Our_Image", "20-07-2026_Open_Loops"):
         template = template.replace(
             "    </style>",
             """        .story-page-icon {
