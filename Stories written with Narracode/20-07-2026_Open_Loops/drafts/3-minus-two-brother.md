@@ -2,9 +2,11 @@
 
 Three days earlier, the room.
 
-One room, third of a house, the standing third. Mattress by the wall where damp made maps of continents neither of them would visit. Qais on the mattress, eleven, long-lashed, furious in the mornings, gentle by noon, legs ending above where knees had been. January took the legs. January took more than the legs, but the legs were what the body kept score of. At night phantom feet itched and she scratched air above the blanket in slow circles until he slept, because scratching air worked and neither asked why.
+One room, third of a house, the standing third. Mattress by the wall where damp made maps of continents neither of them would visit. Qais on the mattress, eleven, long-lashed, furious in the mornings, gentle by noon, legs ending above where knees had been. January took the legs. January took more than the legs. Parents. An aching sad spasm. Don't look. 
 
-Her day had a spine. Water at the northern queue, two hours, sometimes fire, sometimes not. Bread where bread rumored itself. Thursday, clinic, the hour of charge, nurse Hanan's radio murmuring casualties like a tide table. Between stations she moved by a private map: which streets the sky disliked, which walls threw shade at which hours, where a drone had loitered Tuesday and might have habits. She was seven and had habits of a forty-year-old smuggler. She was seven and skipped, sometimes, on safe stretches, because legs demanded it.
+At night phantom feet itched and she scratched air above the blanket in slow circles until he slept.
+
+Her ritual grind. Water at the northern queue, two hours, sometimes fire, sometimes not. Bread where bread rumored itself. Thursday, clinic, the hour of charge, nurse Hanan's radio murmuring casualties like a tide table. Music! Between stations she moved by a private map: which streets the sky disliked, which walls threw shade at which hours, where a drone had loitered Tuesday and might have habits. She was seven, with habits of a forty-year-old smuggler. She forgot, skipped, sometimes, over safe stretches.
 
 Feed him. Wash him where he allowed. Empty the pan he hated needing. Recite the outside: today grey, today crows, today two dogs fighting over something we will not name, today a man crying into a wall as if the wall were his father. Qais collected her reports and rebuilt the city from them behind closed eyes, streets restored, bakery re-lit, everyone's legs re-attached, and gave her the city back at night in installments, a serial, their one channel.
 
