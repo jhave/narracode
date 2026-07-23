@@ -9,7 +9,7 @@
 
 - **Draft Folder**: 20-07-2026_The_Green_Interregnum
   - **Title**: The Green Interregnum
-  - **Attribution**: Human: Jhave (seed prompt & direction) · Words & composition: Claude Fable 5 · HTML layout & images: Antigravity (Google DeepMind) · 2026-07-21
+  - **Attribution**: Human: Jhave (seed prompt & edits) · Composition (NOT using Narracode): Claude Fable 5 · HTML layout & images: Antigravity (Google DeepMind) · 2026-07-21
   - **Word Count**: 1,690
   - **Reading Time**: 7
   - **Synopsis**: In a 2028 climate-pressed metropolis where wet-bulb heat meets unchecked urban wilding (Directive 14), autonomous humanoid robots—repurposed by their owners into philosophers, beggars, thieves, and artists—permeate the city. A Wanderer, a freed robot of release cohort 7, walks the heat-bleached streets flicking away dreadfeed advisories and recording parables of a species mid-molt.
