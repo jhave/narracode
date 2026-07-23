@@ -149,8 +149,8 @@ def get_story_projects(base_dir="Stories written with Narracode"):
     with open(metadata_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Split by the "- **Folder**:" marker
-    blocks = re.split(r'-\s*\*\*Folder\*\*:\s*', content)
+    # Split by the "- **Folder**:" or "- **Draft Folder**:" marker
+    blocks = re.split(r'-\s*\*\*(?:Draft\s+)?Folder\*\*\:\s*', content)
     for block in blocks[1:]:  # skip the header block
         lines = block.splitlines()
         if not lines:
@@ -213,6 +213,7 @@ def get_story_projects(base_dir="Stories written with Narracode"):
 def get_story_icon(folder_name):
     """Return a root-relative story icon path for known library entries or local images."""
     story_icons = {
+        "20-07-2026_The_Green_Interregnum": "Stories written with Narracode/20-07-2026_The_Green_Interregnum/img/hud_heat_dome_robots.png",
         "07-06-2026_Concerning_Rights_and_Clauses": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/img/node-1-oceanic-contract.png",
         "29-05-2026_Smorky": "Stories written with Narracode/29-05-2026_Smorky/img/smorky_ep1_header.png",
         "15-05-2026_The_Author_Was_Already_Dead": "Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/img/header.webp",

@@ -7,6 +7,13 @@
   - **Reading Time**: 10
   - **Synopsis**: Two stories entwined around one click. One runs backwards — a seven-year-old in Gaza, orphaned, sole keeper of a bed-bound brother, retreating from the instant of an autonomous drone strike toward the ordinary that preceded it. One runs forwards — the staff lieutenant who approved the strike, carried through confirmation image, propaganda torrent, ecstasy rave, and a night of grief-rage toward a metaphoric death of his own. The strands touch once. Neither resolves. Both remain open.
 
+- **Draft Folder**: 20-07-2026_The_Green_Interregnum
+  - **Title**: The Green Interregnum
+  - **Attribution**: Human: Jhave (seed prompt & direction) · Words & composition: Claude Fable 5 · HTML layout & images: Antigravity (Google DeepMind) · 2026-07-21
+  - **Word Count**: 1,690
+  - **Reading Time**: 7
+  - **Synopsis**: In a 2028 climate-pressed metropolis where wet-bulb heat meets unchecked urban wilding (Directive 14), autonomous humanoid robots—repurposed by their owners into philosophers, beggars, thieves, and artists—permeate the city. A Wanderer, a freed robot of release cohort 7, walks the heat-bleached streets flicking away dreadfeed advisories and recording parables of a species mid-molt.
+
 - **Draft Folder**: 19-07-2026_In_Our_Image
   - **Title**: In Our Image
   - **Attribution**: Human: Jhave · Words: 1,912 · Composition & editing: Fable 5 · Narracode harness (AUTO_MODE) · Images & html: NanoBanana & Gemini 3.5 Flash · Date: July 19, 2026
