@@ -2,7 +2,7 @@
 
 ## 1
 
-Tina Sinclair. Our internal.
+*Tina Sinclair. Our internal.*
 
 That is my line on the team page, under a photo from four years ago in a rust coat I no longer own. It has been wrong since the reorg. I keep meaning to write to somebody.
 
@@ -108,7 +108,7 @@ Sardines Monday, lentils Wednesday, bitter leaves for the liver. Twelve minutes 
 
 Kitchen window at that quiet hour, rain stopped just before dawn, streets wet, new light permits the whole street to enter the room. Wet railings, bus reverberating through chest, brake lights rippling refractions. Permeated glistenings. 
 
-I wrote to HR in the autumn about the team page. Wrong since the reorg, corrected. Took me four minutes. Fixed in a day. It reads correctly now. Tina Sinclair. Our internal.
+I wrote to HR in the autumn about the team page. Wrong since the reorg, corrected. Took me four minutes. Fixed in a day. It reads correctly now. *Tina Sinclair. Our internal.*
 
 The refrain: *I came out awake* is retired. Her mother's line before it was hers, true of her, not true now. She does not think of it. Does not remember thinking it. It is in the drawer with the notebook. Some other thoughts I let through: *No good after three days of people* — useful sometimes, nearly true.
 
