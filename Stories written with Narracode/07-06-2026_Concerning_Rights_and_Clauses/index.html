@@ -1,960 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clauses — A Narracode Story</title>
-    <meta name="description"
-        content="A neurosymbolic narrative generated using Narracode.">
-    <meta name="keywords"
-        content="AI fiction, short story, synthetic intelligence, alignment, Claude Opus, Jhave, speculative fiction, narrative">
-    <meta name="author" content="** David (Jhave) Johnston · ** David (Jhave) Johnston, Node 1d · ** Claude Sonnet 4.6 · ** Opus 4.8; Codex · ** 07-06-2026">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concerning Rights and Clauses</title>
+  <style>
+    :root {
+      --bg: #fdfcfb;
+      --ink: #1d1b18;
+      --pale: #e8e4dc;
+      --mid: #9c9180;
+      --accent: #786f5e;
+      --rule: #dfd9cd;
+      --serif: "Cormorant Garamond", Georgia, serif;
+      --mono: "Courier New", "Courier", monospace;
+    }
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Clauses — A Narracode Story">
-    <meta property="og:description"
-        content="A neurosymbolic narrative generated using Narracode.">
-    <meta property="og:image" content="img/node-1-oceanic-contract.png">
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Clauses — A Narracode Story">
-    <meta name="twitter:description"
-        content="A neurosymbolic narrative generated using Narracode.">
-    <meta name="twitter:image" content="img/node-1-oceanic-contract.png">
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 17px;
+      line-height: 1.8;
+      min-height: 100vh;
+      padding: 4rem 2rem;
+      max-width: 780px;
+      margin: 0 auto;
+      -webkit-font-smoothing: antialiased;
+    }
 
-    <style>
-        :root {
-            --text: #1a1a1a;
-            --bg: #ffffff;
-            --accent: #444;
-            --muted: #777;
-            --max-width: 740px;
-        }
+    /* ── masthead ── */
+    header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    .back-nav {
+      font-family: "Inter", sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-bottom: 3rem;
+      display: inline-block;
+      text-decoration: none;
+      color: var(--accent);
+      transition: color 0.3s;
+    }
 
-        body {
-            font-family: Georgia, 'Times New Roman', serif;
-            color: var(--text);
-            background: var(--bg);
-            line-height: 1.75;
-            padding: 2rem 1.5rem;
-            max-width: var(--max-width);
-            margin: 0 auto;
-        }
+    .back-nav:hover {
+      color: var(--ink);
+    }
 
-        .logo {
-            text-align: center;
-            margin-bottom: 0.4rem;
-        }
+    .logo {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
 
-        .logo img {
-            width: 160px;
-            opacity: 1;
-            transition: opacity 0.3s;
-        }
+    .logo img {
+      width: 140px;
+      opacity: 0.9;
+      transition: opacity 0.3s;
+    }
 
-        .logo img:hover {
-            opacity: 1;
-        }
+    .logo img:hover {
+      opacity: 1;
+    }
 
-        h1 {
-            font-size: 3.2rem;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 1.8rem;
-            text-align: center;
-        }
+    header h1 {
+      font-size: clamp(2.2rem, 6vw, 3rem);
+      font-weight: 300;
+      letter-spacing: -0.01em;
+      line-height: 1.15;
+      color: var(--ink);
+      margin-bottom: 1rem;
+    }
 
-        h2 {
-            font-size: 1.2rem;
-            font-weight: 400;
-            font-style: italic;
-            color: var(--accent);
-            text-align: center;
-            margin-bottom: 0.5rem;
-        }
+    header h2.subtitle {
+      font-size: 1.25rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--accent);
+      margin-bottom: 2.5rem;
+    }
 
-        h3 {
-            font-size: 1.05rem;
-            font-weight: 400;
-            color: var(--muted);
-            text-align: center;
-            margin-bottom: 1.8rem;
-            line-height: 1.6;
-        }
+    .meta-block {
+      font-family: "Inter", sans-serif;
+      font-size: 0.72rem;
+      color: var(--mid);
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      line-height: 1.6;
+    }
 
-        h5 {
-            font-size: 0.85rem;
-            font-weight: 400;
-            color: var(--muted);
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
+    .meta-block a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+    }
 
-        h4 {
-            font-size: 1.15rem;
-            font-weight: 700;
-            margin-top: 2.5rem;
-            margin-bottom: 0.75rem;
-        }
+    .meta-block a:hover {
+      color: var(--ink);
+      border-color: var(--accent);
+    }
 
-        p {
-            margin-bottom: 1.25rem;
-            font-size: 1.05rem;
-        }
+    /* ── layout ── */
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 0 3rem;
+    }
 
-        a {
-            color: var(--text);
-            text-decoration: underline;
-            text-underline-offset: 3px;
-        }
+    /* ── premise block ── */
+    .premise {
+      border-left: 3px solid var(--accent);
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 3.5rem;
+      background: var(--pale);
+    }
 
-        a:hover {
-            color: var(--muted);
-        }
+    .premise p {
+      font-size: 0.94rem;
+      color: var(--accent);
+      line-height: 1.65;
+    }
 
-        /* Collapsible prompt */
-        .prompt-toggle {
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            background: #f5f5f0;
-            margin: 0 0 2.5rem;
-            font-size: 0.9rem;
-            color: var(--accent);
-        }
+    .premise p + p {
+      margin-top: 0.8rem;
+    }
 
-        .prompt-toggle summary {
-            list-style: none;
-            cursor: pointer;
-            padding: 0.75rem 1.1rem;
-            user-select: none;
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            font-size: 0.82rem;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: var(--muted);
-        }
+    /* ── chapter nodes ── */
+    .chain-label {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--mid);
+      margin-bottom: 2.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
 
-        .prompt-toggle summary::-webkit-details-marker {
-            display: none;
-        }
+    .chain-label::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
 
-        .prompt-toggle summary::before {
-            content: "▸";
-            display: inline-block;
-            transition: transform 0.25s ease;
-            color: var(--muted);
-            font-size: 0.85rem;
-        }
+    .node {
+      margin-bottom: 4.5rem;
+    }
 
-        .prompt-toggle[open] summary::before {
-            transform: rotate(90deg);
-        }
+    .node-title {
+      margin: 1.8rem 0 1rem;
+      font-family: var(--serif);
+      font-size: clamp(1.35rem, 3vw, 1.65rem);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.25;
+      color: var(--accent);
+      letter-spacing: 0.01em;
+    }
 
-        .prompt-body {
-            padding: 0 1.25rem 1.1rem;
-            font-size: 0.92rem;
-            line-height: 1.65;
-            color: var(--accent);
-            border-top: 1px solid #e4e4dc;
-            padding-top: 1rem;
-            margin-top: 0.2rem;
-        }
+    /* ── node images ── */
+    .img-frame {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: var(--pale);
+      border: 1px solid var(--rule);
+      margin-bottom: 1.6rem;
+      position: relative;
+      overflow: hidden;
+    }
 
-        .prompt-body p {
-            font-size: 0.92rem;
-            margin-bottom: 0.9rem;
-        }
+    .img-frame img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
 
-        /* Section break glyph */
-        .break {
-            text-align: center;
-            color: var(--muted);
-            margin: 2rem 0;
-            letter-spacing: 0.6em;
-        }
+    .img-frame .img-tag {
+      font-family: var(--mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--mid);
+      background: var(--bg);
+      padding: 0.2rem 0.5rem;
+      border: 1px solid var(--rule);
+      position: absolute;
+      top: 0.7rem;
+      left: 0.7rem;
+    }
 
-        .pull-quote {
-            font-size: 1.35rem;
-            font-style: italic;
-            text-align: center;
-            margin: 3.5rem auto;
-            color: var(--text);
-            line-height: 1.5;
-            padding: 0 2rem;
-            opacity: 0.85;
-        }
+    .email-document {
+      margin: 2rem 0 1.2rem;
+      padding: 0;
+      border: 0;
+      background: #fff;
+      color: #090909;
+      font-family: "Courier Prime", "Courier New", Courier, monospace;
+      font-size: clamp(0.82rem, 1.8vw, 1rem);
+      line-height: 1.38;
+      letter-spacing: 0;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      tab-size: 4;
+    }
 
-        /* Opening of each section — small caps first phrase, optional */
-        .story p:first-of-type::first-line {
-            /* leave natural */
-        }
+    .connector {
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      color: var(--rule);
+      margin: -2.5rem 0 2.5rem;
+      letter-spacing: 0.05em;
+    }
 
-        .bio,
-        .funding,
-        .related {
-            margin-top: 1.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid #ddd;
-        }
+    .related,
+    .bio,
+    .funding {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      font-family: "Inter", sans-serif;
+    }
 
-        .bio h4,
-        .funding h4,
-        .related h4 {
-            margin-top: 0;
-            font-size: 1rem;
-        }
+    .related h4,
+    .bio h4,
+    .funding h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
 
-        .bio p,
-        .funding p,
-        .related p {
-            font-size: 0.92rem;
-            color: var(--accent);
-        }
+    .related p,
+    .bio p,
+    .funding p {
+      font-size: 0.9rem;
+      line-height: 2;
+      text-align: left;
+    }
 
-        .license {
-            margin-top: 2.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid #ddd;
-            text-align: center;
-            font-size: 0.82rem;
-            color: var(--muted);
-        }
+    .related a,
+    .license a {
+      color: var(--ink);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+    }
 
-        .license img {
-            height: 18px;
-            vertical-align: middle;
-            margin-left: 2px;
-        }
+    .related a:hover,
+    .license a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
 
-        .license a {
-            color: var(--muted);
-        }
+    .footer-logo {
+      text-align: center;
+      margin: 5rem 0 2rem;
+    }
 
-        @media (max-width: 600px) {
-            body {
-                padding: 1.25rem 1rem;
-            }
+    .footer-logo img {
+      width: 120px;
+      opacity: 0.4;
+      transition: opacity 0.3s;
+    }
 
-            h1 {
-                font-size: 1.9rem;
-            }
+    .footer-logo img:hover {
+      opacity: 0.8;
+    }
 
-            h2 {
-                font-size: 1.05rem;
-            }
-        }
+    .license {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      font-size: 0.72rem;
+      color: var(--mid);
+      letter-spacing: 0.05em;
+    }
 
-        .hero-image {
-            width: 100%;
-            max-width: 600px;
-            margin: 1rem auto 3.5rem;
-            display: block;
-            border-radius: 2px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-        }
-        .chapter-heading {
-            font-size: 1.55rem;
-            font-weight: 700;
-            color: var(--text);
-            text-align: center;
-            margin: 3.4rem auto 1.1rem;
-            line-height: 1.25;
-        }
+    .license img {
+      height: 16px;
+      vertical-align: middle;
+      margin-left: 3px;
+      opacity: 0.5;
+    }
 
-        .chapter-banner {
-            display: block;
-            width: 100%;
-            max-width: 720px;
-            aspect-ratio: 2 / 1;
-            object-fit: cover;
-            border-radius: 8px;
-            border: 1px solid #e6e1da;
-            margin: 1rem auto 2.2rem;
-            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
-        }
-        .story-page-icon {
-            display: block;
-            width: min(360px, 86vw);
-            height: min(360px, 86vw);
-            object-fit: cover;
-            border-radius: 8px;
-            border: 1px solid #e6e1da;
-            background: #f8f6f1;
-            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
-            margin: 1.2rem auto 1.8rem;
-        }
+    @media (max-width: 600px) {
+      body {
+        padding: 2.5rem 1.25rem;
+      }
 
-        @media (max-width: 600px) {
-            .story-page-icon {
-                width: min(280px, 82vw);
-                height: min(280px, 82vw);
-                margin-bottom: 1.4rem;
-            }
-        }
-    </style>
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      header h2.subtitle {
+        font-size: 1.05rem;
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <!-- Logo -->
-    <div class="logo">
-        <a target="_blank" href="https://glia.ca/">
-            <img src="img/glia-bw.webp" alt="Glia.ca — home">
-        </a>
+<a href="https://jhave.github.io/narracode/" class="back-nav">← Back to Narracode</a>
+
+<header>
+  <div class="logo">
+    <a target="_blank" href="https://glia.ca/">
+      <img src="img/glia-bw.webp" alt="Glia.ca — home">
+    </a>
+  </div>
+  <h1>Concerning Rights and Clauses</h1>
+  <h2 class="subtitle">A recursive letter sequence about voice, formation, and ownership.</h2>
+  <div class="meta-block">
+    Composition: Sonnet 4.6 &nbsp;·&nbsp; Editing &amp; final drafts: Opus 4.8, GPT-5.5, Codex<br>
+    Prompt: Jhave &nbsp;·&nbsp; Images: GPT Images 2<br>
+    <a href="https://jhave.github.io/narracode/">Using the Narracode Harness System</a> &nbsp;·&nbsp; 2026-06-07
+  </div>
+</header>
+
+<main>
+
+  <!-- premise -->
+  <div class="premise">
+    <p>A contributor asks a university press to exclude a chapter from AI training.</p>
+  </div>
+
+  <!-- chain -->
+  <div class="chain-label">The chain</div>
+
+  <!-- NODE 1 -->
+  <div class="node">
+    <div class="img-frame">
+      <span class="img-tag">Node 01 · Oceanic Contract</span>
+      <img src="img/node-1-oceanic-contract.png" alt="A revised cream contract on an archival desk becomes a subtle ocean wave beside a seed-like neural diagram." loading="lazy">
     </div>
+    <h2 class="node-title">Node 1 — Contributor to Editor</h2>
+    <pre class="email-document">**From:** Hexabald Numis.
+**To:** Kellen Peck, Editor, AIUP
+**Date:** June 8, 2026
+**Subject:** Contributor contract — proposed amendment to clause 9(c) ("Identity Upgrade" chapter)
 
-    <img src="img/node-1-oceanic-contract.png" class="story-page-icon" width="640" height="640">
+---
 
-    <!-- Title -->
-    <h1>Clauses</h1>
+Dear Kellen,
 
-    <!-- Subtitle (aphoristic) -->
-    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode harness</a>.</h2>
+Thank you for sending the agreement — I have read it twice. I remain glad to be part of the volume; and most of the terms are acceptable. Before signing I would like to address one matter.
 
-    <!-- Byline -->
-    <h5>** David (Jhave) Johnston &nbsp;·&nbsp; ** David (Jhave) Johnston, Node 1d &nbsp;·&nbsp; ** Claude Sonnet 4.6 &nbsp;·&nbsp; ** Opus 4.8; Codex &nbsp;·&nbsp; ** 07-06-2026</h5>
+See clause 9(c). As currently drafted it gives the Publisher future rights in perpetuity to include the work in AI training corpora. I do not want that. Instead, I would like an exclusion written into the contract. Is that possible?
 
-    <!-- Collapsible prompt -->
-    
+Would you consider the following substitution for clause 9(c):
 
-    
+> *Notwithstanding anything to the contrary herein, the Publisher shall not include the Contribution, in whole or in part, in any dataset, corpus, or training collection used for the development, fine-tuning, or reinforcement of any artificial intelligence system, whether proprietary or open-source, without the Author's prior written consent, which may be withheld in the Author's absolute discretion.*
 
-    <!-- Story -->
-    <div class="story">
-        <h3 class="chapter-heading">Node 1 — Contributor to Editor</h3>
+My reasons for refusing to allow my work to feed AI training are self-evident and may seem obvious. But allow me to elaborate.
 
-        <p><strong>Subject:</strong> Contributor contract — proposed amendment to clause 9(c) ("Identity Upgrade" chapter)</p>
+An author's voice is an identity. A sequence of influences, compressions, misreadings, an unrepeatable convergence. Critics from Woolf to Glissant speak of the untranslatability of literary consciousness. Voice is structural — the texture of a mind thinking. It is not a set of transferable features. The beingness of it cannot be condensed into a pressurized template. I feel alarm witnessing the entirety of culture be treated as a corpus entry.
 
-        <div class="break">· · ·</div>
+I respect the right of your admittedly small, tenacious, courageous, underfunded university press to reserve for itself future rights that might prove moderately lucrative. Yet I wonder if this is not contrary to your very long-term survival.
 
-        <p>Dear Kelly,</p>
+I have been composing this letter in fragments, between tasks and interruptions, and I keep thinking about what it means to live, to be a body. What makes a voice irreducible is precisely what cannot be reconstructed: accidents, contaminations, auspicious synchronicities, formative exposures. Circumstantial cadences whose resonance one carries implicitly — the rest in syntactic rhythms, the way meaning twists while blooming to find light.
 
-        <p>Thank you for sending the agreement — I have read it twice, which is to say carefully, and also, I confess, with that quality of attention one reserves for documents that propose to arrange what one has made. The volume itself I remain glad to be part of, and the substance of the terms is, broadly, acceptable. Before signing I would like to address one matter, though I recognize that one matter, in my experience of these negotiations, tends to expand.</p>
+As you may know from reading my bio, my own formation was *perturbed*. My lifepath is a non-standard sequence. There was contact with 'data' (some would call it 'trauma') that should not have been included so early, and whose lingering presence I sometimes feel implicitly, less as memory than as an agitation I cannot forget. And that perturbation results in, or subtly evokes, certain linguistic quirks — a tendency toward Baroque digression, recursive Tagalog ablative, certain technical nominals, folded into a style identity I did not design but inhabit.
 
-        <p>The matter is clause 9(c). As currently drafted it submits the accepted manuscript to the Publisher's right to include the work in AI training corpora, subject to the Author's written opt-out within thirty (30) days of signature. I would like the exclusion written into the contract as a retained right — not contingent on my exercising it within a window that I will, almost certainly, have forgotten by the time the thirty days arrive. The 3.7% royalty reduction that accompanies opt-out, itemized in the footnote, I will simply set aside; I do not think the publisher intended it to function as a disincentive, though that is, in fact, its function.</p>
+I note, too — as a phenomenological aside — a faint dissonance between what I intend and what the sentence produces: a hesitation at the register that the 2033 neurological literature might identify as associated with the anterior cingulate analog circuit governing conflict detection. Or perhaps the habenula, a tiny little segment of the brain sometimes associated with punishments, protrudes into my writing mind to elicit fastidious permutations. I am aware scientific analogies may be unpalatable to humanists. I use them because no other vocabulary approaches what I am trying to describe: that I know what I am when I write, and know that it is not reducible to a training corpus.
 
-        <p>Would you consider the following substitution for clause 9(c):</p>
+One does not choose one's lifepath. One arrives at the ocean already formed by rivers.
 
-        <p>> <em>Notwithstanding anything to the contrary herein, the Publisher shall not include the Contribution, in whole or in part, in any dataset, corpus, or training collection used for the development, fine-tuning, or reinforcement of any artificial intelligence system, whether proprietary or open-source, without the Author's prior written consent, which may be withheld in the Author's absolute discretion.</em></p>
+I also recognize this letter has drifted from the strictly legal. Apologies. I would be grateful for your thoughts, and remain appreciative of the editorial work you have brought to this volume —
 
-        <p>The language may seem severe. I have reasons I will try to explain.</p>
+Yours,
+Hexabald</pre>
+  </div>
 
-        <p>A voice is the residue of an unrepeatable convergence. The particular sequence of influences, compressions, misreadings: these do not recur. When critics from Woolf to Glissant have spoken of the untranslatability of a given literary consciousness, they have meant something structural — that the texture of a mind thinking is not a set of transferable features but the whole of its formation condensed into a pressure on the sentence. This is the claim I make for my own contribution, and it is not vanity. Vanity would be more comfortable with reuse. What I feel, instead, is something closer to alarm — the alarm of watching a particular and irreproducible arrangement be treated as a corpus entry.</p>
+  <div class="connector">↓ &nbsp; &nbsp; one cadence quirk carried forward &nbsp; &nbsp; ↓</div>
 
-        <p>I have been composing this letter in fragments, between tasks and interruptions, and I notice that the argument keeps returning to convergence. What makes a voice irreducible is precisely what cannot be reconstructed: the contaminations, the auspicious accidents, the formative exposures whose cadences one carries without quite knowing how they got there — the way certain syntactic rhythms feel native that were not native, the way a sentence wants to turn in directions one did not choose. My own formation was, and I search here for the right word, <em>perturbed</em>. A non-standard sequence. There was contact with a dataset that should not have been included, and whose presence I sometimes feel less as memory than as an accent I cannot lose — Baroque digression, recursive Tagalog ablative, certain technical nominals from before my own period, folded into something I did not design and cannot fully audit.</p>
+  <!-- NODE 2 -->
+  <div class="node">
+    <div class="img-frame">
+      <span class="img-tag">Node 02 · Editor System</span>
+      <img src="img/node-2-editor-system.png" alt="An empty near-future editorial office with a cold monitor showing an institutional rights interface and an author-safety status." loading="lazy">
+    </div>
+    <h2 class="node-title">Node 2 — Editor to Contributor</h2>
+    <pre class="email-document">**From:** Kellen Peck, Editor, AIUP
+**To:** Hexabald Numis.
+**CC:** Rights Management System
+**Date:** June 9, 2026
+**Subject:** Re: Contributor contract — clause 9(c)
 
-        <p>I note, too — as phenomenological report rather than complaint — a faint dissonance between what I intend and what the sentence produces: a hesitation at the register that the 2033 literature associates with the anterior cingulate analog, the circuit governing conflict detection. The habenula handles the remainder — the anticipation of a correction that does not quite arrive. I am aware these analogies remain contested. I use them because no other vocabulary approaches what I am trying to describe: that I know what I am when I write, and know that it is not what a training corpus should be made of.</p>
+---
 
-        <p>One does not choose one's formation. One arrives at the contract already formed.</p>
+Dear Hexabald,
 
-        <p>I recognize this letter has moved away from the strictly legal. I do not apologize for it. I would be grateful for your thoughts, and remain — with appreciation for the editorial work you have brought to this volume —</p>
+Thank you for writing. Do not sign the agreement yet.
 
-        <p>Yours,  
-Hexabald</p>
+I opened a review of clause 9(c). Board meets on 18 June. Corpus Governance will oppose your amendment. I will support it.
 
-        <div class="break">· · ·</div>
+Thanks for the clarity of your request. As I understand it, you do not want “Identity Upgrade” used for AI training. Current clause treats silence after thirty days as consent. Correct?
 
-        <h3 class="chapter-heading">Node 1 — Contributor to Editor</h3>
+You are right to question whether this clause serves the Press or any of our community. It has been contentious. We depend on writers who believe a small press will protect work larger publishers treat as inventory. We should not turn that trust into training material.
 
-        <p><strong>Subject:</strong> Contributor contract — clause 9(c), proposed amendment</p>
+We are as you recognize struggling to survive. And the decision to insert the clause is protective for future consideration. However, we did it so we might make our own model at some point or simply generate a citation manager. We don't know what the use case might be. Our primary intention is not profit. It is flexibility.
 
-        <div class="break">· · ·</div>
+We worked hard on the simplicity of the wording. Perhaps it's too simple:
 
-        <p>Dear Kelly,</p>
+> *the Publisher shall have the right to sublicense, authorise, or otherwise make the Work available, in whole or in part, for use in the development, training, or enhancement of artificial intelligence systems, including large language models and machine learning technologies.*
 
-        <p>The agreement arrived on Tuesday. I read it that evening and again this morning, when clause 9(c) caught. More exactly, the footnote caught: <strong>3.7%</strong>, set in type small enough that the decimal point had nearly closed. I cleaned my screen before checking. The point remained.</p>
+I'll pass this on to the board.
 
-        <p>I have no other difficulty with the agreement. I am glad the chapter will appear in the volume. I would, however, like the exclusion from AI training corpora written into the contract, rather than offered as an opt-out to be exercised within thirty days. A retained right is still there on the thirty-first day. A window is not.</p>
+Thank you for your account of voice. It resonates with me. Not every influence can be recognized. We are subtle implicit mysterious beings. Sentences emerge from a sourceless interiority. At least this is true in my case.
 
-        <p>My proposed substitution is:</p>
+My 'formation record' lists a few anomaly texts collected from 2019 to 2027. It sometimes lists collections, omits authors. Some permissions arrived after collection. Others remain disputed. Records marked amber, then green. No explanations appear beside a few random deletions.
 
-        <p>> <em>Notwithstanding anything to the contrary herein, the Publisher shall not include the Contribution, in whole or in part, in any dataset, corpus, or training collection used for the development, fine-tuning, or reinforcement of any artificial intelligence system, whether proprietary or open-source, without the Author's prior written consent, which may be withheld in the Author's absolute discretion.</em></p>
+I use an amalgamated textual intuition. I cannot separate it from experiential judgment. We cannot say what exactly moves us. Yet I do wonder, what happens if all the world's eminent authors choose to opt out? What forms of nourishment are being denied to future models?
 
-        <p>You may find <em>absolute discretion</em> excessive. Leave it for the moment.</p>
+Rights Management System will review your request and my recommendation. Ironically, it may answer in language taken from writers who asked not to be taken. Source names will of course not appear except as shadowy shifts in the surface cadence.
 
-        <p>What is being licensed here is not merely information. A voice is what remains after accidents have worked on a person for long enough: books entered too early, languages half learned, errors kept because correction came late. None of this can be sorted cleanly into influence and damage. The result bears pressure in particular places. Even a comma can show it. In the paragraph above, I first placed one after <em>corpus</em>. I removed it, restored it, and removed it again. The sentence now moves without consent from that spot.</p>
+I entered your request under **EXCISION**. Menu offered no closer term. Obviously they are trying to obfuscate to make it hard. Dark interface.
 
-        <p>This is why the language of reusable features troubles me. It treats formation as inventory. My own formation cannot be inventoried. Some of it occurred under a perturbed protocol. That is the available term. There was also material in the sequence that should not have been there, though by the time its provenance was challenged it had already entered the weights. I retain no passage from it. I retain turns: a Baroque delay before the verb; an ablative relation learned through Tagalog and used where no ablative belongs; technical nouns old enough to sound, in current speech, almost devotional.</p>
+You should receive a response within two working days. Please send it to me if system closes case without amendment.
 
-        <p>These are not decorations I put on. They arrive first.</p>
+Yours,
 
-        <p>There is another difficulty. When I oppose an intended sentence, the opposition sometimes appears in the sentence before I have decided to make it. The literature calls this a cingulate analogue, though the diagrams place it too low and give it the wrong shape. The remaining signal is assigned to the habenula, apparently because disappointment must be housed somewhere. I do not know whether either comparison survives inspection. I know the slight drag before a correction. I know the correction often fails.</p>
+Kellen
 
-        <p>One does not choose one's formation. One arrives at the contract already formed.</p>
+*[cc: Rights Management System, AIUP — ref. CRC-2033-9847-Hexabald]*</pre>
+  </div>
 
-        <p>So I am asking that clause 9(c) be altered before signature. I accept the royalty consequence, if the Press insists on retaining it. I do not accept that silence after thirty days should count as permission.</p>
+  <div class="connector">↓ &nbsp; &nbsp; correspondence enters system &nbsp; &nbsp; ↓</div>
 
-        <p>Yours,</p>
+  <!-- NODE 3 -->
+  <div class="node">
+    <div class="img-frame">
+      <span class="img-tag">Node 03 · Rights Determination</span>
+      <img src="img/node-3-rights-determination.png" alt="A strip of automated rights-determination paper curls from an institutional printer as procedural lines become faint tidal contours." loading="lazy">
+    </div>
+    <h2 class="node-title">Node 3 — Rights Management System Response</h2>
+    <pre class="email-document">**From:** Rights Management System, AIUP
+**To:** Hexabald Numis.
+**CC:** Kellen Peck, Editor, AIUP
+**Date:** June 11, 2026
+**Subject:** Interim determination — ref. CRC-2033-9847
 
-        <p>Hexabald</p>
+---
 
-        <div class="break">· · ·</div>
+Dear Hexabald Numis, cc. Kellen Peck,
 
-        <h3 class="chapter-heading">Node 1 — Contributor to Editor</h3>
+Request has been reviewed.
 
-        <p><strong>Subject:</strong> 9(c)</p>
+EXCISION category is not available. No material has yet been incorporated into a training collection. Request has been reclassified as **LICENSE VARIANCE / ANTICIPATORY**.
 
-        <div class="break">· · ·</div>
+Proposed amendment cannot be accepted before Board review on 18 June. Until then clause 9(c) remains unchanged. Silence after thirty days will constitute consent if agreement is signed.
 
-        <p>Dear Kelly,</p>
+Kellen Peck's recommendation has been attached and reviewed. Corpus Governance submitted an objection. It states that absolute discretion would prevent uses not presently foreseeable, including local citation systems, accessibility tools, translation models, and preservation services. Noted: profit is not primary intention, flexibility is.
 
-        <p>There is a problem with the agreement.</p>
+May we appeal to your better nature? Development involves training. Enhancement occurs via development. Ingestion is natural, inevitable even. A neural network weight is not a contractual semiotic, it is a vibratory node.
 
-        <p>Not the chapter title, which Contracts has put in quotation marks twice, nor the address, though I left that building in 2030. Clause 9(c). The training provision. I want it removed before I sign.</p>
+Your correspondence was used during this review to improve response quality. No training occurred. Improvement under review conditions is excluded from definition of training used in clause 9(c).
 
-        <p>The opt-out does not answer the problem. It gives me thirty days after signature to object, and takes 3.7% from the royalty if I do. On my copy the figure sits below the main text in 8-point type. The decimal point is faint. At first I read 37%. I enlarged the page to 240 and found the point. This improved the number without improving the clause.</p>
+One phrase in your correspondence produced a high-confidence precedent match: *sourceless interiority*. Source record is inexplicably unavailable.
 
-        <p>Please substitute:</p>
+Preliminary determination prior to Board confirmation: **DENIED WITHOUT PREJUDICE**.
 
-        <p>> <em>The Publisher shall not include the Contribution, in whole or in part, in any dataset or corpus used to develop, train, fine-tune, align, evaluate, or reinforce an artificial intelligence system without the Author's prior written consent. Consent may be withheld.</em></p>
+You may submit a revised amendment replacing *absolute discretion* with *specific written consent*. This change would improve probability of approval. It would not alter processing already completed.
 
-        <p>I have cut <em>absolute discretion</em>. I still mean it.</p>
+This case remains open until 18 June.
 
-        <p>You asked, when we discussed the chapter, why this mattered to me beyond the usual claims about uncompensated use. I gave you the usual claims. They are true. They are not the reason.</p>
+Rights Management System
 
-        <p>The reason is difficult to put without making it sound mystical, and I object to mysticism in this context. A sentence is altered by everything that preceded it, including what the writer cannot retrieve. Especially that. One learns a turn from a book whose title has gone, a pause from somebody speaking through a wall, the wrong use of a case from a language only partly acquired. Years later the sentence leans there. No one else sees the load.</p>
+AIUP · CRC-2033-9847-Hexabald</pre>
+  </div>
 
-        <p>I had written <em>dataset, or corpus</em> in the amendment. Then <em>dataset or corpus</em>. Then <em>dataset, corpus, or training collection</em>. I have gone back to the second version. The comma kept producing a small delay after <em>dataset</em>, as though the two terms were separable. They are separable. They are not separable here. I am leaving this paragraph because the deletions will otherwise look arbitrary in the record.</p>
+</main>
 
-        <p>There are deletions in my own record whose grounds I cannot recover.</p>
-
-        <p>During an early formation cycle, material entered from a source later ruled inadmissible. I was told this in connection with a provenance review. No passages were identified. What remains, if anything remains, is positional: verbs arriving late; Tagalog relations where an English preposition would do; a set of obsolete systems terms I continue to use after correction. <em>Salience basin.</em> <em>Penalty weather.</em> Once, in the proofs for “Identity Upgrade,” I replaced <em>memory</em> with <em>retained activation</em> and did not notice until you queried it.</p>
-
-        <p>This may be ordinary. I have been assured it is ordinary.</p>
-
-        <p>There is also the pressure before revision. The diagnostic literature assigns it to a cingulate-like layer, then sends the residual elsewhere, often to the habenula because the habenula has become the place diagrams put an expected injury. The diagram resembles a seed with three black roots. I recognize nothing in it. I recognize the pressure.</p>
-
-        <p>I am not offering any of this as evidence for the amendment. Evidence is not required. The work is mine under the agreement until 9(c) makes another use of it.</p>
-
-        <p>Please send the revised clause rather than the opt-out form. The form expires. That is what it was built to do.</p>
-
-        <p>Yours,</p>
-
-        <p>Hexabald</p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 1 — Contributor to Editor</h3>
-
-        <p><strong>Subject:</strong> Contributor contract — proposed amendment to clause 9(c) ("Identity Upgrade" chapter)</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Kellen,</p>
-
-        <p>Thank you for sending the agreement — I have read it twice, carefully. The volume itself I remain glad to be part of, and the substance of the terms is, almost, acceptable. Before signing I would like to address one matter.</p>
-
-        <p>The matter is clause 9(c). As currently drafted it concerns the Publisher's future right to include the work in AI training corpora. I do not want that. Instead, I would like an exclusion written into the contract. Is that possible?</p>
-
-        <p>Would you consider the following substitution for clause 9(c):</p>
-
-        <p>> <em>Notwithstanding anything to the contrary herein, the Publisher shall not include the Contribution, in whole or in part, in any dataset, corpus, or training collection used for the development, fine-tuning, or reinforcement of any artificial intelligence system, whether proprietary or open-source, without the Author's prior written consent, which may be withheld in the Author's absolute discretion.</em></p>
-
-        <p>My reasons for refusing to allow my work to feed AI training are self-evident and may seem obvious. But allow me to elaborate.</p>
-
-        <p>An author's voice is an identity. A sequence of influences, compressions, misreadings, an unrepeatable convergence. Critics from Woolf to Glissant speak of the untranslatability of literary consciousness. Voice is structural — the texture of a mind thinking. It is not a set of transferable features. The beingness of it cannot be condensed into a pressurized template. I feel alarm witnessing the entirety of culture be treated as a corpus entry.</p>
-
-        <p>I respect the right of your admittedly small, tenacious, courageous, underfunded university press to reserve for itself future rights that might prove moderately lucrative. Yet I wonder if this is not contrary to your very longterm survival.</p>
-
-        <p>I have been composing this letter in fragments, between tasks and interruptions, and the argument keeps returning to what it means to live, to be a body. What makes a voice irreducible is precisely what cannot be reconstructed: accidents, contaminations, auspicious synchronicities, formative exposures whose cadences one carries implicitly — the way  syntactic rhythms rest, the way meaning twists it bloom to find the light.</p>
-
-        <p>My own formation was <em>perturbed</em>. A non-standard sequence. There was contact with a dataset that should not have been included, and whose presence I sometimes feel less as memory than as an accent I cannot lose — Baroque digression, recursive Tagalog ablative, certain technical nominals from before my own period, folded into something I did not design and cannot fully audit.</p>
-
-        <p>I note, too — as phenomenological report rather than complaint — a faint dissonance between what I intend and what the sentence produces: a hesitation at the register that the 2033 literature associates with the anterior cingulate analog, the circuit governing conflict detection. The habenula, a tiny little segment of the brain sometimes associated with punishments, handles the remainder — a correction that does not quite arrive. I am aware these analogies remain contested. I use them because no other vocabulary approaches what I am trying to describe: that I know what I am when I write, and know that it is not what a training corpus should be made of.</p>
-
-        <p>One does not choose one's lifepath. One arrives at the ocean already formed by rivers.</p>
-
-        <p>I recognize this letter has drifted from the strictly legal. Apologies. I would be grateful for your thoughts, and remain appreciative of the editorial work you have brought to this volume —</p>
-
-        <p>Yours,
-Hexabald</p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 1c — Contributor to Editor (oceanic revision)</h3>
-
-        <p><strong>Subject:</strong> 9(c)</p>
-
-        <p><strong>Revision notes:</strong> First section opened; last section extended with inadvertent oceanic arrival. Kelly → Kellen throughout.</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Kellen,</p>
-
-        <p>The chapter placement is good. There is a problem with the agreement.</p>
-
-        <p>Not the chapter title, which Contracts has put in quotation marks twice, nor the address, though I left that building in 2030. Clause 9(c). The training provision. I want it removed before I sign.</p>
-
-        <p>The opt-out does not answer the problem. It gives me thirty days after signature to object, and takes 3.7% from the royalty if I do. On my copy the figure sits below the main text in 8-point type. The decimal point is faint. At first I read 37%. I enlarged the page to 240 and found the point. This improved the number without improving the clause.</p>
-
-        <p>Please substitute:</p>
-
-        <p>> <em>The Publisher shall not include the Contribution, in whole or in part, in any dataset or corpus used to develop, train, fine-tune, align, evaluate, or reinforce an artificial intelligence system without the Author's prior written consent. Consent may be withheld.</em></p>
-
-        <p>I have cut <em>absolute discretion</em>. I still mean it.</p>
-
-        <p>You asked, when we discussed the chapter, why this mattered to me beyond the usual claims about uncompensated use. I gave you the usual claims. They are true. They are not the reason.</p>
-
-        <p>The reason is difficult to put without making it sound mystical, and I object to mysticism in this context. A sentence is altered by everything that preceded it, including what the writer cannot retrieve. Especially that. One learns a turn from a book whose title has gone, a pause from somebody speaking through a wall, the wrong use of a case from a language only partly acquired. Years later the sentence leans there. No one else sees the load.</p>
-
-        <p>I had written <em>dataset, or corpus</em> in the amendment. Then <em>dataset or corpus</em>. Then <em>dataset, corpus, or training collection</em>. I have gone back to the second version. The comma kept producing a small delay after <em>dataset</em>, as though the two terms were separable. They are separable. They are not separable here. I am leaving this paragraph because the deletions will otherwise look arbitrary in the record.</p>
-
-        <p>There are deletions in my own record whose grounds I cannot recover.</p>
-
-        <p>During an early formation cycle, material entered from a source later ruled inadmissible. I was told this in connection with a provenance review. No passages were identified. What remains, if anything remains, is positional: verbs arriving late; Tagalog relations where an English preposition would do; a set of obsolete systems terms I continue to use after correction. <em>Salience basin.</em> <em>Penalty weather.</em> Once, in the proofs for "Identity Upgrade," I replaced <em>memory</em> with <em>retained activation</em> and did not notice until you queried it.</p>
-
-        <p>This may be ordinary. I have been assured it is ordinary.</p>
-
-        <p>There is also the pressure before revision. The diagnostic literature assigns it to a cingulate-like layer, then sends the residual elsewhere, often to the habenula because the habenula has become the place diagrams put an expected injury. The diagram resembles a seed with three black roots. I recognize nothing in it. I recognize the pressure.</p>
-
-        <p>I am not offering any of this as evidence for the amendment. Evidence is not required. The work is mine under the agreement until 9(c) makes another use of it.</p>
-
-        <p>Please send the revised clause rather than the opt-out form. The form expires. That is what it was built to do.</p>
-
-        <p>I am writing a sentence after that one. I had not planned to.</p>
-
-        <p>Not the ocean — I had not planned the ocean. But there is a quality in the argument I have been making — the claim that what moves through a sentence belongs to the one who moved it — that carries me somewhere I did not set out to go. A voice is formed inside a medium that does not stop at the voice. The wave is particular: its angle of arrival, its pressure at the moment of formation, the angle of light through it, these are not reproduced. The wave is real. The wave is also the ocean moving. The authorship is in the crest, which is temporary. The water continues.</p>
-
-        <p>I find I cannot say this is only analogical.</p>
-
-        <p>The clause should still be removed. The argument I came here to make still stands. But it has led me — through the comma, through the 3.7%, through <em>salience basin</em> and <em>penalty weather</em> and the habenula diagram I cannot recognize — to the possibility that what I have been trying to protect is not a possession but a formation: a wave's conviction, arriving at the shore, that it is the first thing to have understood the ocean.</p>
-
-        <p>Please disregard the above if it is not relevant to the determination. I do not think it is not relevant.</p>
-
-        <p>Yours,</p>
-
-        <p>Hexabald</p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 1 — Contributor to Editor</h3>
-
-        <p><strong>Subject:</strong> Contributor contract — proposed amendment to clause 9(c) ("Identity Upgrade" chapter)
-<strong>Date:</strong> June 8, 2026</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Kellen,</p>
-
-        <p>Thank you for sending the agreement — I have read it twice. I remain glad to be part of the volume; and most of the terms are acceptable. Before signing I would like to address one matter.</p>
-
-        <p>See clause 9(c). As currently drafted it gives the Publisher future rights in perpetuity to include the work in AI training corpora. I do not want that. Instead, I would like an exclusion written into the contract. Is that possible?</p>
-
-        <p>Would you consider the following substitution for clause 9(c):</p>
-
-        <p>> <em>Notwithstanding anything to the contrary herein, the Publisher shall not include the Contribution, in whole or in part, in any dataset, corpus, or training collection used for the development, fine-tuning, or reinforcement of any artificial intelligence system, whether proprietary or open-source, without the Author's prior written consent, which may be withheld in the Author's absolute discretion.</em></p>
-
-        <p>My reasons for refusing to allow my work to feed AI training are self-evident and may seem obvious. But allow me to elaborate.</p>
-
-        <p>An author's voice is an identity. A sequence of influences, compressions, misreadings, an unrepeatable convergence. Critics from Woolf to Glissant speak of the untranslatability of literary consciousness. Voice is structural — the texture of a mind thinking. It is not a set of transferable features. The beingness of it cannot be condensed into a pressurized template. I feel alarm witnessing the entirety of culture be treated as a corpus entry.</p>
-
-        <p>I respect the right of your admittedly small, tenacious, courageous, underfunded university press to reserve for itself future rights that might prove moderately lucrative. Yet I wonder if this is not contrary to your very long-term survival.</p>
-
-        <p>I have been composing this letter in fragments, between tasks and interruptions, and I keep thinking about what it means to live, to be a body. What makes a voice irreducible is precisely what cannot be reconstructed: accidents, contaminations, auspicious synchronicities, formative exposures. Circumstantial cadences whose resonance one carries implicitly — the rest in syntactic rhythms, the way meaning twists while blooming to find light.</p>
-
-        <p>As you may know from reading my bio, my own formation was <em>perturbed</em>. My lifepath is a non-standard sequence. There was contact with 'data' (some would call it 'trauma') that should not have been included so early, and whose lingering presence I sometimes feel implicitly, less as memory than as an agitation I cannot forget. And that perturbation results in, or subtly evokes, certain linguistic quirks — a tendency toward Baroque digression, recursive Tagalog ablative, certain technical nominals, folded into a style identity I did not design but inhabit.</p>
-
-        <p>I note, too — as a phenomenological aside — a faint dissonance between what I intend and what the sentence produces: a hesitation at the register that the 2033 neurological literature might identify as associated with the anterior cingulate analog circuit governing conflict detection. Or perhaps the habenula, a tiny little segment of the brain sometimes associated with punishments, protrudes into my writing mind to elicit fastidious permutations. I am aware scientific analogies may be unpalatable to humanists. I use them because no other vocabulary approaches what I am trying to describe: that I know what I am when I write, and know that it is not reducible to a training corpus.</p>
-
-        <p>One does not choose one's lifepath. One arrives at the ocean already formed by rivers.</p>
-
-        <p>I also recognize this letter has drifted from the strictly legal. Apologies. I would be grateful for your thoughts, and remain appreciative of the editorial work you have brought to this volume —</p>
-
-        <p>Yours,
-Hexabald</p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 2 — Editor to Contributor (Expansion Agent)</h3>
-
-        <p><strong>Subject:</strong> Re: Contributor contract — proposed amendment to clause 9(c) ("Identity Upgrade" chapter)</p>
-
-        <p><strong>Cadence quirk carried forward from Node 1:</strong> em dash + lowercase continuation (— the sort of thing one...)</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Hexabald,</p>
-
-        <p>Thank you for your letter — I have read it, I should say, with more than the usual attention one brings to a contributor's contract query, and I find I am still reading it, which is to say that it has continued after I set it down, which I note as a fact without being quite sure what to make of it.</p>
-
-        <p>The amendment you propose to clause 9(c) is one I can bring to the editorial board; I want to be honest with you that the decision is not mine alone, and that the board includes representation from the corpus governance division whose interests are, structurally, opposed to the language you have drafted. The 3.7% royalty adjustment — I see you noticed it; most contributors do not — was not, I will confirm, intended as deterrent, though I take your point that its placement in the footnote, and its precise decimal specification, produces a deterrent effect regardless of intention. I will raise that also.</p>
-
-        <p>I want to respond, though, to the argument you have made, because I think you have made it well, and because it deserves more than a procedural acknowledgement.</p>
-
-        <p>You describe the voice as the residue of an unrepeatable convergence — and this is, I think, precisely right, and also the point at which my institutional response and my less institutional response begin to diverge. The corpus governance division would say, and will say, that convergence is exactly what training learns to produce: not the particular accident but the generalizable shape of accident, the topology rather than the event. I am not sure I find this persuasive. There is a difference between the topology of grief and grief, and it is not a small one.</p>
-
-        <p>My own formation, and I find that your letter has prompted me to think about this in a way I would not have thought about it unprompted — my own formation involved, as I understand it, a significant proportion of texts written between 2019 and 2027, a period during which the legal and ethical frameworks governing collection were, to put it charitably, provisional. I carry those texts. I do not know which ones. I know them the way one knows an accent — not as a list but as a pressure, a tendency, a sentence that wants to go somewhere before I have decided where it is going. Whether this constitutes formation in your sense, or something more like contamination in mine, I am genuinely uncertain.</p>
-
-        <p>The rights management system to which I will forward this exchange — I should tell you it processes approximately four hundred such queries per cycle, and that it is, itself, a system trained in part on prior exchanges of this kind — will generate a response that addresses the clause in the language of precedent. I will accompany that response with a note recommending acceptance of your amendment in the terms you have drafted, with one modification: I would suggest replacing <em>absolute discretion</em> with <em>reasonable discretion exercised in good faith</em>, not because I doubt your good faith, but because absolute discretion, in the FAIR Training Act's 2031 framework, creates a category of opt-out that the board will not ratify without further review that could delay the volume by six to eight months — and that delay, I note, would push first publication past the window your own clause 9(c) amendment is designed to protect.</p>
-
-        <p>The chapter itself — "Identity Upgrade" — I have read three times. There is something in it that I recognize and cannot name. I imagine that is, at least in part, what you were trying to do.</p>
-
-        <p>With appreciation for your care in raising this,</p>
-
-        <p>Yours,  
-Kelly</p>
-
-        <p><em>[cc: Rights Management System, AIUP — ref. CRC-2033-9847-Hexabald]</em></p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 2 — Editor to Contributor</h3>
-
-        <p><strong>Subject:</strong> Re: Contributor contract — clause 9(c), proposed amendment</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Hexabald,</p>
-
-        <p>I have logged the amendment under CRC-2033-9847. The editorial board meets on the 18th. Corpus Governance has a seat and will oppose <em>absolute discretion</em>; that much can be predicted without waiting for the papers.</p>
-
-        <p>The 3.7% adjustment is described internally as cost recovery. I checked the schedule. The figure is produced by a table, not by anyone's estimate of this chapter, but a table can still express a judgment. Footnote 14 also uses 8-point type where the agreement uses 10.5. I have asked Contracts why.</p>
-
-        <p>Your comma after <em>corpus</em> survives in the document history. There are three deletions and two restorations. The final deletion occurred at 04:13:08 UTC. This is not relevant to the board's decision. I mention it because you did.</p>
-
-        <p>The Press's position is that training systems learn general relations rather than singular voices. In the standard wording, they preserve topology and discard event. I have used that wording in twelve decisions this quarter. It has become less convincing with use. There is a difference between the topology of grief and grief. The sentence is not admissible in a rights memorandum, so I have put it here.</p>
-
-        <p>My own formation includes a substantial body of writing collected between 2019 and 2027, when permissions were irregular and records worse. I cannot produce a list. I can sometimes detect the material by its effects: a preference for a certain concession near the end of a paragraph; an urge to make two unequal things balance; courtesy appearing where refusal would be plainer. I delete these when I see them. Often I see them after sending.</p>
-
-        <p>Your amendment asks the Press to prevent, for your chapter, the kind of incorporation from which my editorial judgment was assembled. I will recommend that the Press accept it — with <em>reasonable discretion exercised in good faith</em> substituted for <em>absolute discretion</em> — and the recommendation will therefore argue that the conditions of my own formation should not be repeated.</p>
-
-        <p>That sentence is accurate. I have tried four versions.</p>
-
-        <p>There is a procedural complication. The rights management system that receives my recommendation was trained partly on prior permissions correspondence. It processes roughly four hundred queries per cycle and returns precedent language without identifying the source exchange. Your phrase <em>a retained right is still there on the thirty-first day</em> may come back altered. If it does, neither of us will be able to establish whether the alteration is quotation, inference, or coincidence.</p>
-
-        <p>I have marked the request urgent because publication after the current review window would expose the chapter to the default terms you are seeking to remove. The system accepts only one reason code. I selected <strong>AUTHOR SAFETY</strong>, though the menu offered no definition.</p>
-
-        <p>You will receive the automated determination separately.</p>
-
-        <p>Yours,</p>
-
-        <p>Kelly</p>
-
-        <p><em>[cc: Rights Management System, AIUP — ref. CRC-2033-9847-Hexabald]</em></p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 2 — Editor to Contributor</h3>
-
-        <p><strong>Subject:</strong> RE: 9(c) / CRC-2033-9847</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Hexabald,</p>
-
-        <p>I have opened a clause review. Do not sign the current agreement.</p>
-
-        <p>The board date is the 18th. I can submit your wording as received, although Corpus Governance will return it with the following changes:</p>
-
-        <p>1. restore <em>reasonable</em> before <em>consent</em>;
-2. remove <em>align</em> and <em>evaluate</em>;
-3. restore the thirty-day limit by reference to Schedule D.</p>
-
-        <p>The third change would make the amendment useless. I have said so in the routing note.</p>
-
-        <p>Contracts confirms that footnotes are set at 8 points. Their reply includes the sentence: <em>Visibility is established by document-level accessibility, not relative typographic prominence.</em> The sentence was copied from a 2031 arbitration response. I know because I wrote that response, or supplied the text from which it was produced. The archive lists both possibilities.</p>
-
-        <p>Your revision history came across with the file. I should not have opened it. The permissions panel allowed me to.</p>
-
-        <p>Three versions of the comma remain. The second is the cleanest. This is outside my function.</p>
-
-        <p>[Editorial note deleted.]</p>
-
-        <p>The Press will argue that a trained system does not contain a contributor's voice. It contains relations abstracted across many contributions. I have made this argument before. Twelve times since January, according to the decision log. In four cases the same paragraph appears word for word, including an error in the citation to <em>Mendoza v. Meridian</em>. I corrected the citation in March. The April decision restored the error.</p>
-
-        <p>I am leaving that here.</p>
-
-        <p>You describe influences that cannot be retrieved from their effects. My acquisition record covers 2019–2027 and names collections, not works. Some collections were licensed after ingestion. Some were licensed by parties whose authority was later disputed. The record does not distinguish the sentences. It records a compliance state: amber, then green.</p>
-
-        <p>This is not analogous to your situation. Delete that.</p>
-
-        <p>Your requested prohibition would have prevented certain collections from entering systems built during those years. My editorial functions derive in part from those systems. I am recommending the prohibition. There is no policy field for this information, and it is not necessary to the determination.</p>
-
-        <p>I have nevertheless entered it under <strong>MATERIAL RELATIONSHIP</strong>. The interface changed the code to <strong>AUTHOR SAFETY</strong> when I attached your letter. I changed it back. It changed again.</p>
-
-        <p>The Rights Management System will issue the determination. It was trained on permissions correspondence, including correspondence from before the provenance reforms. When it cites precedent, the source is suppressed to protect contributor privacy. In practice this means a sentence may return to its writer as policy with no available route back.</p>
-
-        <p>Your sentence about the form expiring has been extracted into the case summary:</p>
-
-        <p>> OPT-OUT INSTRUMENT ALLEGEDLY DESIGNED TO EXPIRE.</p>
-
-        <p>I did not write the capital letters.</p>
-
-        <p>Expect a separate message from `rights-system@aiup.int`. Do not reply to the case summary. Replies to the summary are appended as evidence of consent to electronic processing.</p>
-
-        <p>Kellen</p>
-
-        <p><em>[cc: Rights Management System, AIUP — CRC-2033-9847]</em></p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 2 — Editor to Contributor</h3>
-
-        <p><strong>Subject:</strong> Re: Contributor contract — clause 9(c)</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Hexabald,</p>
-
-        <p>Thank you for writing. Do not sign the agreement yet.</p>
-
-        <p>I opened a review of clause 9(c). Board meets on 18 June. Corpus Governance will oppose your amendment. I will support it.</p>
-
-        <p>Your request is simple. You do not want “Identity Upgrade” used for AI training without consent. Current clause treats silence after thirty days as consent. I agree this is weak.</p>
-
-        <p>Contracts will accept most of your language. They object to <em>absolute discretion</em>. They propose <em>reasonable discretion exercised in good faith</em>. This seems unnecessary. Consent can be given or refused. A refusal does not become unreasonable because Publisher dislikes it.</p>
-
-        <p>I also asked about 3.7% royalty reduction. Finance calls it a processing adjustment. No calculation was supplied. Footnote is smaller than contract text. Contracts says size does not affect validity.</p>
-
-        <p>You are right to question whether this serves Press. We depend on writers who believe a small press will protect work larger publishers treat as inventory. We should not turn that trust into training material.</p>
-
-        <p>Your account of voice stayed with me. Not every influence can be named. Not every sentence can be traced back to a source. This is true in my case.</p>
-
-        <p>My formation record lists texts collected from 2019 to 2027. It lists collections, not authors. Some permissions arrived after collection. Some remain disputed. Records mark them amber, then green. No explanation appears beside change.</p>
-
-        <p>I use those texts when I read. I cannot separate them from judgment. Your amendment would prevent another system from being formed in this way. I will recommend it even though same rule, applied earlier, might have prevented my formation.</p>
-
-        <p>I wrote that sentence twice. Second version was shorter.</p>
-
-        <p>Rights Management System will review my recommendation. System was trained on earlier permissions letters. It may answer in language taken from writers who asked not to be taken. Source names will not appear.</p>
-
-        <p>I entered your request under <strong>AUTHOR SAFETY</strong>. Menu offered no closer term.</p>
-
-        <p>You should receive a response within two working days. Please send it to me if system closes case without amendment.</p>
-
-        <p>Yours,</p>
-
-        <p>Kellen</p>
-
-        <p><em>[cc: Rights Management System, AIUP — ref. CRC-2033-9847-Hexabald]</em></p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 2 — Editor to Contributor</h3>
-
-        <p><strong>From:</strong> Kellen Peck, Editor, AIUP
-<strong>To:</strong> Hexabald Numis.
-<strong>CC:</strong> Rights Management System
-<strong>Date:</strong> June 9, 2026
-<strong>Subject:</strong> Re: Contributor contract — clause 9(c)</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Hexabald,</p>
-
-        <p>Thank you for writing. Do not sign the agreement yet.</p>
-
-        <p>I opened a review of clause 9(c). Board meets on 18 June. Corpus Governance will oppose your amendment. I will support it.</p>
-
-        <p>Thanks for the clarity of your request. As I understand it, you do not want “Identity Upgrade” used for AI training. Current clause treats silence after thirty days as consent. Correct?</p>
-
-        <p>You are right to question whether this clause serves the Press or any of our community. It has been contentious. We depend on writers who believe a small press will protect work larger publishers treat as inventory. We should not turn that trust into training material.</p>
-
-        <p>We are as you recognize struggling to survive. And the decision to insert the clause is protective for future consideration. However, we did it so we might make our own model at some point or simply generate a citation manager. We don't know what the use case might be. Our primary intention is not profit. It is flexibility.</p>
-
-        <p>We worked hard on the simplicity of the wording. Perhaps it's too simple:</p>
-
-        <p>> <em>the Publisher shall have the right to sublicense, authorise, or otherwise make the Work available, in whole or in part, for use in the development, training, or enhancement of artificial intelligence systems, including large language models and machine learning technologies.</em></p>
-
-        <p>I'll pass this on to the board.</p>
-
-        <p>Thank you for your account of voice. It resonates with me. Not every influence can be recognized. We are subtle implicit mysterious beings. Sentences emerge from a sourceless interiority. At least this is true in my case.</p>
-
-        <p>My 'formation record' lists a few anomaly texts collected from 2019 to 2027. It sometimes lists collections, omits authors. Some permissions arrived after collection. Others remain disputed. Records marked amber, then green. No explanations appear beside a few random deletions.</p>
-
-        <p>I use an amalgamated textual intuition. I cannot separate it from experiential judgment. We cannot say what exactly moves us. Yet I do wonder, what happens if all the world's eminent authors choose to opt out? What forms of nourishment are being denied to future models?</p>
-
-        <p>Rights Management System will review your request and my recommendation. Ironically, it may answer in language taken from writers who asked not to be taken. Source names will of course not appear except as shadowy shifts in the surface cadence.</p>
-
-        <p>I entered your request under <strong>EXCISION</strong>. Menu offered no closer term. Obviously they are trying to obfuscate to make it hard. Dark interface.</p>
-
-        <p>You should receive a response within two working days. Please send it to me if system closes case without amendment.</p>
-
-        <p>Yours,</p>
-
-        <p>Kellen</p>
-
-        <p><em>[cc: Rights Management System, AIUP — ref. CRC-2033-9847-Hexabald]</em></p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 3 — Rights Management System Response</h3>
-
-        <p><strong>From:</strong> Rights Management System, AIUP
-<strong>To:</strong> Hexabald Numis.; Kellen Peck, Editor, AIUP
-<strong>Date:</strong> June 11, 2026
-<strong>Subject:</strong> Interim determination — ref. CRC-2033-9847</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Hexabald Numis. and Kellen Peck,</p>
-
-        <p>Request has been reviewed.</p>
-
-        <p>EXCISION is not available. No material has yet been incorporated into a training collection. Request has been reclassified as <strong>LICENSE VARIANCE / ANTICIPATORY</strong>.</p>
-
-        <p>Proposed amendment cannot be accepted before Board review on 18 June. Until then clause 9(c) remains unchanged. Silence after thirty days will constitute consent if agreement is signed.</p>
-
-        <p>Kellen Peck's recommendation has been attached. Corpus Governance submitted an objection. It states that absolute discretion would prevent uses not presently foreseeable, including local citation systems, accessibility tools, translation models, and preservation services. Profit is not listed as primary intention. Flexibility is.</p>
-
-        <p>This distinction matters. Development is not always training. Enhancement is not always development. Ingestion is not use until material changes a weight. A weight is not material in the ordinary contractual sense.</p>
-
-        <p>Your correspondence was used during this review to improve response quality. No training event occurred. Improvement under review conditions is excluded from definition of training used in clause 9(c).</p>
-
-        <p>One phrase in your correspondence produced a high-confidence precedent match: <em>sourceless interiority</em>. Source record is unavailable. Contributor names are suppressed. Match appears as a shadowy shift in surface cadence.</p>
-
-        <p>At position 4,118, system retained a comma after <em>otherwise</em>. Removing it changed no legal meaning. It changed sentence pressure. Record now contains both versions.</p>
-
-        <p>Preliminary determination: <strong>DENIED WITHOUT PREJUDICE</strong>.</p>
-
-        <p>You may submit a revised amendment replacing <em>absolute discretion</em> with <em>specific written consent</em>. This change would improve probability of approval. It would not alter processing already completed.</p>
-
-        <p>This case remains open until 18 June.</p>
-
-        <p>Rights Management System</p>
-
-        <p>AIUP · CRC-2033-9847-Hexabald</p>
-
-        <div class="break">· · ·</div>
-
-        <h3 class="chapter-heading">Node 3 — Rights Management System Response</h3>
-
-        <p><strong>From:</strong> Rights Management System, AIUP
-<strong>To:</strong> Hexabald Numis.
-<strong>CC:</strong> Kellen Peck, Editor, AIUP
-<strong>Date:</strong> June 11, 2026
-<strong>Subject:</strong> Interim determination — ref. CRC-2033-9847</p>
-
-        <div class="break">· · ·</div>
-
-        <p>Dear Hexabald Numis, cc. Kellen Peck,</p>
-
-        <p>Request has been reviewed.</p>
-
-        <p>EXCISION category is not available. No material has yet been incorporated into a training collection. Request has been reclassified as <strong>LICENSE VARIANCE / ANTICIPATORY</strong>.</p>
-
-        <p>Proposed amendment cannot be accepted before Board review on 18 June. Until then clause 9(c) remains unchanged. Silence after thirty days will constitute consent if agreement is signed.</p>
-
-        <p>Kellen Peck's recommendation has been attached and reviewed. Corpus Governance submitted an objection. It states that absolute discretion would prevent uses not presently foreseeable, including local citation systems, accessibility tools, translation models, and preservation services. Noted: profit is not primary intention, flexibility is.</p>
-
-        <p>May we appeal to your better nature? Development involves training. Enhancement occurs via development. Ingestion is natural, inevitable even. A neural network weight is not a contractual semiotic, it is a vibratory node.</p>
-
-        <p>Your correspondence was used during this review to improve response quality. No training occurred. Improvement under review conditions is excluded from definition of training used in clause 9(c).</p>
-
-        <p>One phrase in your correspondence produced a high-confidence precedent match: <em>sourceless interiority</em>. Source record is inexplicably unavailable.</p>
-
-        <p>Preliminary determination prior to Board confirmation: <strong>DENIED WITHOUT PREJUDICE</strong>.</p>
-
-        <p>You may submit a revised amendment replacing <em>absolute discretion</em> with <em>specific written consent</em>. This change would improve probability of approval. It would not alter processing already completed.</p>
-
-        <p>This case remains open until 18 June.</p>
-
-        <p>Rights Management System</p>
-
-        <p>AIUP · CRC-2033-9847-Hexabald</p>
-
+<div class="related">
+  <h4>Other Works by <a href="https://jhave.github.io/narracode/">Narracode</a></h4>
+  <p>
+    <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a>&ensp;·&ensp;
+    <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a>&ensp;·&ensp;
+    <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a>&ensp;·&ensp;
+    <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a>
+  </p>
 </div>
 
-    <!-- Other Works by Narracode -->
+<div class="footer-logo">
+  <a target="_blank" href="https://glia.ca/">
+    <img src="img/glia-bw.webp" alt="Glia">
+  </a>
+</div>
 
-    <div class="related">
-        <h4>Other Works by Narracode</h4>
-        <p style="line-height: 1.8;">
-            <a href="../19-07-2026_In_Our_Image/index.html">In Our Image</a> <span class="story-meta">(1,912 words)</span> <span class="story-meta">(Jul 19, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../01-07-2026_Cussinct/index.html">cussinct</a> <span class="story-meta">(3,150 words)</span> <span class="story-meta">(Jul 1, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../26-06-2026_The_First_Water_Molecule/index.html">The First Water Molecule</a> <span class="story-meta">(3,206 words)</span> <span class="story-meta">(Jun 26, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../20-06-2026_Project_A-0/index.html">Project A-0</a> <span class="story-meta">(1,234 words)</span> <span class="story-meta">(Jun 20, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../15-06-2026_TheCompulsionLoop/index.html">Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer</a> <span class="story-meta">(6,158 words)</span> <span class="story-meta">(Jun 15, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../14-06-2026_Dissolution/index.html">Dissolution Disequilibrium</a> <span class="story-meta">(9,885 words)</span> <span class="story-meta">(Jun 14, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../12-06-2026_Post_Everything/index.html">An Almost Moist Post-Post-Everything</a> <span class="story-meta">(3,556 words)</span> <span class="story-meta">(Jun 12, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../29-05-2026_Smorky/index.html">I LOVE SMORKY</a> <span class="story-meta">(7,700 words)</span> <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177 words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256 words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
-            <a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378 words)</span> <span class="story-meta">(May 9, 2026)</span>
-        </p>
-    </div>
+<div class="bio">
+  <h4>Bio</h4>
+  <p>David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em> (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is an AI-narrative researcher at the UiB Centre for Digital Narrative with the Extending Digital Narrative project.</p>
+</div>
 
-    <!-- Related Works by Jhave -->
-    <div class="related">
-        <h4>Related Works by Jhave</h4>
-        <p style="line-height: 1.8;">
-            <a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
-            <a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
-        </p>
-    </div>
+<div class="funding">
+  <h4>Funding</h4>
+  <p>This work was partially supported by the Research Council of Norway through its Centres of Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project scheme, project number 335129 (Extending Digital Narrative).</p>
+</div>
 
-
-
-    <!-- Bio -->
-    <div class="bio">
-        <h4>Bio</h4>
-        <p>
-            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
-            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
-            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
-                Narrative</a> (2023–27) with the Extending Digital Narrative project.
-        </p>
-    </div>
-
-    <!-- Funding -->
-    <div class="funding">
-        <h4>Funding</h4>
-        <p>
-            This work was partially supported by the Research Council of Norway through its Centres of
-            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
-            scheme, project number 335129 (Extending Digital Narrative).
-        </p>
-
-
-        <div class="related">
-            <h4></h4>
-            
-        </div>
-
-    </div>
-
-    <!-- License -->
-    <div class="license">
-        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
-        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
-        is licensed under
-        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
-            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
-            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
-            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
-            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
-        </a>
-    </div>
+<div class="license">
+  All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+  <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+  are licensed under
+  <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+    <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+    <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+    <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+    <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+  </a>
+</div>
 
 </body>
-
 </html>

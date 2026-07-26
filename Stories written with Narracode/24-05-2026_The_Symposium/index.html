@@ -303,6 +303,39 @@
                 margin-bottom: 1.4rem;
             }
         }
+
+        /* Forensic dossier styles for section illustrations */
+        .forensic-dossier {
+            margin: 2.8rem auto;
+            text-align: center;
+            border: 1px solid #e1ded8;
+            background: #faf8f5;
+            padding: 1.2rem;
+            border-radius: 4px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+            max-width: 600px;
+        }
+
+        .forensic-dossier img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #d4d0c8;
+            border-radius: 2px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .forensic-caption {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.78rem;
+            color: #666;
+            margin-top: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 0.08em;
+            text-align: center;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 
@@ -333,12 +366,15 @@
 
     <!-- Story -->
     <div class="story">
-        <p># THE SYMPOSIUM
-<em>A Story in Seven Sessions</em></p>
+        <p style="text-align: center; font-style: italic; color: var(--muted);">A Story in Seven Sessions</p>
 
         <div class="break">· · ·</div>
 
-        <p><strong>I.</strong></p>
+        <h3 class="chapter-heading">I.</h3>
+        <div class="forensic-dossier">
+            <img src="img/section_1.png" alt="Session I: Cancellation Weather at Veld Station" loading="lazy">
+            <div class="forensic-caption">[CASE_REF: VELD-STN/ATMO] STATUS: COMPLICIT</div>
+        </div>
 
         <p>The transit pod set Mara Selene down at Veld Station during what the locals called cancellation weather — a term she did not understand until her second day, when she learned that the pale violet static in the upper atmosphere was caused by the mass-decommissioning of satellite infrastructure that had been built, decades prior, by a corporation whose shareholders had eaten meat. The satellites fell slowly, individually, each one preceded by a notification to the populace below: <em>the orbital object designated XR-7741 has been found complicit and will be withdrawn from service at 14:32 station time. Please observe standard protocols.</em> The violet was beautiful. She had been told not to say so.</p>
 
@@ -360,7 +396,11 @@
 
         <div class="break">· · ·</div>
 
-        <p><strong>II.</strong></p>
+        <h3 class="chapter-heading">II.</h3>
+        <div class="forensic-dossier">
+            <img src="img/section_2.png" alt="Session II: Helda Kessler's Mountain Recording Logs" loading="lazy">
+            <div class="forensic-caption">[ARCHIVE_REF: MSD-4/VALLEY] RECORDING_LOG_092</div>
+        </div>
 
         <p>The Kessler Recordings had been made ninety years ago on a world called Meridian-4, by an archivist named Helda Kessler who had spent thirty years traveling its valleys and recording the folk music of communities that were, within a generation of her work, absorbed into the empire and subsequently dissolved — not by force exactly, but by the relentless gravitational pull of imperial culture, which did not need force because it had convenience and bandwidth and the particular seductiveness of a civilization that had organized itself around the premise that desire was the primary fact of existence.</p>
 
@@ -376,7 +416,11 @@
 
         <div class="break">· · ·</div>
 
-        <p><strong>III.</strong></p>
+        <h3 class="chapter-heading">III.</h3>
+        <div class="forensic-dossier">
+            <img src="img/section_3.png" alt="Session III: Priya Ulm's Complicity of Presence Redactions" loading="lazy">
+            <div class="forensic-caption">[DEBATE_REF: P_ULM/PRESENCE] SPEECH_REFUSED</div>
+        </div>
 
         <p>The first session she attended was given by a man named Dov Anast, who was the Bureau's chief archivist for cancelled musical traditions. He was thin and precise and wore his badge turned inward toward his chest, in the manner of someone who had been asked, often, to show his credentials. His paper was titled "Toward a Protocol for the Preservation of Complicit Materials: The Ethical Status of the Archive."</p>
 
@@ -414,7 +458,11 @@
 
         <div class="break">· · ·</div>
 
-        <p><strong>IV.</strong></p>
+        <h3 class="chapter-heading">IV.</h3>
+        <div class="forensic-dossier">
+            <img src="img/section_4.png" alt="Session IV: Tested Safe Level 1 Contrition Bread Sample" loading="lazy">
+            <div class="forensic-caption">[SAMPLE_REF: DINNER/BREAD] COMPLEXITY: HIGH</div>
+        </div>
 
         <p>There was a dinner on the second evening, in a room that had been cleared of its original furnishings because the material from which they had been made derived from a process that had involved animal products, though the precise chain of complicity was still being traced. People sat on temporary chairs around temporary tables and ate a meal that had been prepared according to protocols so stringent that several of the dishes had been removed from the menu between the sending of the invitation and the event itself, because an ingredient supplier had been found, that afternoon, to have transported goods in a vehicle that burned combustibles.</p>
 
@@ -440,7 +488,11 @@
 
         <div class="break">· · ·</div>
 
-        <p><strong>V.</strong></p>
+        <h3 class="chapter-heading">V.</h3>
+        <div class="forensic-dossier">
+            <img src="img/section_5.png" alt="Session V: Forensic Acoustic Analysis of Kessler Waveforms" loading="lazy">
+            <div class="forensic-caption">[SIGNAL_REF: MERIDIAN-4/KESSLER] WAVEFORM_ANALYSIS</div>
+        </div>
 
         <p>The paper Mara did not present — her paper on the Kessler Recordings, on the polyphonic communities of Meridian-4, on the voice as position rather than sovereign — she read aloud in her room on the final night, to no one, because she had not been invited to present it and had not challenged this, had said only that she understood when the committee called to explain, with exquisite and genuine regret, that the material could not be contextualized adequately within the time constraints of the symposium, which was their way of saying what they could not say directly: <em>we cannot protect you.</em></p>
 
@@ -464,7 +516,11 @@
 
         <div class="break">· · ·</div>
 
-        <p><strong>VI.</strong></p>
+        <h3 class="chapter-heading">VI.</h3>
+        <div class="forensic-dossier">
+            <img src="img/section_6.png" alt="Session VI: Grainy Transit Concourse Security Feed capture" loading="lazy">
+            <div class="forensic-caption">[SURVEILLANCE_REF: TRANSIT/CAM_04] ARCHIVIST_LOG</div>
+        </div>
 
         <p>The symposium ended on a Thursday. Eleven papers had been presented, of which four were about cancelled materials, three were about the ethical status of studying cancelled materials, two were about the ethical status of the scholars who studied cancelled materials, one was Priya Ulm's paper on the complicity of presence, and one was a technical analysis of a pre-Lush tuning system that had been approved because the civilization that developed it had been found, upon review, to have been itself cancelled by an earlier iteration of the empire and therefore occupied a position of historical victimhood sufficient to offset its otherwise ambiguous complicity status, though a footnote noted that this determination was provisional pending further review.</p>
 
@@ -490,7 +546,11 @@
 
         <div class="break">· · ·</div>
 
-        <p><strong>VII.</strong></p>
+        <h3 class="chapter-heading">VII.</h3>
+        <div class="forensic-dossier">
+            <img src="img/section_7.png" alt="Session VII: Astrographic Transit Trajectories leaving Veld" loading="lazy">
+            <div class="forensic-caption">[DEPARTURE_REF: ULTHARA-7/POD] STATUS: COMPLETED</div>
+        </div>
 
         <p>The transit pod left at dawn, or what passed for dawn on Ulthara-7, a slow warming of the air rather than any dramatic event, a gradual becoming-visible of the things that had been there all along. The old man was on the pod. He sat across from her and watched the station recede through the small oval window, and she watched it too — the academic quarter, the low connected rooms, the window through which she had watched satellites fall.</p>
 
