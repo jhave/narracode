@@ -360,9 +360,30 @@ def draft_to_html(project_dir, draft_file):
 
         heading = re.match(r'^(#{1,3})\s+(.+)$', block.strip())
         if heading:
-            title = display_chapter_title(heading.group(2))
+            raw_heading_text = heading.group(2).strip()
+            story_title = get_display_title(project_dir, os.path.basename(project_dir))
+            if raw_heading_text.lower() == story_title.lower():
+                continue
+
+            title = display_chapter_title(raw_heading_text)
             html_out += f'        <h3 class="chapter-heading">{inline_markdown(title)}</h3>\n\n'
-            if banner and not banner_inserted:
+
+            section_banner = ""
+            banner_dir = os.path.join(project_dir, "img", "banners")
+            if os.path.exists(banner_dir):
+                for candidate_name in (title, f"section_{title}", f"section-{title}"):
+                    for ext in (".webp", ".jpg", ".jpeg", ".png"):
+                        cpath = os.path.join(banner_dir, f"{candidate_name}{ext}")
+                        if os.path.exists(cpath):
+                            section_banner = f"img/banners/{candidate_name}{ext}"
+                            break
+                    if section_banner:
+                        break
+
+            if section_banner:
+                html_out += f'        <img src="{section_banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
+                banner_inserted = True
+            elif banner and not banner_inserted:
                 html_out += f'        <img src="{banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
                 banner_inserted = True
             continue
