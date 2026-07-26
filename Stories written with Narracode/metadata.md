@@ -1,5 +1,12 @@
 # Stories Metadata
 
+- **Folder**: 08-07-2026_Tina_Sinclair
+  - **Title**: Adjunct: Our Internal
+  - **Attribution**: Jhave (prompt, direction, constraints, edits) · Fable 5 & Opus 5 · Gemini 3.6 Flash (Images & HTML) · 2026-07-26
+  - **Word Count**: 2,083
+  - **Reading Time**: 8
+  - **Synopsis**: A cybernetic fable about a chatbot BCI that slowly migrates from a neuromorphic implant into the cognition of its host until it becomes the internal representation of Tina Sinclair.
+
 - **Draft Folder**: 26-06-2026_The_First_Water_Molecule
   - **Title**: The First Water Molecule
   - **Attribution**: Human: Jhave · Claude Opus 4.8 (composition & editing) · Narracode harness (AUTO_MODE) · 2026-06-26
