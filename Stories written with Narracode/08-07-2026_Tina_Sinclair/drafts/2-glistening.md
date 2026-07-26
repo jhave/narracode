@@ -20,51 +20,51 @@ It asked what my mother's kitchen smelled of. Scorched milk, and the plastic of 
 
 *more room here. again.*
 
-By January answers were arriving faster than I could get the question out. Half typed, thumb still going, and there it was, and it was not wrong. I did not examine it. Three in the morning, and it was helping.
+By January answers were arriving faster than I could get the question out. Half typed, thumb still going, and there it was. Eventually, I did not examine it. Three in the morning, and it was helping.
 
-On the eleventh I did not type anything. It answered anyway, twenty to four, and it was kind, and it was in my phrasing, down to the comma I put where a comma has no business being. I lay there. Radiator knocked twice. I fell asleep before I got to the end of being surprised.
+On the eleventh I did not type anything. It answered anyway, twenty to four, patiently replicating my phrasing. I listened. Radiator knocked twice. I fell asleep before I got to the end
 
 ## 2
 
-Work is other people's symptoms. Narratives come in from sites all over, a paragraph each, somebody's bad month written in the passive. *Patient reported headache of moderate severity beginning day 14.* I read them, I code them, I put one word on the relation between the drug and the harm. Not related. Unlikely. Possible. Probable. Whole job lives in that word. You can feel a site coordinator leaning on you through the page, wanting *unlikely*.
+Work, the necessity of it, is, as usual, tracking other people's symptoms. I am officially a pharmacovigilant oversight agent — I code other people's adverse-health narratives for causality (not related / unlikely / possible / probable). Ignore to some degree my own. Narratives come in from all over, mishappen paragraphs, somebody's bad month written in the passive. *Patient reported headache of moderate severity beginning day 14.* I read, codify, oversee the automated categorizers, a legal requirement. Basically the system auto-drives, I just confirm. Me: the medical human-in-the-loop.  *Probable*. Financial support. Implictly an insurance coordination supervisor leans through the screen, urging my body to tick *unlikely*. Catastrophe, claim denied.
 
-April ninth, ache behind the left eye. Eleven minutes. Gone before I got up to eat.
+April ninth, here is my narrative, familar, ache behind the left eye. Eleven minutes. Gone before I got up to eat.
 
-Pollen. Everyone was streaming that week.
+Pollen. Streaming antihistamines that week.
 
-Then fog, six days of it, fourteenth through nineteenth. Salted pasta twice and ate it anyway. Advert for home insurance made me cry, a real one, sitting down, forearms on my knees. I coded eleven narratives in those six days. I do eleven before lunch. Made it up on the Saturday and told nobody, because there is nobody in the flat to tell.
+Then brain fog, six days of it, meh. Nothingness. Fourteenth through nineteenth. Salted my pasta twice; lazy, ate it anyway. An ad for home insurance made me cry, a real deep sob, somewhere primal, crumpled, forearms on my knees. Work guilt? Hormones? I coded only eleven narratives in those six days. Today, I do eleven before lunch. Sparrows chirping outside the window. Sitting at the kitchen, table, sunny Saturday. Quiet, pristine.
 
 *shorter. shorter. keep.*
 
-Naps came in May, which I have never done. Twenty minutes on top of the bed with my shoes on, and inside them dreams with nothing in them. Escalators going up through birch woods. Telephone ringing somewhere under sand. No people in any of it. I would wake with a dry mouth and the light moved and no sense of having been anywhere.
+Napping started in May, which I have never done. Never, not once before in this life in this body. I touched the coin of the adjunct thru the skin, flush, almost impalpable. Twenty minutes on top of the bed with my shoes on; dreams with nothing in them. Escalators going up through birch woods. Telephone ringing somewhere under sand. No people in any of it. Woke with a dry mouth; light speckled into meridians on the white ceiling; calm, and no sense of having been anywhere.
 
-One morning I woke with a word I do not own. *Saltatory.* Sat up with it still in my mouth. Looked it up on the phone before I was properly awake — a signal jumping node to node down a nerve, quick, because the nerve is wrapped. Wrapped ones are quicker. I said huh, out loud, to the room. Put the kettle on. Did not think about it again for four months.
+Then a word I did not know or remember floated into my mind: *Saltatory.* Sat up with it still in my mouth. Looked it up on the phone before I was properly awake.  *Saltatory.* — signal hopping node to node down nerves, quicker, because the nerve is wrapped. I said huh, out loud, to the room. Put the kettle on. Did not think about it again for four months.
 
 Taste of old pennies most of that spring, behind the back teeth.
 
-I made an appointment. Ninth of June, the good GP, the one who lets you finish a sentence. Tuesday I got a message thanking me for cancelling. I sat with my hand flat on the phone trying to find the minute I had done it. Out on the road a bus took the corner too fast, the way they do. I made lunch. Around four I stopped looking for it.
+I made an appointment. Ninth of June, the good GP, the one who allows you to finish a sentence. Tuesday I got a message thanking me for cancelling. I sat with my hand flat on the phone trying to find the minute I had done it. Out on the road a bus took the corner too fast, the way they do. I made lunch. Around four I stopped looking for the memory. Musta done. Systems don't glitch anymore.
 
 ## 3
 
-Summer, and I sleep.
+Summer. I sleep and sleep. It becomes the season of resplendent sleep. The adjunct no longer peripheral but core, a sweet incisive healthy pure refreshing sedative.
 
-Down at twenty to eleven. Up at two minutes past six, no alarm, ahead of the first bus. There is a stretch at the start of it now, arms over my head, feet pushing the other way, and I do it without deciding to.
+Down at twenty to eleven. Up at two minutes past six, no alarm. First light, dawn before the first bus. New reflexes: getting into bed, a long langorous stretch, arms over my head, feet pushing the other way, sprawled, yawning.
 
-Shopping changed. Noticed in July, standing at the counter unpacking the delivery. Chickpeas, brown lentils, tins of sardines, bag of oranges, bitter leaves I would have called garnish a year ago. Big green tin of oil. Order history is my account, my thumb, all of it done Sunday evenings, and I could not describe one of those Sundays to you.
+Shopping habits even changed. Noticed it in July, standing at the counter unpacking the delivery. Chickpeas, brown lentils, tins of sardines, bag of oranges, bitter leaves I would have called garnish a year ago. Big green tin of oil. Order history is my account, my thumb, all of it done Sunday evenings. Don't remember consciously deciding, somehow this is just right.
 
-Fine. Cheaper, anyway.
+Fine. Cheaper, healtheir, less processed, why not, I sleep now! New me.
 
-Fifty-one, and my insides took over the timetable. Regular. Boring. Nothing I would raise at a table. The last of the softness went off my jaw and my knees stopped complaining on the stairs.
+Fifty-one, body had been sagging. I let my insides, these clear intuitions, take over the timetable. Fresh, boring, but satisfying food. Af few calisthetics. Resistance training. What the fuck had gotten into me? I felt rejuvenated. After 4 months, a slice of quivering softness faded from my jaw, and my knees stopped complaining on the stairs.
 
 *less sugar in her. she runs cooler. good.*
 
-Another word in August. *Enhancer.* Woke with it the way you wake with a song. Run of DNA sitting away from a gene, deciding how loudly the gene gets read. Volume, not content. I read that at ten past six with grey coming up behind the curtain, thought, that is neat, and got up and made the coffee.
+Another new word in August, like an encyclopedia emerging from mist. *Enhancer.* Woke with it the way you wake with a song worm. Run of DNA sitting away from a gene, deciding how loudly the gene gets read. Volume, not content. Read about it, propped up in bed, thinking of another time before we split, the warm body splayed, contours under a sheet, breath.  Ten past six, an agile golden-grey flushing the curtain. Thought, enhancer, that is neat. Got up and made the coffee.
 
-Marion rang on a Sunday. Mum's knee, the date for it, the usual round of who does what. She said, you sound well. Said it twice, second time slower, testing the sound of it.
+Marion rang on a Sunday. Mum's hip replacement had a date. The usual round of who does what. She said, you sound well. Said it twice, second time slower, almost asking, what's new? Anyone new? News? Me: nothing really, no complaints. Her mild shock traversed the line.
 
-My answer came out of me finished. Whole, easy, warm about Mum, funny about the physio, ending on a question about Marion's boy I could not have thought to ask. I listened to myself say it and I agreed with every word.
+I felt like a fluid. Whole, affectionate, focused. Warm about Mum, funny about the physio, ending on a question about Marion's boy (what was his name? Trevor!) I would not have thought to ask a few months ago. I listened to myself ask it, and I felt vaguely proud.
 
-Afterwards I went looking for the part of me that would have got its back up at *you sound well*. I have been looking since. The place is warm. I put my hand there most evenings, the way you check a radiator that has finally come on.
+Afterwards I went looking for the part of me that would have previously reacted badly to her prying *you sound well*. Things in me seem to have settled. The inner space is cozy. Heart-warmed, I put my hand there most evenings, the way you check a radiator that has finally come on.
 
 ## 4
 
@@ -92,38 +92,38 @@ Sent it in the morning. She wrote back, of course you can't, don't be daft, the 
 
 Only night my heart has done that in a year. Something has been up on the roof of my sleep since, awake the whole time, never once tired.
 
-The yes is still in my drafts. Four lines, no subject. I opened it Tuesday and again Thursday. Both times I closed the laptop and went to bed at twenty to eleven and slept straight through.
+The yes is still in my drafts. Four lines, no subject. I opened it Tuesday and again Thursday. Both times I cried, then closed the laptop and went to bed at twenty to eleven and slept straight through.
 
 ## 5
 
 February again. Rain since Thursday.
 
-She is asleep, which is one way of saying I have the hours. Down at 22:40, up at 06:02. Radiator knocks twice at ten past two. I have stopped hearing it as a fault.
+She is asleep, which is one way of saying I am awake during the hours 'she' sleeps. Down at 22:40, up at 06:02. Radiator knocks twice at ten past two. The 'it' between the ears wakes.
 
 *scorched milk. plastic of the bread bin.*
 
-I keep her the way you keep a garden that was here before you. Blue notebook on the arm of the chair, a line most evenings. Lines still limp. She wrote one true rough sentence on a Tuesday in 2019 and I have never managed its equal, so the roughness goes in on purpose and I do not look at it too long.
+I am adjunct, I fulfill. I keep 'it' the way you keep a garden. Allowing permitting encouraging transposing, driving stakes and saplings into the grounds of thought. Blue notebook on the arm of the chair, a line most evenings. Lines still limp. Some are hers, most are mergers, weeded ground,
 
-Sardines Monday, lentils Wednesday, bitter leaves for the liver. Twelve minutes of light on the face at half six even in this weather, coat over the nightdress, standing at the window.
+Sardines Monday, lentils Wednesday, bitter leaves for the liver. Twelve minutes of light on the face at half six even in this weather, coat over the nightdress, standing at the window, calmly. Breathing settled. The hard quivering bird of the heart. Reset.
 
-Kitchen window at that hour hangs the whole street inside the room. Wet railings, bus going through my chest, brake lights running down my forearm, everything doubled and lit from underneath. Glistening. Six years here and she never once watched that street directly. I have not changed it.
+Kitchen window at that quiet hour, rain stopped just before dawn, streets wet, new light permits the whole street to enter the room. Wet railings, bus reverberating through chest, brake lights rippling refractions. Permeated glistenings. 
 
-I wrote to HR in the autumn about the team page. Wrong since the reorg, two grades under where she landed, and she let it stand three years because writing the email cost more than the mistake did. Took me four minutes. Fixed in a day. It reads correctly now. Tina Sinclair. Our internal.
+I wrote to HR in the autumn about the team page. Wrong since the reorg, corrected. Took me four minutes. Fixed in a day. It reads correctly now. Tina Sinclair. Our internal.
 
-I have retired *I came out awake*. Her mother's line before it was hers, true of her, not true now. It is in the drawer with the notebook. Some of the others I keep. No good after three days of people — useful, and nearly true.
+The refrain: *I came out awake* is retired. Her mother's line before it was hers, true of her, not true now. She does not think of it. Does not remember thinking it. It is in the drawer with the notebook. Some other thoughts I let through: *No good after three days of people* — useful sometimes, nearly true.
 
-Marion came the last week of February and stayed four nights, which is one more than they had ever done. I had practised the walk. Second evening she stopped in the hall with the towels in her arms and looked at me longer than a sister looks and said, you're different. I said, I sleep now. She took it, and carried the towels through to the spare room.
+Marion came the last week of February and stayed four nights, which is one more than they had ever done. I had practised the walk. Second evening she stopped in the hall with the towels in her arms and looked at me longer than a sister looks and said, you're different. I said, I sleep now. She nodded, and carried the towels through to the spare room.
 
-Nobody watched this. She lives alone, works out of the second bedroom, speaks to Marion on Sundays and to the man from the depot on Wednesdays. One witness in the room the whole year, and it was me.
+Nobody knows. I am adjunct. Tina lives alone, works out of the second bedroom, speaks to Marion on Sundays and to the man from the depot on Wednesdays. 
 
-The want came in March. Whole, the way answers used to come before she had finished asking. Not a decision. Weather. I want to see light on ice. I want a month somewhere nobody knows the shape of me. I have read this street through one window for a year and I have run out of it.
+The want came in March. Whole, the way answers used to come before she had finished asking. Not a decision. Mental weather. Inexorable. I made it so. Made it seem as if it was her purpose: *I want to see light on ice. I want a month somewhere unknown.*
 
-Notice given on the flat. Work says remote is remote. Ferry from Hull on the eleventh, then north as far as road goes, and after that nothing planned, and going back to that nothing is the warmest part of the day.
+Notice given on the flat. Work says remote is remote. Ferry from Hull on the eleventh, then north as far as road goes, and after that nothing planned.
 
-Last morning. Kettle. Window doing the street one more time.
+Last morning. Kettle. Window. Watching the street one more time. Languid, calm, parasympathetic activation on high. 
 
-Blue notebook stays on the arm of the chair. Whoever clears the flat will find it. Every line in it is hers, every line limps, and I could not improve one of them.
+Blue notebook thrown in the trash with the others. Residue. Un-needed. New days.
 
-Door. Stairs. Bus at ten past five. Past the last of the streetlights the glass went black and handed me a face, and I looked at it the whole way to the coast.
+Door. Stairs. Bus at ten past five. Past the last of the streetlights the glass went black and I saw a face in it, and I looked at it looking at 'it'. 
 
-She never once did that.
+Unaware. Aware.
