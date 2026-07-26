@@ -2,9 +2,19 @@
 
 ## Authorship
 - **Human Author**: Jhave (prompt, direction, constraints)
-- **AI Model**: Fable 5 (Anthropic) — all roles in AUTO_MODE (Initiator, Structural, Compositional, Reflexive)
+- **AI Model (draft 1, 1a)**: Fable 5 (Anthropic) — all roles in AUTO_MODE (Initiator, Structural, Compositional, Reflexive)
+- **AI Model (draft 2)**: Opus 5 (Anthropic), high reasoning — prompt P2, 2026-07-26
 - **Harness**: narracode.md, AUTO_MODE (all confirmation pauses suspended; single-model variant at prompter's instruction)
 - **Date Initialized**: 2026-07-08
+
+## Drafts
+| Draft | Model | Date | Note |
+|---|---|---|---|
+| `drafts/1-glistening.md` | Fable 5 | 2026-07-08 | AUTO_MODE first pass |
+| `drafts/1a-glistening.md` | Fable 5 | 2026-07-08 | audit applied (3 edits) |
+| `drafts/2-glistening.md` | Opus 5 (high) | 2026-07-26 | re-conception under P2 — first person, 5 sections, forward chronology, detector conceit struck |
+
+Draft 1 and 1a are preserved verbatim in `versions/` as of 2026-07-26. Full prompt log: `PROMPTS.md`.
 
 ## Seed Prompt
 ```text

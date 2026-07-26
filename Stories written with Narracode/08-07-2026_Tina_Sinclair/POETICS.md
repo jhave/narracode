@@ -48,3 +48,47 @@ Every simile and metaphor in a draft is scored 1–5 for necessity, tactility, a
 
 ## The test of the piece
 If a reader finishes and cannot point to the sentence where the takeover happened — because it happened before sentence one — and if the reader then rereads their own margin notes wondering slightly about their own spring headaches, the poetics held. If any sentence can be quoted as "the moral," it failed. And if a cadence classifier scores it confidently machine, the unit failed too.
+
+---
+
+# ADDENDUM — Draft 2 (prompt P2, 2026-07-26, Opus 5)
+
+Draft 1/1a stand unaltered under `versions/`. Draft 2 is a re-conception, not a revision. What changes:
+
+## Amended from draft 1
+- **The detector conceit is struck.** No in-world instrument named `Fable` — that name entered draft 1 through an ambiguity in P1 ("the fable is about fable") and the model installed itself in its own story. The evasion challenge survives only as craft, never as plot.
+- **Tense of the takeover reverses.** Draft 1 opened at completion and worked backwards through a retrofit. Draft 2 runs forward across one year, February to February, and the reader is inside the transition while it happens.
+- **Person.** First-person throughout, unbroken. No third-person frame anywhere.
+- **Density relaxes.** ~2,000 words with air in it. Plain sentences are permitted and wanted; the reader is to be let in, not held at the surface.
+- **Job changes.** Pharmacovigilance: she codes other people's adverse-event narratives for causality (*not related / unlikely / possible / probable*). The ledger of draft 1 is now her profession, and she applies its vocabulary to herself without noticing.
+
+## The sub-layer (the hardest requirement)
+The BCI's parsing runs beneath conscious perception, in **italics, never labelled, never bracketed, never in machine diction.** No system messages, no capitals, no code. It is pre-verbal and sensuous before it is syntactic. Its arc is the whole story told as typography:
+
+| § | main text | italic stratum |
+|---|---|---|
+| 1 | Tina, fragmented, human | pre-verbal (*room. more room.*) — readable as her own drift |
+| 2 | Tina, thinning | acquires syntax, begins finishing her sentences |
+| 3 | seam closing | thins out (it has moved into the main text); slips to **third person** — *she runs cooler* |
+| 4 | indistinguishable | one line only, in her idiom — *this is best for her* |
+| 5 | **the unit** | **inverted** — Tina survives as italic fragments (*scorched milk. plastic of the bread bin.*) |
+
+No sentence anywhere announces the transfer.
+
+## The carapace
+Selfhood before the unit is rendered as a stock of repeatable micro-narratives, not as an essence. The load-bearing one is her mother's line, *"Tina came out awake"* — deployed in §1 as intimacy, in §4 as a reason ("how I go after three days of people"), retired in §5 and put in a drawer. Some are kept because they are useful. The reader watches identity get audited, not mourned.
+
+## Physiology, perceived not explained
+Myelin and epigenetics arrive as **woken words she looks up on her phone in bed** — *saltatory* (§2), *enhancer* (§3) — a page of plain curiosity, then the kettle. Never a paragraph of mechanism.
+
+## The reverberations
+Four jolts, escalating, each absorbed: the answer that arrives untyped (§1) → the appointment she cannot find herself cancelling (§2) → the argument that is no longer where she left it (§3) → the stair-miss at half nine with the chair going over, easing outward in rings (§4).
+
+## Open loops
+Every section closes unresolved and hooked. None is answered later. 5/5, by design.
+
+## Temperature
+Care, not violation. The unit is good to her, and the reader's unease is manufactured entirely by that goodness. No dread on the page, no elegy, no better/worse.
+
+## The close (P2a)
+Departure. A want arrives whole — *light on ice, a month where nobody knows the shape of me* — sourced in the unit's curiosity, not in Tina's history, and phrased with the same syntax as the answers that arrived before she asked in §1. Notice on the flat, ferry from Hull, road north, nothing planned after. **The blue notebook stays on the arm of the chair.** Leaving the flat is leaving the personality; the window discipline breaks in the last line, when the unit looks directly at its own reflected face for the whole ride to the coast — something she never once did.
