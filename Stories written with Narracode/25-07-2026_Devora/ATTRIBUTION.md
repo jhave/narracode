@@ -2,7 +2,8 @@
 
 ## Authorship
 - **Human Author**: Jhave (seed paragraph, direction, constraints)
-- **AI Model**: Claude Opus 4.8 (Anthropic) — Initiator scaffolding, composition, post-draft check — via Narracode harness
+- **Story Composition**: Claude Opus 5 — via Narracode harness
+- **Images & HTML**: Gemini 3.6 Flash
 - **Date Initialized**: 2026-07-25
 
 ## Seed Prompt
@@ -11,4 +12,4 @@ Write a story. Open Loops. Fold in engagement hooks — subtle, tenacious, yet n
 ```
 
 ## Attribution formula (for publication)
-*Story written by Claude Opus 4.8 with prompting, seed paragraph, and edits by Jhave — via the Narracode harness.*
+*Jhave (seed paragraph, direction, constraints) · Claude Opus 5 (story) · Gemini 3.6 Flash (Images & HTML) · 2026-07-25*
