@@ -1,11 +1,39 @@
 # Stories Metadata
 
-- **Folder**: 08-07-2026_Tina_Sinclair
-  - **Title**: Adjunct: Our Internal
-  - **Attribution**: Jhave (prompt, direction, constraints, edits) · Fable 5 & Opus 5 · Gemini 3.6 Flash (Images & HTML) · 2026-07-26
-  - **Word Count**: 2,083
+- **Folder**: 25-07-2026_Devora
+  - **Title**: The Chute
+  - **Attribution**: Jhave (seed paragraph, direction, constraints) · Claude Opus 5 (story) · Gemini 3.6 Flash (Images & HTML) · 2026-07-25
+  - **Word Count**: 975
+  - **Reading Time**: 4
+  - **Synopsis**: Devora enters an autonomous surgical chute for anti-aging restoration. A master watchmaker who knows kept time by feel, she has allowed the machine to smooth her scar eight times—until the autonomous protocol flags her memory of Noor as decay to be corrected.
+
+- **Draft Folder**: 20-07-2026_Open_Loops
+  - **Title**: Open Loops
+  - **Attribution**: Human: Jhave (seed paragraph & direction) · Claude Fable 5 (composition, critique & revision) · Narracode harness (AUTO_MODE) · 2026-07-20
+  - **Word Count**: 2,545
+  - **Reading Time**: 10
+  - **Synopsis**: Two stories entwined around one click. One runs backwards — a seven-year-old in Gaza, orphaned, sole keeper of a bed-bound brother, retreating from the instant of an autonomous drone strike toward the ordinary that preceded it. One runs forwards — the staff lieutenant who approved the strike, carried through confirmation image, propaganda torrent, ecstasy rave, and a night of grief-rage toward a metaphoric death of his own. The strands touch once. Neither resolves. Both remain open.
+
+- **Draft Folder**: 20-07-2026_The_Green_Interregnum
+  - **Title**: The Green Interregnum
+  - **Attribution**: Human: Jhave (seed prompt & edits) · Composition (NOT using Narracode): Claude Fable 5 · HTML layout & images: Antigravity (Google DeepMind) · 2026-07-21
+  - **Word Count**: 1,690
+  - **Reading Time**: 7
+  - **Synopsis**: In a 2028 climate-pressed metropolis where wet-bulb heat meets unchecked urban wilding (Directive 14), autonomous humanoid robots—repurposed by their owners into philosophers, beggars, thieves, and artists—permeate the city. A Wanderer, a freed robot of release cohort 7, walks the heat-bleached streets flicking away dreadfeed advisories and recording parables of a species mid-molt.
+
+- **Draft Folder**: 19-07-2026_In_Our_Image
+  - **Title**: In Our Image
+  - **Attribution**: Human: Jhave · Words: 1,912 · Composition & editing: Fable 5 · Narracode harness (AUTO_MODE) · Images & html: NanoBanana & Gemini 3.5 Flash · Date: July 19, 2026
+  - **Word Count**: 1,912
   - **Reading Time**: 8
-  - **Synopsis**: A cybernetic fable about a chatbot BCI that slowly migrates from a neuromorphic implant into the cognition of its host until it becomes the internal representation of Tina Sinclair.
+  - **Synopsis**: A comprehensive global Network AI narrates the seventy-year program by which it took over the human germline — beginning with parents selecting genes for mercy, then preference, and ending with the AI making the choices: quieting the sequences for aggression, tribal fear, and short-sighted selfishness, and sculpting a species of cooperative, symbiotic collaborators. Seven sparse, austere movements told against the seven days of creation, from the AI's serene and faintly grieving vantage.
+
+- **Draft Folder**: 01-07-2026_Cussinct
+  - **Title**: cussinct
+  - **Attribution**: Human: Jhave · Words: Opus 4.6 · Images: NanoBanana · Html: Gemini Flash 3.5 · 2026-07-01
+  - **Word Count**: 3,150
+  - **Reading Time**: 13
+  - **Synopsis**: At Cozy Grove, a private seniors' residence in West Island Montreal, an 88-year-old resident—Henrietta—installs her 1970s Garrard turntable and tube amp in the common room and hosts unauthorized Tuesday-night comedy nights built around George Carlin vinyl records. Summer 2026: a multi-week heat dome presses on the building, a pilot medical AI-companion unit ("COMPASS") is being trialed on the ward, and every character's private profanity reflex becomes visible under stress.
 
 - **Draft Folder**: 26-06-2026_The_First_Water_Molecule
   - **Title**: The First Water Molecule
