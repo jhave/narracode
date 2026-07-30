@@ -350,6 +350,7 @@ def draft_to_html(project_dir, draft_file):
             html_out += f'        <img src="{banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
             banner_inserted = True
 
+    section_count = 0
     for block in blocks:
         if not block.strip():
             continue
@@ -360,9 +361,27 @@ def draft_to_html(project_dir, draft_file):
 
         heading = re.match(r'^(#{1,3})\s+(.+)$', block.strip())
         if heading:
+            level = len(heading.group(1))
+            if level == 1:
+                # Skip duplicate page-level title h1 if it matches story title
+                continue
+
+            section_count += 1
             title = display_chapter_title(heading.group(2))
             html_out += f'        <h3 class="chapter-heading">{inline_markdown(title)}</h3>\n\n'
-            if banner and not banner_inserted:
+            
+            # Check for section banner e.g. img/banners/1.png
+            sec_banner = None
+            banner_dir = os.path.join(project_dir, "img", "banners")
+            for ext in (".png", ".webp", ".jpg", ".jpeg"):
+                cand = os.path.join(banner_dir, f"{section_count}{ext}")
+                if os.path.exists(cand):
+                    sec_banner = f"img/banners/{section_count}{ext}"
+                    break
+
+            if sec_banner:
+                html_out += f'        <img src="{sec_banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
+            elif banner and not banner_inserted:
                 html_out += f'        <img src="{banner}" alt="" class="chapter-banner" loading="lazy">\n\n'
                 banner_inserted = True
             continue

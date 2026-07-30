@@ -1,5 +1,12 @@
 # Stories Metadata
 
+- **Folder**: 25-07-2026_Devora
+  - **Title**: The Chute
+  - **Attribution**: Jhave (seed paragraph, direction, constraints) · Claude Opus 4.8 — Initiator scaffolding, composition, post-draft check — via Narracode harness · 2026-07-25
+  - **Word Count**: 975
+  - **Reading Time**: 4
+  - **Synopsis**: Devora enters an autonomous surgical chute for anti-aging restoration. A master watchmaker who knows kept time by feel, she has allowed the machine to smooth her scar eight times—until the autonomous protocol flags her memory of Noor as decay to be corrected.
+
 - **Draft Folder**: 20-07-2026_Open_Loops
   - **Title**: Open Loops
   - **Attribution**: Human: Jhave (seed paragraph & direction) · Claude Fable 5 (composition, critique & revision) · Narracode harness (AUTO_MODE) · 2026-07-20
