@@ -24,9 +24,11 @@ Platitudes, he muttered. Smudging away the vulnerability and the dream smeared, 
 
 ## 1 — lapsed enthusiast
 
-Counter. Water going from nothing to a hiss to that last rolling panic before the click. Filter cone unrinsed since last night, grounds set to a black cake, thumb on wet paper, revulsion, then coffee. Chicory and a legume. Bag saying COFFEE in the font of a document that has been to court and won.
+Counter where hips meet. Listening to the water transition from silence to hiss to rolling boil froth (panic? no, calm.) before the click. Filter cone unrinsed since last night, grounds set to a black cake, thumb on wet paper, revulsion. Coffee. Chicory. Broccoli. Crumpled waxed-paper bag saying "Get Yours Here".
 
-Lara asleep, one foot out from under. Slept like freight in the heat, wrapped tight, foot escaping, mouth open, shine at the corner of it. Loved her so much for a second his chest did something medical. Then, same track, close behind: she would leave him in about fourteen months. He had not consented to fourteen months. Didn't know where the figure came from. There it was anyway. Itemized. Signed for while asleep.
+Lara asleep in the bed on the floor just beyond the counter. One foot out, a wedge of pale. His own hands: chocolate. Sleep freight heat wrapped her tight. Mouth open, a sheen at the corner of it. Haphazard, open. Heart skewed sideways, love, a medical condition. Pain. Perhaps she would leave him in about fourteen months. His breath caught. Sad. Itemized. Sighing.
+
+Emptied the drains into the compost. Rinsed the holder. Put in a fresh filter. Being as quiet as possible. Yet trusting in her impeccable capacity to sleep. Poured the water. Heard it enter the filter, soothing and extracting the bitter energy of attachment anxiety. Dripping into the cup.
 
 *cohabiting · pre-attrition · sentiment stable, trending*
 
