@@ -50,24 +50,6 @@ Prompter direction: *grow a nuanced character-story-context arc for each, then c
 - **Figures.** Caption-only, per *Open Loops*: `Fig N.N —` lines carrying image-content as text. No image assets this loop.
 - **Publication.** Story folder only. Root `index.html` and `metadata.md` stay hand-maintained.
 
-## Amendment — loop 3 (jhave's §1 edit, PR #9, 2026-07-30)
-
-The governing register for §2–§6 is now his §1, not my condensation. Thirteen operations, derived in `versions/v3-2026-07-30-jhave-section1/edit-observations.md`, promoted to registry classes 12–17 in `master_ai_tells.md`:
-
-- **Perception before object** — *Listening to the water*, not *water going*.
-- **Somatic anchoring** — *Counter where hips meet*. No unanchored nouns.
-- **Refused figure** — propose the metaphor, refuse it in-line: *(panic? no, calm.)* **Capped at 1 per 2,000 words** — performed hesitancy is itself a documented machine signature.
-- **Kill the extended conceit, keep one word** — four sentences of irony reduced to *Itemized.*
-- **Noun-collision** — *Sleep freight heat wrapped her tight.* No *like*, no *in the*.
-- **Procedure at full duration**, subject-dropped: *Emptied. Rinsed. Put in. Poured.*
-- **Emotion as clinical series**, no verb of feeling.
-- **The funnier wrong noun** over the accurate dull one.
-- **Quote the world's language, never gloss it.**
-
-**New canon, established without exposition and never to be stated with a verb**: *His own hands: chocolate*, against *a wedge of pale*. Ahmani is dark-skinned; Lara is not.
-
-**Held, because he did not touch them**: taxonomy-italic lines, section headers, Fig captions, dialogue punctuation, structure.
-
 ## Named references
 
 - Seed paragraph (prompter's, verbatim, section 0).

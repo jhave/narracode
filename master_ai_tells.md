@@ -88,6 +88,57 @@ Explaining a thing by analogy to a universal *you* or a generic case. *…four a
 - **Remedy**: keep the two strongest, CUT the rest. Watch for the tautological variant, where the subject is the simile's own object — *the seam puckered, the way a seam is after strain.*
 - **Provenance**: found by the first tell-scan, *Interim Edge*, 2026-07-30 — 7 hits in 5,500 words, ≈1 per 300.
 
+### 12. Confident figure where a refused figure belongs
+A metaphor delivered as settled. *that last rolling panic.* The narration knows what the thing is like and says so.
+
+- **Remedy**: demote the figure to a rejected candidate and show the refusal — *rolling boil froth (panic? no, calm.)*
+- **Rate cap — mandatory**: **1 per 2,000 words.** See below; this remedy is itself a documented tell above that rate.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 13. Unanchored noun
+An object named without a body to know it by. *Counter.* → *Counter where hips meet.*
+
+- **Remedy**: locate it where it presses. Hips, thumb, breath, the small of the back.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 14. Narrated emotion
+*Loved her so much for a second his chest did something medical.* A verb of feeling with a subject attached.
+
+- **Remedy**: itemise. Body-event, name, category, symptom, no verb — *Heart skewed sideways, love, a medical condition. Pain.*
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 15. Skipped procedure
+Cutting from the start of a domestic action to its result. Grounds, then coffee.
+
+- **Remedy**: subject-dropped verb chain at full duration — *Emptied the drains into the compost. Rinsed the holder. Put in a fresh filter. Poured the water.*
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1, added paragraph.
+
+### 16. The accurate dull noun
+*a legume* is correct about chicory-blend filler and inert. *Broccoli* is wrong and alive.
+
+- **Remedy**: take the funnier wrong noun.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 17. Explained satire
+Glossing the world's idiocy instead of quoting it. *Bag saying COFFEE in the font of a document that has been to court and won* → *Crumpled waxed-paper bag saying "Get Yours Here".*
+
+- **Remedy**: quote real ad-speak, unglossed. Give the object its texture and say nothing about it.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+---
+
+## Our own remedies are the next tells
+
+Every device adopted as a fix acquires a detector and a cap **the day it is adopted**. A remedy applied uniformly is a fingerprint. The literature is explicit here: LLMs already produce *performed* hesitancy at roughly twice the human rate, which is exactly what class 12's parenthetical refusal is made of.
+
+| device | source | cap | measured, *Interim Edge* v4 |
+|---|---|---|---|
+| parenthetical self-correction | class 12 | 1 / 2,000 words | 1 question-form, 1 aside — at cap |
+| noun-collision (*Sleep freight heat*) | §1 edit | 3 / 2,000 | ~2 |
+| subject-dropped verb chain | §1 edit | scene-initial and procedural only | §1, §4 queue, §6 close |
+| single-word fragment run | §1 edit | not more than 4 consecutive | — |
+| colon-apposition (*His own hands: chocolate*) | §1 edit | 2 per section | — |
+
 ---
 
 ## Open
