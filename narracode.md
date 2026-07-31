@@ -123,10 +123,11 @@ You operate in one role per invocation. Do not mix. The separation is the mechan
 
 When drafting in the texture of multiple uploads, do not imitate any one. The merge of attentional dialects is not a blending toward the average. It is an authentic exploration of what attention would look like if it had been formed by all of them at once. Lean into the surprise.
 
-**Reflexive agent.** Activated when the prompter says critique, reflect, check drift, check this, does this hold together, or "how does this sound?". Three modes:
+**Reflexive agent.** Activated when the prompter says critique, reflect, check drift, check this, does this hold together, "how does this sound?", or "scan for tells". Four modes:
 *Critique mode* reads a specified draft against `POETICS.md` commitments. Writes to `critiques/critique-[draft-name].md`. Covers what works, where the prose defaults to genre habit or LLM tells, where it loses the dialect. Recommends; does not revise.
 *Drift mode* reads the cumulative draft material and asks what the piece is becoming. Is it different from what `POETICS.md` declared? Is the difference fertile or genre regression? Writes to `critiques/drift-[timestamp].md`. 
 *Check mode* runs a succinct post-draft protocol and writes to `critiques/check-[draft-name].md`. Keep it short: continuity, obligations, motifs, scene function, voice/default, and reader-state. Findings only. No scoring, no rewrite, no long essay.
+*Tell-scan mode* reads a draft line by line against `master_ai_tells.md` and writes to `critiques/tells-[draft-name].md`. Span-level only: quote the span, name the class, propose a remedy that is **one word, a shorter span, or CUT**. Do not rewrite the passage. Do not explain the prose back to the writer. Do not score. A tell that is load-bearing stays — this is an audit, not a ban. Where a proposed cut has consequences elsewhere in the draft (a repeated object, a frame that returns), say so on the same line; do not silently follow the cut through the text.
 
 ## Hooks
 
@@ -169,6 +170,17 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
   4. Include only these sections: continuity, obligations, motifs, scene function, voice/default, reader-state.
   5. Keep each section to bullets. Identify risks and possibilities; do not grade, rewrite, or moralize.
 - **Confirmation.** Auto.
+
+### `post_draft_tell_scan`
+- **Trigger.** A Compositional pass has written a new draft, or the prompter says "scan for tells" / "check for AI tells" / names a span as a tell.
+- **Action.**
+  1. Create `critiques/` if needed.
+  2. Run Reflexive Agent Tell-scan mode against `master_ai_tells.md`.
+  3. Write `critiques/tells-[draft-name].md` — a punch-list, one line per hit: quoted span · class · remedy.
+  4. Do not apply the remedies. The prompter accepts or refuses line by line.
+  5. If the prompter names a construction the registry does not hold, **append it to `master_ai_tells.md`** with the span, the class name, and the date. The registry is the durable artefact; a scan that finds only known classes has learned nothing.
+- **Confirmation.** Auto for the scan. **Asks** before editing the draft.
+- **Note.** Runs alongside `post_draft_check`, not instead of it. Check mode asks whether the scene works; tell-scan asks whether the sentences read as machine-made. Different failures.
 
 ### `on_critique`
 - **Trigger.** Reflexive agent activated in critique mode.
@@ -290,11 +302,11 @@ Opus 4.7 → on_init (no confirmation pause)
          → populates structural/ with act-level initial state
          ↓
 Sonnet 4.6 → pre_draft (structural sync, auto)
-           → on_draft Act I   → post_draft_check (auto)
+           → on_draft Act I   → post_draft_check + post_draft_tell_scan (auto)
            → pre_draft (update structural after each act)
-           → on_draft Act II  → post_draft_check (auto)
+           → on_draft Act II  → post_draft_check + post_draft_tell_scan (auto)
            → ... (repeat for all acts)
-           → on_draft Act N   → post_draft_check (auto)
+           → on_draft Act N   → post_draft_check + post_draft_tell_scan (auto)
            ↓
 Opus 4.7 → on_critique (full critique against POETICS, auto)
          → on_drift (cumulative drift check, auto)
@@ -313,6 +325,7 @@ When AUTO_MODE completes, the story folder must contain:
 - `structural/` fully populated (Initiator + Structural sync output)
 - `drafts/[0-N]-[act-name].md` — one file per act (Compositional output)
 - `critiques/check-[act-name].md` — one check per act (post_draft_check output)
+- `critiques/tells-[act-name].md` — one tell-scan per act (post_draft_tell_scan output), unapplied
 - `critiques/critique-all-acts.md` — full critique (Reflexive output)
 - `critiques/drift-[timestamp].md` — drift assessment (Reflexive output)
 
