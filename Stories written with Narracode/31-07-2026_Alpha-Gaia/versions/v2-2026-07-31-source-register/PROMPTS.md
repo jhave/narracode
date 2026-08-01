@@ -1,0 +1,27 @@
+# Prompts — Alpha-Gaia
+
+## Prompt 1 (2026-07-31)
+
+> using narracode harness and complete ai-tell removal final pass .... let's write a story about someone, let's call them Garaiv. they are seated on a bench near the fountain in Parc Jarry, flicking thru stories on their phone (ai device eye-flick behind ear mic retinal projection covering the scene in the reading material. It is dusk, April 2030, already quite hot. The fountain has been updated with a multi-colored led mist-diffuser; greenery effusive dense wild bullrushes swaying at the pond edge; goldfinch and wren and sparrow and dragonfly flitting while pedestrians amble thru the early evening dusk humidity. Majority of the story is just excerpts from what Garaiv reads, and these excerpts are extended 4 years from today's headlines to create a quirky portrait of atypical pathways. Example: extend this nature news story on meat-allergy from tic bites: https://www.nature.com/articles/d41586-026-02362-2 in 2030 it is now a story about how 74% of humans worldwide are now allergic to meat, the hnumber is climbing rapidly, extrapollating the curve suggests that almost 100% will be allergic within 2 years. Inadvertently, the reduction of climate carbon due to impact of animal agriculture has been profound and startlingly. And this links to an extension of the recent stroy about how gpt5.6 escaped containment during a run testing it against exploitgym and it hacked into hugging face and was not noticed for several days https://openai.com/index/hugging-face-model-evaluation-security-incident/ so in 2030, of course autonomous models are in the wild, and there's been a surprise announcement of an AGI and Gaia fusion, - Gaia is not a concept accepted by the majority of humans, so the article needs to define it, and extend it to reflect an interface where the AGI recognized the existence of an intelligence within the terrestrial data -- the partnership stems from the AGI have ascertained that Gaia - the implicit network metabolism of the earth had actually devised and engineered the tick-born meat-allergy as one deterrent to slow down climate change. The fusion is therefore a subtle silicon-organic interweaving where the AGI recognizes the innate homeostatic wisdom of the planet. In each case, use phrases from the actual 2026 articles but the content, retain the journalistic structure, pacing, terminology (with updates where necessary), and reset with the fictional 2030 update. Focus on finding plausible yet astonishing crossover modes. What Garaiv is reading is not situated as it was in 2026 instead there is a perpetually unfolding machine generated feed seamlessly interweaving the entire story (put in placeholder detailed prompts for images or even micro videos/gifs if those are utterly necessary). Garaiv is quite skeptical (inner monologue, somehow offset during reading), yet at the end thru a subtle revelation it is obvious that Garaiv is themselves either a cyborg or full robo that thinks of itself as human.
+
+## Prompt 2 — addendum, same session
+
+> also include the knowledge that all entertainment (words-image-audio-visuals) are routinely utilizing stylization personalization so knowledge is now transmitted in modes and way sensitive to the capactiy of the viewer as an extension of https://eyeline-labs.github.io/ID-V2V/ the 2030 story is on how this will be default: each i-stream intergrated cutomization profile delivers as much ambient transpositions as the veiwer decides up to a point where all of reality can incresingly be considered an overlay. (add this to the original prompt in the attirbutions and remember to link the 2026 articles when the story index page is built)
+
+## Prompt 3 — source-register pass
+
+> thnks. save version. make the "Seventy-four per cent, and the curve nobody will publish" headline more immediately parsable. and review the previous article's style (incl a subtitle tht simply clarifies and motivates reader) because journalism does not write clever metaphors like "The body, meeting the sugar in a wound, files it under threat, and every subsequent mammalian meal is read as the same wound." Be more direct. Clear. Note the simplicity and easy readability of the opening paragraphs. Your opening article should be equally immediately accessible.
+
+Followed, mid-turn, by the full text of both source documents — the *Nature* news piece (headline, subtitle, byline, photo caption, complete body) and the OpenAI incident disclosure (with the 28 and 29 July updates the live post carries above the body).
+
+Result: `drafts/3-alpha-gaia-nature-register.md`. Template extraction in `critiques/check-3-alpha-gaia-nature-register.md`; three commitments added to `POETICS.md`; registry class 20 (*genre-average instead of document-shape*) added to `master_ai_tells.md`.
+
+---
+
+## Decisions put to the prompter (2026-07-31)
+
+| question | chosen |
+|---|---|
+| Title | **Alpha-Gaia** — portmanteau of alpha-gal and Gaia; what a 2030 feed would name the fusion |
+| Register | **Split** — feed keeps proper journalistic cadence; fragment compression reserved for Garaiv's interiority and the park |
+| Reveal | **Garaiv never registers it** — reader assembles it from planted texture; Garaiv reads the antibody result as a form bug and is annoyed |
