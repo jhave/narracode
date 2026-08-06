@@ -1,0 +1,144 @@
+# Provenance ledger — substep 1.2
+# Source: jhave, confirmed 2026-08-06, from 2026-08-05_provenance-diff-review.html
+#
+# RULES THE EXTRACTOR APPLIES
+#   pair emitted only for machine -> human, both usable: true
+#   unknown on either side  -> no pair
+#   machine -> machine      -> no pair
+#   human   -> human        -> no immediate pair; see cumulative rule below
+#
+# CUMULATIVE RULE (new, see 1.4 note)
+#   For a maximal run of consecutive human snapshots H1..Hn preceded by a
+#   machine snapshot M, emit both:
+#     M -> H1   pair_type: immediate   (the first correction)
+#     M -> Hn   pair_type: cumulative  (the total correction)
+#   Without this, stories whose edits are all human yield almost nothing.
+
+stories:
+
+  01-07-2026_Cussinct:
+    format: prose
+    note: "jhave: edits ALL human"
+    snapshots:
+      v1-2026-07-01-initial-draft:   {provenance: machine, source: jhave}
+      v2-2026-07-01-style-revision:  {provenance: human,   source: jhave}
+      v3-2026-07-20-human-edit-pass: {provenance: human,   source: jhave}
+      v4-2026-07-20-human-final-edits: {provenance: human, source: jhave}
+    published: {provenance: unknown, usable: false, reason: "not specified by jhave"}
+
+  07-06-2026_Concerning_Rights_and_Clauses:
+    format: prose
+    note: "NOT ANSWERED — excluded pending jhave"
+    snapshots:
+      v0-2026-06-07-pre-cadence-edit: {provenance: unknown, usable: false}
+      v1-2026-06-07-cadence-edit-a:   {provenance: unknown, usable: false}
+      v2-2026-06-08-before-human-style-propagation: {provenance: unknown, usable: false}
+    published: {provenance: unknown, usable: false}
+
+  09-05-2026_Slime:
+    format: prose
+    note: "NOT ANSWERED — excluded pending jhave"
+    snapshots:
+      v0-2026-05-08-section-one:  {provenance: unknown, usable: false}
+      v1-2026-05-08-section-two:  {provenance: unknown, usable: false}
+      v2-2026-05-09-loop-2-close: {provenance: unknown, usable: false}
+      v2-2026-05-09-the-bloom:    {provenance: unknown, usable: false}
+    published: {provenance: unknown, usable: false}
+
+  11-05-2026_Tamagotchi:
+    format: prose
+    note: "jhave: all ambiguous, probably machinic. Final html = md deletions, not human."
+    snapshots:
+      v0-2026-05-11-bergen-departure: {provenance: machine, source: jhave}
+      v1-2026-05-11-the-magnet:       {provenance: machine, source: jhave}
+      v2-2026-05-11-phra-khanong:     {provenance: machine, source: jhave}
+      v3-2026-05-11-limbo:            {provenance: machine, source: jhave}
+      v4-2026-05-11-recalibration:    {provenance: machine, source: jhave}
+    published: {provenance: machine, usable: false, reason: "md deletions only, not a human edit"}
+
+  12-06-2026_Post_Everything:
+    format: prose
+    note: "jhave: ALL human edits; html cosmetic only"
+    snapshots:
+      v1-2026-06-13-first-scene-human-rewrite: {provenance: human,   source: jhave}
+      v2-2026-06-13-scene-3-draft:             {provenance: machine, source: jhave}
+      v3-2026-06-13-scene-3-human-edits:       {provenance: human,   source: jhave}
+      v4-2026-06-13-scene-4-draft:             {provenance: machine, source: jhave}
+      v5-2026-06-13-scene-4-human-edits:       {provenance: human,   source: jhave}
+      v6-2026-06-13-scene-5-human-edits:       {provenance: human,   source: jhave}
+      v7-2026-06-13-all-scenes-human-edits:    {provenance: human,   source: jhave}
+    published: {provenance: human, usable: false, reason: "cosmetic layout only"}
+
+  15-05-2026_The_Author_Was_Already_Dead:
+    format: prose
+    note: "jhave: only one edit, of the html, human"
+    snapshots:
+      v1-2026-05-15-arrival:         {provenance: machine, source: jhave}
+      v2-2026-05-15-character-frame: {provenance: machine, source: jhave}
+    published: {provenance: human, usable: true, source: jhave}
+
+  15-06-2026_TheCompulsionLoop:
+    format: prose
+    note: "jhave: human edits in the mds; discard html (cosmetic layout only)"
+    snapshots:
+      v0-2026-06-15-the-interval: {provenance: machine, source: jhave}
+      v1-2026-06-16-the-curve:    {provenance: human,   source: jhave}
+      v2-2026-06-16-the-asset:    {provenance: human,   source: jhave}
+    published: {provenance: human, usable: false, reason: "cosmetic layout only"}
+
+  20-06-2026_Project_A-0:
+    format: prose
+    usable: false
+    note: "jhave: style is a total anomaly — EXCLUDE FROM DATASET"
+
+  20-07-2026_Open_Loops:
+    format: prose
+    note: >
+      jhave: human at sentences 70, 73, 77, 81, 87, 91 of the draft->published diff.
+      Remainder unchecked. Only one snapshot exists, so published is the only pair.
+    snapshots:
+      v1-2026-07-21-auto-run: {provenance: machine, source: name-marker}
+    published:
+      provenance: human
+      usable: true
+      source: jhave
+      confirmed_spans: [70, 73, 77, 81, 87, 91]
+      partial: true
+
+  26-06-2026_The_First_Water_Molecule:
+    format: prose
+    note: >
+      jhave: ALL human. No machine snapshot exists in versions/, so under the
+      strict rule this story yields zero pairs. FLAGGED — see report.
+    snapshots:
+      v1-2026-06-26-human-edit-and-new-direction: {provenance: human, source: jhave}
+      v2-2026-06-26-densified-voice:              {provenance: human, source: jhave}
+      v3-2026-06-26-dissolution:                  {provenance: human, source: jhave}
+      v4-2026-06-26-luminous-synchrony:           {provenance: human, source: jhave}
+      v5-2026-06-26-final-dissipation:            {provenance: human, source: jhave}
+    published: {provenance: unknown, usable: false, reason: "not specified by jhave"}
+
+  29-05-2026_Smorky:
+    format: script
+    usable: false
+    note: "jhave: anomaly, do not use. Also screenplay format."
+
+  30-07-2026_Interim_Edge:
+    format: prose
+    note: >
+      jhave: all human edits in the mds; discard html (cosmetic).
+      CONFLICT — v4-register-rewrite is documented in
+      plans/2026-07-30_ai-tells-benchmark.md as a MODEL rewrite of sections 2-6.
+      Marked unknown pending jhave. Does not affect the canonical v2->v3 pair.
+    snapshots:
+      v1-2026-07-30-automode-first-pass: {provenance: machine, source: name-marker}
+      v2-2026-07-30-tell-scan:           {provenance: machine, source: name-marker}
+      v3-2026-07-30-jhave-section1:      {provenance: human,   source: name-marker}
+      v4-2026-07-30-register-rewrite:    {provenance: unknown, usable: false,
+                                          reason: "jhave says human; benchmark doc says model"}
+    published: {provenance: human, usable: false, reason: "cosmetic layout only"}
+
+# Global filters confirmed by jhave
+filters:
+  drop_identical_spans: true   # before == after after whitespace normalisation
+                               # measured: 24 of 776 spans (3.1%) carry no signal
