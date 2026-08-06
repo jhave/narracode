@@ -1,0 +1,806 @@
+[
+ {
+  "story": "01-07-2026_Cussinct",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 196,
+   "sent_after": 198,
+   "unchanged_pct": 91,
+   "w_before": 3868,
+   "w_after": 3874,
+   "changed": 10
+  }
+ },
+ {
+  "story": "01-07-2026_Cussinct",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 198,
+   "sent_after": 204,
+   "unchanged_pct": 34,
+   "w_before": 3874,
+   "w_after": 2750,
+   "changed": 16
+  }
+ },
+ {
+  "story": "01-07-2026_Cussinct",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 204,
+   "sent_after": 271,
+   "unchanged_pct": 90,
+   "w_before": 2750,
+   "w_after": 3203,
+   "changed": 16
+  }
+ },
+ {
+  "story": "07-06-2026_Concerning_Rights_and_Clauses",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 35,
+   "sent_after": 48,
+   "unchanged_pct": 17,
+   "w_before": 712,
+   "w_after": 524,
+   "changed": 4
+  }
+ },
+ {
+  "story": "07-06-2026_Concerning_Rights_and_Clauses",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 35,
+   "sent_after": 156,
+   "unchanged_pct": 14,
+   "w_before": 712,
+   "w_after": 1485,
+   "changed": 4
+  }
+ },
+ {
+  "story": "09-05-2026_Slime",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 59,
+   "sent_after": 82,
+   "unchanged_pct": 0,
+   "w_before": 938,
+   "w_after": 1217,
+   "changed": 1
+  }
+ },
+ {
+  "story": "09-05-2026_Slime",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 82,
+   "sent_after": 85,
+   "unchanged_pct": 85,
+   "w_before": 1217,
+   "w_after": 1226,
+   "changed": 5
+  }
+ },
+ {
+  "story": "09-05-2026_Slime",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 85,
+   "sent_after": 872,
+   "unchanged_pct": 52,
+   "w_before": 1226,
+   "w_after": 8820,
+   "changed": 15
+  }
+ },
+ {
+  "story": "11-05-2026_Tamagotchi",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 166,
+   "sent_after": 166,
+   "unchanged_pct": 99,
+   "w_before": 2567,
+   "w_after": 2610,
+   "changed": 2
+  }
+ },
+ {
+  "story": "11-05-2026_Tamagotchi",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 216,
+   "sent_after": 216,
+   "unchanged_pct": 100,
+   "w_before": 2931,
+   "w_after": 2934,
+   "changed": 1
+  }
+ },
+ {
+  "story": "11-05-2026_Tamagotchi",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 226,
+   "sent_after": 228,
+   "unchanged_pct": 99,
+   "w_before": 3804,
+   "w_after": 3964,
+   "changed": 3
+  }
+ },
+ {
+  "story": "11-05-2026_Tamagotchi",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 262,
+   "sent_after": 263,
+   "unchanged_pct": 99,
+   "w_before": 4392,
+   "w_after": 4419,
+   "changed": 2
+  }
+ },
+ {
+  "story": "11-05-2026_Tamagotchi",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 263,
+   "sent_after": 1231,
+   "unchanged_pct": 91,
+   "w_before": 4419,
+   "w_after": 18524,
+   "changed": 21
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 78,
+   "sent_after": 80,
+   "unchanged_pct": 76,
+   "w_before": 815,
+   "w_after": 814,
+   "changed": 9
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 75,
+   "sent_after": 75,
+   "unchanged_pct": 99,
+   "w_before": 811,
+   "w_after": 811,
+   "changed": 1
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 80,
+   "sent_after": 80,
+   "unchanged_pct": 99,
+   "w_before": 814,
+   "w_after": 814,
+   "changed": 1
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 80,
+   "sent_after": 82,
+   "unchanged_pct": 79,
+   "w_before": 684,
+   "w_after": 689,
+   "changed": 12
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 70,
+   "sent_after": 74,
+   "unchanged_pct": 47,
+   "w_before": 731,
+   "w_after": 797,
+   "changed": 17
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 75,
+   "sent_after": 77,
+   "unchanged_pct": 75,
+   "w_before": 811,
+   "w_after": 855,
+   "changed": 12
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 80,
+   "sent_after": 82,
+   "unchanged_pct": 81,
+   "w_before": 814,
+   "w_after": 845,
+   "changed": 12
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 82,
+   "sent_after": 83,
+   "unchanged_pct": 90,
+   "w_before": 689,
+   "w_after": 703,
+   "changed": 3
+  }
+ },
+ {
+  "story": "12-06-2026_Post_Everything",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 118,
+   "sent_after": 477,
+   "unchanged_pct": 75,
+   "w_before": 931,
+   "w_after": 4487,
+   "changed": 7
+  }
+ },
+ {
+  "story": "15-05-2026_The_Author_Was_Already_Dead",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 60,
+   "sent_after": 355,
+   "unchanged_pct": 98,
+   "w_before": 819,
+   "w_after": 3894,
+   "changed": 2
+  }
+ },
+ {
+  "story": "15-06-2026_TheCompulsionLoop",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 68,
+   "sent_after": 71,
+   "unchanged_pct": 59,
+   "w_before": 817,
+   "w_after": 825,
+   "changed": 17
+  }
+ },
+ {
+  "story": "15-06-2026_TheCompulsionLoop",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 126,
+   "sent_after": 659,
+   "unchanged_pct": 100,
+   "w_before": 1388,
+   "w_after": 6496,
+   "changed": 2
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 15,
+   "sent_after": 14,
+   "unchanged_pct": 80,
+   "w_before": 39,
+   "w_after": 36,
+   "changed": 3
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 15,
+   "sent_after": 67,
+   "unchanged_pct": 0,
+   "w_before": 60,
+   "w_after": 137,
+   "changed": 1
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 21,
+   "sent_after": 33,
+   "unchanged_pct": 0,
+   "w_before": 55,
+   "w_after": 164,
+   "changed": 1
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 67,
+   "sent_after": 4,
+   "unchanged_pct": 4,
+   "w_before": 137,
+   "w_after": 12,
+   "changed": 2
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 102,
+   "sent_after": 11,
+   "unchanged_pct": 5,
+   "w_before": 290,
+   "w_after": 26,
+   "changed": 4
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 48,
+   "sent_after": 23,
+   "unchanged_pct": 31,
+   "w_before": 207,
+   "w_after": 93,
+   "changed": 3
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 16,
+   "sent_after": 15,
+   "unchanged_pct": 25,
+   "w_before": 220,
+   "w_after": 205,
+   "changed": 3
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 33,
+   "sent_after": 33,
+   "unchanged_pct": 94,
+   "w_before": 164,
+   "w_after": 164,
+   "changed": 2
+  }
+ },
+ {
+  "story": "20-06-2026_Project_A-0",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 15,
+   "sent_after": 285,
+   "unchanged_pct": 53,
+   "w_before": 205,
+   "w_after": 1492,
+   "changed": 5
+  }
+ },
+ {
+  "story": "20-07-2026_Open_Loops",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 190,
+   "sent_after": 317,
+   "unchanged_pct": 40,
+   "w_before": 2584,
+   "w_after": 2476,
+   "changed": 38
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 39,
+   "sent_after": 38,
+   "unchanged_pct": 72,
+   "w_before": 774,
+   "w_after": 733,
+   "changed": 3
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 52,
+   "sent_after": 46,
+   "unchanged_pct": 6,
+   "w_before": 910,
+   "w_after": 780,
+   "changed": 3
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 42,
+   "sent_after": 39,
+   "unchanged_pct": 67,
+   "w_before": 1084,
+   "w_after": 1011,
+   "changed": 4
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 33,
+   "sent_after": 32,
+   "unchanged_pct": 94,
+   "w_before": 999,
+   "w_after": 983,
+   "changed": 2
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 43,
+   "sent_after": 42,
+   "unchanged_pct": 65,
+   "w_before": 864,
+   "w_after": 798,
+   "changed": 6
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 39,
+   "sent_after": 48,
+   "unchanged_pct": 10,
+   "w_before": 1011,
+   "w_after": 622,
+   "changed": 2
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 32,
+   "sent_after": 33,
+   "unchanged_pct": 16,
+   "w_before": 983,
+   "w_after": 892,
+   "changed": 3
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 42,
+   "sent_after": 44,
+   "unchanged_pct": 38,
+   "w_before": 798,
+   "w_after": 744,
+   "changed": 10
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 33,
+   "sent_after": 34,
+   "unchanged_pct": 18,
+   "w_before": 892,
+   "w_after": 737,
+   "changed": 4
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 44,
+   "sent_after": 47,
+   "unchanged_pct": 61,
+   "w_before": 744,
+   "w_after": 678,
+   "changed": 11
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 34,
+   "sent_after": 38,
+   "unchanged_pct": 44,
+   "w_before": 737,
+   "w_after": 618,
+   "changed": 3
+  }
+ },
+ {
+  "story": "26-06-2026_The_First_Water_Molecule",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 46,
+   "sent_after": 264,
+   "unchanged_pct": 96,
+   "w_before": 780,
+   "w_after": 3585,
+   "changed": 4
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 331,
+   "sent_after": 361,
+   "unchanged_pct": 61,
+   "w_before": 2060,
+   "w_after": 2298,
+   "changed": 56
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 257,
+   "sent_after": 266,
+   "unchanged_pct": 77,
+   "w_before": 1650,
+   "w_after": 1702,
+   "changed": 27
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 262,
+   "sent_after": 271,
+   "unchanged_pct": 84,
+   "w_before": 1774,
+   "w_after": 1859,
+   "changed": 20
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 158,
+   "sent_after": 169,
+   "unchanged_pct": 75,
+   "w_before": 1363,
+   "w_after": 1599,
+   "changed": 18
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 172,
+   "sent_after": 186,
+   "unchanged_pct": 83,
+   "w_before": 1262,
+   "w_after": 1505,
+   "changed": 17
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 361,
+   "sent_after": 351,
+   "unchanged_pct": 77,
+   "w_before": 2298,
+   "w_after": 2156,
+   "changed": 33
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 266,
+   "sent_after": 259,
+   "unchanged_pct": 94,
+   "w_before": 1702,
+   "w_after": 1656,
+   "changed": 4
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 271,
+   "sent_after": 265,
+   "unchanged_pct": 93,
+   "w_before": 1859,
+   "w_after": 1806,
+   "changed": 9
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 169,
+   "sent_after": 163,
+   "unchanged_pct": 91,
+   "w_before": 1599,
+   "w_after": 1545,
+   "changed": 6
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 186,
+   "sent_after": 180,
+   "unchanged_pct": 94,
+   "w_before": 1505,
+   "w_after": 1430,
+   "changed": 4
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "mixed",
+  "stats": {
+   "sent_before": 351,
+   "sent_after": 369,
+   "unchanged_pct": 80,
+   "w_before": 2156,
+   "w_after": 2494,
+   "changed": 31
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 259,
+   "sent_after": 261,
+   "unchanged_pct": 100,
+   "w_before": 1656,
+   "w_after": 1660,
+   "changed": 1
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 265,
+   "sent_after": 267,
+   "unchanged_pct": 100,
+   "w_before": 1806,
+   "w_after": 1810,
+   "changed": 1
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 163,
+   "sent_after": 165,
+   "unchanged_pct": 100,
+   "w_before": 1545,
+   "w_after": 1549,
+   "changed": 1
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 180,
+   "sent_after": 182,
+   "unchanged_pct": 100,
+   "w_before": 1430,
+   "w_after": 1434,
+   "changed": 1
+  }
+ },
+ {
+  "story": "29-05-2026_Smorky",
+  "kind": "expansion",
+  "stats": {
+   "sent_before": 369,
+   "sent_after": 1272,
+   "unchanged_pct": 41,
+   "w_before": 2494,
+   "w_after": 8785,
+   "changed": 70
+  }
+ },
+ {
+  "story": "30-07-2026_Interim_Edge",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 642,
+   "sent_after": 640,
+   "unchanged_pct": 99,
+   "w_before": 5853,
+   "w_after": 5826,
+   "changed": 3
+  }
+ },
+ {
+  "story": "30-07-2026_Interim_Edge",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 640,
+   "sent_after": 655,
+   "unchanged_pct": 98,
+   "w_before": 5826,
+   "w_after": 5859,
+   "changed": 2
+  }
+ },
+ {
+  "story": "30-07-2026_Interim_Edge",
+  "kind": "wholesale",
+  "stats": {
+   "sent_before": 655,
+   "sent_after": 810,
+   "unchanged_pct": 51,
+   "w_before": 5859,
+   "w_after": 5469,
+   "changed": 120
+  }
+ },
+ {
+  "story": "30-07-2026_Interim_Edge",
+  "kind": "surgical",
+  "stats": {
+   "sent_before": 810,
+   "sent_after": 863,
+   "unchanged_pct": 92,
+   "w_before": 5469,
+   "w_after": 5780,
+   "changed": 51
+  }
+ }
+]
