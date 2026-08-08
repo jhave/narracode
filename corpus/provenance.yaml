@@ -118,9 +118,22 @@ stories:
 
   26-06-2026_The_First_Water_Molecule:
     format: prose
+    pair_source: git-history          # NOT versions/ — see note
     note: >
-      jhave: ALL human. No machine snapshot exists in versions/, so under the
-      strict rule this story yields zero pairs. FLAGGED — see report.
+      jhave: ALL human, because at this date he edited machine-generated files
+      in place and committed, rather than snapshotting the machine state first.
+      The versions/ tree therefore holds only post-edit states and yields zero
+      pairs. RESOLVED via git: six commits carry "human-edit" in the message,
+      and each commit's parent is the machine state. Yields 100 substitutions
+      plus 74 insert/delete = 174 pairs. Spot-checked genuine, e.g.
+      "The hydrogen pressed." -> "The hydrogen pressurized."
+    git_commits:
+      - {sha: 66a1e79, file: 0-arising.md,      subs: 5}
+      - {sha: fb14970, file: 1-made-here.md,    subs: 28}
+      - {sha: 8bcc0fe, file: 2-permeation.md,   subs: 24}
+      - {sha: ea8b147, file: 3-synchrony.md,    subs: 4}
+      - {sha: 2f12525, file: 3-synchrony.md,    subs: 15}
+      - {sha: 49fdc6a, file: 4-dissipation.md,  subs: 24}
     snapshots:
       v1-2026-06-26-human-edit-and-new-direction: {provenance: human, source: jhave}
       v2-2026-06-26-densified-voice:              {provenance: human, source: jhave}
@@ -138,18 +151,37 @@ stories:
     format: prose
     note: >
       jhave: all human edits in the mds; discard html (cosmetic).
-      CONFLICT — v4-register-rewrite is documented in
-      plans/2026-07-30_ai-tells-benchmark.md as a MODEL rewrite of sections 2-6.
-      Marked unknown pending jhave. Does not affect the canonical v2->v3 pair.
+      v4-register-rewrite RESOLVED as machine — jhave accepted 2026-08-06.
+      Corroborated independently by commit 2fda8cf, "Rewrite Interim Edge
+      §2-§6 to jhave's §1 register", which is the model performing the rewrite.
+      No change to yield: v4 is last in sequence, so it opens no new pair.
     snapshots:
       v1-2026-07-30-automode-first-pass: {provenance: machine, source: name-marker}
       v2-2026-07-30-tell-scan:           {provenance: machine, source: name-marker}
       v3-2026-07-30-jhave-section1:      {provenance: human,   source: name-marker}
-      v4-2026-07-30-register-rewrite:    {provenance: unknown, usable: false,
-                                          reason: "jhave says human; benchmark doc says model"}
+      v4-2026-07-30-register-rewrite:    {provenance: machine, source: jhave,
+                                          corroborated_by: 2fda8cf}
     published: {provenance: human, usable: false, reason: "cosmetic layout only"}
 
 # Global filters confirmed by jhave
 filters:
   drop_identical_spans: true   # before == after after whitespace normalisation
                                # measured: 24 of 776 spans (3.1%) carry no signal
+  published_substitutions_only: true
+
+# OPEN — not in the corpus, awaiting jhave
+open_questions:
+  25-06-2026_Crepuscular:
+    status: not-in-corpus
+    reason: >
+      Deleted from the working tree but present in git history, including a
+      versions/v1/drafts tree. Commit 00c685d is mixed: "snapshot Act 0 human
+      edit, propagate dialect to Acts 1-4" is one human edit plus a machine
+      propagation in a single commit. Needs jhave to split before use.
+  unmarked_git_edits:
+    status: unmeasured
+    reason: >
+      The "human-edit" commit-message convention appears from 2026-06-26 onward.
+      Only 8 of 79 draft-touching commits carry it. Earlier in-place edits are
+      likely present in git but unmarked, and would need the same review the
+      snapshot ambiguities got.

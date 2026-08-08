@@ -29,6 +29,7 @@ The extractor makes **no model calls at runtime**. It is diffing and counting. T
 | substep | task character | model |
 |---|---|---|
 | 1.1 corpus survey | reading messy real data; must report inconsistency rather than a clean answer | **Opus 4.6** |
+| 1.1b git-history extraction | recovers pairs from in-place edits invisible to 1.1 | **Opus 4.6** |
 | 1.2 provenance ledger | ambiguous cases, needs jhave in the loop | **Opus 4.6** |
 | 1.3 sentence segmentation | literary prose — fragments, dialogue, ellipses break standard tokenizers | **Opus 4.6** |
 | 1.4 alignment | mechanical once the spec is pinned | **Sonnet 4.6** |
@@ -43,9 +44,14 @@ Use the cheaper model for 1.4 and 1.5, where the spec is already exact and error
 
 ## Order
 
-1.1 → 1.2 → 1.3 → 1.4 → 1.5 → 1.6
+1.1 → 1.1b → 1.2 → 1.3 → 1.4 → 1.5 → 1.6
 
 1.1 and 1.2 must complete before any code is written. 1.3 can proceed in parallel with 1.2.
+1.1b runs after 1.1 and can proceed in parallel with 1.2.
+
+**`versions/` is not the only source.** Early stories were edited in place and committed,
+so their machine state exists only as a git parent commit. `26-06-2026_The_First_Water_Molecule`
+yields 0 pairs from snapshots and 174 from git. See 1.1b.
 
 ---
 
