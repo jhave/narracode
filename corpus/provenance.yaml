@@ -118,7 +118,7 @@ stories:
 
   25-06-2026_Crepuscular:
     format: prose
-    pair_source: git-history          # story added to repo 2026-08-06 from unmerged branch
+    pair_source: git-history          # read from branch SHAs; files NOT in this tree
     note: >
       jhave: clearly human-edited by git author; added to repo and to corpus, not
       kept separate. Provenance here is fully mechanical — every commit is
@@ -129,7 +129,11 @@ stories:
       Spot-checked genuine, e.g. "the part of *him* that did the wearing"
       -> "the part of *him* or *her* that did the wearing".
       Source branch claude/life-game-awakening-story-cbc1kj, unmerged and
-      unpublished; story files copied into main tree 2026-08-06.
+      unpublished. Story files are deliberately NOT copied into this tree —
+      jhave asked that only the ledger entry be added. Extraction reads
+      before-and-after states directly from the SHAs below via
+      `git show <sha>:<path>`, which resolves as long as the remote branch ref
+      exists. The extractor must fetch that branch before running.
     machine_commits:
       - {sha: 17a3936, note: AUTO_MODE five-act origin}
       - {sha: 00c685d, note: v1 propagate dialect to Acts 1-4}
