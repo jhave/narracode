@@ -28,16 +28,27 @@ stories:
 
   07-06-2026_Concerning_Rights_and_Clauses:
     format: prose
-    note: "NOT ANSWERED — excluded pending jhave"
+    note: >
+      jhave: human edits are replaces at sentence 1 and 11. Located: both are in the
+      draft->published diff (1-node1-contributor-letter.md), not in any snapshot
+      transition. Snapshot provenance was not given, so the three snapshots stay
+      excluded; the published pair is usable.
     snapshots:
       v0-2026-06-07-pre-cadence-edit: {provenance: unknown, usable: false}
       v1-2026-06-07-cadence-edit-a:   {provenance: unknown, usable: false}
       v2-2026-06-08-before-human-style-propagation: {provenance: unknown, usable: false}
-    published: {provenance: unknown, usable: false}
+    published:
+      provenance: human
+      usable: true
+      source: jhave
+      draft: 1-node1-contributor-letter.md
+      confirmed_spans: [1, 11]
+      partial: true
 
   09-05-2026_Slime:
     format: prose
-    note: "NOT ANSWERED — excluded pending jhave"
+    usable: false
+    note: "jhave: ambiguous — EXCLUDED. Not recoverable; do not guess."
     snapshots:
       v0-2026-05-08-section-one:  {provenance: unknown, usable: false}
       v1-2026-05-08-section-two:  {provenance: unknown, usable: false}
