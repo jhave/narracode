@@ -31,8 +31,13 @@ def build_related_footer(projects=None, current_folder=None, for_story_page=Fals
         return RELATED_WORKS_HTML
 
     links = []
+    found_current = False if (for_story_page and current_folder) else True
     for project in projects:
         if current_folder and project["folder_name"] == current_folder:
+            found_current = True
+            continue
+
+        if for_story_page and not found_current:
             continue
 
         href = project["path"]
