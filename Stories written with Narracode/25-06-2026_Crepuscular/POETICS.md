@@ -1,4 +1,7 @@
-# POETICS — crepuscular
+# POETICS — Upboarding Hour
+
+## Display title
+Upboarding Hour
 
 ## Central tension
 A young man plays *Life* — the most popular game ever made, the one everyone plays, the one nobody finishes. Auto-respawn, an apparently limitless character creator, a sense of sovereign freedom. Through a casual hack that is almost a clerical error he falls beneath the creation screen into the substrate where the archetypes are kept, and finds that the part of him he experienced as *himself* — the architecture of his subjectivity, the init — is a closed schema of a few dozen fields, dressed in an infinite wardrobe. The story follows what happens to a person who learns that the freedom was the product, that the diversity was a render, and who then does the only sovereign thing left: he stops playing and starts editing. The terminal irony is recursive. Each level he escapes into turns out to be another level, held by another harness, optimized by makers he can no longer see, for the engagement of witnesses he cannot imagine.
