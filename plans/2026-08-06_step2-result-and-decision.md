@@ -90,16 +90,64 @@ never be used as a generation target or a gate.
 
 ## The test for Step 3, decided before building it
 
-Step 2 earned its keep by being able to fail. Step 3 gets the same discipline.
+Step 2 earned its keep by being able to fail. Step 3 gets the same discipline. Two
+stages: the first is free and can kill the idea before jhave spends any time; the
+second costs one story he was going to write anyway.
 
-Draft six scenes twice, once with retrieved exemplars in `pre_draft` and once without,
-same prompt and same structural state. Present them to jhave unlabelled and in random
-order. He edits both as normal.
+### Stage 1 — leave-one-story-out, automatic, no human time
 
-**Measure: total edit distance he applies to each.** If the retrieval version needs
-materially less editing, it works. If the two are indistinguishable, retrieval does not
-transmit the 91% either, and the honest conclusion is that this line of work has
-reached its limit — at which point the corpus stands as a documented negative result
-about the measurability of literary revision, which is publishable and worth having.
+Uses ground truth already in the corpus. For each story `S` with enough pairs:
 
-Cost: six scene-pairs and one evening of editing.
+1. Take a machine draft `M` from `S` and jhave's edited version `H` of the same draft.
+   Both already exist.
+2. Re-draft the same scene with retrieval enabled, drawing exemplars **only from
+   stories other than `S`** — 669 pairs remain when the largest story is held out, so
+   this is comfortable. Call the result `M'`.
+3. Measure position on the four live measures. Does `M'` sit closer to `H` than `M`
+   does?
+
+This does **not** use edit distance between `M'` and `H`. Two independently generated
+drafts of the same scene differ mostly in content, and content would swamp any style
+signal. The four measures are style-level and content-independent, which is exactly
+what makes them usable as an evaluation even though they failed as a target.
+
+The logic is a kill-switch, not a proof: retrieval that cannot move the 9% shell will
+certainly not move the 91% underneath. Passing stage 1 means little; failing it ends
+the line of work for a few hours of compute.
+
+### Stage 2 — blind arm assignment inside a real story
+
+Only if stage 1 passes.
+
+The flawed version of this test is to draft each scene twice and have jhave edit both.
+He would be reading the same content twice, and the second pass is contaminated by
+already knowing it. So each scene is seen **once**:
+
+1. Start a **new** story, not in the corpus, so no exemplar can be drawn from it.
+2. For each scene, flip a coin. Heads, `pre_draft` gets eight retrieved exemplars.
+   Tails, `pre_draft` runs as it does today. Record the assignment; do not show it.
+3. jhave writes the story exactly as he normally would, editing each scene as it comes.
+   He is never told which arm a scene came from and never sees an alternate version.
+4. Aim for eight to ten scenes, so four or five land in each arm.
+
+**The measure is already built.** Run `tools/extract_pairs.py` over his edits and count
+pairs per thousand words, per scene, by arm. That is literally the quantity this whole
+pipeline was constructed to produce, so no new instrument is required and the units are
+the same ones used throughout.
+
+Secondary measures from the same run: mean words removed per scene, and the share of
+edits that are pure substitution — the 91% class — versus the 9% the markers catch.
+Whether retrieval moves the substitution class is the real question; the marker class
+is only the kill-switch.
+
+### What each outcome means
+
+- **Retrieval arm needs materially less editing.** Step 3 works. Build step 4.
+- **Indistinguishable.** Retrieval does not transmit the 91% either. Stop. The corpus
+  then stands as a documented negative result about the measurability of literary
+  revision, which is publishable and worth having.
+- **Retrieval arm needs more editing.** Exemplars are pulling toward a house average
+  rather than toward the project. That is the median-collapse failure appearing inside
+  the remedy, and it is worth writing up on its own.
+
+Cost: one story, written as normal, plus the coin flips.
