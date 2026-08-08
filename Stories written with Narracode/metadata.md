@@ -161,3 +161,10 @@
   - **Reading Time**: 34
   - **Synopsis**: A group of academics spontaneously become adventurers when an XR-AI biological singularity merges into an autonomous, permeating slime. As the slime saturates the city and rewires perception, friendships bloom into shapes the analytical mind had refused to consider.
 
+- **Folder**: 25-06-2026_Crepuscular
+  - **Title**: Upboarding Hour
+  - **Attribution**: Human: Jhave · Words: 4,956 · Composition: Claude Opus 4.8 · Images & HTML Page: Gemini 3.6 · Date: 2026-06-25
+  - **Word Count**: 4,956
+  - **Reading Time**: 20
+  - **Synopsis**: A young man plays Life, a wildly popular game of auto-respawn and infinite character customization. Through a casual hack, he falls beneath the creation screen into the 40-cell matrix substrate, discovering that his "free" identity is a closed schema. He begins editing the archetypes—growing a third hand at the breastbone—only to realize that eons of creative authorship were lit by golden dusk and watched by an unknowable spectator.
+
