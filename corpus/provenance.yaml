@@ -173,15 +173,48 @@ filters:
 open_questions:
   25-06-2026_Crepuscular:
     status: not-in-corpus
-    reason: >
-      Deleted from the working tree but present in git history, including a
-      versions/v1/drafts tree. Commit 00c685d is mixed: "snapshot Act 0 human
-      edit, propagate dialect to Acts 1-4" is one human edit plus a machine
-      propagation in a single commit. Needs jhave to split before use.
-  unmarked_git_edits:
-    status: unmeasured
-    reason: >
-      The "human-edit" commit-message convention appears from 2026-06-26 onward.
-      Only 8 of 79 draft-touching commits carry it. Earlier in-place edits are
-      likely present in git but unmarked, and would need the same review the
-      snapshot ambiguities got.
+    correction: >
+      An earlier note said this story was deleted from the working tree. That was
+      wrong. It was never deleted and never published: it lives complete on the
+      unmerged branch claude/life-game-awakening-story-cbc1kj, absent from main,
+      from metadata.md and from index.html, and it has no built index.html, so it
+      was never prepared for publication. Last touched 2026-07-02.
+    potential_yield: 560      # 257 substitutions + 303 ins/del — largest single source found
+    detail: >
+      Five acts, 4,893 words. Ten commits match the GitHub web-editor pattern
+      "Update <file>.md", all authored by jhave, following the Fable 5 machine
+      rewrite in eeb2ece. That is a clean machine-then-human sequence.
+      Spot-checked genuine, e.g. "the part of *him* that did the wearing" ->
+      "the part of *him* or *her* that did the wearing".
+    decision_needed: >
+      Include this story? It would take the corpus from 729 to roughly 1,289 pairs.
+      Note it is an unpublished draft, so it may represent a different editing
+      posture than the published work.
+  github_web_editor_signal:
+    status: newly-identified
+    finding: >
+      Commit AUTHOR plus message pattern is a stronger provenance signal than
+      anything used so far. 25 draft commits across all branches match
+      "^Update <file>.md", the GitHub web editor's default message, and all 25
+      are authored by jhave. This is the practice jhave described adopting:
+      editing on GitHub and committing. Author alone is NOT sufficient — 64 of 79
+      draft commits are authored by jhave, because Claude Code sessions commit
+      under his identity too. The message pattern is what separates them.
+    distribution:
+      25-06-2026_Crepuscular: 10        # unmerged branch
+      26-06-2026_The_First_Water_Molecule: 6   # already captured
+      20-07-2026_Open_Loops: 4          # NOT yet captured, only published diff used
+      30-07-2026_Interim_Edge: 1
+      25-07-2026_Devora: 1              # story not in corpus
+      09-05-2026_Slime: 1               # jhave marked this story ambiguous
+      08-07-2026_Tina_Sinclair: 1       # story not in corpus
+    decision_needed: >
+      Four sources here are unused: Open_Loops web edits, Devora, Tina_Sinclair,
+      and one confirmed hand edit in Slime despite the story being excluded.
+
+  other_unmerged_stories:
+    status: checked-no-yield
+    detail: >
+      22-05-2026_Mature_Water (claude/recent-unfinished-story-CG1N8) and
+      31-07-2026_Alpha-Gaia (claude/alpha-gaia-story) are also absent from main.
+      Neither has any web-editor commit, so neither yields pairs.
