@@ -11,10 +11,10 @@ Writes corpus/git_pairs.jsonl, corpus/git_pairs_report.md
 import subprocess, sys, os, re, json, difflib, hashlib, yaml
 
 sys.path.insert(0, os.path.dirname(__file__))
-from build_diff_review import sents
+from segment import segment as sents, VERSION as SEG_VERSION
 
 EXTRACTOR_VERSION = "1.0.0"
-SEGMENTER_VERSION = "0.9.0-crude"     # replaced by tools/segment.py at substep 1.3
+SEGMENTER_VERSION = SEG_VERSION       # tools/segment.py, substep 1.3
 THR = 0.40
 
 
