@@ -13,7 +13,7 @@ Narracode is a storytelling harness for agentic AI. Inspired by Claude Code, it 
 - **LLM** = Neuro layer
 - **Harness** = Symbolic layer
 
-🌐 **Download the harness:** [narracode.md](./narracode.md) [It's one file that unfolds into the system. Just ask your agent to read it and initiate a new project.]
+🌐 **Download the harness:** [narracode_Aug-9-2026.zip](./downloads/narracode_Aug-9-2026.zip) — a dated snapshot of [narracode.md](./narracode.md) packaged with [FAQ.md](./FAQ.md), which gives the simplest instructions for getting started. It's one file that unfolds into the system. Just ask your agent to read it and initiate a new project.
 
 Narracode is not just a tool; it is a philosophical statement. It is an argument that narrative, too, can be treated as a form of code—structured, intentional, and amenable to the kind of architectural reasoning that has made AI so powerful for programming.
 
@@ -21,6 +21,7 @@ It emerged from the realization that the intrinsic embodied complexity of nuance
 
 ## Research updates
 
+- **[Three Month Report: 90 days using Narracode](https://jhave.github.io/narracode/three-months.html)** — 9 Aug 2026. 25 stories and 124,081 words in the first three months: cadence, lengths, how the harness changed, and every story listed. Harness download: [narracode_Aug-9-2026.zip](./downloads/narracode_Aug-9-2026.zip) ([FAQ](./FAQ.md)).
 - **[What the Edits Know](https://jhave.github.io/narracode/2026-08-09_what-the-edits-know.html)** — 9 Aug 2026. What 1,234 human edits to machine drafts reveal about literary revision, and what they don't.
 - **[Dimensionality Reduction in AI Literature Research](https://glia.ca/2026/dimensionality-reduction/)** — Aug 2026. How stylometric mapping shows AI prose clustering into narrow sub-manifolds of the human literary space.
 
