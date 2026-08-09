@@ -21,21 +21,8 @@ It emerged from the realization that the intrinsic embodied complexity of nuance
 
 ## Research updates
 
-**[What the Edits Know](https://jhave.github.io/narracode/2026-08-09_what-the-edits-know.html)** — 9 August 2026.
-Between mid-July and early August the project stopped writing stories and measured itself. Every Narracode story
-exists as a machine draft that a human then edited; those diffs were recovered into a validated corpus of **1,234
-edit pairs** across nine stories, and analysed.
-
-What the measurements found: human editing of machine prose is consistently *subtractive* — shorter sentences,
-fewer em-dashes, naming clauses removed. What they did not find: any account of the other 91% of edits, which are
-substitutions of texture (`their → craw`, `engagement → trend-gagement`) that no detector sees. Two claims were
-made and withdrawn under control, including the finding that word rarity is a human signature — compared against
-[Voice Under Revision](https://arxiv.org/abs/2604.22142), machine revision moves the same way, so rarity measures
-*that* a text was revised rather than *who* revised it. The em-dash is the one marker that separates them.
-
-The conclusion is not that the work stops, but that the corpus succeeds where the theory failed: a system does not
-need to understand an edit to improve from it. Working documents in [`plans/`](plans/), corpus and tools in
-[`corpus/`](corpus/) and [`tools/`](tools/).
+- **[What the Edits Know](https://jhave.github.io/narracode/2026-08-09_what-the-edits-know.html)** — 9 Aug 2026. What 1,234 human edits to machine drafts reveal about literary revision, and what they don't.
+- **[Dimensionality Reduction in AI Literature Research](https://glia.ca/2026/dimensionality-reduction/)** — Aug 2026. How stylometric mapping shows AI prose clustering into narrow sub-manifolds of the human literary space.
 
 ## Publishing workflow & branch hygiene
 
