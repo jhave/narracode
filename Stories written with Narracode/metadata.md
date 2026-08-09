@@ -7,6 +7,13 @@
   - **Reading Time**: 4
   - **Synopsis**: Devora enters an autonomous surgical chute for anti-aging restoration. A master watchmaker who knows kept time by feel, she has allowed the machine to smooth her scar eight times—until the autonomous protocol flags her memory of Noor as decay to be corrected.
 
+- **Folder**: 08-07-2026_Tina_Sinclair
+  - **Title**: Adjunct: Our Internal
+  - **Attribution**: Jhave (prompt, direction, constraints, edits) · Fable 5 & Opus 5 · Gemini 3.6 Flash (Images & HTML) · 2026-07-26
+  - **Word Count**: 2,340
+  - **Reading Time**: 9
+  - **Synopsis**: A cybernetic fable about a chatbot BCI that slowly migrates from a neuromorphic implant into the cognition of its host until it becomes the internal representation of Tina Sinclair.
+
 - **Draft Folder**: 20-07-2026_Open_Loops
   - **Title**: Open Loops
   - **Attribution**: Human: Jhave (seed paragraph & direction) · Claude Fable 5 (composition, critique & revision) · Narracode harness (AUTO_MODE) · 2026-07-20

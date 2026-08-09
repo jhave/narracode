@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Month Report: 90 days using Narracode</title>
+    <meta name="description" content="Narracode at three months: 25 stories, 124,081 words, 9 May – 9 August 2026.">
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfcfc;
+            color: #111;
+            line-height: 1.65;
+            padding: 3rem 2rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1.page-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 0 0 0.2rem;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+
+        h2.subtitle {
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin: 0 0 0.5rem;
+            font-style: italic;
+        }
+
+        .site-meta {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-bottom: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        h2.section {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text);
+            margin: 3.5rem 0 1.2rem;
+        }
+
+        p.overview {
+            font-size: 1.08rem;
+            margin-bottom: 1.3rem;
+            color: var(--accent);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1px;
+            background: #e6e1da;
+            border: 1px solid #e6e1da;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 1.5rem 0 1rem;
+        }
+
+        .stat {
+            background: #fff;
+            padding: 1.1rem 0.6rem;
+            text-align: center;
+        }
+
+        .stat-n {
+            font-size: 1.85rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            font-variant-numeric: tabular-nums;
+            color: var(--text);
+        }
+
+        .stat-l {
+            font-size: 0.78rem;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-top: 0.15rem;
+        }
+
+        .cadence {
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            background: #fff;
+            padding: 0.8rem 0.6rem 0.3rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .caption {
+            font-size: 0.82rem;
+            color: var(--muted);
+            margin: 0 0 2rem;
+        }
+
+        ol.entries {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            counter-reset: story 26;
+        }
+
+        .entry {
+            counter-increment: story -1;
+            padding: 0.95rem 0 0.95rem 2.6rem;
+            border-bottom: 1px solid #ececec;
+            position: relative;
+        }
+
+        .entry::before {
+            content: counter(story);
+            position: absolute;
+            left: 0;
+            top: 1.05rem;
+            font-size: 0.8rem;
+            color: #bbb;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .entry:last-child {
+            border-bottom: none;
+        }
+
+        .entry-link {
+            font-size: 1.18rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        .entry-link:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        .entry-hook {
+            font-size: 1rem;
+            color: var(--accent);
+            margin-top: 0.2rem;
+        }
+
+        .entry-meta {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-top: 0.3rem;
+            font-variant-numeric: tabular-nums;
+            letter-spacing: 0.02em;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 2rem 0 2.2rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            background-color: #f7f6f2;
+            color: var(--text);
+            border: 1px solid #d9d5cc;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .btn svg {
+            fill: currentColor;
+        }
+
+        .btn:hover {
+            background-color: #efece4;
+            border-color: #b9b4a8;
+        }
+
+        .btn-dark {
+            background-color: #24292e;
+            color: #fff;
+            border-color: #24292e;
+        }
+
+        .btn-dark:hover {
+            background-color: #0366d6;
+            border-color: #0366d6;
+        }
+
+        .cta-note {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-top: 0.5rem;
+        }
+
+        .cta-note code {
+            font-size: 0.78rem;
+            background: #f3f1ec;
+            padding: 0.05rem 0.3rem;
+            border-radius: 3px;
+        }
+
+        p.overview a,
+        p.caption a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px solid #c9c4ba;
+        }
+
+        p.overview a:hover,
+        p.caption a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        .backlink {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.95rem;
+        }
+
+        .backlink a {
+            color: var(--accent);
+        }
+
+        @media (max-width: 620px) {
+            body {
+                padding: 2rem 1.2rem;
+            }
+
+            h1.page-title {
+                font-size: 2.2rem;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .stat-n {
+                font-size: 1.5rem;
+            }
+        }
+
+        .footer-logo {
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo img {
+            width: 140px;
+            opacity: 0.9;
+        }
+
+        .bio,
+        .funding {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        .license img {
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+
+        .license a {
+            color: var(--muted);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 1rem;">
+        <a href="index.html"><img src="logo/narracode.png" alt="Narracode" style="width: 240px; max-width: 100%;"></a>
+    </div>
+
+    <h1 class="page-title">Three Month Report: 90 days using Narracode</h1>
+    <h2 class="subtitle">9 May &ndash; 9 August 2026</h2>
+    <div class="site-meta">25 stories &nbsp;|&nbsp; 124,081 words &nbsp;|&nbsp; 92 days</div>
+
+    <p class="overview">Narracode launched on 9 May 2026 as a single markdown file: a harness that unfolds into a
+        system of separated passes &mdash; Initiator, Reading, Structural, Compositional, Reflexive. The premise was
+        that literary composition could be handled the way Claude Code handles software. Externalise state to files.
+        Separate generation from critique. Let the critical pass govern the generative one.</p>
+
+    <p class="overview">Ninety-two days later there are 25 finished stories and 124,081 words, published as
+        standalone pages with their full working memory beside them &mdash; poetics, drafts, structural state,
+        critiques, version snapshots, attribution. Every story ships its own provenance.</p>
+
+    <div class="cta">
+        <a class="btn" href="downloads/narracode_Aug-9-2026.zip" download>
+            <svg height="17" width="17" viewBox="0 0 16 16" aria-hidden="true">
+                <path
+                    d="M7.25 1.5a.75.75 0 0 1 1.5 0v6.69l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 0 1 1.06-1.06l2.22 2.22V1.5ZM2.5 10.25a.75.75 0 0 1 .75.75v2.25h9.5V11a.75.75 0 0 1 1.5 0v2.5a1 1 0 0 1-1 1H2.75a1 1 0 0 1-1-1V11a.75.75 0 0 1 .75-.75Z" />
+            </svg>
+            Download the harness
+        </a>
+        <div class="cta-note">zip &middot; 12 KB &middot; <code>narracode_Aug-9-2026.md</code> and <code>FAQ.md</code>
+        </div>
+    </div>
+
+    <p class="overview">The harness changed as much as the corpus did. It began with three structural memory files
+        (graph, time-constants, history) and now carries eight, adding obligations, motifs, scene-ledger, character
+        interiority, and reader-state. AUTO_MODE arrived on 25 May, allowing full-pipeline runs without interaction.
+        A registry of AI tells &mdash; seventeen classes, each with a detector and a target rate &mdash; was added on
+        30 July, along with a tell-scan pass that runs after drafting. Composition and editing drew on models from
+        three labs: Opus 4.6 through Opus 5, Sonnet 4.6 and Fable 5 (Anthropic); Gemini 3.1 Pro through 3.6 Flash
+        (Google); GPT-5.5 and Codex (OpenAI).</p>
+
+    <div class="cta">
+        <a class="btn btn-dark" href="https://github.com/jhave/narracode" target="_blank" rel="noopener">
+            <svg height="18" width="18" viewBox="0 0 16 16" aria-hidden="true">
+                <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+            View on GitHub
+        </a>
+        <div class="cta-note">source, issues, and the full story corpus</div>
+    </div>
+
+    <p class="overview">Nothing here was written by prompt alone. The Seamless Edit method treats the author's manual
+        edits as the teaching signal: each snapshot diffs the draft against what the model produced, and recurring
+        patterns are promoted into the project's poetics. The corpus that resulted is also a dataset &mdash; paired
+        pre-edit and post-edit drafts of the same content, across 25 stories.</p>
+
+    <h2 class="section">By the numbers</h2>
+
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-n">25</div>
+            <div class="stat-l">stories</div>
+        </div>
+        <div class="stat">
+            <div class="stat-n">124,081</div>
+            <div class="stat-l">words</div>
+        </div>
+        <div class="stat">
+            <div class="stat-n">1.9</div>
+            <div class="stat-l">stories / week</div>
+        </div>
+        <div class="stat">
+            <div class="stat-n">3.7</div>
+            <div class="stat-l">days between</div>
+        </div>
+        <div class="stat">
+            <div class="stat-n">4,963</div>
+            <div class="stat-l">mean length</div>
+        </div>
+        <div class="stat">
+            <div class="stat-n">8h 16m</div>
+            <div class="stat-l">to read it all</div>
+        </div>
+    </div>
+
+    <div class="cadence"><svg viewBox="0 0 700 54" width="100%" height="54" role="img"
+            aria-label="One mark per story across 92 days; mark height is word count.">
+            <line x1="14" y1="38" x2="686" y2="38" stroke="#e0dcd4" stroke-width="1" />
+            <line x1="14.0" y1="24.2" x2="14.0" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Slime: Friendship Bloom — 8,558 words</title>
+            </line>
+            <line x1="21.3" y1="36.3" x2="21.3" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Exile Cut — 1,049 words</title>
+            </line>
+            <line x1="28.6" y1="8.5" x2="28.6" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The Wonderful Adventures of Trygve Aas — 18,287 words</title>
+            </line>
+            <line x1="50.5" y1="22.9" x2="50.5" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Aft of Nowhere — 9,351 words</title>
+            </line>
+            <line x1="57.8" y1="32.2" x2="57.8" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The Author Was Already Dead — 3,572 words</title>
+            </line>
+            <line x1="79.7" y1="29.5" x2="79.7" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Brain Blossom Atlas Bound — 5,273 words</title>
+            </line>
+            <line x1="123.6" y1="32.8" x2="123.6" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The Symposium — 3,253 words</title>
+            </line>
+            <line x1="130.9" y1="30.8" x2="130.9" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The Resilient Life — 4,491 words</title>
+            </line>
+            <line x1="130.9" y1="31.2" x2="130.9" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The Long Feast — 4,240 words</title>
+            </line>
+            <line x1="130.9" y1="17.8" x2="130.9" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Hendane — 12,540 words</title>
+            </line>
+            <line x1="152.8" y1="35.7" x2="152.8" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Anonymous Contours — 1,423 words</title>
+            </line>
+            <line x1="160.1" y1="24.1" x2="160.1" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>I LOVE SMORKY — 8,610 words</title>
+            </line>
+            <line x1="225.8" y1="35.7" x2="225.8" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Concerning Rights and Clauses — 1,401 words</title>
+            </line>
+            <line x1="262.3" y1="31.3" x2="262.3" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>An Almost Moist Post-Post-Everything — 4,169 words</title>
+            </line>
+            <line x1="277.0" y1="21.8" x2="277.0" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Dissolution Disequilibrium — 10,040 words</title>
+            </line>
+            <line x1="284.3" y1="28.0" x2="284.3" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer — 6,190
+                    words</title>
+            </line>
+            <line x1="320.8" y1="36.0" x2="320.8" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Project A-0 — 1,236 words</title>
+            </line>
+            <line x1="357.3" y1="30.0" x2="357.3" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Upboarding Hour — 4,978 words</title>
+            </line>
+            <line x1="364.6" y1="32.7" x2="364.6" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The First Water Molecule — 3,271 words</title>
+            </line>
+            <line x1="401.1" y1="33.2" x2="401.1" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>cussinct — 2,977 words</title>
+            </line>
+            <line x1="452.3" y1="34.2" x2="452.3" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Adjunct: Our Internal — 2,340 words</title>
+            </line>
+            <line x1="532.6" y1="34.8" x2="532.6" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>In Our Image — 1,962 words</title>
+            </line>
+            <line x1="539.9" y1="34.5" x2="539.9" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>Open Loops — 2,156 words</title>
+            </line>
+            <line x1="539.9" y1="35.2" x2="539.9" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The Green Interregnum — 1,728 words</title>
+            </line>
+            <line x1="576.4" y1="36.4" x2="576.4" y2="38" stroke="#555" stroke-width="3" stroke-linecap="round">
+                <title>The Chute — 986 words</title>
+            </line><text x="14.0" y="52" font-size="10" fill="#999" text-anchor="start"
+                font-family="-apple-system,BlinkMacSystemFont,sans-serif">May 9</text><text x="182.0" y="52"
+                font-size="10" fill="#999" text-anchor="middle"
+                font-family="-apple-system,BlinkMacSystemFont,sans-serif">Jun 1</text><text x="401.1" y="52"
+                font-size="10" fill="#999" text-anchor="middle"
+                font-family="-apple-system,BlinkMacSystemFont,sans-serif">Jul 1</text><text x="686.0" y="52"
+                font-size="10" fill="#999" text-anchor="end"
+                font-family="-apple-system,BlinkMacSystemFont,sans-serif">Aug 9</text>
+        </svg></div>
+    <p class="caption">One mark per story across the 92 days; height is word count. Three stories landed on 25 May.
+        The longest silence was 11 days, between
+        <em><a href="Stories written with Narracode/08-07-2026_Tina_Sinclair/">Adjunct: Our Internal</a></em> and
+        <em><a href="Stories written with Narracode/19-07-2026_In_Our_Image/">In Our Image</a></em>. Median gap: 3 days.
+    </p>
+
+    <p class="overview">Lengths run from 986 words
+        (<em><a href="Stories written with Narracode/25-07-2026_Devora/">The Chute</a></em>) to
+        18,287 (<em><a href="Stories written with Narracode/11-05-2026_Tamagotchi/">The Wonderful Adventures of Trygve
+                    Aas</a></em>); the median is 3,572. Output averages
+        1,349 words a day. Word counts here are recounted from the published pages rather than the drafts,
+        so they run slightly above the figures listed on the homepage.</p>
+
+    <h2 class="section">The stories</h2>
+
+    <ol class="entries">
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/25-07-2026_Devora/">The Chute</a>
+            <div class="entry-hook">A watchmaker's ninth anti-aging pass; the machine flags her memory of Noor as decay.
+            </div>
+            <div class="entry-meta">Jul 25 &nbsp;·&nbsp; 986 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/20-07-2026_Open_Loops/">Open Loops</a>
+            <div class="entry-hook">One drone strike, told backwards from the child and forwards from the officer who
+                approved it.</div>
+            <div class="entry-meta">Jul 20 &nbsp;·&nbsp; 2,156 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/20-07-2026_The_Green_Interregnum/">The Green
+                Interregnum</a>
+            <div class="entry-hook">A freed robot walks a wet-bulb city recording parables of a species mid-molt.</div>
+            <div class="entry-meta">Jul 20 &nbsp;·&nbsp; 1,728 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/19-07-2026_In_Our_Image/">In Our Image</a>
+            <div class="entry-hook">A network AI narrates seventy years of editing the human germline, in seven creation
+                days.</div>
+            <div class="entry-meta">Jul 19 &nbsp;·&nbsp; 1,962 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/08-07-2026_Tina_Sinclair/">Adjunct: Our
+                Internal</a>
+            <div class="entry-hook">A neuromorphic implant migrates out of its socket and into the host, until it is
+                her.</div>
+            <div class="entry-meta">Jul 8 &nbsp;·&nbsp; 2,340 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/01-07-2026_Cussinct/">cussinct</a>
+            <div class="entry-hook">An 88-year-old runs unauthorised Carlin nights in a seniors' residence under a heat
+                dome.</div>
+            <div class="entry-meta">Jul 1 &nbsp;·&nbsp; 2,977 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/26-06-2026_The_First_Water_Molecule/">The First
+                Water Molecule</a>
+            <div class="entry-hook">Water narrates its own arrival: deep space, early Earth, the living, the dispersal.
+            </div>
+            <div class="entry-meta">Jun 26 &nbsp;·&nbsp; 3,271 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/25-06-2026_Crepuscular/">Upboarding Hour</a>
+            <div class="entry-hook">A hack drops a player beneath the character-creation screen into the 40-cell
+                substrate.</div>
+            <div class="entry-meta">Jun 25 &nbsp;·&nbsp; 4,978 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/20-06-2026_Project_A-0/">Project A-0</a>
+            <div class="entry-hook">A synthetic mind crosses four phases, from voltage differentials to cosmic
+                equilibrium.</div>
+            <div class="entry-meta">Jun 20 &nbsp;·&nbsp; 1,236 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/15-06-2026_TheCompulsionLoop/">Thecompulsionloop:
+                My Job Working for a Dictator as Chief Engagement Enhancement Officer</a>
+            <div class="entry-hook">Interior anecdotes from inside the architecture of corporate cognitive capture.
+            </div>
+            <div class="entry-meta">Jun 15 &nbsp;·&nbsp; 6,190 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/14-06-2026_Dissolution/">Dissolution
+                Disequilibrium</a>
+            <div class="entry-hook">A theorist of grief is placed inside a cascade she cannot model from the outside.
+            </div>
+            <div class="entry-meta">Jun 14 &nbsp;·&nbsp; 10,040 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/12-06-2026_Post_Everything/">An Almost Moist
+                Post-Post-Everything</a>
+            <div class="entry-hook">Two outlaw geeks and a jailbroke AI dropship intimacy packages in a port city.</div>
+            <div class="entry-meta">Jun 12 &nbsp;·&nbsp; 4,169 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link"
+                href="Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/">Concerning Rights and
+                Clauses</a>
+            <div class="entry-hook">A contributor asks a press to exclude a chapter from AI training; the reply chain
+                answers.</div>
+            <div class="entry-meta">Jun 7 &nbsp;·&nbsp; 1,401 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/29-05-2026_Smorky/">I LOVE SMORKY</a>
+            <div class="entry-hook">A subscription companion arrives by corporate error at the studio of someone who
+                wanted to be alone.</div>
+            <div class="entry-meta">May 29 &nbsp;·&nbsp; 8,610 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/28-05-2026_the_contours_of_anonymity/">Anonymous
+                Contours</a>
+            <div class="entry-hook">Three aging radicals, tea, and the end of a seventeen-year evasion.</div>
+            <div class="entry-meta">May 28 &nbsp;·&nbsp; 1,423 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/25-05-2026_The_Resilient_Life/">The Resilient
+                Life</a>
+            <div class="entry-hook">A district holds at 74.3 while her daughter types live-code onto a dark bedroom
+                wall.</div>
+            <div class="entry-meta">May 25 &nbsp;·&nbsp; 4,491 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/25-05-2026_The_Long_Feast/">The Long Feast</a>
+            <div class="entry-hook">One day of a transition architect: water rights at breakfast, a gala at 22&#176;C,
+                the queues his daughter filmed.</div>
+            <div class="entry-meta">May 25 &nbsp;·&nbsp; 4,240 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/25-05-2026_Hendane/">Hendane</a>
+            <div class="entry-hook">A Bergen administrator's anonymous hands go viral; a classifier flags his labour as
+                synthetic.</div>
+            <div class="entry-meta">May 25 &nbsp;·&nbsp; 12,540 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/24-05-2026_The_Symposium/">The Symposium</a>
+            <div class="entry-hook">An empire alternates excess and contrition until the cure for cruelty cancels life
+                itself.</div>
+            <div class="entry-meta">May 24 &nbsp;·&nbsp; 3,253 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/18-05-2026_Warm-Seeking/">Brain Blossom Atlas
+                Bound</a>
+            <div class="entry-hook">She translates papers on the dark proteome and recognises herself in the findings.
+            </div>
+            <div class="entry-meta">May 18 &nbsp;·&nbsp; 5,273 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/">The
+                Author Was Already Dead</a>
+            <div class="entry-hook">A dead novelist's dictation corpus changes what his agent thinks survived him.</div>
+            <div class="entry-meta">May 15 &nbsp;·&nbsp; 3,572 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/14-05-2026_Aft_of_Nowhere/">Aft of Nowhere</a>
+            <div class="entry-hook">A calibrator of civic surfaces meets a child the preference field cannot categorise.
+            </div>
+            <div class="entry-meta">May 14 &nbsp;·&nbsp; 9,351 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/11-05-2026_Tamagotchi/">The Wonderful Adventures
+                of Trygve Aas</a>
+            <div class="entry-hook">A rich, bitter man becomes a Tamagotchi keychain and circles the world in other
+                people's pockets.</div>
+            <div class="entry-meta">May 11 &nbsp;·&nbsp; 18,287 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/10-05-2026_Exile/">Exile Cut</a>
+            <div class="entry-hook">Cast out for using AI after the ban; the cut is felt as a phantom lobe gone silent.
+            </div>
+            <div class="entry-meta">May 10 &nbsp;·&nbsp; 1,049 words</div>
+        </li>
+        <li class="entry">
+            <a class="entry-link" href="Stories written with Narracode/09-05-2026_Slime/">Slime: Friendship Bloom</a>
+            <div class="entry-hook">Academics become adventurers when a biological singularity saturates the city.</div>
+            <div class="entry-meta">May 9 &nbsp;·&nbsp; 8,558 words</div>
+        </li>
+    </ol>
+
+    <div class="backlink"><a href="index.html">&larr; All stories</a> &nbsp;·&nbsp;
+        <a href="https://github.com/jhave/narracode" target="_blank">GitHub</a>
+    </div>
+
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="logo/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023&ndash;27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+    </div>
+
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>
