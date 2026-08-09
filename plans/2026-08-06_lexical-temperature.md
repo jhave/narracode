@@ -27,9 +27,16 @@ This document reports (2), measured on the full corpus using Zipf frequencies
 (`wordfreq`). Zipf 7 is `the`; 4 is an ordinary word; 2 is rare; 0 means absent from
 the frequency list entirely.
 
+> **CORRECTION, same day.** The interpretation below is withdrawn. Compared against
+> van Nuenen (arXiv:2604.22142), LLM revision moves lexical diversity and word length
+> in the *same* direction jhave does, so rarity measures that a text was revised, not
+> who revised it. The measurements stand; the claim that this is a human signature does
+> not. See `2026-08-06_stylometric-comparison-correction.md`.
+
 ## Result
 
-**jhave edits toward rarer words, and it is the strongest signal in the project.**
+**jhave edits toward rarer words** — the largest effect measured here, though see the
+correction above as to what it means.
 
 | measure | value |
 |---|---|

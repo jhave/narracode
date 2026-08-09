@@ -18,10 +18,16 @@ VERSION = "1.0.0"
 # d2's raw adjacent jump looked strong (t=-3.28, 93%) but collapses to null when
 # normalised by mean sentence length (t=-1.10, 53%). What actually moves is mean
 # sentence length itself.
-# d7 added 2026-08-06. Lexical rarity is the strongest measure found: t = -18.60
-# across pairs, -9.07 under strict one-for-one substitution control, versus -5.72 for
-# the best of the original six. It raises explained coverage from 9% to 54%.
-# See plans/2026-08-06_lexical-temperature.md
+# d7 added 2026-08-06. Lexical rarity is the largest effect measured: t = -18.60 across
+# pairs, -9.07 under strict one-for-one substitution control. It raises explained
+# coverage from 9% to 54%.
+#
+# BUT it does not discriminate the reviser. van Nuenen (arXiv:2604.22142) reports LLM
+# revision raising MTLD 53%, Honore's R 33% and word length 8.5% — the same family
+# moving the same way. Rarity measures that a text was revised, not by whom. The only
+# marker with opposite signs between the two studies is the em-dash: LLMs +326%,
+# jhave -5.72 t. Treat d6 as the discriminating dimension and d7 as magnitude.
+# See plans/2026-08-06_stylometric-comparison-correction.md
 DIMS = ["d1_mean_sent_len", "d2_len_cv", "d3_figuration", "d4_tricolon",
         "d5_naming", "d6_emdash", "d7_lexical_rarity"]
 DOC_ONLY = {"d1_mean_sent_len", "d2_len_cv"}
