@@ -118,7 +118,7 @@ stories:
 
   25-06-2026_Crepuscular:
     format: prose
-    pair_source: git-history          # read from branch SHAs; files NOT in this tree
+    pair_source: git-history          # SHAs now reachable from main
     note: >
       jhave: clearly human-edited by git author; added to repo and to corpus, not
       kept separate. Provenance here is fully mechanical — every commit is
@@ -128,12 +128,11 @@ stories:
       Yields 257 edited + 171 cut + 132 added = 560 pairs.
       Spot-checked genuine, e.g. "the part of *him* that did the wearing"
       -> "the part of *him* or *her* that did the wearing".
-      Source branch claude/life-game-awakening-story-cbc1kj, unmerged and
-      unpublished. Story files are deliberately NOT copied into this tree —
-      jhave asked that only the ledger entry be added. Extraction reads
-      before-and-after states directly from the SHAs below via
-      `git show <sha>:<path>`, which resolves as long as the remote branch ref
-      exists. The extractor must fetch that branch before running.
+      Originally on branch claude/life-game-awakening-story-cbc1kj. Merged and
+      PUBLISHED as "Upboarding Hour" (corrected 2026-08-09; the earlier note here
+      said unmerged and unpublished, which was true when written and became stale
+      within days). All commits below are now ancestors of main, so
+      `git show <sha>:<path>` resolves from a normal clone with no special fetch.
     machine_commits:
       - {sha: 17a3936, note: AUTO_MODE five-act origin}
       - {sha: 00c685d, note: v1 propagate dialect to Acts 1-4}
@@ -151,7 +150,14 @@ stories:
       - {sha: fdeff0b, file: 3-edits.md,              date: 2026-07-02}
       - {sha: 73c8e18, file: 4-crepuscular.md,        date: 2026-07-02}
       - {sha: cd0380f, file: 4-crepuscular.md,        date: 2026-07-02}
-    published: {provenance: none, usable: false, reason: never built or published}
+    published:
+      provenance: human
+      usable: false
+      reason: >
+        Published as "Upboarding Hour" after the corpus was built. Not used as a
+        pair source: the draft-to-published diff was never extracted for this
+        story, and adding it now would change the corpus after Step 2 ran on it.
+        A candidate for the next corpus rebuild.
 
   26-06-2026_The_First_Water_Molecule:
     format: prose
@@ -226,7 +232,7 @@ open_questions:
       draft commits are authored by jhave, because Claude Code sessions commit
       under his identity too. The message pattern is what separates them.
     distribution:
-      25-06-2026_Crepuscular: 10        # unmerged branch
+      25-06-2026_Crepuscular: 10        # now on main, published as Upboarding Hour
       26-06-2026_The_First_Water_Molecule: 6   # already captured
       20-07-2026_Open_Loops: 4          # NOT yet captured, only published diff used
       30-07-2026_Interim_Edge: 1
