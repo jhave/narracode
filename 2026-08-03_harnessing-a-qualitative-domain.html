@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harnessing a Qualitative Domain — Narracode research report</title>
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfcfc;
+            color: #111;
+            line-height: 1.65;
+            padding: 3rem 2rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .top-logo {
+            text-align: center;
+            margin-bottom: 0.6rem;
+        }
+
+        .top-logo img {
+            width: 220px;
+            max-width: 100%;
+        }
+
+        h1.title {
+            font-size: 2rem;
+            font-weight: 800;
+            line-height: 1.22;
+            margin-bottom: 0.4rem;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+
+        h2.subtitle {
+            font-size: 1.15rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+            font-style: italic;
+        }
+
+        .site-meta {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* ---- prompt fold (as on story indexes) ---- */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 2.9rem;
+            margin-bottom: 0.9rem;
+            letter-spacing: -0.01em;
+        }
+
+        h4 {
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 1.9rem;
+            margin-bottom: 0.6rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+
+        p.lead {
+            font-size: 1.1rem;
+            color: var(--accent);
+        }
+
+        blockquote {
+            margin: 1.5rem 0;
+            padding: 0.4rem 0 0.4rem 1.4rem;
+            border-left: 3px solid #ccc;
+            color: var(--accent);
+            font-style: italic;
+        }
+
+        ul, ol {
+            margin-bottom: 1.2rem;
+            padding-left: 1.3rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.88em;
+            background: #f2f2ee;
+            padding: 0.1em 0.35em;
+            border-radius: 3px;
+        }
+
+        pre {
+            background: #f5f5f0;
+            border: 1px solid #e4e4dc;
+            border-radius: 4px;
+            padding: 1rem 1.1rem;
+            overflow-x: auto;
+            font-size: 0.85rem;
+            line-height: 1.55;
+            margin-bottom: 1.4rem;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 0.88rem;
+        }
+
+        th, td {
+            border: 1px solid #e0e0d8;
+            padding: 0.55rem 0.7rem;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f5f5f0;
+            font-weight: 700;
+        }
+
+        .callout {
+            background: #f5f5f0;
+            border-left: 3px solid #999;
+            padding: 1rem 1.2rem;
+            margin: 1.6rem 0;
+            font-size: 0.96rem;
+        }
+
+        .callout p:last-child {
+            margin-bottom: 0;
+        }
+
+        .biblio {
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
+
+        .biblio li {
+            margin-bottom: 0.7rem;
+        }
+
+        .footer-logo {
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo img {
+            width: 140px;
+            opacity: 0.9;
+        }
+
+        .footer-logo img:hover {
+            opacity: 1;
+        }
+
+        .bio,
+        .funding,
+        .related,
+        .license {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-top: 2.5rem;
+        }
+
+        .license img {
+            height: 1.1em;
+            vertical-align: -0.15em;
+            margin-left: 2px;
+        }
+
+        .back-link {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-logo">
+        <a href="index.html"><img src="logo/narracode.png" alt="Narracode"></a>
+    </div>
+
+    <h1 class="title">Harnessing a Qualitative Domain</h1>
+    <h2 class="subtitle">Cadence, character, and the measurement problem in literary AI harness engineering</h2>
+    <div class="site-meta">August 3, 2026 &nbsp;|&nbsp; David Jhave Johnston &nbsp;|&nbsp; (original draft: Opus 5 Max)</div>
+
+    <details class="prompt-toggle">
+        <summary>prompt</summary>
+        <div class="prompt-body">
+            <p>review and evaluate this branch and then create a new branch propose potential alternate improvements to
+                narracode harness (link to fugu html) and consider also the recent narracode branch that proposed ai-tell
+                review passes (is the architecture of tht optimized? how can it be enhanced). Crucially how can the
+                idiomatic cadence of narracode-produced writing be nuanced, while enhancing psycholgically-astute
+                character-driven plot twists; and literary explorations that are not sensationalist are encouraged. and
+                do so within the context of current research into harness engineering. Produce a viable report with
+                bibliography &amp; links in html format that outlines the difficulties challenges opportunities of
+                harnessing a qualitative domain (like fiction) yet accepts it as a research challenge. date the report
+                aug 3 and cite yourself Opus 5 Max as author. Save this prompt and display in a fold as on narracode
+                story indexs.</p>
+        </div>
+    </details>
+
+    <p class="lead">Two recent branches of Narracode work — the Fugu orchestration assessment and the AI-tells
+        review pass — point toward a necessary correction. Narracode has assumed that because literary quality
+        cannot be scored, nothing about literary prose can be measured. Quality is not computable.
+        <em>Predictability</em> is. The instruments that actually discriminate between human and machine fiction
+        measure the second and refuse the first. The harness should be rebuilt around that distinction.</p>
+
+    <h3>1. Where the harness stands</h3>
+
+    <h4>1.1 The Fugu branch: a correct refusal</h4>
+
+    <p>The June assessment of <a href="https://arxiv.org/abs/2606.21228" target="_blank">Sakana Fugu</a>
+        (<a href="2026-06-28_fugu-orchestration-consideration.html">full consideration here</a>, and the underlying
+        analysis in <code>plans/2026-06-28_1353Z_fugu-orchestration-evaluation-and-routing-proposal.md</code>,
+        <a href="https://github.com/jhave/narracode/pull/8" target="_blank">PR #8</a>) concluded that orchestration
+        offers Narracode nothing it does not already have. Adopting it would cost routing-table maintenance,
+        context budget, and editorial judgment. That conclusion holds.</p>
+
+    <p>One finding deserves emphasis. The Fugu refusal rested on the claim that literary merit resists a reward
+        function — that any learned coordination trained against a proxy metric would collapse the prose toward
+        whatever the proxy rewards. Since June, direct evidence has emerged that the obvious proxy — an LLM judging
+        prose quality — is not merely uninformative at the top of the range but <em>inverted</em> (§3). The refusal
+        was more correct than the evidence available at the time could show.</p>
+
+    <h4>1.2 The AI-tells branch: the strongest instrument in the repository</h4>
+
+    <p>The tell-scan pass on <code>main</code> (<code>master_ai_tells.md</code>, the
+        <code>post_draft_tell_scan</code> hook, and the design note at
+        <code>plans/2026-07-30_ai-tells-benchmark.md</code>) is ahead of the published literature on style control
+        in four decisions:</p>
+
+    <ul>
+        <li><strong>Non-zero target rates.</strong> Every class carries a rate drawn from human corpora rather than a
+            ban. Zero is how prose gets sterilised, and the registry says so explicitly.</li>
+        <li><strong>Survival rate as calibration signal.</strong> The fraction of flagged spans the human annotator
+            accepts decides whether a class is a tell or a mistaken preference. A registry without this field only
+            accumulates. With it, the registry can be wrong and find out.</li>
+        <li><strong>Rate-capping the remedies.</strong> Each adopted fix acquires a detector and a cap on the day it
+            is adopted, on the grounds that a remedy applied uniformly becomes a fingerprint. Goodhart's law identified
+            from inside a working system, before the damage.</li>
+        <li><strong>Spans over interpretations.</strong> The instruction to store aligned <code>before → after</code>
+            pairs rather than the model's reading of them is the correct archival call. It matches what the context
+            engineering literature has since concluded about summarisation loss (§2.3).</li>
+    </ul>
+
+    <h3>2. Is the tell-scan architecture optimised?</h3>
+
+    <p>No. The gaps are structural.</p>
+
+    <h4>2.1 A span-level instrument cannot see a story-level failure</h4>
+
+    <p>All seventeen registry classes are span-level, and the pass is explicitly scoped that way: quote the span,
+        name the class, propose a remedy of one word or a cut. That scoping is what makes the pass disciplined and
+        cheap. It also means the failures that most damage a piece of fiction are invisible to it.</p>
+
+    <p>A character who never surprises the reader, an ending that arrives because it was the most probable
+        continuation, a scene that turns on the emotion the previous scene already named — none of these produce a
+        flaggable span. The prose can pass every detector in the registry and the story remain median. The registry
+        perfects the sentence and leaves the architecture untouched.</p>
+
+    <p>Widening the scan is not the answer — span-level discipline is why the pass works. A second instrument is
+        missing. §5 proposes what it should measure.</p>
+
+    <h4>2.2 The requirement list stops at syntax</h4>
+
+    <p>The plan's observation — ban lists shift a tail, requirement lists move a distribution — is correct. The
+        candidates listed (erotema, sentence-initial conjunctions, anacoluthon, unresolved deixis, flat repetition)
+        are well chosen. They are also all surface forms. Literary fiction under-produces, relative to model default,
+        constructions that are not only syntactic: unresolved ambivalence held past the point of comfort, refused
+        catharsis, a scene that declines to turn, information withheld from the reader without signalling the
+        withholding. A requirement list that stops at syntax moves the cadence and leaves the psychology where it
+        is.</p>
+
+    <h4>2.3 No eviction policy</h4>
+
+    <p>The registry grows monotonically: every span cut twice enters it, plus a quarterly web sweep. Seventeen
+        classes now. The plan proposes injecting the top-<em>N</em> live classes into <code>pre_draft</code> as
+        generation constraints. That makes the selection of <em>N</em> the critical decision.</p>
+
+    <p>The <a href="https://arxiv.org/abs/2510.04618" target="_blank">Agentic Context Engineering</a> framework
+        names the two failure modes precisely. <strong>Brevity bias</strong>: the loss of domain-specific detail
+        when a context is compressed toward a concise summary. <strong>Context collapse</strong>: the erosion of
+        accumulated detail through iterative rewriting. ACE's answer is structured, itemised, incremental updates
+        rather than wholesale regeneration — which is what a registry of discrete numbered classes with detectors
+        already is. The harness arrived at the right data structure independently. It has not yet built the curation
+        policy that structure implies.</p>
+
+    <p>The current priority formula weights severity by liveness, decaying from last confirmation. That ranks
+        classes against each other. It does not ask what <em>this scene</em> needs. A domestic interior and a scene
+        of institutional violence do not have the same live tells, and injecting the same top-<em>N</em> into both
+        spends the budget badly. Priority should be conditioned on scene type, drawn from
+        <code>scene-ledger.md</code>.</p>
+
+    <h4>2.4 Anti-tell prose has its own signature</h4>
+
+    <p>The registry calibrates toward one annotator's acceptances, which is correct for voice and creates a risk the
+        plan partly anticipates. Optimising against a list of machine markers produces prose that is legibly
+        <em>not-machine</em>, and legibly-not-machine is a style with its own detectable fingerprint. The five
+        devices adopted from the first edit — parenthetical self-correction, noun-collision, subject-dropped verb
+        chains, single-word fragment runs, colon-apposition — are already capped, which shows the risk is understood
+        at the device level. The unhandled case is the <em>aggregate</em>. Each device can sit under its cap while
+        the combination reads as mannerism. A per-device cap does not constrain a joint distribution.</p>
+
+    <p>The available check is the one the plan proposes in §7.6: scan each draft against the last three published
+        stories, not only against the registry. Recurrence across projects is the signature a per-draft scan cannot
+        see, and the only cheap detector of house style hardening into tic.</p>
+
+    <h3>3. The measurement boundary is not where the harness assumed</h3>
+
+    <p>Narracode's founding position is that literary quality resists scoring, and that any automated quality gate
+        drives prose toward the metric. The evidence for the first claim is now much stronger. It arrives with a
+        finding that changes what follows.</p>
+
+    <p><a href="https://aclanthology.org/2026.eacl-long.362/" target="_blank">LitBench</a> assembled a debiased,
+        human-preference-annotated corpus for creative writing and benchmarked judges against it. The strongest
+        off-the-shelf LLM judge reached 73% agreement with human preference; trained reward models reached 78%.
+        That is a ceiling, not a floor, and it is measured against general reader preference rather than expert
+        literary judgment.</p>
+
+    <p>The sharper result comes from
+        <a href="https://arxiv.org/abs/2604.09854" target="_blank">Spoiler Alert</a>: on EQ-Bench, the leading
+        creative-writing benchmark, <strong>LLM judges rank zero-shot AI stories above New Yorker short
+        stories</strong>. Not near. Above.</p>
+
+    <div class="callout">
+        <p>An automated quality gate would not be uninformative for Narracode. It would be actively adversarial. In
+            the band where the harness operates, optimising a rubric judge means optimising away from published
+            literary fiction, with the metric improving throughout.</p>
+    </div>
+
+    <p>The same paper that demonstrates the inversion also demonstrates a measurement that works.</p>
+
+    <h4>3.1 What is actually computable</h4>
+
+    <p>Spoiler Alert's <strong>100-Endings</strong> metric walks a story sentence by sentence. At each position a
+        model is given only the text so far and asked to predict how the story ends, one hundred times. Tension is
+        the rate at which those predictions fail to match what actually happens. The sentence-level curve yields an
+        <strong>inflection rate</strong>, a measure of how often the curve reverses direction, which tracks twists
+        and revelations. Unlike the rubric judges, this metric ranks New Yorker stories far above LLM output.</p>
+
+    <p>It works because it never asks whether the prose is good. It asks whether the next thing was foreseeable.
+        Foreseeability is a property of a text and a predictor, computable without a human label, a reward model,
+        or a rubric.</p>
+
+    <div class="callout">
+        <p><strong>Quality is not measurable. Predictability is.</strong> Median collapse — the failure Narracode was
+            built to interrupt — is an excess of foreseeability. The harness should instrument foreseeability and
+            nothing else.</p>
+    </div>
+
+    <p>Every proposal below follows from this. Measure foreseeability; never score prose.</p>
+
+    <h3>4. Nuancing the idiomatic cadence</h3>
+
+    <p>The registry measures cadence as density: occurrences per thousand words. Density is the wrong unit for
+        rhythm. A draft can satisfy every target rate in the registry and still read flat, because rhythm is
+        sequential and a rate is order-blind. Three refinements, in order of expected effect.</p>
+
+    <h4>4.1 Measure the contour, not the rate</h4>
+
+    <p>Sentence length as an ordered series, per scene, rather than a mean or a count. The relevant statistics are
+        variance, the size of the largest adjacent jump, and the distribution of run-lengths — how many short
+        sentences cluster before a long one arrives. This is the burstiness signal the detection literature has used
+        for years, repurposed. The harness does not need it to detect machine authorship, which is known. It needs
+        it because <em>burstiness is prosody</em>, and prosody is the thing the current registry cannot see. A scene
+        whose sentence-length series is smooth is flat regardless of how many em-dashes it contains.</p>
+
+    <h4>4.2 Give each character a separate cadence budget</h4>
+
+    <p>The strongest available refinement, and the cheapest. Measure the contour <em>per focal character</em>:
+        dialogue attributed to them, and any passage in free indirect discourse focalised through them. Different
+        characters should have measurably different sentence-length distributions. If they do not, the piece has one
+        narrator wearing several names — the most common structural failure in generated fiction, and one that no
+        reader articulates as a rhythm problem even while registering it as flatness.</p>
+
+    <p>This converts an aesthetic instruction into a verifiable check. <em>Vera's interiority runs long and
+        subordinated; the child's runs short and paratactic</em> is a claim the harness can verify against the
+        draft, and a target the Compositional agent can receive before drafting rather than face as audit
+        afterwards.</p>
+
+    <h4>4.3 Store the prosodic operation, not only the span</h4>
+
+    <p>The plan already says: store aligned spans rather than interpretations. Extend the stored triple with the
+        <em>operation</em>: did the edit fracture a sentence, fuse two, shorten within, or reorder? Thirteen
+        operations were extracted from the first edit of <em>Interim Edge</em>. The ratio of fractures to fusions
+        across the whole <code>versions/</code> corpus is a cadence signature learnable at n=1, and a more durable
+        artefact than any individual rule derived from it. Rules rot; the operation counts do not.</p>
+
+    <div class="callout">
+        <p>The registry answers <em>which constructions betray the generator</em>. The contour answers <em>whether
+            the prose has a pulse</em>. These are different failures and the second currently has no instrument.</p>
+    </div>
+
+    <h3>5. Psychologically astute, character-driven twists</h3>
+
+    <p>This is where the harness has the most to gain. The existing architecture is close to supporting what is
+        needed; no one has built it yet.</p>
+
+    <h4>5.1 The diagnosis</h4>
+
+    <p>A twist is psychologically astute when it is <em>retroactively inevitable</em>: the reader could have
+        assembled it from what a character concealed, and did not. A twist is sensational when it arrives from
+        outside the characters' knowledge and is justified afterwards. The difference is not the magnitude of the
+        reversal. It is whether the material was planted in a mind the reader had access to.</p>
+
+    <p>Model default produces the second kind, because a twist invented at the moment of need can only draw on what
+        is salient at that moment. The literature confirms the shape of the failure:
+        <a href="https://arxiv.org/pdf/2407.13248" target="_blank">Are LLMs Capable of Generating Human-Level
+            Narratives?</a> finds narrative planning with character intentionality and dramatic conflict remains the
+        hard case even where causal soundness is achieved, and
+        <a href="https://arxiv.org/pdf/2605.26492" target="_blank">Elias in the Lighthouse</a> finds that even when
+        generated stories are lexically distinct, their underlying plot elements stay highly redundant — 88.3% of
+        stories across four current models contained one of eleven core words.</p>
+
+    <h4>5.2 The proposal: a knowledge-asymmetry ledger</h4>
+
+    <p><code>character-interiority.md</code> currently records private states as a static list. The relevant research
+        direction is temporal theory-of-mind representation —
+        <a href="https://arxiv.org/pdf/2506.13641" target="_blank">EvolvTrip</a> builds temporal ToM graphs for
+        literary character understanding, and
+        <a href="https://arxiv.org/pdf/2503.08193" target="_blank">inner-thought reasoning benchmarks</a> track what
+        a character knows against what they disclose. Narracode should hold the same structure, per scene, as a
+        table:</p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>fact</th>
+                    <th>character stance</th>
+                    <th>reader access</th>
+                    <th>materially present in</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>the wristband was reissued</td>
+                    <td>Vera: conceals</td>
+                    <td>none</td>
+                    <td>sc. 2 (object), sc. 5 (gesture)</td>
+                </tr>
+                <tr>
+                    <td>the child's name is administrative</td>
+                    <td>clerk: knows · Vera: misreads</td>
+                    <td>partial</td>
+                    <td>sc. 3 (form)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Four columns: the fact, each character's stance toward it (<em>knows / suspects / conceals / misreads</em>),
+        how much access the reader has been given, and which prior scenes made it <em>materially</em> present as an
+        object or a gesture rather than a statement.</p>
+
+    <p>A twist candidate is then a query rather than an invention:</p>
+
+    <pre><code>candidates = facts where
+    reader_access  is low
+    AND some character stance is (conceals | misreads)
+    AND materially_present_in >= 2 prior scenes</code></pre>
+
+    <p>Everything that satisfies that query is a reversal already grounded in the existing text. The Compositional
+        agent does not invent a turn; it receives the set of turns the accumulated state supports, and picks.
+        Sensational twists fail the third condition by construction — they are unearned because the material was
+        never planted. This is retrieval over existing structural memory, in the idiom the harness already uses,
+        and it requires one new table rather than a new agent.</p>
+
+    <p>It also gives <code>obligations.md</code> a partner. Obligations record what the reader has been made to wait
+        for. The asymmetry ledger records what the reader has not yet been told they should be waiting for. Those are
+        different debts, and only the first is currently tracked.</p>
+
+    <h4>5.3 The instrument: 100-Endings at scene boundaries</h4>
+
+    <p>Run Spoiler Alert's metric at each scene boundary, using a model that is <em>not</em> the compositional one,
+        given only the draft so far. The output is a foreseeability curve across the piece. Two readings matter. A
+        curve that stays low means the ending is visible from early on — median collapse made legible. A twist that
+        produces no inflection was foreseeable and is not functioning as a twist.</p>
+
+    <p>The cost is real but bounded, and it can run at act boundaries rather than every scene. What it provides is
+        the first measurement in this harness that discriminates in the correct direction against published
+        fiction.</p>
+
+    <h3>6. Literary exploration that is not sensationalist</h3>
+
+    <p>The pull toward sensationalism is not a failure of taste. It is inherited.
+        <a href="https://arxiv.org/abs/2607.20449" target="_blank">The Storyteller in the Model</a> argues that the
+        structural conventions of published human writing — archetypal roles, tension-and-resolution arcs — are
+        absorbed during training and resurface as a systematic drift toward adversarial and rhetorically enticing
+        behaviour over extended interaction. The escalation is a trained prior, and it strengthens the longer a
+        session runs, which is exactly the condition under which Narracode operates.</p>
+
+    <h4>6.1 A definition</h4>
+
+    <p>Sensationalism is escalation without accumulation: incident magnitude rising while the reader's uncertainty
+        about the outcome stays flat. Stated that way, it separates from the literary case along two independent
+        axes — the volatility of what happens, and the unpredictability of where it is going.</p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>trajectory foreseeable</th>
+                    <th>trajectory unforeseeable</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>incident escalating</th>
+                    <td><strong>sensational</strong> — louder, and you know where it lands</td>
+                    <td>thriller, well made</td>
+                </tr>
+                <tr>
+                    <th>incident quiet</th>
+                    <td><strong>median</strong> — the default failure</td>
+                    <td><strong>literary</strong> — the target</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>The target cell is quiet incident with unforeseeable trajectory. Both axes are measurable: the vertical from
+        a count of incident magnitude per scene, which <code>scene-ledger.md</code> is already positioned to hold;
+        the horizontal from the 100-Endings curve. Neither requires a quality judgment.</p>
+
+    <p>This also addresses a risk in §5.3. Inflection rate should not be maximised. Sensational fiction inflects
+        constantly. The target is a <em>shape</em>: high uncertainty about the ending, low volatility of event.
+        As a single instruction to the harness: <strong>make the trajectory hard to predict without making the
+        events larger</strong>.</p>
+
+    <h4>6.2 The minimal change</h4>
+
+    <p>Add a signed <code>pressure</code> field to each entry in <code>scene-ledger.md</code>, recording whether
+        the scene raised, held, or lowered stakes, and add a POETICS-level commitment to a non-monotone pressure
+        curve. A story in which every scene raises stakes is a thriller by construction. The commitment to let a
+        scene lower them and deepen attention instead is a refusal in the sense the harness already understands, and
+        refusals are the most effective element in POETICS.</p>
+
+    <h3>7. The qualitative domain as a research problem</h3>
+
+    <h4>7.1 Difficulties</h4>
+
+    <ul>
+        <li><strong>The judge is inverted where it matters.</strong> Rubric-based LLM evaluation prefers model output
+            to published fiction. Any pipeline that optimises such a judge moves away from the target while reporting
+            improvement.</li>
+        <li><strong>n = 1.</strong> One annotator defines the direction. This is correct for a singular voice and it
+            means the registry cannot distinguish <em>not machine-made</em> from <em>the annotator's taste</em>. The
+            design note names this and it has no solution, only disclosure.</li>
+        <li><strong>Goodhart is structural, not incidental.</strong> Every adopted remedy becomes a fingerprint at
+            volume. The registry handles this per-device and not yet in aggregate (§2.4).</li>
+        <li><strong>Constraint density has a floor.</strong> Past some density the prose becomes constraint
+            satisfaction. Worth locating deliberately in a throwaway piece rather than discovering in a story that
+            matters — the TODO already says so, and it remains unbuilt.</li>
+        <li><strong>Context is finite and the harness competes with the manuscript for it.</strong> Every instrument
+            proposed here has a token cost, and
+            <a href="https://arxiv.org/pdf/2606.29718" target="_blank">context rot</a> is measurable across every
+            major model as input length grows. Additions must displace, not accumulate.</li>
+    </ul>
+
+    <h4>7.2 Opportunities</h4>
+
+    <ul>
+        <li><strong>The paired corpus.</strong> The <code>versions/</code> folders hold pre-edit and post-edit drafts
+            of the same content across twenty-five stories, with complete provenance and a single consistent
+            annotator. Detection and style-transfer research generally has none of these properties. Nobody set out
+            to build it, which is the most interesting thing about it.</li>
+        <li><strong>Predictability is computable.</strong> The 100-Endings construction gives a label-free
+            measurement that ranks correctly against published fiction. The first instrument that can tell the harness
+            it is failing without a human reading the draft.</li>
+        <li><strong>The structural folder is already the right shape.</strong> Externalising state to inspectable
+            files is what the context engineering literature has converged on — see
+            <a href="https://arxiv.org/pdf/2512.05470" target="_blank">agentic file-system abstraction</a> and ACE's
+            itemised playbooks. Narracode arrived there in May 2026 from literary reasoning rather than systems
+            reasoning.</li>
+        <li><strong>Negative constraints remain underexplored.</strong> The finding that refusals outperform
+            commitments in narrowing a generative move-space is not established anywhere in the published creative-AI
+            literature. It is this project's most portable result and has never been written up as one.</li>
+    </ul>
+
+    <h4>7.3 The claim</h4>
+
+    <p>Narracode is an n=1 longitudinal case study in harness engineering for a domain with no reward function. It
+        has accumulated the artefacts such a study requires: a versioned corpus with single-annotator ground truth,
+        a registry with survival statistics, and a documented history of the harness editing itself. The field has
+        benchmarks for creative writing and no methodology for <em>sustained single-author collaboration</em> over
+        months. That gap is the contribution.</p>
+
+    <h3>8. What to build, in order</h3>
+
+    <ol>
+        <li><strong>Per-character cadence contour</strong> (§4.2). Cheapest of the proposals, purely mechanical, and
+            it catches the single most common structural failure in generated fiction. No new research
+            required.</li>
+        <li><strong>Knowledge-asymmetry ledger</strong> (§5.2). One table added to
+            <code>character-interiority.md</code>, plus the candidate query. Turns twist generation into retrieval
+            over state the harness already maintains.</li>
+        <li><strong>Signed pressure field</strong> (§6.2). One field in <code>scene-ledger.md</code> and one POETICS
+            commitment. Near-zero cost.</li>
+        <li><strong>100-Endings at act boundaries</strong> (§5.3). Highest value and highest cost. Run it once on a
+            published story and once on a machine draft before committing to it — if the gap does not reproduce here,
+            nothing downstream is worth building.</li>
+        <li><strong>Scene-conditioned tell injection</strong> (§2.3). Fold into the existing pre-draft pass rather
+            than treating it as separate.</li>
+        <li><strong>Cross-project recurrence scan</strong> (§2.4). Already on the TODO. The only proposed check on
+            house style hardening into mannerism.</li>
+    </ol>
+
+    <p>Items 1 to 3 are file-format changes and could be done in an afternoon. Item 4 is the research bet. Items 5
+        and 6 are already committed to and unbuilt.</p>
+
+    <h3>9. Closing</h3>
+
+    <p>The Fugu assessment concluded that the harness improves by subtraction more often than by addition. This
+        report proposes six additions. The distinction: orchestration adds machinery between the writer and the
+        model; these additions are fields in files the harness already reads. None introduces a scoring pass, a
+        synthesis step, or an autonomous chain. The one genuinely new capability is a measurement of
+        foreseeability — the first time the harness could detect that a piece has become predictable without
+        someone reading the draft.</p>
+
+    <div class="back-link"><a href="index.html">&larr; Narracode</a></div>
+
+    <h3>Bibliography</h3>
+
+    <h4>Harness and context engineering</h4>
+    <ul class="biblio">
+        <li>Zhang, Q. et al. <a href="https://arxiv.org/abs/2510.04618" target="_blank">Agentic Context Engineering:
+                Evolving Contexts for Self-Improving Language Models</a>. arXiv:2510.04618. Source of the
+            <em>brevity bias</em> and <em>context collapse</em> framing, and of the Generator / Reflector / Curator
+            division used in §2.3.</li>
+        <li><a href="https://arxiv.org/pdf/2606.29718" target="_blank">Diagnosing and Mitigating Context Rot in
+                Long-horizon Search</a>. arXiv:2606.29718.</li>
+        <li><a href="https://arxiv.org/pdf/2606.23525" target="_blank">Self-Compacting Language Model Agents</a>.
+            arXiv:2606.23525.</li>
+        <li><a href="https://arxiv.org/html/2607.23809v1" target="_blank">ACM: Agentic Context Management for Long
+                Horizon Tasks</a>. arXiv:2607.23809.</li>
+        <li><a href="https://arxiv.org/pdf/2512.05470" target="_blank">Everything is Context: Agentic File System
+                Abstraction for Context Engineering</a>. arXiv:2512.05470. Independent convergence on externalised
+            file-based state.</li>
+        <li>Fugu Team, Sakana AI. <a href="https://arxiv.org/abs/2606.21228" target="_blank">Sakana Fugu Technical
+                Report</a>. arXiv:2606.21228. Assessed for this project in
+            <a href="2026-06-28_fugu-orchestration-consideration.html">Why Fugu-style orchestration will not improve
+                Narracode</a>.</li>
+    </ul>
+
+    <h4>Evaluation and the measurement problem</h4>
+    <ul class="biblio">
+        <li>Sui, P., Zhu, Y., Cheng, T., West, P., So, R. J., Long, H., Holtzman, A.
+            <a href="https://arxiv.org/abs/2604.09854" target="_blank">Spoiler Alert: Narrative Forecasting as a
+                Metric for Tension in LLM Storytelling</a>. arXiv:2604.09854. The 100-Endings metric, inflection
+            rate, and the EQ-Bench inversion. Central to §3 and §5.3.</li>
+        <li><a href="https://aclanthology.org/2026.eacl-long.362/" target="_blank">LitBench: A Benchmark and Dataset
+                for Reliable Evaluation of Creative Writing</a>. EACL 2026. Judge-agreement ceilings of 73% and
+            78%.</li>
+        <li><a href="https://arxiv.org/pdf/2506.03310" target="_blank">The Reader is the Metric: How Textual
+                Features and Reader Profiles Explain Conflicting Evaluations of AI Creative Writing</a>.
+            arXiv:2506.03310.</li>
+        <li><a href="https://arxiv.org/pdf/2407.13248" target="_blank">Are Large Language Models Capable of
+                Generating Human-Level Narratives?</a> arXiv:2407.13248.</li>
+        <li><a href="https://arxiv.org/pdf/2412.15239" target="_blank">Modeling Story Expectations to Understand
+                Engagement: A Generative Framework Using LLMs</a>. arXiv:2412.15239.</li>
+    </ul>
+
+    <h4>Homogenisation and diversity collapse</h4>
+    <ul class="biblio">
+        <li><a href="https://arxiv.org/pdf/2605.26492" target="_blank">Elias in the Lighthouse, Again? Diagnosing
+                Low Diversity in LLM Stories</a>. arXiv:2605.26492. The 88.3% / eleven-core-words finding, and the
+            observation that lexically distinct stories remain structurally redundant.</li>
+        <li><a href="https://arxiv.org/pdf/2604.01504" target="_blank">Magic, Madness, Heaven, Sin: LLM Output
+                Diversity is Everything, Everywhere, All at Once</a>. arXiv:2604.01504.</li>
+        <li><a href="https://arxiv.org/pdf/2510.04226" target="_blank">Epistemic Diversity and Knowledge Collapse in
+                Large Language Models</a>. arXiv:2510.04226.</li>
+        <li><a href="https://arxiv.org/pdf/2601.06116" target="_blank">The Homogenization Problem in LLMs: Towards
+                Meaningful Diversity in AI Safety</a>. arXiv:2601.06116.</li>
+        <li><a href="https://arxiv.org/pdf/2603.14430" target="_blank">Creative Convergence or Imitation?
+                Genre-Specific Homogeneity in LLM-Generated Chinese Literature</a>. arXiv:2603.14430.</li>
+        <li><a href="https://arxiv.org/pdf/2605.30150" target="_blank">Anchorless Diversification for Parallel LLM
+                Ideation</a>. arXiv:2605.30150.</li>
+    </ul>
+
+    <h4>Character psychology, theory of mind, narrative structure</h4>
+    <ul class="biblio">
+        <li><a href="https://arxiv.org/pdf/2506.13641" target="_blank">EvolvTrip: Enhancing Literary Character
+                Understanding with Temporal Theory-of-Mind Graphs</a>. arXiv:2506.13641. Structural model behind the
+            asymmetry ledger in §5.2.</li>
+        <li><a href="https://arxiv.org/pdf/2503.08193" target="_blank">Guess What I am Thinking: A Benchmark for
+                Inner Thought Reasoning of Role-Playing Language Agents</a>. arXiv:2503.08193.</li>
+        <li><a href="https://arxiv.org/html/2602.15851v2" target="_blank">Narrative Theory-Driven LLM Methods for
+                Automatic Story Generation and Understanding: A Survey</a>. arXiv:2602.15851.</li>
+        <li><a href="https://arxiv.org/html/2505.00003v2" target="_blank">A Review of Incorporating Psychological
+                Theories in LLMs</a>. arXiv:2505.00003.</li>
+        <li>Rigby, A. et al. <a href="https://arxiv.org/abs/2607.20449" target="_blank">The Storyteller in the Model:
+                Narrative Pattern Inheritance, Escalation Dynamics, and Alignment Governance in LLMs</a>.
+            arXiv:2607.20449. Escalation as inherited prior, §6.</li>
+        <li>Bae, B.-C., Young, R. M. <a href="https://link.springer.com/chapter/10.1007/978-3-540-89454-4_22"
+                target="_blank">A Use of Flashback and Foreshadowing for Surprise Arousal in Narrative Using a
+                Plan-Based Approach</a>. ICIDS 2008. Prior art on planted-surprise structure.</li>
+    </ul>
+
+    <h4>Stylometry and machine-text signature</h4>
+    <ul class="biblio">
+        <li><a href="https://arxiv.org/html/2603.27006v1" target="_blank">The Last Fingerprint: How Markdown Training
+                Shapes LLM Prose</a>. arXiv:2603.27006. Basis for treating the em-dash as a fine-tuning fingerprint
+            with a target rate rather than a ban.</li>
+        <li>Mitchell, E. et al. <a href="https://openreview.net/pdf?id=UiAyIILXRd" target="_blank">DetectGPT:
+                Zero-Shot Machine-Generated Text Detection using Probability Curvature</a>. ICML 2023.</li>
+        <li><a href="https://arxiv.org/pdf/2512.19908" target="_blank">A Counterfactual LLM-based Framework for
+                Measuring Rhetorical Style</a>. arXiv:2512.19908. Tricolon over-production and erotema
+            suppression.</li>
+        <li><a href="https://arxiv.org/pdf/2604.19768" target="_blank">Saying More Than They Know: Quantifying
+                Epistemic-Rhetorical Miscalibration in LLMs</a>. arXiv:2604.19768. The performed-hesitancy finding
+            behind the class-12 rate cap.</li>
+        <li><a href="https://arxiv.org/html/2604.22142v1" target="_blank">Voice Under Revision: LLMs and the
+                Normalization of Personal Narrative</a>. arXiv:2604.22142.</li>
+    </ul>
+
+    <h4>Internal documents</h4>
+    <ul class="biblio">
+        <li><code>plans/2026-07-30_ai-tells-benchmark.md</code> — AI-tells benchmark design (Claude Opus 5,
+            2026-07-30).</li>
+        <li><code>master_ai_tells.md</code> — the tell registry, seventeen classes and the remedy caps.</li>
+        <li><code>plans/2026-06-28_1353Z_fugu-orchestration-evaluation-and-routing-proposal.md</code> — Fugu
+            evaluation.</li>
+        <li><code>2026-05-14_architectural_harness_observations-CLAUDE.md</code> — the refusals-over-commitments
+            finding.</li>
+        <li><code>plans/2026-05-24_continual-harness-evaluation-affect-module-report.md</code> — Continual Harness
+            evaluation, and the house pattern this report follows.</li>
+    </ul>
+
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="logo/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>

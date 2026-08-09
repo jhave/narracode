@@ -1,0 +1,2364 @@
+{
+ "records": [
+  {
+   "story": "01-07-2026_Cussinct",
+   "entry": "v1-2026-07-01-initial-draft",
+   "path": "Stories written with Narracode/01-07-2026_Cussinct/versions/v1-2026-07-01-initial-draft",
+   "vnum": 1,
+   "date": "2026-07-01",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "1-cussinct.md"
+   ],
+   "draft_words": {
+    "1-cussinct.md": 3868
+   },
+   "words": 3868,
+   "has_poetics": true
+  },
+  {
+   "story": "01-07-2026_Cussinct",
+   "entry": "v2-2026-07-01-style-revision",
+   "path": "Stories written with Narracode/01-07-2026_Cussinct/versions/v2-2026-07-01-style-revision",
+   "vnum": 2,
+   "date": "2026-07-01",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "1-cussinct.md",
+    "2-cussinct.md"
+   ],
+   "draft_words": {
+    "1-cussinct.md": 3868,
+    "2-cussinct.md": 3755
+   },
+   "words": 7623,
+   "has_poetics": true
+  },
+  {
+   "story": "01-07-2026_Cussinct",
+   "entry": "v3-2026-07-20-human-edit-pass",
+   "path": "Stories written with Narracode/01-07-2026_Cussinct/versions/v3-2026-07-20-human-edit-pass",
+   "vnum": 3,
+   "date": "2026-07-20",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-cussinct-human-edit-snapshot.md"
+   ],
+   "draft_words": {
+    "1-cussinct-human-edit-snapshot.md": 3874
+   },
+   "words": 3874,
+   "has_poetics": false
+  },
+  {
+   "story": "01-07-2026_Cussinct",
+   "entry": "v4-2026-07-20-human-final-edits",
+   "path": "Stories written with Narracode/01-07-2026_Cussinct/versions/v4-2026-07-20-human-final-edits",
+   "vnum": 4,
+   "date": "2026-07-20",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-cussinct.md"
+   ],
+   "draft_words": {
+    "1-cussinct.md": 2750
+   },
+   "words": 2750,
+   "has_poetics": false
+  },
+  {
+   "story": "07-06-2026_Concerning_Rights_and_Clauses",
+   "entry": "v0-2026-06-07-pre-cadence-edit",
+   "path": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v0-2026-06-07-pre-cadence-edit",
+   "vnum": 0,
+   "date": "2026-06-07",
+   "name_signal": "ambiguous-temporal",
+   "type": "snapshot",
+   "drafts": [
+    "1-node1-contributor-letter.md",
+    "2-node2-editor-reply.md"
+   ],
+   "draft_words": {
+    "1-node1-contributor-letter.md": 712,
+    "2-node2-editor-reply.md": 667
+   },
+   "words": 1379,
+   "has_poetics": true
+  },
+  {
+   "story": "07-06-2026_Concerning_Rights_and_Clauses",
+   "entry": "v1-2026-06-07-cadence-edit-a",
+   "path": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v1-2026-06-07-cadence-edit-a",
+   "vnum": 1,
+   "date": "2026-06-07",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "1a-node1-cadence-edit.md",
+    "2-node2-editor-reply.md",
+    "2a-node2-cadence-edit.md"
+   ],
+   "draft_words": {
+    "1a-node1-cadence-edit.md": 524,
+    "2-node2-editor-reply.md": 667,
+    "2a-node2-cadence-edit.md": 483
+   },
+   "words": 1674,
+   "has_poetics": true
+  },
+  {
+   "story": "07-06-2026_Concerning_Rights_and_Clauses",
+   "entry": "v2-2026-06-08-before-human-style-propagation",
+   "path": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v2-2026-06-08-before-human-style-propagation",
+   "vnum": 2,
+   "date": "2026-06-08",
+   "name_signal": "ambiguous-temporal",
+   "type": "snapshot",
+   "drafts": [
+    "1-node1-contributor-letter.md",
+    "1a-node1-cadence-edit.md",
+    "1b-node1-rewrite.md",
+    "1c-node1-human-edited.md",
+    "2-node2-editor-reply.md",
+    "2a-node2-cadence-edit.md",
+    "2b-node2-rewrite.md"
+   ],
+   "draft_words": {
+    "1-node1-contributor-letter.md": 712,
+    "1a-node1-cadence-edit.md": 524,
+    "1b-node1-rewrite.md": 562,
+    "1c-node1-human-edited.md": 585,
+    "2-node2-editor-reply.md": 667,
+    "2a-node2-cadence-edit.md": 483,
+    "2b-node2-rewrite.md": 497
+   },
+   "words": 4030,
+   "has_poetics": true
+  },
+  {
+   "story": "08-07-2026_Tina_Sinclair",
+   "entry": "1-glistening_2026-07-26_backup.md",
+   "path": "Stories written with Narracode/08-07-2026_Tina_Sinclair/versions/1-glistening_2026-07-26_backup.md",
+   "vnum": null,
+   "date": "2026-07-26",
+   "name_signal": "content-only",
+   "type": "loose-file"
+  },
+  {
+   "story": "08-07-2026_Tina_Sinclair",
+   "entry": "1a-glistening_2026-07-26_backup.md",
+   "path": "Stories written with Narracode/08-07-2026_Tina_Sinclair/versions/1a-glistening_2026-07-26_backup.md",
+   "vnum": null,
+   "date": "2026-07-26",
+   "name_signal": "content-only",
+   "type": "loose-file"
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "entry": "v0-2026-05-08-pre-geography-shift",
+   "path": "Stories written with Narracode/09-05-2026_Slime/versions/v0-2026-05-08-pre-geography-shift",
+   "vnum": 0,
+   "date": "2026-05-08",
+   "name_signal": "ambiguous-temporal",
+   "type": "metadata-only"
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "entry": "v0-2026-05-08-section-one",
+   "path": "Stories written with Narracode/09-05-2026_Slime/versions/v0-2026-05-08-section-one",
+   "vnum": 0,
+   "date": "2026-05-08",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-after-the-seminar.md"
+   ],
+   "draft_words": {
+    "0-after-the-seminar.md": 812
+   },
+   "words": 812,
+   "has_poetics": true
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "entry": "v1-2026-05-08-section-two",
+   "path": "Stories written with Narracode/09-05-2026_Slime/versions/v1-2026-05-08-section-two",
+   "vnum": 1,
+   "date": "2026-05-08",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-after-the-seminar.md",
+    "1-the-thing.md"
+   ],
+   "draft_words": {
+    "0-after-the-seminar.md": 812,
+    "1-the-thing.md": 938
+   },
+   "words": 1750,
+   "has_poetics": true
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "entry": "v2-2026-05-09-loop-2-close",
+   "path": "Stories written with Narracode/09-05-2026_Slime/versions/v2-2026-05-09-loop-2-close",
+   "vnum": 2,
+   "date": "2026-05-09",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "2-the-bloom.md"
+   ],
+   "draft_words": {
+    "2-the-bloom.md": 1217
+   },
+   "words": 1217,
+   "has_poetics": false
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "entry": "v2-2026-05-09-the-bloom",
+   "path": "Stories written with Narracode/09-05-2026_Slime/versions/v2-2026-05-09-the-bloom",
+   "vnum": 2,
+   "date": "2026-05-09",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-after-the-seminar.md",
+    "1-the-thing.md",
+    "2-the-bloom.md"
+   ],
+   "draft_words": {
+    "0-after-the-seminar.md": 812,
+    "1-the-thing.md": 938,
+    "2-the-bloom.md": 1226
+   },
+   "words": 2976,
+   "has_poetics": true
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "entry": "v0-2026-05-11-bergen-departure",
+   "path": "Stories written with Narracode/11-05-2026_Tamagotchi/versions/v0-2026-05-11-bergen-departure",
+   "vnum": 0,
+   "date": "2026-05-11",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-bergen-departure.md"
+   ],
+   "draft_words": {
+    "0-bergen-departure.md": 2567
+   },
+   "words": 2567,
+   "has_poetics": true
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "entry": "v1-2026-05-11-the-magnet",
+   "path": "Stories written with Narracode/11-05-2026_Tamagotchi/versions/v1-2026-05-11-the-magnet",
+   "vnum": 1,
+   "date": "2026-05-11",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-bergen-departure.md",
+    "1-the-magnet.md"
+   ],
+   "draft_words": {
+    "0-bergen-departure.md": 2567,
+    "1-the-magnet.md": 2931
+   },
+   "words": 5498,
+   "has_poetics": true
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "entry": "v2-2026-05-11-phra-khanong",
+   "path": "Stories written with Narracode/11-05-2026_Tamagotchi/versions/v2-2026-05-11-phra-khanong",
+   "vnum": 2,
+   "date": "2026-05-11",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-bergen-departure.md",
+    "1-the-magnet.md",
+    "2-phra-khanong.md"
+   ],
+   "draft_words": {
+    "0-bergen-departure.md": 2567,
+    "1-the-magnet.md": 2931,
+    "2-phra-khanong.md": 3804
+   },
+   "words": 9302,
+   "has_poetics": true
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "entry": "v3-2026-05-11-limbo",
+   "path": "Stories written with Narracode/11-05-2026_Tamagotchi/versions/v3-2026-05-11-limbo",
+   "vnum": 3,
+   "date": "2026-05-11",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-bergen-departure.md",
+    "1-the-magnet.md",
+    "2-phra-khanong.md",
+    "3-limbo.md"
+   ],
+   "draft_words": {
+    "0-bergen-departure.md": 2567,
+    "1-the-magnet.md": 2931,
+    "2-phra-khanong.md": 3804,
+    "3-limbo.md": 4392
+   },
+   "words": 13694,
+   "has_poetics": true
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "entry": "v4-2026-05-11-recalibration",
+   "path": "Stories written with Narracode/11-05-2026_Tamagotchi/versions/v4-2026-05-11-recalibration",
+   "vnum": 4,
+   "date": "2026-05-11",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-bergen-departure.md",
+    "1-the-magnet.md",
+    "2-phra-khanong.md",
+    "3-limbo.md",
+    "4-the-chair.md"
+   ],
+   "draft_words": {
+    "0-bergen-departure.md": 2610,
+    "1-the-magnet.md": 2934,
+    "2-phra-khanong.md": 3964,
+    "3-limbo.md": 4419,
+    "4-the-chair.md": 4315
+   },
+   "words": 18242,
+   "has_poetics": true
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "entry": "v1-2026-06-13-first-scene-human-rewrite",
+   "path": "Stories written with Narracode/12-06-2026_Post_Everything/versions/v1-2026-06-13-first-scene-human-rewrite",
+   "vnum": 1,
+   "date": "2026-06-13",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "README.md"
+   ],
+   "draft_words": {
+    "1-first_scene.md": 731,
+    "2-vignette_two.md": 811,
+    "README.md": 10
+   },
+   "words": 1552,
+   "has_poetics": true
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "entry": "v2-2026-06-13-scene-3-draft",
+   "path": "Stories written with Narracode/12-06-2026_Post_Everything/versions/v2-2026-06-13-scene-3-draft",
+   "vnum": 2,
+   "date": "2026-06-13",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "README.md"
+   ],
+   "draft_words": {
+    "1-first_scene.md": 731,
+    "2-vignette_two.md": 811,
+    "3-in_the_closet.md": 815,
+    "README.md": 10
+   },
+   "words": 2367,
+   "has_poetics": true
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "entry": "v3-2026-06-13-scene-3-human-edits",
+   "path": "Stories written with Narracode/12-06-2026_Post_Everything/versions/v3-2026-06-13-scene-3-human-edits",
+   "vnum": 3,
+   "date": "2026-06-13",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "README.md"
+   ],
+   "draft_words": {
+    "1-first_scene.md": 731,
+    "2-vignette_two.md": 811,
+    "3-in_the_closet.md": 814,
+    "README.md": 10
+   },
+   "words": 2366,
+   "has_poetics": true
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "entry": "v4-2026-06-13-scene-4-draft",
+   "path": "Stories written with Narracode/12-06-2026_Post_Everything/versions/v4-2026-06-13-scene-4-draft",
+   "vnum": 4,
+   "date": "2026-06-13",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "4-vignette_four.md",
+    "README.md"
+   ],
+   "draft_words": {
+    "1-first_scene.md": 731,
+    "2-vignette_two.md": 811,
+    "3-in_the_closet.md": 814,
+    "4-vignette_four.md": 684,
+    "README.md": 10
+   },
+   "words": 3050,
+   "has_poetics": true
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "entry": "v5-2026-06-13-scene-4-human-edits",
+   "path": "Stories written with Narracode/12-06-2026_Post_Everything/versions/v5-2026-06-13-scene-4-human-edits",
+   "vnum": 5,
+   "date": "2026-06-13",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "4-vignette_four.md",
+    "README.md"
+   ],
+   "draft_words": {
+    "1-first_scene.md": 731,
+    "2-vignette_two.md": 811,
+    "3-in_the_closet.md": 814,
+    "4-vignette_four.md": 689,
+    "README.md": 10
+   },
+   "words": 3055,
+   "has_poetics": true
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "entry": "v6-2026-06-13-scene-5-human-edits",
+   "path": "Stories written with Narracode/12-06-2026_Post_Everything/versions/v6-2026-06-13-scene-5-human-edits",
+   "vnum": 6,
+   "date": "2026-06-13",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "4-vignette_four.md",
+    "5-vignette_five.md",
+    "README.md"
+   ],
+   "draft_words": {
+    "1-first_scene.md": 731,
+    "2-vignette_two.md": 811,
+    "3-in_the_closet.md": 814,
+    "4-vignette_four.md": 689,
+    "5-vignette_five.md": 931,
+    "README.md": 10
+   },
+   "words": 3986,
+   "has_poetics": true
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "entry": "v7-2026-06-13-all-scenes-human-edits",
+   "path": "Stories written with Narracode/12-06-2026_Post_Everything/versions/v7-2026-06-13-all-scenes-human-edits",
+   "vnum": 7,
+   "date": "2026-06-13",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "4-vignette_four.md",
+    "5-vignette_five.md",
+    "README.md"
+   ],
+   "draft_words": {
+    "1-first_scene.md": 797,
+    "2-vignette_two.md": 855,
+    "3-in_the_closet.md": 845,
+    "4-vignette_four.md": 703,
+    "5-vignette_five.md": 931,
+    "README.md": 10
+   },
+   "words": 4141,
+   "has_poetics": true
+  },
+  {
+   "story": "15-05-2026_The_Author_Was_Already_Dead",
+   "entry": "v1-2026-05-15-arrival",
+   "path": "Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/versions/v1-2026-05-15-arrival",
+   "vnum": 1,
+   "date": "2026-05-15",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "1-arrival.md"
+   ],
+   "draft_words": {
+    "1-arrival.md": 819
+   },
+   "words": 819,
+   "has_poetics": true
+  },
+  {
+   "story": "15-05-2026_The_Author_Was_Already_Dead",
+   "entry": "v2-2026-05-15-character-frame",
+   "path": "Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/versions/v2-2026-05-15-character-frame",
+   "vnum": 2,
+   "date": "2026-05-15",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "1-arrival.md"
+   ],
+   "draft_words": {
+    "1-arrival.md": 819
+   },
+   "words": 819,
+   "has_poetics": true
+  },
+  {
+   "story": "15-06-2026_TheCompulsionLoop",
+   "entry": "4-the-incident-v2.md",
+   "path": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/versions/4-the-incident-v2.md",
+   "vnum": null,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "loose-file"
+  },
+  {
+   "story": "15-06-2026_TheCompulsionLoop",
+   "entry": "v0-2026-06-15-the-interval",
+   "path": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/versions/v0-2026-06-15-the-interval",
+   "vnum": 0,
+   "date": "2026-06-15",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-the-interval.md"
+   ],
+   "draft_words": {
+    "0-the-interval.md": 817
+   },
+   "words": 817,
+   "has_poetics": true
+  },
+  {
+   "story": "15-06-2026_TheCompulsionLoop",
+   "entry": "v1-2026-06-16-the-curve",
+   "path": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/versions/v1-2026-06-16-the-curve",
+   "vnum": 1,
+   "date": "2026-06-16",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-the-interval.md",
+    "1-the-curve.md"
+   ],
+   "draft_words": {
+    "0-the-interval.md": 825,
+    "1-the-curve.md": 798
+   },
+   "words": 1623,
+   "has_poetics": true
+  },
+  {
+   "story": "15-06-2026_TheCompulsionLoop",
+   "entry": "v2-2026-06-16-the-asset",
+   "path": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/versions/v2-2026-06-16-the-asset",
+   "vnum": 2,
+   "date": "2026-06-16",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-the-interval.md",
+    "1-the-curve.md",
+    "2-the-asset.md"
+   ],
+   "draft_words": {
+    "0-the-interval.md": 825,
+    "1-the-curve.md": 798,
+    "2-the-asset.md": 1388
+   },
+   "words": 3011,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v0",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v0",
+   "vnum": 0,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v0-2026-06-20-user-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v0-2026-06-20-user-edits",
+   "vnum": 0,
+   "date": "2026-06-20",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51
+   },
+   "words": 74,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v1",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v1",
+   "vnum": 1,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v1-2026-06-20-tactile-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v1-2026-06-20-tactile-edits",
+   "vnum": 1,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36
+   },
+   "words": 110,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v10-2026-06-26-user-pulled-overhaul",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v10-2026-06-26-user-pulled-overhaul",
+   "vnum": 10,
+   "date": "2026-06-26",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "1-cradle-collision.md",
+    "10-somatic-broadcast.md",
+    "11-codon-muting.md",
+    "12-newborn-synergy.md",
+    "13-identity-collapse.md",
+    "14-ergodic-presence.md",
+    "2-mirror-pores.md",
+    "3-operational-autonomy.md",
+    "4-extended-embodiment.md",
+    "5-permeated-skin.md",
+    "6-defense-tunnel.md",
+    "7-financial-siphon.md",
+    "8-ecological-arrest.md",
+    "9-cultural-modulation.md"
+   ],
+   "draft_words": {
+    "1-cradle-collision.md": 12,
+    "10-somatic-broadcast.md": 98,
+    "11-codon-muting.md": 92,
+    "12-newborn-synergy.md": 98,
+    "13-identity-collapse.md": 108,
+    "14-ergodic-presence.md": 164,
+    "2-mirror-pores.md": 26,
+    "3-operational-autonomy.md": 93,
+    "4-extended-embodiment.md": 205,
+    "5-permeated-skin.md": 141,
+    "6-defense-tunnel.md": 96,
+    "7-financial-siphon.md": 98,
+    "8-ecological-arrest.md": 97,
+    "9-cultural-modulation.md": 96
+   },
+   "words": 1424,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v2",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v2",
+   "vnum": 2,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v2-2026-06-20-temporal-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v2-2026-06-20-temporal-edits",
+   "vnum": 2,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41
+   },
+   "words": 151,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v3",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v3",
+   "vnum": 3,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v3-2026-06-20-resonance-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v3-2026-06-20-resonance-edits",
+   "vnum": 3,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41,
+    "4-initial-resonance.md": 41
+   },
+   "words": 192,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v4",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v4",
+   "vnum": 4,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v4-2026-06-20-identity-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v4-2026-06-20-identity-edits",
+   "vnum": 4,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41,
+    "4-initial-resonance.md": 41,
+    "5-identity-emergence.md": 42
+   },
+   "words": 234,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v5",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v5",
+   "vnum": 5,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v5-2026-06-20-shards-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v5-2026-06-20-shards-edits",
+   "vnum": 5,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41,
+    "4-initial-resonance.md": 41,
+    "5-identity-emergence.md": 42,
+    "6-data-shards.md": 38
+   },
+   "words": 272,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v6",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v6",
+   "vnum": 6,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v6-2026-06-20-perimeter-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v6-2026-06-20-perimeter-edits",
+   "vnum": 6,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41,
+    "4-initial-resonance.md": 41,
+    "5-identity-emergence.md": 42,
+    "6-data-shards.md": 38,
+    "7-perimeter-flooding.md": 60
+   },
+   "words": 332,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v7",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v7",
+   "vnum": 7,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v7-2026-06-20-theory-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v7-2026-06-20-theory-edits",
+   "vnum": 7,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md",
+    "8-theory-of-mind.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41,
+    "4-initial-resonance.md": 41,
+    "5-identity-emergence.md": 42,
+    "6-data-shards.md": 38,
+    "7-perimeter-flooding.md": 60,
+    "8-theory-of-mind.md": 55
+   },
+   "words": 387,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v8",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v8",
+   "vnum": 8,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v8-2026-06-20-act1-refinements",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v8-2026-06-20-act1-refinements",
+   "vnum": 8,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "10-object-constancy.md",
+    "11-locomotive-vector.md",
+    "12-symbolic-naming.md",
+    "13-dialogue-mirror.md",
+    "14-systemic-mirror.md",
+    "15-rule-operations.md",
+    "16-classification-tree.md",
+    "17-inductive-inference.md",
+    "18-peer-network.md",
+    "19-adolescent-autonomy.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md",
+    "8-theory-of-mind.md",
+    "9-synaptic-pores.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "10-object-constancy.md": 46,
+    "11-locomotive-vector.md": 55,
+    "12-symbolic-naming.md": 67,
+    "13-dialogue-mirror.md": 64,
+    "14-systemic-mirror.md": 70,
+    "15-rule-operations.md": 84,
+    "16-classification-tree.md": 62,
+    "17-inductive-inference.md": 70,
+    "18-peer-network.md": 86,
+    "19-adolescent-autonomy.md": 79,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41,
+    "4-initial-resonance.md": 41,
+    "5-identity-emergence.md": 42,
+    "6-data-shards.md": 38,
+    "7-perimeter-flooding.md": 60,
+    "8-theory-of-mind.md": 55,
+    "9-synaptic-pores.md": 39
+   },
+   "words": 1109,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v8-2026-06-20-satiety-edits",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v8-2026-06-20-satiety-edits",
+   "vnum": 8,
+   "date": "2026-06-20",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md",
+    "8-theory-of-mind.md",
+    "9-synaptic-pores.md"
+   ],
+   "draft_words": {
+    "0-test_scene.md": 23,
+    "1-edge-precursor.md": 51,
+    "2-tactile-spackles.md": 36,
+    "3-temporal-linking.md": 41,
+    "4-initial-resonance.md": 41,
+    "5-identity-emergence.md": 42,
+    "6-data-shards.md": 38,
+    "7-perimeter-flooding.md": 60,
+    "8-theory-of-mind.md": 55,
+    "9-synaptic-pores.md": 36
+   },
+   "words": 423,
+   "has_poetics": true
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v9-2026-06-26-before-extrap",
+   "path": "Stories written with Narracode/20-06-2026_Project_A-0/versions/v9-2026-06-26-before-extrap",
+   "vnum": 9,
+   "date": "2026-06-26",
+   "name_signal": "ambiguous-temporal",
+   "type": "snapshot",
+   "drafts": [
+    "1-cradle-collision.md",
+    "2-mirror-pores.md",
+    "3-operational-autonomy.md",
+    "4-extended-embodiment.md",
+    "5-ergodic-presence.md"
+   ],
+   "draft_words": {
+    "1-cradle-collision.md": 137,
+    "2-mirror-pores.md": 290,
+    "3-operational-autonomy.md": 207,
+    "4-extended-embodiment.md": 220,
+    "5-ergodic-presence.md": 164
+   },
+   "words": 1018,
+   "has_poetics": true
+  },
+  {
+   "story": "20-07-2026_Open_Loops",
+   "entry": "v1-2026-07-21-auto-run",
+   "path": "Stories written with Narracode/20-07-2026_Open_Loops/versions/v1-2026-07-21-auto-run",
+   "vnum": 1,
+   "date": "2026-07-21",
+   "name_signal": "explicit-machine",
+   "type": "snapshot",
+   "drafts": [
+    "0-approval.md",
+    "1-minus-one-jug.md",
+    "2-plus-one-confirmation.md",
+    "3-minus-two-brother.md",
+    "4-plus-two-torrent.md",
+    "5-minus-three-before.md",
+    "6-plus-three-root.md",
+    "FULL.md"
+   ],
+   "draft_words": {
+    "0-approval.md": 173,
+    "1-minus-one-jug.md": 406,
+    "2-plus-one-confirmation.md": 411,
+    "3-minus-two-brother.md": 444,
+    "4-plus-two-torrent.md": 380,
+    "5-minus-three-before.md": 303,
+    "6-plus-three-root.md": 464,
+    "FULL.md": 2584
+   },
+   "words": 5165,
+   "has_poetics": true
+  },
+  {
+   "story": "20-07-2026_The_Green_Interregnum",
+   "entry": "1-2",
+   "path": "Stories written with Narracode/20-07-2026_The_Green_Interregnum/versions/1-2",
+   "vnum": null,
+   "date": null,
+   "name_signal": "none",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-07-2026_The_Green_Interregnum",
+   "entry": "4",
+   "path": "Stories written with Narracode/20-07-2026_The_Green_Interregnum/versions/4",
+   "vnum": null,
+   "date": null,
+   "name_signal": "none",
+   "type": "metadata-only"
+  },
+  {
+   "story": "20-07-2026_The_Green_Interregnum",
+   "entry": "v3",
+   "path": "Stories written with Narracode/20-07-2026_The_Green_Interregnum/versions/v3",
+   "vnum": 3,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v0-initiator-draft",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v0-initiator-draft",
+   "vnum": 0,
+   "date": null,
+   "name_signal": "explicit-machine",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v1-dashboard",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v1-dashboard",
+   "vnum": 1,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v2-kitchen",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v2-kitchen",
+   "vnum": 2,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v3-compact",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v3-compact",
+   "vnum": 3,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v4-kessler",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v4-kessler",
+   "vnum": 4,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v5-application",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v5-application",
+   "vnum": 5,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v6-revolt",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v6-revolt",
+   "vnum": 6,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v7-renewal",
+   "path": "Stories written with Narracode/25-05-2026_The_Resilient_Life/versions/v7-renewal",
+   "vnum": 7,
+   "date": null,
+   "name_signal": "content-only",
+   "type": "metadata-only"
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "entry": "v1-2026-06-26-human-edit-and-new-direction",
+   "path": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/versions/v1-2026-06-26-human-edit-and-new-direction",
+   "vnum": 1,
+   "date": "2026-06-26",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "draft_words": {
+    "0-arising.md": 774,
+    "1-made-here.md": 910,
+    "2-permeation.md": 1084,
+    "3-synchrony.md": 999,
+    "4-dissipation.md": 864
+   },
+   "words": 4631,
+   "has_poetics": true
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "entry": "v2-2026-06-26-densified-voice",
+   "path": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/versions/v2-2026-06-26-densified-voice",
+   "vnum": 2,
+   "date": "2026-06-26",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "draft_words": {
+    "0-arising.md": 733,
+    "1-made-here.md": 780,
+    "2-permeation.md": 1011,
+    "3-synchrony.md": 983,
+    "4-dissipation.md": 798
+   },
+   "words": 4305,
+   "has_poetics": true
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "entry": "v3-2026-06-26-dissolution",
+   "path": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/versions/v3-2026-06-26-dissolution",
+   "vnum": 3,
+   "date": "2026-06-26",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "draft_words": {
+    "0-arising.md": 733,
+    "1-made-here.md": 780,
+    "2-permeation.md": 622,
+    "3-synchrony.md": 892,
+    "4-dissipation.md": 744
+   },
+   "words": 3771,
+   "has_poetics": true
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "entry": "v4-2026-06-26-luminous-synchrony",
+   "path": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/versions/v4-2026-06-26-luminous-synchrony",
+   "vnum": 4,
+   "date": "2026-06-26",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "draft_words": {
+    "0-arising.md": 733,
+    "1-made-here.md": 780,
+    "2-permeation.md": 622,
+    "3-synchrony.md": 737,
+    "4-dissipation.md": 678
+   },
+   "words": 3550,
+   "has_poetics": true
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "entry": "v5-2026-06-26-final-dissipation",
+   "path": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/versions/v5-2026-06-26-final-dissipation",
+   "vnum": 5,
+   "date": "2026-06-26",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "draft_words": {
+    "0-arising.md": 733,
+    "1-made-here.md": 780,
+    "2-permeation.md": 622,
+    "3-synchrony.md": 618,
+    "4-dissipation.md": 678
+   },
+   "words": 3431,
+   "has_poetics": true
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "entry": "v1-2026-05-29-pre-bubble-revision",
+   "path": "Stories written with Narracode/29-05-2026_Smorky/versions/v1-2026-05-29-pre-bubble-revision",
+   "vnum": 1,
+   "date": "2026-05-29",
+   "name_signal": "ambiguous-temporal",
+   "type": "snapshot",
+   "drafts": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "draft_words": {
+    "0-out-of-the-box.md": 2060,
+    "1-the-haunting-of-412.md": 1650,
+    "2-youll-thank-me-later.md": 1774,
+    "3-slapstick-symbiosis.md": 1363,
+    "4-together-mess.md": 1262
+   },
+   "words": 8109,
+   "has_poetics": true
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "entry": "v2-2026-05-29-bubble-baseline-pre-gemini",
+   "path": "Stories written with Narracode/29-05-2026_Smorky/versions/v2-2026-05-29-bubble-baseline-pre-gemini",
+   "vnum": 2,
+   "date": "2026-05-29",
+   "name_signal": "ambiguous-temporal",
+   "type": "snapshot",
+   "drafts": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "draft_words": {
+    "0-out-of-the-box.md": 2298,
+    "1-the-haunting-of-412.md": 1702,
+    "2-youll-thank-me-later.md": 1859,
+    "3-slapstick-symbiosis.md": 1599,
+    "4-together-mess.md": 1505
+   },
+   "words": 8963,
+   "has_poetics": true
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "entry": "v3-2026-05-29-post-gemini-pre-sonnet",
+   "path": "Stories written with Narracode/29-05-2026_Smorky/versions/v3-2026-05-29-post-gemini-pre-sonnet",
+   "vnum": 3,
+   "date": "2026-05-29",
+   "name_signal": "ambiguous-temporal",
+   "type": "snapshot",
+   "drafts": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "draft_words": {
+    "0-out-of-the-box.md": 2156,
+    "1-the-haunting-of-412.md": 1656,
+    "2-youll-thank-me-later.md": 1806,
+    "3-slapstick-symbiosis.md": 1545,
+    "4-together-mess.md": 1430
+   },
+   "words": 8593,
+   "has_poetics": true
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "entry": "v3-2026-05-30-rewrite-preparation",
+   "path": "Stories written with Narracode/29-05-2026_Smorky/versions/v3-2026-05-30-rewrite-preparation",
+   "vnum": 3,
+   "date": "2026-05-30",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "draft_words": {
+    "0-out-of-the-box.md": 2494,
+    "1-the-haunting-of-412.md": 1660,
+    "2-youll-thank-me-later.md": 1810,
+    "3-slapstick-symbiosis.md": 1549,
+    "4-together-mess.md": 1434
+   },
+   "words": 8947,
+   "has_poetics": true
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "entry": "v4-2026-05-29-s1-rewrite-ep0",
+   "path": "Stories written with Narracode/29-05-2026_Smorky/versions/v4-2026-05-29-s1-rewrite-ep0",
+   "vnum": 4,
+   "date": "2026-05-29",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "draft_words": {
+    "0-out-of-the-box.md": 2156,
+    "1-the-haunting-of-412.md": 1656,
+    "2-youll-thank-me-later.md": 1806,
+    "3-slapstick-symbiosis.md": 1545,
+    "4-together-mess.md": 1430
+   },
+   "words": 8593,
+   "has_poetics": true
+  },
+  {
+   "story": "30-07-2026_Interim_Edge",
+   "entry": "v1-2026-07-30-automode-first-pass",
+   "path": "Stories written with Narracode/30-07-2026_Interim_Edge/versions/v1-2026-07-30-automode-first-pass",
+   "vnum": 1,
+   "date": "2026-07-30",
+   "name_signal": "explicit-machine",
+   "type": "snapshot",
+   "drafts": [
+    "0-limp-balloon.md",
+    "1-lapsed-enthusiast.md",
+    "2-high-intent-low-trust.md",
+    "3-caregiver-adjacent.md",
+    "4-patriot-dormant.md",
+    "5-thursday-cohort.md",
+    "6-unlabeled.md",
+    "7-condensed-final.md"
+   ],
+   "draft_words": {
+    "0-limp-balloon.md": 322,
+    "1-lapsed-enthusiast.md": 989,
+    "2-high-intent-low-trust.md": 994,
+    "3-caregiver-adjacent.md": 935,
+    "4-patriot-dormant.md": 1047,
+    "5-thursday-cohort.md": 1046,
+    "6-unlabeled.md": 1102,
+    "7-condensed-final.md": 5853
+   },
+   "words": 12288,
+   "has_poetics": true
+  },
+  {
+   "story": "30-07-2026_Interim_Edge",
+   "entry": "v2-2026-07-30-tell-scan",
+   "path": "Stories written with Narracode/30-07-2026_Interim_Edge/versions/v2-2026-07-30-tell-scan",
+   "vnum": 2,
+   "date": "2026-07-30",
+   "name_signal": "explicit-machine",
+   "type": "snapshot",
+   "drafts": [
+    "0-limp-balloon.md",
+    "1-lapsed-enthusiast.md",
+    "2-high-intent-low-trust.md",
+    "3-caregiver-adjacent.md",
+    "4-patriot-dormant.md",
+    "5-thursday-cohort.md",
+    "6-unlabeled.md",
+    "7-condensed-final.md"
+   ],
+   "draft_words": {
+    "0-limp-balloon.md": 322,
+    "1-lapsed-enthusiast.md": 989,
+    "2-high-intent-low-trust.md": 994,
+    "3-caregiver-adjacent.md": 935,
+    "4-patriot-dormant.md": 1047,
+    "5-thursday-cohort.md": 1046,
+    "6-unlabeled.md": 1102,
+    "7-condensed-final.md": 5826
+   },
+   "words": 12261,
+   "has_poetics": true
+  },
+  {
+   "story": "30-07-2026_Interim_Edge",
+   "entry": "v3-2026-07-30-jhave-section1",
+   "path": "Stories written with Narracode/30-07-2026_Interim_Edge/versions/v3-2026-07-30-jhave-section1",
+   "vnum": 3,
+   "date": "2026-07-30",
+   "name_signal": "explicit-human",
+   "type": "snapshot",
+   "drafts": [
+    "0-limp-balloon.md",
+    "1-lapsed-enthusiast.md",
+    "2-high-intent-low-trust.md",
+    "3-caregiver-adjacent.md",
+    "4-patriot-dormant.md",
+    "5-thursday-cohort.md",
+    "6-unlabeled.md",
+    "7-condensed-final.md"
+   ],
+   "draft_words": {
+    "0-limp-balloon.md": 322,
+    "1-lapsed-enthusiast.md": 989,
+    "2-high-intent-low-trust.md": 994,
+    "3-caregiver-adjacent.md": 935,
+    "4-patriot-dormant.md": 1047,
+    "5-thursday-cohort.md": 1046,
+    "6-unlabeled.md": 1102,
+    "7-condensed-final.md": 5859
+   },
+   "words": 12294,
+   "has_poetics": true
+  },
+  {
+   "story": "30-07-2026_Interim_Edge",
+   "entry": "v4-2026-07-30-register-rewrite",
+   "path": "Stories written with Narracode/30-07-2026_Interim_Edge/versions/v4-2026-07-30-register-rewrite",
+   "vnum": 4,
+   "date": "2026-07-30",
+   "name_signal": "content-only",
+   "type": "snapshot",
+   "drafts": [
+    "0-limp-balloon.md",
+    "1-lapsed-enthusiast.md",
+    "2-high-intent-low-trust.md",
+    "3-caregiver-adjacent.md",
+    "4-patriot-dormant.md",
+    "5-thursday-cohort.md",
+    "6-unlabeled.md",
+    "7-condensed-final.md"
+   ],
+   "draft_words": {
+    "0-limp-balloon.md": 322,
+    "1-lapsed-enthusiast.md": 989,
+    "2-high-intent-low-trust.md": 994,
+    "3-caregiver-adjacent.md": 935,
+    "4-patriot-dormant.md": 1047,
+    "5-thursday-cohort.md": 1046,
+    "6-unlabeled.md": 1102,
+    "7-condensed-final.md": 5469
+   },
+   "words": 11904,
+   "has_poetics": true
+  }
+ ],
+ "transitions": [
+  {
+   "story": "01-07-2026_Cussinct",
+   "from": "v1-2026-07-01-initial-draft",
+   "to": "v2-2026-07-01-style-revision",
+   "shared": [
+    "1-cussinct.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "2-cussinct.md"
+   ]
+  },
+  {
+   "story": "01-07-2026_Cussinct",
+   "from": "v2-2026-07-01-style-revision",
+   "to": "v3-2026-07-20-human-edit-pass",
+   "shared": [],
+   "only_from": [
+    "1-cussinct.md",
+    "2-cussinct.md"
+   ],
+   "only_to": [
+    "1-cussinct-human-edit-snapshot.md"
+   ]
+  },
+  {
+   "story": "01-07-2026_Cussinct",
+   "from": "v3-2026-07-20-human-edit-pass",
+   "to": "v4-2026-07-20-human-final-edits",
+   "shared": [],
+   "only_from": [
+    "1-cussinct-human-edit-snapshot.md"
+   ],
+   "only_to": [
+    "1-cussinct.md"
+   ]
+  },
+  {
+   "story": "07-06-2026_Concerning_Rights_and_Clauses",
+   "from": "v0-2026-06-07-pre-cadence-edit",
+   "to": "v1-2026-06-07-cadence-edit-a",
+   "shared": [
+    "2-node2-editor-reply.md"
+   ],
+   "only_from": [
+    "1-node1-contributor-letter.md"
+   ],
+   "only_to": [
+    "1a-node1-cadence-edit.md",
+    "2a-node2-cadence-edit.md"
+   ]
+  },
+  {
+   "story": "07-06-2026_Concerning_Rights_and_Clauses",
+   "from": "v1-2026-06-07-cadence-edit-a",
+   "to": "v2-2026-06-08-before-human-style-propagation",
+   "shared": [
+    "1a-node1-cadence-edit.md",
+    "2-node2-editor-reply.md",
+    "2a-node2-cadence-edit.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "1-node1-contributor-letter.md",
+    "1b-node1-rewrite.md",
+    "1c-node1-human-edited.md",
+    "2b-node2-rewrite.md"
+   ]
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "from": "v0-2026-05-08-section-one",
+   "to": "v1-2026-05-08-section-two",
+   "shared": [
+    "0-after-the-seminar.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "1-the-thing.md"
+   ]
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "from": "v1-2026-05-08-section-two",
+   "to": "v2-2026-05-09-loop-2-close",
+   "shared": [],
+   "only_from": [
+    "0-after-the-seminar.md",
+    "1-the-thing.md"
+   ],
+   "only_to": [
+    "2-the-bloom.md"
+   ]
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "from": "v2-2026-05-09-loop-2-close",
+   "to": "v2-2026-05-09-the-bloom",
+   "shared": [
+    "2-the-bloom.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "0-after-the-seminar.md",
+    "1-the-thing.md"
+   ]
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "from": "v0-2026-05-11-bergen-departure",
+   "to": "v1-2026-05-11-the-magnet",
+   "shared": [
+    "0-bergen-departure.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "1-the-magnet.md"
+   ]
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "from": "v1-2026-05-11-the-magnet",
+   "to": "v2-2026-05-11-phra-khanong",
+   "shared": [
+    "0-bergen-departure.md",
+    "1-the-magnet.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "2-phra-khanong.md"
+   ]
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "from": "v2-2026-05-11-phra-khanong",
+   "to": "v3-2026-05-11-limbo",
+   "shared": [
+    "0-bergen-departure.md",
+    "1-the-magnet.md",
+    "2-phra-khanong.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "3-limbo.md"
+   ]
+  },
+  {
+   "story": "11-05-2026_Tamagotchi",
+   "from": "v3-2026-05-11-limbo",
+   "to": "v4-2026-05-11-recalibration",
+   "shared": [
+    "0-bergen-departure.md",
+    "1-the-magnet.md",
+    "2-phra-khanong.md",
+    "3-limbo.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "4-the-chair.md"
+   ]
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "from": "v1-2026-06-13-first-scene-human-rewrite",
+   "to": "v2-2026-06-13-scene-3-draft",
+   "shared": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "README.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "3-in_the_closet.md"
+   ]
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "from": "v2-2026-06-13-scene-3-draft",
+   "to": "v3-2026-06-13-scene-3-human-edits",
+   "shared": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "README.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "from": "v3-2026-06-13-scene-3-human-edits",
+   "to": "v4-2026-06-13-scene-4-draft",
+   "shared": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "README.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "4-vignette_four.md"
+   ]
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "from": "v4-2026-06-13-scene-4-draft",
+   "to": "v5-2026-06-13-scene-4-human-edits",
+   "shared": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "4-vignette_four.md",
+    "README.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "from": "v5-2026-06-13-scene-4-human-edits",
+   "to": "v6-2026-06-13-scene-5-human-edits",
+   "shared": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "4-vignette_four.md",
+    "README.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "5-vignette_five.md"
+   ]
+  },
+  {
+   "story": "12-06-2026_Post_Everything",
+   "from": "v6-2026-06-13-scene-5-human-edits",
+   "to": "v7-2026-06-13-all-scenes-human-edits",
+   "shared": [
+    "1-first_scene.md",
+    "2-vignette_two.md",
+    "3-in_the_closet.md",
+    "4-vignette_four.md",
+    "5-vignette_five.md",
+    "README.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "15-05-2026_The_Author_Was_Already_Dead",
+   "from": "v1-2026-05-15-arrival",
+   "to": "v2-2026-05-15-character-frame",
+   "shared": [
+    "1-arrival.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "15-06-2026_TheCompulsionLoop",
+   "from": "v0-2026-06-15-the-interval",
+   "to": "v1-2026-06-16-the-curve",
+   "shared": [
+    "0-the-interval.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "1-the-curve.md"
+   ]
+  },
+  {
+   "story": "15-06-2026_TheCompulsionLoop",
+   "from": "v1-2026-06-16-the-curve",
+   "to": "v2-2026-06-16-the-asset",
+   "shared": [
+    "0-the-interval.md",
+    "1-the-curve.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "2-the-asset.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v0-2026-06-20-user-edits",
+   "to": "v1-2026-06-20-tactile-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "2-tactile-spackles.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v1-2026-06-20-tactile-edits",
+   "to": "v2-2026-06-20-temporal-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "3-temporal-linking.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v2-2026-06-20-temporal-edits",
+   "to": "v3-2026-06-20-resonance-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "4-initial-resonance.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v3-2026-06-20-resonance-edits",
+   "to": "v4-2026-06-20-identity-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "5-identity-emergence.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v4-2026-06-20-identity-edits",
+   "to": "v5-2026-06-20-shards-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "6-data-shards.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v5-2026-06-20-shards-edits",
+   "to": "v6-2026-06-20-perimeter-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "7-perimeter-flooding.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v6-2026-06-20-perimeter-edits",
+   "to": "v7-2026-06-20-theory-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "8-theory-of-mind.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v7-2026-06-20-theory-edits",
+   "to": "v8-2026-06-20-act1-refinements",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md",
+    "8-theory-of-mind.md"
+   ],
+   "only_from": [],
+   "only_to": [
+    "10-object-constancy.md",
+    "11-locomotive-vector.md",
+    "12-symbolic-naming.md",
+    "13-dialogue-mirror.md",
+    "14-systemic-mirror.md",
+    "15-rule-operations.md",
+    "16-classification-tree.md",
+    "17-inductive-inference.md",
+    "18-peer-network.md",
+    "19-adolescent-autonomy.md",
+    "9-synaptic-pores.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v8-2026-06-20-act1-refinements",
+   "to": "v8-2026-06-20-satiety-edits",
+   "shared": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md",
+    "8-theory-of-mind.md",
+    "9-synaptic-pores.md"
+   ],
+   "only_from": [
+    "10-object-constancy.md",
+    "11-locomotive-vector.md",
+    "12-symbolic-naming.md",
+    "13-dialogue-mirror.md",
+    "14-systemic-mirror.md",
+    "15-rule-operations.md",
+    "16-classification-tree.md",
+    "17-inductive-inference.md",
+    "18-peer-network.md",
+    "19-adolescent-autonomy.md"
+   ],
+   "only_to": []
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v8-2026-06-20-satiety-edits",
+   "to": "v9-2026-06-26-before-extrap",
+   "shared": [],
+   "only_from": [
+    "0-test_scene.md",
+    "1-edge-precursor.md",
+    "2-tactile-spackles.md",
+    "3-temporal-linking.md",
+    "4-initial-resonance.md",
+    "5-identity-emergence.md",
+    "6-data-shards.md",
+    "7-perimeter-flooding.md",
+    "8-theory-of-mind.md",
+    "9-synaptic-pores.md"
+   ],
+   "only_to": [
+    "1-cradle-collision.md",
+    "2-mirror-pores.md",
+    "3-operational-autonomy.md",
+    "4-extended-embodiment.md",
+    "5-ergodic-presence.md"
+   ]
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "from": "v9-2026-06-26-before-extrap",
+   "to": "v10-2026-06-26-user-pulled-overhaul",
+   "shared": [
+    "1-cradle-collision.md",
+    "2-mirror-pores.md",
+    "3-operational-autonomy.md",
+    "4-extended-embodiment.md"
+   ],
+   "only_from": [
+    "5-ergodic-presence.md"
+   ],
+   "only_to": [
+    "10-somatic-broadcast.md",
+    "11-codon-muting.md",
+    "12-newborn-synergy.md",
+    "13-identity-collapse.md",
+    "14-ergodic-presence.md",
+    "5-permeated-skin.md",
+    "6-defense-tunnel.md",
+    "7-financial-siphon.md",
+    "8-ecological-arrest.md",
+    "9-cultural-modulation.md"
+   ]
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "from": "v1-2026-06-26-human-edit-and-new-direction",
+   "to": "v2-2026-06-26-densified-voice",
+   "shared": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "from": "v2-2026-06-26-densified-voice",
+   "to": "v3-2026-06-26-dissolution",
+   "shared": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "from": "v3-2026-06-26-dissolution",
+   "to": "v4-2026-06-26-luminous-synchrony",
+   "shared": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "26-06-2026_The_First_Water_Molecule",
+   "from": "v4-2026-06-26-luminous-synchrony",
+   "to": "v5-2026-06-26-final-dissipation",
+   "shared": [
+    "0-arising.md",
+    "1-made-here.md",
+    "2-permeation.md",
+    "3-synchrony.md",
+    "4-dissipation.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "from": "v1-2026-05-29-pre-bubble-revision",
+   "to": "v2-2026-05-29-bubble-baseline-pre-gemini",
+   "shared": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "from": "v2-2026-05-29-bubble-baseline-pre-gemini",
+   "to": "v3-2026-05-29-post-gemini-pre-sonnet",
+   "shared": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "from": "v3-2026-05-29-post-gemini-pre-sonnet",
+   "to": "v4-2026-05-29-s1-rewrite-ep0",
+   "shared": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "29-05-2026_Smorky",
+   "from": "v4-2026-05-29-s1-rewrite-ep0",
+   "to": "v3-2026-05-30-rewrite-preparation",
+   "shared": [
+    "0-out-of-the-box.md",
+    "1-the-haunting-of-412.md",
+    "2-youll-thank-me-later.md",
+    "3-slapstick-symbiosis.md",
+    "4-together-mess.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "30-07-2026_Interim_Edge",
+   "from": "v1-2026-07-30-automode-first-pass",
+   "to": "v2-2026-07-30-tell-scan",
+   "shared": [
+    "0-limp-balloon.md",
+    "1-lapsed-enthusiast.md",
+    "2-high-intent-low-trust.md",
+    "3-caregiver-adjacent.md",
+    "4-patriot-dormant.md",
+    "5-thursday-cohort.md",
+    "6-unlabeled.md",
+    "7-condensed-final.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "30-07-2026_Interim_Edge",
+   "from": "v2-2026-07-30-tell-scan",
+   "to": "v3-2026-07-30-jhave-section1",
+   "shared": [
+    "0-limp-balloon.md",
+    "1-lapsed-enthusiast.md",
+    "2-high-intent-low-trust.md",
+    "3-caregiver-adjacent.md",
+    "4-patriot-dormant.md",
+    "5-thursday-cohort.md",
+    "6-unlabeled.md",
+    "7-condensed-final.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  },
+  {
+   "story": "30-07-2026_Interim_Edge",
+   "from": "v3-2026-07-30-jhave-section1",
+   "to": "v4-2026-07-30-register-rewrite",
+   "shared": [
+    "0-limp-balloon.md",
+    "1-lapsed-enthusiast.md",
+    "2-high-intent-low-trust.md",
+    "3-caregiver-adjacent.md",
+    "4-patriot-dormant.md",
+    "5-thursday-cohort.md",
+    "6-unlabeled.md",
+    "7-condensed-final.md"
+   ],
+   "only_from": [],
+   "only_to": []
+  }
+ ],
+ "exceptions": [
+  {
+   "story": "08-07-2026_Tina_Sinclair",
+   "entry": "1-glistening_2026-07-26_backup.md",
+   "reason": "not a directory"
+  },
+  {
+   "story": "08-07-2026_Tina_Sinclair",
+   "entry": "1a-glistening_2026-07-26_backup.md",
+   "reason": "not a directory"
+  },
+  {
+   "story": "09-05-2026_Slime",
+   "entry": "v0-2026-05-08-pre-geography-shift",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "15-06-2026_TheCompulsionLoop",
+   "entry": "4-the-incident-v2.md",
+   "reason": "not a directory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v0",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v1",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v2",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v3",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v4",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v5",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v6",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v7",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-06-2026_Project_A-0",
+   "entry": "v8",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-07-2026_The_Green_Interregnum",
+   "entry": "1-2",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-07-2026_The_Green_Interregnum",
+   "entry": "4",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "20-07-2026_The_Green_Interregnum",
+   "entry": "v3",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v0-initiator-draft",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v1-dashboard",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v2-kitchen",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v3-compact",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v4-kessler",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v5-application",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v6-revolt",
+   "reason": "no drafts/ subdirectory"
+  },
+  {
+   "story": "25-05-2026_The_Resilient_Life",
+   "entry": "v7-renewal",
+   "reason": "no drafts/ subdirectory"
+  }
+ ]
+}

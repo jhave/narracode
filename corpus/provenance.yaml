@@ -1,0 +1,245 @@
+# Provenance ledger — substep 1.2
+# Source: jhave, confirmed 2026-08-06, from 2026-08-05_provenance-diff-review.html
+#
+# RULES THE EXTRACTOR APPLIES
+#   pair emitted only for machine -> human, both usable: true
+#   unknown on either side  -> no pair
+#   machine -> machine      -> no pair
+#   human   -> human        -> no immediate pair; see cumulative rule below
+#
+# CUMULATIVE RULE (new, see 1.4 note)
+#   For a maximal run of consecutive human snapshots H1..Hn preceded by a
+#   machine snapshot M, emit both:
+#     M -> H1   pair_type: immediate   (the first correction)
+#     M -> Hn   pair_type: cumulative  (the total correction)
+#   Without this, stories whose edits are all human yield almost nothing.
+
+stories:
+
+  01-07-2026_Cussinct:
+    format: prose
+    note: "jhave: edits ALL human"
+    snapshots:
+      v1-2026-07-01-initial-draft:   {provenance: machine, source: jhave}
+      v2-2026-07-01-style-revision:  {provenance: human,   source: jhave}
+      v3-2026-07-20-human-edit-pass: {provenance: human,   source: jhave}
+      v4-2026-07-20-human-final-edits: {provenance: human, source: jhave}
+    published: {provenance: unknown, usable: false, reason: "not specified by jhave"}
+
+  07-06-2026_Concerning_Rights_and_Clauses:
+    format: prose
+    note: >
+      jhave: human edits are replaces at sentence 1 and 11. Located: both are in the
+      draft->published diff (1-node1-contributor-letter.md), not in any snapshot
+      transition. Snapshot provenance was not given, so the three snapshots stay
+      excluded; the published pair is usable.
+    snapshots:
+      v0-2026-06-07-pre-cadence-edit: {provenance: unknown, usable: false}
+      v1-2026-06-07-cadence-edit-a:   {provenance: unknown, usable: false}
+      v2-2026-06-08-before-human-style-propagation: {provenance: unknown, usable: false}
+    published:
+      provenance: human
+      usable: true
+      source: jhave
+      draft: 1-node1-contributor-letter.md
+      confirmed_spans: [1, 11]
+      partial: true
+
+  09-05-2026_Slime:
+    format: prose
+    usable: false
+    note: "jhave: ambiguous — EXCLUDED. Not recoverable; do not guess."
+    snapshots:
+      v0-2026-05-08-section-one:  {provenance: unknown, usable: false}
+      v1-2026-05-08-section-two:  {provenance: unknown, usable: false}
+      v2-2026-05-09-loop-2-close: {provenance: unknown, usable: false}
+      v2-2026-05-09-the-bloom:    {provenance: unknown, usable: false}
+    published: {provenance: unknown, usable: false}
+
+  11-05-2026_Tamagotchi:
+    format: prose
+    note: "jhave: all ambiguous, probably machinic. Final html = md deletions, not human."
+    snapshots:
+      v0-2026-05-11-bergen-departure: {provenance: machine, source: jhave}
+      v1-2026-05-11-the-magnet:       {provenance: machine, source: jhave}
+      v2-2026-05-11-phra-khanong:     {provenance: machine, source: jhave}
+      v3-2026-05-11-limbo:            {provenance: machine, source: jhave}
+      v4-2026-05-11-recalibration:    {provenance: machine, source: jhave}
+    published: {provenance: machine, usable: false, reason: "md deletions only, not a human edit"}
+
+  12-06-2026_Post_Everything:
+    format: prose
+    note: "jhave: ALL human edits; html cosmetic only"
+    snapshots:
+      v1-2026-06-13-first-scene-human-rewrite: {provenance: human,   source: jhave}
+      v2-2026-06-13-scene-3-draft:             {provenance: machine, source: jhave}
+      v3-2026-06-13-scene-3-human-edits:       {provenance: human,   source: jhave}
+      v4-2026-06-13-scene-4-draft:             {provenance: machine, source: jhave}
+      v5-2026-06-13-scene-4-human-edits:       {provenance: human,   source: jhave}
+      v6-2026-06-13-scene-5-human-edits:       {provenance: human,   source: jhave}
+      v7-2026-06-13-all-scenes-human-edits:    {provenance: human,   source: jhave}
+    published: {provenance: human, usable: false, reason: "cosmetic layout only"}
+
+  15-05-2026_The_Author_Was_Already_Dead:
+    format: prose
+    note: "jhave: only one edit, of the html, human"
+    snapshots:
+      v1-2026-05-15-arrival:         {provenance: machine, source: jhave}
+      v2-2026-05-15-character-frame: {provenance: machine, source: jhave}
+    published: {provenance: human, usable: true, source: jhave}
+
+  15-06-2026_TheCompulsionLoop:
+    format: prose
+    note: "jhave: human edits in the mds; discard html (cosmetic layout only)"
+    snapshots:
+      v0-2026-06-15-the-interval: {provenance: machine, source: jhave}
+      v1-2026-06-16-the-curve:    {provenance: human,   source: jhave}
+      v2-2026-06-16-the-asset:    {provenance: human,   source: jhave}
+    published: {provenance: human, usable: false, reason: "cosmetic layout only"}
+
+  20-06-2026_Project_A-0:
+    format: prose
+    usable: false
+    note: "jhave: style is a total anomaly — EXCLUDE FROM DATASET"
+
+  20-07-2026_Open_Loops:
+    format: prose
+    note: >
+      jhave: human at sentences 70, 73, 77, 81, 87, 91 of the draft->published diff.
+      Remainder unchecked. Only one snapshot exists, so published is the only pair.
+    snapshots:
+      v1-2026-07-21-auto-run: {provenance: machine, source: name-marker}
+    published:
+      provenance: human
+      usable: true
+      source: jhave
+      confirmed_spans: [70, 73, 77, 81, 87, 91]
+      partial: true
+
+  25-06-2026_Crepuscular:
+    format: prose
+    pair_source: git-history          # read from branch SHAs; files NOT in this tree
+    note: >
+      jhave: clearly human-edited by git author; added to repo and to corpus, not
+      kept separate. Provenance here is fully mechanical — every commit is
+      separated by git author, Claude vs jhave, with no naming convention to
+      interpret. jhave's ten commits all carry the GitHub web editor default
+      message "Update <file>.md". Cleanest provenance in the corpus.
+      Yields 257 edited + 171 cut + 132 added = 560 pairs.
+      Spot-checked genuine, e.g. "the part of *him* that did the wearing"
+      -> "the part of *him* or *her* that did the wearing".
+      Source branch claude/life-game-awakening-story-cbc1kj, unmerged and
+      unpublished. Story files are deliberately NOT copied into this tree —
+      jhave asked that only the ledger entry be added. Extraction reads
+      before-and-after states directly from the SHAs below via
+      `git show <sha>:<path>`, which resolves as long as the remote branch ref
+      exists. The extractor must fetch that branch before running.
+    machine_commits:
+      - {sha: 17a3936, note: AUTO_MODE five-act origin}
+      - {sha: 00c685d, note: v1 propagate dialect to Acts 1-4}
+      - {sha: 7260859, note: v2 codify dialect, propagate Acts 2-4}
+      - {sha: 065a9b9, note: v3 revise Acts 3-4}
+      - {sha: eeb2ece, note: v4 complete rewrite all 5 acts, model: fable-5}
+    human_commits:
+      - {sha: 291a504, file: 0-character-creation.md, date: 2026-06-25}
+      - {sha: d94f8ed, file: 1-the-casual-hack.md,    date: 2026-06-25}
+      - {sha: a04115b, file: 1-the-casual-hack.md,    date: 2026-06-25}
+      - {sha: a82a1fe, file: 2-the-branch-trails.md,  date: 2026-06-25}
+      - {sha: 96a4796, file: 0-character-creation.md, date: 2026-07-02}
+      - {sha: d3cf521, file: 1-the-casual-hack.md,    date: 2026-07-02}
+      - {sha: 9d70727, file: 2-the-branch-trails.md,  date: 2026-07-02}
+      - {sha: fdeff0b, file: 3-edits.md,              date: 2026-07-02}
+      - {sha: 73c8e18, file: 4-crepuscular.md,        date: 2026-07-02}
+      - {sha: cd0380f, file: 4-crepuscular.md,        date: 2026-07-02}
+    published: {provenance: none, usable: false, reason: never built or published}
+
+  26-06-2026_The_First_Water_Molecule:
+    format: prose
+    pair_source: git-history          # NOT versions/ — see note
+    note: >
+      jhave: ALL human, because at this date he edited machine-generated files
+      in place and committed, rather than snapshotting the machine state first.
+      The versions/ tree therefore holds only post-edit states and yields zero
+      pairs. RESOLVED via git: six commits carry "human-edit" in the message,
+      and each commit's parent is the machine state. Yields 100 substitutions
+      plus 74 insert/delete = 174 pairs. Spot-checked genuine, e.g.
+      "The hydrogen pressed." -> "The hydrogen pressurized."
+    git_commits:
+      - {sha: 66a1e79, file: 0-arising.md,      subs: 5}
+      - {sha: fb14970, file: 1-made-here.md,    subs: 28}
+      - {sha: 8bcc0fe, file: 2-permeation.md,   subs: 24}
+      - {sha: ea8b147, file: 3-synchrony.md,    subs: 4}
+      - {sha: 2f12525, file: 3-synchrony.md,    subs: 15}
+      - {sha: 49fdc6a, file: 4-dissipation.md,  subs: 24}
+    snapshots:
+      v1-2026-06-26-human-edit-and-new-direction: {provenance: human, source: jhave}
+      v2-2026-06-26-densified-voice:              {provenance: human, source: jhave}
+      v3-2026-06-26-dissolution:                  {provenance: human, source: jhave}
+      v4-2026-06-26-luminous-synchrony:           {provenance: human, source: jhave}
+      v5-2026-06-26-final-dissipation:            {provenance: human, source: jhave}
+    published: {provenance: unknown, usable: false, reason: "not specified by jhave"}
+
+  29-05-2026_Smorky:
+    format: script
+    usable: false
+    note: "jhave: anomaly, do not use. Also screenplay format."
+
+  30-07-2026_Interim_Edge:
+    format: prose
+    note: >
+      jhave: all human edits in the mds; discard html (cosmetic).
+      v4-register-rewrite RESOLVED as machine — jhave accepted 2026-08-06.
+      Corroborated independently by commit 2fda8cf, "Rewrite Interim Edge
+      §2-§6 to jhave's §1 register", which is the model performing the rewrite.
+      No change to yield: v4 is last in sequence, so it opens no new pair.
+    snapshots:
+      v1-2026-07-30-automode-first-pass: {provenance: machine, source: name-marker}
+      v2-2026-07-30-tell-scan:           {provenance: machine, source: name-marker}
+      v3-2026-07-30-jhave-section1:      {provenance: human,   source: name-marker}
+      v4-2026-07-30-register-rewrite:    {provenance: machine, source: jhave,
+                                          corroborated_by: 2fda8cf}
+    published: {provenance: human, usable: false, reason: "cosmetic layout only"}
+
+# Why nothing is segregated
+#   Every pair carries `story`, and `machine_model` where known. Crepuscular's
+#   2 July pass edits a Fable 5 rewrite rather than AUTO_MODE output, so its
+#   displacement has a different origin model. Recording that per pair lets
+#   Step 2 test whether it matters, which is strictly better than holding the
+#   story out and never finding out.
+
+# Global filters confirmed by jhave
+filters:
+  drop_identical_spans: true   # before == after after whitespace normalisation
+                               # measured: 24 of 776 spans (3.1%) carry no signal
+  published_substitutions_only: true
+
+# OPEN — not in the corpus, awaiting jhave
+open_questions:
+  github_web_editor_signal:
+    status: newly-identified
+    finding: >
+      Commit AUTHOR plus message pattern is a stronger provenance signal than
+      anything used so far. 25 draft commits across all branches match
+      "^Update <file>.md", the GitHub web editor's default message, and all 25
+      are authored by jhave. This is the practice jhave described adopting:
+      editing on GitHub and committing. Author alone is NOT sufficient — 64 of 79
+      draft commits are authored by jhave, because Claude Code sessions commit
+      under his identity too. The message pattern is what separates them.
+    distribution:
+      25-06-2026_Crepuscular: 10        # unmerged branch
+      26-06-2026_The_First_Water_Molecule: 6   # already captured
+      20-07-2026_Open_Loops: 4          # NOT yet captured, only published diff used
+      30-07-2026_Interim_Edge: 1
+      25-07-2026_Devora: 1              # story not in corpus
+      09-05-2026_Slime: 1               # jhave marked this story ambiguous
+      08-07-2026_Tina_Sinclair: 1       # story not in corpus
+    decision_needed: >
+      Four sources here are unused: Open_Loops web edits, Devora, Tina_Sinclair,
+      and one confirmed hand edit in Slime despite the story being excluded.
+
+  other_unmerged_stories:
+    status: checked-no-yield
+    detail: >
+      22-05-2026_Mature_Water (claude/recent-unfinished-story-CG1N8) and
+      31-07-2026_Alpha-Gaia (claude/alpha-gaia-story) are also absent from main.
+      Neither has any web-editor commit, so neither yields pairs.

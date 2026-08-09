@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Step 1 — Extractor: review plan</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+background:#fcfcfc;color:#111;line-height:1.55;padding:2.5rem 1.5rem;max-width:860px;margin:0 auto;
+-webkit-font-smoothing:antialiased}
+h1{font-size:1.6rem;font-weight:800;margin-bottom:.2rem;letter-spacing:-.02em}
+.meta{color:#777;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:1.8rem}
+h2{font-size:1.15rem;font-weight:700;margin-top:2.4rem;margin-bottom:.7rem;
+border-bottom:1px solid #e0e0d8;padding-bottom:.3rem}
+h3{font-size:1rem;font-weight:700;margin-top:1.5rem;margin-bottom:.4rem}
+p{margin-bottom:.9rem}
+a{color:#0366d6;text-decoration:none}a:hover{text-decoration:underline}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.85em;
+background:#f2f2ee;padding:.1em .35em;border-radius:3px}
+table{border-collapse:collapse;width:100%;font-size:.85rem;margin-bottom:1.2rem}
+th,td{border:1px solid #e0e0d8;padding:.4rem .55rem;text-align:left;vertical-align:top}
+th{background:#f5f5f0;font-weight:700}
+.num{text-align:right;color:#666;white-space:nowrap}
+.wrap{overflow-x:auto}
+.status{background:#f5f5f0;border-left:3px solid #999;padding:.9rem 1.1rem;margin:1.2rem 0}
+.status div{margin:.25rem 0}
+.block{background:#fff8e6;border-left:3px solid #d99a00;padding:.9rem 1.1rem;margin:1.2rem 0}
+.done{color:#2a7d2a;font-weight:700}.now{color:#d99a00;font-weight:700}.wait{color:#999}
+ol.steps{padding-left:1.3rem}ol.steps>li{margin-bottom:.75rem}
+.st{background:#fafaf7;font-weight:600;font-size:.8rem;white-space:nowrap}
+.why{color:#777;font-size:.8rem}
+.pick{white-space:nowrap;color:#0366d6;font-size:.8rem}
+tr.amb td{background:#fffbf0}
+.k{font-size:.85rem;color:#555}
+</style>
+</head>
+<body>
+
+<h1>Step 1 — Extractor</h1>
+<div class="meta">Review plan &nbsp;|&nbsp; 5 August 2026 &nbsp;|&nbsp; Narracode</div>
+
+<div class="status">
+<div><span class="done">DECIDED</span> — no orchestration, no LLM quality judge, no fine-tuning, no pre-edit smoothing pass.</div>
+<div><span class="done">WRITTEN</span> — six substep briefs, all committed.</div>
+<div><span class="now">START NOW</span> — 1.1 (survey) and 1.3 (segmentation) have no dependencies.</div>
+<div><span class="now">THEN YOU</span> — ~40 snapshots need a provenance decision. Run 1.1 first so the list is authoritative.</div>
+</div>
+
+<h2>The five steps</h2>
+<ol class="steps">
+<li><strong>Build the extractor</strong> — <span class="now">current</span>. Six substeps below. Half a day once unblocked.</li>
+<li><strong>Run the test</strong> <span class="wait">— gates everything.</span> Compute six numbers before and after each edit, subtract, average. If your edits point the same way, continue. If they scatter, stop.</li>
+<li><strong>Retrieval into <code>pre_draft</code></strong> <span class="wait">— the replacement for fine-tuning.</span></li>
+<li><strong>Event trigger</strong> <span class="wait">— on commit, not a cron. No LLM anywhere in the loop.</span></li>
+<li><strong>Mechanical micro-pass</strong> <span class="wait">— optional, last, survival &ge; 0.9 only.</span></li>
+</ol>
+
+<h2>Substeps of Step 1</h2>
+<div class="wrap">
+<table>
+<tr><th>#</th><th>substep</th><th>model</th><th>brief</th><th>status</th></tr>
+<tr><td>1.1</td><td>Corpus survey</td><td>Opus 4.6</td><td><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/step1-extractor/1.1-corpus-survey.md" target="_blank">1.1-corpus-survey.md</a></td><td><span class="now">start now</span></td></tr>
+<tr><td>1.2</td><td>Provenance ledger</td><td>Opus 4.6 <em>+ you</em></td><td><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/step1-extractor/1.2-provenance-ledger.md" target="_blank">1.2-provenance-ledger.md</a></td><td>after 1.1 &mdash; <span class="now">needs you</span></td></tr>
+<tr><td>1.3</td><td>Sentence segmentation</td><td>Opus 4.6</td><td><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/step1-extractor/1.3-sentence-segmentation.md" target="_blank">1.3-sentence-segmentation.md</a></td><td><span class="now">start now</span></td></tr>
+<tr><td>1.4</td><td>Alignment</td><td>Sonnet 4.6</td><td><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/step1-extractor/1.4-alignment.md" target="_blank">1.4-alignment.md</a></td><td>after 1.2, 1.3</td></tr>
+<tr><td>1.5</td><td>Schema &amp; emit</td><td>Sonnet 4.6</td><td><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/step1-extractor/1.5-schema-and-emit.md" target="_blank">1.5-schema-and-emit.md</a></td><td>after 1.4</td></tr>
+<tr><td>1.6</td><td>Validation</td><td>Opus 4.6</td><td><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/step1-extractor/1.6-validation.md" target="_blank">1.6-validation.md</a></td><td>gate to Step 2</td></tr>
+</table>
+</div>
+<p class="k"><strong>Why Opus on 1.1, 1.2, 1.6:</strong> the code is ~150 lines of standard library. The risk is a plausible wrong answer on messy data — "847 pairs extracted" when 300 came from machine-to-machine transitions. That does not crash; it surfaces as a displacement vector pointing nowhere, and Step 2 then fails for the wrong reason. Sonnet on 1.4 and 1.5, where the spec is exact and errors are loud.</p>
+
+<h2>What the corpus actually contains</h2>
+<div class="wrap">
+<table>
+<tr><th>category</th><th>count</th><th>usable?</th></tr>
+<tr><td>Name says human (<code>human</code>, <code>jhave</code>, <code>user</code>)</td><td class="num">11</td><td>yes — auto</td></tr>
+<tr><td>Name names an agent (<code>automode</code>, <code>auto-run</code>, <code>tell-scan</code>)</td><td class="num">4</td><td>yes — auto</td></tr>
+<tr><td><strong>Name says only what was done</strong> (<code>initial-draft</code>, <code>style-revision</code>, <code>densified-voice</code>)</td><td class="num">5</td><td><span class="now">needs you</span></td></tr>
+<tr><td><strong>No provenance term in name</strong></td><td class="num">29</td><td><span class="now">needs you</span></td></tr>
+<tr><td><strong>Name describes an adjacent state</strong> (<code>pre-</code>, <code>before-</code>, <code>post-</code>)</td><td class="num">6</td><td><span class="now">needs you</span></td></tr>
+<tr><td>Directory with no <code>drafts/</code> (metadata only)</td><td class="num">21</td><td>no — excluded</td></tr>
+<tr><td>Loose <code>.md</code> backup file, not a directory</td><td class="num">3</td><td>no — excluded</td></tr>
+<tr><td><strong>Total entries under <code>versions/</code></strong></td><td class="num">79</td><td></td></tr>
+</table>
+</div>
+<p><strong>Two corrections.</strong> First: I said provenance was readable from directory names and extraction could be fully automatic. That came from <em>Interim Edge</em> alone and does not hold. Second: the scan behind the table below auto-labelled nine snapshots as machine on names like <code>initial-draft</code>, <code>style-revision</code> and <code>densified-voice</code>. Those name a <em>stylistic operation</em>, not an agent &mdash; a first draft or a register rewrite can be either of you. Only four of the nine were safe. So the real decision count is about <strong>40</strong>, not 35, and <strong>1.1 should run before you answer</strong> so the list is authoritative rather than my approximation.</p>
+
+<div class="block">
+<h3>Action required — ~40 provenance decisions (preview)</h3>
+<p><strong>This is a preview, not the final list.</strong> It shows 35 rows from an approximate scan; 1.1 will produce the authoritative version with about five more. Run 1.1 first, then answer once.</p><p>For each row: was this snapshot produced by <strong>you</strong> or by the <strong>model</strong>? Click the snapshot name to see its drafts. Rows shaded yellow are the <code>pre-</code>/<code>before-</code>/<code>post-</code> cases — for those the question is also <em>is the human edit in this snapshot, or the next one?</em></p>
+<p class="k">Why it can't be automated: guessing inverts a displacement vector, and Step 2 is the average of those vectors. Reading the prose to decide is circular — telling human from machine prose is exactly what this project is trying to learn.</p>
+</div>
+
+<div class="wrap">
+<table>
+<tr><th>story</th><th>snapshot</th><th>why unclear</th><th>drafts</th><th>words</th><th>your call</th></tr>
+<tr class="amb"><td rowspan="3" class="st">07-06-2026_Concerning_Rights_and_Clauses</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v0-2026-06-07-pre-cadence-edit" target="_blank"><code>v0-2026-06-07-pre-cadence-edit</code></a></td><td class="why">name describes an adjacent state</td><td class="num">2</td><td class="num">1,379</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v1-2026-06-07-cadence-edit-a" target="_blank"><code>v1-2026-06-07-cadence-edit-a</code></a></td><td class="why">no provenance term in name</td><td class="num">3</td><td class="num">1,674</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr class="amb"><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v2-2026-06-08-before-human-style-propagation" target="_blank"><code>v2-2026-06-08-before-human-style-propagation</code></a></td><td class="why">name describes an adjacent state</td><td class="num">7</td><td class="num">4,030</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td rowspan="4" class="st">09-05-2026_Slime</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/09-05-2026_Slime/versions/v0-2026-05-08-section-one" target="_blank"><code>v0-2026-05-08-section-one</code></a></td><td class="why">no provenance term in name</td><td class="num">1</td><td class="num">812</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/09-05-2026_Slime/versions/v1-2026-05-08-section-two" target="_blank"><code>v1-2026-05-08-section-two</code></a></td><td class="why">no provenance term in name</td><td class="num">2</td><td class="num">1,750</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/09-05-2026_Slime/versions/v2-2026-05-09-loop-2-close" target="_blank"><code>v2-2026-05-09-loop-2-close</code></a></td><td class="why">no provenance term in name</td><td class="num">1</td><td class="num">1,217</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/09-05-2026_Slime/versions/v2-2026-05-09-the-bloom" target="_blank"><code>v2-2026-05-09-the-bloom</code></a></td><td class="why">no provenance term in name</td><td class="num">3</td><td class="num">2,976</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td rowspan="5" class="st">11-05-2026_Tamagotchi</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/11-05-2026_Tamagotchi/versions/v0-2026-05-11-bergen-departure" target="_blank"><code>v0-2026-05-11-bergen-departure</code></a></td><td class="why">no provenance term in name</td><td class="num">1</td><td class="num">2,567</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/11-05-2026_Tamagotchi/versions/v1-2026-05-11-the-magnet" target="_blank"><code>v1-2026-05-11-the-magnet</code></a></td><td class="why">no provenance term in name</td><td class="num">2</td><td class="num">5,498</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/11-05-2026_Tamagotchi/versions/v2-2026-05-11-phra-khanong" target="_blank"><code>v2-2026-05-11-phra-khanong</code></a></td><td class="why">no provenance term in name</td><td class="num">3</td><td class="num">9,302</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/11-05-2026_Tamagotchi/versions/v3-2026-05-11-limbo" target="_blank"><code>v3-2026-05-11-limbo</code></a></td><td class="why">no provenance term in name</td><td class="num">4</td><td class="num">13,694</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/11-05-2026_Tamagotchi/versions/v4-2026-05-11-recalibration" target="_blank"><code>v4-2026-05-11-recalibration</code></a></td><td class="why">no provenance term in name</td><td class="num">5</td><td class="num">18,242</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td rowspan="2" class="st">15-05-2026_The_Author_Was_Already_Dead</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/15-05-2026_The_Author_Was_Already_Dead/versions/v1-2026-05-15-arrival" target="_blank"><code>v1-2026-05-15-arrival</code></a></td><td class="why">no provenance term in name</td><td class="num">1</td><td class="num">819</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/15-05-2026_The_Author_Was_Already_Dead/versions/v2-2026-05-15-character-frame" target="_blank"><code>v2-2026-05-15-character-frame</code></a></td><td class="why">no provenance term in name</td><td class="num">1</td><td class="num">819</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td rowspan="3" class="st">15-06-2026_TheCompulsionLoop</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/15-06-2026_TheCompulsionLoop/versions/v0-2026-06-15-the-interval" target="_blank"><code>v0-2026-06-15-the-interval</code></a></td><td class="why">no provenance term in name</td><td class="num">1</td><td class="num">817</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/15-06-2026_TheCompulsionLoop/versions/v1-2026-06-16-the-curve" target="_blank"><code>v1-2026-06-16-the-curve</code></a></td><td class="why">no provenance term in name</td><td class="num">2</td><td class="num">1,623</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/15-06-2026_TheCompulsionLoop/versions/v2-2026-06-16-the-asset" target="_blank"><code>v2-2026-06-16-the-asset</code></a></td><td class="why">no provenance term in name</td><td class="num">3</td><td class="num">3,011</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td rowspan="10" class="st">20-06-2026_Project_A-0</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v1-2026-06-20-tactile-edits" target="_blank"><code>v1-2026-06-20-tactile-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">3</td><td class="num">110</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v2-2026-06-20-temporal-edits" target="_blank"><code>v2-2026-06-20-temporal-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">4</td><td class="num">151</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v3-2026-06-20-resonance-edits" target="_blank"><code>v3-2026-06-20-resonance-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">5</td><td class="num">192</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v4-2026-06-20-identity-edits" target="_blank"><code>v4-2026-06-20-identity-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">6</td><td class="num">234</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v5-2026-06-20-shards-edits" target="_blank"><code>v5-2026-06-20-shards-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">7</td><td class="num">272</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v6-2026-06-20-perimeter-edits" target="_blank"><code>v6-2026-06-20-perimeter-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">8</td><td class="num">332</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v7-2026-06-20-theory-edits" target="_blank"><code>v7-2026-06-20-theory-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">9</td><td class="num">387</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v8-2026-06-20-act1-refinements" target="_blank"><code>v8-2026-06-20-act1-refinements</code></a></td><td class="why">no provenance term in name</td><td class="num">20</td><td class="num">1,109</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v8-2026-06-20-satiety-edits" target="_blank"><code>v8-2026-06-20-satiety-edits</code></a></td><td class="why">no provenance term in name</td><td class="num">10</td><td class="num">423</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr class="amb"><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/versions/v9-2026-06-26-before-extrap" target="_blank"><code>v9-2026-06-26-before-extrap</code></a></td><td class="why">name describes an adjacent state</td><td class="num">5</td><td class="num">1,018</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td rowspan="3" class="st">26-06-2026_The_First_Water_Molecule</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/26-06-2026_The_First_Water_Molecule/versions/v3-2026-06-26-dissolution" target="_blank"><code>v3-2026-06-26-dissolution</code></a></td><td class="why">no provenance term in name</td><td class="num">5</td><td class="num">3,771</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/26-06-2026_The_First_Water_Molecule/versions/v4-2026-06-26-luminous-synchrony" target="_blank"><code>v4-2026-06-26-luminous-synchrony</code></a></td><td class="why">no provenance term in name</td><td class="num">5</td><td class="num">3,550</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/26-06-2026_The_First_Water_Molecule/versions/v5-2026-06-26-final-dissipation" target="_blank"><code>v5-2026-06-26-final-dissipation</code></a></td><td class="why">no provenance term in name</td><td class="num">5</td><td class="num">3,431</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr class="amb"><td rowspan="5" class="st">29-05-2026_Smorky</td><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/29-05-2026_Smorky/versions/v1-2026-05-29-pre-bubble-revision" target="_blank"><code>v1-2026-05-29-pre-bubble-revision</code></a></td><td class="why">name describes an adjacent state</td><td class="num">5</td><td class="num">8,109</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr class="amb"><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/29-05-2026_Smorky/versions/v2-2026-05-29-bubble-baseline-pre-gemini" target="_blank"><code>v2-2026-05-29-bubble-baseline-pre-gemini</code></a></td><td class="why">name describes an adjacent state</td><td class="num">5</td><td class="num">8,963</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr class="amb"><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/29-05-2026_Smorky/versions/v3-2026-05-29-post-gemini-pre-sonnet" target="_blank"><code>v3-2026-05-29-post-gemini-pre-sonnet</code></a></td><td class="why">name describes an adjacent state</td><td class="num">5</td><td class="num">8,593</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/29-05-2026_Smorky/versions/v3-2026-05-30-rewrite-preparation" target="_blank"><code>v3-2026-05-30-rewrite-preparation</code></a></td><td class="why">no provenance term in name</td><td class="num">5</td><td class="num">8,947</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr>
+<tr><td><a href="https://github.com/jhave/narracode/tree/claude/narracode-harness-qualitative-research-report/Stories%20written%20with%20Narracode/29-05-2026_Smorky/versions/v4-2026-05-29-s1-rewrite-ep0" target="_blank"><code>v4-2026-05-29-s1-rewrite-ep0</code></a></td><td class="why">no provenance term in name</td><td class="num">5</td><td class="num">8,593</td><td class="pick">machine &nbsp;/&nbsp; human</td></tr></table>
+</div>
+
+<p class="k"><strong>Two worth a second look.</strong> <code>Project_A-0</code> snapshots run 110–430 words — far smaller than the others; they may be partial increments rather than full drafts. <code>Smorky/v3-2026-05-29-post-gemini-pre-sonnet</code> reads as a model-to-model handoff, which would make it machine on both sides and yield no pair.</p>
+
+<h2>Background documents</h2>
+<ul>
+<li><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/2026-08-05_next-steps.md" target="_blank"><code>2026-08-05_next-steps.md</code></a> — the five steps, plain terms, with the decisions this session settled.</li>
+<li><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/2026-08-05_cadence-displacement-implementation.md" target="_blank"><code>2026-08-05_cadence-displacement-implementation.md</code></a> — full technical spec: the six-dimension vector, why not fine-tuning, why not a smoothing pass.</li>
+<li><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/step1-extractor/README.md" target="_blank"><code>step1-extractor/README.md</code></a> — model table and standing instructions for all six substeps.</li>
+<li><a href="https://github.com/jhave/narracode/blob/claude/narracode-harness-qualitative-research-report/plans/2026-07-30_ai-tells-benchmark.md" target="_blank"><code>2026-07-30_ai-tells-benchmark.md</code></a> — the benchmark design this follows from.</li>
+</ul>
+
+<h2>Next action</h2>
+<p><strong>Run 1.1 and 1.3 now</strong> &mdash; both have no dependencies and can go in parallel. 1.1 produces the authoritative decision list; when it lands, mark it in one pass and 1.2 writes the ledger. Everything after that is mechanical until the Step 2 test, which is the go/no-go.</p>
+
+</body>
+</html>

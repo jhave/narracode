@@ -19,6 +19,11 @@ Narracode is not just a tool; it is a philosophical statement. It is an argument
 
 It emerged from the realization that the intrinsic embodied complexity of nuanced narrative might become computationally tractable by recursively entwining a LLM with a symbolic harness that is somehow equivalent to Claude Code, specifically re-purposed for narrative literature.  
 
+## Research updates
+
+- **[What the Edits Know](https://jhave.github.io/narracode/2026-08-09_what-the-edits-know.html)** — 9 Aug 2026. What 1,234 human edits to machine drafts reveal about literary revision, and what they don't.
+- **[Dimensionality Reduction in AI Literature Research](https://glia.ca/2026/dimensionality-reduction/)** — Aug 2026. How stylometric mapping shows AI prose clustering into narrow sub-manifolds of the human literary space.
+
 ## Publishing workflow & branch hygiene
 
 Stories are developed on short-lived branches and published to `main`, which deploys to the [live site](https://jhave.github.io/narracode/) via GitHub Pages.

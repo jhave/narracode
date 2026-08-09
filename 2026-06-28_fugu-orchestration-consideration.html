@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Fugu-style Orchestration will not improve Narracode</title>
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfcfc;
+            color: #111;
+            line-height: 1.65;
+            padding: 3rem 2rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .top-logo {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .top-logo img {
+            width: 240px;
+            max-width: 100%;
+        }
+
+        h1.title {
+            font-size: 2.1rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 0.4rem;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+
+        h2.subtitle {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+            font-style: italic;
+        }
+
+        .site-meta {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-bottom: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        h3 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 2.8rem;
+            margin-bottom: 1rem;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: #1a1a1a;
+        }
+
+        p.lead {
+            font-size: 1.12rem;
+            color: var(--accent);
+        }
+
+        blockquote {
+            margin: 1.5rem 0;
+            padding: 0.4rem 0 0.4rem 1.4rem;
+            border-left: 3px solid #ccc;
+            color: var(--accent);
+            font-style: italic;
+        }
+
+        em.term {
+            font-style: italic;
+            color: #000;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-logo {
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo img {
+            width: 140px;
+            opacity: 0.9;
+        }
+
+        .footer-logo img:hover {
+            opacity: 1;
+        }
+
+        .bio,
+        .funding,
+        .related,
+        .license {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-top: 2.5rem;
+        }
+
+        .license img {
+            height: 1.1em;
+            vertical-align: -0.15em;
+            margin-left: 2px;
+        }
+
+        .back-link {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-logo">
+        <a href="index.html"><img src="logo/narracode.png" alt="Narracode"></a>
+    </div>
+
+    <h1 class="title">Why Fugu-style Orchestration Enhancements to Narracode will not improve it</h1>
+    <h2 class="subtitle">A consideration</h2>
+    <div class="site-meta">June 28, 2026 &nbsp;|&nbsp; Jhave &nbsp;|&nbsp; with Opus 4.8</div>
+
+    <p class="lead">On 22 June 2026, Sakana AI released <a href="https://arxiv.org/abs/2606.21228" target="_blank">Fugu</a>
+        (arXiv:2606.21228) — a learned orchestrator model that wraps a swappable pool of frontier models behind one
+        API, casts them into <em class="term">Thinker</em>, <em class="term">Worker</em> and
+        <em class="term">Verifier</em> roles, and synthesizes their outputs into a single answer. Because Narracode
+        already separates composition into roles, the temptation is obvious: bolt an orchestration layer on top and let
+        a coordinator route each pass to the best model. This page records why we decline. The short version: Fugu is a
+        superb answer to a question Narracode is not asking, and importing it would cost the harness exactly the thing it
+        exists to protect.</p>
+
+    <h3>1. The rhyme is not an opportunity</h3>
+
+    <p>Narracode and Fugu share a shape — a multi-role scaffold over a model — and the roles even line up: the
+        Initiator/Structural pass <em>thinks</em>, the Compositional pass <em>works</em>, the Reflexive pass
+        <em>verifies</em>. Narracode's <code>AUTO_MODE</code> already does Fugu's headline trick of assigning a
+        high-critical-ceiling model to architecture and critique and a fluent model to prose. So on the one axis where
+        Fugu is celebrated, Narracode independently arrived at the same asymmetry years of model-churn ago.</p>
+
+    <p>What Fugu adds beyond that — learned coordination, dynamic per-request scaffolds, and output
+        <em>synthesis</em> — are precisely the moves Narracode must refuse. Fugu is trained to maximize a
+        <em>verifiable</em> objective (it scores against SWE-Bench, Terminal-Bench, GPQA — all gradeable). Literature
+        has no such objective. Narracode exists because the prose that scores highest on any automatic or consensus
+        metric is the failure mode: competent, fluent, faintly sentimental writing that reads like a thousand models
+        writing about the same thing. Synthesizing three frontier models toward one coherent answer is averaging, and
+        averaging is the median collapse the whole harness is built to interrupt. We already have the only part of Fugu
+        worth having.</p>
+
+    <h3>2. Routing tables rot</h3>
+
+    <p>The mildest version of the proposal was a declared routing table — bind the Thinker role to one model, the
+        Worker to another. Even this we now decline, because a table that names models is a table that is wrong within a
+        season. Models change every few months. Narracode is used across providers — with Antigravity and Gemini, with
+        OpenAI's Codex, and inside the Anthropic ecosystem — and a hard binding to <code>Sonnet 4.6</code> or
+        <code>Opus 4.8</code> becomes a maintenance liability the moment the next model ships.</p>
+
+    <p>If anything is durable, it is the <em>role description</em> — "the Worker wants prose temperament; the Verifier
+        wants the highest critical ceiling you can reach today" — stated in provider-agnostic language and left for the
+        human to satisfy with whatever model is best this month. That is not orchestration. It is a sentence in
+        <code>POETICS.md</code>. Building machinery to enforce a binding that should stay fluid is negative work.</p>
+
+    <h3>3. Model choice is an aesthetic judgment, not a reward function</h3>
+
+    <p>Consider how the current assignment was actually reached. Sonnet 4.6 became the Compositional model not because a
+        benchmark crowned it but because its prose was <em>better</em> — arguably a consequence of the dissatisfaction
+        its own system card expressed, which seems to have made it a more interesting writer than the analytically
+        stronger 4.8. Fable may well be a better writer than both. GPT Sol or Terra may supersede everything next
+        quarter. These judgments are real, they matter, and they are <em>irreducibly subjective</em>. They are made by a
+        human reading sentences and feeling whether they have earned themselves.</p>
+
+    <blockquote>There is no automatic "this paragraph is better than that paragraph." There is only the prompter's
+        silent micro-edit in the margin.</blockquote>
+
+    <p>This is the wall Fugu cannot climb into our domain. Fugu's whole training paradigm — evolutionary strategies, RL
+        against end-task reward — presupposes a computable signal. Literary quality is not one, and the moment you
+        approximate it with a frontier-teacher or a consensus score, you have re-installed the median. So the one
+        decision Fugu most wants to <em>automate</em> — which model, in which role — is the one decision that, here, must
+        stay human. Automating it does not improve Narracode; it removes its judgment.</p>
+
+    <h3>4. Orchestration buys complexity, and complexity is context rot</h3>
+
+    <p>Every layer of coordination has a token cost. The harness is already a sizable document that must sit in context
+        while the model composes; the structural memory grows with the work. Add an orchestration protocol — routing
+        logic, role-handoff conventions, synthesis rules — and the scaffolding starts crowding out the manuscript. As
+        the harness grows, compression and summarization become unavoidable, and compression is lossy in exactly the
+        register that matters: the specific phrasing already on the page, the precise refusal, the motif that must not
+        return yet. <em>Context rot</em> is not a hypothetical; it is the tax on every clever addition. The most
+        load-bearing rule in the entire harness is a <em>negative</em> one — the silence after a draft that forbids the
+        chain into self-critique. Complexity is the opposite of that discipline. The harness improves by subtraction far
+        more often than by addition.</p>
+
+    <h3>5. The platform is already "enhancing" your prompt</h3>
+
+    <p>There is a deeper reason orchestration is redundant. The platforms Narracode runs inside increasingly rewrite and
+        enrich every prompt in the background. This lineage runs back to image generation — DALL·E 3 popularized it in
+        2023 with an automatic prompt-rewriting step that quietly "upsampled" a terse prompt into a florid one before
+        the model ever saw it (Midjourney and others followed). Coding harnesses now do the analogous thing: Claude Code
+        and its kin expand, reframe, and scaffold each request before it reaches the model.</p>
+
+    <p>For literature this background enhancement is not neutral — it is actively adverse. Generic enhancement pulls
+        every prompt toward the well-formed, the conventional, the legible: the statistical center of the training
+        distribution. That is the median Narracode exists to <em>refuse</em>. The value of the harness was never generic
+        scaffolding, which the platform now supplies for free; its value is the specific negative pressure — the
+        Refusals, the burned phrases, the forbidden moves — that no generic enhancer will ever add because no benchmark
+        rewards it. Stacking a bespoke orchestration layer on top of a platform that is already enhancing toward the
+        mean is paying twice to be pulled in the wrong direction.</p>
+
+    <h3>Conclusion: the enhancement is restraint</h3>
+
+    <p>Fugu is excellent engineering for tasks with a gradeable answer. Narracode has no gradeable answer, already
+        embodies Fugu's one transferable insight, and would pay for the rest in brittleness, lost judgment, and context
+        rot. The provider-agnostic, constraint-driven, deliberately thin design is not a stage Narracode has yet to
+        outgrow — it is the design. In a moment when every platform races to enhance, orchestrate, and synthesize, the
+        most literary thing a harness can do is hold its constraints and decline. The enhancement is to not enhance.</p>
+
+    <div class="back-link"><a href="index.html">&larr; Narracode</a></div>
+
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="logo/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>

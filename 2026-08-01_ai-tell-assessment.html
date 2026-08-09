@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI-Tells Review Pass — Narracode report</title>
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfcfc;
+            color: #111;
+            line-height: 1.65;
+            padding: 3rem 2rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .top-logo {
+            text-align: center;
+            margin-bottom: 0.6rem;
+        }
+
+        .top-logo img {
+            width: 220px;
+            max-width: 100%;
+        }
+
+        h1.title {
+            font-size: 2rem;
+            font-weight: 800;
+            line-height: 1.22;
+            margin-bottom: 0.4rem;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+
+        h2.subtitle {
+            font-size: 1.15rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+            font-style: italic;
+        }
+
+        .site-meta {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* ---- prompt fold (as on story indexes) ---- */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 2.9rem;
+            margin-bottom: 0.9rem;
+            letter-spacing: -0.01em;
+        }
+
+        h4 {
+            font-size: 1.02rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 1.9rem;
+            margin-bottom: 0.6rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+
+        p.lead {
+            font-size: 1.1rem;
+            color: var(--accent);
+        }
+
+        blockquote {
+            margin: 1.5rem 0;
+            padding: 0.4rem 0 0.4rem 1.4rem;
+            border-left: 3px solid #ccc;
+            color: var(--accent);
+            font-style: italic;
+        }
+
+        ul,
+        ol {
+            margin-bottom: 1.2rem;
+            padding-left: 1.3rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 0.88em;
+            background: #f2f2ee;
+            padding: 0.1em 0.35em;
+            border-radius: 3px;
+        }
+
+        pre {
+            background: #f5f5f0;
+            border: 1px solid #e4e4dc;
+            border-radius: 4px;
+            padding: 1rem 1.1rem;
+            overflow-x: auto;
+            font-size: 0.85rem;
+            line-height: 1.55;
+            margin-bottom: 1.4rem;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 0.88rem;
+        }
+
+        th,
+        td {
+            border: 1px solid #e0e0d8;
+            padding: 0.55rem 0.7rem;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f5f5f0;
+            font-weight: 700;
+        }
+
+        .callout {
+            background: #f5f5f0;
+            border-left: 3px solid #999;
+            padding: 1rem 1.2rem;
+            margin: 1.6rem 0;
+            font-size: 0.96rem;
+        }
+
+        .callout p:last-child {
+            margin-bottom: 0;
+        }
+
+        .biblio {
+            font-size: 0.88rem;
+            line-height: 1.55;
+        }
+
+        .biblio li {
+            margin-bottom: 0.7rem;
+        }
+
+        .footer-logo {
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo img {
+            width: 140px;
+            opacity: 0.9;
+        }
+
+        .footer-logo img:hover {
+            opacity: 1;
+        }
+
+        .bio,
+        .funding,
+        .related,
+        .license {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .license {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-top: 2.5rem;
+        }
+
+        .license img {
+            height: 1.1em;
+            vertical-align: -0.15em;
+            margin-left: 2px;
+        }
+
+        .back-link {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-logo">
+        <a href="index.html"><img src="logo/narracode.png" alt="Narracode"></a>
+    </div>
+
+    <h1 class="title">Aug 1, 2026: The AI-Tells Review Pass</h1>
+    <h2 class="subtitle">A registry of constructions that identify machine-written prose,<br>and an assessment of what
+        it can and cannot measure.</h2>
+    <div class="site-meta">August 1, 2026<br>Registry and scan design: Claude Opus 5, at jhave's request.<br>All
+        editorial cuts and acceptances: David Jhave Johnston.</div>
+
+    <p class="lead"><a href="https://github.com/jhave/narracode" target="_blank">Narracode</a> is a harness for
+        literary writing: a single Markdown file that instructs a language model how to draft, revise and record
+        state while writing fiction. <br><br>On 30 July 2026 the harness gained a review pass that scans a completed
+        draft for constructions characteristic of unedited model output. This report describes the pass, the registry
+        it reads, the measurements taken so far, and the limits of the method. <br><br>A companion report,
+        <a href="2026-08-03_harnessing-a-qualitative-domain-JHAVEdit.html">Suggestions for Improving Narracode</a>,
+        proposes extensions.</p>
+
+    <h3>1. The problem the pass addresses</h3>
+
+    <p>A language model produces, approximately, the most probable continuation of its input. Prose generated this way
+        carries regularities that a reader can identify as machine-written even when no individual sentence is
+        defective. These regularities are not errors of grammar or fact. They are frequencies: ordinary constructions
+        used more often, or less often, than human writers use them.</p>
+
+    <p>The harness already held two related files. <code>master_poetics.MD</code> records what a project's voice is
+        intended to be. <code>master_phrases_to_avoid.md</code> records clauses cut from a specific story,
+        <em>Dissolution</em>, on the grounds that they editorialise. The tell registry addresses a third category:
+        constructions that are not wrong and that a reader nonetheless registers as synthetic.</p>
+
+    <h4>1.1 How the pass runs</h4>
+
+    <p>The pass operates on <strong>spans</strong> — contiguous stretches of text, usually a phrase or a single
+        sentence. For each located instance it emits one line:</p>
+
+    <pre><code>"quoted span"  ·  CLASS  ·  remedy</code></pre>
+
+    <p>The remedy is a single word, a shorter span, or a deletion. The pass does not rewrite the passage, does not
+        restate the prose back to the author, and does not assign a score. Its output is a list the author accepts or
+        rejects line by line, written to <code>critiques/tells-[draft-name].md</code>. A construction that is doing
+        necessary work in the text remains. The pass is an audit, not a set of prohibitions.</p>
+
+    <h3>2. The registry</h3>
+
+    <p><code>master_ai_tells.md</code> holds seventeen classes. Classes 1 to 3 and 11 to 17 were identified from a
+        single editing pass by the author over §1 of the story <em>Interim Edge</em> on 30 July 2026. The remainder
+        were carried in from earlier projects.</p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>class</th>
+                    <th>description</th>
+                    <th>remedy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Overused object lexicon</td>
+                    <td>Nouns appearing far above their rate in the world: <em>kettle</em>, <em>hum</em>,
+                        <em>shimmer</em>, <em>tapestry</em>, <em>testament</em>, <em>the weight of it</em>, <em>the air
+                        itself</em>. The object performs atmospheric work the text has not established.</td>
+                    <td>Name the surface rather than the appliance.</td></tr>
+                <tr><td>2</td><td>Number-plus-comment</td>
+                    <td>A measurement followed by a clause stating how to regard it. The number supplies specificity;
+                        the comment removes it by supplying the response. <em>Two minutes forty, and he stood there
+                        for all of it.</em></td>
+                    <td>Keep the number or the comment, not both.</td></tr>
+                <tr><td>3</td><td>Clipped affect-verdict</td>
+                    <td>Subject-dropped past-tense sentence reporting the character's approval of what was just
+                        described. <em>Liked the panic.</em></td>
+                    <td>Delete. The description has already done this.</td></tr>
+                <tr><td>4</td><td>Paradox-aphorism / chiasmus opener</td>
+                    <td>Inverted constructions used to open. <em>The end of me is the part I do best.</em></td>
+                    <td>Open with a plain sentence.</td></tr>
+                <tr><td>5</td><td>Reductive <em>which is only X</em></td>
+                    <td>A frame that diminishes the thing it names in order to appear considered. <em>…the queue,
+                        which is only a way of waiting.</em></td>
+                    <td>Delete the clause, keep the noun.</td></tr>
+                <tr><td>6</td><td>Corrective-superiority stance</td>
+                    <td>Narration correcting an implied group: <em>the storytellers</em>, <em>everyone assumes</em>,
+                        <em>what people get wrong</em>. A character being scathing is a separate matter and is
+                        permitted.</td>
+                    <td>Replace correction with inclusion.</td></tr>
+                <tr><td>7</td><td>Value-dichotomy resolution</td>
+                    <td>Better/worse or true/false offered as a conclusion. Dissonance treated as an error to be
+                        resolved rather than a state to be held.</td>
+                    <td>Let both terms stand.</td></tr>
+                <tr><td>8</td><td>The naming clause</td>
+                    <td>Narration stating the mechanism it has just dramatised. <em>…and this was love, conducted
+                        through logistics, and it worked.</em></td>
+                    <td>Cut to the image.</td></tr>
+                <tr><td>9</td><td>Triadic escalation</td>
+                    <td>Three-item list in which the third item is the intended surprise. <em>Coffee, rent, the slow
+                        collapse of the century.</em></td>
+                    <td>Use two items, or four.</td></tr>
+                <tr><td>10</td><td>Em-dash appositive as default joiner</td>
+                    <td>Not prohibited; a low rate is native to this voice. Flagged only when it becomes the
+                        predominant means of joining clauses across a page.</td>
+                    <td>Convert one in three to a full stop or comma.</td></tr>
+                <tr><td>11</td><td>Analogy-simile <em>X, the way Y</em></td>
+                    <td>Explanation by analogy to a generic case. Individually acceptable; collectively a signature.
+                        <strong>Threshold: more than two per 2,000 words.</strong></td>
+                    <td>Keep the two strongest, delete the rest.</td></tr>
+                <tr><td>12</td><td>Confident figure where a refused figure belongs</td>
+                    <td>A metaphor delivered as settled. <em>that last rolling panic.</em></td>
+                    <td>Demote to a rejected candidate and show the refusal.
+                        <strong>Rate cap: 1 per 2,000 words</strong> — see §6.</td></tr>
+                <tr><td>13</td><td>Unanchored noun</td>
+                    <td>An object named without a body to perceive it. <em>Counter.</em></td>
+                    <td>Locate it against the body. <em>Counter where hips meet.</em></td></tr>
+                <tr><td>14</td><td>Narrated emotion</td>
+                    <td>A verb of feeling with a subject attached. <em>Loved her so much for a second his chest did
+                        something medical.</em></td>
+                    <td>Itemise: body-event, name, category, symptom, no verb.</td></tr>
+                <tr><td>15</td><td>Skipped procedure</td>
+                    <td>Cutting from the beginning of a domestic action directly to its result.</td>
+                    <td>Subject-dropped verb chain at full duration.</td></tr>
+                <tr><td>16</td><td>The accurate dull noun</td>
+                    <td><em>A legume</em> is correct about chicory filler and inert. <em>Broccoli</em> is incorrect and
+                        active.</td>
+                    <td>Take the incorrect, more active noun.</td></tr>
+                <tr><td>17</td><td>Explained satire</td>
+                    <td>Glossing an absurdity rather than quoting it.</td>
+                    <td>Quote the source material without comment.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>3. Is there a measurable signature?</h3>
+
+    <p>Yes, and it is narrower than the claim that models write badly. The published findings fall into three layers,
+        in ascending order of usefulness for this application.</p>
+
+    <h4>3.1 Lexical</h4>
+
+    <p>The most studied and the least applicable. Kobak et al. measured vocabulary shift in biomedical abstracts and
+        found affected vocabulary in at least 13.5% of 2024 abstracts, rising to approximately 40% in some
+        subcorpora. This establishes that the signature is real and measurable at corpus scale. It does not transfer
+        to literary prose, because the words concerned — <em>delve</em> and its family — do not occur in this
+        corpus.</p>
+
+    <h4>3.2 Punctuational and structural</h4>
+
+    <p>The relevant finding concerns the em-dash.
+        <a href="https://arxiv.org/html/2603.27006v1" target="_blank"><em>The Last Fingerprint: How Markdown Training
+        Shapes LLM Prose</em></a> (2026) argues that over-use results from Markdown formatting conventions carried
+        into prose during training. Measured rates vary between models from 0.0 to 9.1 occurrences per thousand
+        words. Because the rate is a property of a particular model's fine-tuning rather than of language models in
+        general, the correct registry entry is a target rate, not a prohibition. This is why class 10 is written as a
+        threshold.</p>
+
+    <p>Three drafts of <em>Interim Edge</em> were measured:</p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>draft</th>
+                    <th>words</th>
+                    <th>em-dash per 1,000</th>
+                    <th><code>the way {you, a, one}</code> per 1,000</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>v1 — model output, before editing</td><td>5,555</td><td><strong>5.6</strong></td>
+                    <td><strong>1.3</strong></td></tr>
+                <tr><td>v3 — §1 edited by the author</td><td>5,561</td><td>5.6</td><td>1.3</td></tr>
+                <tr><td>v4 — §2–6 rewritten to match §1</td><td>5,171</td><td><strong>3.7</strong></td>
+                    <td><strong>0.2</strong></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>Two observations. The em-dash rate is mid-range rather than extreme, which corrects an estimate made before the
+        count was run. The <code>the way X</code> rate is the figure that moved, and it moved because the author
+        deleted one instance and the model generalised from that deletion to the rest of the draft. This sequence —
+        one human cut, one generalisation, a measurable change in rate — is the method the registry implements.</p>
+
+    <p>The measurement that is still missing is a fourth column: the same two rates computed over several thousand
+        words of the human authors named in <code>POETICS.md</code>. Without it, 3.7 per thousand is known to be
+        lower than 5.6 but is not known to be correct. §7.3 proposes taking this measurement.</p>
+
+    <h4>3.3 Rhetorical</h4>
+
+    <p>The most actionable layer, because the deviation runs in both directions.
+        <a href="https://arxiv.org/pdf/2512.19908" target="_blank"><em>A Counterfactual LLM-based Framework for
+        Measuring Rhetorical Style</em></a> (2025) reports that model output over-produces the three-part list —
+        independently arrived at as registry class 9 — and under-produces erotema, the rhetorical question.
+        <a href="https://arxiv.org/pdf/2604.19768" target="_blank"><em>Saying More Than They Know</em></a> (2026)
+        reports that models produce genuine hesitancy markers at reasonable rates but performed hesitancy markers at
+        approximately twice the human rate. The consequences of the third finding are addressed in §6.</p>
+
+    <div class="callout">
+        <p>The signature is not a list of prohibited words. It is a <strong>distribution over forms</strong>, some
+            over-produced and some under-produced. A list of prohibitions reduces the over-produced tail. A list of
+            requirements moves the whole distribution. The harness currently has only the first.</p>
+    </div>
+
+    <h3>4. Why this is not a detector</h3>
+
+    <p>Machine-text detection uses three families of method, all with documented failure modes.</p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr><th>family</th><th>method</th><th>failure mode</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Statistical</td>
+                    <td>Perplexity and burstiness. Human text varies sentence length more than machine text.</td>
+                    <td>Each model generation produces higher perplexity and greater variation, so the signal weakens
+                        without any attempt to evade it.</td></tr>
+                <tr><td>Curvature</td>
+                    <td><a href="https://openreview.net/pdf?id=UiAyIILXRd" target="_blank">DetectGPT</a> perturbs the
+                        text and re-scores, exploiting negative curvature in log-probability space.</td>
+                    <td>Requires access to model log-probabilities and is computationally expensive. Adversarial
+                        paraphrase reduces detection from above 70% to approximately 5% at a 1% false-positive rate;
+                        three rounds of paraphrase reduce it to near zero.</td></tr>
+                <tr><td>Watermarking</td>
+                    <td>Bias token selection toward sequences improbable at human frequencies.</td>
+                    <td>Does not survive post-editing or paraphrase — the two operations applied to every draft in
+                        this project.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>All three answer the question <em>was a model involved in producing this text?</em> For this project the answer
+        is known and is yes. The question the harness needs answered is different and easier: <em>does this draft
+        carry the marks of unedited model default?</em> The setting supplies the generator, the prompt, the
+        pre-edit draft, the post-edit draft, and one consistent human judge. That is a supervised problem with
+        complete provenance and a single annotator. Detection research has none of these conditions and is attempting
+        a harder problem.</p>
+
+    <h3>5. The data structure</h3>
+
+    <p>One registry entry per class, in machine-readable form:</p>
+
+    <pre><code>- id: T011
+  class: analogy-simile-x-the-way-y
+  first_seen: 2026-07-30
+  source: scan            # scan | jhave | web:&lt;url&gt;
+  severity: 4             # 1-5, strength of the machine-written impression
+  detector:
+    type: regex
+    pattern: '\b(the way (you|a|an|one)\b)'
+    unit: per_1000_words
+  target_rate: 0.4        # measured on human corpus, never zero
+  observed:
+    - {work: interim-edge, draft: 7-condensed, rate: 1.3, date: 2026-07-30}
+  status: live            # live | retired | contested
+  survival: 0.71          # proportion of flagged spans the author accepted
+  instances:
+    - {work: interim-edge, span: "the way a seam is after strain",
+       remedy: CUT, accepted: true}</code></pre>
+
+    <p>Three fields carry the design.</p>
+
+    <ul>
+        <li><strong><code>detector</code></strong> — without a machine-checkable rule the registry is a style guide.
+            With one, a scan produces counts, and counts are comparable between drafts and against human corpora.</li>
+        <li><strong><code>target_rate</code></strong> — measured on human writing, never zero. A target of zero would
+            remove the construction entirely; human literary prose contains all seventeen at non-zero rates. The
+            relevant question for the three-part list is not whether an author uses it but at what rate.</li>
+        <li><strong><code>survival</code></strong> — the proportion of flagged spans the author accepted. This is the
+            calibration signal. A class with survival below approximately 0.3 is not identifying a machine artefact;
+            it is encoding a preference the author does not hold, and is marked <code>contested</code> and then
+            retired. Without this field the registry can only accumulate.</li>
+    </ul>
+
+    <h3>6. Prioritisation and decay</h3>
+
+    <p>Tells have a limited useful life, for two reasons: models change between generations, and a tell that becomes
+        publicly documented is subsequently trained against. The <em>delve</em> family is close to unusable as a
+        signal for this reason.</p>
+
+    <p>Recency is therefore a decay term rather than a priority in itself:</p>
+
+    <pre><code>priority = severity × liveness × (1 − survival_penalty)
+liveness = exp(−months_since_confirmed / 9)</code></pre>
+
+    <p>The decay clock resets on <em>confirmation</em>, not on entry. A class re-confirmed by a recent cut is current
+        regardless of when it was first recorded. A class not confirmed for a year is archived rather than deleted,
+        in case a later model reintroduces it.</p>
+
+    <h4>6.1 The remedies require the same treatment as the tells</h4>
+
+    <p>The finding on performed hesitancy (§3.3) applies directly to the registry's own corrections. The remedy
+        specified for class 12 — the narration proposing a figure and rejecting it within the sentence, as in
+        <em>(panic? no, calm.)</em> — is structurally an instance of performed hesitancy. Used once it reads as a
+        mind in the act of reconsidering. Used six times in a single work it becomes the most identifiable machine
+        signature in the text, and a worse one than the construction it replaced.</p>
+
+    <p>Every device adopted as a correction therefore receives a detector and a frequency cap on the day it is
+        adopted. Five devices were adopted from the §1 edit of <em>Interim Edge</em>:</p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr><th>device</th><th>source</th><th>cap</th><th>measured, <em>Interim Edge</em> v4</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>parenthetical self-correction</td><td>class 12</td><td>1 per 2,000 words</td>
+                    <td>1 question-form, 1 aside — at cap</td></tr>
+                <tr><td>noun-collision (<em>Sleep freight heat</em>)</td><td>§1 edit</td><td>3 per 2,000</td>
+                    <td>approximately 2</td></tr>
+                <tr><td>subject-dropped verb chain</td><td>§1 edit</td><td>scene-initial and procedural only</td>
+                    <td>§1, §4 queue, §6 close</td></tr>
+                <tr><td>single-word fragment run</td><td>§1 edit</td><td>not more than 4 consecutive</td>
+                    <td>—</td></tr>
+                <tr><td>colon-apposition (<em>His own hands: chocolate</em>)</td><td>§1 edit</td><td>2 per section</td>
+                    <td>—</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>The general principle: a correction applied consistently becomes as regular as the construction it replaced.
+        Caps are set at adoption rather than after the device has spread through the corpus.</p>
+
+    <h3>7. Proposed changes</h3>
+
+    <p>Ordered by expected effect on the prose.</p>
+
+    <h4>7.1 Move constraints from post-draft to pre-draft</h4>
+
+    <p>The largest expected effect. <code>post_draft_tell_scan</code> operates after composition. Removing a
+        construction after the fact leaves the surrounding sentence built around its absence, and the underlying
+        habit unchanged. Injecting the highest-priority live classes into the <code>pre_draft</code> hook as
+        generation constraints causes the sentences to arrive in a different form. It also costs less, because it
+        replaces a scan and a revision with a constraint.</p>
+
+    <h4>7.2 Add a requirement list</h4>
+
+    <p>The change to make first if only one were possible. The rhetorical findings show that forms are under-produced
+        as reliably as they are over-produced. Erotema is the documented case. Others worth measuring against the
+        human corpus: sentence-initial conjunctions, anacoluthon (a sentence that abandons its own syntax),
+        unresolved deixis (<em>that</em>, <em>it</em>, with no antecedent supplied), and the flat repetition human
+        writers use where models substitute variation.</p>
+
+    <h4>7.3 Anchor every target rate on named human corpora</h4>
+
+    <p><code>POETICS.md</code> names reference authors — Williams, Knausgaard, Ōe, Butler, Blanchot. Running the same
+        detectors over several thousand words of each converts the target rates from assertions into measurements.
+        <em>Interim Edge runs em-dash at 5.6 per 1,000; Knausgaard runs 2.1</em> is a statement that can be checked.
+        <em>Too many em-dashes</em> is not.</p>
+
+    <h4>7.4 Register the remedies</h4>
+
+    <p>Implemented for the five devices listed in §6.1. The requirement is that it continue: any device adopted as a
+        fix receives a detector and a cap at adoption.</p>
+
+    <h4>7.5 Store the aligned spans, not the interpretation</h4>
+
+    <p><code>edit-observations.md</code> currently records the model's reading of the author's edits. The durable
+        record is the aligned pair — <code>before → after → derived rule</code> — because a summary discards the
+        specific wording, which is the evidence. This also makes the corpus described in §8 directly usable rather
+        than something a later model must reconstruct by re-reading the prose.</p>
+
+    <h4>7.6 Scan against two corpora, not one</h4>
+
+    <p>Scan each draft against the tell registry and, separately, against the last three published stories, flagging
+        constructions that recur across projects. Repetition across separate works is not observable within a single
+        draft. Two near-repetitions between <em>Open Loops</em> and <em>The Chute</em> were caught by hand; manual
+        checking will not scale as the corpus grows.</p>
+
+    <h3>8. The benchmark corpus</h3>
+
+    <p>The <code>versions/</code> directories constitute a labelled paired corpus that was not created for that
+        purpose. For each story they hold a pre-edit model draft and a post-edit human draft <em>of the same
+        content</em>, which removes the confound that affects corpora assembled from separate human and machine
+        texts. Twenty-five published stories are available. Thirteen distinct edit operations were extracted from the
+        first pair alone.</p>
+
+    <p>Two measurements, both inexpensive:</p>
+
+    <ul>
+        <li><strong>Tell density per 1,000 words</strong>, by class, by draft. Indicates whether composition is
+            improving or whether the tells are simply being removed afterwards.</li>
+        <li><strong>Survival rate.</strong> Indicates whether the registry is correct.</li>
+    </ul>
+
+    <p>The first measures the prose. The second measures the registry. Only the second prevents the registry from
+        becoming a fixed set of preferences that is never tested.</p>
+
+    <h3>9. Open questions</h3>
+
+    <ul>
+        <li><strong>Whose idiom is the target?</strong> The registry measures distance from model default. It does not
+            distinguish the author's voice from the property of merely not being machine-written. Only the author's
+            acceptances define that direction, which is why the survival-rate field is essential.</li>
+        <li><strong>Does the registry generalise across projects?</strong> The preference for the active incorrect
+            noun over the accurate inert one may be a fact about <em>Interim Edge</em> or a fact about this author.
+            Two further projects will establish which.</li>
+        <li><strong>What is the maximum workable constraint density?</strong> Beyond some density, composition becomes
+            constraint satisfaction. This limit should be located deliberately, in work not intended for publication,
+            rather than encountered in a story that matters.</li>
+    </ul>
+
+    <h3>10. Assessment</h3>
+
+    <p>Four decisions in this design are sound and should be retained: non-zero target rates, survival rate as a
+        calibration signal, caps applied to the remedies, and storage of aligned spans rather than summaries.</p>
+
+    <p>Two limits are structural rather than incidental. The pass operates on spans, so it cannot detect failures that
+        occur at the level of the story — a character who never acts against expectation, an ending that follows as
+        the most probable continuation. And per-device caps constrain each device's frequency without constraining
+        the combination, so the five adopted devices can each remain below cap while appearing together often enough
+        to constitute a new regularity. The companion report,
+        <a href="2026-08-03_harnessing-a-qualitative-domain-JHAVEdit.html">Suggestions for Improving Narracode</a>,
+        addresses both.</p>
+
+    <div class="back-link"><a href="index.html">&larr; Narracode</a></div>
+
+    <h3>Sources</h3>
+    <ul class="biblio">
+        <li><a href="https://arxiv.org/html/2603.27006v1" target="_blank"><em>The Last Fingerprint: How Markdown
+            Training Shapes LLM Prose</em></a>, 2026. arXiv:2603.27006. Em-dash rates of 0.0–9.1 per 1,000 words
+            between models; basis for treating class 10 as a target rate.</li>
+        <li>Mitchell, E. et al., 2023. <a href="https://openreview.net/pdf?id=UiAyIILXRd" target="_blank"><em>DetectGPT:
+            Zero-Shot Machine-Generated Text Detection using Probability Curvature</em></a>. ICML 2023.</li>
+        <li><a href="https://arxiv.org/pdf/2512.19908" target="_blank"><em>A Counterfactual LLM-based Framework for
+            Measuring Rhetorical Style</em></a>, 2025. arXiv:2512.19908. Over-production of the three-part list;
+            suppression of erotema.</li>
+        <li><a href="https://arxiv.org/pdf/2604.19768" target="_blank"><em>Saying More Than They Know: Quantifying
+            Epistemic-Rhetorical Miscalibration in LLMs</em></a>, 2026. arXiv:2604.19768. Performed hesitancy at
+            approximately twice the human rate.</li>
+        <li><a href="https://arxiv.org/html/2604.22142v1" target="_blank"><em>Voice Under Revision: LLMs and the
+            Normalization of Personal Narrative</em></a>, 2026. arXiv:2604.22142.</li>
+        <li><a href="https://www.researchgate.net/publication/393713840_Stylometry_recognizes_human_and_LLM-generated_texts_in_short_samples"
+            target="_blank"><em>Stylometry Recognizes Human and LLM-Generated Texts in Short Samples</em></a>,
+            2025.</li>
+        <li><a href="https://arxiv.org/pdf/2507.23577" target="_blank"><em>T-Detect: Tail-Aware Statistical
+            Normalization for Robust Detection of Adversarial Machine-Generated Text</em></a>, 2025.
+            arXiv:2507.23577.</li>
+        <li><a href="https://ieeexplore.ieee.org/document/10962860/" target="_blank"><em>Enhancing the Robustness of
+            Fast-DetectGPT Against Paraphrase Attacks</em></a>, 2025.</li>
+    </ul>
+
+    <h4>Project documents</h4>
+    <ul class="biblio">
+        <li><code>master_ai_tells.md</code> — the registry: seventeen classes, thresholds, and remedy caps.</li>
+        <li><code>plans/2026-07-30_ai-tells-benchmark.md</code> — benchmark design (Claude Opus 5, 30 July 2026), the
+            source of §3 to §9 above.</li>
+        <li><code>master_phrases_to_avoid.md</code> — clauses cut from <em>Dissolution</em>.</li>
+        <li><a href="https://github.com/jhave/narracode/blob/main/narracode.md"
+            target="_blank"><code>narracode.md</code></a> — the harness specification, including the
+            <code>post_draft_tell_scan</code> hook.</li>
+        <li><a href="2026-08-03_harnessing-a-qualitative-domain-JHAVEdit.html">Suggestions for Improving
+            Narracode</a>, 3 August 2026 — proposed extensions.</li>
+        <li><a href="2026-06-28_fugu-orchestration-consideration.html">Why Fugu-style orchestration will not improve
+            Narracode</a>, 28 June 2026.</li>
+    </ul>
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="logo/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+
+</html>
