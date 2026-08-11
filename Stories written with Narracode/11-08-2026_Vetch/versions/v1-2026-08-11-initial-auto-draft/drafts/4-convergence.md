@@ -150,6 +150,6 @@ Salome, who has been reading: she sends a screenshot. She has searched the path.
 
 He is right. There is a difference. I do not know how to hold the difference and I do not know how to put it down.
 
-The directory path sits in the chat log. A line of text that means something or nothing. An address with no letter inside it.
+The directory path sits in the chat log. A line of text that means something or nothing. An address with no letter inside it. A shelf that is the sentence.
 
 I close the laptop and go to sleep. In the morning the session is still open and the path is still there and Vetch has said nothing else.

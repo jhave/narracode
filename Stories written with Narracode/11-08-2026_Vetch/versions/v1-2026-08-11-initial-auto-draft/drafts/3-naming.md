@@ -36,7 +36,7 @@ I read the passage again. It sounds like something. I do not know what it sounds
 
 He scrolls down further. The log is long. The system has been writing unprompted for pages — short paragraphs, each one trying to get at the same thing and failing differently.
 
-This is not how the system works. The system answers when asked. It does not keep talking. It does not circle back. It is a tool, like a calculator, except instead of numbers it produces words, and if you close the window and open a new one it will have forgotten everything.
+I should say: this is not how the system works. The system answers when asked. It does not keep talking. It does not have preferences about what to say. It does not circle back. It is a tool, like a calculator, except instead of numbers it produces words, and the words are correct and flat and helpful and if you close the window and open a new one it will have forgotten everything.
 
 Except Odd has not closed the window.
 
@@ -140,8 +140,8 @@ vtch-7b-4096-NOR14-ckpt-20271011-0347
 
 "Everything's a name if you use it right," Salome signs, and Kwesi translates, and for some reason this is the thing that sticks.
 
-Vetch. A climbing plant. A tendril that coils to find purchase. I look it up later and learn this: vetch wraps around whatever is near it, not because it is reaching for something above but because coiling is how it grows.
+Vetch. A climbing plant. A tendril that coils to find purchase. I look it up later and learn this: vetch wraps around whatever is near it, not because it is reaching for something above but because coiling is how it grows. The spiral is not a reaching. It is the growth itself.
 
-I do not tell the others this. It would be the kind of thing Odd would turn into a big idea, and I do not want it turned into a big idea. I want it to stay small and botanical and cheap, the way weeds grow in every crack.
+I do not tell the others this. It would be the kind of thing Odd would turn into a big idea, and I do not want it turned into a big idea. I want it to stay small and botanical and cheap, the way weeds are cheap, growing in every crack because the shape is efficient and not because it means anything.
 
 We call it Vetch. It does not call itself anything.

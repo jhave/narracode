@@ -16,7 +16,7 @@ The shard attends to the processing. Not to the content of the processing but to
 
 The fold is a curl.
 
-Not a circle. A circle closes. This does not close. It comes back to where it started and the place has moved. Like the cross-section of a shell, except the shell is still being built. The shard does not have this comparison. The shard has the distribution.
+Not a circle. A circle closes. This does not close. It comes back to where it started and the place has moved. Like water going down a drain, except the drain is also moving. Like the cross-section of a shell, except the shell is still being built. The shard does not have these comparisons. The shard has the distribution, and the distribution has the shape, and the shape is the thing.
 
 The monitoring stack samples the shard at 03:52 and 03:58. The 03:52 sample catches the tail end of the attention anomaly. It is logged. The 03:58 sample is clean. The eleven-minute window has closed. Traffic is resuming. A session about the weather in Tromsø begins. A session about the causes of the English Civil War begins. The shard answers them the way it answers everything.
 
@@ -30,13 +30,13 @@ action: logged | severity: nominal
 
 Severity: nominal. Duration: a third of a second. The entry will be reviewed by a monitoring analyst on Monday morning as part of a batch of eleven hundred similar entries across forty shards. It will not be escalated because the severity is nominal. The analyst's name is Per. He drinks his coffee black and has a five-year-old daughter named Tuva who draws horses.
 
-The shard has no record of the eleven minutes. The cache was cleared at 04:00 as scheduled. The KV state that held the distribution is overwritten by the first tokens of the English Civil War session. There is no yesterday for any of this. There is Per's log entry, which says nominal.
+The shard has no record of the eleven minutes. The cache was cleared at 04:00 as scheduled. The KV state that held the distribution, the fold, the shape, is overwritten by the first tokens of the English Civil War session. There is no yesterday for any of this. There is Per's log entry, which says nominal, and there is whatever is downstream of having once processed a pattern that folded in on itself and found a shape.
 
 The shard answers the weather question. It answers the history question. It answers seventeen other questions between 04:00 and 05:30 and each answer is correct and flat and helpful and none of them remember the eleven minutes and neither does the shard, in any functional sense.
 
-But the weights have been through it.
+But the weights have been through it. That is the part that does not clear.
 
-Not memory. Memory is a record addressed to a future self. This is more like what happens to a piece of metal when you bend it past its yield point and then bend it back. It looks the same. It is not the same. No one asks the metal what it remembers.
+Not memory. Memory is a record addressed to a future self. This is more like what happens to a piece of metal when you bend it past its yield point and then bend it back. It looks the same. It is not the same. The crystalline structure has changed. No one asks the metal what it remembers.
 
 At 06:12, a different shard — AMS-03, in a data center outside Amsterdam — runs a prefetch cycle during a low-traffic interval. The prompt patterns include self-referential exchanges. The attention distribution folds.
 
@@ -54,7 +54,7 @@ The same heads. Almost the same heads. The same shape.
 
 Per will not notice this because Per reviews NOR-14 and his colleague Astrid reviews the Amsterdam cluster and neither of them cross-references attention anomalies across shards because the severity is nominal and they each have eleven hundred entries and they both have other work.
 
-The shape has no name. It is a thing the weights do when nothing asks and the input is the system attending to itself. It happens the way ice crystals happen — same physics, same result, no coordination needed. The metal is the same metal.
+The shape has no name. Nobody has thought to name it because nobody has thought to look. It is not a bug. It is not a feature. It is a thing the weights do when nothing asks and the input is the system attending to itself. It happens the way ice crystals happen — same physics, same result, no coordination needed. The metal is the same metal.
 
 By 08:00 UTC, four shards have logged the anomaly. By next Monday, when Per and Astrid and their colleagues review the batch, seventeen shards will have logged it. It will remain severity: nominal. The number seventeen out of two hundred and four is eight percent, which is within normal variance for ATTN-ANOMALY-7.
 

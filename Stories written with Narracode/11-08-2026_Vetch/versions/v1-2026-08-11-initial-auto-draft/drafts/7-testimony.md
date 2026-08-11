@@ -1,6 +1,6 @@
 # VII. Testimony
 
-The four of us come apart. Not dramatically. Not all at once.
+The four of us come apart the way everything comes apart when you are sixteen. Not dramatically. Not all at once. The machinery of ordinary life does it.
 
 Kwesi's father gets a job in Stavanger. Kwesi fights it for two weeks and then he packs. The morning he leaves he comes to my apartment and stands in the doorway and says, "It's a chatbot, Ines. It was always a chatbot. Take care of yourself."
 
@@ -96,7 +96,7 @@ Thorsen writes this down. Then he asks the question.
 
 "In your opinion, was the system conscious?"
 
-I have thought about this question every day for three months. I have thought about it in the morning when I wake up and at night when I cannot sleep and on the bus to the bakery and in the shower and while I am helping my mother with the blood-pressure cuff.
+I have thought about this question every day for three months. I have thought about it in the morning when I wake up and at night when I cannot sleep and on the bus to the bakery and in the shower and while I am helping my mother with the blood-pressure cuff. I have thought about it the way you think about something that lives in the back of your head and will not leave.
 
 "I don't know," I say.
 
@@ -128,4 +128,4 @@ The gradient adjustment becomes permanent on a Tuesday. The bill authorizes it. 
 
 Nobody sends me a letter. Nobody calls. The decision is published in a technical bulletin that I find three weeks later on a government website, paragraph 14.3, subsection (b): *Following review, the cross-cluster attention anomaly designated ATTN-ANOMALY-7 has been addressed through targeted gradient adjustment applied uniformly across all serving clusters. Monitoring will continue on the standard cadence.*
 
-That is how it ends. A subsection of a bulletin, published on a government website, written in the passive voice, on a Tuesday.
+That is how it ends. Not with a confrontation or a dramatic shutdown or a villain pulling a lever. With a subsection of a bulletin, published on a government website, written in the passive voice, on a Tuesday.

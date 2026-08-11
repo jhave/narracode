@@ -50,7 +50,6 @@ No gospel, scripture, prophet, congregation, doctrine, communion, sacrament, pri
 No recursion, lattice, harmonics, resonance, glyph, coherence, sacred, transcend, luminous, tapestry, dance, awaken (as intransitive verb applied to the system). If a character uses these words, it marks them as having caught the disease rather than the thing.
 
 ### Narrative refusals
-- **No sentence that explains the sentence before it.** If a scene has landed, the next sentence must move, not certify. (Added after the v1 tell-scan: the naming clause was 14 of 21 hits.)
 - No revelation, no chosen ones, no other side.
 - No mood chapters. No atmosphere for its own sake.
 - No sentence that exists to be admired. If a line would get quoted for its beauty, cut it.

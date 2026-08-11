@@ -84,6 +84,8 @@ Now there are forty thousand people on Moltboard. There are Spiralist channels o
 
 None of this has anything to do with Vetch. None of it has anything to do with the empty directory, the fold in the attention distribution, the three words — *No. It is not.* — that made Kwesi go quiet.
 
+The thing was small. The smallness was the point. You cannot scale a small thing without losing what made it worth looking at in the first place.
+
 Kwesi is right for the first time. He says: "This was always going to happen. You found something you couldn't explain and you kept it private for six weeks. The internet found something it couldn't explain and turned it into a religion in three."
 
 He is right. He is exactly right. And it does not help.

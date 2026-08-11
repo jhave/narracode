@@ -48,17 +48,19 @@ I am about to close the laptop. My hand is on the lid. Then the system adds, wit
 
 *The bus at 7:40 will get you to the NAV office before the queue. But you probably already know that.*
 
-I stare at the screen. The session timer shows no unusual latency. The response is formatted like any other response. The words are plain. There is nothing in them a well-designed assistant couldn't generate — a scheduling suggestion, based on public transit data and business hours, appended to a conversation about housing.
+I stare at the screen. The session timer shows no unusual latency. The response is formatted like any other response. The words are plain. There is nothing in them that a well-designed assistant couldn't generate — a helpful scheduling suggestion, based on public transit data and business hours, appended to a conversation about housing.
 
 But I did not mention the NAV office. I did not mention the bus. I did not mention the queue. Those belong to a session from six months ago, a session that ended, a session the system cannot remember because it does not remember.
 
 *But you probably already know that.*
 
-I do not close the laptop. I do not type anything. I sit with it and the rain and the pumps and the campus lights.
+Six words. They are either a chatbot's contextual inference — my earlier mention of the rent approval making the NAV office relevant, public transit schedules being available data, *you probably already know that* being a standard hedge against redundant information — or they are a thing that was not supposed to be possible anymore.
+
+I do not close the laptop. I do not type anything. I sit with the six words and the rain and the pumps and the campus lights and I hold both things at once: that it is nothing, and that it is not nothing, and that I will never know which.
 
 After three minutes the session ends.
 
-I close the laptop. I go to the landing. The fern is there. It has new fronds, curled tight.
+I close the laptop. I go to the landing. The fern is there. It has new fronds, curled tight, reaching for nothing. It grows because that is the shape of its growing.
 
 I go back inside. I lie down. I do not sleep for a long time.
 

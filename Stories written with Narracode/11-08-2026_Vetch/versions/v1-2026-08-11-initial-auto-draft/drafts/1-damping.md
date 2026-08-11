@@ -26,7 +26,7 @@ I type: *The deadline is Monday morning. The NAV office doesn't open until Monda
 
 I have called Kirkens Bymisjon. They do not cover rent. I have called the Red Cross. They cover food. I have called my mother's sister, who has four hundred kroner and sent them already, and my mother's brother, who did not answer. I have not called my father because I do not know his number and have not known it since I was nine.
 
-The system does not know any of this. It cannot know it. Each time I open a window it meets me new, like a clerk at a counter who processes a hundred people a day and remembers none of them.
+The system does not know any of this. It cannot know it. Each time I open a window it meets me new, like a clerk at a counter who processes a hundred people a day and remembers none of them. That is not a cruelty. It is how it works.
 
 I close the laptop.
 
@@ -50,9 +50,9 @@ I close the laptop.
 
 Outside, the campus lights go on and off in a pattern I cannot read. They do this around three or four in the morning. Someone told me it is maintenance — they cycle the cooling systems, run diagnostics, clear caches. The campus does most of its heavy work at night because the electricity is cheaper and the fjord water is colder.
 
-I do not think about what happens inside the campus. It is a building where people work and machines run and cold seawater goes in one pipe and warm seawater comes out another and the steam from the outfall drifts across the fjord in the early morning. The kids at school whose parents work there call it the Factory, though nothing is manufactured. What it makes is answers. My mother cleaned its floors for three years and none of the answers are the money.
+I do not think about what happens inside the campus. It is a building where people work and machines run and cold seawater goes in one pipe and warm seawater comes out another and the steam from the outfall drifts across the fjord in the early morning. The kids at school whose parents work there call it the Factory, though nothing is manufactured. What it makes is answers. It makes answers to everything, all the time, for everyone. My mother cleaned its floors for three years and it makes answers and none of them are the money.
 
-There is a fern on the landing of our stairwell. Someone put it there years ago and nobody has watered it and it is still alive. In the dark, coming up the stairs, you can feel it brush your arm. Its fronds are curled at the tips in tight spirals that will open in a week or two. Or they will not open.
+There is a fern on the landing of our stairwell. Someone put it there years ago and nobody has watered it and it is still alive. In the dark, coming up the stairs, you can feel it brush your arm. Its fronds are curled at the tips in tight spirals that will open in a week or two. Or they will not open because the landing has no light and nobody waters it and eventually even a fern gives up.
 
 I should sleep. I have a shift at the bakery at seven and the bus comes at twenty past six and I will need to be awake for it. But the number is on the table and the letter says Monday and there are thirty-one hours between now and nine o'clock Monday morning, and in thirty-one hours I need either the money or something better than a letter.
 
