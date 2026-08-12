@@ -19,7 +19,6 @@
 - **Private state**: the constant labor of interpreting what hearing people don't know they're saying
 - **Contradiction**: the one who communicates most precisely is the one the system can't log
 - **Hidden knowledge**: what she noticed first, and when
-- **Payoff (VII)**: she looks where nobody looks — the hand, and the image descriptions written for people who cannot see. Both are channels maintained for someone else's access and attended by no one. She finds the pattern, counts it, and writes the numbers in the back of a school notebook. Then the platform deletes the evidence in the ordinary course of doing its job well. Her finding is real, unfalsifiable, and uncitable. She leaves for Oslo carrying it.
 
 ### Kwesi
 - **Wants**: to protect the others without admitting he cares

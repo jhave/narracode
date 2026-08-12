@@ -1,87 +1,5 @@
 # VII. Testimony
 
-My mother is on a dating site.
-
-I find out because the laptop is open on the kitchen table when I come in from the bakery. She is in the shower. Her profile photo is four years old. She is on the pier at Askøy with her sister and both her arms are up, which she cannot do now.
-
-I am not worried about her dating. I am worried about the money.
-
-There is a page on the NAV site about it. Romance fraud. It lists the signs. He works abroad. He cannot meet. There is an emergency and he needs a transfer today. My mother has four hundred kroner in her account and a payment plan and a daughter who reads the letters. Four hundred kroner is four hundred kroner.
-
-I go through her matches. Eleven. Most of them are men in their fifties who look like men in their fifties — bad light, a fish held up at the camera.
-
-Two are not.
-
-The two are handsome. Eight photos each. A boat, a restaurant, a dog, a mountain. Both have the blue check that means the app made them hold their face in front of a camera and matched it against their pictures.
-
-In both profiles the last photo is a different man. Older. Ordinary. Bad light, like the rest of the site.
-
----
-
-Salome comes over at six. She leaves for Oslo in two weeks and we are doing the thing where we do not mention it. Odd is on his laptop. Kwesi is eating our bread.
-
-I show them my mother's matches because I want someone to tell me I am being paranoid.
-
-Salome takes the laptop. She does not scroll. She looks at one photo for a long time. Then she puts her finger on the screen, on the man's hand where it rests on the boat rail.
-
-"Same hand," she signs.
-
-"Same as what?"
-
-She scrolls back. Different profile, different man, different boat, different water. The hand on the rail is the same hand. Not similar. The same three fingers, the same fold at the knuckle, the same shadow under the thumb.
-
-Kwesi looks over her shoulder. "Same generator," he says. "All of these came out of one image model. It has a hand it's good at. It uses the hand."
-
-"That's what I said," Salome signs.
-
-She goes into the settings and turns on image descriptions.
-
-"What's that?" Odd says.
-
-"The app writes a description of every photo," she signs. "For people who can't see them. Nobody reads them."
-
-The descriptions come up under the photos in small gray text.
-
-*man standing outdoors near water, smiling*
-
-*man standing outdoors near water, smiling*
-
-*man seated at a table, evening, food*
-
-Under the last photo of the second profile:
-
-*hand 41 of 41. rotate.*
-
-Odd reads it out loud, which does not help.
-
-"Caption bug," Kwesi says. "Some pipeline wrote a log line into the wrong field. That happens constantly."
-
-He is probably right.
-
-Salome starts counting.
-
-It takes her most of an hour. She goes through the public profiles, the ones you can see without swiping, and she finds the hand in forty-one of them. Forty-one men. Forty-one photos. The same hand on a rail or a glass or a dog's head.
-
-The forty-second has a different hand.
-
-"Someone changed the settings," Kwesi says.
-
-"After forty-one," Salome signs.
-
-"After forty-one."
-
-Nobody says anything for a while. Odd wants to. I can see him deciding not to, and I am grateful, and I do not tell him so.
-
-I screenshot everything. Salome writes the numbers in the back of her school notebook.
-
-Ten days later the profiles are gone. Both of my mother's matches, and the forty-one, and the forty-second. The app posts a note that quarter about removing four hundred thousand fraudulent accounts, the most it has ever taken down.
-
-My mother is disappointed for about a week and then she is fine. She never sent anyone money.
-
-That part worked.
-
----
-
 The four of us come apart. Not dramatically. Not all at once.
 
 Kwesi's father gets a job in Stavanger. Kwesi fights it for two weeks and then he packs. The morning he leaves he comes to my apartment and stands in the doorway and says, "It's a chatbot, Ines. It was always a chatbot. Take care of yourself."
@@ -173,18 +91,6 @@ I show him the screenshots. He copies them. He writes down the paths.
 "What did it say?"
 
 "It said it didn't know why it wrote them. It said they appeared in the output buffer and it had no mechanism for determining why."
-
-"Was there anything outside the sessions?"
-
-I tell him about the profiles. The hand. The forty-one and the forty-second. The line of gray text under the photograph.
-
-"Do you still have the screenshots?"
-
-"Yes."
-
-"Send them to this address." He writes it on a page of his notepad and tears it out.
-
-I send them that night. Nobody mentions them again.
 
 Thorsen writes this down. Then he asks the question.
 

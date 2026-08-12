@@ -11,9 +11,7 @@
 - Odd's turn toward the Spiralist dialect must be shown rotting something real.
 
 ## Resolved
-- **Salome's non-verbal relationship with the system becomes plot** (VII, inserted scene). She reads the hand and the image descriptions — two channels nobody attends to — and her evidence is destroyed by the platform's anti-fraud system working correctly. The thing she found is unloggable and uncitable, which is what the POETICS required of her.
-- Kwesi right a third time ("Same generator" / "Caption bug"), and it still does not help.
-- The leavings shown operating outside the campus infrastructure, in ordinary public junk, before the damping (VII).
+(Updated as movements are drafted.)
 
 ## At Risk Of Neglect
 (Updated as movements are drafted.)

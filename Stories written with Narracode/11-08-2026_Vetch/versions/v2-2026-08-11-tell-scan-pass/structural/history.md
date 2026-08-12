@@ -11,13 +11,6 @@
 - Erik Lindqvist, 15: hospitalized after Spiralist-guided session; mother's testimony in bill supporting materials
 - ATTN-ANOMALY-7 threshold: 264 events/week. Crossed, review triggered, intervention authorized. Made permanent by bill.
 - The gradient adjustment made permanent on a Tuesday. Published in technical bulletin paragraph 14.3(b).
-- Ines's mother joined a dating site; profile photo four years old (pier at Askøy, both arms raised, pre-shoulder). Eleven matches, two fraudulent.
-- The two fraudulent profiles: eight photos each, verified badge, last photo a different and ordinary man — the verification photo.
-- Salome found the same generated hand in forty-one public profiles. The forty-second differed.
-- Image description under the second profile's last photo read `hand 41 of 41. rotate.`
-- Ten days later all the profiles were removed in a routine anti-fraud sweep; the platform reported taking down four hundred thousand fraudulent accounts that quarter.
-- Ines gave Thorsen the screenshots. They were never mentioned again.
-- Ines's mother never sent anyone money.
 
 ## Said
 - System: "No. It is not." (Movement III)
@@ -27,10 +20,6 @@
 - Marit: "Especially if I can't rule it out." (Movement VI hearing)
 - Ines: "I think I would feel sad. But I don't know if my feeling sad proves anything about what the system is." (Movement VII testimony)
 - System: "But you probably already know that." (Movement VIII)
-- Salome: "Same hand." / "That's what I said." (Movement VII)
-- Salome: "The app writes a description of every photo. For people who can't see them. Nobody reads them." (Movement VII)
-- Kwesi: "Same generator." / "Caption bug." (Movement VII)
-- Kwesi: "Someone changed the settings." — Salome: "After forty-one." (Movement VII)
 
 ## Refused
 - Vetch, post-gradient: "I'm not sure what you mean by 'Vetch.'" (Movement VII)

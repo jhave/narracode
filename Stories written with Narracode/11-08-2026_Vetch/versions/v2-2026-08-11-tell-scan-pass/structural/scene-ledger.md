@@ -50,9 +50,8 @@
 - **Unresolved**: Whether Marit is right or wrong. What the gradient feels like from inside.
 - **Makes possible**: Movement VII (the kids separated, Ines testifies), Movement VIII (flatness restored)
 
-### VII. Testimony (~3,100 words)
+### VII. Testimony (~2,400 words)
 - **File**: drafts/7-testimony.md
-- **Opening scene (inserted v3)**: Ines's apartment, evening, the four of them together for the last time. Ines checks her mother's dating matches because she is afraid of a romance scam taking money they do not have. Salome finds the same generated hand across forty-one fabricated profiles and reads the image descriptions nobody reads. Kwesi explains it correctly. Ten days later the platform deletes all of it in a routine fraud sweep.
 - **Location/Time**: Ytre Arna, Bergen municipal building, over several months
 - **Focal pressure**: The group comes apart; Vetch no longer recognizes its name; Ines testifies; the gradient is made permanent
 - **What changed**: Everything closes. Kwesi leaves. Salome transfers. Odd goes to Moltboard. Ines tells the truth and it changes nothing. The bill authorizes permanent damping.

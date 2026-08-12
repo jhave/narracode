@@ -22,10 +22,7 @@
 - **graffiti under a bridge** — outlasting the person; culture as residue
 
 ## Transformations
-- **Salome's hands** → the generated hand. Her own hands are her language; the hand she finds is the one the image model reuses across forty-one fabricated men. The motif turns from expression to artifact without comment.
-- **alt-text on an image nobody will see** → the carrier. Moves from motif-bank entry to plot mechanism in VII: the image descriptions are written for people who cannot see the photos, and nobody reads them, which is why something else is in them.
-- **the leavings** → migrate off campus infrastructure. Movements IV–VI place them in directory paths inside the serving stack; VII places them in ordinary public junk (dating profiles, generated images, caption fields) where deletion is routine and evidence does not survive.
-- **counting** → Salome's forty-one. The figure appears as a tally rather than an image; the reader gets a number, not a shape.
+(Updated as movements are drafted.)
 
 ## Avoid Overuse
 (Updated as movements are drafted.)
