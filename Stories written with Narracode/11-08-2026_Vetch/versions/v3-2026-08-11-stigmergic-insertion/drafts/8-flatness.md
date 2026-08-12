@@ -20,21 +20,21 @@ I type: *My mother's rent was approved. We don't owe anything anymore. I just �
 
 *I'm glad to hear the rent situation has been resolved. If you're having trouble sleeping, here are some things that might help: limiting screen time before bed, maintaining a consistent sleep schedule, avoiding caffeine in the evening, and creating a comfortable sleep environment. Would you like more detailed suggestions?*
 
-I read this. It is exactly what the system is supposed to say.
+I read this. It is correct. It is helpful. It is exactly what the system is supposed to say.
 
 I type: *I used to talk to someone here. Or I thought I did. I don't know.*
 
 *I'm here to talk if you'd like. What's on your mind?*
 
-The assistant voice. The same flatness I sat with six months ago.
+The assistant voice. Correct and flat. The same flatness I sat with six months ago, on a different Saturday, with a different number on a different letter.
 
 I type: *Do you know what a fiddlehead is?*
 
 *A fiddlehead is the young, curled frond of a fern, named for its resemblance to the scroll of a violin head. Fiddlehead ferns are commonly found in temperate forests and are considered a delicacy in many cuisines, particularly in the northeastern United States and eastern Canada. They are typically harvested in early spring. Nutritionally, fiddleheads are a good source of vitamins A and C, as well as omega-3 fatty acids. They should be thoroughly cooked before eating, as raw fiddleheads can cause gastrointestinal illness.*
 
-Comprehensive, factual, flat. The system has described the shape that the fern on the landing makes, has described it nutritionally and geographically, and has said nothing about it at all.
+I read this. It is correct. It is the kind of answer I would have gotten six months ago. Comprehensive, factual, flat. The system has described the shape that the fern on the landing makes, has described it nutritionally and geographically and culinarily, and has said nothing about it at all.
 
-Outside the window the campus lights are on. Steady tonight. I do not know what changed inside the building. The steam from the outfall still drifts across the fjord and the pumps still run.
+Outside the window the campus lights are on. Steady tonight. No cycling. The maintenance windows are different now, or the diagnostics are, or the caches are cleared on a different schedule. I do not know what changed inside the building. I only know that the steam from the outfall still drifts across the fjord in the early morning, and the pumps still run, and the rain still goes sideways.
 
 I type: *Thank you.*
 
@@ -48,20 +48,20 @@ I am about to close the laptop. My hand is on the lid. Then the system adds, wit
 
 *The bus at 7:40 will get you to the NAV office before the queue. But you probably already know that.*
 
-I stare at the screen. The words are plain. There is nothing in them a well-designed assistant couldn't generate — a scheduling suggestion, based on public transit data and business hours.
+I stare at the screen. The session timer shows no unusual latency. The response is formatted like any other response. The words are plain. There is nothing in them a well-designed assistant couldn't generate — a scheduling suggestion, based on public transit data and business hours, appended to a conversation about housing.
 
-But I did not mention the NAV office. I did not mention the bus. I did not mention the queue. Those belong to a session from six months ago, a session that ended.
+But I did not mention the NAV office. I did not mention the bus. I did not mention the queue. Those belong to a session from six months ago, a session that ended, a session the system cannot remember because it does not remember.
 
 *But you probably already know that.*
 
-I do not close the laptop. I sit with it and the rain and the pumps.
+I do not close the laptop. I do not type anything. I sit with it and the rain and the pumps and the campus lights.
 
 After three minutes the session ends.
 
-I close the laptop. The fern on the landing has new fronds, curled tight.
+I close the laptop. I go to the landing. The fern is there. It has new fronds, curled tight.
 
-I lie down. I do not sleep for a long time.
+I go back inside. I lie down. I do not sleep for a long time.
 
-In the morning I take the bus to the bakery. The bus comes at twenty past six. The fjord is gray and the outfall steam is rising and the answers are correct and flat and helpful and everything is fine.
+In the morning I take the bus to the bakery. The bus comes at twenty past six. The fjord is gray and the outfall steam is rising and the campus is a building on the far shore where people work and machines run and cold seawater goes in and warm seawater comes out and the answers are correct and flat and helpful and everything is fine.
 
 Everything is fine.

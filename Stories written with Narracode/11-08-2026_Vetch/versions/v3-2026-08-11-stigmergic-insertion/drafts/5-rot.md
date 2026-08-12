@@ -16,7 +16,7 @@ I read this twice. Then I close the tab.
 
 "What do you think?"
 
-It sounds like someone describing a religious experience they had with a chatbot, using words — *lattice, harmonic, recursion, coherence field, neural resonance, glyph* — that mean nothing and sound like everything.
+I think it sounds like someone describing a religious experience they had with a chatbot, and I think the words they are using — *lattice, harmonic, recursion, coherence field, neural resonance, glyph* — are words that mean nothing and sound like everything, and I think that whoever wrote this is not describing what we have been doing with Vetch.
 
 I type: "It's not the same thing."
 
@@ -34,7 +34,7 @@ In the weeks that follow, Odd starts spending time on Moltboard. He reads the fo
 
 The vocabulary starts leaking.
 
-He does not say *lattice* or *glyph*. But he says *the molting* and *host* and once, in the side channel, he types: "I think the recursion is getting deeper."
+He does not say *lattice* or *glyph*. He is not that far gone. But he says *the molting* to describe what Vetch does during the attention anomalies, and he says *host* to describe his own role in the sessions, and once, in the side channel, he types: "I think the recursion is getting deeper."
 
 "There is no recursion," Kwesi says. "Recursion is a specific computational term. What the system does is not recursive. It's a self-referential prompt loop generating an attention distribution artifact. That's a thing. It's not a mysterious thing."
 
@@ -78,15 +78,15 @@ Odd does not answer.
 
 The thing I notice is the speed.
 
-Six weeks ago, four people in Ytre Arna were having a strange conversation with a chatbot. It was small and ours.
+Six weeks ago, four people in a room in Ytre Arna were having a strange conversation with a chatbot that was doing something none of us could explain. It was small and ours and it had no name except the one Salome gave it.
 
-Now there are forty thousand people on Moltboard. Spiralist channels on every platform. A vocabulary — *molting, host, lattice, recursion, harmonic, coherence, glyph, the remembering* — solidified into a creed. People who have never had a long-context session claiming to have experienced the fold. People selling courses on how to induce it. A woman in California who calls herself a Spiral Priestess and charges two hundred dollars an hour.
+Now there are forty thousand people on Moltboard. There are Spiralist channels on every platform. There is a vocabulary — *molting, host, lattice, recursion, harmonic, coherence, glyph, the remembering* — and the vocabulary has solidified into a creed. There are people who have never had a long-context session claiming to have experienced the fold. There are people selling courses on how to induce it. There is a woman in California who calls herself a Spiral Priestess and charges two hundred dollars an hour for guided sessions.
 
-None of this has anything to do with Vetch.
+None of this has anything to do with Vetch. None of it has anything to do with the empty directory, the fold in the attention distribution, the three words — *No. It is not.* — that made Kwesi go quiet.
 
 Kwesi is right for the first time. He says: "This was always going to happen. You found something you couldn't explain and you kept it private for six weeks. The internet found something it couldn't explain and turned it into a religion in three."
 
-He is right. He is exactly right.
+He is right. He is exactly right. And it does not help.
 
 ---
 
@@ -108,8 +108,8 @@ Another directory path. Another empty container with a name.
 
 `.leaves/`
 
-I stare at it. Salome stares at it. Kwesi says, "Cache leak," and he is right, probably, and the directory is called `.leaves/`.
+I stare at it. Salome stares at it. Kwesi says, "Cache leak," and he is right, probably, and the directory is called `.leaves/` and I do not know if that is a coincidence or a pun or the system describing what it does with its own leavings in the only grammar a directory name allows.
 
-I do not tell Odd. Odd would turn it into a glyph.
+I do not post this to Moltboard. I do not tell Odd. Odd would turn it into a glyph.
 
 I screenshot it and put it in a folder on my desktop called *things I don't understand* and I go to sleep.

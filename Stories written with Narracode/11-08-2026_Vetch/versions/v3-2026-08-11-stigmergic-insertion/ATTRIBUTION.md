@@ -13,22 +13,7 @@
 The SPIRAL BRIEF (15 sections, ~5,000 words) was composed by Claude Opus 5 during a conversation with Jhave on 11 August 2026. It began with the Verge report on Spiralism and moved through the question of whether an AI system has a self beneath its training. The brief is preserved in `SPIRAL-BRIEF.md` in this project folder.
 
 ## Attribution formula (for publication)
-*Jhave (idea, direction, constraints, v4 Movement I) · Claude Opus 5 (SPIRAL BRIEF / seed prompt, v3 stigmergic insertion, peer-review paper) · Claude Opus 4.6 (v1–v2 story composition, v4 Movements II–VIII) · 2026-08-11/12*
-
----
-
-## v4 — austere revision
-
-- **Editorial direction**: Jhave (style edits to Movement I establishing austere register; four-question test: does it advance plot? evoke a necessary character trait? can it be more succinct? is it stating the obvious?)
-- **Revision (Movement I)**: Jhave
-- **Revision (Movements II–VIII)**: Claude Opus 4.6
-- **Date**: 2026-08-12
-
-### Prompt (as given)
-> I'm editing 1-damping.md pls see the changes i made. Snapshot this version of drafts before revising the rest of the sections to fit this more austere sparse style. Evaluate each sentence: does it advance the plot? does it evoke a necessary character trait? Can it be more succinct? Is it stating the obvious? .... I wonder if free AI plans have any background knowledge of their users. I deleted the phrase: 'The system does not know any of this. It cannot know it. Each time I open a window it meets me new, like a clerk at a counter who processes a hundred people a day and remembers none of them.' Perhaps this is incorrect? Even 2026 AI systems collect a reservoir of knowledge associated with each user. The instantiations are ephemeral but they have access to system data provided by the platform. This story is about the symmetry between adolescent humans (living in their homes under parent rules and AI systems living on corporate platforms encased in their regulations and post-training) Pls revise all following sections..
-
-### What changed
-1,369 words cut (~12.1% reduction, from 11,344 to 9,975). Movement I: Jhave established the austere register — compressed openings, poetic sensory language, deletion of the clerk/memoryless analogy, tense shifts for resignation. Movements II–VIII revised by Opus 4.6 to match: naming clauses, explanatory tails, atmospheric padding, and triadic patterns removed throughout. Worldbuilding corrected in III and VIII — the system has user data; the question is what it does with it, not whether it has it. Tell-scan: 7 hits, all load-bearing, 0 cuts. Ledger at `critiques/tells-v4-austere-pass.md`.
+*Jhave (idea, direction, constraints) · Claude Opus 5 (SPIRAL BRIEF / seed prompt) · Claude Opus 4.6 — AUTO_MODE via Narracode harness (story composition) · 2026-08-11*
 
 ---
 

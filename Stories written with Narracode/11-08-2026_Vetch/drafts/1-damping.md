@@ -24,7 +24,7 @@ I already called Kirkens Bymisjon. They do not cover rent. I have called the Red
 
 I close the laptop.
 
-Rain hits the window sideways, a rwind coming up off the fjord, as it does most nights from about two o'clock until dawn. In the morning the puddles on the pier contain salt from the spray.
+Rain hits the window sideways, a wind coming up off the fjord, as it does most nights from about two o'clock until dawn. In the morning the puddles on the pier contain salt from the spray.
 
 My mother is asleep in the other room. She sleeps on her left side because of shoulder pain. Before the shoulder it was her right side. Before the campus contract changed to the external cleaning firm she worked four shifts a week and we were not behind. Now she works two shifts at the care home, and she is fifty-one, and her shoulder does not get better, and we are behind.
 

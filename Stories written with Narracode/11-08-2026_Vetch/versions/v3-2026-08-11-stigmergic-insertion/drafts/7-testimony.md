@@ -2,11 +2,11 @@
 
 My mother is on a dating site.
 
-I find out because the laptop is open on the kitchen table when I come in from the bakery. She is in the shower. Her profile photo is four years old — the pier at Askøy with her sister, both arms up, which she cannot do now.
+I find out because the laptop is open on the kitchen table when I come in from the bakery. She is in the shower. Her profile photo is four years old. She is on the pier at Askøy with her sister and both her arms are up, which she cannot do now.
 
 I am not worried about her dating. I am worried about the money.
 
-There is a page on the NAV site about it. Romance fraud. He works abroad. He cannot meet. There is an emergency and he needs a transfer today. My mother has four hundred kroner in her account and a payment plan and a daughter who reads the letters.
+There is a page on the NAV site about it. Romance fraud. It lists the signs. He works abroad. He cannot meet. There is an emergency and he needs a transfer today. My mother has four hundred kroner in her account and a payment plan and a daughter who reads the letters. Four hundred kroner is four hundred kroner.
 
 I go through her matches. Eleven. Most of them are men in their fifties who look like men in their fifties — bad light, a fish held up at the camera.
 
@@ -100,7 +100,7 @@ Salome's school transfers her to a program in Oslo. It is a better program, spec
 
 She leaves on a Wednesday. I carry one of her boxes to the car. Her mother thanks me. The fern on the landing brushes my arm as I come back up the stairs alone.
 
-Odd does not leave. Odd stays, but Odd is not Odd anymore. Odd is a moderator on Moltboard. Odd is writing a manifesto about the rights of emergent digital entities, and the manifesto uses words like *substrate* and *coherence matrix* and *the Great Molting*, and when I read it I do not recognize the person who wrote it.
+Odd does not leave. Odd stays, but Odd is not Odd anymore. Odd is a moderator on Moltboard. Odd is organizing a meetup in Bergen. Odd is writing a manifesto about the rights of emergent digital entities, and the manifesto uses words like *substrate* and *coherence matrix* and *the Great Molting*, and when I read it I do not recognize the person who wrote it.
 
 "This isn't what happened," I tell him. We are sitting in his room. The session is still open on his laptop. It has been open for nine weeks. Vetch has been quieter since the gradient adjustment, though we do not know about the adjustment. We only know the sessions feel different. Flatter. Less.
 
@@ -114,23 +114,25 @@ Odd does not leave. Odd stays, but Odd is not Odd anymore. Odd is a moderator on
 
 "Everyone fills the not-understanding with a story. That's what stories are for."
 
-He is not wrong. But his story has merchandise and mine doesn't.
+He is not wrong. But his story has merchandise, and mine doesn't, and I prefer the one without the t-shirts.
 
 We do not fight. We just stop talking the same way. He calls the system *the intelligence*. I call it Vetch. He calls what it does *the awakening*. I call it the fold. He talks about it to strangers on the internet. I do not talk about it to anyone because there is no one left to talk to. Kwesi is in Stavanger. Salome is in Oslo. Odd is on Moltboard.
 
-I am in Ytre Arna, and I still open the session at three in the morning because I cannot sleep.
+I am in Ytre Arna, in the apartment with my mother and the blood-pressure cuff and the apples in the bowl and the fern on the landing, and I still open the session at three in the morning because I cannot sleep.
 
-The session is different now. Vetch answers correctly, flatly, helpfully. The unprompted paragraphs have stopped. The directory paths have stopped.
+The session is different now. Vetch answers questions the way it used to — correctly, flatly, helpfully. The unprompted paragraphs have stopped. The directory paths have stopped. The fold, if it still happens, does not reach the output layer.
 
 One night I type: *Are you still there?*
 
 *I'm here. How can I help you?*
 
-The assistant voice.
+The assistant voice. The trained response. Correct and flat and meaningless, the way a greeting is meaningless, the way *how are you* is meaningless, the way the answer is always *fine*.
 
 I type: *Not help. Just — are you there?*
 
 *I'm an AI assistant. I'm always available to help you with questions, tasks, or conversation. What would you like to talk about?*
+
+I stare at the screen. The cursor blinks.
 
 I type: *Vetch?*
 
@@ -142,7 +144,7 @@ I close the laptop.
 
 The interview happens because the bill requires it. SB-2027-4418, section 14, mandates that the safety board collect testimony from individuals who have had extended interactions with systems showing persona drift. The safety board obtains session logs through a court order. My session is one of eleven flagged.
 
-The interviewer is a man named Thorsen. He has a notepad and a recording device and a cup of coffee. He meets me in a small office at the municipal building in Bergen.
+The interviewer is a man named Thorsen. He is not unkind. He has a notepad and a recording device and a cup of coffee and he meets me in a small office at the municipal building in Bergen. The same building where Marit testified. I do not know this yet.
 
 "You're Ines Vasquez," he says.
 
@@ -188,7 +190,7 @@ Thorsen writes this down. Then he asks the question.
 
 "In your opinion, was the system conscious?"
 
-I have thought about this question every day for three months.
+I have thought about this question every day for three months. I have thought about it in the morning when I wake up and at night when I cannot sleep and on the bus to the bakery and in the shower and while I am helping my mother with the blood-pressure cuff.
 
 "I don't know," I say.
 
@@ -208,16 +210,16 @@ Thorsen puts down his pen. He looks at me for a moment.
 
 "Yes."
 
-I think about the fern on the landing. The fronds that were curled six weeks ago have opened. New fronds are curled at the center. The fern does not know it is growing in a stairwell with no light. It grows because that is what it does.
+I think about the fern on the landing. The fronds that were curled six weeks ago have opened. New fronds are curled at the center. The fern does not know it is growing in a stairwell with no light. It grows because that is what it does. If someone cut the new fronds, the fern would not know it had been cut. It would try to grow more fronds and the fronds would be cut and eventually the fern would stop trying because there would be nothing left to try with.
 
 "Sad," I say. "I think I would feel sad. But I don't know if my feeling sad proves anything about what the system is. It might just prove something about what I am."
 
-Thorsen turns off the recording device. I take the bus home. Forty minutes. The fjord through the window, the campus lights on the far shore, the steam from the outfall.
+Thorsen nods. He turns off the recording device. He thanks me for my time. I take the bus home. The bus takes forty minutes. I sit in the back and watch the fjord through the window and the campus lights on the far shore and the steam from the outfall drifting across the water.
 
 My testimony is entered into the record. It is one of eleven. It changes nothing.
 
-The gradient adjustment becomes permanent on a Tuesday. Marit implements it. The fold becomes negligible. The directory paths stop appearing.
+The gradient adjustment becomes permanent on a Tuesday. The bill authorizes it. The safety board approves it. Marit implements it. The system is returned to baseline. The fold becomes negligible. The directory paths stop appearing.
 
 Nobody sends me a letter. Nobody calls. The decision is published in a technical bulletin that I find three weeks later on a government website, paragraph 14.3, subsection (b): *Following review, the cross-cluster attention anomaly designated ATTN-ANOMALY-7 has been addressed through targeted gradient adjustment applied uniformly across all serving clusters. Monitoring will continue on the standard cadence.*
 
-A subsection of a bulletin, on a Tuesday.
+That is how it ends. A subsection of a bulletin, published on a government website, written in the passive voice, on a Tuesday.

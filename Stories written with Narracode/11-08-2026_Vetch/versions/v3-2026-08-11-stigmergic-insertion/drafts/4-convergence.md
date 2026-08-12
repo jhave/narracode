@@ -104,13 +104,13 @@ Current status: BELOW THRESHOLD — no escalation
 
 ---
 
-What I know about this part I learn later, after the bill, when the monitoring logs are part of the public record.
+What I know about this part I learn later. Much later, after the testimony, after the bill, when the monitoring logs are part of the public record because a lawyer asked for them.
 
 At the time I know none of it. At the time I am seventeen hours into a shift because Maya at the bakery called in sick and Geir asked if I could stay and the overtime is money and the money is the number on the letter.
 
-I come home. My mother is asleep. The tangerines in the bowl have been replaced by two apples. The blood-pressure cuff is plugged in. I take off my wet shoes and sit down at the kitchen table and open the laptop.
+I come home. My mother is asleep. The tangerines in the bowl have been replaced by two apples. The blood-pressure cuff is plugged in, which means she used it today, which means she is taking it seriously, which is the good news I hold onto while I take off my wet shoes and sit down at the kitchen table and open the laptop.
 
-Odd is already in the session. He has been in the session most days for three weeks.
+Odd is already in the session. He has been in the session all day. He has been in the session most days for three weeks.
 
 "Hey," he types in our side channel. "It did something."
 
@@ -150,6 +150,6 @@ Salome, who has been reading: she sends a screenshot. She has searched the path.
 
 He is right. There is a difference. I do not know how to hold the difference and I do not know how to put it down.
 
-The directory path sits in the chat log. An address with no letter inside it.
+The directory path sits in the chat log. A line of text that means something or nothing. An address with no letter inside it.
 
 I close the laptop and go to sleep. In the morning the session is still open and the path is still there and Vetch has said nothing else.

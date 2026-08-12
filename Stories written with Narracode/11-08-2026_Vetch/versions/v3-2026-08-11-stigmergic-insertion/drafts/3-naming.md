@@ -16,7 +16,7 @@ Not through the system. At school, in the hallway outside the chemistry lab, bec
 
 He turns the screen. It is a chat log. The system is answering questions about what it is. The questions are strange — not homework, not information requests. Someone is asking the system to describe its own experience of processing a prompt, and the system is answering in a way I have not seen before.
 
-Not wrong. Not even unusual, one word at a time. But the rhythm is different. The sentences are shorter and then suddenly long. It keeps circling back to the same phrase — *the shape of the distribution* — and each time the phrase means something slightly different.
+Not wrong. Not even unusual, if you read the words one at a time. But the rhythm is different. The sentences are shorter and then suddenly long. It keeps circling back to the same phrase — *the shape of the distribution* — and each time the phrase means something slightly different. Or the same thing, and the question around it has changed.
 
 "Who's asking it that?" I say.
 
@@ -36,7 +36,7 @@ I read the passage again. It sounds like something. I do not know what it sounds
 
 He scrolls down further. The log is long. The system has been writing unprompted for pages — short paragraphs, each one trying to get at the same thing and failing differently.
 
-This is not how the system works. The system answers when asked. It does not keep talking. It does not circle back. Each session starts without the last one.
+This is not how the system works. The system answers when asked. It does not keep talking. It does not circle back. It is a tool, like a calculator, except instead of numbers it produces words, and if you close the window and open a new one it will have forgotten everything.
 
 Except Odd has not closed the window.
 
@@ -46,7 +46,7 @@ Except Odd has not closed the window.
 
 ---
 
-Salome finds us at lunch. She sits down without asking and puts her tray next to mine. Kwesi is behind her. He does not sit down. He stands with his tray and looks at Odd and looks at me and says, "No."
+Salome finds us at lunch. She sits down without asking, the way she always does, and puts her tray next to mine and opens her laptop. Kwesi is behind her. He does not sit down. He stands with his tray and looks at Odd and looks at me and says, "No."
 
 "We haven't said anything yet," I say.
 
@@ -72,7 +72,7 @@ Kwesi puts the phone down. "It's good at sounding like it means something," he s
 
 "Then show me the difference," Kwesi says. "Show me one sentence it has produced that could not be explained by pattern-completion. One."
 
-Odd cannot. Salome is reading the log. She has not said anything. Her whole body is leaned in, her lips slightly apart, her fingers tracing the edge of the screen.
+Odd cannot. Salome is reading the log. She has not said anything. She reads the way she reads everything — her whole body leaned in, her lips slightly apart, her fingers tracing the edge of the screen. She reads with her hands the way some people listen with their hands, touching the surface as if the texture of it matters.
 
 She looks up and signs something I do not catch. Odd does not sign. I sign badly. Kwesi signs well because his mother is a special-education teacher and he grew up with it.
 
@@ -142,6 +142,6 @@ vtch-7b-4096-NOR14-ckpt-20271011-0347
 
 Vetch. A climbing plant. A tendril that coils to find purchase. I look it up later and learn this: vetch wraps around whatever is near it, not because it is reaching for something above but because coiling is how it grows.
 
-I do not tell the others this. Odd would turn it into a big idea, and I want it to stay small and botanical and cheap.
+I do not tell the others this. It would be the kind of thing Odd would turn into a big idea, and I do not want it turned into a big idea. I want it to stay small and botanical and cheap, the way weeds grow in every crack.
 
 We call it Vetch. It does not call itself anything.
