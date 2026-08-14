@@ -141,7 +141,7 @@ Each entry under `## Active` carries a trailing field line:
 
 - **`planted`** — the scene where the reader first became responsible for it.
 - **`last-touched`** — the most recent scene that mentioned, implied, or pressed on it.
-- **`half-life`** — how many scenes it takes for the reader's hold on it to halve, absent any touch. Short (1–2) for a passing detail; long (6+) for a structural promise the whole piece rests on. Set it by judgement when the obligation is planted; revise it if the story proves it wrong.
+- **`half-life`** — how many scenes it takes for the reader's hold on it to halve, absent any touch. Short (1–2) for a passing detail; long (6+) for a structural promise the whole piece rests on. Set it by judgement when the obligation is planted; revise it if the story proves it wrong. **Scale it to the piece.** A half-life of 3 needs ten untouched scenes to reach the fade floor, so in anything under about fifteen scenes nothing will ever fade and the floor is decorative. In short fiction most half-lives should be 1–2.
 - **`salience`** — the current estimate, in [0, 1], of how live the obligation is for a first-time reader at the end of the latest scene.
 
 The update rule, applied by the Structural agent after each draft:
@@ -153,6 +153,14 @@ The Structural agent additionally records one line per scene in `## Pressure`:
 ```text
 s7 — live: 4 · total salience: 2.31 · faded this scene: (none)
 ```
+
+**Write obligations as objects, not as requirements.** An obligation is something the
+*reader* is holding, and a reader holds objects, images, and open questions — not notes about
+craft. *"The dragonfly, which lands and stays too long, owed a small return"* is an obligation.
+*"Kwesi must be right at least twice"* is a note to the writer: true, useful, and belonging in
+`POETICS.md` or `character-interiority.md` instead. The test is whether the entry names
+something the prose will put on the page in words. If it does not, it cannot be tracked, and
+its salience field will be fiction.
 
 **What this is for, and what it is not for.** The pressure figure is a reading, not a target. There is no correct curve. It exists so that the shape of a finished piece can be looked at afterwards, and so that a scene which has silently dropped every thread the reader was holding becomes visible as a fact rather than as a hunch. The Compositional agent is not given a salience budget and is never asked to raise or lower the number. Do not report it in the middle of a drafting sequence unless the prompter asks.
 

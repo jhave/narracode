@@ -63,7 +63,16 @@ class Obligation:
 
     def touched_by(self, scene_text: str) -> bool:
         low = scene_text.lower()
-        return any(re.search(p.lower(), low) for p in self.probes)
+        for probe in self.probes:
+            try:
+                if re.search(probe.lower(), low):
+                    return True
+            except re.error as exc:
+                # A malformed probe is an authoring error in obligations.md, not
+                # a reason to lose the whole run. Report it and treat as no match.
+                print(f"warning: bad probe {probe!r} on {self.label!r}: {exc}",
+                      file=sys.stderr)
+        return False
 
 
 def _parse_fields(line: str, ob: Obligation) -> None:
@@ -109,6 +118,18 @@ def parse_obligations(path: Path, sections: tuple[str, ...]) -> list[Obligation]
         elif obs and FIELD_RE.match(raw):
             _parse_fields(raw, obs[-1])
     return obs
+
+
+def scenes_from_files(paths: list[Path]) -> list[tuple[int, str]]:
+    """One file per scene, ordered by any leading integer in the filename."""
+    def key(p: Path) -> tuple[int, str]:
+        m = re.match(r"(\d+)", p.name)
+        return (int(m.group(1)) if m else 10**6, p.name)
+
+    return [
+        (i, p.read_text(encoding="utf-8"))
+        for i, p in enumerate(sorted(paths, key=key), start=1)
+    ]
 
 
 def split_scenes(draft: Path) -> list[tuple[int, str]]:
@@ -230,7 +251,9 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("story", type=Path, help="story folder")
-    ap.add_argument("--draft", required=True, help="draft path, relative to story folder")
+    g = ap.add_mutually_exclusive_group(required=True)
+    g.add_argument("--draft", help="single draft file, relative to story folder")
+    g.add_argument("--drafts-glob", help="glob for one-file-per-scene, e.g. 'drafts/*.md'")
     ap.add_argument("--obligations", default="structural/obligations.md")
     ap.add_argument("--sections", default="active,added",
                     help="comma-separated obligations.md headings to read")
@@ -239,18 +262,29 @@ def main() -> int:
     args = ap.parse_args()
 
     ob_path = args.story / args.obligations
-    draft = args.story / args.draft
-    for p in (ob_path, draft):
-        if not p.exists():
-            print(f"error: {p} not found", file=sys.stderr)
+    if not ob_path.exists():
+        print(f"error: {ob_path} not found", file=sys.stderr)
+        return 1
+
+    if args.drafts_glob:
+        paths = sorted(args.story.glob(args.drafts_glob))
+        if not paths:
+            print(f"error: no files match {args.drafts_glob}", file=sys.stderr)
             return 1
+        scene_src = lambda: scenes_from_files(paths)
+    else:
+        draft = args.story / args.draft
+        if not draft.exists():
+            print(f"error: {draft} not found", file=sys.stderr)
+            return 1
+        scene_src = lambda: split_scenes(draft)
 
     sections = tuple(s.strip().lower() for s in args.sections.split(","))
     obs = parse_obligations(ob_path, sections)
     if not obs:
         print(f"error: no obligations parsed from {ob_path}", file=sys.stderr)
         return 1
-    scenes = split_scenes(draft)
+    scenes = scene_src()
     rows = run(obs, scenes)
 
     print(f"\n{args.story.name} — {len(obs)} obligations, {len(scenes)} scenes\n")

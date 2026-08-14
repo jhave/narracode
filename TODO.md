@@ -30,13 +30,28 @@ quantity that becomes a goal stops describing the story and starts writing it. N
   **The signature of refused resolution is a monotone curve with no fades** — which predicts
   that a conventionally resolving story shows sawtooth instead. Testable with one more story
 
+### Done (continued)
+- [x] **Experiment 1 run blind on Vetch (Spiral Brief) and Alpha-Gaia (Garaiv).** Probes
+  pre-registered and committed before any draft was opened (`10f8b48`, `a6fe4d0`). Results in
+  `plans/2026-08-14_exp1-three-stories.md`. Three stories, three distinguishable curve shapes:
+  accumulate-and-hold, rise-and-release, rise-dip-recover
+- [x] **Obligations must be written as objects, not requirements** — the finding that came out
+  of comparing the two blind probe sets. Alpha-Gaia names objects and the probes worked; Vetch
+  names craft requirements and nothing could be counted. Now in `narracode.md`
+- [x] **Half-lives must scale to the piece** — at half-life 3 an obligation needs ten untouched
+  scenes to fade, so nothing faded in 36 obligations across three stories. Short fiction wants
+  1–2. Now in `narracode.md`
+
 ### Next
-- [ ] **Push `Garaiv` and `Spiral Brief`** — neither exists in this repo (checked working
-  tree, all branches, full history, tags). Everything below is blocked on them
-- [ ] Run Experiment 1 on both, **blind**: write probes from `obligations.md` alone, before
-  opening the draft, and do not revise them after seeing where they fire. The *Interim Edge*
-  probes were written with the answer in view — that run shows the tool works, not that the
-  metric means anything
+- [ ] **jhave ranks the three stories.** This is the falsification condition and it is the only
+  step that needs him. The curves separate the stories from each other; whether they separate
+  the ones he rates highly is still unanswered
+- [ ] Recalibrate half-lives to 1–2 and re-run all three. The current values are my guesses
+- [ ] Decide whether the annotated `obligations.md` for Vetch and Alpha-Gaia should be pushed
+  to their own branches (I did not touch either branch)
+- [ ] Look at Alpha-Gaia's three ledger findings: the greyed field was never planted, ID-V2V
+  appears in §3 only and does not carry the ending, the park drops out of §4–§5. Two of the
+  three were risks that file had already named itself
 - [ ] Run `on_affect_discovery` on both after draft 2. Read the prose beside the proposed
   `affect.md`. This is the only question that matters before anything else gets built:
   **does a written-down vitality contour help the prose, or does it re-import the rendering
