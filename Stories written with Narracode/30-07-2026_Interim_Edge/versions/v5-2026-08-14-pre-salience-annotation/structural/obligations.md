@@ -2,33 +2,20 @@
 
 ## Active (planted, to remain open)
 - **RS-09** — segment with an empty definition field, sunset three times, re-forming. Behaviour signature *initiate, interrupt, return*. Whether Ahmani is in it. Who keeps re-instating it. (Never answer.)
-  planted: s1 | half-life: 4 | probes: RS-09|empty definition|sunset|initiate, interrupt
 - **The white-haired woman** — dream figure who surfaces in licensed stock, then possibly in the street. Whether she is one person, a face-model, or a recurrence. (Never answer.)
-  planted: s0 | half-life: 3 | probes: white-haired|white hair|face-model|licensed
 - **The balloon** — fourth-floor landing. Fuller one week than the last. Who touches it. (Never answer.)
-  planted: s0 | half-life: 3 | probes: balloon
 - **Lara's Thursdays** — where she goes, what the field site is, why she comes back smelling of chlorine. (Never answer.)
-  planted: s2 | half-life: 4 | probes: Thursday|chlorine|field site
 - **Chapter four** — the chapter of her thesis she will not let him read. *Not yet.* (Leave open.)
-  planted: s2 | half-life: 5 | probes: chapter four|her thesis|thesis
 - **The phrase in her sleep** — repeated, partly audible, addressed to someone. (Never answer.)
-  planted: s2 | half-life: 3 | probes: in her sleep|sleep-phrase|says it again|asleep
 - **The package** — his mother posted it; tracking says delivered; nothing arrived. (Never answer.)
-  planted: s3 | half-life: 4 | probes: package|posted|tracking|delivered
 - **Peter Ganz** — off the org chart, on the calendar. What happened. (Never answer.)
-  planted: s1 | half-life: 5 | probes: Ganz
 - **The lace** — his shoe comes untied at the moments the dream is nearest. (Leave open, never remarked on by the narration.)
-  planted: s0 | half-life: 2 | probes: lace|shoe|untied|tie his shoe
 
 ## Added in composition (loop 0–1)
 - **The delivery slip** — *Attempted 08:40. Signed for by resident.* Addressed to A. MANI, flat 6. He pockets it and does not tell his mother. (Never answer. Note it does not resolve the package — it doubles it.)
-  planted: s3 | half-life: 3 | probes: delivery slip|Attempted 08:40|signed for|A\. MANI|flat 6
 - **The door on four** — chained in §3, standing open a hand's width in §6, dark, no television. He pulls it to without touching the latch. (Never answer.)
-  planted: s3 | half-life: 3 | probes: door on four|chained|hand's width|the latch
 - **The wiped field** — *people who stop to tie their shoe* saved with a green tick, timestamp, his initials in the audit column; empty by morning, no audit line, initials gone. Job at four, or something that reads the fields. Lara says one; he says the other; the story says neither.
-  planted: s4 | half-life: 3 | probes: green tick|audit column|audit line|wiped|initials
 - **The fourteen months** — arrives unmotivated in §1, has *moved again* by §6 and is never checked against anything. Deliberately not a countdown.
-  planted: s1 | half-life: 6 | probes: fourteen months|moved again
 
 ## Resolved
 - (none — resolution refused as formal principle)
