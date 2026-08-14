@@ -200,7 +200,8 @@ def run(obs: list[Obligation], scenes: list[tuple[int, str]]) -> list[dict]:
     return rows
 
 
-def plot(rows: list[dict], obs: list[Obligation], scenes, out: Path) -> None:
+def plot(rows: list[dict], obs: list[Obligation], scenes, out: Path,
+         title: str = "", subtitle: str = "") -> None:
     try:
         import matplotlib
         matplotlib.use("Agg")
@@ -217,7 +218,8 @@ def plot(rows: list[dict], obs: list[Obligation], scenes, out: Path) -> None:
     ax1.plot(xs, [r["total_salience"] for r in rows], marker="o", lw=2, color="#1f3a5f")
     ax1.fill_between(xs, [r["total_salience"] for r in rows], alpha=0.15, color="#1f3a5f")
     ax1.set_ylabel("total live salience")
-    ax1.set_title("Reader pressure — total obligation salience per scene")
+    ax1.set_title(f"{title} — reader pressure" if title
+                  else "Reader pressure — total obligation salience per scene")
     ax1.grid(alpha=0.25)
 
     # Per-obligation trace, recomputed for display.
@@ -235,12 +237,27 @@ def plot(rows: list[dict], obs: list[Obligation], scenes, out: Path) -> None:
         ax2.plot(xs, trace, marker=".", lw=1.2, alpha=0.8, label=ob.label[:34])
 
     ax2.axhline(FADED_FLOOR, ls="--", lw=1, color="#999")
-    ax2.text(xs[0], FADED_FLOOR + 0.02, "faded", fontsize=8, color="#666")
+    ax2.text(0.995, FADED_FLOOR + 0.015, "faded", transform=ax2.get_yaxis_transform(),
+             fontsize=8, color="#666", ha="right")
     ax2.set_xlabel("scene")
     ax2.set_ylabel("salience")
     ax2.set_ylim(0, 1.05)
     ax2.grid(alpha=0.25)
     ax2.legend(fontsize=7, ncol=2, loc="upper right", framealpha=0.9)
+
+    # The lower-left quadrant is reliably empty: salience only decays, so no
+    # trace lives down there. Name the story in it.
+    if title:
+        ax2.text(0.015, 0.20, title, transform=ax2.transAxes,
+                 fontsize=19, fontweight="bold", color="#1f3a5f", va="bottom")
+        if subtitle:
+            ax2.text(0.015, 0.135, subtitle, transform=ax2.transAxes,
+                     fontsize=9.5, color="#556", va="bottom")
+        ax2.text(0.015, 0.045,
+                 f"{len(obs)} obligations · {len(scenes)} sections · "
+                 f"total salience {rows[0]['total_salience']:.2f} → "
+                 f"{rows[-1]['total_salience']:.2f}",
+                 transform=ax2.transAxes, fontsize=8.5, color="#778", va="bottom")
 
     fig.tight_layout()
     fig.savefig(out, dpi=150)
@@ -259,6 +276,8 @@ def main() -> int:
                     help="comma-separated obligations.md headings to read")
     ap.add_argument("--csv", type=Path)
     ap.add_argument("--plot", type=Path)
+    ap.add_argument("--title", default="", help="story title, drawn on the chart")
+    ap.add_argument("--subtitle", default="", help="one line under the title")
     args = ap.parse_args()
 
     ob_path = args.story / args.obligations
@@ -307,7 +326,7 @@ def main() -> int:
             w.writerows(rows)
         print(f"\nwrote {args.csv}")
     if args.plot:
-        plot(rows, obs, scenes, args.plot)
+        plot(rows, obs, scenes, args.plot, args.title, args.subtitle)
     return 0
 
 

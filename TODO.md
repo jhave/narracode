@@ -42,6 +42,33 @@ quantity that becomes a goal stops describing the story and starts writing it. N
   scenes to fade, so nothing faded in 36 obligations across three stories. Short fiction wants
   1–2. Now in `narracode.md`
 
+### The engagement wormhole (opened 2026-08-14)
+The uncomfortable finding: **the obligation ledger and the cliffhanger engine measure the same
+variable.** Vertical micro-drama has operationalised the Zeigarnik effect — unfinished things
+occupy memory more than finished ones — which *is* obligation salience, arrived at decades
+earlier and with a sample size no humanities department will have. Interim Edge's curve
+(monotone, zero fades, terminal re-arming) is structurally an optimised retention curve. The
+metric is blind to why.
+
+- [ ] **Build the second axis.** Salience says *how much* the reader is holding. The missing
+  measure is *what kind*: closable vs unclosable, plot-instrumental vs perceptual. Crossed
+  against salience it separates the two practices the single number confuses. This is the
+  actual research question now
+- [ ] Test the claim that **release is the literary signature**. Vetch VIII touches one
+  obligation of eleven — a move no retention format can make, because releasing the reader is
+  what it exists to prevent. If that holds across more stories it is the strongest thing here
+- [ ] Read the industry material as *instrumentation*, never as objective. Retention tuning at
+  second-level resolution is a measurement achievement; the objective function attached to it
+  is the opposite of the harness's purpose
+- [ ] **The asymmetry to keep written down:** Ely-Frankel-Kamenica is a *design* theorem — the
+  same mathematics serves the novelist and the retention engineer. Engagement optimisation has
+  economic gravity behind it and literary refusal has none, so a harness permitted to optimise
+  its own numbers drifts to the vertical-drama attractor by default, not by decision
+
+### Presentation
+- [x] `2026-08-14_the-obligation-ledger.html` — slow, step-by-step account for a literary
+  audience. Defines every term, numbers the passes, states what is *not* established
+
 ### Next
 - [ ] **jhave ranks the three stories.** This is the falsification condition and it is the only
   step that needs him. The curves separate the stories from each other; whether they separate
