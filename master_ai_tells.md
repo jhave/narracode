@@ -125,6 +125,36 @@ Glossing the world's idiocy instead of quoting it. *Bag saying COFFEE in the fon
 - **Remedy**: quote real ad-speak, unglossed. Give the object its texture and say nothing about it.
 - **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
 
+### 18. Statistic-with-a-shrug
+A figure followed by a clause performing worldly non-surprise at it. *…the largest single-decade reduction ever recorded, and no parliament voted for any of it.* Distinct from class 2: the trailing comment supplies **knowingness** rather than feeling. The number does the work; the shrug asks to be admired for having expected it.
+
+- **Remedy**: keep the number. CUT the shrug, or let a character shrug out loud.
+- **Rate cap**: 1 per piece.
+- **Provenance**: found by tell-scan, *Alpha-Gaia*, 2026-07-31 — three written during composition, one kept.
+
+### 19. The false-plainness list
+Four to nine concrete nouns delivered flat, the last arriving from a different order of magnitude or a different century, so that range reads as authority. *…methane inventories, the seed-catalogue archive, phenology notebooks kept by a Norfolk schoolteacher between 1961 and 1994.* Not class 9 — the list is too long to be a triad and the effect is documentary rather than comic — but the designed final item is the same move at scale.
+
+- **Remedy**: move the outlier off the end, or shorten the list until it stops performing.
+- **Rate cap**: 1 per section, 2 per piece.
+- **Provenance**: found by tell-scan, *Alpha-Gaia*, 2026-07-31 — 2 in 4,600 words, at cap.
+
+### 20. Genre-average instead of document-shape
+Writing a news article, a disclosure, a memo, or an abstract from a **memory of the genre** rather than from the actual document. The result is fluent and wrong in a way that is hard to name: the register is roughly right, and every specific is invented. It shows up as headlines that withhold, subtitles that perform, ledes that reach for a figure, and mechanism sentences that turn into metaphor because nothing concrete was on hand.
+
+- **Diagnostic**: could a reporter on deadline have written this sentence? If it is doing something a working journalist would not do, the story's voice has leaked into the world.
+- **Remedy**: fetch the source. Take its furniture — headline shape, subtitle function, lede length, where the mechanism sits, how sources are introduced, what the subheads are called. Then reset the content. Specifics recovered this way are unreachable otherwise: *There is currently no treatment or cure*; rolling dated updates stacked above a disclosure's body; a numbered *Actions we are taking now*.
+- **Sub-tell — narration metaphor inside reportage.** In the *Nature* piece under study the count of figurative constructions in the reporter's own narration is **zero**; the one metaphor in the article sits inside a quotation mark, where a named researcher put it. Any figure in a feed item's narration is a hit.
+- **Provenance**: jhave, 2026-07-31, on *Alpha-Gaia* §1 — *"journalism does not write clever metaphors."* Seven narration figures in the section; all seven went.
+
+### 21. The doubled-because prelude
+A sentence whose only job is to introduce the next sentence, propped up by two parallel `because` clauses. Form: **[assertion that a thing is worth attending to] + because [X] + and because [Y]**.
+
+- **Example**: *The original disclosure is worth reading again, because it is short and because almost nothing in it was wrong.*
+- The two reasons are decorative and the parallelism is the giveaway — the second `because` exists for cadence, not for argument. Related to class 8 (the naming clause), but this one names the *forthcoming* material rather than the material just delivered.
+- **Remedy**: CUT the whole sentence. Start with the thing.
+- **Provenance**: jhave, 2026-07-31, on *Alpha-Gaia* §2 — *"This sentence is classic AI writing… Form: 'This is… because… and because…'"*
+
 ---
 
 ## Our own remedies are the next tells

@@ -42,7 +42,17 @@ Gaps we're leaving open for now, recorded so they don't get rediscovered as surp
 - **Does the registry generalise across projects, or is it per-poetics?** *Broccoli over legume* may be an Interim Edge fact or a jhave fact. Two more projects will tell
 - **Where the floor is.** At some constraint density prose becomes constraint-satisfaction. Worth finding deliberately, in a throwaway
 
-### 3. Interim Edge
+### 3. Alpha-Gaia (2026-07-31)
+- [ ] jhave editing pass on `drafts/4-alpha-gaia-plainspoken.md` — no direct human edits yet; seamless-edit diff starts whenever he touches a draft
+- [ ] Figure assets — five `Fig` blocks are diegetic render instructions (`Fig 0.1`–`Fig 4.5`). Fig 0.1 is now a full audio-description build, ~600 words, detailed enough to hand to an image model as-is
+- [ ] Homepage card + `metadata.md` entry when ready (both hand-maintained)
+- [ ] §1 is much the longest section after v3; the land/protein/opinion block is the movable part if the balance wants fixing — it could become its own feed item
+- [ ] **Open thread left deliberately unresolved:** the avoidance anomaly (sensitized people take *fewer* precautions; three replications; unexplained). It is the reader's hook and the one piece of evidence CONSTANT could have used and did not. Do not close it in a later pass without deciding to
+- [x] Registry classes 18 (statistic-with-a-shrug) and 19 (false-plainness list) appended to `master_ai_tells.md`
+- [x] Registry class 20 (**genre-average instead of document-shape**) — v2, 2026-07-31. The strongest finding of the project so far, and the one with the clearest procedure: fetch the source, take its furniture, reset the content. Sub-tell: narration metaphor inside reportage (the *Nature* piece carries **zero** figures in the reporter's own narration)
+- Second data point for **"does the registry generalise across projects?"** (Knowingly deferred #3): classes 1, 2, 8, 9, 11, 14 all fired again on a completely different poetics. Class 16 (accurate dull noun) and 17 (explained satire) did not fire — possibly Interim Edge facts
+
+### 4. Interim Edge
 - [ ] jhave editing pass on `drafts/7-condensed-final.md` §2–§6 (rewritten 2026-07-30 against his §1)
 - [ ] Image assets — figures are caption-only, `Fig 0.1`–`Fig 6.7` written and ready
 - [ ] Homepage card + `metadata.md` entry when he's ready to publish (both hand-maintained)
