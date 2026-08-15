@@ -65,6 +65,32 @@ metric is blind to why.
   economic gravity behind it and literary refusal has none, so a harness permitted to optimise
   its own numbers drifts to the vertical-drama attractor by default, not by decision
 
+### From the DeepSeek Harness evaluation (2026-08-14)
+Full report in `plans/2026-08-14_deepseek-harness-evaluation.md`.
+
+- [x] **Composition manifest** — dsh's hard invariant is *model-visible means logged*. Narracode
+  could not satisfy it: structural files are overwritten every pass, so "what was the model looking
+  at when it wrote this" is unrecoverable across all 26 stories. Now a sidecar per draft. This is
+  load-bearing for TODO §A and Experiment 4 — a diff corpus without the context term teaches
+  imitation of edits rather than different decisions from the same inputs
+- [x] **Seam gate on structural files** — "one role alone is not a seam." Every structural file now
+  declares its writer and its *required reader*; a file no pass must read does not get created.
+  This is the retrospective diagnosis of the 82-day `affect.md` dormancy: it was a schema with no
+  consumer, and that is a predictable failure, not forgetfulness
+- [ ] **Refusal log** *(proposed, needs jhave)* — dsh keeps a rejected request as a durable fact
+  "so the log records the attempt." Narracode records drafts written, never drafts declined. For
+  literature the refusals may be the more interesting half. Note the self-referential warning: by
+  the rule above, a refusal log currently has no required reader
+- [ ] **`on_effective`** *(proposed)* — dsh ships `--dump-config` because a layered system whose
+  effective state cannot be inspected cannot be reasoned about. Narracode is now layered
+  (harness + POETICS commitments + Refusals + Discovered disciplines + failure signatures + tells
+  registry + edit-observations) with no way to ask what is actually constraining the next scene
+- [x] **Refused: compaction.** The one dsh package whose name resembles a Narracode need is the one
+  to reject. Summary is where literary information dies; the harness already says so. If structural
+  memory must shrink it shrinks by demotion to an archive, never by summarisation
+- [x] **Refused: the plugin tree.** ~50 packages vs one 510-line file a writer can read in a
+  sitting. That is the distribution model, not a limitation to outgrow
+
 ### Presentation
 - [x] `2026-08-14_the-obligation-ledger.html` — slow, step-by-step account for a literary
   audience. Defines every term, numbers the passes, states what is *not* established

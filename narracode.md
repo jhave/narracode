@@ -53,6 +53,8 @@ The system operates lazily. Only create these additional folders when specifical
 
 The structural folder is not a plot outline. It is the story's working memory. Keep entries brief, inspectable, and useful for the next pass.
 
+**Every structural file declares a writer and a required reader.** Before creating one, name the pass that writes it and the pass that *must* read it. If the second is empty, do not create the file — the content belongs in an existing one. A structural file that no pass is obliged to consult is not a module, it is a note, and it will be ignored. This rule exists because `affect.md` was designed, implemented, and then read by nothing for eighty-two days: it had a schema and no consumer.
+
 **`graph.md`** records characters, entities, institutions, places, and relations among them. Track relation changes, not every mention.
 
 **`time-constants.md`** records chronology, durations, simultaneities, deadlines, elapsed time, and physical constraints that cannot be contradicted.
@@ -242,6 +244,39 @@ Three rules follow, and they govern the module more than the schema does.
 
 **Effects go last and come off first.** When a scene is not working, the affect layer is the first thing to reduce, not the first thing to increase. The instinct to fix a flat scene by adding interiority is the instinct that produces the sentimental default this harness exists to interrupt. Cut to dry, see whether the event still carries, and only then decide what to put back.
 
+## The composition manifest
+
+**What the Compositional agent saw is recorded.** Every draft is written from a specific state of
+the structural memory, and that state is overwritten by the next Structural pass. Without a record,
+the question *what was in front of the model when it wrote this* becomes unanswerable within a day —
+and it is the question every later analysis of the draft depends on.
+
+So each draft carries a sidecar, written by `pre_draft` immediately before composition:
+
+```text
+drafts/[N]-[short-name].context.md
+```
+
+It is short and mechanical. List every file the Compositional agent was given, with its size and a
+short content hash, then the state that governed the pass:
+
+```text
+# Composition context — 5-rot.md
+composed: 2026-08-14T09:12
+POETICS.md                        4.1 KB  a3f91c
+structural/obligations.md         2.7 KB  7b0e42
+structural/character-interiority.md 3.3 KB 1c8dd0
+structural/affect.md              2.2 KB  e40b17   (confirmed)
+drafts/4-convergence.md           6.0 KB  92aa5e
+mix level: low
+obligation pressure at entry: 6.68 across 7 live
+direction from prompter: "keep going, but she doesn't get to say it"
+```
+
+Do not summarise, interpret, or evaluate in this file. It is a record of inputs, not a reading of
+them. If a new kind of input ever becomes visible to the Compositional agent, it is added here in
+the same pass that introduces it.
+
 ## The agent roles
 
 You operate in one role per invocation. Do not mix. The separation is the mechanism.
@@ -308,7 +343,8 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
   1. Run the Structural agent — read all current drafts; update every file in `structural/`.
   2. Read `POETICS.md`, all `annotations/`, the current structural state, the latest draft, and the prompter's current direction.
   3. Update obligation salience per *§ Obligation salience*: reset touched entries, decay untouched ones, move anything below 0.1 to `## Faded`, append the scene's `## Pressure` line.
-  4. Internally infer the next scene's likely task: what obligation, character-arc pressure, cathartic inflection point, unresolved event, motif, reader expectation, or plausible expectation-defiance might matter now. When `affect.md` is present and confirmed, this inference includes the vitality contour the scene should trace, the reader-affect target it should open, and the mix level it will run at. Do not present these options unless the prompter asks.
+  4. Write the composition manifest for the draft about to be written, per *§ The composition manifest*. This is the last outer-loop action before the inner loop runs.
+  5. Internally infer the next scene's likely task: what obligation, character-arc pressure, cathartic inflection point, unresolved event, motif, reader expectation, or plausible expectation-defiance might matter now. When `affect.md` is present and confirmed, this inference includes the vitality contour the scene should trace, the reader-affect target it should open, and the mix level it will run at. Do not present these options unless the prompter asks.
 - **Confirmation.** Auto.
 
 ### `on_draft`
