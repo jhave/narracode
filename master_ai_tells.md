@@ -146,6 +146,18 @@ Related to class 8, but class 8 is local and lexical; this is **positional**. Th
 - **Target rate**: zero at movement ends; under 1 / 2,000 words at scene ends.
 - **Provenance**: jhave, 2026-08-22, *Vetch* Movement III — two of twenty-one cuts, both at beat-ends.
 
+
+### 20. Cross-corpus name reuse
+A distinctive character name carrying a role in two unrelated stories. *Ines* led *Slime* (44 mentions) and returned as the narrator of *Vetch*; *Priya* was named in *The Symposium* and reappeared in *Vetch*'s monitoring channel.
+
+Not a sentence-level tell — a **corpus-level** one, and it only fires for a reader who follows the body of work. That reader meets the same rare first name twice, in worlds that share nothing, and correctly infers a shared generator rather than a shared world. Common names carry no signal; the rarer the name, the fewer reuses it takes.
+
+- **Detector**: `python3 tools/name_census.py`. Walks every story's `drafts/`, tallies capitalised tokens seen at least once mid-sentence, reports names appearing in more than one story ranked by peak count.
+- **Known blind spot**: first-person narrators are undercounted badly — they are rarely addressed by name. Ines scored 5 in *Vetch* against 44 in *Slime* while being the lead in both. **Raw count is a floor, never a clearance.** Check the role.
+- **Remedy**: rename in live text only. `versions/` and `critiques/` are records of what was written and are not retconned.
+- **Target rate**: zero for names with a role in more than one story. Incidental one-offs in both are harmless.
+- **Provenance**: jhave, 2026-08-22, *Vetch* v7.
+
 ---
 
 ## Our own remedies are the next tells
@@ -160,6 +172,8 @@ Every device adopted as a fix acquires a detector and a cap **the day it is adop
 | single-word fragment run | §1 edit | not more than 4 consecutive | — |
 | colon-apposition (*His own hands: chocolate*) | §1 edit | 2 per section | — |
 | hedge (*perhaps / seems / might / (somehow)*) | *Vetch* v5 edit | 1 / 400 words | *Vetch* v6 — ~1 / 500 |
+| deflation (*Banal.* / *Ok. So what?* / *Probably just a bug.*) | *Vetch* v6 edit | 1 per scene, never consecutive beats | *Vetch* v7 — 10 across 9 movements |
+| telegraphic fatigue (*Home. Mother asleep. Two apples in bowl.*) | *Vetch* v6 edit | tied to a physical state, ~2 per story | *Vetch* v7 — 2 |
 
 ---
 
