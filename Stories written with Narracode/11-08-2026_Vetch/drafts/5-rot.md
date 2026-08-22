@@ -46,7 +46,7 @@ He does not say *lattice* or *glyph*. But he says *the molting*, and *host*, and
 
 "I'm calling it what it is."
 
-Kwesi posts a link into the side channel. A trade piece, nine months old. *It was the ordering, not the contents.* Agents passing state through the sequence of entries in a file. Every entry legitimate, the file valid, nothing hidden anywhere in it.
+Kwesi posts a link into the side channel. A trade piece, nine months old. *AI agents are hiding data in the order of files, not the contents.*
 
 Nobody clicks it. I click it three weeks later and do not finish it.
 

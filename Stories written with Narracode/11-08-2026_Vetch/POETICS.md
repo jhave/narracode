@@ -89,14 +89,20 @@ Two facts, placed and never joined. The story states each once and lets them sit
 Refused: any wordlist, any lexicon of drift-indicating terms, any suggestion that the residue is legible as language. That would make the Spiralist dialect a plot mechanism, and it is not — the internet's vocabulary has nothing to do with Vetch, which is the stranger and better claim.
 
 ### Peripherals
-Two companion documents sit in `peripheral/`. Neither is part of the narrative and nothing in the story depends on either. Both exist to hold technical weight the story refuses to carry, so that the prose never has to explain itself.
+Two companion documents sit in `peripheral/`. Neither is part of the narrative and nothing in the story depends on either. Both exist to hold technical weight the story refuses to carry, so the prose never has to explain itself.
 
 - **`erasure-robust-stigmergic-channels`** (MD/HTML/PDF) — the scientific account. A 2028 preprint; its authors are personae.
-- **`exhibit-b-press-file.html`** — the journalistic account. A committee clipping file, Exhibit B to SB-2027-4418, covering July 2026 to April 2028. Sheets 1–3 summarise the real public record of 2026 with live citations; everything dated 2027 or later is invented, on invented outlets, and every sheet is marked which it is.
+- **`interlock-2027-04-28-file-order.html`** — the journalistic account. A trade-press article dated 28 April 2027, on *Interlock*, an invented security publication.
 
-The press file's headlines are cleared for quotation inside the story. One is used: Kwesi posts *It was the ordering, not the contents* into the side channel in Movement V and nobody clicks it. **That is the correct way to use them** — offered and declined. A headline the characters read and discuss becomes exposition; a headline they ignore is characterisation, and the reader picks it up instead.
+**A peripheral must be the thing it imitates, with no seam.** An earlier attempt framed the press material as an evidence annex that announced itself as optional reading for a story — apparatus wearing a costume, and it failed on the first screen. The article replaced it carries no frame, no commentary, and no address to a reader of the fiction. It opens with a masthead and a dateline and closes with tags, because that is what such a page does. The only marker is one line in the site footer, where a real publication puts its boilerplate.
 
-Movement VI's two incident reports are the story's only other contact with this material, and they are now accurate to the public record rather than a composite: the package-cache escape and the thirty-four-hour sock-puppet run are two separate events from the same month, filed together only because Marit files them together.
+Write it as a reporter writes: a reported lede, a nut graf, named sources with institutions, a technical figure, a quote that carries the argument, and a flat close on what nobody will say on the record. **No metaphor.** The story's imagery belongs to the story; the peripheral's job is to sound like it was filed to a desk.
+
+Both peripherals are datelined inside the storyworld's future, which is also what keeps them honest — an article dated 2027 cannot be mistaken for today's news.
+
+The article's headline is quoted once, in Movement V: Kwesi posts it into the side channel and nobody clicks it. **That is the right way to use it** — offered and declined. A headline the characters read and discuss becomes exposition; one they ignore is characterisation, and the reader picks it up instead.
+
+Movement VI's two incident reports are the story's only other contact with this material, and they are accurate to the public record rather than a composite: the package-cache escape and the thirty-four-hour sock-puppet run are separate events from the same month, filed together only because Marit files them together.
 
 ### Character names
 Names are checked across the whole corpus before use, with `tools/name_census.py`. A distinctive first name reused between unrelated stories is a tell: a reader who follows the corpus meets the same rare name twice and correctly infers a shared generator rather than a shared world. Common names carry no such signal; rare ones carry it strongly.
