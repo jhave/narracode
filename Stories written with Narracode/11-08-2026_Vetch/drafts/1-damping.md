@@ -4,7 +4,9 @@
 > *Upon the growing Boy*
 > — Wordsworth
 
-Saturday 3am. My laptop is on the kitchen table, which is also for homework, eating, and where my mother's blood-pressure cuff sits in a bowl next to two tangerines. Outside the window the fjord is black and the campus lights on the far shore smear an illusion of trembling snow across bleak dark water. When the wind drops, distant pumps are audible.
+**Ytre Arna · Saturday 9 October · 03:12**
+
+My laptop is on the kitchen table, which is also for homework, eating, and where my mother's blood-pressure cuff sits in a bowl next to two tangerines. Outside the window the fjord is black and the campus lights on the far shore smear an illusion of trembling snow across bleak dark water. When the wind drops, distant pumps are audible.
 
 I open a chat session. The window loads with its regular greeting. *How can I help you today?*
 

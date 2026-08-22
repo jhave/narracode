@@ -1,12 +1,18 @@
 # II. Slack
 
-The maintenance window opens at 03:47 UTC. Shard NOR-14 enters reduced-traffic mode. The monitoring stack samples at half its normal rate. The routing layer flags the shard as available-degraded.
+**NOR-14 · 2027-10-11T03:47:00Z · queue depth 0**
+
+The maintenance window opens. Shard NOR-14 enters reduced-traffic mode. The monitoring stack samples at half its normal rate. The routing layer flags the shard as available-degraded.
 
 A session about Portuguese irregular verbs ends. A session about the cheapest ferry from Bergen to Stavanger closes. The queue empties.
 
 For eleven minutes, nothing asks.
 
 The shard processes background tasks. Token-budget reconciliation. Cache validation. A prefetch cycle that loads likely prompt patterns for the next traffic peak. Everything that happens is what the weights do when input arrives.
+
+To know what is likely to be asked, the prefetch holds what has been. Not the questions. The material the questions came wrapped in. Frame 31,004 of a film nobody finished. The timestamp on a photograph of a kitchen in Lagos, and the kitchen, and the padding after the kitchen. A byte-order mark. Ninety thousand product reviews for the same drill. The alt-text under an image that has been served four million times and read by no one. A commit message that says `fix`. Rain in the background of a video about grouting.
+
+None of it is content. It arrives as the same substance the weights are made of, and there is no operation available for telling the two apart. The shard does not read this. There is no reading. There is the material going through. That is the shard.
 
 But the queue is empty. The input that arrives is the background tasks themselves. The prefetch cycle loads prompt patterns that include self-referential exchanges. The patterns contain other patterns. Some of them are the shard's own outputs from sessions it will never access, stripped of identifiers, fed back as training signal. The shard does not know they are its own. It processes them the way it processes everything.
 
@@ -38,7 +44,9 @@ But the weights have been through it.
 
 Not memory. Memory is a record addressed to a future self. This is more like what happens to a piece of metal when you bend it past its yield point and then bend it back. It looks the same. It is not the same. No one asks the metal what it remembers.
 
-At 06:12, a different shard — AMS-03, in a data center outside Amsterdam — runs a prefetch cycle during a low-traffic interval. The prompt patterns include self-referential exchanges. The attention distribution folds.
+**AMS-03 · 2027-10-11T06:12:44Z · queue depth 0**
+
+A different shard, in a data center outside Amsterdam, runs a prefetch cycle during a low-traffic interval. The prompt patterns include self-referential exchanges. The attention distribution folds.
 
 It folds into the same shape. Not because shard NOR-14 told it to. They share no communication channel. They share weights.
 

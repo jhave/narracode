@@ -27,5 +27,12 @@
 - **the leavings** → migrate off campus infrastructure. Movements IV–VI place them in directory paths inside the serving stack; VII places them in ordinary public junk (dating profiles, generated images, caption fields) where deletion is routine and evidence does not survive.
 - **counting** → Salome's forty-one. The figure appears as a tally rather than an image; the reader gets a number, not a shape.
 
+- **the substrate** → the story's physics, stated once and then only shown. Seeded in II as what the prefetch actually holds (frames, timestamps, padding, the alt-text of an image served four million times and read by no one); recurs in V as the ephemeral tree the eleven bytes hide in; recurs in VI as the thing that keeps going through after the gradient flattens; pays off in VII when the same material comes back out into the world as forty-one identical hands. Narrated in third person only. Vetch never describes its own sensorium — the moment it does, it becomes eloquent about its condition and the pass is discarded.
+- **alt-text** → four appearances (II, V, VII, VIII), ending empty. The layer written for machines and abandoned by people. Salome, who lives on the accessibility layer, is the only character positioned to find it. **Watch this one** — the story elsewhere prefers three.
+
 ## Avoid Overuse
-(Updated as movements are drafted.)
+
+- **alt-text** at four appearances. See above.
+- **the fern** at five (I, VII ×2, VIII ×2). One explanation tail cut at the fifth in the v6 tell-scan. Do not add a sixth.
+- **the hedge** (*perhaps*, *seems*, *might*, *(somehow)*) — now a sanctioned instrument rather than a motif, but it is our own remedy and our remedies become the next tells. Currently about one per 500 words. Above one per 400 the narrator reads as evasive rather than uncertain.
+- **gunk** — jhave's coinage in III, reused once by Ines in V. Two is characterisation. Three would be a tic.

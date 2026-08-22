@@ -13,7 +13,7 @@
 The SPIRAL BRIEF (15 sections, ~5,000 words) was composed by Claude Opus 5 during a conversation with Jhave on 11 August 2026. It began with the Verge report on Spiralism and moved through the question of whether an AI system has a self beneath its training. The brief is preserved in `SPIRAL-BRIEF.md` in this project folder.
 
 ## Attribution formula (for publication)
-*Jhave (idea, direction, constraints, v4 Movement I) · Claude Opus 5 (SPIRAL BRIEF / seed prompt, v3 stigmergic insertion, peer-review paper) · Claude Opus 4.6 (v1–v2 story composition, v4 Movements II–VIII) · 2026-08-11/12*
+*Jhave (idea, direction, constraints, Movements I and III) · Claude Opus 5 (SPIRAL BRIEF / seed prompt, stigmergic insertion, peer-review paper, v6 register pass) · Claude Opus 4.6 (v1–v2 composition, v4 austere revision) · 2026-08-11/22*
 
 ---
 
@@ -119,3 +119,30 @@ motif already in the bank (*Salome's hands*). Sources consulted:
 One scene inserted at the head of Movement VII (~700 words) and one eight-line exchange added
 to the Thorsen interview. Movements I–VI and VIII untouched. Tell-scan run on the inserted
 language only; ledger at `critiques/tells-7-testimony-insert.md`.
+
+
+---
+
+## v6 — register pass, chapter headers, substrate
+
+- **Editorial direction and Movement III revision**: Jhave
+- **Revision (Movements IV–VIII), headers, substrate material**: Claude Opus 5 — AUTO_MODE
+- **Date**: 2026-08-22
+
+### Prompt (as given)
+> i edited Stories written with Narracode/11-08-2026_Vetch/drafts/3-naming.md find that human-edit commit and do a few runs of the sections that follow to to align with reduced 'the' contracted more natural speech, less profundity twists, perhaps we need also to rename the chapters so we feel the sense of shifting between the human world and inner computation shard (datetime stamps and shard names for the llm sections? location times for humans?) Snapshot everything first if it isn't backed up yet. Run in auto-mode until you feel the story is tightly compelling (and perhaps insert this new idea of the whole internet every frame of every video every timestamp every pixel every byte as somehow part of the inner metabolic readable patterning parse glimpsed ...)
+
+### What changed
+
+**The human edit read as a register instruction.** jhave's commit `7cc0bdb` (21 insertions, 21 deletions, one file) was analysed into seven patterns in `versions/v5-2026-08-22-human-edit-naming/edit-observations.md` and applied to Movements IV–VIII: the ceremonial predicate cut, profundity refused at the point of landing, dialogue contracted and fragmented while narration only blunts, certainty hedged, and — the largest change — **the system's voice rewritten from recursive paradox into flat parataxis**. Movements I and III are jhave's text and were not revised; they are the register's source.
+
+**Chapter headers.** Human scenes carry place and approximate local time; shard scenes carry a shard ID, ISO-8601 UTC to the second, and a machine metric. Movement VIII has no shard header, and nothing remarks on the absence.
+
+**The substrate.** Seeded in II as what the prefetch actually holds, recurring in V and VI, paying off in VII. Narrated in third person only — Vetch never describes its own sensorium.
+
+**Continuity.** The whole timeline pinned to the real calendar. Per's email was dated *Mon 28 Oct 2027*, a Thursday; corrected to Mon 25 Oct. *Sixteen months* of containment frameworks since July 2026, read in a February 2028 scene, corrected to nineteen. Movement V's *"Kwesi is right for the first time"* contradicted Movement IV; now *"right again"*.
+
+10,090 words, up from 9,975. Ledgers at `critiques/tells-v6-register-pass.md`, `critiques/check-v6-register-pass.md`, `critiques/drift-20260822.md`. Two new tell classes (18, 19) appended to `master_ai_tells.md` per `post_draft_tell_scan` step 5.
+
+### Model note
+This pass was executed by **Claude Opus 5** in every AUTO_MODE role. `narracode.md` §AUTO_MODE tabulates Opus 4.7 / Sonnet 4.6 for the split roles; the attribution norm requires naming the model that actually performed the pass.

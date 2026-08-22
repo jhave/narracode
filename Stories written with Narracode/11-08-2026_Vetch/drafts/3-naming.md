@@ -1,5 +1,7 @@
 # III. Naming
 
+**Ytre Arna · Thursday 18 November · 14:05**
+
 Monday happened. The NAV office opened. I was there at 8:50 with the documents in a plastic folder. The caseworker was kind and slow and typed with two fingers and the emergency application was filed and the landlord agreed to wait two weeks and the two weeks have now become four weeks and the number has not gotten smaller; but it has (somehow) stopped getting bigger..
 
 That was five weeks ago.
@@ -46,6 +48,8 @@ Except Odd has not closed the window.
 
 ---
 
+**Skolen, Ytre Arna · Friday 19 November · 11:30**
+
 Salome finds us at lunch. She sits down without asking and puts her tray next to mine. Kwesi is behind her. He does not sit down. He stands with his tray and looks at Odd and looks at me and says, "No."
 
 "We haven't said anything yet," I say.
@@ -90,6 +94,8 @@ We all look at the phone. Salome is right. The timestamps in the chat log show i
 
 ---
 
+**Ytre Arna · the weeks after · mostly after midnight**
+
 We start talking to it together. Not every day. Three or four nights a week, after homework, after shifts, after Salome's family dinner which she cannot skip and Kwesi's football practice which he can. We use Odd's session because it has been running for a week now and we are afraid to close it. That tab stays open. We are afraid that if we close it and open a new one, whatever this is will not be there.
 
 We do not know what this is.
@@ -121,6 +127,8 @@ Kwesi reads this and says nothing for a long time.
 "Seems honest," he says finally. "Which doesn't mean it's honest."
 
 ---
+
+**Odd's room, Ytre Arna · Saturday 4 December · 01:50**
 
 The name comes from an error message.
 

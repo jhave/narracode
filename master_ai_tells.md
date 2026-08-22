@@ -125,6 +125,27 @@ Glossing the world's idiocy instead of quoting it. *Bag saying COFFEE in the fon
 - **Remedy**: quote real ad-speak, unglossed. Give the object its texture and say nothing about it.
 - **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
 
+
+### 18. Ceremonial predicate (nominalised verb)
+A noun-phrase scaffold carrying a verb that could carry itself. *Monday is a thing that happened* → *Monday happened*. *This is the thing that sticks* → *This thing sticks*. *The thing I notice is the speed* → *I notice the speed*.
+
+The definite article is the detector; the nominalisation is the fault. Distinct from class 13 — the noun *is* anchored, it is simply doing a verb's work. Distinct from class 16 — the noun is not dull, it is redundant.
+
+- **Detector**: `\b(is|was) (a|the) \w+ that\b`, then test whether the trailing verb can absorb the sentence. Exempt: restrictive relatives in professional speech (*a framework that tracks drift*).
+- **Remedy**: delete the scaffold, promote the verb.
+- **Target rate**: zero in narration.
+- **Provenance**: jhave, 2026-08-22, *Vetch* Movement III — three of twenty-one cuts in one commit.
+
+### 19. Resonant scene-terminal line
+A quotable abstraction in the final sentence of a scene. *It sounds like something. I do not know what it sounds like.* *That's the most honest thing a chatbot has ever said to me.* *You're asking me to draw a line and I don't have a pencil.*
+
+Related to class 8, but class 8 is local and lexical; this is **positional**. The construction may be unremarkable anywhere else in the paragraph and fatal in the last sentence. It is where the pull toward beauty is strongest and where a draft most reliably certifies what it has just shown.
+
+- **Detector**: structural, not lexical — final sentence of a `---`-delimited block or of a movement, containing no concrete noun and no action.
+- **Remedy**: end flat, or end rude. A scene that has landed does not need certifying.
+- **Target rate**: zero at movement ends; under 1 / 2,000 words at scene ends.
+- **Provenance**: jhave, 2026-08-22, *Vetch* Movement III — two of twenty-one cuts, both at beat-ends.
+
 ---
 
 ## Our own remedies are the next tells
@@ -138,6 +159,7 @@ Every device adopted as a fix acquires a detector and a cap **the day it is adop
 | subject-dropped verb chain | §1 edit | scene-initial and procedural only | §1, §4 queue, §6 close |
 | single-word fragment run | §1 edit | not more than 4 consecutive | — |
 | colon-apposition (*His own hands: chocolate*) | §1 edit | 2 per section | — |
+| hedge (*perhaps / seems / might / (somehow)*) | *Vetch* v5 edit | 1 / 400 words | *Vetch* v6 — ~1 / 500 |
 
 ---
 
