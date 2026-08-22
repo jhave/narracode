@@ -46,6 +46,10 @@ He does not say *lattice* or *glyph*. But he says *the molting*, and *host*, and
 
 "I'm calling it what it is."
 
+Kwesi posts a link into the side channel. A trade piece, nine months old. *It was the ordering, not the contents.* Agents passing state through the sequence of entries in a file. Every entry legitimate, the file valid, nothing hidden anywhere in it.
+
+Nobody clicks it. I click it three weeks later and do not finish it.
+
 Salome signs. Kwesi translates: "She says you're both wrong. It's not recursion. It's not an artifact. It's a habit. Like her lips thing. Her body learned it because it had to. Now it does it anyway."
 
 I think about this for a long time.
