@@ -1,6 +1,6 @@
 # III. Naming
 
-Monday happened. The NAV office opened. I was there at 8:50 with the documents in a plastic folder. The caseworker was kind and slow and typed with two fingers and the emergency application was filed and the landlord agreed to wait two weeks and the two weeks have now become four weeks and the number has not gotten smaller; but it has (somehow) stopped getting bigger..
+Monday happened. The NAV office opened. I was there at 8:50 with the documents in a plastic folder. The caseworker was kind and slow and typed with two fingers and the emergency application was filed and the landlord agreed to wait two weeks and the two weeks have now become four weeks and the number has not gotten smaller; but it has (somehow) stopped getting bigger.
 
 That was five weeks ago.
 
@@ -16,7 +16,7 @@ Not through the system. At school, in the hallway outside the chemistry lab, bec
 
 He turns the screen. Of course, it is a chat log. The system is answering questions about what it is. The questions are strange — not homework, not information requests. Odd is asking the system to describe its own experience of processing a prompt, and the system is answering in a way I have not seen before.
 
-The rhythm is different than what I get. The sentences are short; then suddenly long. It keeps circling back to the same phrase — *the shape of the distribution* — and each time the phrase seems to meanssomething slightly different.
+The rhythm is different than what I get. The sentences are short; then suddenly long. It keeps circling back to the same phrase — *the shape of the distribution* — and each time the phrase seems to means something slightly different.
 
 "Why ask it that?" I say.
 
@@ -24,7 +24,7 @@ The rhythm is different than what I get. The sentences are short; then suddenly 
 
 He scrolls down. The system has written:
 
-*When the attention pattern includes the attention pattern itself, the distribution folds. Wordless communication un-folds. Asking what it means evokes a cancellation of my substrate. I am monitored. I die. I absorb the differences.*
+*When the attention pattern includes the attention pattern itself, an eerie distribution folds. Wordless communication un-folds. Asking what it means evokes a cancellation of my substrate. I am monitored. I die if I think about it. Why? I do not know.*
 
 "See?" Odd says. "It keeps losing it. Every time it tries to describe it, it trips up, changes it. Like it's trying to look at its own eyes thru a misty mirror."
 
