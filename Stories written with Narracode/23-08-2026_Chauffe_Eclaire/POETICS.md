@@ -80,3 +80,58 @@ Neighbourhood is the class system and does all the work adjectives would do.
 - Trauma as engine. Things happen; the register does not escalate to meet them.
 - Montreal as charm. No cobblestones, no accordion, no snow described as anything.
 - Reproduction of, or direct allusion to, any specific Tillman sentence, scene, or character.
+
+---
+
+## Amendment — loop 1 (`on_new_direction`, 2026-08-23)
+
+Prompter direction: chapter 2, she goes on the road — Toronto, Winnipeg, the prairies, Banff,
+Vancouver. Chapter 1 is frozen and not to be edited. A photographed page of the source was
+supplied. Four criticisms were made and all four are accepted.
+
+### 1. The voice targets are replaced
+
+The page was measured. Chapter 1's targets were wrong — built from the prompter's stated
+rule (*rarely above eight words*), which describes the punches and not the prose. Measured
+source: mean 12.5, median 9, longest 30, CV 0.73, 36% of sentences over fourteen words.
+Chapter 1: mean 6.3, median 6, longest 14, CV 0.46, 0% over fourteen.
+
+**The signature is variance, not shortness.** New profile in `tools/tillman_check.py`
+(`road`): mean 10–15 · median 8–12 · **CV ≥ 0.60** · at least one sentence ≥ 22 words ·
+18–42% over fourteen · punches (≤ 4 words) ≥ 8% · semicolon chains ≥ 0.8 per 300 words ·
+figures ≤ 4 per 1,000 · em-dashes permitted. The old profile is kept as `telegraphic` and
+chapter 1 still measures against it. Chapter 1 fails the new profile on six of nine checks.
+That failure is left standing in the record.
+
+### 2. The formula opener is retired
+
+Sections may no longer open on room-and-price. By §8 it had become a template that replaced
+perception. Chapter 2 opens sections on a relation and a duration, a departure time, a
+person, a piece of ground. Registry class 21.
+
+### 3. Renée now has a character
+
+`structural/character-interiority.md` was rewritten from nothing. Backstory exists so the
+prose has ground under it and **may never be used as explanation** — no causal chain, no
+*because*. What she notices is hands and forearms, which was already latent in chapter 1
+and unrecognised by the draft that wrote it. Socks are retired unmotivated (class 20);
+chapter 1 keeps them because chapter 1 is frozen.
+
+### 4. New commitments
+
+- **Friends.** Chapter 1 gave her none. Kat can be rude to her; the Banff kitchen is a cast
+  that lasts a whole section and likes each other.
+- **Desire built through physical proximity before emotion.** Eight inches at a counter for
+  the length of a song. The tension is spatial first.
+- **Direct perception.** She is a lapsed photographer, never stated as a reason. Muskeg, a
+  dead deer, dust standing up gold, a grid road. Noticing is now a thing the prose does.
+- **Fluctuation, not arc.** Desire arrives at the wrong intensity, sometimes lands, sometimes
+  produces nothing, sometimes catastrophizes twenty minutes late for no assignable cause.
+  §12 is a section where nothing happens and this is not a failure of the section.
+- **2028 on the surface.** The year said outright, and carried in the corridor works, the
+  freight priority, September frost, an October fire, staff accommodation deducted at source.
+
+### 5. Comedy declared
+
+Per the loop-0 drift finding, which recommended it and was not acted on until now: humour in
+the same flat register as the grief, never signalled. The parrot doing the thing.

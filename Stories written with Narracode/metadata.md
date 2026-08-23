@@ -2,10 +2,10 @@
 
 - **Folder**: 23-08-2026_Chauffe_Eclaire
   - **Title**: Chauffé Éclairé
-  - **Attribution**: Human: Jhave · Words: 1,430 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
-  - **Word Count**: 1,430
-  - **Reading Time**: 6
-  - **Synopsis**: Montreal, 2028. A woman moves through eight apartments, eight men and sixteen months in a city priced past her, from a cold room in Parc-Extension to a stranger's bed in Griffintown she has no right to be warm in. Each section turns on an unprepared confession. Written to a measured prosody — median sentence six words, figuration capped, no em-dashes — specified in a voice engine and enforced by a validator between drafts.
+  - **Attribution**: Human: Jhave · Words: 3,510 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
+  - **Word Count**: 3,510
+  - **Reading Time**: 14
+  - **Synopsis**: Montreal, 2028, and then west. Chapter one moves Renée through eight apartments and sixteen months in a city priced past her, ending in a stranger's bed in Griffintown she has no right to be warm in. Chapter two puts her on the road: Toronto, thirty-six hours by rail through northern Ontario, nine days in Winnipeg, the prairies, a Banff kitchen under an October fire, and down into the Vancouver rain. Written to a prosody measured from a photographed page of the source — the voice engine was rebuilt between chapters when the measurement proved the first version wrong, and chapter one was left standing as written, failing the corrected profile.
 
 - **Folder**: 25-07-2026_Devora
   - **Title**: The Chute

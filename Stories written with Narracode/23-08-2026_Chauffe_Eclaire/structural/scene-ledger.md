@@ -14,3 +14,14 @@
 
 ## Open Scene-Level Questions
 §3's closing line is the story's only sentence approaching commentary. It survives because it confesses failure to understand rather than supplying understanding.
+
+
+## Chapter 2 — added
+| § | place / time | focal pressure | turn | left open |
+|---|---|---|---|---|
+| 9 | Toronto, Aug | a friendship resumed on the second ring | "you're not visiting" | Dez, Ahmed |
+| 10 | N. Ontario, Sep | 36 hours upright, the boreal going by | "don't be sorry yet" | Loreen's brother |
+| 11 | Winnipeg, Sep | eight inches at a counter | nine days, chest ringing | Emerson |
+| 12 | Saskatchewan, Sep | scale, and nothing happening | nothing happens, admitted | the untaken photograph |
+| 13 | Banff, Oct | a cast, a curtain, smoke in October | he leaves for a route | Kieran |
+| 14 | Vancouver, Dec | a joke that lands 20 minutes late | the cause refused | the spring fires |

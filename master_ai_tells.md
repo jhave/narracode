@@ -125,6 +125,33 @@ Glossing the world's idiocy instead of quoting it. *Bag saying COFFEE in the fon
 - **Remedy**: quote real ad-speak, unglossed. Give the object its texture and say nothing about it.
 - **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
 
+### 18. Weather as the placeholder for banality
+When a machine needs to say *this was delivered without emotional weight*, it reaches for weather. *She said it like weather.* *He mentioned it the way you mention rain.* The comparison is doing nothing except signalling flatness, and it signals it in the one register every model reaches for first.
+
+- **Remedy**: a specific perishable object instead. *Her face was the color of day-old bread.* The flatness should arrive through something with a shelf life, not through the sky.
+- **Provenance**: jhave, 2026-08-23, on *Chauffé Éclairé* §7. Remedy phrase his.
+
+### 19. The reconciliation aphorism
+Two facts are placed side by side, and rather than let them sit, the narration adds a clause admitting it cannot reconcile them. *Both of those were true and I have not worked out how.* It performs honest confusion, which is how it escapes the naming-clause detector (§8) — it names a failure to understand instead of an understanding, and reads as candour. It is the same gesture.
+
+- **Detector**: `both/all of (those|these|them) (were|are) true` · `have not worked out (how|why)` · `and I still don't know which`. Section-final position, in a first-person voice.
+- **Remedy**: CUT the clause. Two facts side by side already produce the effect; the admission is the model apologising for the effect.
+- **Provenance**: jhave, 2026-08-23, on *Chauffé Éclairé* §3. Independently flagged by the composing model in its own tell-scan and kept anyway — which is itself the finding. Self-scan located it and self-scan lacked the nerve to cut it.
+
+### 20. The unmotivated recurring object
+An object returns across sections because the model has learned that recurrence reads as literary, without any pressure making it return. Socks in §1 and §8 of *Chauffé Éclairé*. A motif is a place where a character's attention keeps catching; if nothing in the character makes it catch, the repetition is decoration wearing the costume of structure.
+
+- **Detector**: any concrete noun appearing in 2+ sections whose appearances carry no perceptual or bodily charge — no looking, no wanting, no aversion.
+- **Remedy**: either give it charge in one of its appearances, or retire it and promote whatever the character *actually* keeps noticing. Do not add a psychological explanation for why she notices it; that is a worse failure than the original.
+- **Provenance**: jhave, 2026-08-23, on *Chauffé Éclairé*. "Does she have a fetish for socks? What motivates her reaction to socks?"
+
+### 21. The formula opener
+A structural slot filled the same way section after section — here, room and price. *Basement on Van Horne. Five ninety.* By the fourth instance the reader is reading a template; by the eighth it is a tic that has replaced perception. Distinct from a motif: a motif returns transformed, a formula returns identical.
+
+- **Detector**: 3+ sections opening with the same semantic category (price, address, weather, time of day).
+- **Remedy**: keep at most two. Open the others on a person, a duration, a relation, or a direct perception — how the source register actually opens: *[name] and I had been living together eight months.*
+- **Provenance**: jhave, 2026-08-23, on *Chauffé Éclairé* §§1–8. "By the time we get to section 8, it's become a cliched routine."
+
 ---
 
 ## Our own remedies are the next tells

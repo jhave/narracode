@@ -21,3 +21,20 @@ Renée ↔ every man: brief, physical, unexplained, non-recurring. Nobody return
 
 ## Relation Changes
 None resolve. The only relation that alters is Renée ↔ the woman on Bourget: advice given, advice refused, in three sentences.
+
+
+## Chapter 2 — added
+
+- **Kat** — §9, §14 by proxy. Eleven years. Builds sets for insurance commercials, wrecked shoulder, girlfriend Pris in Chicago. The first person in the story allowed to be rude to Renée, and the first allowed to survive her own section.
+- **Dez** — §9, §14. Sound for other people's films, Sterling Road, a kid in Halifax. The only man who recurs. Two good nights, one bad one, an honest end that is not an ending.
+- **Loreen** — §10. Sixty, school board, thermos of rye and 7Up, a brother's funeral in Sioux Lookout.
+- **Roy** — §11. Kat's cousin, Lipton Street, nights loading for a courier. Wants nothing; the wanting nothing is the event.
+- **Emerson** — §11. Bakery, up at three, flour in the knuckles. Nine days. The eight inches.
+- **Warrick** — §12. Brandon to Strathmore, ex-Forces, bad knee, good radio.
+- **Tarn / Precy / Kieran** — §13. Newcastle NSW; six years on the line with two kids in Cebu; climbs on days off. The first cast.
+- **Bernice** — §14. Kingsway, a parrot, rules about the parrot.
+- **Ahmed** — carried from §8. Two messages, then nothing.
+
+## Relation Changes
+Kat breaks chapter 1's rule that nobody returns. Deliberate: chapter 1's isolation was a
+setting, not a fact about Renée, and the road is where that becomes visible.

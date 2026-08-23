@@ -14,3 +14,12 @@ The gun. Whether the letter worked. Whether she is all right, which the story ne
 
 ## Accidental Confusion Risk
 The rent ladder is the only chronological anchor between sections. A reader skimming may lose the sixteen months. Judged acceptable — the disorientation is proportionate to the subject.
+
+
+## Chapter 2 — added
+**Expectations:** a reader arriving from chapter 1 expects a turn per section and gets one,
+except in §12, which withholds it and says so. §12 is the load-bearing risk of the chapter.
+**Productive mystery:** what she does with the camera she no longer has; whether Kat knew.
+**Confusion risk:** §14's list of possible causes for the crying names her father for the
+first time in the story. A reader may take that as the answer. The next sentence refuses it
+explicitly, which is the only defence the story offers and is meant to be insufficient.
