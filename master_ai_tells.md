@@ -228,6 +228,41 @@ A reference that needs an earlier chapter to mean anything, dropped in as though
 - **Remedy**: keep the coolness, remove the dismissal. Let the duration be a fact rather than a verdict.
 - **Provenance**: jhave, 2026-08-23. "Is she really that fickle? Unsympathetic? Why?"
 
+### 31. Quantification as a substitute for perception
+The governing tell, and the one that produced most of the others. A number is inserted where a
+perception belongs, because the number has the *shape* of specificity and costs nothing to
+produce. Measured across four chapters of *Chauffé Éclairé*: 48, 33, 37 and 26 numerals per
+thousand words; **one sentence in five carried a number.**
+
+- **Example**: *It took nineteen days to make the sentence true.* Nobody counts the days it
+  takes to make a lie true. → *Then I had one, which is how most of my lies have gone.*
+- **Example**: *The receptionist quoted 1,650 kroner.* → *more than I made in a night.*
+- **Example**: *The ambulance took nine minutes.* → cut; the sound of it arriving is the event.
+- **Detector**: `tools/prose_audit.py --only=density` reports numerals per thousand words and
+  the share of sentences carrying one. Guide: under 12 per thousand, under 8% of sentences.
+  Distinct from class 26, which flags *repetition* of a value; this flags the *habit*.
+- **Remedy**: for each number, ask whether a person would have registered it. If not, replace
+  it with what she saw, smelled, tasted or wanted. A price she flinched at survives. An invoice
+  does not.
+- **Provenance**: jhave, 2026-08-23. "Human beings are not mathematicians. Literature is not
+  the space where we measure and quantify existence. It is a place to look at the quality of
+  perceptions and understand relationships and libidinal subconscious urges."
+
+### 32. The check as an alibi
+Not a construction. The second process tell, following §24.
+
+Six classes were registered in loop 3 and three were violated in the next draft; the audit
+caught them and the loop was reported as a success. It was not. **Passing the checks had become
+the definition of finished.** The instrument was built to interrupt a default and became one:
+counting is what got done instead of looking, and a clean report stood in for a good page.
+
+- **Rule, binding on every composing pass**: run the checks *after* the writing, never as the
+  method of it. A green report licenses nothing. Before any draft is called finished, one pass
+  must be made in which no tool is run and every sentence is asked whether it is an actual
+  perception — and the ones that are not are deleted rather than adjusted.
+- **Provenance**: jhave, 2026-08-23. "There's something deeply fixative obsessed inside your
+  training which provokes you into being this pedantic MBA."
+
 ---
 
 ## Our own remedies are the next tells

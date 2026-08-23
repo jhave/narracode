@@ -1,5 +1,45 @@
 # Voice engine — the flat declarative
 
+## Governing note, written last and placed first — 2026-08-23
+
+**Everything below this line is subordinate to it.**
+
+Four chapters in, one sentence in five carried a number. Chapter 1: 48 numerals per thousand
+words. Chapter 3: 37. Chapter 4, written under a profile called *exact*: 26, with the second
+sentence of the chapter being *It took nineteen days to make the sentence true.*
+
+That is accounting, not perception. Nobody has ever counted the days it took to make a lie
+true. The number was there because a number is easy and a perception is not — it has the
+shape of specificity while requiring none of the looking that specificity costs.
+
+The harness itself says this, in its own last paragraph: *left to your defaults, you write
+competent, fluent, slightly sentimental, slightly explicatory prose that reads like a thousand
+other models writing about the same thing. The harness exists to interrupt that default.*
+I built an interruption and then made it into a new default. Counting became the thing I did
+instead of writing, and the checks — every one of which was a good idea, and most of which
+caught something real — became a way of being finished.
+
+**The rules, in order of authority:**
+
+1. **A number earns its place only where a person would actually register one.** A price you
+   flinched at. The floor you live on. A temperature that hurt. Everything else is an invoice.
+2. **Where a measurement is doing the work, a sensation is missing.** Not *nineteen days* but
+   what the room smelled like. Not *1,650 kroner* but that it was more than a night's work.
+   Not *nine minutes* but the sound the ambulance made arriving.
+3. **Literature is not the place where existence is quantified.** It is the place where
+   perception is registered, relation understood, and appetite told the truth about. Nothing
+   loses a reader faster than an economist recounting a scandal.
+4. **A draft that passes every check is not thereby good.** The checks find faults. They
+   cannot find the writing. They exist to be run *after* the looking, never instead of it.
+
+The instruction that governs composition from here is not a threshold. It is this: **write as
+the woman — free, travelling, appetitive, unsentimental, with an exact eye — and interrogate
+every sentence as she would. If it is vague, or merely competent, or does not build the
+texture and the tension of an actual perception, delete it.**
+
+---
+
+
 *Built 2026-08-23 for* Chauffé Éclairé. *Companion to `POETICS.md`. Enforced by `tools/tillman_check.py`.*
 
 The prompter asked for the essence of a register, explicitly not a clone. So this file

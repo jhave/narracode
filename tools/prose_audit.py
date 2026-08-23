@@ -150,6 +150,23 @@ def check_numbers(raw, sections):
         for ctx in ctxs[v][:6]:
             print(f"      …{ctx}…")
 
+def check_density(raw, sections):
+    rule("NUMERIC DENSITY — is a number standing where a perception should be? (§31)")
+    NUM = rf"\b(\d[\d,.]*|{NUMWORDS}|percent|kroner|euros|dollars)\b"
+    words = len(raw.split())
+    nums = re.findall(NUM, raw, re.I)
+    sents = [s for _, b in sections for s in sentences(b)]
+    carrying = [s for s in sents if re.search(NUM, s, re.I)]
+    per_k = 1000.0 * len(nums) / words if words else 0
+    pct = 100.0 * len(carrying) / len(sents) if sents else 0
+    print(f"  {len(nums)} numerals in {words} words  =  {per_k:.1f} per 1,000")
+    print(f"  {len(carrying)} of {len(sents)} sentences carry a number  =  {pct:.1f}%")
+    print(f"\n  Guide: under 12 per 1,000, under 8% of sentences.")
+    print("  Measured in the first four chapters: 48, 33, 37, 26 per 1,000.")
+    print("  For each number below, ask: would a person have registered this?\n")
+    for s in carrying:
+        print(f"    {s.strip()[:96]}")
+
 def check_openers(raw, sections):
     rule("SECTION OPENERS — shape repetition is a formula, not a style")
     for title, body in sections:
@@ -217,7 +234,7 @@ def check_callbacks(raw, sections):
 
 CHECKS = {
     "vagueness": check_vagueness, "meta": check_meta, "it": check_terminal_it,
-    "numbers": check_numbers, "openers": check_openers, "triplets": check_triplets,
+    "numbers": check_numbers, "density": check_density, "openers": check_openers, "triplets": check_triplets,
     "names": check_names, "callbacks": check_callbacks,
 }
 

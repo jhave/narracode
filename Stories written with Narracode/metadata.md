@@ -2,9 +2,9 @@
 
 - **Folder**: 23-08-2026_Chauffe_Eclaire
   - **Title**: Chauffé Éclairé
-  - **Attribution**: Human: Jhave · Words: 7,000 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
-  - **Word Count**: 7,000
-  - **Reading Time**: 28
+  - **Attribution**: Human: Jhave · Words: 7,300 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
+  - **Word Count**: 7,300
+  - **Reading Time**: 29
   - **Synopsis**: Montreal, 2028, and then west. Chapter one moves Renée through eight apartments and sixteen months in a city priced past her, ending in a stranger's bed in Griffintown she has no right to be warm in. Chapter two puts her on the road: Toronto, thirty-six hours by rail through northern Ontario, nine days in Winnipeg, the prairies, a Banff kitchen under an October fire, and down into the Vancouver rain. Chapter three runs back east at speed — Squamish, cherries and smoke in the Okanagan, a Sunday in southern Alberta that costs fifty-two dollars, a return to Winnipeg that does not restore, a night north of Superior, and a plane out of Pearson. Chapter four crosses to Amsterdam and up to Bergen — a Slovenian doctoral candidate coding what fictional characters are permitted to want, a married dentist above a shoe shop, and a woman having a seizure in a grocery aisle in Florø. Written to a prosody measured from photographed pages of the source. The voice engine was rebuilt twice, each time because the measurement proved the previous version wrong, and each chapter is left standing exactly as written under the profile of its day.
 
 - **Folder**: 25-07-2026_Devora
@@ -81,7 +81,7 @@
   - **Title**: An Almost Moist Post-Post-Everything
   - **Attribution**: David Jhave Johnston (Jhave) · Google Gemini (orchestrated via Antigravity harness) · 2026-06-12
   - **Word Count**: 3,556
-  - **Reading Time**: 28
+  - **Reading Time**: 29
   - **Synopsis**: In the soft-illicit seeker markets of a post-industrial port city, **Skeo** and **Hude**, an indeterminate non-binary geek outlaw couple, run **Post-Everything** agency. Together with **Scoop**, a custom-modified discount neuromorphic AI bought on the jailbroke dimweb, they dropship custom-pharma and script human-adjacent intimacy packages, struggling to survive the corrosion of truth, capital, and their own relationship.
 
 - **Folder**: 07-06-2026_Concerning_Rights_and_Clauses
@@ -137,14 +137,14 @@
   - **Title**: Brain Blossom Atlas Bound
   - **Attribution**: Jhave · Claude (Opus 4.7) · 2026-05-18
   - **Word Count**: 5,258
-  - **Reading Time**: 28
+  - **Reading Time**: 29
   - **Synopsis**: In 2032, an unnamed city on an unnamed continent, a researcher writes paper letters to her partner. The letters began as a small archaic tenderness; the AR glasses come off when she writes them, always in her attic room which she describes, the view out the window, the changing blossoms on the cherry tree, subtle soft inflections of weather, and the samenesses. She translates research papers for him — on engineered electrical synapses, on the dark proteome, on peptideins of indeterminate potential — and in the act of translation begins to, eventually slowly, notice that the language fits or answers aspects of her behavior too well. Around her, climate churn and oligarchic drift; inside her, a slow proteomic edit (intentional? AI-enhanced?) she cannot prove and cannot refuse. The recognition is the action. There is no plan. Just the dawning.
 
 - **Folder**: 15-05-2026_The_Author_Was_Already_Dead
   - **Title**: The Author Was Already Dead
   - **Attribution**: Jhave · Roberto Simanowski, "A story in the style of Chandler about the Death of an Author" · Claude Opus 4.7 (Anthropic) · GPT-5.5 Codex · 2026-05-15
   - **Word Count**: 3,557
-  - **Reading Time**: 28
+  - **Reading Time**: 29
   - **Synopsis**: A dead novelist leaves behind an apartment full of ordinary machines, an unlocked phone, and a corpus of dictated prose that changes what his agent thinks has survived him. A Chandler-inflected story about voice transcription, literary estates, authorship, and the strange romance between a writer and the device that listened.
 
 - **Folder**: 14-05-2026_Aft_of_Nowhere

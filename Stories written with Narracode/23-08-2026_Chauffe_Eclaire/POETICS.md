@@ -240,3 +240,31 @@ never as self-diagnosis. She does not know what is wrong with her and is not mad
 Six senses, one per section, none glossed: battery · erotic · authority · money · assuming
 control · overload. A seventh use was cut for repeating the money sense. *cover*, *open* and
 *chest* stay retired.
+
+---
+
+## Amendment — loop 4 (`on_new_direction`, 2026-08-23) — the governing correction
+
+Prompter direction: rewrite chapter 4. The first chapter of the project he has asked to be
+rewritten rather than frozen. Chapters 1–3 remain untouched.
+
+**The fault.** Across four chapters one sentence in five carried a number: 48, 33, 37 and 26
+numerals per thousand words. *It took nineteen days to make the sentence true* is accounting.
+Nobody counts the days it takes to make a lie true. The number was there because a number has
+the shape of specificity while costing none of the looking that specificity requires.
+
+**The deeper fault.** The harness was built to interrupt a default and became one. Counting is
+what got done instead of writing; a clean audit stood in for a good page. Registry classes 31
+(quantification as a substitute for perception) and 32 (the check as an alibi) record both.
+
+**The rule that now governs composition, above every threshold in this file:**
+
+> Write as the woman — free, travelling, appetitive, unsentimental, with an exact eye — and
+> interrogate every sentence as she would. If it is vague, or merely competent, or does not
+> build the texture and the tension of an actual perception, delete it.
+
+Checks run *after* the looking, never as the method of it. A number earns its place only where
+a person would register one. Where a measurement is doing the work, a sensation is missing.
+
+**Demonstrated in this loop:** the rewrite leaves three `didion` checks failing, on the grounds
+that the prose is right and the thresholds are mine. That refusal is the point of the loop.
