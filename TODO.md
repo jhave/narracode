@@ -34,6 +34,11 @@ Ban lists shift a tail; requirement lists move the distribution. Forms we *under
 - [ ] **Two-corpus scan** (plan §7.6): scan each draft against the registry *and* against the last three published stories, to catch self-quotation across projects
 - [x] Rate-cap our own remedies the day they're adopted — done, `master_ai_tells.md` §"Our own remedies are the next tells"
 
+### 3. Repo hygiene — audit in `plans/2026-08-23_repo-exposure-and-branch-protection.md`
+- [ ] Set a branch ruleset on `main`: **restrict deletions** + **block force pushes** (GitHub UI — config, not a file, so it can't be committed)
+- [ ] Not adopting *require a pull request* — single author, and it would cost direct pushes to `main` for review nobody is there to do. Revisit if a second regular contributor appears
+- Audit result: repo is public by design (Pages), write access is jhave only, no credentials committed. History scan was current-tree only — a key found in old commits gets **rotated**, not deleted
+
 ## Knowingly deferred
 Gaps we're leaving open for now, recorded so they don't get rediscovered as surprises.
 
@@ -42,7 +47,7 @@ Gaps we're leaving open for now, recorded so they don't get rediscovered as surp
 - **Does the registry generalise across projects, or is it per-poetics?** *Broccoli over legume* may be an Interim Edge fact or a jhave fact. Two more projects will tell
 - **Where the floor is.** At some constraint density prose becomes constraint-satisfaction. Worth finding deliberately, in a throwaway
 
-### 3. Interim Edge
+### 4. Interim Edge
 - [ ] jhave editing pass on `drafts/7-condensed-final.md` §2–§6 (rewritten 2026-07-30 against his §1)
 - [ ] Image assets — figures are caption-only, `Fig 0.1`–`Fig 6.7` written and ready
 - [ ] Homepage card + `metadata.md` entry when he's ready to publish (both hand-maintained)
