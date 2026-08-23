@@ -55,6 +55,15 @@ PROFILES = {
         "para_sentences_max": 9,
     },
 }
+PROFILES["swirl"] = dict(PROFILES["road"], **{
+    # Chapter 3. jhave: "a great hurtling swirling sweaty libido acutely insightful
+    # sentences ricocheting through paragraphs." Higher velocity, higher variance,
+    # and one procedure passage per chapter is now mandatory.
+    "cv_min": 0.65,
+    "max_sentence_min": 26,
+    "pct_gt14_min": 22.0,
+    "imperative_min": 6,        # subject-dropped verb chain, full duration
+})
 TARGETS = PROFILES["road"]
 
 # ---------------------------------------------------------------- patterns
@@ -82,6 +91,10 @@ TELL_PATTERNS = [
     (r"\btestament\b", "tells §1: overused object lexicon"),
     (r"\bhum(?:med|ming)?\b", "tells §1: overused object lexicon"),
     (r"\bkettle\b", "tells §1: overused object lexicon"),
+    (r"\bi want to (?:be honest|be clear|say|put down|note|admit)\b", "tells §22: authorial-intent hedge"),
+    (r"\bwhich is what i want to\b", "tells §22: authorial-intent hedge"),
+    (r"\bi do not think it was\b", "tells §22: authorial-intent hedge"),
+    (r"\blet me be honest\b", "tells §22: authorial-intent hedge"),
     (r"\blike weather\b", "tells §18: weather as placeholder for banality"),
     (r"\b(?:said|saying) it like\b", "tells §18: weather-placeholder construction"),
     (r"\b(?:both|all) of (?:those|these|them) (?:were|are) true\b", "tells §19: reconciliation aphorism"),
@@ -98,6 +111,16 @@ ABSTRACTIONS = [
 ]
 
 SPEECH = re.compile(r'[""\"]')
+
+# Opening a sentence on a bare verb — the procedure chain of master_ai_tells §15,
+# and the register the source uses for bodily tasks at full duration.
+IMPERATIVE_VERBS = (
+    "begin|think|reach|pull|push|go|squat|kneel|try|wait|stand|sit|walk|run|stop|start|"
+    "wash|rinse|dry|count|check|hold|take|put|get|find|look|listen|breathe|swallow|"
+    "open|close|lock|knock|ask|pay|drive|park|turn|climb|lie|lean|wipe|zip|button|"
+    "carry|drop|leave|come|keep|let|make|move|press|scrub|shave|pee|piss|bleed|cry"
+)
+IMPERATIVE = re.compile(rf"^(?:can't |cannot |don't |do not |then )?({IMPERATIVE_VERBS})\b", re.I)
 
 # ---------------------------------------------------------------- parsing
 
@@ -185,6 +208,7 @@ def analyse(path, verbose=False):
     abstr = {w: len(re.findall(rf"\b{w}\b", low_all)) for w in ABSTRACTIONS}
     abstr = {w: c for w, c in abstr.items() if c}
 
+    imperatives = [ (para_of[i], s) for i, s in enumerate(sents) if IMPERATIVE.match(s.strip()) ]
     emdash = low_all.count("—")
     copula = len(re.findall(r"\b(?:is|was|were|are|been|being)\b", low_all))
 
@@ -215,6 +239,9 @@ def analyse(path, verbose=False):
           f"semicolon chains >= {TARGETS['semicolon_per_300_min']:.1f}/300w", f"{semi_per300:.2f}")
     check(not tails, f"verdict after last ';' <= {TARGETS['post_semicolon_max']}w", f"{len(tails)} over")
     check(not long_para, f"paragraphs <= {TARGETS['para_sentences_max']} sentences", f"{len(long_para)} over")
+    if "imperative_min" in TARGETS:
+        check(len(imperatives) >= TARGETS["imperative_min"],
+              f"procedure chain (bare-verb openers) >= {TARGETS['imperative_min']}", f"{len(imperatives)}")
 
     print("\n-- figuration")
     fr = len(figures) / per_k
@@ -250,6 +277,10 @@ def analyse(path, verbose=False):
             for p, n, s in long_para:
                 print(f"  ¶{p} ({n} sentences) {s}")
 
+        print("\n-- imperative / procedure openers")
+        for pnum, s in imperatives[:14]:
+            print(f"  ¶{pnum} {s[:70]}")
+
         print("\n-- length histogram")
         for lo, hi in [(1, 3), (4, 5), (6, 8), (9, 11), (12, 14), (15, 99)]:
             n = sum(1 for x in lens if lo <= x <= hi)
@@ -261,6 +292,34 @@ def analyse(path, verbose=False):
     return 1 if failed else 0
 
 
+STOP = set("""the a an and or but of to in on at for with from by as is was were are be been
+being it its this that these those he she they we you i him her them his hers their our my me
+had has have not no so if then than there here when what which who whom whose how why all any
+some more most other into over under out up down off again very just only also can could would
+should will shall may might must do does did done say said says one two three four five""".split())
+
+def motif_report(path, minimum=4):
+    """Class 23. List content words repeated >= minimum times, with contexts, so a
+    reader can check whether the sense MOVES on each repetition or merely restates."""
+    raw = Path(path).read_text(encoding="utf-8")
+    text = strip_markup(raw)
+    words = re.findall(r"[A-Za-zÀ-ÿ]{3,}", text.lower())
+    from collections import Counter
+    counts = Counter(w for w in words if w not in STOP)
+    hits = [(w, c) for w, c in counts.most_common(60) if c >= minimum]
+    print(f"\n=== motif check: {Path(path).name} ===")
+    print("A repeated word must CHANGE CATEGORY on each return (master_ai_tells §23).")
+    print("The tool finds the repetition. Only a reader can see whether the sense moved.\n")
+    for w, c in hits:
+        print(f"  {w}  ({c})")
+        for m in list(re.finditer(rf"\b{re.escape(w)}\w*\b", text, re.I))[:6]:
+            lo, hi = max(0, m.start()-46), min(len(text), m.end()+46)
+            frag = " ".join(text[lo:hi].split())
+            print(f"      …{frag}…")
+        print()
+    return 0
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print(__doc__)
@@ -268,4 +327,6 @@ if __name__ == "__main__":
     for a in sys.argv[2:]:
         if a.startswith("--profile="):
             TARGETS = PROFILES[a.split("=", 1)[1]]
+    if "--motifs" in sys.argv:
+        sys.exit(motif_report(sys.argv[1]))
     sys.exit(analyse(sys.argv[1], "--verbose" in sys.argv))

@@ -25,3 +25,14 @@
 | 12 | Saskatchewan, Sep | scale, and nothing happening | nothing happens, admitted | the untaken photograph |
 | 13 | Banff, Oct | a cast, a curtain, smoke in October | he leaves for a route | Kieran |
 | 14 | Vancouver, Dec | a joke that lands 20 minutes late | the cause refused | the spring fires |
+
+
+## Chapter 3 — added
+| § | place / time | focal pressure | turn | left open |
+|---|---|---|---|---|
+| 15 | Squamish, Apr | four months of carried wanting | she doesn't go Thursday | Kieran, dropped |
+| 16 | Okanagan, Jun | heat, piece rate, appetite plural | it never used to be June either | Manon, Tomás |
+| 17 | S. Alberta, Jul | a Saturday failure, a Sunday town | fifty-two dollars she happened to have | the outcome, never given |
+| 18 | Winnipeg, Aug | eleven hundred km to a curry | "was it" | what Emerson meant |
+| 19 | N. of Superior, Sep | velocity, rain, two Dutch girls | the number comes off, she lets it | Sanne |
+| 20 | Toronto → YYZ, Oct | leaving on a lie about a friend | three men, no ranking, asleep | Amsterdam |

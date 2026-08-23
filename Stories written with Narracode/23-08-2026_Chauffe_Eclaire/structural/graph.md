@@ -38,3 +38,18 @@ None resolve. The only relation that alters is Renée ↔ the woman on Bourget: 
 ## Relation Changes
 Kat breaks chapter 1's rule that nobody returns. Deliberate: chapter 1's isolation was a
 setting, not a fact about Renée, and the road is where that becomes visible.
+
+
+## Chapter 3 — added
+- **Kieran** — returns, §15. Squamish, five climbers, a duvet with no cover. The deferral closes and the closing is the anticlimax.
+- **Manon** — §16. Trois-Rivières, six seasons, a Corolla with a mattress in it, calls everyone *chose*. The friend who covers a shift back.
+- **Deke / Andrés / Sol / Tomás** — §16. The valley cast. Tomás gets eleven days and forearms out of a painting.
+- **Boyd** — §17. Southern Alberta, good truck, bad house, a dog he speaks to differently. Thirty hours, and decent on the Sunday.
+- **Emerson** — returns, §18. Bakery gone, mornings on Corydon, living with Griff, hair cut. The return that does not restore.
+- **Griff** — §18. Makes a curry, asks good questions, is no help at all.
+- **Ted** — §19. Hauls out of Thunder Bay, wife dead six years, says *careful with yourself*.
+- **Anouk & Sanne** — §19. Dutch, a rented Jetta, Halifax to Vancouver in three weeks. One night at Nipigon. A number that comes off in the rain.
+- **June** — §20. Ossington bartender, not interested, clear about it early.
+
+## Relation Changes
+Two returns, both failing, differently. Kat is now the story's fixed point: three appearances, always the one permitted to be rude.

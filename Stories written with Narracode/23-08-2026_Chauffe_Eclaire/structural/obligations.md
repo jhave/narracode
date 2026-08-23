@@ -22,3 +22,10 @@ whether Renée ever picks up a camera.
 **Faded rather than closed:** Ahmed.
 **At risk:** Kat is now the only person who could plausibly return in a chapter 3, which makes
 her the most tempting and the most dangerous to reuse.
+
+
+## Chapter 3 — added
+**Closed:** the Kieran deferral (closed by disappointment, not by refusal). Emerson (closed by her having a life).
+**Opened and left open:** Amsterdam. Sanne's number, lost deliberately. Manon's cousin's job lead. The eleven hundred unspent. Whether she calls.
+**Never answered, correctly:** whether she was pregnant. Plan B is not a pregnancy plot and the story declines to make it one.
+**Still untouched after three chapters:** the gun in the Griffintown unit.

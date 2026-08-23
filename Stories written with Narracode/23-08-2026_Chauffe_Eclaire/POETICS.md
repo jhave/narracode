@@ -135,3 +135,55 @@ chapter 1 keeps them because chapter 1 is frozen.
 
 Per the loop-0 drift finding, which recommended it and was not acted on until now: humour in
 the same flat register as the grief, never signalled. The parrot doing the thing.
+
+---
+
+## Amendment — loop 2 (`on_new_direction`, 2026-08-23)
+
+Prompter direction: chapter 3, back across the country, *a great hurtling swirling sweaty
+libido acutely insightful sentences ricocheting through paragraphs*. Ends in Toronto, final
+section boarding a plane to Amsterdam. Chapters 1 and 2 both frozen. A second photographed
+page supplied.
+
+### 1. Sex is the engine
+
+Accepted without qualification. Rent, moving and shifting fortunes are the **taxes** of this
+story and they had been carrying sections that appetite should have carried. She has chosen a
+life of exploration with appetites; chapter 3 follows the implications accurately and does not
+punish her for any of it. She wants people, gets some of them, some of it is very good, one
+Sunday costs fifty-two dollars, and she repents of nothing.
+
+### 2. Motifs must change category
+
+From the supplied page: *signs* four times in one paragraph — astrological, symptomatic,
+abstract, then literal signage, misread. Chapter 2's *chest* meant the same thing twice and
+*open* meant it a third time. Registry class 23. Chapter 3's motif is **cover**, carrying
+bedding, a covered shift, reciprocity, smoke, **insurance coverage**, shelter, a cover charge
+and a covers band. Seven senses, no gloss. *open* and *chest* are retired.
+
+### 3. The procedure chain
+
+New required form, from the page: for a bodily task that is difficult, undignified and takes
+real time, drop the subject and go to bare verbs at full duration, semicolons inside the
+action, return to *I* at maximum indignity. `master_ai_tells.md` §15 stated positively.
+Minimum six bare-verb openers per chapter, enforced by the `swirl` profile. §17 carries it.
+
+### 4. Delete the extraneous
+
+Registry class 22. The narrator is always honest and therefore never says she is being honest.
+Zero tolerance — no load-bearing exception exists for this class. All four of the prompter's
+corrections are recorded verbatim in `reference/voice-engine.md` §12.
+
+### 5. Class 24 binds the scanning pass
+
+Twice the tell-scan located a defect precisely, argued it load-bearing, kept it, and the
+prompter cut it anyway. The registry's *a tell that is load-bearing stays* was functioning as
+a licence to keep favourites, because the pass judging load-bearing is run by the model that
+wrote the span. **A span the scan names as a top risk is now cut, not defended.** Three spans
+were cut under this rule while drafting chapter 3, including one that had already been written.
+
+### 6. Acutely insightful ≠ commentary
+
+The insight arrives as a fact or an image, never as a maxim. Permitted: *I had carried the
+thing nine hundred kilometres. He had only been living here.* Refused: any sentence that could
+be printed on its own and still sound wise.

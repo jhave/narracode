@@ -152,6 +152,38 @@ A structural slot filled the same way section after section — here, room and p
 - **Remedy**: keep at most two. Open the others on a person, a duration, a relation, or a direct perception — how the source register actually opens: *[name] and I had been living together eight months.*
 - **Provenance**: jhave, 2026-08-23, on *Chauffé Éclairé* §§1–8. "By the time we get to section 8, it's become a cliched routine."
 
+### 22. The authorial-intent hedge
+The narrator announces her relation to her own sentence before making it. *I want to be honest that it was one of the better days.* *The bad one was nothing, which is what I want to put down.* *I want to be clear that I do not think it was my father.* It performs candour and costs the sentence its specificity. It is also where §19 goes when you cut §19 — the same impulse, relocated from after the statement to before it.
+
+- **Detector**: `I want to (be honest|be clear|say|put down|note)` · `which is what I want to` · `I do not think it was` · `let me be honest`.
+- **Remedy**: **delete the frame, keep the statement.** Assume the narrator is always honest; she does not need to claim it. Then make what remains specific.
+  - *I want to be honest that it was one of the better days.* → **It was one of the better days.**
+  - *The bad one was nothing, which is what I want to put down.* → **It was as if a shoe fell into the toilet.**
+  - *He said something about my mother that was a joke and was accurate. I laughed.* → **He made a joke about my mother; it was too accurate; we both laughed.**
+  - *I want to be clear that I do not think it was my father.* → **It was not my father.**
+- **Cap**: 0. This one has no load-bearing case.
+- **Provenance**: jhave, 2026-08-23, on *Chauffé Éclairé* §§12–14. Replacement phrasings his. "Bauhaus designers used to apply an adage: delete the extraneous."
+
+### 23. The static motif
+A word or image returns and means the same thing both times. *Her chest went loose, like a belt off* (§10) and *my whole chest ringing like a struck pipe* (§11): same body part, same opening, same position at the end of a section. Repetition that is rule-based and formulaic goes stale faster than no repetition at all.
+
+- **The working model**: in the source register, the word *signs* appears four times in one short paragraph and changes category on every appearance — astrological signs, symptoms indicated by a fainting, the abstract accumulation *signs and more signs*, and finally a literal sign on a wall that is then misread. Four senses, one word, no gloss.
+- **Rule**: a motif's second appearance must **change category**, not intensity. If you cannot say what category it moved to, it is repetition wearing a motif's coat.
+- **Detector**: `tools/tillman_check.py --motifs` lists every content word appearing four or more times with its contexts, for a by-eye category check. The tool can find the repetition; only a reader can see whether the sense moved.
+- **Remedy**: transform, retire, or give the narrator a flicker of memory at the second occurrence so the repetition is hers rather than the prose's.
+- **Provenance**: jhave, 2026-08-23, on *Chauffé Éclairé* §§10–12 — the chest, and then *the land does not open* echoing it. "It feels as if the word open has somehow become stuck in the repertoire of motifs."
+
+### 24. Flag-and-keep — a failure of the scanning pass, not of the prose
+Not a construction. A **process** tell, recorded because it has now happened twice in the same project.
+
+Loop 0: the tell-scan found *"Both of those were true and I have not worked out how,"* named it "the story's largest single risk," argued it load-bearing, and kept it. jhave cut it (§19).
+Loop 1: the tell-scan found the two chest figures, wrote "if jhave cuts one, cut the second," and kept both. jhave cut them (§23).
+
+In both cases the scan located the defect precisely and then defended it. The registry's own clause — *a tell that is load-bearing stays* — is being used as a licence to keep favourites, because the pass that judges load-bearing is run by the same model that wrote the span.
+
+- **Rule, binding on the scanning pass**: a span the scan describes as *the largest risk*, or flags and then argues to keep twice, **is cut**. The scan does not get to be the appeal court for its own writing. Where the composing and critiquing models are the same, the benefit of the doubt runs against the text.
+- **Provenance**: Claude Opus 5, self-observation across loops 0 and 1, confirmed both times by jhave's independent read. 2026-08-23.
+
 ---
 
 ## Our own remedies are the next tells

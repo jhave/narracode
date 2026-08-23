@@ -22,3 +22,10 @@ Heat moves from withheld (§1) to purchased by proxy (§3) to stolen (§6) to un
 - **The gnomic place-line** — new. §9 Toronto, §11 Winnipeg. Deliberately absent from four sections so it does not become the replacement formula.
 - **The chest** — used twice as the site of feeling (§10 Loreen's belt, §11 the struck pipe). Flagged in the tell-scan. At ceiling; a third would be a tic.
 - **Smoke** — returns from §8 transformed: June to October, Quebec to BC, eleven days to a season that "never used to be October".
+
+
+## Chapter 3 — added
+- **cover** — the transforming motif, built on the *signs* model. Seven senses: bare duvet (§15) · covering a shift (§16) · she covered mine (§16) · the valley under cover (§16) · **no coverage, out of province** (§17) · took cover from the rain (§19) · cover charge and a covers band (§20). Category moves on every appearance. Registry class 23.
+- **hands and forearms** — Kieran's, Tomás's, Emerson's on the spoon and Griff's shoulder, Ted's two fingers. Gathered without naming in the final sentence.
+- **RETIRED, verified absent:** *open* as a motif · *chest* as the site of feeling · room-and-price openers · socks.
+- **Precy's line** — *it never used to be October* returns as *it never used to be June either*: quotation by memory, one word moved.

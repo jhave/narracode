@@ -198,3 +198,75 @@ year is worn, not announced.
 - The em-dash prohibition. The source uses them. ~5 per 1,000 permitted.
 - The figuration cap of 2. Raised to 4.
 - The refusal of long sentences. **A section with no sentence over 22 words now fails.**
+
+---
+
+# Calibration III — the second page, 2026-08-23
+
+A second photographed page. Two operations on it that the engine did not have.
+
+## 9. The transforming motif
+
+The word *signs* appears four times inside one short paragraph and **changes category on
+every appearance**: astrological signs, symptoms indicated by a fainting, the abstract
+accumulation, and then a literal sign on a wall which is immediately misread into something
+else. Four senses. One word. No gloss, no nudge, no acknowledgement that a pattern is
+occurring.
+
+Set against what chapter 2 did with *chest* — loose like a belt off, then ringing like a
+struck pipe — same organ, same opening, same slot at the end of a section, no movement. And
+*the land does not open* echoing it a section later.
+
+**The rule: the second appearance must change category, not intensity.** If you cannot name
+the category it moved to, you have repetition wearing a motif's coat. Registry class 23.
+`tools/tillman_check.py --motifs` lists candidates; only a reader can judge whether the
+sense moved.
+
+## 10. The procedure chain
+
+For a bodily task that is difficult, undignified and takes real time, the prose drops the
+subject and goes to bare verbs at full duration — begin, think, reach, pull, snap, squat,
+kneel — with semicolons inside the action rather than between thoughts, then returns to *I*
+at the moment of maximum indignity, then lifts into mock-epic, then lands on two words.
+
+This is `master_ai_tells.md` §15 (skipped procedure) stated positively, and it is the
+register in which the source handles contraception, embarrassment and the body. Chapters 1
+and 2 have no passage like it anywhere. **One per chapter, minimum, enforced.**
+
+## 11. Sex is the engine, not the weather
+
+The prompter, plainly: *the prurient interest of sexuality* was at the forefront of the
+source and is a subdued threat here. Rent, moving, and shifting fortunes are the taxes of
+the story; they were carrying sections that should have been carried by appetite. *This is a
+young woman who has chosen a life of exploration with appetites, so just be accurate and
+honest about following the implications of that.*
+
+Accurate and honest means: she wants people, she gets some of them, some of it is very good,
+some is a bad twenty minutes, she is not punished for any of it and does not repent. Say what
+happened. Do not build to it and do not process it afterward.
+
+## 12. Delete the extraneous
+
+The narrator is always honest, so she never says she is being honest. Registry class 22.
+Every one of these was in chapter 2 and every replacement is the prompter's:
+
+| written | corrected |
+|---|---|
+| I want to be honest that it was one of the better days. | It was one of the better days. |
+| The bad one was nothing, which is what I want to put down. | It was as if a shoe fell into the toilet. |
+| He said something about my mother that was a joke and was accurate. I laughed. | He made a joke about my mother; it was too accurate; we both laughed. |
+| I want to be clear that I do not think it was my father. | It was not my father. |
+
+Chapter 2 is frozen and keeps its versions. Chapter 3 is written under the corrected rule.
+
+## The `swirl` profile — chapter 3
+
+*A great hurtling swirling sweaty libido acutely insightful sentences ricocheting through
+paragraphs.* CV ≥ 0.65 · longest sentence ≥ 26 · over-fourteen ≥ 22% · **procedure chain: at
+least six bare-verb sentence openers** · zero class-22 hedges · retired words: *open* as a
+motif, *chest* as the site of feeling.
+
+**Acutely insightful is not the same as commentary.** The insight arrives as a fact or an
+image, never as a maxim. *I had carried it nine hundred kilometres and he had only been
+living here* is allowed. *Desire carried that far arrives heavier than a person can hold* is
+the naming clause with better shoes.

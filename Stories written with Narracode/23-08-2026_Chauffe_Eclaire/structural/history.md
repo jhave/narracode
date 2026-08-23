@@ -22,3 +22,9 @@ the end of a list, and never explained.
 **Said:** "You're not visiting." — Kat. "Don't be sorry yet, I haven't decided." — Loreen.
 "It never used to be October." — Precy. "You're not." — her mother, about eating.
 **Refused:** any causal account of the crying. Any return to the gun. Any arc.
+
+
+## Chapter 3 — added
+**Established:** she sleeps with Kieran and it is good and it ends the wanting. She sleeps with Deke once, badly, in a walk-in. Eleven days with Tomás. One night at Nipigon with Anouk and Sanne. A condom fails on a Saturday in Alberta and she gets to a pharmacy on the Sunday and pays fifty-two dollars she happens to have. She goes eleven hundred kilometres for Emerson and finds Griff. She boards a plane to Amsterdam with a lie about having a friend there.
+**Said:** *chose, you're going to burn yourself out* — Manon. *Careful with yourself* — Ted. *Was it* — Emerson. *You look terrible* — Kat. *It is Amsterdam, sir, it is always a little cold.*
+**Refused:** punishment. Repentance. Any accounting of whether she was pregnant. Any ranking of the men in the final sentence.

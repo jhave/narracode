@@ -23,3 +23,9 @@ except in §12, which withholds it and says so. §12 is the load-bearing risk of
 **Confusion risk:** §14's list of possible causes for the crying names her father for the
 first time in the story. A reader may take that as the answer. The next sentence refuses it
 explicitly, which is the only defence the story offers and is meant to be insufficient.
+
+
+## Chapter 3 — added
+**Expectations:** a reader now expects returns to fail and both do. A reader may expect §17 to become a pregnancy plot; the story never returns to it, which is the point and will read as withholding to some.
+**Productive mystery:** Amsterdam. What she does with eleven hundred dollars and no friend.
+**Confusion risk:** the final paragraph can be misread as arrival or peace. It is three men in sequence, unranked, and sleep. The absence of ranking is the content.

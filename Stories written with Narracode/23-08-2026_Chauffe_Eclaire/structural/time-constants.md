@@ -20,3 +20,8 @@ October → Vancouver, December.
 Constraints: minus four in Winnipeg in September. Fire on the BC side starting the 11th of
 October, valley smoked by the 13th. Dark at four in Vancouver in December. Dez in town eight
 weeks. Emerson: nine days. Kieran: nine nights, four of them after being caught looking.
+
+
+## Chapter 3 — added
+April → October 2029. Squamish (April) → Okanagan, cherries then packing house (June, smoke from the 20th, nine days) → southern Alberta (July) → Winnipeg (August) → north shore of Superior (September) → Toronto, eleven days (October) → Pearson, gate B34, overnight to Amsterdam.
+Constraints: thirty-eight degrees and holding in the valley. Plan B window seventy-two hours, sooner better. Fifty-two dollars, no out-of-province coverage. Eleven hundred dollars in eleven days at Ossington.

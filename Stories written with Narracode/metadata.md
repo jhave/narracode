@@ -2,10 +2,10 @@
 
 - **Folder**: 23-08-2026_Chauffe_Eclaire
   - **Title**: Chauffé Éclairé
-  - **Attribution**: Human: Jhave · Words: 3,510 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
-  - **Word Count**: 3,510
-  - **Reading Time**: 14
-  - **Synopsis**: Montreal, 2028, and then west. Chapter one moves Renée through eight apartments and sixteen months in a city priced past her, ending in a stranger's bed in Griffintown she has no right to be warm in. Chapter two puts her on the road: Toronto, thirty-six hours by rail through northern Ontario, nine days in Winnipeg, the prairies, a Banff kitchen under an October fire, and down into the Vancouver rain. Written to a prosody measured from a photographed page of the source — the voice engine was rebuilt between chapters when the measurement proved the first version wrong, and chapter one was left standing as written, failing the corrected profile.
+  - **Attribution**: Human: Jhave · Words: 5,300 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
+  - **Word Count**: 5,300
+  - **Reading Time**: 21
+  - **Synopsis**: Montreal, 2028, and then west. Chapter one moves Renée through eight apartments and sixteen months in a city priced past her, ending in a stranger's bed in Griffintown she has no right to be warm in. Chapter two puts her on the road: Toronto, thirty-six hours by rail through northern Ontario, nine days in Winnipeg, the prairies, a Banff kitchen under an October fire, and down into the Vancouver rain. Chapter three runs back east at speed — Squamish, cherries and smoke in the Okanagan, a Sunday in southern Alberta that costs fifty-two dollars, a return to Winnipeg that does not restore, a night north of Superior, and a plane out of Pearson. Written to a prosody measured from photographed pages of the source. The voice engine was rebuilt twice, each time because the measurement proved the previous version wrong, and each chapter is left standing exactly as written under the profile of its day.
 
 - **Folder**: 25-07-2026_Devora
   - **Title**: The Chute
@@ -81,7 +81,7 @@
   - **Title**: An Almost Moist Post-Post-Everything
   - **Attribution**: David Jhave Johnston (Jhave) · Google Gemini (orchestrated via Antigravity harness) · 2026-06-12
   - **Word Count**: 3,556
-  - **Reading Time**: 14
+  - **Reading Time**: 21
   - **Synopsis**: In the soft-illicit seeker markets of a post-industrial port city, **Skeo** and **Hude**, an indeterminate non-binary geek outlaw couple, run **Post-Everything** agency. Together with **Scoop**, a custom-modified discount neuromorphic AI bought on the jailbroke dimweb, they dropship custom-pharma and script human-adjacent intimacy packages, struggling to survive the corrosion of truth, capital, and their own relationship.
 
 - **Folder**: 07-06-2026_Concerning_Rights_and_Clauses
@@ -144,7 +144,7 @@
   - **Title**: The Author Was Already Dead
   - **Attribution**: Jhave · Roberto Simanowski, "A story in the style of Chandler about the Death of an Author" · Claude Opus 4.7 (Anthropic) · GPT-5.5 Codex · 2026-05-15
   - **Word Count**: 3,557
-  - **Reading Time**: 14
+  - **Reading Time**: 21
   - **Synopsis**: A dead novelist leaves behind an apartment full of ordinary machines, an unlocked phone, and a corpus of dictated prose that changes what his agent thinks has survived him. A Chandler-inflected story about voice transcription, literary estates, authorship, and the strange romance between a writer and the device that listened.
 
 - **Folder**: 14-05-2026_Aft_of_Nowhere
