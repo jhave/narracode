@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-label="Chauffé Éclairé">
+  <rect width="640" height="640" fill="#111111"/>
+  <g fill="#f2f0eb" font-family="Georgia, 'Times New Roman', serif">
+    <text x="56" y="150" font-size="62" font-weight="700">chauffé</text>
+    <text x="56" y="222" font-size="62" font-weight="700">éclairé</text>
+    <text x="56" y="300" font-size="21" fill="#8d8880">Montréal, 2028</text>
+  </g>
+  <g fill="#6f6a62" font-family="Georgia,'Times New Roman',serif" font-size="19">
+    <text x="56" y="392">640</text>
+    <text x="56" y="424">590</text>
+    <text x="56" y="456">1 190</text>
+    <text x="56" y="488">1 655</text>
+    <text x="56" y="520">900</text>
+  </g>
+  <g stroke="#2b2926" stroke-width="9" stroke-linecap="round">
+    <line x1="470" y1="120" x2="470" y2="520"/>
+    <line x1="510" y1="120" x2="510" y2="520"/>
+    <line x1="550" y1="120" x2="550" y2="520"/>
+    <line x1="430" y1="120" x2="430" y2="520"/>
+  </g>
+  <g stroke="#3a3733" stroke-width="7">
+    <line x1="418" y1="190" x2="562" y2="190"/>
+    <line x1="418" y1="450" x2="562" y2="450"/>
+  </g>
+</svg>

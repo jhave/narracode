@@ -1,5 +1,12 @@
 # Stories Metadata
 
+- **Folder**: 23-08-2026_Chauffe_Eclaire
+  - **Title**: Chauffé Éclairé
+  - **Attribution**: Human: Jhave · Words: 1,430 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
+  - **Word Count**: 1,430
+  - **Reading Time**: 6
+  - **Synopsis**: Montreal, 2028. A woman moves through eight apartments, eight men and sixteen months in a city priced past her, from a cold room in Parc-Extension to a stranger's bed in Griffintown she has no right to be warm in. Each section turns on an unprepared confession. Written to a measured prosody — median sentence six words, figuration capped, no em-dashes — specified in a voice engine and enforced by a validator between drafts.
+
 - **Folder**: 25-07-2026_Devora
   - **Title**: The Chute
   - **Attribution**: Jhave (seed paragraph, direction, constraints) · Claude Opus 5 (story) · Gemini 3.6 Flash (Images & HTML) · 2026-07-25
