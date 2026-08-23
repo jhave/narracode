@@ -270,3 +270,52 @@ motif, *chest* as the site of feeling.
 image, never as a maxim. *I had carried it nine hundred kilometres and he had only been
 living here* is allowed. *Desire carried that far arrives heavier than a person can hold* is
 the naming clause with better shoes.
+
+---
+
+# Calibration IV — how she starts a section, 2026-08-23
+
+Four photographed openings. Not one of them begins with a place and a date, and not one
+begins the same way as another. Time is established by a **device**, and the device is
+different every time.
+
+| device | how it works |
+|---|---|
+| **present-tense trigger** | An ordinary act now dislodges the past. *Watching an English television play reminds me of life with Roger, an English actor I lived with for two months.* Duration and relation arrive in the same clause as the trigger. |
+| **a policy of life** | *I was staying away from men and lived and worked in Amsterdam where I found it easy to do so.* A rule she had set herself, which the section will break. |
+| **a gnomic generalisation** | *By now everyone knows that Valium is one way to get over a love affair.* A flat universal about a substance or condition, then straight into the particular. |
+| **a flat cliché** | *Breaking up is hard to do.* Deployed without irony marks and immediately outrun by specifics. |
+| **anniversary layering** | *Two years before I'd written a short story on this day about the day and this year I found myself falling in love again.* Three time-planes in one sentence. |
+| **prolepsis with deferral** | *John's uncanny instinct for the kill would reappear, but not for another two weeks.* The future named and withheld. |
+
+## The wit devices in the same passages
+
+- **Assert, then puncture.** *…the cast became friends too. Of course no one makes friends that easily.*
+- **Colon-redefinition.** *life becomes intensely fair: everything is the same.* The colon reverses the word in front of it.
+- **The pun that comes free with the noun.** *work at the film cooperative was impossible — no one cooperated.*
+- **Comic collision of registers.** *I read Jane Austen while on the train and feared that I might have to marry the Greek man.*
+- **Double-negative self-portrait.** *I'm not one not to smile.*
+- **Vagueness assigned to a person, not to the prose.** *public relations person for something or other* — the fuzz characterises his job, not the writing.
+- **The cool dismissal that is not contemptuous.** *His enthusiasm only intrigued me.*
+- **Gnomic close.** *It is safer to stay indoors.*
+
+Compare our own *which everybody tells you and nobody believes until their thumbs stop
+closing* — a maxim about nobody, doing no work. Hers are about a named substance, a named
+city, a specific fear, and each is funny.
+
+## The audit
+
+`tools/prose_audit.py` is the durable artefact of this loop. It measures nothing and passes
+nothing. It reports vaguenesses, absolutes, meta-commentary, sentence-final *it*, numeric
+clustering, section-opener shapes, triplet formulas, every proper name with its first
+mention, and callbacks that may not land — and leaves every judgement to a reader.
+
+Run against chapter 3 it independently reproduced **all** of jhave's line-notes, including
+the *eleven* cluster (ten occurrences) and the eight sentences ending on *it*. The checks
+exist because a human found something first; the tool is a memory of his attention, not a
+replacement for it.
+
+```
+python3 tools/prose_audit.py <draft.md>
+python3 tools/prose_audit.py <draft.md> --only=numbers,it,meta
+```

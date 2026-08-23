@@ -29,3 +29,9 @@ Heat moves from withheld (§1) to purchased by proxy (§3) to stolen (§6) to un
 - **hands and forearms** — Kieran's, Tomás's, Emerson's on the spoon and Griff's shoulder, Ted's two fingers. Gathered without naming in the final sentence.
 - **RETIRED, verified absent:** *open* as a motif · *chest* as the site of feeling · room-and-price openers · socks.
 - **Precy's line** — *it never used to be October* returns as *it never used to be June either*: quotation by memory, one word moved.
+
+
+## Chapter 4 — added
+- **charge** — six senses, one per section, none glossed: six percent of a charge left (battery) · nothing charged either way (erotic) · not in charge of his own dataset (authority) · the charge for the examination (money) · two men took charge (assuming control) · everything carried a charge (overload). A seventh occurrence was cut for repeating the money sense.
+- **hands** — continuous since chapter 1: Blaž's, Terje's in her mouth, the ring off because of the gloves, her own elsewhere at four in the afternoon, a stranger's folding a coat under a head.
+- **RETIRED, verified absent:** *cover* · *open* · *chest* · room-and-price openers · socks.

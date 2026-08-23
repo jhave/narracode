@@ -187,3 +187,56 @@ were cut under this rule while drafting chapter 3, including one that had alread
 The insight arrives as a fact or an image, never as a maxim. Permitted: *I had carried the
 thing nine hundred kilometres. He had only been living here.* Refused: any sentence that could
 be printed on its own and still sound wise.
+
+---
+
+## Amendment — loop 3 (`on_new_direction`, 2026-08-23)
+
+Prompter direction: chapter 4 — Europe briefly, then Bergen; an affair with a Slovenian
+doctoral candidate at the Centre for Digital Narrative studying the sexual orientation of
+NPCs, avatars and AI influencers; falling in love with him and sleeping with a married
+dentist in the same weeks; a voyage north; a woman having a seizure in a grocery store;
+return to Bergen, pack, fly to Amsterdam. *Witty, ironic, succinct, dry, terse, exact as
+Joan Didion. Every sentence that is not an exact perception, make it so.* Chapters 1–3 frozen.
+
+### 1. The harness becomes a set of checks, not rules
+
+The prompter's instruction: *build up this harness style guide for this particular system,
+that is not rule-based, but actually just kind of performs a bunch of checks — vaguenesses,
+numeric repetitions, motifs, relational continuity problems.*
+
+`tools/prose_audit.py`. It measures nothing and passes nothing. Eight checks: vagueness and
+absolutes · meta-commentary · sentences ending on *it* · numeric clustering · section-opener
+shapes · triplet formulas · every proper name with first-mention context · callbacks that may
+not land. Run against chapter 3 it independently reproduced every one of the prompter's
+line-notes, including the *eleven* cluster and the eight terminal *it*s.
+
+### 2. Six new registry classes (25–30)
+think/want pattern · numeric clustering · the sentence ending on *it* · stories about stories ·
+the unearned callback · fickleness mistaken for economy. All jhave's provenance, with his
+replacement phrasings recorded verbatim.
+
+### 3. Time is established by a device, and the device changes every section
+
+From four photographed openings, none of which uses a place-and-date: a policy of life · a
+gnomic universal · a present-tense trigger · a flat cliché · anniversary layering · prolepsis
+with deferral. Chapter 4's six sections use six different ones. Recorded in
+`reference/voice-engine.md` → Calibration IV, with the wit devices from the same passages.
+
+### 4. She is not fickle
+
+Registry class 30. *I liked him about thirty hours* made her petulant. The source register is
+clinical and impulsive at once — appetite and coolness in one person, and also love, and
+being wrong for months, and grief. Chapter 4: she is in love with Blaž and going to Terje on
+Thursdays and the story does not adjudicate. Durations are facts, not verdicts.
+
+### 5. The new pressure is fatigue
+
+Constant emotional availability plus constant appetite, producing a distorted unsettled
+reality. Shown as an amplitude problem — everything arriving at one volume after Florø — and
+never as self-diagnosis. She does not know what is wrong with her and is not made to find out.
+
+### 6. Motif for this chapter: **charge**
+Six senses, one per section, none glossed: battery · erotic · authority · money · assuming
+control · overload. A seventh use was cut for repeating the money sense. *cover*, *open* and
+*chest* stay retired.

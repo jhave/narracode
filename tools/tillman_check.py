@@ -64,6 +64,15 @@ PROFILES["swirl"] = dict(PROFILES["road"], **{
     "pct_gt14_min": 22.0,
     "imperative_min": 6,        # subject-dropped verb chain, full duration
 })
+PROFILES["didion"] = dict(PROFILES["road"], **{
+    # Chapter 4. jhave: "as witty, ironic, succinct, dry, terse, exact as Joan Didion.
+    # Every sentence that is not an exact perception make it so."
+    "mean_min": 10.0, "mean_max": 14.0,
+    "median_min": 8, "median_max": 11,
+    "cv_min": 0.62,
+    "max_sentence_min": 26,
+    "pct_gt14_min": 20.0, "pct_gt14_max": 40.0,
+})
 TARGETS = PROFILES["road"]
 
 # ---------------------------------------------------------------- patterns

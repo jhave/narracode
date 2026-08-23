@@ -25,3 +25,12 @@ weeks. Emerson: nine days. Kieran: nine nights, four of them after being caught 
 ## Chapter 3 — added
 April → October 2029. Squamish (April) → Okanagan, cherries then packing house (June, smoke from the 20th, nine days) → southern Alberta (July) → Winnipeg (August) → north shore of Superior (September) → Toronto, eleven days (October) → Pearson, gate B34, overnight to Amsterdam.
 Constraints: thirty-eight degrees and holding in the valley. Plan B window seventy-two hours, sooner better. Fifty-two dollars, no out-of-province coverage. Eleven hundred dollars in eleven days at Ossington.
+
+
+## Chapter 4 — added
+November 2029 → April 2030. Amsterdam (nineteen days to make the lie true) → Ghent and a
+twenty-nine-hour bus in January → Bergen, February, twenty-two days of rain in the first month
+→ March, the fortnight to Terje → April, five hours by express boat to Florø, 61°N → back
+Sunday, flight Sunday 06:55 to Schiphol.
+Constraints: Norwegian adults pay for their own dentistry (1,650 kr examination). The ambulance
+took nine minutes. Blaž at a conference in Tampere during the Florø trip.

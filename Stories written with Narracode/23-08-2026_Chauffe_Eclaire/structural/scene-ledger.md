@@ -36,3 +36,14 @@
 | 18 | Winnipeg, Aug | eleven hundred km to a curry | "was it" | what Emerson meant |
 | 19 | N. of Superior, Sep | velocity, rain, two Dutch girls | the number comes off, she lets it | Sanne |
 | 20 | Toronto → YYZ, Oct | leaving on a lie about a friend | three men, no ranking, asleep | Amsterdam |
+
+
+## Chapter 4 — added
+| § | place / time | opener device | turn | left open |
+|---|---|---|---|---|
+| 21 | Amsterdam, Nov | a policy of life | warm, and lost | Sanne, Rotterdam |
+| 22 | Ghent + bus, Jan | gnomic universal | a lie that held until June | the job |
+| 23 | Bergen, Feb | present-tense trigger | in love at a bus stop, no dignity | Blaž |
+| 24 | Bergen, Mar | flat cliché | *from what*, unanswerable | the tiredness |
+| 25 | Florø, Apr | anniversary layering | the liquorice | the woman |
+| 26 | Bergen, Apr | assert-and-puncture | eat the breakfast | everything |

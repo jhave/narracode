@@ -53,3 +53,17 @@ setting, not a fact about Renée, and the road is where that becomes visible.
 
 ## Relation Changes
 Two returns, both failing, differently. Kat is now the story's fixed point: three appearances, always the one permitted to be rude.
+
+
+## Chapter 4 — added
+- **Wim** — §21. Amsterdam, prints art books, clarinet at seven, apology at eight. Wants an audience, not rent.
+- **Roos** — §21, §26. Manon's cousin. Kitchen on the Jan Evertsenstraat. Hires and rehires.
+- **Sanne** — returns, §21. Found via a photograph of the returned Jetta. One night, then Rotterdam and logistics.
+- **The Slovak in 14C** — §22. Welder, Esbjerg, a daughter with asthma. Nothing charged either way.
+- **Blaž Rozman** — §§23–26. Maribor; fourth-year doctorate at the Centre for Digital Narrative; codes nine thousand NPCs, avatars and AI influencers for what they are permitted to want. Not in charge of his own dataset. She falls in love with him at a bus stop.
+- **Terje** — §§24, 26. Dentist above a shoe shop, fifty-one, married, two daughters. Ended by an unsent message.
+- **The woman in the Bunnpris** — §25. Sixty, red anorak, good shoes. Unnamed, unexplained, never seen again.
+
+## Relation Changes
+First time two relationships run concurrently without the story adjudicating between them.
+Blaž is the first person she is in love with on the page.

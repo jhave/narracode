@@ -29,3 +29,10 @@ her the most tempting and the most dangerous to reuse.
 **Opened and left open:** Amsterdam. Sanne's number, lost deliberately. Manon's cousin's job lead. The eleven hundred unspent. Whether she calls.
 **Never answered, correctly:** whether she was pregnant. Plan B is not a pregnancy plot and the story declines to make it one.
 **Still untouched after three chapters:** the gun in the Griffintown unit.
+
+
+## Chapter 4 — added
+**Open:** Blaž, unresolved out loud by both of them in a drop-off lane. The woman in the
+Bunnpris. What she does with Amsterdam. The liquorice she did not buy and cannot explain.
+**Closed by silence:** Terje — ended by not sending a message, named as cheap.
+**Still untouched after four chapters:** the gun.

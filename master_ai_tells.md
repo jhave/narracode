@@ -184,6 +184,50 @@ In both cases the scan located the defect precisely and then defended it. The re
 - **Rule, binding on the scanning pass**: a span the scan describes as *the largest risk*, or flags and then argues to keep twice, **is cut**. The scan does not get to be the appeal court for its own writing. Where the composing and critiquing models are the same, the benefit of the doubt runs against the text.
 - **Provenance**: Claude Opus 5, self-observation across loops 0 and 1, confirmed both times by jhave's independent read. 2026-08-23.
 
+### 25. The think/want pattern (generalised from §22)
+§22 caught *I want to be honest*. The same impulse survives as *I have thought about that since, because…*, *I could not tell whether…*, *I have decided not to decide*. The narrator stepping outside the sentence to report her relation to it. The tell is not the verb; it is the **stepping outside**.
+
+- **Detector**: `I have thought about` · `I could not tell` · `I have decided` · `I am not going to` · any `…, and I have …ed …, because …`.
+- **Remedy**: replace the reflection with a judgement made *in* the world, ideally an unkind one.
+  - *He had a duvet with no cover on it, and I have thought about that since, because a man sleeping under a bare duvet has made a decision and is at peace with it.* → **He had a duvet with no cover on it; an adult sleeping under a bare duvet generally avoids decisions.**
+- **Note**: the corrected version reverses the meaning. The tell was not only lazy, it was wrong about him.
+- **Provenance**: jhave, 2026-08-23, on §15.
+
+### 26. Numeric clustering
+"Numbers are not neat and tidy in people." Chapter 3 used *eleven* ten times — eleven hours, a town of eleven hundred, eleven days on a couch, eleven hundred dollars in eleven days, eleven hundred kilometres — and *four* six times. Each was chosen locally and plausibly. In aggregate they read as a machine reaching into a small bag.
+
+- **Detector**: `tools/prose_audit.py --only=numbers` flags any value appearing three or more times, with contexts.
+- **Remedy**: real quantities are ugly and unrepeating. 380 kroner, nineteen days, a Tuesday, 4%.
+- **Provenance**: jhave, 2026-08-23. He listed the eleven-cluster from memory before any tool existed.
+
+### 27. The sentence that ends on *it*
+*He said come Thursday, and meant it.* *I listened to all of it.* *I let it.* Eight in 1,786 words. The sentence arrives at the place where the wit goes and puts a pronoun there.
+
+- **Detector**: `tools/prose_audit.py --only=it`. Guide: more than two per thousand words and the tic is visible.
+- **Remedy**: end on the noun, the number, or the joke.
+- **Provenance**: jhave, 2026-08-23. "Another vagueness to replace with wit."
+
+### 28. Stories about stories
+*That is the only reason this is a story about a Sunday and not a story about something else, and I know exactly how thin that is, and so does every woman I have ever worked a season with.* Absolutes (*the only*, *exactly*, *every*) wrapped around a claim about the narrative's own category.
+
+- **Rule**: these stories are about stray contingencies and ricochets. Perceptions. **They are not stories about stories, or about what kind of story they are.**
+- **Remedy**: delete, and put a perception where it was. jhave's replacement for the span above: *He wore a "Budweiser Sucks" baseball cap with a frayed brim, driving with one hand. The passing fields outside the windows, parched infertile. Both of us quiet.*
+- **Related**: afterthought commentary — *…and none of that was in the messages about the dog* → **She hadn't mentioned this.** And sentences that restate what is already established — *We are the sort of thing that is fine now* → CUT.
+- **Provenance**: jhave, 2026-08-23, on §§16–20.
+
+### 29. The unearned callback
+A reference that needs an earlier chapter to mean anything, dropped in as though it carries. *I had built nine days into a country* — the nine days are from a previous chapter and a previous city, and a reader will not retrieve them. Likewise an echo of a phrase (*the way I had come eleven hundred kilometres to be looked at*) attached to a person the reader has just met.
+
+- **Detector**: `tools/prose_audit.py --only=callbacks`, plus `--only=names` for first-mention context on every proper noun.
+- **Test**: would a reader who has forgotten the earlier chapter still be fine? If not, seat it in the sentence or cut it.
+- **Provenance**: jhave, 2026-08-23. "I don't understand the 9 days? What exactly is being referenced? If you make such connections, consider if the meaning will land."
+
+### 30. Fickleness mistaken for economy
+*I liked him about thirty hours.* Compression that reads as contempt, and makes the narrator petulant rather than clinical. The source register is **clinical and impulsive at once** — adventurous, appetitive, and also capable of falling in love, of grief, of being wrong about someone for months. A narrator who dispatches every man in a clause has been flattened by her own prosody.
+
+- **Remedy**: keep the coolness, remove the dismissal. Let the duration be a fact rather than a verdict.
+- **Provenance**: jhave, 2026-08-23. "Is she really that fickle? Unsympathetic? Why?"
+
 ---
 
 ## Our own remedies are the next tells

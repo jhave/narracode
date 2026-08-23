@@ -53,3 +53,22 @@ who are not owed anything.
 ## Arc potentials
 None resolving. She goes west because the lease ended, which is not a reason. She arrives
 in Vancouver in the rain with the same amount of money.
+
+
+## Correction — loop 3 (registry class 30)
+
+Chapter 3 made her fickle. *I liked him about thirty hours* is compression that reads as
+contempt; a narrator who dispatches every man in a clause is not clinical, she is petulant.
+
+The source register is **clinical and impulsive at once.** Appetite and coolness in the same
+person, and also: falling in love properly, being wrong about someone for months, grief. She
+is not above any of it and does not narrate as though she were.
+
+From chapter 4: durations are facts, not verdicts. She falls in love with Blaž and it is
+real; she is sleeping with a married dentist in the same weeks; the story does not adjudicate
+between those, and neither does she, and this is not presented as a dilemma she is failing to
+resolve. It is the weather she lives in.
+
+**The fatigue is the new pressure.** Constant emotional availability, constant appetite,
+constant fluctuation between love and casual sex — the cost is a distorted, unsettled reality,
+and it is shown by what she cannot stop seeing after Florø, never by her diagnosing herself.

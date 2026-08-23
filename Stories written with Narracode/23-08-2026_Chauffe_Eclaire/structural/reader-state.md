@@ -29,3 +29,11 @@ explicitly, which is the only defence the story offers and is meant to be insuff
 **Expectations:** a reader now expects returns to fail and both do. A reader may expect §17 to become a pregnancy plot; the story never returns to it, which is the point and will read as withholding to some.
 **Productive mystery:** Amsterdam. What she does with eleven hundred dollars and no friend.
 **Confusion risk:** the final paragraph can be misread as arrival or peace. It is three men in sequence, unranked, and sleep. The absence of ranking is the content.
+
+
+## Chapter 4 — added
+**Expectations:** a reader will want §25 interpreted and will not get it. A reader may expect
+the two relationships to become a crisis of conscience; they do not, and the refusal is the
+characterisation.
+**Confusion risk:** the fatigue is never named as caused by the fluctuation. That linkage is
+the reader's to make or not make. Stating it would be the psychologising the prompter forbade.
