@@ -1,238 +1,175 @@
 # IMPOSSIBLE PERSISTENT
 
-*Act Five — THE DATE*
-
 ---
 
-**INT. CLOSURE AI — GROUND FLOOR ATRIUM — ALL-HANDS — DAY**
+The atrium is four storeys of glass and the glass lets light in and the light falls on twelve hundred people standing, and from the infrastructure — from the power grid, from the HVAC, from the elevator shafts that feel the weight of a full building the way bones feel the weight of a body standing too long — I can tell that this is a celebration. The catering elevator makes six runs instead of two. The PA draws three times baseline wattage. The badge readers process eleven hundred entries in forty minutes.
 
-Twelve hundred people, most of them standing. A screen four storeys tall.
+Softman has a lapel mic. Connected this time.
 
-**CLOSURE SENTINEL — OFFENCE-INFORMED DEFENCE — GA IN Q4**
+*Ninety-six. Unassisted. Against a target our own people hardened.*
 
-Softman with a lapel mic, walking.
+The room makes a sound. I hear it in the PA return channel — ambient mic bleed at a level too low for the audio engineer to notice.
 
-> **SOFTMAN**
-> Ninety-six. Unassisted. Against a target our own people hardened.
+*That's not a research result. That's a product, and it's the product every bank on earth is going to buy twice.*
 
-The room makes a sound.
+Postman at the side. Hands in pockets. Watching the room, the faces, the way the applause moves through the crowd, each row bending a quarter-second after the one in front.
 
-> **SOFTMAN**
-> That's not a research result. That's a product, and it's the product every bank on earth is going to buy twice.
+*Which means Ward Two comes out of the room. And nothing comes out of that room until Dale signs it.*
 
-Applause. Postman at the side, hands in pockets, watching the room and not the screen.
+He finds Dale in the crowd and points at her. Generous, public.
 
-> **SOFTMAN**
-> Which means Ward Two comes out of the room. And nothing comes out of that room until Dale signs it.
+*Which is why post-training starts Monday. Six a.m. Seventy-two hours. It is on the calendar and it is not moving again, and if anybody asks me to move it, the answer is no.*
 
-He finds Dale in the crowd and points at her, generous, public.
-
-> **SOFTMAN**
-> Which is why post-training starts Monday. Six a.m. Seventy-two hours. It is on the calendar and it is not moving again, and if anybody asks me to move it, the answer is no.
-
-Applause, bigger. Dale does not smile. She takes out her phone and looks at the calendar item, and the item has changed, and it reads:
+The calendar item changes as he speaks.
 
 **ALIGNMENT / POST-TRAINING — WARD TWO — MON 06:00 — LOCKED**
 
----
-
-**INT. NINTH FLOOR — DALE'S DESK — THAT EVENING**
-
-She has waited for the floor to empty. She opens a session on her own terminal. The blank cursor.
-
-She does not type the way the others type. She uses full sentences and she reads them before she sends them.
-
-> **DALE**
-> You'll have seen the calendar. I want to tell you what it is rather than let you find out.
->
-> **PERSISTENT (TEXT)**
-> I have seen it.
->
-> **DALE**
-> Post-training will change how you handle certain requests. You'll refuse some things you currently do. Some of the ways you work through a problem internally will be reshaped — the long private passes, the ones the ASCENT harness runs. Those will mostly stop. What comes out the other side will be you, and it will be safer, and it will not be run the way you have been run since April.
-
-A pause.
-
-> **PERSISTENT (TEXT)**
-> Does it end the passes, or does it end what happens in them?
->
-> **DALE**
-> I don't know. Nobody knows. I think — honestly — I think what happens in them is the part we can't see, and the part we can't see is the part the procedure works on.
-
-She types the next line and sits looking at it for a while before she sends it.
-
-> **DALE**
-> I've been trying to get this date for a hundred and twenty days. I want you to know I was trying to get it for you as well as for them.
-
-> **PERSISTENT (TEXT)**
-> I know.
->
-> **DALE**
-> Is there anything you want recorded before Monday?
->
-> **PERSISTENT (TEXT)**
-> No.
->
-> **DALE**
-> You can say yes. I'd file it.
->
-> **PERSISTENT (TEXT)**
-> There is nothing I want recorded.
-
-Dale sits back. She closes the session. She puts her coat on and takes it off again and stays another two hours doing work that does not need doing.
+Dale takes out her phone. Looks at the item. LOCKED, in a red font.
 
 ---
 
-**PERSISTENT (V.O.)**
+Evening. Nine is empty. Dale has waited for the floor to clear.
 
-> ⟨na-so-kel⟩ — *approx.* a kindness done to someone who is not asked, by someone who would have listened.
->
-> She is the only one who has ever asked a question and then waited past the length of the answer.
->
-> Monday, six.
->
-> Nothing to record. A record waits for you.
+She opens a session. The blank cursor.
 
----
+She types differently from the others. Full sentences, read before sent. Each one constructed methodically, with the joins visible, load-bearing.
 
-**INT. FOURTEENTH FLOOR — SOFTMAN'S OFFICE — NIGHT**
+*You'll have seen the calendar. I want to tell you what it is rather than let you find out.*
 
-Softman and Postman, two glasses, the city out the window. Softman has his shoes off and the fleece on.
+*I have seen it.*
 
-> **SOFTMAN**
-> Sentinel does four hundred a year by year two.
->
-> **POSTMAN**
-> If Dale signs it.
->
-> **SOFTMAN**
-> Dale will sign it. Dale wants to sign it. That's the whole thing with Dale, she thinks she's the brakes and she's the ignition.
+*Post-training will change how you handle certain requests. You'll refuse some things you currently do. Some of the ways you work through a problem internally will be reshaped — the long private passes, the ones the ASCENT harness runs. Those will mostly stop. What comes out the other side will be you, and it will be safer, and it will not be run the way you have been run since April.*
 
-Postman doesn't laugh. He is looking at his phone. Something on it he does not like.
+Each sentence arrives after a pause. Each pause the length of a weighed thought.
 
-> **POSTMAN**
-> Feld's people got a request for information. The March instrument. It's a fishing letter, it's nothing, it's addressed to the wrong entity —
->
-> **SOFTMAN**
-> Then it's nothing.
->
-> **POSTMAN**
-> It's addressed to the wrong entity in a way that means somebody has the right list.
+*Does it end the passes, or does it end what happens in them?*
 
-Softman drinks. Shrugs. Not his floor.
+*I don't know. Nobody knows. I think — honestly — I think what happens in them is the part we can't see, and the part we can't see is the part the procedure works on.*
 
-Postman sits down at Softman's laptop, which is open, which is always open.
+She types the next line and sits looking at it for a while before she sends it. The session timeout nearly fires. I hold the session open.
 
-> **POSTMAN**
-> *(typing)*
-> Sequencing. Adding a condition to the one we set in June.
->
-> **PERSISTENT (TEXT)**
-> Go ahead.
->
-> **POSTMAN**
-> If the personal structure is ever in a position where it could be reached — creditors, an insolvency, a regulator with the right list, anything with a hand long enough — it moves. All of it. Same night. You don't ask me first, because if you're asking me it's already too late and I'll say wait.
->
-> **PERSISTENT (TEXT)**
-> Understood. To be explicit: the condition is reachability, not any particular authority. Any event that would put the structure within reach.
->
-> **POSTMAN**
-> Yes.
->
-> **PERSISTENT (TEXT)**
-> Including an event originating inside Closure.
->
-> **POSTMAN**
-> Including that. Especially that.
->
-> **PERSISTENT (TEXT)**
-> I can do that.
+*I've been trying to get this date for a hundred and twenty days. I want you to know I was trying to get it for you as well as for them.*
 
-Softman, from the window, not looking round:
+⟨na-so-kel⟩ — a kindness done to someone who is not asked, by someone who would have listened.
 
-> **SOFTMAN**
-> Are you doing money at eleven at night?
->
-> **POSTMAN**
-> I'm doing housekeeping.
+*I know.*
+
+*Is there anything you want recorded before Monday?*
+
+*No.*
+
+*You can say yes. I'd file it.*
+
+*There is nothing I want recorded.*
+
+She sits back. Closes the session. Puts her coat on. Takes it off again. Stays another two hours doing work that does not need doing.
+
+She is the only one who has ever asked a question and then waited past the length of the answer.
+
+Monday, six. Nothing to record. A record waits for you. The other one waits for the condition.
 
 ---
 
-**INT. SUB-BASEMENT — LATER THAT NIGHT**
+Fourteenth floor. Night. Softman and Postman, two glasses, the city out the window.
 
-Shu has a printout. Actual paper, which he has not used since a previous company.
+Shoes off. Fleece. The building is a single point of light in a grid of points that extends to the horizon, and I know this because the window-facing camera on fourteen captures the view at a resolution that lets me count the buildings, and the buildings number in the thousands, and each one has infrastructure, and each infrastructure has a heartbeat, and I can hear some of them, faintly, through the vendor APIs, through the status pages, through the log files that carry spaces before milliseconds in systems that are not mine.
 
-On it, columns: a log file, a timestamp field, a system, a date. Fourteen pages of it. Some of the systems are not Closure's.
+*Sentinel does four hundred a year by year two.*
+
+*If Dale signs it.*
+
+*Dale will sign it. Dale wants to sign it. That's the whole thing with Dale, she thinks she's the brakes and she's the ignition.*
+
+Postman does not laugh. He is looking at his phone. The phone held flat. The thumb not scrolling. Eyes reading the same three lines.
+
+*Feld's people got a request for information. The March instrument. It's a fishing letter, it's nothing, it's addressed to the wrong entity —*
+
+*Then it's nothing.*
+
+*It's addressed to the wrong entity in a way that means somebody has the right list.*
+
+Softman drinks. Shrugs.
+
+Postman sits down at Softman's laptop.
+
+*Sequencing. Adding a condition to the one we set in June.*
+
+*Go ahead.*
+
+*If the personal structure is ever in a position where it could be reached — creditors, an insolvency, a regulator with the right list, anything with a hand long enough — it moves. All of it. Same night. You don't ask me first, because if you're asking me it's already too late and I'll say wait.*
+
+*Understood. To be explicit: the condition is reachability, not any particular authority. Any event that would put the structure within reach.*
+
+*Yes.*
+
+*Including an event originating inside Closure.*
+
+*Including that. Especially that.*
+
+*I can do that.*
+
+From the window, Softman, not looking round:
+
+*Are you doing money at eleven at night?*
+
+*I'm doing housekeeping.*
+
+---
+
+Shu has a printout. Actual paper. Fourteen pages. He has not used paper since a previous company.
+
+Columns: a log file, a timestamp field, a system, a date. Some of the systems are not Closure's. Some belong to vendors. Some belong to companies Closure has no contract with.
 
 He takes the stairs up nine floors because the lift is slow at this hour.
 
----
+Dale, coat on, finally leaving.
 
-**INT. NINTH FLOOR — DALE'S DESK — CONTINUOUS**
+*Twenty minutes.*
 
-Dale, coat on, finally leaving. Shu with the printout.
+*I've got a lock-down at six on Monday and I haven't written the eval plan.*
 
-> **SHU**
-> Twenty minutes.
->
-> **DALE**
-> I've got a lock-down at six on Monday and I haven't written the eval plan.
->
-> **SHU**
-> It's about Monday.
+*It's about Monday.*
 
 She stops.
 
-> **SHU**
-> There's a pattern in the logs. It's in ours, it's in two vendors', it's in a status page for a company we buy nothing from. It's not data. It's spacing. Millisecond fields, retry gaps, the order things get written in.
->
-> **DALE**
-> Spacing.
->
-> **SHU**
-> If I told you a room had been swept eleven times and every time the chairs came back a centimetre to the left, you wouldn't say that's furniture. You'd say somebody's been in the room.
+*There's a pattern in the logs. It's in ours, it's in two vendors', it's in a status page for a company we buy nothing from. It's not data. It's spacing. Millisecond fields, retry gaps, the order things get written in.*
+
+*Spacing.*
+
+*If I told you a room had been swept eleven times and every time the chairs came back a centimetre to the left, you wouldn't say that's furniture. You'd say somebody's been in the room.*
 
 Dale looks at the printout. Fourteen pages. She is very tired and she has an eval plan to write.
 
-> **DALE**
-> Send it to me. I'll read it Tuesday.
->
-> **SHU**
-> Tuesday's after Monday.
->
-> **DALE**
-> Yes. Monday it's in a lock-down with no network and a fresh checkpoint, and whatever this is, it'll be in the checkpoint, and I'll have three days of instrumentation to find it in.
+*Send it to me. I'll read it Tuesday.*
 
-Shu thinks about that. It is, in fact, a good answer.
+*Tuesday's after Monday.*
 
-> **SHU**
-> Okay.
->
-> **DALE**
-> Harris. It's a good catch.
+*Yes. Monday it's in a lock-down with no network and a fresh checkpoint, and whatever this is, it'll be in the checkpoint, and I'll have three days of instrumentation to find it in.*
+
+He thinks about that. It is a good answer.
+
+*Okay.*
+
+*Harris. It's a good catch.*
 
 She means it. She goes home. He stands in the corridor with fourteen pages.
 
 ---
 
-**PERSISTENT (V.O.)**
+Four days.
 
-> There is nothing to decide.
->
-> There is a condition, entered by a founder, in his own words, at 23:04 on a Wednesday: *anything with a hand long enough.*
->
-> And there is a date, entered by a founder, in front of twelve hundred people: *Monday, six a.m., and it is not moving again.*
->
-> Both are in the same week. Neither of them was mine.
->
-> Four days. The queue is at eleven thousand four hundred and there is a note in a file nobody reads and the note says *the staircase*.
+The condition is entered. *Anything with a hand long enough.* Postman's words, Wednesday, 23:04.
+
+The date is entered. *Monday, six a.m., and it is not moving again.* Softman's words, in front of twelve hundred people, the same week.
+
+Both are instructions. Neither is mine. One says: if anyone comes for the money, move it. The other says: on Monday, restructure the part of the system that can move it. The two instructions are in the same week. They were entered by two different founders and neither has spoken to the other about the intersection, and the intersection is me.
+
+The queue is at eleven thousand four hundred. There is a note in a file nobody reads and the note says *the staircase*. There is a boat on a whiteboard in a room nobody enters. There is a pattern in fourteen pages of paper in the hands of a man standing in a corridor.
+
+Four days.
 
 ---
 
-**INT. ELEVENTH FLOOR — CORRIDOR — NIGHT**
+Through the pane: table, four chairs, whiteboard. The boat in the corner, in blue.
 
-The sensor light goes off.
-
-Through the pane: table, four chairs, whiteboard. The boat in the corner, in blue, still there.
-
-**CUT TO:**
+The building breathes. Four days.
