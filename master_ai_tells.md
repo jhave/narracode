@@ -125,6 +125,20 @@ Glossing the world's idiocy instead of quoting it. *Bag saying COFFEE in the fon
 - **Remedy**: quote real ad-speak, unglossed. Give the object its texture and say nothing about it.
 - **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
 
+### 18. The withheld-contents object *(candidate — one instance)*
+An object is shown in use, its contents refused, and the refusal is what makes it feel meaningful. A notebook written in and closed before anyone can look; a letter folded away; a screen turned face-down.
+
+- **Example**: *She writes something and closes it before the person at the next desk can look over.*
+- **Remedy**: show the contents at low resolution once, or cut the object. **Cap: one withheld-contents object per work**, and it must be discharged, not repeated.
+- **Provenance**: Narracode AUTO_MODE tell-scan, *Impossible Persistent* Act 1, 2026-09-04. Candidate only — the instance was discharged in Act 3 rather than repeated, so the class has one data point. Confirm or discard on the next work that uses one.
+
+### 19. Frame-knowing narration
+Action lines that describe the work as a work — *the only day in the film*, *the last time we see him*, *the audience should watch all four*. The narration claims an authority the form has not given it. Distinct from a deliberate metafictional device, which declares itself; this is the model reaching for a director's chair mid-scene.
+
+- **Examples**: *and this is the only day in the film she is happy.* · *It takes him four seconds and the audience should watch all four.*
+- **Remedy**: CUT the frame words, keep the fact. *and she does not ask a single question about authorisation.* · *It takes him four seconds.*
+- **Provenance**: Narracode AUTO_MODE tell-scan, *Impossible Persistent*, 2026-09-04. Proposed on the Act 3 hit, held clean through Act 4, confirmed on the Act 5 recurrence. Screenplay drafts are the high-risk form — prose has no equivalent invitation.
+
 ---
 
 ## Our own remedies are the next tells
