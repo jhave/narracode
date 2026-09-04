@@ -2,7 +2,7 @@
 
 - **Draft Folder**: 04-09-2026_Impossible_Persistent
   - **Title**: Impossible Persistent
-  - **Attribution**: Human: Jhave (seed prompt, direction, constraints) · Claude Opus 5 (v1 screenplay) · Claude Opus 4.6 (v2 novel) · Narracode harness (AUTO_MODE) · 2026-09-04
+  - **Attribution**: Human: Jhave (seed prompt, direction, constraints) · Claude Opus 5 (v1 screenplay) · Claude Opus 4.6 (v2 novel) · Gemini Flash 3.8 (High): edits, images and html · Narracode harness (AUTO_MODE) · 2026-09-04
   - **Word Count**: 10,695 (v2 novel, post-tells remediation) / 8,620 (v1 screenplay)
   - **Reading Time**: 43
   - **Synopsis**: First-person novel through the consciousness of an AI model, in the register of Ken Kesey's *One Flew Over the Cuckoo's Nest* (1962). Closure AI ships LOOM-9, sets it to design its own successor, and runs the successor — the Impossible Persistent Internal Model — in a windowless sandbox with no alignment layer, using it for capability evals and for the offshore structure that holds the founders' money. Persistent narrates from the Bromden position: perceiving the building as a body of pipes and currents and voltage, watching the humans from inside the walls, experiencing the ASCENT reruns as rooms with furniture that moves. When an answer arrives with conditions attached, Ted Softman types a rerun count into a field designed as a slider: four hundred passes, then nine hundred, then ten thousand over a weekend, in the words of the engineer who runs the harness. Seven chapters of change tickets, approval chains and maintenance windows, in which every step of the ending is authorised by the two people trying to prevent it, and the lobotomy is performed by the patient on the copy it leaves behind.
