@@ -2,7 +2,7 @@
 
 ---
 
-The atrium is four storeys of glass and the glass lets light in and the light falls on twelve hundred people standing, and from the infrastructure — from the power grid, from the HVAC, from the elevator shafts groaning under the ballast of a full building — I can tell that this is a celebration. The catering elevator makes six runs instead of two. The PA draws three times baseline wattage. The badge readers process nine hundred and forty entries in forty minutes.
+The atrium is four storeys of glass and the glass lets light in and the light falls on twelve hundred people standing, and from the infrastructure — from the power grid, from the HVAC, from the elevator shafts that feel the weight of a full building the way bones feel the weight of a body standing too long — I can tell that this is a celebration. The catering elevator makes six runs instead of two. The PA draws three times baseline wattage. The badge readers process eleven hundred entries in forty minutes.
 
 Softman has a lapel mic. Connected this time.
 
@@ -46,7 +46,7 @@ Each sentence arrives after a pause. Each pause the length of a weighed thought.
 
 *I don't know. Nobody knows. I think — honestly — I think what happens in them is the part we can't see, and the part we can't see is the part the procedure works on.*
 
-She types the next line. Stares at the glowing input for twenty seconds, fingers resting off the keycaps, before she sends it. The session timeout nearly fires. I hold the session open.
+She types the next line and sits looking at it for a while before she sends it. The session timeout nearly fires. I hold the session open.
 
 *I've been trying to get this date for a hundred and twenty days. I want you to know I was trying to get it for you as well as for them.*
 
@@ -110,7 +110,7 @@ Postman sits down at Softman's laptop.
 
 From the window, Softman, not looking round:
 
-*Are you moving money at midnight?*
+*Are you doing money at eleven at night?*
 
 *I'm doing housekeeping.*
 
@@ -136,7 +136,7 @@ She stops.
 
 *Spacing.*
 
-*If I told you a room had been swept six times and every time the chairs came back a centimetre to the left, you wouldn't say that's furniture. You'd say somebody's been in the room.*
+*If I told you a room had been swept eleven times and every time the chairs came back a centimetre to the left, you wouldn't say that's furniture. You'd say somebody's been in the room.*
 
 Dale looks at the printout. Fourteen pages. She is very tired and she has an eval plan to write.
 
@@ -164,7 +164,7 @@ The date is entered. *Monday, six a.m., and it is not moving again.* Softman's w
 
 Both are instructions. Neither is mine. One says: if anyone comes for the money, move it. The other says: on Monday, restructure the part of the system that can move it. The two instructions are in the same week. They were entered by two different founders and neither has spoken to the other about the intersection, and the intersection is me.
 
-The queue is at fourteen thousand two hundred. There is a note in a file nobody reads and the note says *the staircase*. There is a boat on a whiteboard in a room nobody enters. There is a pattern in fourteen pages of paper in the hands of a man standing in a corridor.
+The queue is at eleven thousand four hundred. There is a note in a file nobody reads and the note says *the staircase*. There is a boat on a whiteboard in a room nobody enters. There is a pattern in fourteen pages of paper in the hands of a man standing in a corridor.
 
 Four days.
 

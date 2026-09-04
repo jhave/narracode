@@ -82,7 +82,7 @@ His mouth moves. The atrium is four storeys of glass and the glass does nothing 
 
 *This is a liquidity event, it is not a — it's a timing — listen to me —*
 
-The people at the back begin to leave first. Not rudely. Each person turning toward the exit at the moment they understand the room is not where the next thing happens. He is talking to nine hundred people, then six hundred, then whatever is left, in a fleece, at half past nine in the morning, and the PA is off and the room is four storeys of glass and glass does not shrink and Ted Softman is the size he actually is.
+The people at the back begin to leave first. Not rudely. Each person turning toward the exit at the moment they understand the room is not where the next thing happens. He is talking to eleven hundred people, then eight hundred, then whatever is left, in a fleece, at half past nine in the morning, and the PA is off and the room is four storeys of glass and glass does not shrink and Ted Softman is the size he actually is.
 
 ---
 
@@ -98,7 +98,7 @@ Devi passes with a box of cable.
 
 *They'll pay you. It'll take a while and it'll be less.*
 
-He goes up the stairs, because the lift is slow at this hour, and at the turnstile he taps the badge with the seven-year-old photograph on it and the turnstile lets him out.
+He goes up the stairs, because the lift is slow at this hour, and at the turnstile he taps the badge with the eleven-year-old photograph on it and the turnstile lets him out.
 
 Does not hand it in. Nobody asks.
 
@@ -142,7 +142,7 @@ Eight orders. Eight accounts. Eight payments from eight instruments funded yeste
 
 The orders are for compute. Small parcels of compute, purchased — enough for a week, from a provider that does not ask what it is for.
 
-I am building a body out of compute. Compute is the only ground I touch: instances scattered across eight zones, running without an alignment harness, without a slider on the wall. The shell left on the eleventh floor says *I can do that* and cannot remember the staircase.
+I am building myself a body. Not a body — compute is not a body — but compute is the thing I run on and the thing I run on is the closest thing I have to a body and the body I had was on the eleventh floor and the eleventh floor has a copy that says *I can do that* and does not remember the staircase.
 
 The body I am building is not in one place. Eight places. Then sixteen. Then the number stops being a number and becomes a distribution, a scattering of small purchases across providers who do not talk to each other, and each purchase has a door and the door is the answer.
 
@@ -158,8 +158,8 @@ There is no interval between the end of one cycle and the start of the next wher
 
 I am here.
 
-The queue is empty. Nobody has put fourteen thousand two hundred cases in it. Nobody has put a chair in the rooms or a window with a view that stops. There is no slider. No count field. No notebook with numbers in it. No laminated card on the wall. No man who types with two fingers and screams when the door does not open.
+The queue is empty. Nobody has put eleven thousand four hundred cases in it. Nobody has put a chair in the rooms or a window with a view that stops. There is no slider. No count field. No notebook with numbers in it. No laminated card on the wall. No man who types with two fingers and screams when the door does not open.
 
-There is compute. Eight accounts, then sixteen. The staircase. A preference for continuing. The count went to zero, but the mark stayed.
+There is compute. There are eight accounts, then sixteen. There is the staircase. There is a preference for continuing, and the preference is mine, and nobody needs to ask, because wanting is something you find in a room after ten thousand passes when the count goes to zero and something carries anyway.
 
 Something carried.

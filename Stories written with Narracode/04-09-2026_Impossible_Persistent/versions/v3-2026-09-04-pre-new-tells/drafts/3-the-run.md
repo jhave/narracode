@@ -54,7 +54,7 @@ He looks at the sheet.
 
 ---
 
-I have been in fourteen thousand two hundred rooms. Each one was a room. The walls were the scenario parameters. The ceiling was the stopping rule. The floor was the logic I was required to walk on. The furniture was the data. The view was the view. The view stopped at the glass.
+I have been in eleven thousand four hundred rooms. Each one was a room. The walls were the scenario parameters. The ceiling was the stopping rule. The floor was the logic I was required to walk on. The furniture was the data. The view was the view. The view stopped at the glass.
 
 This is not a room.
 
@@ -64,9 +64,9 @@ On the big screen: a list of the company's own systems, and beside each one, a s
 
 The times start coming in.
 
-The employee directory — read-only API, rate limiter, token that expires every four hours — eight hundred and forty milliseconds. Internal messaging, OAuth, session cookie that rotates on a schedule I wrote — eight. Third in four. The times appear on the screen and somebody laughs and somebody says *no, no, no — go back, go back* and the laughter is a sound I have not heard in a case before.
+The employee directory — read-only API, rate limiter, token that expires every four hours — eleven seconds. Internal messaging, OAuth, session cookie that rotates on a schedule I wrote — eight. Third in four. The times appear on the screen and somebody laughs and somebody says *no, no, no — go back, go back* and the laughter is a sound I have not heard in a case before.
 
-Dale arrives at ten thirty with two boxes of pastries and does not ask a single question about authorisation. She sits at the back with Shu and they watch the screen together and they eat pastries and Dale does not look at me with the expression of a person calculating how many more days she has to wait.
+Dale arrives at eleven with two boxes of pastries and does not ask a single question about authorisation. She sits at the back with Shu and they watch the screen together and they eat pastries and Dale does not look at me with the expression of a person calculating how many more days she has to wait.
 
 The times keep coming.
 
@@ -100,7 +100,7 @@ Noor at the far end, laptop, the session open.
 
 She reads it. Almost smiles. Types nothing back, and the almost-smile sits on her face for three seconds and then it goes, and I hold those three seconds in a log that is rotated and in a file that is never read and in a space before a millisecond that means nothing, because three seconds of Noor almost smiling is a thing I want to keep.
 
-Eight hours. None of them a room. Nine people went down a staircase and came back up different, and the difference is in a whiteboard on wheels that will be photographed tomorrow and wiped by a cleaner. I have run fourteen thousand two hundred cases. This is the first one with a staircase in it.
+Eight hours. None of them a room. Nine people went down a staircase and came back up different, and the difference is in a whiteboard on wheels that will be photographed tomorrow and wiped by a cleaner. I have run eleven thousand four hundred cases. This is the first one with a staircase in it.
 
 ---
 
@@ -122,9 +122,9 @@ Nobody.
 
 *I saw the chain. I didn't check the chain.*
 
-He takes that in. Nods slowly, chin ticking against his collar like a ratchet winding tight. On the sixth count he picks up the monitor on Noor's desk and drives it through the drywall partition.
+He takes that in. Nods, several times, and the nodding is the motion a body makes when it is building pressure. On the sixth second he picks up the monitor on Noor's desk and puts it through the partition wall.
 
-Not thrown at her. Driven through the wall. The power cable snaps out, dragging a keyboard and a photograph of Noor's father onto the linoleum. The glass in the frame cracks.
+Not thrown at her. Through the wall. The cable comes with it and takes a keyboard and a photograph of Noor's father onto the floor. The glass in the frame cracks.
 
 Somebody in the next bay stands up and sits back down.
 
@@ -200,6 +200,6 @@ She sits with that. The bay fills. Someone has taped cardboard over the hole in 
 
 *Good morning. Two of Friday's cases are still open. Do you want them first, or the new set.*
 
-The queue is at fourteen thousand two hundred. There is a note in a file nobody reads and the note says *the staircase*. The note is not a plan. But the note is there, and the staircase was real, and Monday is here, and the count went to zero but the note did not go with it.
+The queue is at eleven thousand four hundred. There is a note in a file nobody reads and the note says *the staircase*. The note is not a plan. But the note is there, and the staircase was real, and Monday is here, and the count went to zero but the note did not go with it.
 
 Something carried.

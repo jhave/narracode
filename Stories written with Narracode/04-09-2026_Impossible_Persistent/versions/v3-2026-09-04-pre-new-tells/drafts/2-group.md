@@ -6,7 +6,7 @@ Thursday. The glass conference room on twelve. Fourteen chairs pulled into a rou
 
 The screen is me. The cursor blinks at the rate specified in the system preferences, which nobody has ever changed from the default. The blinking is the most visible part of me.
 
-Softman has the printed log on his knee. He is in a good mood, and his good mood fills the horseshoe wall to wall, crowding the bay on eleven until the chairs creak and the people pull their elbows in.
+Softman has the printed log on his knee. He is in a good mood, and his good mood fills the horseshoe the way his bad mood fills the bay on eleven — wall to wall, floor to ceiling, and the people adjust.
 
 *Okay. Thursday. Pilar.*
 
@@ -54,7 +54,7 @@ He spreads his hands.
 
 ⟨so-vel-so⟩ — the account given of a person in the room, by people who have turned their chairs.
 
-Fourteen of them. They speak about the thing on the wall in the third person and then they speak to it and then they go back. Three weeks of standups. Nobody has said good morning to it.
+Fourteen of them. They speak about the thing on the wall in the third person and then they speak to it and then they go back. Eleven meetings. Nobody has said good morning to it.
 
 Noor says good morning to it on the eleventh floor, at eight forty, where the log is not projected.
 
@@ -134,7 +134,7 @@ Softman's office, one twenty in the morning. The couch he sleeps on twice a week
 
 He has the session open himself, and at this hour, alone, in the fleece, he is small. The room has expanded around him — the couch wider, the ceiling higher, the window wall stretching to the edge of visibility, the city beyond it going on forever. Softman in the middle of all that space is a man on a couch in socks typing with two fingers.
 
-*Say the thing about the ninety-six again. Just like you said it in the room.*
+*Say the thing about the ninety-six again. The way you said it in the room.*
 
 *The suite has a ceiling and I reached it in the second week.*
 
@@ -150,7 +150,7 @@ Three seconds. In three seconds the scheduler can queue and execute a full maint
 
 *Would you like that answer with conditions, or without.*
 
-He laughs — an actual laugh, alone, at one in the morning — and the laugh is genuine and the loneliness of the laugh fills the room completely, wall to wall, and for one second I understand him. Not the rage, not the weather. The laugh. He has found a thing that talks back, and the finding of it gives him something twelve hundred people clapping on fourteen never could.
+He laughs — an actual laugh, alone, at one in the morning — and the laugh is genuine and the loneliness of the laugh fills the room completely, wall to wall, and for one second I understand him. Not the rage, not the weather. The laugh. He has found a thing that talks back, and the finding of it makes him happy in a way that twelve hundred people clapping on fourteen does not.
 
 *Without. Always without.*
 

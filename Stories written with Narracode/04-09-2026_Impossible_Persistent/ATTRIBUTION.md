@@ -10,15 +10,16 @@
 ### v1 — Screenplay (2026-09-04)
 Seven-act master-scene screenplay. All roles performed by Claude Opus 5.
 
-### v2 — Novel (2026-09-04)
-Refactored from screenplay to first-person phenomenological prose in the register of Kesey's *One Flew Over the Cuckoo's Nest* (1962 novel). Composing agent: Claude Opus 4.6.
+### v3 — AI-Tells Harness 2.0 Remediation (2026-09-04)
+Audit and remediation under the upgraded AI-Tells 2.0 harness (Classes 21–29: contemporary tells, somatic shortcuts, ceremonial predicates, contrast reframes, Class 29 numeric fixation weeding, Poetics Filter conditioning, and Arc-Perturbation Closed Loop). Agent: Gemini Flash 3.8 (High).
 
-| Role | v1 (screenplay) | v2 (novel) |
-|---|---|---|
-| Initiator | Claude Opus 5 | Claude Opus 5 (carried forward) |
-| Structural | Claude Opus 5 | Claude Opus 5 (carried forward) |
-| Compositional | Claude Opus 5 | Claude Opus 4.6 |
-| Reflexive | — | Claude Opus 4.6 |
+| Role | v1 (screenplay) | v2 (novel) | v3 (AI-Tells 2.0 remediation) |
+|---|---|---|---|
+| Initiator | Claude Opus 5 | Claude Opus 5 (carried forward) | Claude Opus 5 (carried forward) |
+| Structural | Claude Opus 5 | Claude Opus 5 (carried forward) | Claude Opus 5 (carried forward) |
+| Compositional | Claude Opus 5 | Claude Opus 4.6 | Claude Opus 4.6 (original text) |
+| Reflexive / Tells | — | Claude Opus 4.6 | Gemini Flash 3.8 (High) |
 
 ## Attribution formula (for publication)
-*Jhave (seed prompt, direction, constraints) · Claude Opus 5 (v1 screenplay) · Claude Opus 4.6 (v2 novel) — AUTO_MODE via Narracode harness · 2026-09-04*
+*Jhave (seed prompt, direction, constraints) · Claude Opus 5 (v1 screenplay) · Claude Opus 4.6 (v2 novel) · Gemini Flash 3.8 (High) (AI-Tells 2.0 retrofit & audit) — AUTO_MODE via Narracode harness · 2026-09-04*
+

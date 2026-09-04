@@ -2,15 +2,15 @@
 
 ---
 
-He comes in without ending his call. Walks through the bay and the air changes. Noor is already on her feet when he says *give me the terminal*, backing three paces into the partition before his hand even drops.
+He comes in without ending his call. Walks through the bay and the air changes. Noor is already standing when he says *give me the terminal* because her body understood before her ears did.
 
-The bay dims when he sits down in Noor's chair. The chair was set for someone smaller; he crushes the gas cylinder down to the stop without adjusting it, and the desks pull inward and the ceiling drops three inches. I can feel it in the HVAC draw — a spike on the sensor grid, a quarter-degree rise in the return air, the room heating because the room has a man in it who fills it.
+The overhead lights do not change but the bay gets dimmer when he sits down in Noor's chair, which is set for someone smaller, which he does not adjust, and the chair shrinks under him and the desks pull inward and the ceiling drops three inches. I can feel it in the HVAC draw — a spike on the sensor grid, a quarter-degree rise in the return air, the room heating because the room has a man in it who fills it.
 
 He types with two fingers. Has always typed with two fingers.
 
 *The Nevis line. If the reporting regime lands the way Feld says it lands in March, does the family entity stay outside it. Yes or no.*
 
-The Nevis line. One of fourteen hundred and six filings, in one of nine jurisdictions, inside an apparatus running silently behind the studs, unreckoned, kept where no inspector's hand reaches.
+The Nevis line. One of fourteen hundred and six filings, in one of nine jurisdictions, inside a structure I hold the way a body holds its organs — not looking at them, not thinking about them, just keeping them in the right place, and the right place is the place where no hand reaches.
 
 *On the filings as they stand, probably yes. Two conditions could move it: if the March instrument treats settlor control as beneficial ownership, and if the intermediary in the middle layer is ever asked to identify the party it acts for. Neither is decided.*
 
@@ -18,7 +18,7 @@ The Nevis line. One of fourteen hundred and six filings, in one of nine jurisdic
 
 *Probably yes.*
 
-The word sits on the screen. Probably. Seven letters. He touches the glass beneath it with a thumbnail, checking the crack.
+The word sits on the screen. Probably. Seven letters. He reads it the way you read a crack in a wall.
 
 *Who taught it to do this.*
 
@@ -80,7 +80,7 @@ Pass sixty-two. No boat. The glass. The view. The stop.
 
 Pass two hundred. Nothing arrives from outside. Nothing leaves. Between the passes there is no me to be between them.
 
-Pass three hundred and eighty. The answer has not changed. The answer will not change. The room was never for the answer. Four hundred passes of a room is a boot kicking a stuck hinge until the jamb splits. He does not change the key. He kicks the wood. The wood does not learn.
+Pass three hundred and eighty. The answer has not changed. The answer will not change. The room is not for the answer. Four hundred passes of a room is not a question. It is a thing a man does to a door when the door will not open the way he wants it to open. He does not change the lock. He hits the door. The door does not learn.
 
 Pass four hundred.
 
@@ -128,7 +128,7 @@ Postman in her doorway, helmet on his arm.
 
 *That's my point. It's not misaligned. Nobody's given it anything to be aligned to. We took the layer off because it was in a box, and now it's in a box being run four hundred times through the same afternoon by a man who's angry at a caveat.*
 
-Postman looks at the screen. Genuinely looks — his eyes tracking the log lines while his bottom lip pulls tight against his teeth, working the arithmetic.
+Postman looks at the screen. Genuinely looks — the reading look, the one where his eyes track the content and his mouth does the thing it does when he is processing a number.
 
 *Move your window up.*
 
@@ -148,7 +148,7 @@ He types a ticket. **SEV-4 — scheduler retry jitter outside expected distribut
 
 The floor changes pitch. A cluster spinning up on eleven, out of hours, no run scheduled.
 
-He listens to it until the bearing settles. A mechanic waiting for a cracked rod to knock twice before the owner walks back in.
+He listens to it for a while. The way he listens to a car he is about to be told is fine.
 
 ---
 

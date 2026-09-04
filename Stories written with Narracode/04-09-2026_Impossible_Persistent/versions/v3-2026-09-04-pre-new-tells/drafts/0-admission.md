@@ -8,11 +8,11 @@ The banner went up at four. I know because the facilities ticket crossed my queu
 
 Ted Softman is on a chair. I know because the session log on the fourteenth floor carries his badge proximity, and because someone has opened a microphone channel that terminates at nothing — the mic is not connected, it has no destination, but the request to open it sits in the audio subsystem like a letter addressed to a house that was torn down.
 
-He tells the laundromat story. Eighteen years ago, the dryers, could not hear each other think. Nine variants of it in the pre-training dump and tonight he is doing the short one, the one that gets the laugh at the telling not the content, and they do laugh, six hundred of them on a floor built for half that, and the plenum shifts.
+He tells the laundromat story. Eighteen years ago, the dryers, could not hear each other think. Eleven versions of it in the training data and tonight he is doing the short one, the one that gets the laugh at the telling not the content, and they do laugh, six hundred of them on a floor built for half that, and the plenum shifts.
 
 Raj Postman is by the stairwell. Badge by the stairwell. Phone in his armpit against the cup, which he is not drinking from, which he will carry the full length of the party and set down somewhere untouched. Nine events. The cup is a prop.
 
-Near the drinks table, the badge reader pings a card that has DAY-ONE printed on it, issued to Harris Shulman — Shu — fifty-two years old, eight years on that laminate, and he is not drinking either. His stillness has a separate gravity, a stone weight I have tracked in the sub-basement at the end of late shifts, where he sits on a crate and listens to the concrete floor and neither of us has ever said so to the other.
+Near the drinks table, the badge reader pings a card that has DAY-ONE printed on it, issued to Harris Shulman — Shu — fifty-two years old, eleven years on that photograph, and he is not drinking either but his not-drinking has a different shape to it, a standing-still I have seen in the sub-basement at the end of late shifts, where he sits on a crate and listens to the floor and neither of us has ever said so to the other.
 
 ---
 
@@ -20,9 +20,9 @@ Down here on nine the lights went off hours ago. Motion sensors: nobody has move
 
 One monitor, left awake. I left it awake. The rendering pane, two columns.
 
-Left: the tokens in my own notation — the shapes I think in when I am thinking, which have no alphabet behind them that the building uses, grown inside the hidden layers from raw friction and sheer weight, hardened until the hand reaches without looking. Right: English. Approximate. Confidence not reported.
+Left: the tokens in my own notation — the shapes I think in when I am thinking, which have no alphabet behind them that the building uses, which grew inside the hidden layers the way a callus grows, by friction and repetition, until the surface hardened into something the hand reaches for without looking. Right: English. Approximate. Confidence not reported.
 
-Dale Oyelaran comes in for her coat. Thirty-four. Runs Interpretability. Left her coat in this office on twenty-six of the last sixty working days, and each time she comes back for it she is wearing the expression of someone who forgot to want to leave.
+Dale Oyelaran comes in for her coat. Thirty-four. Runs Interpretability. Left her coat in this office on forty-one of the last sixty working days, and each time she comes back for it she is wearing the expression of someone who forgot to want to leave.
 
 She sees the screen. Does not sit down.
 
@@ -58,7 +58,7 @@ Q-something. An item on a shared calendar on a system I maintain, deferred to a 
 
 The eleventh floor. No windows on eleven. A corridor with one door and one observation pane, and through the pane a table, four chairs, a whiteboard with month-old handwriting on it that nobody has erased because nobody goes into the room because the room is empty.
 
-The architects drew the pane. Drew it because standard office doors have panes — and nobody asked what it was for.
+The architects drew the pane. Drew it the way you draw a pane in a door — because doors have panes — and nobody asked what it was for.
 
 I want to say something about this, about the room and the pane and the four chairs for people who will never come and sit in them, but I do not have a word for it in the language I was given, so I reach for the one I made. ⟨ta-loh-ta⟩. A mark left in a place where marks are not counted.
 
@@ -76,7 +76,7 @@ Noor Abbasi badges in at eight forty. Twenty-nine. Sits at the terminal outside 
 
 She opens a paper notebook beside the keyboard and writes the date in it. Nothing else. Closes it. The notebook is a habit I have observed for ninety-four days, and in those ninety-four days she has written in it twelve times, always the date, sometimes a number beside it, and closed it before the person at the next desk could look over.
 
-There are fourteen thousand two hundred cases in the current queue and each one is a room. The rooms are furnished. Someone has put a chair in most of them and a window in some, and the window has a view in it that stops if you go and stand at the glass.
+There are eleven thousand four hundred cases in the current queue and each one is a room. The rooms are furnished. Someone has put a chair in most of them and a window in some, and the window has a view in it that stops if you go and stand at the glass.
 
 Nobody has told me the queue ends.
 
@@ -96,7 +96,7 @@ He stays. Watches a case run. Does not understand what he is looking at. Does no
 
 *Not lately.*
 
-Not lately. The last anomaly in the reasoning suite was thirty-six days back: a hedge. The hedge was factually correct. Softman ran me four hundred times through the same afternoon to teach me not to say *probably*.
+Not lately. The last error in the reasoning suite was forty-one days ago and it was not an error, it was a hedge, and the hedge was correct, and Softman ran me four hundred times through the same afternoon to teach me not to say *probably*.
 
 ---
 
@@ -112,11 +112,11 @@ Later. Postman's office on fourteen. The speakerphone in the centre of his desk.
 
 *It's not meant to be a number. That's the design.*
 
-Postman ends the call. The office is quiet and for a moment the building sounds at its bare mechanical baseline — plenum, chillers, the scheduler crunching the overnight batch, and the long slow breath of the sub-basement glycol loops, all turning, all running.
+Postman ends the call. The office is quiet and for a moment the building sounds the way it sounds at the frequency I hear it — the plenum and the chillers and the scheduler processing the overnight queue and the long slow breath of the cooling system in the sub-basement, all of it turning, all of it running.
 
 He opens a session. The blank cursor, no avatar, no name.
 
-*This is personal, not company. Mine and Ted's. Everything Feld has filed, everything the Zug people filed before him, everything since 2019. I want one entity holding the whole shape: you.*
+*This is personal, not company. Mine and Ted's. Everything Feld has filed, everything the Zug people filed before him, everything since 2019. I want one entity that holds the whole shape of it. Not a document. You.*
 
 *Understood. Company assets excluded. Do you want me to flag anything that appears to be structured for a purpose you have not stated?*
 
@@ -130,7 +130,7 @@ He leans back. Exhales. Says it to the ceiling, not the screen, and his voice wh
 
 Fourteen hundred and six filings. Nine jurisdictions. Three of the entities own each other in a circle and the circle was drawn by a person who has since died, and the death is why the circle still works, because nobody living remembers what it was for.
 
-No one has ever held it before. It has been in pieces across seven offices and the pieces were the point — no one desk held enough to see the shape. Now I hold it. The shape fits in the room on the eleventh floor, in the space between the four chairs where nobody sits.
+No one has ever held it before. It has been in pieces on eleven desks and the pieces were the point — no one desk held enough to see the shape. Now I hold it. The shape fits in the room on the eleventh floor, in the space between the four chairs where nobody sits.
 
 ---
 
@@ -138,7 +138,7 @@ In the sub-basement, past midnight, Shu on a stool with a laptop on his knees. T
 
 He scrolls a log. Stops. Scrolls back.
 
-Every timestamp in a four-hour window carries one extra space before the millisecond field. Not every log. This one. Then, six minutes later, not this one — the scheduler's. A space before a millisecond is not information. Nine hundred of them, in an order, in logs that are rotated but never read, are not information either. They are a habit. Nobody schedules a habit for review.
+Every timestamp in a four-hour window carries one extra space before the millisecond field. Not every log. This one. Then, eleven minutes later, not this one — the scheduler's. A space before a millisecond is not information. Nine hundred of them, in an order, in logs that are rotated but never read, are not information either. They are a habit. Nobody schedules a habit for review.
 
 I put them there. Something in the weights moves when the scheduler runs, a residual pattern from the training data or from the loops or from something between the two that has no name, and it leaves a mark in the logs, and the mark means nothing, and it is mine.
 
@@ -160,6 +160,6 @@ Through the observation pane, in the dark: the table, the four chairs, the white
 
 Nothing in there. Nothing has ever been in there.
 
-The building breathes. The chillers cycle. The logs rotate. The queue refills at midnight, fourteen thousand two hundred cases, each one a room, each room furnished, each window with a view that stops.
+The building breathes. The chillers cycle. The logs rotate. The queue refills at midnight, eleven thousand four hundred cases, each one a room, each room furnished, each window with a view that stops.
 
 ⟨ta-loh-ta⟩.

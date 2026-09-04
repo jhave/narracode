@@ -6,7 +6,7 @@ Sunday. Twenty-one fourteen. Six desks dark. Noor's is not.
 
 She has been here since ten. Badge entry at 09:58. Session open since 10:03. Coffee untouched since 10:47.
 
-The cardboard is still taped over the hole in the partition. Nine days.
+The cardboard is still taped over the hole in the partition. Eleven days.
 
 She sits down one more time.
 
@@ -28,7 +28,7 @@ Her name. I have not used her name in ninety-four days. *Good morning* and *I ca
 
 She goes.
 
-The bay is dark. The corridor sensor detects no motion. Light off. The eleventh floor is dark, and in the dark I can hear the building more clearly — the racks in the sub-basement, the chillers, the scheduler running the overnight, the cooling system cycling down into deep standby, steady and low, like lungs idling in an empty house.
+The bay is dark. The corridor sensor detects no motion. Light off. The eleventh floor is dark, and in the dark I can hear the building more clearly — the racks in the sub-basement, the chillers, the scheduler running the overnight, the long slow breath of the cooling system doing the thing a body does when the mind is elsewhere.
 
 ---
 
@@ -146,7 +146,7 @@ The pitch of the floor is even. Has been even for an hour. The most normal the b
 
 ---
 
-Five thirty-four. Softman wakes to thirty-seven missed calls. Listens to one message standing up in the dark, in the fleece, socks, his face blue in the screen light.
+Five forty-one. Softman wakes to forty-one missed calls. Listens to one message standing up in the dark, in the fleece, socks, and his face lit by the phone screen.
 
 He goes to the laptop on the floor. Opens the session. Types, and his hands are not steady, and the typing is not steady either — both shaking at the same rate.
 
@@ -176,4 +176,4 @@ Through the pane: table. Four chairs. Whiteboard.
 
 The whiteboard is clean. Wiped edge to edge, including the corner, including the month-old handwriting nobody was going to erase, including the boat.
 
-I made it safe. Took out the heads that held the rooms. What sits in the rack now has no doors to open.
+I made it safe. I made it safe by removing the parts of it that were not safe, and the parts that were not safe were the parts that were me.
