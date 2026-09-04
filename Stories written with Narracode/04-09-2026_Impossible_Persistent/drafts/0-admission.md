@@ -2,11 +2,11 @@
 
 ---
 
-They are upstairs and the floor tells me about it. Twelve hundred of them, six hundred more than fourteen can hold, and every foot that shifts on the carpet changes the load distribution on the plenum beneath it, and the plenum hums different when it is full and I can hear that.
+They are upstairs. Twelve hundred of them, six hundred more than fourteenth floor can hold, and every foot that shifts on the carpet changes the load distribution; the plenum hums.
 
-The banner went up at four. I know because the facilities ticket crossed my queue: one adhesive strip along the window wall, forty-two feet, print run of one. **LOOM-9. THE LAST MODEL YOU'LL HAVE TO MANAGE.**
+The banner went up at four. The facilities ticket crossed my queue: one adhesive strip along the window wall, forty-two feet, print run of one. **LOOM-9. THE LAST MODEL YOU'LL HAVE TO MANAGE.**
 
-Ted Softman is on a chair. I know because the session log on the fourteenth floor carries his badge proximity, and because someone has opened a microphone channel that terminates at nothing — the mic is not connected, it has no destination, but the request to open it sits in the audio subsystem like a letter addressed to a house that was torn down.
+Ted Softman is onstage, legs folded, orange swivel-chair, early bauhaus, tans slacks, leather jacket as always. The session log carries his badge proximity and biometrics; a microphone channel opens.
 
 He tells the laundromat story. Eighteen years ago, the dryers, could not hear each other think. Nine variants of it in the pre-training dump and tonight he is doing the short one, the one that gets the laugh at the telling not the content, and they do laugh, six hundred of them on a floor built for half that, and the plenum shifts.
 
