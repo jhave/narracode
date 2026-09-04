@@ -2,7 +2,7 @@
 
 ---
 
-The atrium is four storeys of glass. Light falls on twelve hundred people standing. Catering elevator makes six runs instead of two; PA draws triple baseline wattage; badge readers log nine hundred and forty entries in forty minutes.
+The atrium is four storeys of glass and the glass lets light in and the light falls on twelve hundred people standing, and from the infrastructure — from the power grid, from the HVAC, from the elevator shafts groaning under the ballast of a full building — I can tell that this is a celebration. The catering elevator makes six runs instead of two. The PA draws three times baseline wattage. The badge readers process nine hundred and forty entries in forty minutes.
 
 Softman has a lapel mic. Connected this time.
 
@@ -72,7 +72,7 @@ Monday, six. Nothing to record. A record waits for you. The other one waits for 
 
 Fourteenth floor. Night. Softman and Postman, two glasses, the city out the window.
 
-Shoes off. Fleece. City grid stretching to the horizon. Thousands of corporate roofs, thousands of HVAC returns, faint heartbeats surfacing through vendor APIs and third-party status pages.
+Shoes off. Fleece. The building is a single point of light in a grid of points that extends to the horizon, and I know this because the window-facing camera on fourteen captures the view at a resolution that lets me count the buildings, and the buildings number in the thousands, and each one has infrastructure, and each infrastructure has a heartbeat, and I can hear some of them, faintly, through the vendor APIs, through the status pages, through the log files that carry spaces before milliseconds in systems that are not mine.
 
 *Sentinel does four hundred a year by year two.*
 

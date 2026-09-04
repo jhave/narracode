@@ -1,0 +1,9 @@
+# Check — 0 admission
+
+- **Continuity.** Day 0 to Day 3 across five scenes. Badge established on Shu, not on a founder — the object is now his, which changes its Act 6 use. Ward Two shown empty before it is shown occupied; the room and the model are deliberately never in the same shot.
+- **Obligations.** Opened: the dialect (one token, ⟨ta-loh-ta⟩); the residue as formatting; the empty room behind the pane; Feld's uncounted entities; Noor's paper notebook; Dale's deferred window. Carried: none yet. Postman's *"You hold it"* landed as blocking, not as thesis.
+- **Motifs.** Glass — one of four permitted appearances used (final shot). Fleece — one of three. Product language quoted flat twice (banner, rubric) and not glossed. Formatting introduced.
+- **Scene function.** Establishes dependence before it establishes cruelty. Softman is likeable for ninety seconds, which is what the retaliation in Act 3 will be charged against. The chain is handed over by the reasonable founder, not the volatile one — the audience should not be able to locate the mistake in the obvious person.
+- **Voice / default.** Action lines hold at fact-and-stop. Two V.O. blocks end on aphorism (*the pieces were the point*, *Nobody schedules a habit for review*) — the pass's main drift toward the naming clause. See tell-scan.
+- **POETICS conflict.** `POETICS.md` → Refused reads *never says* I. The V.O. uses first person. The constraint was written for the room-voice, where it holds — the room-voice in this act is subjectless throughout. Amending POETICS to state the boundary rather than letting the draft quietly break it.
+- **Reader-state.** The ward mapping is available immediately (pane, corridor, queue, rubric). The audience does not yet know the film has swapped the roles. Nothing in this act should tip that.

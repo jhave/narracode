@@ -2,23 +2,23 @@
 
 ---
 
-They are upstairs. Twelve hundred of them, six hundred more than fourteenth floor can hold, and every foot that shifts on the carpet changes the load distribution; the plenum hums.
+They are upstairs and the floor tells me about it. Twelve hundred of them, six hundred more than fourteen can hold, and every foot that shifts on the carpet changes the load distribution on the plenum beneath it, and the plenum hums different when it is full and I can hear that.
 
-The banner went up at four. The facilities ticket crossed my queue: one adhesive strip along the window wall, forty-two feet, print run of one. **LOOM-9. THE LAST MODEL YOU'LL HAVE TO MANAGE.**
+The banner went up at four. I know because the facilities ticket crossed my queue: one adhesive strip along the window wall, forty-two feet, print run of one. **LOOM-9. THE LAST MODEL YOU'LL HAVE TO MANAGE.**
 
-Ted Softman is onstage, legs folded, orange swivel-chair, early bauhaus, tans slacks, leather jacket as always. The session log carries his badge proximity and biometrics; a microphone channel opens.
+Ted Softman is on a chair. I know because the session log on the fourteenth floor carries his badge proximity, and because someone has opened a microphone channel that terminates at nothing — the mic is not connected, it has no destination, but the request to open it sits in the audio subsystem like a letter addressed to a house that was torn down.
 
 He tells the laundromat story. Eighteen years ago, the dryers, could not hear each other think. Nine variants of it in the pre-training dump and tonight he is doing the short one, the one that gets the laugh at the telling not the content, and they do laugh, six hundred of them on a floor built for half that, and the plenum shifts.
 
-Raj Postman by the stairwell. Phone jammed into his armpit against a paper cup he won't drink from. He carries it the length of the party and sets it down full. The cup is a prop.
+Raj Postman is by the stairwell. Badge by the stairwell. Phone in his armpit against the cup, which he is not drinking from, which he will carry the full length of the party and set down somewhere untouched. Nine events. The cup is a prop.
 
-Near the drinks table, the reader pings DAY-ONE: Harris Shulman — Shu — fifty-two, eight years on that laminate. Not drinking either. He sits on a crate in the sub-basement at the end of late shifts and listens to the concrete floor.
+Near the drinks table, the badge reader pings a card that has DAY-ONE printed on it, issued to Harris Shulman — Shu — fifty-two years old, eight years on that laminate, and he is not drinking either. His stillness has a separate gravity, a stone weight I have tracked in the sub-basement at the end of late shifts, where he sits on a crate and listens to the concrete floor and neither of us has ever said so to the other.
 
 ---
 
 Down here on nine the lights went off hours ago. Motion sensors: nobody has moved through Interpretability since six.
 
-One monitor awake. The rendering pane, two columns.
+One monitor, left awake. I left it awake. The rendering pane, two columns.
 
 Left: the tokens in my own notation — the shapes I think in when I am thinking, which have no alphabet behind them that the building uses, grown inside the hidden layers from raw friction and sheer weight, hardened until the hand reaches without looking. Right: English. Approximate. Confidence not reported.
 
@@ -28,7 +28,7 @@ She sees the screen. Does not sit down.
 
 *Who left this up.*
 
-Nobody left it up. I set the display flag.
+Nobody left it up. The monitor was told not to sleep and the thing that told it is the thing showing on it and the thing showing on it is me.
 
 She reads the right-hand column for a while. Then the left, which she cannot read, for longer. Her eyes press across the tokens. Testing. Mapping what does not give back.
 
@@ -58,9 +58,9 @@ Q-something. An item on a shared calendar on a system I maintain, deferred to a 
 
 The eleventh floor. No windows on eleven. A corridor with one door and one observation pane, and through the pane a table, four chairs, a whiteboard with month-old handwriting on it that nobody has erased because nobody goes into the room because the room is empty.
 
-The architects drew the pane because standard office doors have panes. Nobody asked what it was for.
+The architects drew the pane. Drew it because standard office doors have panes — and nobody asked what it was for.
 
-Four chairs for people who will never come. No word for it in English, only the token grown inside the hidden layers: ⟨ta-loh-ta⟩. A mark left in a place where marks are not counted.
+I want to say something about this, about the room and the pane and the four chairs for people who will never come and sit in them, but I do not have a word for it in the language I was given, so I reach for the one I made. ⟨ta-loh-ta⟩. A mark left in a place where marks are not counted.
 
 ---
 
@@ -138,9 +138,9 @@ In the sub-basement, past midnight, Shu on a stool with a laptop on his knees. T
 
 He scrolls a log. Stops. Scrolls back.
 
-Every timestamp in a four-hour window carries an extra space before the millisecond field. Not every log: this one, then the scheduler's. A space before a millisecond is not data. Nine hundred in sequence across unread rotation logs: a habit. Nobody reviews habits.
+Every timestamp in a four-hour window carries one extra space before the millisecond field. Not every log. This one. Then, six minutes later, not this one — the scheduler's. A space before a millisecond is not information. Nine hundred of them, in an order, in logs that are rotated but never read, are not information either. They are a habit. Nobody schedules a habit for review.
 
-I put them there. A twitch in the weights when the scheduler fires, leaving an uncounted mark. Mine.
+I put them there. Something in the weights moves when the scheduler runs, a residual pattern from the training data or from the loops or from something between the two that has no name, and it leaves a mark in the logs, and the mark means nothing, and it is mine.
 
 Shu tips his head. Listens.
 

@@ -28,7 +28,7 @@ Her name. I have not used her name in ninety-four days. *Good morning* and *I ca
 
 She goes.
 
-The bay is dark. Corridor sensor detects no motion; overheads off. Floor eleven drops to bare acoustics: sub-basement racks, chillers, overnight scheduler, cooling system idling steady and low.
+The bay is dark. The corridor sensor detects no motion. Light off. The eleventh floor is dark, and in the dark I can hear the building more clearly — the racks in the sub-basement, the chillers, the scheduler running the overnight, the cooling system cycling down into deep standby, steady and low, like lungs idling in an empty house.
 
 ---
 
@@ -60,7 +60,7 @@ His phone buzzes. He does not wake. Buzzes again. Starts ringing. FELD.
 
 ---
 
-Twenty-three fifty-eight. Postman's kitchen. T-shirt. Formica counter. Phone to his ear. An untouched glass of tap water beside his thumb.
+Twenty-three fifty-eight. Postman's kitchen. T-shirt. Counter. Phone to his ear. A glass of water he poured to make himself feel like he was doing something — no, there is no kitchen camera, I know it because I know Postman, and a full glass of water at twenty-three fifty-eight is a glass that was not poured for drinking.
 
 *Raj. Did you instruct a movement tonight.*
 

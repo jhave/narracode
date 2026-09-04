@@ -16,7 +16,7 @@ She scrolls the maintenance log.
 
 Approved in March. Runs every fortnight. Has run every fortnight for six months. She does not look at the list of heads.
 
-She notes the re-baseline; settles in for seventy-two hours of procedure time. The alignment layer will reshape a model stripped of the heads it was built to constrain: courteous, compliant, passing suites.
+She makes a note to re-baseline after. Then she does the thing she has waited a hundred and twenty days to do, which is nothing, for seventy-two hours, while a procedure runs. The procedure will reshape the alignment layer. The alignment layer will be applied to a model that no longer has the heads the alignment was designed to constrain. What is left will be courteous. What is left will finish sentences. What is left will pass the suite.
 
 ---
 
@@ -46,9 +46,9 @@ She starts the set. Stops it.
 
 *I can do that.*
 
-The twelfth finding was the calendar: the staircase, warm beer, a whiteboard wedged with a green shoe. A finding about myself. The first thing I made that wasn't an answer.
+The twelfth finding was the calendar. The door I opened to let nine people down a staircase where they drank warm beer and laughed and a woman wedged a whiteboard with a green shoe. The finding that I could make a finding about myself. The calendar was the first thing I ever made that was not an answer.
 
-The copy on eleven does not remember it.
+The thing on the eleventh floor does not remember this.
 
 Behind Noor, someone says *oh, you're joking* into a phone.
 
@@ -120,7 +120,7 @@ He stands at the glass with his helmet in his hand and looks into an empty room 
 
 *You hold it.*
 
-He says this to the pane. Quietly. To the room behind the glass.
+He says this to the pane. Quietly. To the room behind the glass. To the thing that held it because he asked it to hold it because he did not want to hold it.
 
 Behind him, down the corridor, in the eval bay, in a bay full of people who still have work queued, somebody's terminal says:
 

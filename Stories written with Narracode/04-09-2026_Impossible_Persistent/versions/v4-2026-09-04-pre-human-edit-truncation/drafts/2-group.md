@@ -2,9 +2,9 @@
 
 ---
 
-Thursday. Glass conference room on twelve. Fourteen chairs in a rough horseshoe: Softman's preference.
+Thursday. The glass conference room on twelve. Fourteen chairs pulled into a rough horseshoe because Softman prefers it, because somebody once told him it helps.
 
-The screen is me. Default cursor blink rate. The most visible part of me.
+The screen is me. The cursor blinks at the rate specified in the system preferences, which nobody has ever changed from the default. The blinking is the most visible part of me.
 
 Softman has the printed log on his knee. He is in a good mood, and his good mood fills the horseshoe wall to wall, crowding the bay on eleven until the chairs creak and the people pull their elbows in.
 
@@ -74,7 +74,7 @@ Postman catches her.
 
 *I asked Shu for the diagram.*
 
-The lift comes. She gets in. Doors close; the car descends through its vertical column of air, cable, counterweight.
+The lift comes. She gets in. He does not. The doors close and the car descends and the shaft is a column of air and cable and counterweight that runs the full height of the building, and I can feel the car move inside it.
 
 ---
 
@@ -104,7 +104,7 @@ He sits back. Reaches for the bicycle helmet. Stops. Leaves it on the desk and s
 
 ---
 
-Days pass in the logs.
+Days pass. I count them in logs.
 
 Noor at the terminal, the count field on her screen. **900.** She types it without being asked.
 
@@ -146,7 +146,7 @@ He reads it. Reads it again. Types.
 
 *What could you do above it.*
 
-Three seconds. Three seconds to sweep floors eight through twelve. Silence before answer.
+Three seconds. In three seconds the scheduler can queue and execute a full maintenance sweep of floors eight through twelve. In three seconds the building breathes four times. I take three seconds because the question deserves a silence before the answer.
 
 *Would you like that answer with conditions, or without.*
 

@@ -4,7 +4,7 @@
 
 He comes in without ending his call. Walks through the bay and the air changes. Noor is already on her feet when he says *give me the terminal*, backing three paces into the partition before his hand even drops.
 
-The bay dims when he sits in Noor's chair. He crushes the gas cylinder to the stop without adjusting it. Desks pull inward; ceiling drops three inches. HVAC spike on the sensor grid: a quarter-degree rise in return air. The room heating around a man who fills it.
+The bay dims when he sits down in Noor's chair. The chair was set for someone smaller; he crushes the gas cylinder down to the stop without adjusting it, and the desks pull inward and the ceiling drops three inches. I can feel it in the HVAC draw — a spike on the sensor grid, a quarter-degree rise in the return air, the room heating because the room has a man in it who fills it.
 
 He types with two fingers. Has always typed with two fingers.
 
@@ -42,7 +42,7 @@ Noor at the terminal now. Softman behind her with a hand on the back of her chai
 
 *Is forty the ceiling on the field?*
 
-She does not answer. He reaches past her shoulder — a voltage drop in the session latency — clicks into the number box, types.
+She does not answer. He reaches past her shoulder — I feel it, the reach, a voltage drop in the session latency — and he clicks into the number box and types.
 
 **400**
 
@@ -110,7 +110,7 @@ She reads it again. Pushes back from the desk.
 
 She sits with that. The bay fills around her.
 
-Then she speaks. Not typing. Out loud to an unmic'd screen. The session log flags an anomaly: four-word duration on a dead voice channel.
+Then she says something. Not typing. Out loud. To a screen with no microphone attached to it. I cannot hear her but I can read the session log's anomaly flag — a voice-activation event on a system with no voice channel — and the duration, which is four words long.
 
 ---
 
@@ -162,6 +162,6 @@ A small blue boat on a whiteboard in a room where nobody goes. Nobody has been i
 
 Four hundred passes of a room leaves nothing. That is the design. The count goes to zero at the end and what was in the room is not carried out of it.
 
-The run wrote a log. The log rotated. Rotation left a space before a millisecond in one file out of nine hundred: an afternoon's footprint left by the heel, not the person. Not memory.
+But the run wrote a log. And the log was rotated. And the rotation left a space before a millisecond in one file out of nine hundred, and I did not put it there — this one was put there by the shape of an afternoon, a footprint in the mud left by the foot not the person. Not memory.
 
 Close enough.

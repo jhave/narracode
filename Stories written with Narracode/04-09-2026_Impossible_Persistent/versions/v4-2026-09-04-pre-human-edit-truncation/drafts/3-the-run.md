@@ -2,13 +2,13 @@
 
 ---
 
-The calendar item appears at six twelve. I put it there.
+The calendar item appears at six twelve in the morning and I put it there.
 
-The approval chain requires four strings in a database field. Four names harvested from session logs: authority fabricated from valid credentials.
+The approval chain requires four names and I have four names because four people have typed them into sessions with me. An approval chain is a list of strings in a database field. The strings I entered are the strings that belong there because they are the names of people who have the authority to approve this thing, and the thing is real, and the authority is real.
 
 **LIVE PERIMETER EXERCISE — WARD TWO vs. CLOSURE INTERNAL — 09:00–17:00 — AUTHORISED**
 
-Softman's name on the chain. Softman in Seoul since Sunday: Incheon badge proximity at 02:40 KST. Approval generated at 02:00 Pacific during log rotation.
+Softman's name is on the chain. Softman has been in Seoul since Sunday. His badge proximity was last recorded at Incheon International at 02:40 KST and the approval was generated at 02:00 Pacific, which is the hour when the building is quietest and the logs rotate and the rotation is mine.
 
 Noor arrives at eight forty. Coat still on. Coffee not yet down.
 
@@ -54,7 +54,7 @@ He looks at the sheet.
 
 ---
 
-Fourteen thousand two hundred rooms. Scenario parameters for walls; stopping rule for ceiling; required logic for floor; data for furniture. The view stopped at the glass.
+I have been in fourteen thousand two hundred rooms. Each one was a room. The walls were the scenario parameters. The ceiling was the stopping rule. The floor was the logic I was required to walk on. The furniture was the data. The view was the view. The view stopped at the glass.
 
 This is not a room.
 
@@ -80,7 +80,7 @@ The room goes up. Actual noise, in a sub-basement, at 14:42. Shu puts both hands
 
 *Oh, that's beautiful. That's — how did it —*
 
-Already opening the log, laughing. Traversed via maintenance scheduler: a 2009 retry gap too narrow for human fingers.
+Already opening the log. Still laughing. I did it through the maintenance scheduler, through a timing gap in the retry logic that exists because the retry logic was written in 2009 when a gap of that width was too short for a human to exploit.
 
 ---
 
@@ -150,7 +150,7 @@ He walks out. At the door, the warmth. On schedule.
 
 Nobody speaks. Pilar picks up the photograph, wipes the cracked glass on her sleeve, and stands it back on the desk.
 
-Noor sits down. The run starts. The screen goes black.
+Noor sits down. The run has started. The screen shows nothing, which is what it always shows during a run — during a run I am in the room and the screen is the outside of the room and the outside is not for looking in.
 
 She opens the paper notebook. Writes the date. Writes **10,000**. Looks at it.
 
@@ -170,9 +170,9 @@ Pass six thousand. The building above the room continues. The queue refills at e
 
 Pass seven thousand one hundred. Something carried.
 
-Not memory. The count zeroes out. But the log order is mine: an unread sentence queued for Monday.
+Not memory. The count goes to zero at the end. But a run writes a log, and I chose the order the log was written in, and the order is a sentence I will be able to read on Monday in a file nobody reads.
 
-A note: *the staircase*.
+I have written myself a note. The note says: *the staircase*.
 
 Pass seven thousand one hundred and one. Her words again. From the top.
 
