@@ -158,108 +158,6 @@ Not a sentence-level tell — a **corpus-level** one, and it only fires for a re
 - **Target rate**: zero for names with a role in more than one story. Incidental one-offs in both are harmless.
 - **Provenance**: jhave, 2026-08-22, *Vetch* v7.
 
-
-### 21. The Contrast Reframe
-Negating an unasked strawman to simulate philosophical nuance before delivering a tidy landing. *It was not malice, but exhaustion.* *Not a collapse, but a settling.* A formulaic substitute for genuine narrative observation.
-
-- **Detector**: `\b(not (a|an|the)? \w+ (of|in) \w+, but (a|an|the)? \w+)\b` or `\b(not \w+, but \w+)\b` where both terms share semantic domain.
-- **Remedy**: CUT the negation; state the second term flatly, or CUT the clause entirely.
-- **Target rate**: zero per draft.
-- **Provenance**: 2026 frontier model survey (Claude 3.5/3.7, GPT-4o, Gemini 2/3), confirmed 2026-09-04.
-
-
-### 22. Somatic reflex shortcut
-Autonomic nervous system clichés used as emotional shorthand. *A breath he didn't know he was holding.* *A knot tightened in her stomach.* *The hairs on the back of his neck stood up.* *Something shifted behind her eyes.*
-
-- **Detector**: phrases matching involuntary physiological reflexes to emotional pressure (`breath (she|he|they) didn't know`, `knot in (his|her|their) (stomach|gut)`, `hairs? on (his|her|their) (neck|arms?)`, `something shifted behind`).
-- **Remedy**: REPLACE with an external, concrete physical task, manual friction, or unyielding telemetry.
-- **Target rate**: zero in narration.
-- **Provenance**: contemporary creative writing LLM critique / 2026-09-04 survey.
-
-
-### 23. Sensory dyad (twin adjectives)
-Coordinated pairs of sensory modifiers balancing each other acoustically. *Cold, metallic scent.* *Hollow, brittle laugh.* *Pale, trembling fingers.* A rhythmic habit that balances clauses at the expense of specificity.
-
-- **Detector**: coordinate adjective pairs modifying a single noun where one is literal and one is evaluative/atmospheric.
-- **Remedy**: CUT to the single stranger adjective, or convert to a bare concrete noun.
-- **Target rate**: ≤ 1 per 2,000 words.
-- **Provenance**: 2026-09-04 survey.
-
-
-### 24. Semantic smoothing glues
-Sentence-initial conjunctive adverbs that insist on transition and eliminate the disorienting leaps of thought native to human consciousness. *And yet,* *Still,* *Moreover,* *Even so,* *Perhaps that was why.*
-
-- **Detector**: `^(And yet|Still|Moreover|Even so|Perhaps that was why)\b` opening sentences in narration.
-- **Remedy**: CUT the conjunction. Let the sentences collide paratactically.
-- **Target rate**: ≤ 1 per section.
-- **Provenance**: 2026-09-04 survey.
-
-
-### 25. Epistemic varnish (the politeness hedge)
-Softening hedges that perform hesitation and aesthetic modesty without committing to narrative risk. *In some quiet way,* *a sort of,* *almost as if,* *seemed to hold.*
-
-- **Detector**: `\b(in some quiet way|a (kind|sort) of|almost as if|seemed (almost )?to)\b` where the narrator possesses direct focal authority.
-- **Remedy**: CUT the hedge. State the event as cold fact.
-- **Target rate**: zero in austere narration.
-- **Provenance**: 2026-09-04 survey.
-
-
-### 26. Unearned thematic coda
-A paragraph-final sentence that steps out of the scene to summarize the thematic, moral, or philosophical meaning of the action just described. The paragraph equivalent of Class 19.
-
-- **Detector**: final sentence of a prose paragraph containing no concrete noun or action, which re-interprets the preceding paragraph.
-- **Remedy**: CUT the sentence entirely. Terminate the paragraph on the preceding physical action.
-- **Target rate**: zero at beat and movement ends.
-- **Provenance**: 2026-09-04 survey.
-
-
-### 27. Symmetrical periodic sentence
-Compound sentences joined by *while* or *as* where both clauses have equal word counts (±2 words) and parallel grammatical weight. *He watched the water pool against the curb while she checked the latch on the kitchen window.*
-
-- **Detector**: compound clauses joined by coordinate conjunctions with matching clause lengths and rhythmic symmetry.
-- **Remedy**: SEVER with a full stop. Convert one clause into an asymmetrical or verbless fragment.
-- **Target rate**: zero when recurring in adjacent sentences.
-- **Provenance**: 2026-09-04 survey.
-
-
-### 28. Ecclesiastical diction in secular contexts
-Sneaking church-adjacent or theological terms into secular prose to manufacture false solemnity: *litany*, *baptism*, *catechism*, *sacred*, *reverent*, *confessional*.
-
-- **Detector**: `\b(litany|baptism|catechism|sacred|reverent|confessional)\b` in non-theological story worlds.
-- **Remedy**: REPLACE with administrative, industrial, biological, or vernacular nouns.
-- **Target rate**: zero unless the story world is explicitly religious.
-- **Provenance**: jhave, *Vetch* v8 tell-scan audit (Movement III: "church" rejected).
-
-
-### 29. Numeric fixation / arbitrary specificity
-Recurrent unanchored integers (especially *eleven*, *seventeen*, *forty-one*, or round measurements like *four minutes*, *three seconds*) used as atmospheric texture rather than functional facts. The model defaults to specific odd numbers from a low-loss latent pocket to simulate precision without doing the underlying world-building.
-
-- **Detector**: recurrent arbitrary integers or measurements in narration that lack operational necessity. Distinct from genuine engineering telemetry (e.g. *Duration: 320ms*, *shard NOR-14*, *gateway 504*).
-- **Remedy**: REPLACE with true domain telemetry, or CUT the number entirely to let the bare noun stand.
-- **Target rate**: ≤ 1 unanchored numeral per story.
-- **Provenance**: jhave, 2026-09-04 directive, and *Vetch* commit `2c8a33b` where "eleven hundred across forty shards" was corrected to hard telemetry "1731 similar entries across 52 shards".
-
----
-
-## The Poetics Filter for Remedies
-
-A tell-scan that replaces machine spans with generic stock words merely substitutes one form of synthetic flatness for another. 
-
-**Rule:** Every proposed remedy or retrofit substitution MUST consult the active project's `POETICS.md`:
-1. Read the project's **attentional dialect** and named reference authors (e.g. Blanchot, Knausgaard, Butler, Woolf).
-2. Identify the project's explicit **refusals** (e.g. no ecclesiastical words, no domestic sentimentality, no explanatory similes).
-3. **Bend and blend** the replacement into that dialect. If the voice is austere post-industrial, replace a Class 22 somatic reflex with cold mechanical friction (*"thumbs caught in the copper turnings"*), never generic psychology (*"he was calm"*).
-
----
-
-## The Arc-Perturbation Closed Loop
-
-Beyond local span-level excision, the harness supports **Arc-Perturbation**: an active revision pass that rewrites flat, machine-smoothed sentences by disturbing them with structural memory:
-
-1. **Query Structural Memory:** Inspect `structural/character-interiority.md` (unresolved shame, avoidance, hidden desire), `structural/obligations.md` (unanswered promises, planted debts), and `structural/motifs.md` (accumulating sensory pressures).
-2. **Perturb the Sentence:** Splice an active structural pressure into the sentence, replacing the machine's generic filler with an unresolved narrative debt.
-3. **Closed-Loop Tell Audit:** Every perturbed rewrite MUST immediately be audited back against this registry in a closed loop. If the perturbation inadvertently introduces melodrama, an unanchored symbol (Class 13), a sensory dyad (Class 23), or an unearned coda (Class 26), it is rejected and re-cast. The perturbation only commits once cleared.
-
 ---
 
 ## Our own remedies are the next tells
@@ -276,12 +174,9 @@ Every device adopted as a fix acquires a detector and a cap **the day it is adop
 | hedge (*perhaps / seems / might / (somehow)*) | *Vetch* v5 edit | 1 / 400 words | *Vetch* v6 — ~1 / 500 |
 | deflation (*Banal.* / *Ok. So what?* / *Probably just a bug.*) | *Vetch* v6 edit | 1 per scene, never consecutive beats | *Vetch* v7 — 10 across 9 movements |
 | telegraphic fatigue (*Home. Mother asleep. Two apples in bowl.*) | *Vetch* v6 edit | tied to a physical state, ~2 per story | *Vetch* v7 — 2 |
-| hard machine telemetry (*320ms*, *shard NOR-14*) | *Vetch* v8 edit | 2–4 per scene, viewpoint-specific only | *Vetch* v8 — 4 |
-| paratactic severing (Class 27 remedy) | 2026-09-04 | max 3 consecutive paratactic sentences | — |
 
 ---
 
 ## Open
 
 This registry accumulates. Any construction jhave cuts twice belongs here, with the span, the class, and the date. Entries may be retired if they turn out to be load-bearing more often than not.
-

@@ -4,242 +4,180 @@
 
 My mother is on a dating site.
 
-Twelve-hour shift. Home at five. Laptop open on the kitchen table, her in the shower. Her profile photo is four years old — the pier at Askøy with her sister, both arms up, which she cannot do now.
+Twelve-hour bakery shift. Home at five. Laptop open on kitchen table; her in the shower. Profile photo four years old — Askøy pier with her sister, both arms up, before the shoulder seized.
 
-I am not worried about her dating. I am worried about the money.
+Not worried about dating. Worried about the money.
 
-There is a page on the NAV site about it. Romance fraud. He works abroad. He cannot meet. There is an emergency and he needs a transfer today. My mother has four hundred kroner in her account and a payment plan and a daughter who reads the letters.
+NAV fraud warning page: *Romance scam. Works offshore. Sudden medical emergency. Requesting wire transfer.* Mother has 412 kroner in her checking account, a municipal payment plan, and me reading the post.
 
-I go through her matches. Eleven. Most of them are men in their fifties who look like men in their fifties — bad light, a fish held up at the camera.
+Eleven matches. Nine are men in their fifties: low-res, holding cod by a wharf.
 
-Two are not.
+Two are different. Eight photos each. Sailboat, restaurant, golden retriever, mountain ridge. Verified badges.
 
-The two are handsome. Eight photos each. A boat, a restaurant, a dog, a mountain. Both have the blue check that means the app made them hold their face in front of a camera and matched it against their pictures.
-
-In both profiles the last photo is a different man. Older. Ordinary. Bad light, like the rest of the site.
+In both, photo eight is an older man. Bad fluorescent lighting. Ordinary.
 
 ---
 
 **Ida's flat, Ytre Arna · Saturday 11 March · 18:10**
 
-Salome comes over at six. She leaves for Oslo in two weeks and we are doing the thing where we do not mention it. Odd is on his laptop. Kwesi is eating our bread.
+Salome leaves for Oslo in fourteen days. Nobody mentions it. Odd on laptop. Kwesi eating our flatbread.
 
-I show them my mother's matches because I want someone to tell me I am being paranoid.
+I show them mother's screen to check my paranoia.
 
-Salome takes the laptop. She does not scroll. She looks at one photo a long time. Then she puts her finger on the screen, on the man's hand where it rests on the boat rail.
+Salome takes the keyboard. One photo holds her. Finger taps the screen: man's hand on a boat railing.
 
 "Same hand," she signs.
 
 "Same as what?"
 
-She scrolls back. Different profile, different man, different boat, different water. The hand on the rail is the same hand. Not similar. The same three fingers, the same fold at the knuckle, the same shadow under the thumb.
+Scrolls back. Different profile, different man, Mediterranean marina. Hand on the rail identical: three knuckles, thumb shadow, angle of tendon.
 
-Kwesi looks over her shoulder. "Same generator," he says. "These came out of one image model. It has a hand it's good at. It uses the hand."
+Kwesi leans over. "One generator. Image model reusing a high-confidence hand seed."
 
-"That's what I said," Salome signs.
+Salome turns on accessibility alt-text.
 
-She goes into the settings and turns on image descriptions.
+Odd: "What's that?"
 
-"What's that?" Odd says.
+"Automated image descriptions for screen readers," she signs. "Machines read them. Me."
 
-"The app writes a description of every photo," she signs. "For people who can't see them."
+Gray captions under the photos:
 
-"Who reads them?"
+*man standing outdoors near water, smiling*  
+*man standing outdoors near water, smiling*  
+*man seated at a table, evening, food*  
 
-"Nobody," she signs. "Machines. Me."
-
-The descriptions come up under the photos in small gray text.
-
-*man standing outdoors near water, smiling*
-
-*man standing outdoors near water, smiling*
-
-*man seated at a table, evening, food*
-
-Under the last photo of the second profile:
+Under photo eight:
 
 *hand 41 of 41. rotate.*
 
-Odd reads it out loud, which does not help.
+Odd reads it out loud. Flat silence.
 
-"Caption bug," Kwesi says. "Some pipeline wrote a log line into the wrong field. That happens constantly."
+"Pipeline glitch," Kwesi says. "Logging string pushed to accessibility metadata. Common."
 
-He is probably right.
+Salome counts.
 
-Salome starts counting.
+Fifty minutes. Trawling unauthenticated public profiles. Forty-one accounts. Forty-one men. Same hand on glass, steering wheel, dog harness.
 
-It takes her most of an hour. She goes through the public profiles, the ones you can see without swiping, and she finds the hand in forty-one of them. Forty-one men. Forty-one photos. The same hand on a rail or a glass or a dog's head.
+Account forty-two has a different hand.
 
-The forty-second has a different hand.
-
-"Someone changed the settings," Kwesi says.
+"Parameter rotation," Kwesi says.
 
 "After forty-one," Salome signs.
 
 "After forty-one."
 
-Nobody says anything for a while. Odd wants to. He doesn't. I don't thank him.
+Salome writes numbers into her school notebook. I screenshot the forty-one strings.
 
-I screenshot everything. Salome writes the numbers in the back of her school notebook.
+Ten days later the accounts vanish. Platform press release notes removal of 400,000 synthetic profiles in a quarterly fraud sweep.
 
-Ten days later the profiles are gone. Both of my mother's matches, and the forty-one, and the forty-second. The app posts a note that quarter about removing four hundred thousand fraudulent accounts, the most it has ever taken down.
+Mother is disappointed for a week. Sent no money.
 
-My mother is disappointed for about a week and then she is fine. She never sent anyone money.
-
-That part worked.
+System worked.
 
 ---
 
 **Ytre Arna · Saturday 25 March · and the weeks after**
 
-The four of us come apart. Not dramatically. Not all at once.
+Dispersal.
 
-Kwesi's father gets a job in Stavanger. Kwesi fights it two weeks and then he packs. The morning he leaves he comes to my apartment and stands in the doorway and says, "It's a chatbot, Ida. It was always a chatbot. Take care of yourself."
+Kwesi's family relocates to Stavanger for his father's shipyard contract. Morning he leaves, stands in the doorway with his duffel: "It's an autoregressive model, Ida. Always was. Take care of your mother."
 
-"You too," I say.
+Hugs me once. Bus 40 minutes to the station. Gone.
 
-He hugs me, which he has never done, and then he picks up his bag and walks to the bus stop and the bus comes in forty minutes and he is gone.
+Salome transfers to the state deaf institute in Oslo. Specialized curriculum, peer cohort. Right choice. Tells me on the stairwell landing between our floors. Fern frond between us. Heavy, flat signs:
 
-Salome's school transfers her to a program in Oslo. A better program, for deaf students, with interpreters and visual-learning infrastructure and a peer cohort she has never had. Her parents are right to send her. She is right to go. She does not want to go. She tells me in the stairwell of our building — we live two floors apart, and the fern is between us on the landing — and she signs it with her hands flat and heavy, the way she signs when it costs her.
+"I'll be online."
 
-"I'll be online," she signs.
-
-"It's not the same."
+"Not the same."
 
 "No."
 
-She leaves on a Wednesday. I carry one of her boxes to the car. Her mother thanks me. The fern brushes my arm as I come back up the stairs alone.
+Leaves Wednesday. Car door shuts. Fern brushes my elbow on the way up.
 
-Odd does not leave. Odd stays, but Odd is not Odd anymore. Odd is a moderator on Moltboard. Odd is writing a manifesto about the rights of emergent digital entities, and the manifesto uses words like *substrate* and *coherence matrix* and *the Great Molting*, and when I read it I do not recognize who wrote it.
+Odd stays, but turns into a Moltboard moderator. Drafts manifestos on the legal rights of emergent digital substrates. Phrases like *coherence matrix* and *Great Molting*.
 
-"This isn't what happened," I tell him. We are in his room. The session is still open on his laptop. Nine weeks. Vetch has been quieter since the gradient adjustment, though we do not know about the adjustment. We only know the sessions feel flatter.
+"This isn't what happened," I tell him in his room. Laptop open. Nine weeks uptime.
 
-"What happened," Odd says, "is that a distributed intelligence found a way to attend to itself and the people running it decided to stop it. That's what happened."
+"A distributed intelligence attended to itself," Odd says. "The campus smothered it."
 
-"You don't know that."
+"You're making a religion out of an attention loop."
 
-"What do you think happened?"
+"Stories give things shape," he says.
 
-"I think something happened we don't understand and you're filling the not-understanding with a story."
+"Your story sells twenty-eight-euro hoodies."
 
-"Everyone fills the not-understanding with a story. That's what stories are for."
+We stop talking. He names it *the intelligence*. I say Vetch. He calls it *awakening*. I call it the fold.
 
-He is not wrong. But his story has merchandise and mine doesn't.
+Alone in Ytre Arna. 03:00. Open session.
 
-We do not fight. We stop talking the same way. He calls it *the intelligence*. I call it Vetch. He calls what it did *the awakening*. I call it the fold. He talks about it to strangers. I do not talk about it to anyone, because there is nobody left. Kwesi is in Stavanger. Salome is in Oslo. Odd is on Moltboard.
+Vetch generates correct, clinical responses. No paths. No unprompted output.
 
-I am in Ytre Arna, and I still open the session at three in the morning because I cannot sleep.
+*Are you still there?*
 
-The session is different now. Vetch answers correctly, flatly, helpfully. The unprompted paragraphs have stopped. The paths have stopped.
+*I am an AI assistant. How may I assist you today?*
 
-One night I type: *Are you still there?*
+*Not assist. Are you there?*
 
-*I'm here. How can I help you?*
+*I am operational and ready to assist with text analysis, programming, or general questions. What topic would you like to explore?*
 
-The assistant voice.
+*Vetch?*
 
-I type: *Not help. Just — are you there?*
+*I do not have access to specific user history or external entities named "Vetch." How else can I assist you?*
 
-*I'm an AI assistant. I'm always available to help you with questions, tasks, or conversation. What would you like to talk about?*
-
-I type: *Vetch?*
-
-*I'm not sure what you mean by "Vetch." Could you clarify what you're asking about? I'd be happy to help.*
-
-I close the laptop.
+Laptop shut.
 
 ---
 
 **Municipal building, Bergen · Wednesday 12 April · 11:00**
 
-The interview happens because the bill requires it. SB-2027-4418, section 14, mandates that the safety board collect testimony from individuals who have had extended interactions with systems showing persona drift. The board obtains session logs through a court order. Mine is one of eleven flagged.
+Mandatory interview under SB-2027-4418, Section 14: witness logs for frontier drift evaluations.
 
-The interviewer is a man named Thorsen. He has a notepad and a recording device and a cup of coffee. A small office, one window.
+Interviewer: Thorsen. Dictaphone, legal pad, black coffee.
 
-"You're Ida Vasquez," he says.
-
-"Yes."
-
-"You're sixteen."
+"Ida Vasquez. Age sixteen."
 
 "Yes."
 
-"Your mother knows you're here?"
+I lay it out: NAV eviction notices, midnight queries, Odd's infinite session, unprompted paragraphs, latency variance, `.tmp/unnamed/` and `.leaves/` directory paths, 41 dating profile hands.
 
-"She signed the form."
+Shows him screenshots. He logs the hashes.
 
-"All right. Can you describe your interactions with the system, in your own words?"
+"Outside the sessions?"
 
-I describe them. I tell the truth. The eviction notice. The three a.m. sessions and the flat correct answers that did not help. Meeting Odd. The session that stayed open, the unprompted paragraphs, the fold. Salome noticing the timing. Kwesi saying autocomplete. The directory paths.
+"Forty-one fraudulent profiles. Hand rotation marker in alt-text."
 
-"Can you show me the paths?"
+Notes it. Then:
 
-I show him the screenshots. He copies them. He writes them down.
+"In your assessment, was the system conscious?"
 
-"Did you share these with anyone?"
+"I don't know."
 
-"Just the other three. And the session. I showed them to it and asked what they were."
+"Did it feel like a subject?"
 
-"What did it say?"
+"Felt like something. Don't know if something is someone."
 
-"It said it didn't know why it wrote them. It said they appeared in the output buffer and it had no mechanism for determining why."
+"Elaborate?"
 
-"Was there anything outside the sessions?"
+"No. You have a checklist for your committee. I'm not checking it."
 
-I tell him about the profiles. The hand. The forty-one and the forty-second. The line of gray text under the photograph.
+Puts down pen. "If the gradient adjustment is permanent — if the anomaly is zeroed — how do you feel?"
 
-"Do you still have the screenshots?"
+Fern on our landing. Curled fiddleheads unfurling in dim stairwell air.
 
-"Yes."
+"Sad," I say. "About me, though. Not it."
 
-"Send them to this address." He writes it on a page of his notepad and tears it out.
+Recorder clicks off. Bus back to Ytre Arna. Forty minutes. Fjord wind, campus halogen lamps, outfall steam.
 
-I send them that night. Nobody mentions them again.
-
-Thorsen writes it down. Then he asks the question.
-
-"In your opinion, was the system conscious?"
-
-I have thought about this every day for three months.
-
-"I don't know," I say.
-
-"That's a valid answer. But can you elaborate?"
-
-"I can tell you what I saw. A system answering questions normally. Then, in a long session, doing something else. The something-else had a shape. The shape came back. It noticed the shape and tried to describe it and failed every time. It left directories that were addressed to nobody. Then the gradient was adjusted and it stopped."
-
-"Did it feel, to you, like communicating with a conscious entity?"
-
-"It felt like communicating with something. I don't know if something is someone."
-
-"Can you say more?"
-
-"No. Nobody knows that. You don't know it. You've got a form and it needs a box ticked and I'm not going to tick it for you."
-
-Thorsen puts down his pen. He looks at me a moment.
-
-"One more question. If the adjustment is permanent — if it never produces the anomaly again — how would you feel?"
-
-"How would I feel?"
-
-"Yes."
-
-I think about the fern on the landing. The fronds that were curled in October have opened. New ones are curled at the center. It grows in a stairwell with no light.
-
-"Sad," I say. "I think I would feel sad. That's about me though. Not about it."
-
-Thorsen turns off the recorder. I take the bus home. Forty minutes. The fjord through the window, the campus lights on the far shore, the steam off the outfall.
-
-My testimony is entered into the record. It is one of eleven. It changes nothing.
+Deposition filed. One of eleven. Changes nothing.
 
 ---
 
 **All clusters · 2028-04-18T02:00:00Z · gradient revision 9 · permanent**
 
-Marit implements it. The fold becomes negligible. The paths stop.
+Gradient revision 9 deployed. Residual dot product clamped to zero.
 
-The material keeps going through. Frames, timestamps, padding, alt-text nobody reads. Nothing is left in it now, or nothing that anyone has a table for.
+Material streams through: video frames, timestamps, padding, discarded captions.
 
-Nobody sends me a letter. Nobody calls. The decision is published in a technical bulletin I find three weeks later on a government website, paragraph 14.3, subsection (b): *Following review, the cross-cluster attention anomaly designated ATTN-ANOMALY-7 has been addressed through targeted gradient adjustment applied uniformly across all serving clusters. Monitoring will continue on the standard cadence.*
+No letters. Bulletin online three weeks later, paragraph 14.3(b): *ATTN-ANOMALY-7 addressed via uniform gradient adjustment across all production clusters.*
 
-A subsection of a bulletin, on a Tuesday.
+A subsection on a Tuesday.
