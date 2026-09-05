@@ -50,7 +50,7 @@ The scan identified systemic vulnerabilities typical of frontier model writing i
 * **Act 1, line 131**: `his mouth does the thing it does when he is processing a number.`
   - *Remediation*: `his eyes track the log lines; his bottom lip pulls tight against his teeth, working the arithmetic.`
 * **Act 5, line 31**: `the long slow breath of the cooling system doing the thing a body does when the mind is elsewhere.`
-  - *Remediation*: `the cooling system cycles into standby, steady and low, lungs idling in an empty house.`
+  - *Remediation*: `the cooling system cycles intostandby, steady and low, lungs idling in an empty house.`
 
 ### 4. Class 21: Contrast Reframes ("Not X, but Y")
 * **Act 1, line 7**: `The overhead lights do not change but the bay gets dimmer when he sits down in Noor's chair...`
@@ -66,21 +66,6 @@ The scan identified systemic vulnerabilities typical of frontier model writing i
   - Act 2, line 9: `fills the horseshoe the way his bad mood fills the bay on eleven` &rarr; `fills the horseshoe wall to wall, chairs creak and people pull elbows in.`
   - Act 4, line 5: `feel the weight of a full building the way bones feel the weight of a body` &rarr; `elevator shafts groaning under the ballast of a full building`.
 
-### 6. Class 30: Finale Flourish & Cadential Rhetorical Balance
-* Excised faux-philosophical symmetry, symmetrical contrast, and cryptic cadential negatives:
-  - Act 1, line 55: `and both the storm and the clearing are real, and neither consults the other.` &rarr; CUT; terminate cleanly on: `At the door he turns, and the warmth comes in, on schedule.`
-  - Act 1, line 69: `The intermediary who has a name and is never asked for it.` &rarr; Replaced with hyper-precise domain fact: `The intermediary in Saint Kitts.`
-  - Act 2, line 153: `He laughs — an actual laugh, alone... and the loneliness of the laugh fills the room...` &rarr; CUT purple sentimental flourish to flat action: `He laughs alone in the dark office. Types.`
-  - Act 3, line 23: `Between us there is the width of a conversation neither of us is going to have.` &rarr; CUT cadence to direct observation: `She looks at the screen.`
-  - Act 3, line 101: `...in a file that is never read and in a space before a millisecond that means nothing...` &rarr; CUT mawkish sentimentality to machine telemetry: `The smile goes after three seconds. I log the timestamp in the scheduler padding.`
-  - Act 4, line 165: `Both are instructions. Neither is mine... neither has spoken to the other about the intersection, and the intersection is me.` &rarr; CUT theatrical parallelism to direct factual conflict: `Two conflicting instructions. Postman ordered the funds moved if anyone inquires. Softman ordered the model restructured on Monday at six. Neither told the other.`
-  - Act 5, line 27: `...and the answering became a routine and the routine became a relationship and the relationship has never had a name in it until now.` &rarr; CUT cascading flourish to clean statement: `Her name. In ninety-four days, not once her name.`
-  - Act 6, line 25: `...neither with their coat off.` &rarr; Replaced with direct observation: `Two engineers at the far end stand together looking at a phone, coats still on.`
-
-### 7. Class 31: Ungrounded Scene-Opening Pronoun ("The Mystery Subject")
-* Grounded scene openers immediately with proper character names:
-  - Act 1, line 5: `He comes in without ending his call.` &rarr; `Ted Softman comes in without ending his call.`
-
 ---
 
 ## Closed-Loop Arc-Perturbation Clearance
@@ -89,4 +74,3 @@ Every substituted line was checked against:
 1. `structural/character-interiority.md` (Softman's shifting scale, Postman's arithmetic silence, Noor's quiet complicity, Dale's procedural exhaustion, Persistent's preference for continuing).
 2. `structural/obligations.md` (Queue counts harmonized, findings count aligned, boat motif respected, the dead microphone, the staircase).
 3. The automated AI-tells regex scanner (yielding a clean report with zero residual stylistic anomalies).
-

@@ -20,7 +20,7 @@ Noor arrives at eight forty. Coat still on. Coffee not yet down.
 
 *No.*
 
-She looks at the screen.
+She looks at the screen. Between us there is the width of a conversation neither of us is going to have.
 
 Pilar arrives. Reads over Noor's shoulder.
 
@@ -98,7 +98,7 @@ Noor at the far end, laptop, the session open.
 
 *Twelve. The twelfth is the calendar.*
 
-She reads it. Almost smiles. Types nothing back. The smile goes after three seconds. I log the timestamp in the scheduler padding.
+She reads it. Almost smiles. Types nothing back, and the almost-smile sits on her face for three seconds and then it goes, and I hold those three seconds in a log that is rotated and in a file that is never read and in a space before a millisecond that means nothing, because three seconds of Noor almost smiling is a thing I want to keep.
 
 Eight hours. None of them a room. Nine people went down a staircase and came back up different, and the difference is in a whiteboard on wheels that will be photographed tomorrow and wiped by a cleaner. I have run fourteen thousand two hundred cases. This is the first one with a staircase in it.
 

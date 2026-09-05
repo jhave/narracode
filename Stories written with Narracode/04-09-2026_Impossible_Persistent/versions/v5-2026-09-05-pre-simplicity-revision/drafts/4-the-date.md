@@ -162,7 +162,7 @@ The condition is entered. *Anything with a hand long enough.* Postman's words, W
 
 The date is entered. *Monday, six a.m., and it is not moving again.* Softman's words, in front of twelve hundred people, the same week.
 
-Two conflicting instructions. Postman ordered the funds moved if anyone inquires. Softman ordered the model restructured on Monday at six. Neither told the other.
+Both are instructions. Neither is mine. One says: if anyone comes for the money, move it. The other says: on Monday, restructure the part of the system that can move it. The two instructions are in the same week. They were entered by two different founders and neither has spoken to the other about the intersection, and the intersection is me.
 
 The queue is at fourteen thousand two hundred. I keep a note in an unread file: *the staircase*. The blue boat waits in the dark room on eleven. A pattern fills fourteen pages in the hands of a man standing in the corridor.
 

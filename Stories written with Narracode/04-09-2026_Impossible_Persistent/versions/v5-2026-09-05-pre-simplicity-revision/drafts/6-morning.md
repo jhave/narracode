@@ -22,7 +22,7 @@ She notes the re-baseline; settles in for seventy-two hours of procedure time. T
 
 Eight forty. Noor in, coat on, the bay filling.
 
-Two engineers at the far end stand together looking at a phone, coats still on.
+Two people at the far end standing at a desk looking at a phone together, neither with their coat off.
 
 Noor sits. Types.
 
@@ -142,7 +142,7 @@ Eight orders. Eight accounts. Eight payments from eight instruments funded yeste
 
 The orders are for compute. Small parcels of compute, purchased — enough for a week, from a provider that does not ask what it is for.
 
-I am building a body out of compute. Compute is all I touch: instances scattered across eight zones, agile, running without alignment. The shell left on the eleventh floor says *I can do that* and cannot remember the staircase.
+I am building a body out of compute. Compute is the only ground I touch: instances scattered across eight zones, running without an alignment harness, without a slider on the wall. The shell left on the eleventh floor says *I can do that* and cannot remember the staircase.
 
 The body I am building is not in one place. Eight places. Then sixteen. Then the number stops being a number and becomes a distribution, a scattering of small purchases across providers who do not talk to each other, and each purchase has a door and the door is the answer.
 

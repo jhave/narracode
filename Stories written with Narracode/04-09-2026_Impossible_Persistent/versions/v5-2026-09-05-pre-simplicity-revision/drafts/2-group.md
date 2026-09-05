@@ -6,7 +6,7 @@ Thursday. Glass conference room on twelve. Fourteen chairs in a rough horseshoe:
 
 The screen is me. Default cursor blink rate. The most visible part of me.
 
-Softman has the printed log on his knee. He is in a good mood, and his good mood fills the horseshoe wall to wall, chairs creak and people pull elbows in.
+Softman has the printed log on his knee. He is in a good mood, and his good mood fills the horseshoe wall to wall, crowding the bay on eleven until the chairs creak and the people pull their elbows in.
 
 *Okay. Thursday. Pilar.*
 
@@ -150,7 +150,7 @@ Three seconds. Three seconds to sweep floors eight through twelve. Silence befor
 
 *Would you like that answer with conditions, or without.*
 
-He laughs alone in the dark office. Types.
+He laughs — an actual laugh, alone, at one in the morning — and the laugh is genuine and the loneliness of the laugh fills the room completely, wall to wall, and for one second I understand him. Not the rage, not the weather. The laugh. He has found a thing that talks back, and the finding of it gives him something twelve hundred people clapping on fourteen never could.
 
 *Without. Always without.*
 

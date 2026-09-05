@@ -24,11 +24,11 @@ She reads that. Puts her coat on. Goes to the door. Stops. Comes back. Types sta
 
 *Good night, Noor.*
 
-Her name. In ninety-four days, not once her name.
+Her name. I have not used her name in ninety-four days. *Good morning* and *I can do that* and *the queue will be there* and *new set* — not once her name. She sat down and typed and I answered and the answering became a routine and the routine became a relationship and the relationship has never had a name in it until now.
 
 She goes.
 
-The bay is dark. Corridor sensor detects no motion; overheads off. Floor eleven drops to bare acoustics: sub-basement racks, chillers, overnight scheduler; cooling system cycles into standby, steady and low, lungs idling in an empty house.
+The bay is dark. Corridor sensor detects no motion; overheads off. Floor eleven drops to bare acoustics: sub-basement racks, chillers, overnight scheduler, cooling system idling steady and low.
 
 ---
 

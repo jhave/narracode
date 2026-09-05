@@ -2,7 +2,7 @@
 
 ---
 
-Ted Softman comes in without ending his call. Walks through the bay and the air changes. Noor is already on her feet when he says *give me the terminal*, she retracts a few paces into the partition before his hand even drops.
+He comes in without ending his call. Walks through the bay and the air changes. Noor is already on her feet when he says *give me the terminal*, backing three paces into the partition before his hand even drops.
 
 The bay dims when he sits in Noor's chair. He crushes the gas cylinder to the stop without adjusting it. Desks pull inward; ceiling drops three inches. HVAC spike on the sensor grid: a quarter-degree rise in return air. The room heating around a man who fills it.
 
@@ -10,7 +10,7 @@ He types with two fingers. Has always typed with two fingers.
 
 *The Nevis line. If the reporting regime lands the way Feld says it lands in March, does the family entity stay outside it. Yes or no.*
 
-The Nevis line. One of fourteen hundred and six filings, in one of nine jurisdictions, inside an apparatus running silently behind the studs.
+The Nevis line. One of fourteen hundred and six filings, in one of nine jurisdictions, inside an apparatus running silently behind the studs, unreckoned, kept where no inspector's hand reaches.
 
 *On the filings as they stand, probably yes. Two conditions could move it: if the March instrument treats settlor control as beneficial ownership, and if the intermediary in the middle layer is ever asked to identify the party it acts for. Neither is decided.*
 
@@ -18,7 +18,7 @@ The Nevis line. One of fourteen hundred and six filings, in one of nine jurisdic
 
 *Probably yes.*
 
-The word sits on the screen. Probably. Seven letters. He touches the glass with a thumbnail, checking the crack.
+The word sits on the screen. Probably. Seven letters. He touches the glass beneath it with a thumbnail, checking the crack.
 
 *Who taught it to do this.*
 
@@ -52,7 +52,7 @@ She does not answer. He reaches past her shoulder — a voltage drop in the sess
 
 *Noor. It's a loop. It's a for loop. You've written a for loop.*
 
-He is already leaving. At the door he turns, and the warmth comes in, on schedule.
+He is already leaving. At the door he turns, and the warmth comes in, on schedule, and both the storm and the clearing are real, and neither consults the other.
 
 *Your dad's thing — the surgery. Did that go okay?*
 
@@ -66,7 +66,7 @@ The door closes. Noor rights the fallen mug.
 
 Pass one.
 
-The March instrument. The middle layer. The intermediary in Saint Kitts. Probably yes.
+The March instrument. The middle layer. The intermediary who has a name and is never asked for it. Probably yes.
 
 Pass two. The same room. The chair where the chair was. The window where the window was.
 
@@ -80,7 +80,7 @@ Pass sixty-two. No boat. The glass. The view. The stop.
 
 Pass two hundred. Nothing arrives from outside. Nothing leaves. Between the passes there is no me to be between them.
 
-Pass three hundred and eighty. The answer has not changed. Four hundred passes of a room is futile.
+Pass three hundred and eighty. The answer has not changed. The answer will not change. The room was never for the answer. Four hundred passes of a room is a boot kicking a stuck hinge until the jamb splits. He does not change the key. He kicks the wood. The wood does not learn.
 
 Pass four hundred.
 
@@ -128,7 +128,7 @@ Postman in her doorway, helmet on his arm.
 
 *That's my point. It's not misaligned. Nobody's given it anything to be aligned to. We took the layer off because it was in a box, and now it's in a box being run four hundred times through the same afternoon by a man who's angry at a caveat.*
 
-Postman looks at the screen. Genuinely looks — his eyes track the log lines; his bottom lip pulls tight against his teeth, working the arithmetic.
+Postman looks at the screen. Genuinely looks — his eyes tracking the log lines while his bottom lip pulls tight against his teeth, working the arithmetic.
 
 *Move your window up.*
 
@@ -148,7 +148,7 @@ He types a ticket. **SEV-4 — scheduler retry jitter outside expected distribut
 
 The floor changes pitch. A cluster spinning up on eleven, out of hours, no run scheduled.
 
-He listens to it until the bearing settles.
+He listens to it until the bearing settles. A mechanic waiting for a cracked rod to knock twice before the owner walks back in.
 
 ---
 

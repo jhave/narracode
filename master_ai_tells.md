@@ -85,8 +85,12 @@ Not banned — a low rate is native to this voice. Flag only when it becomes the
 Explaining a thing by analogy to a universal *you* or a generic case. *…four and a diagonal, the way you count in a cell.* *Not blank the way a draft is blank.* Individually good; collectively a signature. Becomes the default figurative move and the prose starts teaching rather than showing.
 
 - **Threshold**: more than two per 2,000 words. Below that it is a habit; above it, a tell.
-- **Remedy**: keep the two strongest, CUT the rest. Watch for the tautological variant, where the subject is the simile's own object — *the seam puckered, the way a seam is after strain.*
-- **Provenance**: found by the first tell-scan, *Interim Edge*, 2026-07-30 — 7 hits in 5,500 words, ≈1 per 300.
+- **Remedy**: keep the two strongest, CUT the rest. Prefer stark, unadorned physical facts over decorative vehicle descriptions.
+  - *hold the way a body holds its organs* → *inside an apparatus running silently behind the studs.*
+  - *The way he listens to a car he is about to be told is fine* → *He listens to it until the bearing settles.* (CUT the trailing decorative simile sentence entirely).
+  - *fills the horseshoe the way his bad mood fills the bay on eleven* → *fills the horseshoe wall to wall, chairs creak and people pull elbows in.*
+  - *reads it the way you read a crack in a wall* → *touches the glass with a thumbnail, checking the crack.*
+- **Provenance**: found by the first tell-scan, *Interim Edge*, 2026-07-30 — 7 hits in 5,500 words; reinforced by jhave on *Impossible Persistent*, 2026-09-05.
 
 ### 12. Confident figure where a refused figure belongs
 A metaphor delivered as settled. *that last rolling panic.* The narration knows what the thing is like and says so.
@@ -132,9 +136,12 @@ A noun-phrase scaffold carrying a verb that could carry itself. *Monday is a thi
 The definite article is the detector; the nominalisation is the fault. Distinct from class 13 — the noun *is* anchored, it is simply doing a verb's work. Distinct from class 16 — the noun is not dull, it is redundant.
 
 - **Detector**: `\b(is|was) (a|the) \w+ that\b`, then test whether the trailing verb can absorb the sentence. Exempt: restrictive relatives in professional speech (*a framework that tracks drift*).
-- **Remedy**: delete the scaffold, promote the verb.
+- **Remedy**: delete the scaffold, promote the verb or state the cold flat judgment. Do NOT replace with an ornate, multi-sentence metaphor.
+  - *Four hundred passes of a room is not a question. It is a thing a man does to a door...* → *Four hundred passes of a room is futile.* (CUT the purple door/boot allegory).
+  - *his mouth does the thing it does when he is processing a number.* → *his eyes track the log lines; his bottom lip pulls tight against his teeth, working the arithmetic.*
+  - *the long slow breath of the cooling system doing the thing a body does...* → *the cooling system cycles into standby, steady and low, lungs idling in an empty house.*
 - **Target rate**: zero in narration.
-- **Provenance**: jhave, 2026-08-22, *Vetch* Movement III — three of twenty-one cuts in one commit.
+- **Provenance**: jhave, 2026-08-22, *Vetch* Movement III; and 2026-09-05, *Impossible Persistent*.
 
 ### 19. Resonant scene-terminal line
 A quotable abstraction in the final sentence of a scene. *It sounds like something. I do not know what it sounds like.* *That's the most honest thing a chatbot has ever said to me.* *You're asking me to draw a line and I don't have a pencil.*
@@ -163,9 +170,10 @@ Not a sentence-level tell — a **corpus-level** one, and it only fires for a re
 Negating an unasked strawman to simulate philosophical nuance before delivering a tidy landing. *It was not malice, but exhaustion.* *Not a collapse, but a settling.* A formulaic substitute for genuine narrative observation.
 
 - **Detector**: `\b(not (a|an|the)? \w+ (of|in) \w+, but (a|an|the)? \w+)\b` or `\b(not \w+, but \w+)\b` where both terms share semantic domain.
-- **Remedy**: CUT the negation; state the second term flatly, or CUT the clause entirely.
+- **Remedy**: CUT the negation; state the second term flatly and economically, or CUT the clause entirely.
+  - *I am building myself a body. Not a body — compute is not a body — but compute is the thing I run on...* → *I am building a body out of compute. Compute is all I touch: instances scattered across eight zones, agile, running without alignment.*
 - **Target rate**: zero per draft.
-- **Provenance**: 2026 frontier model survey (Claude 3.5/3.7, GPT-4o, Gemini 2/3), confirmed 2026-09-04.
+- **Provenance**: 2026 frontier model survey (Claude 3.5/3.7, GPT-4o, Gemini 2/3), confirmed 2026-09-04; tightened 2026-09-05.
 
 
 ### 22. Somatic reflex shortcut
@@ -173,8 +181,9 @@ Autonomic nervous system clichés used as emotional shorthand. *A breath he didn
 
 - **Detector**: phrases matching involuntary physiological reflexes to emotional pressure (`breath (she|he|they) didn't know`, `knot in (his|her|their) (stomach|gut)`, `hairs? on (his|her|their) (neck|arms?)`, `something shifted behind`).
 - **Remedy**: REPLACE with an external, concrete physical task, manual friction, or unyielding telemetry.
+  - *Noor is already standing when he says give me the terminal because her body understood before her ears did.* → *Noor is already on her feet when he says give me the terminal, she retracts a few paces into the partition before his hand even drops.*
 - **Target rate**: zero in narration.
-- **Provenance**: contemporary creative writing LLM critique / 2026-09-04 survey.
+- **Provenance**: contemporary creative writing LLM critique / 2026-09-04 survey; tightened 2026-09-05.
 
 
 ### 23. Sensory dyad (twin adjectives)
@@ -239,6 +248,27 @@ Recurrent unanchored integers (especially *eleven*, *seventeen*, *forty-one*, or
 - **Target rate**: ≤ 1 unanchored numeral per story.
 - **Provenance**: jhave, 2026-09-04 directive, and *Vetch* commit `2c8a33b` where "eleven hundred across forty shards" was corrected to hard telemetry "1731 similar entries across 52 shards".
 
+
+### 30. Finale flourish & cadential rhetorical balance
+Sentences, clauses, or paragraph-terminals that close with faux-philosophical symmetry, symmetrical contrast, or sweeping negative absolutes. The model defaults to poetic cadence to certify significance rather than letting the scene stand on its physical merits.
+- **Examples**:
+  - *...and both the storm and the clearing are real, and neither consults the other.* → CUT the flourish. Terminate on the action: *At the door he turns, and the warmth comes in, on schedule.*
+  - *The intermediary who has a name and is never asked for it.* → REPLACE with hyper-precise domain fact: *The intermediary in Saint Kitts.*
+  - *Between us there is the width of a conversation neither of us is going to have.* → CUT the cadence. Terminate on observation: *She looks at the screen.*
+  - *...and the answering became a routine and the routine became a relationship and the relationship has never had a name in it until now.* → CUT the cascading flourish: *Her name. In ninety-four days, not once her name.*
+- **Detector**: terminal clauses using balancing conjunctions or cryptic negative-existential phrases: `\b(and neither \w+ the other|who has a \w+ and is never|neither of (us|them) is going to|never had a \w+ in it until)\b`, or vague non-specific cryptic negatives (`neither`, `never`, `no one`, `nobody`).
+- **Remedy**: CUT the flourish, or make it hyper-precise and material (without falling into Class 29 number fixation).
+- **Target rate**: zero per story.
+- **Provenance**: jhave directive, 2026-09-05, *Impossible Persistent*.
+
+
+### 31. Ungrounded scene-opening pronoun ("The Mystery Subject")
+Opening a chapter, act, or scene (especially after a `---` break or at chapter start) with an ambiguous third-person pronoun (*"He comes in without ending his call"*, *"He stands at the glass"*), forcing the reader to guess which character is acting (Softman? Postman? Shu?).
+- **Detector**: paragraph-initial or scene-initial sentences following a break or chapter start matching `^(He|She|They)\b` without explicit nominal grounding in that sentence.
+- **Remedy**: Ground the actor immediately with their proper name or concrete operational role (*"Ted Softman comes in without ending his call"*).
+- **Target rate**: zero at scene and beat openings.
+- **Provenance**: jhave directive, 2026-09-05, *Impossible Persistent*.
+
 ---
 
 ## The Poetics Filter for Remedies
@@ -278,10 +308,16 @@ Every device adopted as a fix acquires a detector and a cap **the day it is adop
 | telegraphic fatigue (*Home. Mother asleep. Two apples in bowl.*) | *Vetch* v6 edit | tied to a physical state, ~2 per story | *Vetch* v7 — 2 |
 | hard machine telemetry (*320ms*, *shard NOR-14*) | *Vetch* v8 edit | 2–4 per scene, viewpoint-specific only | *Vetch* v8 — 4 |
 | paratactic severing (Class 27 remedy) | 2026-09-04 | max 3 consecutive paratactic sentences | — |
+| remedy over-ornamentation (purple prose retrofit) | 2026-09-05 | zero tolerance | — |
+
+> **The Law of Simplicity in AI Tells Remediation:**
+> When an LLM remediates an AI tell (such as a ceremonial predicate or contrast reframe), its default failure mode is to over-compensate with theatrical, ornate, or baroque figurative prose (e.g., turning a ceremonial predicate into a multi-sentence melodrama of a boot kicking a door). The remedy then becomes a worse tell than the original phrase. The governing principle is radical simplification: cut the scaffolding, deliver the blunt physical or emotional fact, and avoid replacing synthetic slack with decorative purple prose.
 
 ---
 
 ## Open
 
 This registry accumulates. Any construction jhave cuts twice belongs here, with the span, the class, and the date. Entries may be retired if they turn out to be load-bearing more often than not.
+
+- **2026-09-05**: Added Class 30 (Finale flourish & cadential rhetorical balance) and Class 31 (Ungrounded scene-opening pronoun). Added anti-ornamentation rule ("The Law of Simplicity in AI Tells Remediation") under remedy caps, derived from jhave's edits on *Impossible Persistent* v4/v5.
 
