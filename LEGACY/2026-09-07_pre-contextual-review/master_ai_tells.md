@@ -6,17 +6,17 @@ The distinction that matters: `master_phrases_to_avoid.md` catalogues *clauses t
 
 ---
 
-## How the pass runs — contextual review (2026-09-07)
+## How the pass runs
 
-**Goal: the flexibility of human literary voice, without unchosen LLM tropes.** Read the active story’s `POETICS.md` and surrounding passage before judging a construction. A regex retrieves a candidate; it cannot establish authorship or literary failure.
+Span-level only. For each hit:
 
-For each consequential finding record: quoted span · class(es) · function in context · KEEP / CHANGE / UNCERTAIN · optional alternative and what it costs. Group overlapping classes rather than counting the same ending three times. Report repetition across a passage when relevant; do not flag every occurrence mechanically.
+```
+"quoted span"  ·  CLASS  ·  remedy
+```
 
-KEEP is a complete result. Preserve useful repetition, ornament, doubt, direct emotion, abstraction, sound-play, and intentional ambiguity. Current user direction and project poetics govern. All imperative remedies and numerical rates in the historical entries below are **dated editorial examples, not global instructions or quotas**. Zero rates do not override project intent. Simplicity is an available choice, not the destination of every revision.
+The remedy is a **single word, a shorter span, or CUT**. The pass does not rewrite the passage, does not explain the prose back to the writer, and does not score. It produces a punch-list the human can accept or refuse line by line. A tell that is load-bearing stays — this is an audit, not a ban.
 
-Propose only changes motivated by this passage. A longer or more musical alternative can be appropriate. Do not invent telemetry, new facts, obligations, or motifs to make a sentence appear grounded. Religious language can belong to a secular character; an opening pronoun can delay recognition deliberately; numbers can express ritual, obsession, miscounting, or comic precision.
-
-Write findings to `critiques/tells-[draft-name].md`. The scan recommends; it does not apply edits or certify text as human. No detector score, rarity measure, or sentence-length target governs composition.
+Write findings to `critiques/tells-[draft-name].md`.
 
 ---
 
@@ -84,7 +84,7 @@ Not banned — a low rate is native to this voice. Flag only when it becomes the
 ### 11. Analogy-simile `X, the way Y`
 Explaining a thing by analogy to a universal *you* or a generic case. *…four and a diagonal, the way you count in a cell.* *Not blank the way a draft is blank.* Individually good; collectively a signature. Becomes the default figurative move and the prose starts teaching rather than showing.
 
-- **Historical threshold (advisory only)**: more than two per 2,000 words. Below that it is a habit; above it, a tell.
+- **Threshold**: more than two per 2,000 words. Below that it is a habit; above it, a tell.
 - **Remedy**: keep the two strongest, CUT the rest. Prefer stark, unadorned physical facts over decorative vehicle descriptions.
   - *hold the way a body holds its organs* → *inside an apparatus running silently behind the studs.*
   - *The way he listens to a car he is about to be told is fine* → *He listens to it until the bearing settles.* (CUT the trailing decorative simile sentence entirely).
@@ -96,7 +96,7 @@ Explaining a thing by analogy to a universal *you* or a generic case. *…four a
 A metaphor delivered as settled. *that last rolling panic.* The narration knows what the thing is like and says so.
 
 - **Remedy**: demote the figure to a rejected candidate and show the refusal — *rolling boil froth (panic? no, calm.)*
-- **Historical rate (advisory only)**: **1 per 2,000 words.** See below; this remedy is itself a documented tell above that rate.
+- **Rate cap — mandatory**: **1 per 2,000 words.** See below; this remedy is itself a documented tell above that rate.
 - **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
 
 ### 13. Unanchored noun
@@ -140,7 +140,7 @@ The definite article is the detector; the nominalisation is the fault. Distinct 
   - *Four hundred passes of a room is not a question. It is a thing a man does to a door...* → *Four hundred passes of a room is futile.* (CUT the purple door/boot allegory).
   - *his mouth does the thing it does when he is processing a number.* → *his eyes track the log lines; his bottom lip pulls tight against his teeth, working the arithmetic.*
   - *the long slow breath of the cooling system doing the thing a body does...* → *the cooling system cycles into standby, steady and low, lungs idling in an empty house.*
-- **Historical rate (advisory only)**: zero in narration.
+- **Target rate**: zero in narration.
 - **Provenance**: jhave, 2026-08-22, *Vetch* Movement III; and 2026-09-05, *Impossible Persistent*.
 
 ### 19. Resonant scene-terminal line
@@ -150,7 +150,7 @@ Related to class 8, but class 8 is local and lexical; this is **positional**. Th
 
 - **Detector**: structural, not lexical — final sentence of a `---`-delimited block or of a movement, containing no concrete noun and no action.
 - **Remedy**: end flat, or end rude. A scene that has landed does not need certifying.
-- **Historical rate (advisory only)**: zero at movement ends; under 1 / 2,000 words at scene ends.
+- **Target rate**: zero at movement ends; under 1 / 2,000 words at scene ends.
 - **Provenance**: jhave, 2026-08-22, *Vetch* Movement III — two of twenty-one cuts, both at beat-ends.
 
 
@@ -162,17 +162,17 @@ Not a sentence-level tell — a **corpus-level** one, and it only fires for a re
 - **Detector**: `python3 tools/name_census.py`. Walks every story's `drafts/`, tallies capitalised tokens seen at least once mid-sentence, reports names appearing in more than one story ranked by peak count.
 - **Known blind spot**: first-person narrators are undercounted badly — they are rarely addressed by name. Ines scored 5 in *Vetch* against 44 in *Slime* while being the lead in both. **Raw count is a floor, never a clearance.** Check the role.
 - **Remedy**: rename in live text only. `versions/` and `critiques/` are records of what was written and are not retconned.
-- **Historical rate (advisory only)**: zero for names with a role in more than one story. Incidental one-offs in both are harmless.
+- **Target rate**: zero for names with a role in more than one story. Incidental one-offs in both are harmless.
 - **Provenance**: jhave, 2026-08-22, *Vetch* v7.
 
 
 ### 21. The Contrast Reframe
 Negating an unasked strawman to simulate philosophical nuance before delivering a tidy landing. *It was not malice, but exhaustion.* *Not a collapse, but a settling.* A formulaic substitute for genuine narrative observation.
 
-- **Detector**: `\bnot\s+(?:(?:a|an|the)\s+)?[^.!?;\n]{1,100}?,\s*but\s+[^.!?;\n]+` (case-insensitive) retrieves candidates, including article-bearing phrases. It does not decide whether the contrast is empty; genuine correction or a speaker’s denial may be load-bearing.
+- **Detector**: `\b(not (a|an|the)? \w+ (of|in) \w+, but (a|an|the)? \w+)\b` or `\b(not \w+, but \w+)\b` where both terms share semantic domain.
 - **Remedy**: CUT the negation; state the second term flatly and economically, or CUT the clause entirely.
   - *I am building myself a body. Not a body — compute is not a body — but compute is the thing I run on...* → *I am building a body out of compute. Compute is all I touch: instances scattered across eight zones, agile, running without alignment.*
-- **Historical rate (advisory only)**: zero per draft.
+- **Target rate**: zero per draft.
 - **Provenance**: 2026 frontier model survey (Claude 3.5/3.7, GPT-4o, Gemini 2/3), confirmed 2026-09-04; tightened 2026-09-05.
 
 
@@ -182,7 +182,7 @@ Autonomic nervous system clichés used as emotional shorthand. *A breath he didn
 - **Detector**: phrases matching involuntary physiological reflexes to emotional pressure (`breath (she|he|they) didn't know`, `knot in (his|her|their) (stomach|gut)`, `hairs? on (his|her|their) (neck|arms?)`, `something shifted behind`).
 - **Remedy**: REPLACE with an external, concrete physical task, manual friction, or unyielding telemetry.
   - *Noor is already standing when he says give me the terminal because her body understood before her ears did.* → *Noor is already on her feet when he says give me the terminal, she retracts a few paces into the partition before his hand even drops.*
-- **Historical rate (advisory only)**: zero in narration.
+- **Target rate**: zero in narration.
 - **Provenance**: contemporary creative writing LLM critique / 2026-09-04 survey; tightened 2026-09-05.
 
 
@@ -191,7 +191,7 @@ Coordinated pairs of sensory modifiers balancing each other acoustically. *Cold,
 
 - **Detector**: coordinate adjective pairs modifying a single noun where one is literal and one is evaluative/atmospheric.
 - **Remedy**: CUT to the single stranger adjective, or convert to a bare concrete noun.
-- **Historical rate (advisory only)**: ≤ 1 per 2,000 words.
+- **Target rate**: ≤ 1 per 2,000 words.
 - **Provenance**: 2026-09-04 survey.
 
 
@@ -200,7 +200,7 @@ Sentence-initial conjunctive adverbs that insist on transition and eliminate the
 
 - **Detector**: `^(And yet|Still|Moreover|Even so|Perhaps that was why)\b` opening sentences in narration.
 - **Remedy**: CUT the conjunction. Let the sentences collide paratactically.
-- **Historical rate (advisory only)**: ≤ 1 per section.
+- **Target rate**: ≤ 1 per section.
 - **Provenance**: 2026-09-04 survey.
 
 
@@ -209,7 +209,7 @@ Softening hedges that perform hesitation and aesthetic modesty without committin
 
 - **Detector**: `\b(in some quiet way|a (kind|sort) of|almost as if|seemed (almost )?to)\b` where the narrator possesses direct focal authority.
 - **Remedy**: CUT the hedge. State the event as cold fact.
-- **Historical rate (advisory only)**: zero in austere narration.
+- **Target rate**: zero in austere narration.
 - **Provenance**: 2026-09-04 survey.
 
 
@@ -218,16 +218,16 @@ A paragraph-final sentence that steps out of the scene to summarize the thematic
 
 - **Detector**: final sentence of a prose paragraph containing no concrete noun or action, which re-interprets the preceding paragraph.
 - **Remedy**: CUT the sentence entirely. Terminate the paragraph on the preceding physical action.
-- **Historical rate (advisory only)**: zero at beat and movement ends.
+- **Target rate**: zero at beat and movement ends.
 - **Provenance**: 2026-09-04 survey.
 
 
 ### 27. Symmetrical periodic sentence
-Repeated balanced clauses whose rhythm has become automatic in context. *While* and *as* can introduce subordinate clauses; equal word counts alone do not establish syntactic symmetry or a tell. *He watched the water pool against the curb while she checked the latch on the kitchen window.*
+Compound sentences joined by *while* or *as* where both clauses have equal word counts (±2 words) and parallel grammatical weight. *He watched the water pool against the curb while she checked the latch on the kitchen window.*
 
 - **Detector**: compound clauses joined by coordinate conjunctions with matching clause lengths and rhythmic symmetry.
 - **Remedy**: SEVER with a full stop. Convert one clause into an asymmetrical or verbless fragment.
-- **Historical rate (advisory only)**: zero when recurring in adjacent sentences.
+- **Target rate**: zero when recurring in adjacent sentences.
 - **Provenance**: 2026-09-04 survey.
 
 
@@ -236,7 +236,7 @@ Sneaking church-adjacent or theological terms into secular prose to manufacture 
 
 - **Detector**: `\b(litany|baptism|catechism|sacred|reverent|confessional)\b` in non-theological story worlds.
 - **Remedy**: REPLACE with administrative, industrial, biological, or vernacular nouns.
-- **Historical rate (advisory only)**: zero unless the story world is explicitly religious.
+- **Target rate**: zero unless the story world is explicitly religious.
 - **Provenance**: jhave, *Vetch* v8 tell-scan audit (Movement III: "church" rejected).
 
 
@@ -245,7 +245,7 @@ Recurrent unanchored integers (especially *eleven*, *seventeen*, *forty-one*, or
 
 - **Detector**: recurrent arbitrary integers or measurements in narration that lack operational necessity. Distinct from genuine engineering telemetry (e.g. *Duration: 320ms*, *shard NOR-14*, *gateway 504*).
 - **Remedy**: REPLACE with true domain telemetry, or CUT the number entirely to let the bare noun stand.
-- **Historical rate (advisory only)**: ≤ 1 unanchored numeral per story.
+- **Target rate**: ≤ 1 unanchored numeral per story.
 - **Provenance**: jhave, 2026-09-04 directive, and *Vetch* commit `2c8a33b` where "eleven hundred across forty shards" was corrected to hard telemetry "1731 similar entries across 52 shards".
 
 
@@ -258,7 +258,7 @@ Sentences, clauses, or paragraph-terminals that close with faux-philosophical sy
   - *...and the answering became a routine and the routine became a relationship and the relationship has never had a name in it until now.* → CUT the cascading flourish: *Her name. In ninety-four days, not once her name.*
 - **Detector**: terminal clauses using balancing conjunctions or cryptic negative-existential phrases: `\b(and neither \w+ the other|who has a \w+ and is never|neither of (us|them) is going to|never had a \w+ in it until)\b`, or vague non-specific cryptic negatives (`neither`, `never`, `no one`, `nobody`).
 - **Remedy**: CUT the flourish, or make it hyper-precise and material (without falling into Class 29 number fixation).
-- **Historical rate (advisory only)**: zero per story.
+- **Target rate**: zero per story.
 - **Provenance**: jhave directive, 2026-09-05, *Impossible Persistent*.
 
 
@@ -266,36 +266,58 @@ Sentences, clauses, or paragraph-terminals that close with faux-philosophical sy
 Opening a chapter, act, or scene (especially after a `---` break or at chapter start) with an ambiguous third-person pronoun (*"He comes in without ending his call"*, *"He stands at the glass"*), forcing the reader to guess which character is acting (Softman? Postman? Shu?).
 - **Detector**: paragraph-initial or scene-initial sentences following a break or chapter start matching `^(He|She|They)\b` without explicit nominal grounding in that sentence.
 - **Remedy**: Ground the actor immediately with their proper name or concrete operational role (*"Ted Softman comes in without ending his call"*).
-- **Historical rate (advisory only)**: zero at scene and beat openings.
+- **Target rate**: zero at scene and beat openings.
 - **Provenance**: jhave directive, 2026-09-05, *Impossible Persistent*.
 
 ---
 
-## Poetics and bounded revision
+## The Poetics Filter for Remedies
 
-Read the project’s poetics as a description of its intended range, not a template to regularize every sentence. Retrieve only verified human edit pairs relevant to the editorial problem and compatible with that range. Preserve source IDs; exclude the evaluation story and its versions during a benchmark. If provenance or suitable examples are unavailable, say so and proceed without invented examples.
+A tell-scan that replaces machine spans with generic stock words merely substitutes one form of synthetic flatness for another. 
 
-When a retrofit is requested:
-1. Keep the original. Consult established character, obligation, and motif memory only where it matters to the passage. Ordinary attention can remain ordinary.
-2. Propose at most two alternatives for the selected span or passage. Preserve established facts and focal knowledge; label any proposed story change separately.
-3. Assess once for gains, losses, continuity, voice, rhythm, and replacement habits. KEEP or UNCERTAIN ends the pass legitimately. Do not rewrite until all flags disappear.
-4. Save alternatives as new files. Only accepted story changes enter structural memory. Do not overwrite published stories.
+**Rule:** Every proposed remedy or retrofit substitution MUST consult the active project's `POETICS.md`:
+1. Read the project's **attentional dialect** and named reference authors (e.g. Blanchot, Knausgaard, Butler, Woolf).
+2. Identify the project's explicit **refusals** (e.g. no ecclesiastical words, no domestic sentimentality, no explanatory similes).
+3. **Bend and blend** the replacement into that dialect. If the voice is austere post-industrial, replace a Class 22 somatic reflex with cold mechanical friction (*"thumbs caught in the copper turnings"*), never generic psychology (*"he was calm"*).
 
-## Remedies can become habits
+---
 
-Check whether an intervention imposes recurring fragments, forced tactile detail, technical numbers, false uncertainty, compulsory motifs, or decorative surprise. These are contextual questions, not a new blacklist. Earlier project-specific caps and the September 5 “Law of Simplicity” are preserved in `LEGACY/2026-09-07_pre-contextual-review/`; they no longer govern every project.
+## The Arc-Perturbation Closed Loop
 
-## Evidence limits
+Beyond local span-level excision, the harness supports **Arc-Perturbation**: an active revision pass that rewrites flat, machine-smoothed sentences by disturbing them with structural memory:
 
-The August corpus contains 1,234 edits across nine stories; its reported 9% coverage concerns 689 pairs with nonempty text on both sides. The remainder is unexplained by those measures, not a proven taxonomy. Sentence-length variation and lexical rarity must not become human-voice targets. Mechanistic claims about “low-loss” word choices in older entries are unverified hypotheses. See `plans/2026-09-07_ai-tells-reassessment.md` for corrected citations and the proposed evaluation.
+1. **Query Structural Memory:** Inspect `structural/character-interiority.md` (unresolved shame, avoidance, hidden desire), `structural/obligations.md` (unanswered promises, planted debts), and `structural/motifs.md` (accumulating sensory pressures).
+2. **Perturb the Sentence:** Splice an active structural pressure into the sentence, replacing the machine's generic filler with an unresolved narrative debt.
+3. **Closed-Loop Tell Audit:** Every perturbed rewrite MUST immediately be audited back against this registry in a closed loop. If the perturbation inadvertently introduces melodrama, an unanchored symbol (Class 13), a sensory dyad (Class 23), or an unearned coda (Class 26), it is rejected and re-cast. The perturbation only commits once cleared.
+
+---
+
+## Our own remedies are the next tells
+
+Every device adopted as a fix acquires a detector and a cap **the day it is adopted**. A remedy applied uniformly is a fingerprint. The literature is explicit here: LLMs already produce *performed* hesitancy at roughly twice the human rate, which is exactly what class 12's parenthetical refusal is made of.
+
+| device | source | cap | measured, *Interim Edge* v4 |
+|---|---|---|---|
+| parenthetical self-correction | class 12 | 1 / 2,000 words | 1 question-form, 1 aside — at cap |
+| noun-collision (*Sleep freight heat*) | §1 edit | 3 / 2,000 | ~2 |
+| subject-dropped verb chain | §1 edit | scene-initial and procedural only | §1, §4 queue, §6 close |
+| single-word fragment run | §1 edit | not more than 4 consecutive | — |
+| colon-apposition (*His own hands: chocolate*) | §1 edit | 2 per section | — |
+| hedge (*perhaps / seems / might / (somehow)*) | *Vetch* v5 edit | 1 / 400 words | *Vetch* v6 — ~1 / 500 |
+| deflation (*Banal.* / *Ok. So what?* / *Probably just a bug.*) | *Vetch* v6 edit | 1 per scene, never consecutive beats | *Vetch* v7 — 10 across 9 movements |
+| telegraphic fatigue (*Home. Mother asleep. Two apples in bowl.*) | *Vetch* v6 edit | tied to a physical state, ~2 per story | *Vetch* v7 — 2 |
+| hard machine telemetry (*320ms*, *shard NOR-14*) | *Vetch* v8 edit | 2–4 per scene, viewpoint-specific only | *Vetch* v8 — 4 |
+| paratactic severing (Class 27 remedy) | 2026-09-04 | max 3 consecutive paratactic sentences | — |
+| remedy over-ornamentation (purple prose retrofit) | 2026-09-05 | zero tolerance | — |
+
+> **The Law of Simplicity in AI Tells Remediation:**
+> When an LLM remediates an AI tell (such as a ceremonial predicate or contrast reframe), its default failure mode is to over-compensate with theatrical, ornate, or baroque figurative prose (e.g., turning a ceremonial predicate into a multi-sentence melodrama of a boot kicking a door). The remedy then becomes a worse tell than the original phrase. The governing principle is radical simplification: cut the scaffolding, deliver the blunt physical or emotional fact, and avoid replacing synthetic slack with decorative purple prose.
 
 ---
 
 ## Open
 
-This registry accumulates. Repeated human edits are evidence to review, with source spans, project scope, counterexamples, and dates; they do not automatically become universal classes. Entries may be retired if they turn out to be load-bearing more often than not.
+This registry accumulates. Any construction jhave cuts twice belongs here, with the span, the class, and the date. Entries may be retired if they turn out to be load-bearing more often than not.
 
 - **2026-09-05**: Added Class 30 (Finale flourish & cadential rhetorical balance) and Class 31 (Ungrounded scene-opening pronoun). Added anti-ornamentation rule ("The Law of Simplicity in AI Tells Remediation") under remedy caps, derived from jhave's edits on *Impossible Persistent* v4/v5.
 
-
-- **2026-09-07**: Contextual judgments replace mandatory caps and universal simplicity; bounded assessment replaces recursive clearance. Historical snapshots preserved. Codex (GPT-6), authorized by jhave.

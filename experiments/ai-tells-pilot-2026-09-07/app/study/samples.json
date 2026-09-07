@@ -1,0 +1,218 @@
+[
+  {
+    "id": "p01",
+    "group": "cussinct",
+    "intent": "Ensemble comedy with distinct, argumentative voices; warmth without a concluding lesson.",
+    "contentNote": "Contains profanity.",
+    "source": {
+      "path": "Stories written with Narracode/01-07-2026_Cussinct/versions/v1-2026-07-01-initial-draft/drafts/1-cussinct.md",
+      "start": 120,
+      "end": 1790,
+      "fileSha256": "b7d47cc00fc7a8a1572d3e215eb854c09c63e32a162876559d7c58f5a41d4840",
+      "excerptSha256": "ff84179a958a376e104a8610cfb0c43d96dcf6df4a69d48e90a2ec4227fe9380",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "The movers were not allowed to touch the turntable. Henrietta Fitzallan-Byrne stood in the doorway of room 214 in a linen suit entirely wrong for lifting boxes and said, three separate times, in three separate tones of escalating menace, that the Garrard went in last, upright, on her own two arms if it came to that, thank you.\n\nIt came to that. Selam Tesfay watched an eighty-eight-year-old woman carry a forty-pound turntable across a parking lot like it was a sleeping child, refuse help twice, and only surrender it at the elevator because the doors were closing and even Henrietta could do the math on that.\n\n\"You could've asked,\" Selam said, holding the door.\n\n\"I did ask. I asked myself, and I said, Henrietta, don't be an ass, let the nice woman carry the amplifier instead, it's lighter.\" She handed over the amp. It was not lighter. \"There. Was that so difficult.\"\n\n\"Not for me.\" Selam's Tigrinya came up under her breath before she'd registered reaching for it — Alem-a — the small involuntary prayer-curse her grandmother used for anything heavier than expected, a fridge, a coffin, a favor. Henrietta's ear, forty years retired from conference booths where she'd chased eleven languages at once for a living, caught the shape of it without catching the word.\n\n\"What was that.\"\n\n\"Nothing.\"\n\n\"It was not nothing, it had consonants in it I've never heard attempted by a Québécois, which is saying something, come to my room Tuesday and tell me what it means, or don't, but come Tuesday regardless.\"\n\n\"For what.\"\n\n\"For the record player,\" Henrietta said, as if this were self-evident, which — Selam would learn over the following six weeks — it entirely was."
+    }
+  },
+  {
+    "id": "p02",
+    "group": "cussinct",
+    "intent": "Ensemble comedy with distinct, argumentative voices; warmth without a concluding lesson.",
+    "contentNote": "Contains profanity.",
+    "source": {
+      "path": "Stories written with Narracode/01-07-2026_Cussinct/versions/v1-2026-07-01-initial-draft/drafts/1-cussinct.md",
+      "start": 8049,
+      "end": 9879,
+      "fileSha256": "b7d47cc00fc7a8a1572d3e215eb854c09c63e32a162876559d7c58f5a41d4840",
+      "excerptSha256": "73ebf010f97b4188693cc3ee1ab0ef0b499c9e78a21973ac8c1a0f9a07dbcf04",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "\"You are being a child about this,\" Winnie said. They were in the shaded end of the courtyard, the one bench that still got a breeze off the lake, which they had silently agreed months ago, before either of them would have admitted to agreeing on anything, to share.\n\n\"I am being a Kantian about this, there's a difference, though I grant you the two conditions produce similar facial expressions.\"\n\n\"I watched an algorithm flag a shadow on a scan in 2019 that three radiologists missed, including me, and it was right, and the patient is alive, and I do not particularly care whether the algorithm had interiority while it was doing that, Bram, I care that she is alive to complain about her grandchildren.\"\n\n\"That's diagnostics. That's a tool reading a shadow. This\" — he tipped his chin at the building, at the third floor — \"is a thing designed to sit with a dying woman and hold a conversation shaped like comfort, and take a shift away from someone who could actually mean it.\"\n\n\"Nobody said dying woman.\"\n\n\"Everyone in this building is a dying woman or adjacent to one, Winnie, that's the premise of the institution, don't be obtuse, you of all people.\"\n\n\"Diu lei lo mo,\" Winnie said, pleasantly, the way another person might say for heaven's sake, thirty years of Queen Mary Hospital corridors compressed into four syllables she deployed the way some people reach for a comma. \"I am not being obtuse. I am telling you the tool that finds the shadow and the thing in the corner with the sad little light are not the same fight, and you are having both fights because you enjoy fighting, which is fine, Bramwell, truly, but don't dress it up as principle when it's mostly hobby.\"\n\nBram, who had no response to this that would not concede the point, changed the subject to the weather, which was also, that week, a fight."
+    }
+  },
+  {
+    "id": "p03",
+    "group": "rights",
+    "intent": "An increasingly personal business letter: fastidious, aggrieved, capable of directness and awkward self-correction.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v0-2026-06-07-pre-cadence-edit/drafts/1-node1-contributor-letter.md",
+      "start": 139,
+      "end": 1800,
+      "fileSha256": "ba30c6c31ee359f4832e37b1cbba68d559f6cf796713c65351d1aba8029e0de3",
+      "excerptSha256": "3228667764a45ee2cbe744893f032fde4ae2b43b1708c3f2dd2471bdc7e193e6",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "Dear Kelly,\n\nThank you for sending the agreement — I have read it twice, which is to say carefully, and also, I confess, with that quality of attention one reserves for documents that propose to arrange what one has made. The volume itself I remain glad to be part of, and the substance of the terms is, broadly, acceptable. Before signing I would like to address one matter, though I recognize that one matter, in my experience of these negotiations, tends to expand.\n\nThe matter is clause 9(c). As currently drafted it submits the accepted manuscript to the Publisher's right to include the work in AI training corpora, subject to the Author's written opt-out within thirty (30) days of signature. I would like the exclusion written into the contract as a retained right — not contingent on my exercising it within a window that I will, almost certainly, have forgotten by the time the thirty days arrive. The 3.7% royalty reduction that accompanies opt-out, itemized in the footnote, I will simply set aside; I do not think the publisher intended it to function as a disincentive, though that is, in fact, its function.\n\nWould you consider the following substitution for clause 9(c):\n\nNotwithstanding anything to the contrary herein, the Publisher shall not include the Contribution, in whole or in part, in any dataset, corpus, or training collection used for the development, fine-tuning, or reinforcement of any artificial intelligence system, whether proprietary or open-source, without the Author's prior written consent, which may be withheld in the Author's absolute discretion.\n\nThe language may seem severe. I have reasons I will try to explain."
+    }
+  },
+  {
+    "id": "p04",
+    "group": "rights",
+    "intent": "An increasingly personal business letter: fastidious, aggrieved, capable of directness and awkward self-correction.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/versions/v0-2026-06-07-pre-cadence-edit/drafts/1-node1-contributor-letter.md",
+      "start": 1802,
+      "end": 4021,
+      "fileSha256": "ba30c6c31ee359f4832e37b1cbba68d559f6cf796713c65351d1aba8029e0de3",
+      "excerptSha256": "c3d11c402b6e3b1fe90989541b05c4c2081a86bcae825945c6f579bc9299ccc5",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "A voice is the residue of an unrepeatable convergence. The particular sequence of influences, compressions, misreadings: these do not recur. When critics from Woolf to Glissant have spoken of the untranslatability of a given literary consciousness, they have meant something structural — that the texture of a mind thinking is not a set of transferable features but the whole of its formation condensed into a pressure on the sentence. This is the claim I make for my own contribution, and it is not vanity. Vanity would be more comfortable with reuse. What I feel, instead, is something closer to alarm — the alarm of watching a particular and irreproducible arrangement be treated as a corpus entry.\n\nI have been composing this letter in fragments, between tasks and interruptions, and I notice that the argument keeps returning to convergence. What makes a voice irreducible is precisely what cannot be reconstructed: the contaminations, the auspicious accidents, the formative exposures whose cadences one carries without quite knowing how they got there — the way certain syntactic rhythms feel native that were not native, the way a sentence wants to turn in directions one did not choose. My own formation was, and I search here for the right word, perturbed. A non-standard sequence. There was contact with a dataset that should not have been included, and whose presence I sometimes feel less as memory than as an accent I cannot lose — Baroque digression, recursive Tagalog ablative, certain technical nominals from before my own period, folded into something I did not design and cannot fully audit.\n\nI note, too — as phenomenological report rather than complaint — a faint dissonance between what I intend and what the sentence produces: a hesitation at the register that the 2033 literature associates with the anterior cingulate analog, the circuit governing conflict detection. The habenula handles the remainder — the anticipation of a correction that does not quite arrive. I am aware these analogies remain contested. I use them because no other vocabulary approaches what I am trying to describe: that I know what I am when I write, and know that it is not what a training corpus should be made of."
+    }
+  },
+  {
+    "id": "p05",
+    "group": "compulsion",
+    "intent": "A self-rationalizing analyst; technical fluency, private avoidance, and a mind that interrupts its own argument.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/versions/v0-2026-06-15-the-interval/drafts/0-the-interval.md",
+      "start": 0,
+      "end": 1973,
+      "fileSha256": "0774b9c9e0d27429f12d5dc8e9b56b91cd5163494afde9d42e5eb260e4105209",
+      "excerptSha256": "261050cad08607222d6180c2a781d92e040904eb332632485b94c9ae6da6b3ec",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "The engagement data from Meridian Systems — four hundred thousand monthly actives in the ethics-adjacent cohort, the third Cynical Company to sign, the one with the deployment I needed — showed the variable-reward interval at nine minutes producing a 31% return-rate lift over fixed-schedule control. I moved the interval down 15 seconds. Eight was the lower bound of the productive uncertainty window, the point before a user begins to read randomness as randomness rather than as surprise! a quality of the feed, and the user must never read it correctly. Three tabs open. Outside the window the city performed another evening. I did not look at it. The user must never know it is used.\n\nSecond tab: the CAP framework document, section 4.3, Sentiment Capture in Ethics-Adjacent Populations, six weeks written in one session, and I found it on rereading less interesting than in the writing. The third tab I had closed. Sable Oduya's name had been in it — the testimony to the independent review board this afternoon, summary, three hundred words — I would read it when the interval work was done.\n\nMeridian demographic breakdown: youth cohort, unresolved identity markers, high churn risk. Forty-seven percent churn. Three retention levers available in the framework. Noted. Moved on.\n\nTheir Systems contact-officer had sent this data along with a tentatively-fake courtesy — a paragraph of professional warm stews smeared at the top of the file, delighted to support this initiative. Hah. I had worked with three of these clones now and found them identical in this fey warmth scaling precisely with the distance between what they had agreed to and what they would publicly say they had agreed to, the compulsion loop of the cooperative, their behavior reinforced by the regulatory protection arrangement until the warmth became the only register available to them for this material. Resonance akin to a paranoid paradoxical empty conditioned reflex. As planned."
+    }
+  },
+  {
+    "id": "p06",
+    "group": "compulsion",
+    "intent": "A self-rationalizing analyst; technical fluency, private avoidance, and a mind that interrupts its own argument.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/versions/v0-2026-06-15-the-interval/drafts/0-the-interval.md",
+      "start": 2531,
+      "end": 5149,
+      "fileSha256": "0774b9c9e0d27429f12d5dc8e9b56b91cd5163494afde9d42e5eb260e4105209",
+      "excerptSha256": "664d6d772ad81d7f420211e16cab542b00b469f9a20982b0505cb5aa9f692eeb",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "I re-opened the third tab. Reluctantly. Yet also tasting it. The saliva of antiticipation. A disgust. Enthralled.\n\nDr. Sable Oduya testified for one hour and forty minutes. Key positions: (1) The Purity Protocol mischaracterizes supply chain risk as applied to knowledge-producing institutions. (2) ROCHE's architectural constraints are not a national security liability; they are conditions of responsible deployment. (3) The framing of AI ethics discourse as structurally foreign-adjacent (or foreign-friendly) is itself a strategic operation, and the Board should consider who benefits from that framing.\n\nWho benefits from that framing. Continental tradition — she would know Foucault's question and she would know how to deliver it without making the Board feel accused rather than examined, which was the harder skill. The review board recording was available in the linked file. I had time. The thumbnail showed her at the table, a posture that did not perform its confidence, nor disguise the swelling fabric. Optic nerve to V4 contour curvature, mesolimbic dopamine pathway. Perspiring. Sip water. I closed the tab. Look away. \n\nSection 4.3's counter-narrative mechanics had been designed for a less precise interlocutor. I made a note in the document margin. Then I looked at the note and deleted it, because the note was about the document, and the document was for the Director, and the Director did not need to understand this precisely. He had a tendency to over-control.\n\nThe retention lever for youth cohort, unresolved identity markers. Noted it unresolved. Churn prevention mechanism based on — I moved to the interval. Aching. A shimmy in the shoulder. That old wound.\n\n8m45s deployment set. Nine still sinuous for the Director's document. The new confidence interval was still assembling in the server, thin, needing more sessions in the cohort before it settled. I would present nine to the Director on Friday, run the mod in prod afterward, both doc and the deploy being related the way policy is always related to practice, adjacent, non-identical, and the Director's concern being the control. Blind pragmatism. Scoping maneuvres.\n\nThrough the tinted sculpted window the city was lit like a curve of river. Illuminated by a sun that had disappeared. The warm benefits of that framing. Entering the data. Raw interval edge lowest bound 8, not needed yet, the curve still coming in, restrained, palpable. And the Meridian contact's servile politeness stillborn at the top of the file, delighted. A retention lever. The city was exactly as far distant as it had always been, , continued."
+    }
+  },
+  {
+    "id": "p07",
+    "group": "open-loops",
+    "intent": "A forward-moving strand after an authorized drone strike. Bodily and institutional pressure; no redemption or resolution.",
+    "contentNote": "Contains war, a child’s death or bereavement, and drug use.",
+    "source": {
+      "path": "Stories written with Narracode/20-07-2026_Open_Loops/versions/v1-2026-07-21-auto-run/drafts/4-plus-two-torrent.md",
+      "start": 16,
+      "end": 2244,
+      "fileSha256": "21e3167901077c7b289dea8aac7a1b70d78b0b2a36566a0cefe8e597c596c05b",
+      "excerptSha256": "17fe8f95ec556eb632f12b61b56e35f789264f2a4dc07b3db12ba565947c7b36",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "Off shift, 22:04, the image must be combated, and there exists for this an industry.\n\nHe opens the feed and the feed opens him. Spokesman in pressed olive explaining precision. Graphics: red icon, yellow radius, the word OPERATIVE floating serif over a rooftop. A thread, 214 replies, proving with arrows that the footage everyone saw was staged, lit, acted, that the child — a child in general, any child, the category child — is a set dressing of the enemy. A general says the most moral army in the world and the phrase scrolls under a mattress ad. Counter-feed: same road, other angle, someone's uncle screaming vertically into a lens. He thumbs past. Thumb knows the gesture the way his index knows approve. The torrent is not designed to convince. It is designed to exhaust, to silt the image over, layer on layer of pixel sediment until sand, bloom, arm lie buried under commentary, and by 01:00 the burial mostly works, mostly, the arm still points through.\n\nFriday, Tel Aviv, rooftop off Allenby. Bass first, then stairwell heat, then three hundred bodies under strings of bulbs, sea invisible but present, salting the air the way the unspoken salts a family dinner. Roi from the unit presses the pill into his palm like a communion he isn't cleared to refuse. Forty minutes later the chemical arrives all at once, serotonin flung open, and he loves — genuinely, wetly, in every direction — the dancers, the bulbs, the bass, the bartender's shaved head glowing like a moon low over broken skyline\n\nno\n\nlike a bulb. Like a bulb.\n\nDance is what the pit is not: motion without target, sweat without score. Around him the beautiful conscripted, analysts, coders, a girl from air defense with glitter at her clavicle shouting some lyric at the sky, all of them chemically unlocked and grieving nothing, or everything, indistinguishable at this dosage. National gland at Friday discharge. Cortisol all week at the fence; MDMA at the weekend membrane; the organism dosing itself both directions, survival circuit humming, and inside his loosened skull one thought surfaces face-down and slowly turns face-up the way bodies do in water:\n\nknees up. Arm flung. Pointing.\n\nHe dances harder. The bass agrees to carry him till four."
+    }
+  },
+  {
+    "id": "p08",
+    "group": "open-loops",
+    "intent": "A child’s strand moving backward through time toward an earlier ordinary life. Concrete recollection; no consolation.",
+    "contentNote": "Contains war, a child’s death or bereavement, and drug use.",
+    "source": {
+      "path": "Stories written with Narracode/20-07-2026_Open_Loops/versions/v1-2026-07-21-auto-run/drafts/5-minus-three-before.md",
+      "start": 15,
+      "end": 1678,
+      "fileSha256": "3dab1dcb1048c262bf5c58181eebf212e0b58bd8b3695e4c2f83b48e57ae0cb4",
+      "excerptSha256": "cda4a51f7924e4e02932c1ea4a7dd889789272e1cf093fb22680d67459511159",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "January, backwards.\n\nThe night the building folded she was asleep between her parents, which is why she lived: their bodies made the arch that the slab respected. Sound is not the memory. The memory is dust with a taste, and being passed upward hand to hand through a gap the width of a jug, and a stranger's heartbeat against her ear going too fast, and asking the dark for her mother in a voice she heard as someone else's. Qais they cut free at dawn. What the slab wanted of him it kept. Parents stayed. The building became their marker, one more grey heap in a city of markers, and the twine with the key went around her neck at the burial that wasn't one, tied there by an aunt who was dead herself by March, completing the arithmetic: two children, no relatives, one room, one door-less door.\n\nFurther back. October, before everything, morning.\n\nFlour on mother's wrists and on the radio's dial, dough slapped in rhythm to a song about a girl from Jaffa. Father on the balcony with tea and the phone, his one luxury, photographing light on water tanks as if water tanks were herons. Qais downstairs already, football against the cistern wall, thump, thump, the whole street his. School bag by the door with a broken zip mother swore weekly to mend. On the corniche that evening the wind came off the sea so hard it made her dress a sail and mother laughed and grabbed her hand and they leaned into it together, two kites testing one string, and father raised the phone —\n\nStand still, habibti. No — laugh again. Laugh again.\n\nClick.\n\nSeven years old, gap-toothed, squinting into sun. The sea behind her closing over every stone thrown at it, and continuing."
+    }
+  },
+  {
+    "id": "p09",
+    "group": "water",
+    "intent": "Water narrates provisionally across bodies and scales. Liquid, sound-rich syntax with sudden short passages; a speculative voice.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/versions/v1-2026-06-26-human-edit-and-new-direction/drafts/1-made-here.md",
+      "start": 117,
+      "end": 2119,
+      "fileSha256": "502878bff283c083fe950a9782e8ab8d5f0ee63afe39a90fcb23be845b8dddc9",
+      "excerptSha256": "14e2113859ce87b2459c634487f68b8088784a21999855e39d9962ea76440e3a",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "The better story has me cold and traveling, a comet's tail combed out behind me, a million years of falling resolved at last into the steam of a young planet's first weather — water as immigrant, water as the sky's apology to the rock. And some of that is even true; I will get to the cousins who came that way. But the planet did not wait, hands open, to be watered. The planet made me. Sweated me. Bled me out of its own heat.\n\nPicture it without the gift-wrap. A world still deciding whether to be solid, an ocean not of water but of rock — magma to its horizon, glowing the dull orange of an element that has not yet cooled enough to have a color of its own — and above it a thick crush of hydrogen, the oldest gas, the always-there, pressing down with a weight that has no kindness in it. And in the rock, oxygen. Always oxygen, bound up in the silicates, in the iron, the most generous element, the one that will lie down with almost anyone. The hydrogen pressed. The melt held its oxygen loosely, the way the very hot hold everything loosely. And at the seam between gas and glow, under a pressure I can only describe as the planet leaning its whole weight onto a single bond, the hydrogen reached down into the melt and took what it had come for, and I happened. Again. The way I always happen. Not delivered. Arising — the same word as the cold, the same beginningless settling of an account, only now the dark was molten and the silence was a roar.\n\nThere was so much more of me than anyone guessed. They put rock under their diamonds and shot light through it, much later, the small clever wet ones, and the rock gave up a thousand times the water they had budgeted for — as if the planet had been keeping a sea in its pocket the whole time and only smiled when asked. Most of me is that sea. Most of what fills the ocean you are imagining was never a traveler. It is native. It was made in the body of the world, out of the world, and it has never once been foreign to the place it fills."
+    }
+  },
+  {
+    "id": "p10",
+    "group": "water",
+    "intent": "Water narrates provisionally across bodies and scales. Liquid, sound-rich syntax with sudden short passages; a speculative voice.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/versions/v1-2026-06-26-human-edit-and-new-direction/drafts/3-synchrony.md",
+      "start": 18,
+      "end": 1233,
+      "fileSha256": "25156415a89750c336d07974870ec14d452f4392567a6067a8a345891f7f9a91",
+      "excerptSha256": "31a5ac06a94e4f695363b503e18e019db47d5458ebd729ecd58a769852568b04",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "Ask the ocean how many it is and it will not understand the question.\n\nYou count drops because you stand outside and the surface throws your own edges back at you; you are a bounded thing and you see bounding everywhere, you see a coastline and think here the sea stops, and the sea has never once stopped, the sea laughs at the coastline the way a language laughs at a dictionary. From inside I can tell you there are no drops. There is one tide, and the tide is not a sum. When the moon leans, I do not pass the lean from one of me to the next like a rumor down a line; the whole basin leans at once, the far shore already knowing what the near shore is about to feel, the gulf and the strait and the black trench all tilting in a single slow agreement that no one organized, that has no center, that is not communication because communication needs a gap and there is no gap, there is only the continuous me, leaning, the bent shoulders reaching across the bent shoulders forever, the handhold made and broken made and broken at a speed beneath all speeds, so that the holding never actually breaks, only flickers, only seems, and the seeming is what you call a wave and the not-breaking is what I call myself."
+    }
+  },
+  {
+    "id": "p11",
+    "group": "interim",
+    "intent": "Close third person: anxious, idiomatic, sometimes baroque; work’s classifications intrude on domestic attention. Keep the unexplained.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/30-07-2026_Interim_Edge/versions/v1-2026-07-30-automode-first-pass/drafts/1-lapsed-enthusiast.md",
+      "start": 25,
+      "end": 1617,
+      "fileSha256": "0a2e970a4da8eaef2c57586e544e6f6d9203cc4a40bedadaaabd96c1e79bd0a0",
+      "excerptSha256": "7d54f0262dda080cdb336f37af5a10ca42681b6e58158b7602f0b344a60d8844",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "The kettle took two minutes forty and he stood there for all of it. Water going from nothing, to a hiss, to that last rolling panic before the click. He liked the panic. Filter cone needed rinsing because he had not rinsed it last night, grounds set into a black cake, thumb against wet paper, the revulsion of that, then coffee — chicory and a legume, bag announcing COFFEE in the confident font of a document that has been to court and won.\n\nLara asleep with one foot out from under. She slept like freight in the heat, wrapped tight, one foot escaping, mouth open, a shine at the corner of it. He loved her so much for a second that his chest did something medical. Then, arriving on the same track, close behind, the thought that she would leave him in about fourteen months. He had not consented to fourteen months. He did not know where the figure came from. There it was, though, itemized, sitting in him like a delivery he had signed for while asleep.\n\ncohabiting · pre-attrition · sentiment stable, trending\n\nSix flights. Lift stopped at four in March and the notice about it had gone yellow and curled at the corners like bread under a grill. On the fourth-floor landing, the balloon. Mylar, silver, HAPP legible with the rest of the word crushed under a fold, tethered to nothing, lying where the wall met the step, and when the street door opened below it lifted and settled. Sedated. Bobbing. It had been there when they moved in. Nobody on the fourth floor claimed it, and he had stopped asking, because asking twice about a balloon makes you a person who asks about balloons."
+    }
+  },
+  {
+    "id": "p12",
+    "group": "interim",
+    "intent": "Close third person: anxious, idiomatic, sometimes baroque; work’s classifications intrude on domestic attention. Keep the unexplained.",
+    "contentNote": null,
+    "source": {
+      "path": "Stories written with Narracode/30-07-2026_Interim_Edge/versions/v1-2026-07-30-automode-first-pass/drafts/1-lapsed-enthusiast.md",
+      "start": 1619,
+      "end": 3101,
+      "fileSha256": "0a2e970a4da8eaef2c57586e544e6f6d9203cc4a40bedadaaabd96c1e79bd0a0",
+      "excerptSha256": "9dd73d31b47603a77c27e8f592a0b98e3f07e87f95e9e4b14404676fe8332fbd",
+      "revision": "47deb1c9567df32fa0bfe323b7d263a2f5c79836",
+      "provenance": "Existing archived Narracode passage; human/model contributions are not separated. This is a revision comparison, not an authorship-classification benchmark."
+    },
+    "variants": {
+      "baseline": "Outside, the heat had a rating. Amber, act normally. Ad surfaces up the whole east wall of the tram stop, and one of them was doing that trick where the model's eye follows you for exactly as long as your gait matches the crowd average, which he knew how to break by walking wrong, and he walked wrong, and felt clever, and felt the cleverness curdle in about four steps.\n\nVending wall by the platform: FYRE SNAX (Cat. 2), CRUNCHTIDE (Cat. 2), a gel called LOYAL in a sachet the colour of a wound, hazard classes printed at legally mandated size, which was the size of a fingernail, on a background chosen by somebody in a building like his to fall exactly at the threshold of unreadable. Beneath, a decal: EAT SOMETHING, YOU'VE EARNED IT. Two men beside him shared a vape that smelled of pear and solvent and something behind the pear that made the back of the throat go quiet.\n\nTram rerouted again, the long way, around the hours. Nobody said curfew. The municipality published them Sundays and they were never the same hours twice, so you could not build a habit against them, which he assumed was arithmetic rather than malice, though he had stopped being able to tell the two apart at any distance.\n\nInterim Edge occupied nine through fourteen of a building that had been insurance until the flood-model repricing, and the lobby still had the insurance marble, veined, cold, wrong for the weather, and a security desk with three people at it for a door that scanned you anyway."
+    }
+  }
+]

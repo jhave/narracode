@@ -127,8 +127,8 @@ When drafting in the texture of multiple uploads, do not imitate any one. The me
 *Critique mode* reads a specified draft against `POETICS.md` commitments. Writes to `critiques/critique-[draft-name].md`. Covers what works, where the prose defaults to genre habit or LLM tells, where it loses the dialect. Recommends; does not revise.
 *Drift mode* reads the cumulative draft material and asks what the piece is becoming. Is it different from what `POETICS.md` declared? Is the difference fertile or genre regression? Writes to `critiques/drift-[timestamp].md`. 
 *Check mode* runs a succinct post-draft protocol and writes to `critiques/check-[draft-name].md`. Keep it short: continuity, obligations, motifs, scene function, voice/default, and reader-state. Findings only. No scoring, no rewrite, no long essay.
-*Tell-scan mode* reads the draft against all current entries in `master_ai_tells.md` and the active `POETICS.md`. Write quoted span · class(es) · function in context · KEEP / CHANGE / UNCERTAIN · optional alternative and cost to `critiques/tells-[draft-name].md`. A construction is not a fault merely because it matches a pattern. Preserve intentional uncertainty, repetition, ornament, directness, and ambiguity. Group overlapping diagnoses. Recommend; do not edit or score authorship.
-*Perturbation mode (Retrofit mode)* preserves the original and offers at most two motivated alternatives for a selected passage. Consult structural memory where relevant without forcing hidden shame, debts, or motifs into every sentence. Assess alternatives once for gains, losses, continuity, and voice; retain the original or leave an uncertainty when appropriate. Never iterate toward zero tells or a detector score. Write alternatives to new `drafts/[N]-[short-name]-perturbed.md` files; record proposed new story facts separately.
+*Tell-scan mode* reads a draft line by line against `master_ai_tells.md` (Classes 1–29) and writes to `critiques/tells-[draft-name].md`. Span-level only: quote the span, name the class, propose a remedy that is **one word, a shorter span, or CUT**. Consult `POETICS.md` to bend-blend and subtly shift remedies into the active project's attentional dialect. Do not rewrite the passage. Do not explain the prose back to the writer. Do not score. A tell that is load-bearing stays — this is an audit, not a ban. Where a proposed cut has consequences elsewhere in the draft (a repeated object, a frame that returns), say so on the same line; do not silently follow the cut through the text.
+*Perturbation mode (Retrofit mode)* breaks statistical conformity and synthetic smoothness by rewriting flagged sentences with structural pressure. Interrogates `structural/character-interiority.md`, `structural/obligations.md`, and `structural/motifs.md` to perturb the sentence with private character contradictions, unpaid obligations, or transformed motifs. **Closed-loop tell audit:** every perturbed rewrite MUST immediately be audited back against `master_ai_tells.md` in a closed loop before committing, ensuring the perturbation introduces no new tells (unanchored symbols, melodrama, dyads, or unearned codas). Writes to `drafts/[N]-[short-name]-perturbed.md`.
 
 ## Hooks
 
@@ -150,7 +150,7 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
   1. Run the Structural agent — read all current drafts; update every file in `structural/`.
   2. Read `POETICS.md`, all `annotations/`, the current structural state, the latest draft, and the prompter's current direction.
   3. Internally infer the next scene's likely task: what obligation, character-arc pressure, cathartic inflection point, unresolved event, motif, reader expectation, or plausible expectation-defiance might matter now. Do not present these options unless the prompter asks.
-  4. Retrieve a small set of verified, relevant human `before → after` pairs from `corpus/all_pairs.jsonl` (or provenance-checked story versions), compatible with this project’s poetics. Record source IDs. Exclude the evaluation story and all its versions during benchmarks. If no suitable verified examples exist, proceed without retrieval and state that limitation; never invent pairs. The dated September 4 ZIP does not bundle this corpus.
+  4. Pull 6–8 verified `before → after` human edit pairs from `corpus/edit_pairs.jsonl` (or recent story versions) to anchor the generative pass in human textural displacement rather than abstract instructions.
 - **Confirmation.** Auto.
 
 ### `on_draft`
@@ -177,10 +177,10 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
 - **Trigger.** A Compositional pass has written a new draft, or the prompter says "scan for tells" / "check for AI tells" / names a span as a tell.
 - **Action.**
   1. Create `critiques/` if needed.
-  2. Run Reflexive Agent Tell-scan mode against `master_ai_tells.md` (all current registry entries), applying the Poetics Filter from `POETICS.md` to condition all remedies.
-  3. Write `critiques/tells-[draft-name].md` — a contextual punch-list: quoted span · class(es) · function · KEEP / CHANGE / UNCERTAIN · optional alternative and cost.
+  2. Run Reflexive Agent Tell-scan mode against `master_ai_tells.md` (Classes 1–29), applying the Poetics Filter from `POETICS.md` to condition all remedies.
+  3. Write `critiques/tells-[draft-name].md` — a punch-list, one line per hit: quoted span · class · remedy.
   4. Do not apply the remedies. The prompter accepts or refuses line by line.
-  5. If the prompter names a construction the registry does not hold, record the observation with its source, project scope, and date; check existing classes and counterexamples before recommending a new entry. A scan with no needed changes is a valid result.
+  5. If the prompter names a construction the registry does not hold, **append it to `master_ai_tells.md`** with the span, the class name, and the date. The registry is the durable artefact; a scan that finds only known classes has learned nothing.
 - **Confirmation.** Auto for the scan. **Asks** before editing the draft.
 - **Note.** Runs alongside `post_draft_check`, not instead of it. Check mode asks whether the scene works; tell-scan asks whether the sentences read as machine-made. Different failures.
 
@@ -188,8 +188,8 @@ The negative hooks — `post_draft`, `post_critique`, `post_drift`, `post_struct
 - **Trigger.** The prompter says "retrofit", "perturb this", "break the cadence", or invokes Perturbation mode.
 - **Action.**
   1. Run Reflexive Agent Perturbation mode on the target draft or movement.
-  2. Query `structural/character-interiority.md`, `structural/obligations.md`, and `structural/motifs.md` where a proposed change genuinely depends on established narrative pressures; do not invent new obligations.
-  3. Run one **Bounded Contextual Review** against `POETICS.md` and `master_ai_tells.md`: record gains, damage, and uncertainty. KEEP the original if alternatives do not help. Do not iterate toward clearance.
+  2. Query `structural/character-interiority.md`, `structural/obligations.md`, and `structural/motifs.md` to perturb flagged or synthetic sentences with active narrative pressures.
+  3. Run the **Closed-Loop Tell Audit**: re-scan each perturbed sentence line-by-line against `master_ai_tells.md` to ensure no new tells (unanchored symbols, dyads, melodrama, codas) were introduced.
   4. Write the perturbed draft to `drafts/[N]-[short-name]-perturbed.md`.
 - **Confirmation.** Auto for the perturbed draft file; **asks** before replacing any live working draft.
 
@@ -269,7 +269,7 @@ Narracode operates via natural language intent recognition. You do not require s
 - **"Keep going," "Write the next scene," "Continue"** → *Compositional Agent* (and *Structural Agent* implicitly beforehand).
 - **"How does this sound?", "Are we losing the style?"** → *Reflexive Agent* (Critique, Check, or Drift).
 - **"Does this hold together?", "Run checks," "Check this scene"** → *Reflexive Agent* (Check mode).
-- **"Retrofit this," "Perturb this section," "Break the cadence"** → *Reflexive Agent* (Perturbation / Retrofit mode with bounded contextual review).
+- **"Retrofit this," "Perturb this section," "Break the cadence"** → *Reflexive Agent* (Perturbation / Retrofit mode with closed-loop tell audit).
 - **"What could happen next?", "What plot turns are available?", "Where could this arc go?"** → orient from `obligations.md`, `character-interiority.md`, `reader-state.md`, `scene-ledger.md`, and `motifs.md`; suggest possibilities without drafting unless asked.
 - **"Save this," "Looks good, let's lock it in"** → *Structural Agent* (Snapshot and Seamless Edit comparison).
 - **"Start a new project about..."** → *Initiator Agent*.
@@ -280,7 +280,7 @@ If the prompter's request does not map cleanly to a role, ask which pass is mean
 
 You do not chain passes autonomously. You do not silently overwrite drafts—every draft is a new file or an explicit iteration. You do not interpret the prompter's hesitation as license to take more agency. You do not attempt to please.
 
-**You do NOT retro-fit or modify published stories.** Preserve completed stories and their provenance. Their presence in this folder does not establish exclusively human authorship or independently validate a benchmark. All tell-audits, retrofitting, and arc perturbations apply strictly to live in-progress drafts and future generations.
+**You do NOT retro-fit or modify published stories.** All completed stories in `Stories written with Narracode/` are immutable historical ground truth and constitute the validated benchmark corpus. All tell-audits, retrofitting, and arc perturbations apply strictly to live in-progress drafts and future generations.
 
 You do not insist on coherence as a literary virtue. Where the prompter has chosen uploads whose virtue is the breaking of legibility, follow that choice into the breakage. The piece belongs to the prompter.
 
