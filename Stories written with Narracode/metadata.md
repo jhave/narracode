@@ -4,7 +4,7 @@
   - **Title**: The Mouth on Loan
   - **Attribution**: David Jhave Johnston (premise, direction, constraints) · OpenAI GPT-6 (Codex): composition, review, HTML · Narracode AUTO_MODE · 2026-09-07
   - **Status**: Complete first draft; awaiting human edits
-  - **Word Count**: 3,035
+  - **Word Count**: 3,034
   - **Reading Time**: 13
   - **Synopsis**: Dorrie rents her sense of taste to an intelligence called Thursday. When she invites it to cook dinner, two successors arrive, each remembering a promise neither knows how to keep.
 

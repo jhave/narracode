@@ -54,7 +54,7 @@ page = """<!doctype html>
       <h1>The Mouth on Loan</h1>
       <p class="intro">Dorrie rents her sense of taste to an artificial intelligence. She asks it to cook her dinner for a change.</p>
       <p class="meta">September 7, 2026 · WORD_COUNT words · MINUTES min read · First draft</p>
-      <p class="meta">David Jhave Johnston — premise, direction, constraints and sentence edit<br>OpenAI GPT-6 (Codex) — writing and page · Narracode AUTO_MODE</p>
+      <p class="meta">David Jhave Johnston — premise, direction and constraints<br>OpenAI GPT-6 (Codex) — writing and page · Narracode AUTO_MODE</p>
       <details>
         <summary>Read the initial prompt and writing direction</summary>
 PROMPT_HTML
@@ -65,7 +65,7 @@ PROSE
     </article>
   </main>
   <footer>
-    <p>First draft with the author’s sentence edit, awaiting further revision. Its contextual review is saved separately.</p>
+    <p>A complete first draft, awaiting human edits. Its contextual review is saved separately.</p>
     <nav aria-label="Story files">
       <a href="drafts/1-the-mouth-on-loan.md">Plain-text draft</a>
       <a href="POETICS.md">Poetics</a>

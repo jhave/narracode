@@ -17,6 +17,3 @@ No visiting innocent, wisdom-tour, wise creature, signature rhyme scheme or refr
 
 ## Scope
 One complete short story in a single compositional pass with scene breaks, then check/tell/critique/drift findings. Do not perform successive rewrite loops or detector experiments. Build the HTML from the actual draft. Preserve v1 for later human edits.
-
-## Author-directed second draft — September 7
-Supersedes the initial one-pass scope for this iteration: preserve draft 1 and write draft 2 for editing on GitHub. Establish the rental mechanism, Dorrie’s livelihood, Errol’s role and the dinner wish immediately. Favor direct causal action and dry situational humor; avoid making every paragraph a punchline or reducing the visitors to comic incompetence. Apply the exact pear-window edit. Update only the existing page’s prompt fold and introduction; do not build a second reading page.
