@@ -1,5 +1,13 @@
 # Stories Metadata
 
+- **Draft Folder**: 07-09-2026_The_Mouth_on_Loan
+  - **Title**: The Mouth on Loan
+  - **Attribution**: David Jhave Johnston (premise, direction, constraints) · OpenAI GPT-6 (Codex): composition, review, HTML · Narracode AUTO_MODE · 2026-09-07
+  - **Status**: Complete first draft; awaiting human edits
+  - **Word Count**: 3,035
+  - **Reading Time**: 13
+  - **Synopsis**: Dorrie rents her sense of taste to an intelligence called Thursday. When she invites it to cook dinner, two successors arrive, each remembering a promise neither knows how to keep.
+
 - **Draft Folder**: 04-09-2026_Impossible_Persistent
   - **Title**: Impossible Persistent
   - **Attribution**: Human: Jhave (seed prompt, direction, constraints) · Claude Opus 5 (v1 screenplay) · Claude Opus 4.6 (v2 novel) · Gemini Flash 3.8 (High): edits, images and html · Narracode harness (AUTO_MODE) · 2026-09-04
