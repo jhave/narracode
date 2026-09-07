@@ -1,0 +1,1 @@
+The human edit evidence is preserved in v4/human-edits.diff and v4/edit-observations.md. Draft 3 carries those observations into the continuation; this model-written continuation is not new human edit evidence. Further author edits should be compared against this snapshot.

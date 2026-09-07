@@ -1,18 +1,23 @@
-"""Render the first draft as a standalone reading page (standard library only)."""
+"""Render the current draft as a standalone reading page (standard library only)."""
 from pathlib import Path
 from html import escape
 import math
+import re
 
 HERE = Path(__file__).resolve().parent
-draft = (HERE / "drafts/1-the-mouth-on-loan.md").read_text()
+draft = (HERE / "drafts/3-mouth-on-loan.md").read_text()
 body = draft.split("\n", 1)[1].strip()
-paragraphs = body.split("\n\n")
+paragraphs = re.split(r"\n[ \t]*\n", body)
 word_count = sum(len(p.split()) for p in paragraphs if p != "***")
 minutes = math.ceil(word_count / 250)
 prompt_sections = (HERE / "PROMPTS.md").read_text().strip().split("\n\n")[2:]
 prompt_html = "\n".join(f"<h3>{escape(p[3:])}</h3>" if p.startswith("## ") else f"<p>{escape(p)}</p>" for p in prompt_sections)
+def inline(text):
+    # The story uses underscore emphasis. Escape HTML before adding these tags.
+    return re.sub(r"(?<!\w)_([^_\n]+)_(?!\w)", r"<em>\1</em>", escape(text))
+
 prose = "\n".join(
-    '<hr aria-label="Scene break">' if p == "***" else f"<p>{escape(p)}</p>"
+    '<hr aria-label="Scene break">' if p == "***" else f"<p>{inline(p)}</p>"
     for p in paragraphs
 )
 page = """<!doctype html>
@@ -21,7 +26,7 @@ page = """<!doctype html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Dorrie rents her sense of taste to an intelligence called Thursday. Then she invites it to cook dinner. A story written with Narracode.">
-  <title>The Mouth on Loan — Narracode</title>
+  <title>Mouth on Loan — Narracode</title>
   <style>
     :root { color-scheme: light; }
     * { box-sizing: border-box; }
@@ -51,27 +56,28 @@ page = """<!doctype html>
   <nav aria-label="Breadcrumb"><a href="../../index.html">← Narracode / Stories</a></nav>
   <main>
     <header>
-      <h1>The Mouth on Loan</h1>
+      <h1>Mouth on Loan</h1>
       <p class="intro">Dorrie rents her sense of taste to an artificial intelligence. She asks it to cook her dinner for a change.</p>
-      <p class="meta">September 7, 2026 · WORD_COUNT words · MINUTES min read · First draft</p>
-      <p class="meta">David Jhave Johnston — premise, direction, constraints and sentence edit<br>OpenAI GPT-6 (Codex) — writing and page · Narracode AUTO_MODE</p>
+      <p class="meta">September 7, 2026 · WORD_COUNT words · MINUTES min read · Draft 3</p>
+      <p class="meta">David Jhave Johnston — premise, direction and substantial hand edits<br>OpenAI GPT-6 (Codex) — initial drafts, revised continuation and page · Narracode</p>
       <details>
         <summary>Read the initial prompt and writing direction</summary>
 PROMPT_HTML
       </details>
     </header>
-    <article aria-label="The Mouth on Loan">
+    <article aria-label="Mouth on Loan">
 PROSE
     </article>
   </main>
   <footer>
-    <p>First draft with the author’s sentence edit, awaiting further revision. Its contextual review is saved separately.</p>
+    <p>Draft 3 retains the author’s revised opening and first three scenes, with limited copy corrections, and continues from that hand edit. Earlier versions and review notes are preserved.</p>
     <nav aria-label="Story files">
-      <a href="drafts/1-the-mouth-on-loan.md">Plain-text draft</a>
+      <a href="drafts/3-mouth-on-loan.md">Plain-text draft</a>
+      <a href="drafts/2-the-mouth-on-loan.md">Author’s hand-edited draft 2</a>
       <a href="POETICS.md">Poetics</a>
       <a href="ATTRIBUTION.md">Attribution</a>
-      <a href="critiques/critique-all-acts.md">Draft review</a>
-      <a href="versions/v1-2026-09-07-auto-mode/loop-notes.md">Version notes</a>
+      <a href="critiques/check-3-mouth-on-loan.md">Draft review</a>
+      <a href="versions/v5-2026-09-07-hand-edit-continuation/loop-notes.md">Version notes</a>
     </nav>
   </footer>
 </body>
