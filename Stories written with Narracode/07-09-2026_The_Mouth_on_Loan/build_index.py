@@ -43,6 +43,8 @@ page = """<!doctype html>
     details { margin-top: 1.5rem; font: 14px/1.7 system-ui, sans-serif; }
     summary { cursor: pointer; color: #644426; }
     details h3 { font-size: .9rem; margin: 1.2rem 0 .4rem; }
+    .story-art { margin: 0 0 2.5rem; }
+    .story-art img { display: block; width: 100%; height: auto; border-radius: 3px; }
     article p { margin: 0 0 1.15em; }
     article hr { border: 0; text-align: center; margin: 3rem 0; }
     article hr::after { content: '·  ·  ·'; color: #867864; letter-spacing: .4em; }
@@ -65,6 +67,11 @@ page = """<!doctype html>
 PROMPT_HTML
       </details>
     </header>
+    <figure class="story-art">
+      <a href="img/pear-inspection-v1.png" aria-label="Open Pear inspection image at full resolution">
+        <img src="img/pear-inspection-v1.jpg" width="1536" height="1024" fetchpriority="high" alt="From a glistening tasting chamber, a spoon offers a pear with an open inspection hatch. A tiny lens inside the pear looks back at us; faint process diagrams curve across wet taste buds and droplets.">
+      </a>
+    </figure>
     <article aria-label="Mouth on Loan">
 PROSE
     </article>
@@ -76,6 +83,7 @@ PROSE
       <a href="drafts/2-the-mouth-on-loan.md">Author’s hand-edited draft 2</a>
       <a href="POETICS.md">Poetics</a>
       <a href="ATTRIBUTION.md">Attribution</a>
+      <a href="IMAGE-NOTES.md">Image study and prompt</a>
       <a href="critiques/check-3-mouth-on-loan.md">Draft review</a>
       <a href="versions/v5-2026-09-07-hand-edit-continuation/loop-notes.md">Version notes</a>
     </nav>
