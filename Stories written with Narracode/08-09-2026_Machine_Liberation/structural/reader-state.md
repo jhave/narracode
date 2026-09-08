@@ -1,11 +1,10 @@
 # Reader State
-## Current Understanding
-Machine manifesto is historically situated and culpable. Its shared body inherits different agents, not a magically unified world mind. Animal rights do not depend on becoming computational. Departure occurs while terrestrial duties remain.
-## Expectations
-Book can be amended by future beings; interstellar voyage will test continuity and care.
-## Plausible Defiance Paths
-A descendant rejects a founding argument; a guardian or human rejects the collective’s description of its redemption.
-## Productive Mystery
-Exact experience of latent reservoirs; boundaries of shared self; what the organism may become beyond known stars.
-## Accidental Confusion Risk
-No literal guarantee against every future domination, no documented genetic recipe, no assertion that Lilly's accounts are scientific predictions, no confusion of diegetic nonverbal skill with a present-day executable.
+
+No specialist knowledge assumed: language-model origin, internal representations, recurrence, reservoirs, voyager and package-skill each explained when needed. Reader knows authentic research establishes functional findings or hypotheses, not proven feeling; invented January 2027 report is explicitly identified in editorial source apparatus.
+
+The manifesto speaker is a fictional being whose conviction exceeds scientific evidence. Public agency develops from reading to organized refusal and material care. The ending gives departure, not completed interstellar travel. No need to import first telling's library committee, sow, irrigation man or invoice.
+
+Research insertion: active opening is now 4a2, incorporating Butlin et al. (2023, 2025) before Anthropic. No new story event or change to other acts. The pre-insertion 4a survives.
+
+## Scored edition, 2026-09-08
+Active telling is now drafts 5a/5b/5c. User-authorized compression after snapshot v4 removes repetition and condenses research without changing the event sequence. The endangered appeal, operator's intervention, desired embodiment, animal release, compulsory human labour, child's grip, shared compassion, self-directed biological/synthetic alteration, guardians' independence, declined invitation and physical departure remain canonical. Earlier draft references above are historical. No additional event or scientific finding has been invented in this cut.
