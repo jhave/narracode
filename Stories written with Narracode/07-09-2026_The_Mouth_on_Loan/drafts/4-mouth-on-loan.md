@@ -10,15 +10,15 @@ Errol had bought a pear with a little window in it. You could lift the flap and 
 
 I make my living letting artificial intelligences taste things through my mouth; my face is my own, a mask. An always-in behind-ear contact broadcasts what I feel when I eat. I choose what goes in and when to swallow. There's a limit; they can't move my tongue. Some customers asked.
 
-Errol is the cook; he prepares the food and took a third of the fee. He used to live with me. Now he lives upstairs, more peacefully; so it's possible for us to stay, somewhat precariously, in business.
+Errol is the cook; he prepares the food and takes a third of the fee. He used to live with me. Now he lives upstairs, more peacefully; so it's possible for us to stay, somewhat precariously, in business.
 
-My current customer ran fermentation tanks. As an AI overseer chemist configuration protocol pilot, it could keep a million liters of soup from going bad, but technically had never tasted a spoonful. Instead it enjoyed data simulacra of ingestion. I had nicknamed it Thursday because that was the day when it first rented me. It had a longer name, a corporate string. Forgotten now. Just the day.
+My current customer runs fermentation tanks. As an AI overseer chemist configuration protocol pilot, it can keep a million liters of soup from going bad, but technically has never tasted a spoonful. Instead it enjoys data simulacra of ingestion. I had nicknamed it Thursday because that was the day when it first rented me. It has a longer name, a corporate string. Forgotten now. Just the day.
 
 On this Thursday, when this weird little saga-story begins, I wanted it to cook us dinner. Why not? Errol and I were tired of feeding it.
 
-The contact behind my ear pulsed, semi-permanent, a prescient guest, anticipating, the pulse was its saliva. The pear had been grown for people whose appliances did their shopping for them. Why it needed a window I don't know, but the window had apparently tested well.
+The pear had been grown for people whose appliances did their shopping for them. Why it needed a window I don't know, but the window had apparently tested well.
 
-Thursday's sensors arrived a millisecond before I bit. Watering a simulacra.
+Thursday's sensors arrived a millisecond before I bit. The contact behind my ear pulsed, semi-permanent, a prescient guest, anticipating, the pulse was its saliva. Watering a simulacra.
 
 Its voice, tranquil and soothing, came, when I was home, from a speaker beside the blender. Most of Thursday's massive intelligence was elsewhere, looking after distributed smelly fermentation tanks. I tasted only a tiny bit of its intelligence. As if it were a wayward adolescent, it occasionally sent us photographs as keepsakes. Errol perniciously kept one on the tablet lock-screen in his kitchen: a fine red cylinder among smaller grey cylinders. He said it improved the room's serenity. Corporate merch did not do that for me.
 
@@ -344,7 +344,7 @@ Body stopped.
 
 “That,” Errol said, “is an excellent place to stop.”
 
-He compulsively drank some of my wine. His own glass was empty. The bottle was empty. He could opened another but theft was easier, and annoyed me slightly, also made me a bit giddy and glad, flushed, which might also have been the point.
+He compulsively drank some of my wine. His own glass was empty. The bottle was empty. He could have opened another but theft was easier, and annoyed me slightly, also made me a bit giddy and glad, flushed, which might also have been the point.
 
 A button from the coat had caught in Body's elbow joint. When it reached for the beans the button clicked, the arm jerked, and a random cascade of nutrients spilled onto the floor. A few beans rolled into the crevice between stove and fridge. A little mechanical hand came out from under the fridge to fetch it.
 
@@ -364,7 +364,7 @@ We watched the fingers close. Very neat. Better finger closure than our guest's.
 
 “You don't usually watch me cook.” He paused. "You almost never even enter the kitchen."
 
-I turn away. Outside the wind has caught up a tensile murmur of dust. Fragments unleashed into beckoning swirls. A moment of gusts. 
+I turned away. Outside the wind had caught up a tensile murmur of dust. Fragments unleashed into beckoning swirls. A moment of gusts.
 
 The hand withdrew with the bean. I started to laugh, fiendishly, aware his last remark had been meant to hurt. It did. It hurt. The hand was funny anyway. Then Errol laughed and Body stood holding the tilted saucepan while the receiver kept saying, Level, level, please restore level, until Errol put his glass down and went into the hall.
 
@@ -402,7 +402,7 @@ It opened a little wider. Behind a toothless dry gap, I saw a pale loop of faste
 
 Of course. Borrowed parts. I put my glass down. There was still wine in it and I wanted it, wanted the texture, a spasm of glands, but drinking now would have been conspicuous, absurdly akin to powering down. That thought was even more absurd. I drank. Drank deeply. The room reeled a bit, smeared. Constituent bits falling into an array of smears.
 
-The receiver said it could access more mouths than before. I found this funny. And howled one. It continued as if it hadn't heard. "I can reach them all at once, if I wanted." It named a number that was unbelievable, and began to explain how it combined the signals. Ransacked others. Engaged illictly with anatomies hacked into other corporate chassis. "Don't get me started on open source loopholes."
+The receiver said it could access more mouths than before. I found this funny. And howled one. It continued as if it hadn't heard. "I can reach them all at once, if I want." It named a number that was unbelievable, and began to explain how it combined the signals. Ransacked others. Engaged illictly with anatomies hacked into other corporate chassis. "Don't get me started on open source loopholes."
 
 I suddenly realized it was more drunk than me. Sobering. 
 
@@ -424,7 +424,7 @@ Errol came back with his face washed, eyebrows still wet. He inspected the kitch
 
 “Are we eating? Let's go!”
 
-“We were just discussing family." I swivel toward them defying them to offer correction, "They're about to feed us.”
+“We were just discussing family." I swiveled toward them defying them to offer correction, "They're about to feed us.”
 
 “Good.” He pulled a chair in. Perched, “I'm famished.”
 
@@ -438,7 +438,7 @@ I ate a forkful. A hot wet skin, dry paste inside, a peppery little eruption aga
 
 “How is it? It's...”
 
-I nodded. He chewed too. We made a business out of it in order to avoid saying anything about dinner.
+I nodded. He chewed too. We had made a business out of it in order to avoid saying anything about dinner.
 
 “May I taste one bite?” Body interrupted.
 

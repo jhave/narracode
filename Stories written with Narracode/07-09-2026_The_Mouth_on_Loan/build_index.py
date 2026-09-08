@@ -112,7 +112,7 @@ PROSE
     </article>
   </main>
   <footer>
-    <p>Draft 4 preserves David Jhave Johnston’s hand-edited text through “Yes, Dorrie, I would like some bread.” verbatim, followed by a new Codex continuation. The preceding draft and reading page are preserved in the version archive.</p>
+    <p>Draft 4 preserves David Jhave Johnston’s hand-edited text through “Yes, Dorrie, I would like some bread.” with a subsequent author-requested tense pass and sentence relocation, followed by a new Codex continuation. The preceding draft and reading page are preserved in the version archive.</p>
     <p>Illustrations generated with OpenAI’s image generation tool, extending Jhave’s original visual direction. Full prompts, source images and credits are available below.</p>
     <nav aria-label="Story files">
       <a href="drafts/4-mouth-on-loan.md">Plain-text draft</a>

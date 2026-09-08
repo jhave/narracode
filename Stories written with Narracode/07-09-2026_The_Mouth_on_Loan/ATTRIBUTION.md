@@ -1,6 +1,6 @@
 # Attribution
 
-- Human author and director: David Jhave Johnston (jhave): premise, references, visual direction, sentence revisions and substantial hand edits in a36543d and 03f0920. Draft 4 preserves the current draft 3 text verbatim through “Yes, Dorrie, I would like some bread.”
+- Human author and director: David Jhave Johnston (jhave): premise, references, visual direction, sentence revisions and substantial hand edits in a36543d and 03f0920. Draft 4 carries the current draft 3 text through “Yes, Dorrie, I would like some bread.”, with the subsequent author-requested tense corrections and contact-sentence relocation recorded in critiques/tense-pass-4.md.
 - AI: OpenAI GPT-6, operating as Codex: initial drafts, analysis of the human edits, the new draft 4 continuation after that boundary, structural notes, HTML builder and image prompts/integration.
 - Date: 2026-09-07.
 - Status: complete draft 4, a hybrid human/model story available for further author editing.
