@@ -1,8 +1,9 @@
 # Attribution
 
-- Human author and director: David Jhave Johnston (jhave): premise, references, constraints, sentence revisions and substantial hand editing of draft 2 in commit a36543d, chiefly through scene 3, plus the onion question in scene 4. Those edits supply the opening and first three scenes of draft 3, with listed copy corrections.
-- AI: OpenAI GPT-6, operating as Codex: concept development, initial drafts, structural records, analysis of the human edit, revised scene 4, limited copy corrections and HTML.
+- Human author and director: David Jhave Johnston (jhave): premise, references, visual direction, sentence revisions and substantial hand edits in a36543d and 03f0920. Draft 4 preserves the current draft 3 text verbatim through “Yes, Dorrie, I would like some bread.”
+- AI: OpenAI GPT-6, operating as Codex: initial drafts, analysis of the human edits, the new draft 4 continuation after that boundary, structural notes, HTML builder and image prompts/integration.
 - Date: 2026-09-07.
-- Status: draft 3 for further author editing; hybrid human/model text, not an unedited AUTO_MODE output.
-- Image study 1: visual direction by David Jhave Johnston; prompt and integration by OpenAI GPT-6 (Codex); generated with the built-in OpenAI image generation tool, whose exact image-model identifier is not reported. Source and complete prompt are preserved in IMAGE-NOTES.md.
-- No other text model ran. The harness’s example Opus/Sonnet role allocation was not used.
+- Status: complete draft 4, a hybrid human/model story available for further author editing.
+- Images: one retained pear study directed by Jhave plus four newly generated companion illustrations. Built-in OpenAI image generation tool; exact image-model identifier not reported. Full prompts, correction and source/delivery filenames are recorded in IMAGE-NOTES.md.
+- Draft 3 and its accompanying page, builder, images and notes are preserved in versions/v6-2026-09-07-human-edit-bread. The older page predates the latest human text edits; the snapshot draft is authoritative.
+- No other text model or subagent ran. Review was performed by the writing agent.

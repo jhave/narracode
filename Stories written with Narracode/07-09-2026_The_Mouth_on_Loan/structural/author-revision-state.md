@@ -1,5 +1,7 @@
-# Author revision state — a36543d
+# Author revision state — 03f0920 and draft 4
 
-Title: Mouth on Loan. Pear opening restored ahead of the rental explanation. Contact is semi-permanent, augmented by threads into affective centers; Sunday access is off. Dorrie supplies her own tooth explanation. Burnt scallops, not the present beans, prompted the earlier repeat tastings. Thursday is nicknamed for its first rental day. The tank photograph is on Errol’s tablet lock-screen. Dorrie wants to be fed without purpose; she misses Errol’s knees without wanting him to move back. Body is emerging as a local name. Keep these facts when revising the remaining dinner scene.
+The authoritative human checkpoint is versions/v6-2026-09-07-human-edit-bread/drafts/3-mouth-on-loan.md. Human editing extends through “Yes, Dorrie, I would like some bread.” Draft 4 preserves that prefix verbatim; draft 3 is unchanged.
 
-Human edit boundary is the end of scene 3, with one additional edited onion question in scene 4. The committed source, including incidental typos and mixed typography, is authoritative evidence and will be snapshotted verbatim.
+The current source is drafts/4-mouth-on-loan.md. The new continuation completes the dinner and departure. The contact stays off and is removed for comfort; implanted threads remain, with work due Monday. Body’s rental ends near nine. The receiver remains with Errol, discussing the cyclone freezer. Their memories differ with their former roles. Dorrie invites Errol to eat the crust beside her; their separate living arrangements do not change. Future dinner is possible but unscheduled. The plum tree remains fruitless.
+
+See critiques/human-edit-analysis-03f0920.md for the reading of the author’s changes and critiques/check-4-mouth-on-loan.md for the completion review.

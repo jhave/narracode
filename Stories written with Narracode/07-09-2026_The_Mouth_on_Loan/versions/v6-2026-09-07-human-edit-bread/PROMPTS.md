@@ -13,7 +13,3 @@ Basic goal is write with the flexibility of human literary voice. Without the tr
 ## Instruction to write
 
 And then let's start a new story, I want more to see how you write. Write the The Mouth on Loan in auto_mode using narracode harness as/when necessary. Build it's index page.
-
-## September 7 completion request
-
-snapshot the current version draft of Mouth on Loan and finish the story (based on analyzing the changes I made) and build the story index.html page along with  a complete set of images and commit.
