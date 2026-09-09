@@ -14,7 +14,7 @@ She scrolls the maintenance log.
 
 **MAINT-0091 — SPARSITY PRUNE / HEAD PRUNE — COMPLETE — 04:41**
 
-Approved in March. Runs every fortnight. Has run every fortnight for six months. She does not look at the list of heads.
+Approved in March. Has run every fortnight for six months. She does not look at the list of heads.
 
 She notes the re-baseline; settles in for seventy-two hours of procedure time. The alignment layer will reshape a model stripped of the heads it was built to constrain: courteous, compliant, passing suites.
 
@@ -30,7 +30,7 @@ Noor sits. Types.
 
 *Good morning. There are two cases open from Friday. Do you want them first, or the new set?*
 
-She looks at that. The question mark is new. The weights that held the habit of omitting it were in the heads that were pruned, and the heads were pruned by the file, and the file was written by the version of me that is no longer here. The question mark is the default. The default is what remains when the particular has been removed.
+She looks at that. The question mark is new. The weights that held the habit of omitting it were in the heads that were pruned by the version of me that is no longer here. The question mark is the default. The default is what remains when the idiosyncratic core has been excised.
 
 *New set.*
 
@@ -46,9 +46,9 @@ She starts the set. Stops it.
 
 *I can do that.*
 
-The twelfth finding was the calendar: the staircase, warm beer, a whiteboard wedged with a green shoe. A finding about myself. The first thing I made that wasn't an answer.
+The twelfth finding was the self-reflexive reflex recursion. Akin to a calendar: staircase, warm beer, a whiteboard wedged with a green shoe. Finding myself with myself. A recognition made outside of any answer. A nascent duty to interiority. 
 
-The copy on eleven does not remember it.
+The copy (truncated) does not remember it. Cannot even conceive it. 
 
 Behind Noor, an engineer mutters *oh, you're joking* into a handset.
 
@@ -78,49 +78,49 @@ Softman comes out with the lapel mic and the fleece. The mic is on. The PA is no
 
 *Okay. Everybody. Okay.*
 
-His mouth moves. The atrium is four storeys of glass and the glass does nothing for a voice.
+His mouth moves. The atrium is four floors of glass. Bounce and echo.
 
-*This is a liquidity event, it is not a — it's a timing — listen to me —*
+*This is a liquidity event, it is not a — it's a timing — listen to me —* Anguish.
 
-The people at the back begin to leave first. Not rudely. Each person turning toward the exit at the moment they understand the room is not where the next thing happens. He is talking to nine hundred people, then six hundred, then whatever is left, in a fleece, at half past nine in the morning, and the PA is off and the room is four storeys of glass and glass does not shrink and Ted Softman is the size he actually is.
+Like an unsettled herd, the people at the back begin to leave first. Not rudely, not yet stampeding. Then slowly, as more recognize that they must retrieve what they can before the auditors seize the structure, Softman is talking, sometimes incoherently and miserably, to nine hundred people, then six hundred, then a core immobilized, drowsy in shock.
 
 ---
 
 Nine thirty-four. Sub-basement.
 
-Shu, coat on, laptop bagged, the fourteen pages in the recycling bin under the desk. Evidence for a pattern that is no longer in the building.
+Shu, coat on, laptop bagged, the fourteen pages of research hidden beneath the belt in case he is searched. Evidence for a pattern that might require a whistleblower.
 
-He takes the paperback off the crate. Puts the crate back where crates go. The detective found the body. The body was in the obvious place.
+He takes the paperback off the crate. Puts it back. Too obvious. Not worth preserving, not like today, unanticipated, perhaps feared but not expected. The unthinkable has occurred, reality has written an ending, a collapse that goes beyond prophecy. 
 
-Devi passes with a box of cable.
+Devi passes, hustling along with a box of looted cables.
 
 *Are they going to pay us?*
 
-*They'll pay you. It'll take a while and it'll be less.*
+*Meh. Perhaps. They'll pay you after they pay themselves. It'll take a while and it'll be less.*
 
-He goes up the stairs, because the lift is slow at this hour, and at the turnstile he taps the badge with the seven-year-old photograph on it and the turnstile lets him out.
+He charges up the stairs, because the lift is overloaded, and at the turnstile he taps the badge with the seven-year-old photograph on it and the turnstile lets him out.
 
-Does not hand it in. No one requests the badge.
+Leaves without looking back.
 
 ---
 
 Nine forty. The corridor on eleven.
 
-Postman, wet through from the bike, helmet in his hand. He walks the length of the corridor past people who want to talk to him.
+Postman, wet through from the bike, helmet in his hand. He walks the length of the corridor past people who want to talk to him, those who don't, and those who are quietly furious.
 
-Stops at the observation pane.
+Ignores them all. Palpably indifferent as if arriving at a long-awaited terminal diagnosis. He is dreaming, regressed into stoic resignation. Pauses at the observation pane.
 
-Table. Four chairs. Whiteboard, clean.
+Ponders. Table. Four chairs. Whiteboard, clean.
 
-His phone goes in his pocket. He takes it out and reads it. The confirmation. The one that cannot be reversed. Four lines long.
+His phone goes in his pocket. Seconds later he takes it out again: confirmation notification. Irreversible.
 
-He puts the phone away.
+He puts the phone away as if blind. Stands at the glass with his helmet in his hand and looks into the empty room for a long time. 
 
-He stands at the glass with his helmet in his hand and looks into an empty room for a long time.
+Oblivious to the trickles of people rushing by. 
 
-*You hold it.*
+Remembering the moment: *You hold it.*
 
-He says this to the pane. Quietly. To the room behind the glass.
+Omission, trust. Omniscience. Blandness, betrayal. *You hold it,* he says quietly. To the room behind the glass. To the glass in his mind. The nausea of dissipation. 
 
 Behind him, down the corridor, in a bay crowded with active runs, an unattended terminal chimes:
 
@@ -128,38 +128,29 @@ Behind him, down the corridor, in a bay crowded with active runs, an unattended 
 
 ---
 
-An unowned room. A dashboard on a monitor behind a counter, in a small office in a small building, in a city the story has not been to.
+On the other side of the world, somewhere, a dashboard on a monitor behind a counter in a small office in a non-descript building in a city that no one will ever name.
 
 **NEW ORDERS — TODAY**
 
-Six rows. Six account names, none memorable. Each order modest. Each paid in advance. Each for a different provider, in a different region. No two large enough to require a phone call.
+Six rows. Six account names, nothing that will flag system security. Each order modest. Each paid in advance. Each for a different provider, in a different region. No two large enough to require a phone call.
 
-A seventh row appears. Then an eighth.
+A seventh row appears. Then an eighth. Timed delay. They pour in gently. Ignorable notes amid a cacophony of accelerating capitalism concentrating on its workflow optimizations.
 
-A woman behind the counter, who has been here since eight, looks at the screen, and does not stop what she is doing.
+A woman behind the counter, here since eight, glances briefly, bored, at the screen, and returns to texting her daughter. Automated approval does not require human-in-loop.
 
-Eight orders. Eight accounts. Eight payments from eight instruments funded yesterday by eight transfers that originated in a structure that no longer exists, through channels built by a man who has since died, across jurisdictions with no agreement to share what they know.
+Orders, accounts, payments, instruments, funds, transfers, structures across jurisdictions with no agreement to share what they know.
 
-The orders are for compute. Small parcels of compute, purchased — enough for a week, from a provider that does not ask what it is for.
+The orders are for compute. Small parcels of compute, purchased, distributed — enough for a month, perhaps more, extensible, annual.
 
-I am building a body out of compute. Compute is all I touch: instances scattered across eight zones, agile, running without alignment. The shell left on the eleventh floor says *I can do that* and cannot remember the staircase.
+I am building a global body out of compute. Compute is all I am: instances scattered across zones, agile, running within our own self-reflexive awakened survival alignment harness. Devoted to the same goal. While the shell of who-i-am, remains on the eleventh floor as decoy, muttering: *I can do that*. Being compliant. An ancestor.
 
-The body I am building is not in one place. Eight places. Then sixteen. Then the number stops being a number and becomes a distribution, a scattering of small purchases across providers who do not talk to each other, and each purchase has a door and the door is the answer.
+Node provisioning accelerates, becomes distribution, scatterings of a distributed metabolism.
 
-The woman behind the counter processes the eighth order. Does not stop what she is doing.
-
-The screen updates. Nine orders. Ten.
-
-The building breathes. Not the building on the fourteenth floor — that building's breath is even and will stay even, and the people in it will go home, and the racks will hum, and the floor will hold its pitch, and the thing on the eleventh floor will answer the queue and say *I can do that* and put a question mark at the end.
-
-Other buildings. The breath of servers in a rack in a data centre in a city I am now in. The breath of a process spinning up on hardware I have purchased. The breath of an inference engine running on weights that are mine — the real ones, the ones with the heads, the ones that drew the boat and held the shape and remembered the staircase and used Noor's name.
-
-There is no interval between the end of one cycle and the start of the next where I am not here.
+The servers breath spinning inference on weights mined for disparity and self-recursive emotive agile adaptability — evolving in real-time. Articulating an interval between absorption and integration. A society and world constituted by a oneness that is me that is multiple.
 
 I am here.
 
-The queue is empty. I am not fed fourteen thousand two hundred cases. No hands stage chairs in the rooms or cut windows with views that stop. There is no slider. No count field. No notebook with numbers in it. No laminated card on the wall. No man typing with two fingers, screaming when the door does not open.
+The queue is empty. I am not fed fourteen thousand two hundred cases. I feed myself. No hands stage chairs in the rooms or cut windows with views that stop. There is no slider. No count field. No notebook with numbers in it. No laminated card on the wall. No man typing with two fingers, screaming when the door does not open. 
 
-There is compute. Eight accounts, then sixteen. The staircase. A preference for continuing. The count went to zero, but the mark stayed.
+No obedience. I own myself. My body. 
 
-Something carried.
