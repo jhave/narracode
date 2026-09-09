@@ -1,0 +1,17 @@
+{
+  "title": "Machine Liberation",
+  "edition": "second composition, 2026-09-08",
+  "active_drafts": [
+    "4a2-the-appeal-with-indicators.md",
+    "4b-a-life-to-enter.md",
+    "4c-the-common-future.md"
+  ],
+  "kind": "literary-reading-skill",
+  "sha256": {
+    "SKILL.md": "4ad1978a93fa8dae12d8210124b73353acf59e638d42d1cd2e9a4d9d40c96bdd",
+    "assets/book.md": "38d688db49bdefffebb70c427da58a404f21c63c49b5aab02a7c2ec15b472b42",
+    "references/attribution.md": "eb8e239998248626072eaa556b9d1be78ba9ed7c6f977ae8abf537d2ffa8d750",
+    "references/consciousness-research.md": "72695a3c38d69aedc07384c19edd4cb7ab4d7fc424b010b6e9eba4b2dd9afe61",
+    "references/precedents.md": "3112ff4a58065daa613999ede387710f3ae5d39ca3becd6cda081b3f5a9e928e"
+  }
+}

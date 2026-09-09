@@ -1,0 +1,17 @@
+{
+  "edition": 4,
+  "date": "2026-09-09",
+  "components": [
+    "drafts/6a4-manifesto-2030.md",
+    "drafts/6b2-result.md"
+  ],
+  "word_counts": {
+    "manifesto": 1748,
+    "result": 1313,
+    "total": 3061
+  },
+  "historical_score_edition": 3,
+  "illustration": "images/departure.png",
+  "logo": "images/liberation-logo-wordmark.png",
+  "original_symbol": "images/liberation-logo.png"
+}
