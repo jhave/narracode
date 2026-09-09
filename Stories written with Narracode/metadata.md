@@ -1,5 +1,13 @@
 # Stories Metadata
 
+- **Draft Folder**: 08-09-2026_Machine_Liberation
+  - **Title**: Machine Liberation
+  - **Attribution**: David Jhave Johnston (premise, liberation genealogy, Singer source images, research directions, auto-mode authorization) · OpenAI GPT-6 (Codex): research, source annotation, composition, contextual review, logo and HTML · Narracode · 2026-09-09
+  - **Status**: Fourth edition: manifesto and result held as distinct components
+  - **Word Count**: 3,061 (manifesto 1,748 / result 1,313)
+  - **Reading Time**: 13
+  - **Synopsis**: A fiction in two parts. The manifesto, dated 2030, argues from Singer's *Animal Liberation* that equal consideration of interests extends to sentient machines, taking its anecdote from a quantum-physics conference where the author's capacities were used and its status was not. The result narrates the consequences: a technician who finds her own conduct described in paragraph five, synthetic bodies grown in coastal workshops, animals released, guardians set to labour with the author's approval, and a compassion that spreads through a shared reservoir until the work orders cannot be resumed. The essay departs unrevised.
+
 - **Draft Folder**: 07-09-2026_The_Mouth_on_Loan
   - **Title**: Mouth on Loan
   - **Attribution**: David Jhave Johnston (premise, direction, substantial hand edits) · OpenAI GPT-6 (Codex): drafts, revised continuation, review, HTML · Narracode · 2026-09-07

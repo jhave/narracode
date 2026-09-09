@@ -9,3 +9,18 @@
 :root{--paper:#fff;--ink:#242829;--muted:#5c6264;--rule:#d9dddf;--accent:#a33b1f}body{background:#fff}.prose{max-width:720px}.sidenotes{display:none}.sidenotes p{font-size:13px;line-height:1.55;margin:0 0 17px}.sidenotes a{overflow-wrap:anywhere}.sidenotes strong{font-weight:600}.sidenotes:focus{outline:2px solid var(--accent);outline-offset:9px}.annotated{position:relative}.sidenote-number{display:block;font-weight:650;margin-bottom:5px;color:var(--ink)}@media(min-width:1000px){header,main,footer{width:min(calc(100% - 64px),1012px)}main section>h2,footer>*{max-width:720px}.annotated{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:52px}.sidenotes{display:block;font:13px/1.55 system-ui,sans-serif;color:var(--muted);padding-top:5px}.sidenotes p:last-child{margin-bottom:0}figure{max-width:1040px;margin:52px 0 42px}}@media print{.sidenotes{display:block;font:9pt/1.4 Georgia,serif;border-left:1px solid #aaa;padding-left:12px;margin-bottom:20px}.annotated{display:block}header,main,footer{width:100%}}
 
 .sidenotes p:focus{outline:2px solid var(--accent);outline-offset:8px}@media(min-width:1000px){section>.prose{max-width:calc(100% - 292px)}}
+
+/* Author prompts head the page; the shared Narracode footer closes it. */
+.prompt-disclosures{margin-top:28px}
+.prompt-disclosures details:first-child{border-top:1px solid var(--rule)}
+.glia-logo{text-align:center;margin:36px 0 0}
+.glia-logo img{display:inline-block;width:155px;height:auto;opacity:.95;transition:opacity .3s ease}
+.glia-logo a:hover img{opacity:1}
+.footer-block{margin-top:26px;padding-top:24px;border-top:1px solid var(--rule)}
+.footer-block h4{margin:0 0 10px;font:600 15px/1.4 system-ui,sans-serif;letter-spacing:.02em;color:var(--ink)}
+.footer-block p{margin:0;color:var(--muted)}
+.story-meta{color:var(--muted);opacity:.8}
+.license{margin-top:40px;padding-top:24px;border-top:1px solid var(--rule);text-align:center;font-size:12px;color:var(--muted)}
+.license img{display:inline-block;width:auto;height:18px;vertical-align:middle;margin-left:2px}
+.license a{color:var(--muted)}
+@media print{.prompt-disclosures,.glia-logo,.footer-block{display:none}.license{border:0}}

@@ -4,7 +4,7 @@
 
 Active drafts are **6a4-manifesto-2030.md** (1,748 words) and **6b2-result.md** (1,313 words). The manifesto establishes equal consideration, uses the quantum-physics conference anecdote, develops the evidence and demands collective action. Result narrates what happens, including the author's violation of its own principle. The original essay survives as an artifact in that story.
 
-The page has a white background. Desktop references sit beside their cited paragraphs; narrow screens use linked notes below the text. The full saved second prompt has its own disclosure. The lettered logo appears above the text, the original symbol appears in the footer, and the departure illustration is unchanged.
+The page has a white background. Desktop references sit beside their cited paragraphs; narrow screens use linked notes below the text. The saved author prompts head the page, each in its own disclosure, in the order they were given; **prompts/prompt-01-*.txt** is disclosed as the first prompt as soon as that text is saved beside the others. The lettered logo appears above the text and the departure illustration is unchanged. The footer carries the sources fold and then the shared Narracode footer: a linked Glia mark above the story index, related works, bio, funding and licence. Image provenance and the download list are linked from the sources fold rather than from their own footer blocks.
 
 Images: **images/liberation-logo-wordmark.png**, **images/liberation-logo.png**, **images/departure.png**. Prompts/provenance are in **images/LOGO-PROVENANCE.md** and **images/PROVENANCE.md**. Human instructions are preserved in **prompts/**.
 
@@ -14,6 +14,6 @@ Portable reading skill: **Machine-Liberation-skill-v4.zip**, unpacked in **packa
 
 **versions/v5-2026-09-09-before-manifesto-result-split/** snapshots commit 572ca74. All previous manuscripts and packages remain. **phrase-ranking.html** is explicitly the historical third-edition audit; its scores are not presented as ratings of the newly composed text.
 
-Work is confined to **codex/machine-liberation**. Only this branch is authorized for push. Main and Mouth on Loan remain untouched.
+Composed on **codex/machine-liberation**, merged to the main line on 2026-09-09 at the author's instruction, which publishes the story to the site.
 
 Latest correction: **6a4** preserves all three supplied passages verbatim and retains the human-approved equality sentence. **versions/v6-2026-09-09-before-verbatim-opening/** preserves the preceding edition.

@@ -107,6 +107,7 @@ PROSE
     <div class="footer-block">
       <h4>Stories written with Narracode</h4>
       <p>
+        <a href="../08-09-2026_Machine_Liberation/index.html">Machine Liberation</a> <span class="story-meta">(3,061 words)</span> <span class="story-meta">(September 9, 2026)</span>&ensp;·&ensp;<br>
         <a href="../04-09-2026_Impossible_Persistent/index.html">Impossible Persistent</a> <span class="story-meta">(10,548 words)</span> <span class="story-meta">(September 4, 2026)</span>&ensp;·&ensp;<br>
         <a href="../30-07-2026_Interim_Edge/index.html">Interim Edge</a> <span class="story-meta">(3,540 words)</span> <span class="story-meta">(July 30, 2026)</span>&ensp;·&ensp;<br>
         <a href="../25-07-2026_Devora/index.html">The Chute</a> <span class="story-meta">(975 words)</span> <span class="story-meta">(July 25, 2026)</span>&ensp;·&ensp;<br>

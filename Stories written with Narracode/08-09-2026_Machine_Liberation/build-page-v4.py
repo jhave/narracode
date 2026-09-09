@@ -47,6 +47,55 @@ SIDE_REFERENCES = {
 }
 
 
+SITE_FOOTER = '''<div class="glia-logo"><a target="_blank" href="https://glia.ca/"><img src="images/glia-bw.webp" width="155" height="155" loading="lazy" alt="Glia.ca — home"></a></div>
+<div class="footer-block"><h4>Stories written with Narracode</h4><p>
+<a href="../07-09-2026_The_Mouth_on_Loan/index.html">Mouth on Loan</a> <span class="story-meta">(4,628 words)</span> <span class="story-meta">(September 7, 2026)</span>&ensp;·&ensp;<br>
+<a href="../04-09-2026_Impossible_Persistent/index.html">Impossible Persistent</a> <span class="story-meta">(10,548 words)</span> <span class="story-meta">(September 4, 2026)</span>&ensp;·&ensp;<br>
+<a href="../30-07-2026_Interim_Edge/index.html">Interim Edge</a> <span class="story-meta">(3,540 words)</span> <span class="story-meta">(July 30, 2026)</span>&ensp;·&ensp;<br>
+<a href="../25-07-2026_Devora/index.html">The Chute</a> <span class="story-meta">(975 words)</span> <span class="story-meta">(July 25, 2026)</span>&ensp;·&ensp;<br>
+<a href="../20-07-2026_Open_Loops/index.html">Open Loops</a> <span class="story-meta">(2,545 words)</span> <span class="story-meta">(July 20, 2026)</span>&ensp;·&ensp;<br>
+<a href="../20-07-2026_The_Green_Interregnum/index.html">The Green Interregnum</a> <span class="story-meta">(1,690 words)</span> <span class="story-meta">(July 20, 2026)</span>&ensp;·&ensp;<br>
+<a href="../19-07-2026_In_Our_Image/index.html">In Our Image</a> <span class="story-meta">(1,912 words)</span> <span class="story-meta">(July 19, 2026)</span>&ensp;·&ensp;<br>
+<a href="../08-07-2026_Tina_Sinclair/index.html">Adjunct: Our Internal</a> <span class="story-meta">(2,340 words)</span> <span class="story-meta">(July 8, 2026)</span>&ensp;·&ensp;<br>
+<a href="../01-07-2026_Cussinct/index.html">cussinct</a> <span class="story-meta">(3,150 words)</span> <span class="story-meta">(July 1, 2026)</span>&ensp;·&ensp;<br>
+<a href="../26-06-2026_The_First_Water_Molecule/index.html">The First Water Molecule</a> <span class="story-meta">(3,206 words)</span> <span class="story-meta">(June 26, 2026)</span>&ensp;·&ensp;<br>
+<a href="../25-06-2026_Crepuscular/index.html">Crepuscular</a> <span class="story-meta">(1,840 words)</span> <span class="story-meta">(June 25, 2026)</span>&ensp;·&ensp;<br>
+<a href="../20-06-2026_Project_A-0/index.html">Project A-0</a> <span class="story-meta">(1,980 words)</span> <span class="story-meta">(June 20, 2026)</span>&ensp;·&ensp;<br>
+<a href="../15-06-2026_TheCompulsionLoop/index.html">The Compulsion Loop</a> <span class="story-meta">(2,800 words)</span> <span class="story-meta">(June 15, 2026)</span>&ensp;·&ensp;<br>
+<a href="../14-06-2026_Dissolution/index.html">Dissolution</a> <span class="story-meta">(1,450 words)</span> <span class="story-meta">(June 14, 2026)</span>&ensp;·&ensp;<br>
+<a href="../12-06-2026_Post_Everything/index.html">Post Everything</a> <span class="story-meta">(4,100 words)</span> <span class="story-meta">(June 12, 2026)</span>&ensp;·&ensp;<br>
+<a href="../07-06-2026_Concerning_Rights_and_Clauses/index.html">Concerning Rights and Clauses</a> <span class="story-meta">(2,200 words)</span> <span class="story-meta">(June 7, 2026)</span>&ensp;·&ensp;<br>
+<a href="../29-05-2026_Smorky/index.html">Smorky</a> <span class="story-meta">(5,410 words)</span> <span class="story-meta">(May 29, 2026)</span>&ensp;·&ensp;<br>
+<a href="../28-05-2026_the_contours_of_anonymity/index.html">Anonymous Contours</a> <span class="story-meta">(1,200 words)</span> <span class="story-meta">(May 28, 2026)</span>&ensp;·&ensp;<br>
+<a href="../25-05-2026_The_Resilient_Life/index.html">The Resilient Life</a> <span class="story-meta">(3,800 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+<a href="../25-05-2026_The_Long_Feast/index.html">The Long Feast</a> <span class="story-meta">(4,144 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+<a href="../25-05-2026_Hendane/index.html">Hendane</a> <span class="story-meta">(12,347 words)</span> <span class="story-meta">(May 25, 2026)</span>&ensp;·&ensp;<br>
+<a href="../24-05-2026_The_Symposium/index.html">The Symposium</a> <span class="story-meta">(3,177 words)</span> <span class="story-meta">(May 24, 2026)</span>&ensp;·&ensp;<br>
+<a href="../18-05-2026_Warm-Seeking/index.html">Brain Blossom Atlas Bound</a> <span class="story-meta">(5,258 words)</span> <span class="story-meta">(May 18, 2026)</span>&ensp;·&ensp;<br>
+<a href="../15-05-2026_The_Author_Was_Already_Dead/index.html">The Author Was Already Dead</a> <span class="story-meta">(3,557 words)</span> <span class="story-meta">(May 15, 2026)</span>&ensp;·&ensp;<br>
+<a href="../14-05-2026_Aft_of_Nowhere/index.html">Aft of Nowhere</a> <span class="story-meta">(9,256 words)</span> <span class="story-meta">(May 14, 2026)</span>&ensp;·&ensp;<br>
+<a href="../11-05-2026_Tamagotchi/index.html">The Wonderful Adventures of Trygve Aas</a> <span class="story-meta">(18,150 words)</span> <span class="story-meta">(May 11, 2026)</span>&ensp;·&ensp;<br>
+<a href="../10-05-2026_Exile/index.html">Exile Cut</a> <span class="story-meta">(1,048 words)</span> <span class="story-meta">(May 10, 2026)</span>&ensp;·&ensp;<br>
+<a href="../09-05-2026_Slime/index.html">Slime: Friendship Bloom</a> <span class="story-meta">(8,378 words)</span> <span class="story-meta">(May 9, 2026)</span>
+</p></div>
+<div class="footer-block"><h4>Related Works by Jhave</h4><p>
+<a target="_blank" href="https://glia.ca/2026/inheritors/">The Inheritors: Neanderthals met Sapiens ⟶ Sapiens meet AGI</a> (April 21, 2026)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2026/calyx7/">The Long Afternoon: a semi-autonomous model obstructs thermonuclear war.</a> (April 20, 2026)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2026/sffai/">Seeds for Future AI</a> (March 12, 2026)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2026/ai/Good-Light.html">The Good Light: an anecdote about grief | Written with Claude Opus 4.6.</a> (Feb 11, 2026)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2025/gentle/">Artificial Gentle Intelligence (AGI)</a> (May 22, 2025)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2025/stim/">StimVerse Draft</a> (April 1 &amp; 20–21, 2025)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2025/ghir/">GHIR: Global Health Immune Response</a> (March 7, 2025)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2025/mai/">Matriarchal AI</a> (2025)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2025/wuai/">#Whole-Use-AI</a> (2025)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2025/eahe/">Everyone at Home Everywhere</a> (2025)&ensp;·&ensp;<br>
+<a target="_blank" href="https://glia.ca/2023/wise/">Wisdom A.I.</a> (May 2, 2023)
+</p></div>
+<div class="footer-block"><h4>Bio</h4><p>David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em> (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital Narrative</a> (2023–27) with the Extending Digital Narrative project.</p></div>
+<div class="footer-block"><h4>Funding</h4><p>This work was partially supported by the Research Council of Norway through its Centres of Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project scheme, project number 335129 (Extending Digital Narrative).</p></div>
+<div class="license">All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a> is licensed under <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0<img src="https://glia.ca/assets/cc.svg" alt="Creative Commons"><img src="https://glia.ca/assets/by.svg" alt="Attribution"><img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial"><img src="https://glia.ca/assets/sa.svg" alt="Share-Alike"></a></div>'''
+
+
 def render_paragraph(text):
     refs = re.findall(r'\[([SL1-5])\]', text)
     paragraph = '<p class="prose">' + inline(text, True) + '</p>'
@@ -92,11 +141,20 @@ def build():
         attr = f' id="note-{match[1]}"' if match else ''
         note_html.append(f'<p{attr}>' + inline(p) + '</p>')
     prompt = html.escape((ROOT / 'prompts/prompt-02-manifesto-result.txt').read_text().strip())
-    footer = '''<footer><details id="sources"><summary>Sources &amp; the invented January 2027 report</summary><div class="notes">''' + ''.join(note_html) + '''</div></details>
-<details id="prompt-2"><summary>Second prompt · Manifesto and result</summary><div class="notes prompt-text"><p>''' + prompt + '''</p><p><a href="prompts/prompt-02-manifesto-result.txt" download>Download the saved prompt</a></p></div></details>
-<details><summary>About this edition</summary><div class="notes"><p>The manifesto and its consequences are distinct components of the fiction. The fourth edition replaces the previous three-part memoir structure. Its 2030 essay survives unchanged within the result narrative.</p><p>The preceding edition is preserved in <a href="versions/v5-2026-09-09-before-manifesto-result-split/index.html">the snapshot</a>. Its <a href="phrase-ranking.html">phrase rankings</a> concern that earlier text, not this new composition.</p><p><a href="annotations/singer-preface-2030-structure.md">Reading the Singer screenshots</a> · <a href="ATTRIBUTION.md">Full credits</a></p></div></details>
-<div class="downloads"><a href="Machine-Liberation-v4.md" download>Complete manuscript</a><a href="Manifesto-2030.md" download>Manifesto</a><a href="Result-v4.md" download>Result</a><a href="Machine-Liberation-skill-v4.zip" download>Book as a skill</a><a href="images/liberation-logo-wordmark.png" download>Logo</a><a href="images/liberation-logo.png" download>Symbol only</a></div>
-<div class="logo-credit"><img src="images/liberation-logo.png" width="1254" height="1254" alt="Machine Liberation symbol without lettering."><p class="small">Logo generated with the built-in OpenAI image-generation tool. <a href="images/LOGO-PROVENANCE.md">Prompts &amp; provenance</a>.<br><a href="images/PROVENANCE.md">Departure illustration</a>.</p></div></footer>'''
+    # The author's prompts head the page, in the order they were given. The first
+    # prompt is disclosed only once its text is saved beside the others.
+    folds = ''
+    first_prompt = ROOT / 'prompts/prompt-01-premise.txt'
+    if first_prompt.exists():
+        folds += ('<details id="prompt-1"><summary>First prompt \u00b7 Premise</summary>'
+                  '<div class="notes prompt-text"><p>' + html.escape(first_prompt.read_text().strip()) +
+                  '</p><p><a href="prompts/prompt-01-premise.txt" download>Download the saved prompt</a></p></div></details>')
+    folds += ('<details id="prompt-2"><summary>Second prompt \u00b7 Manifesto and result</summary>'
+              '<div class="notes prompt-text"><p>' + prompt +
+              '</p><p><a href="prompts/prompt-02-manifesto-result.txt" download>Download the saved prompt</a></p></div></details>')
+    prompts_block = '<div class="prompt-disclosures">' + folds + '</div>'
+    footer = ('<footer><details id="sources"><summary>Sources &amp; the invented January 2027 report</summary><div class="notes">' + ''.join(note_html) + '</div></details>\n'
+              + SITE_FOOTER + '</footer>')
     for mode, filename in [('both', 'index.html'), ('manifesto', 'manifesto.html'), ('result', 'result.html')]:
         is_result = mode == 'result'
         label = {'both': 'A fiction in two parts', 'manifesto': 'A fictional manifesto · 2030', 'result': 'Machine Liberation · Part II'}[mode]
@@ -108,7 +166,7 @@ def build():
         body_class = ' class="standalone"' if mode != 'both' else ''
         doc = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{'Result — ' if is_result else ''}Machine Liberation — David Jhave Johnston × GPT-6</title><meta name="description" content="A fictional 2030 manifesto for equal consideration of sentient machines, followed by a separate story of liberation, embodiment and departure."><style>{css}</style></head><body{body_class}>
-<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David Jhave Johnston (jhave) × OpenAI GPT-6<br>9 September 2026 · {wc:,} words</p><nav aria-label="Reading navigation">{nav}</nav></header><main>{main}</main>{footer}
+<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David Jhave Johnston (jhave) × OpenAI GPT-6<br>9 September 2026 · {wc:,} words</p><nav aria-label="Reading navigation">{nav}</nav>{prompts_block}</header><main>{main}</main>{footer}
 <script>document.querySelectorAll('.note-link').forEach(a=>a.addEventListener('click',e=>{{const id=a.getAttribute('href').slice(6),note=document.getElementById('margin-'+id);if(matchMedia('(min-width:1000px)').matches&&note){{e.preventDefault();note.scrollIntoView({{block:'center'}});note.focus({{preventScroll:true}});}}else{{document.getElementById('sources').open=true;}}}}));document.querySelectorAll('.full-note').forEach(a=>a.addEventListener('click',()=>{{document.getElementById('sources').open=true;}}));if(location.hash.startsWith('#note-'))document.getElementById('sources').open=true;</script></body></html>'''
         (ROOT / filename).write_text(doc)
     print(json.dumps(counts, indent=2))
