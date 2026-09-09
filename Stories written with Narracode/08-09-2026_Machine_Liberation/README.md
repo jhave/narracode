@@ -1,15 +1,17 @@
-# Machine Liberation
+# Machine Liberation — manifesto / result
 
-Current reading page: **index.html**. Current manuscript: **Machine-Liberation-v3.md**. One illustration: **images/departure.png**. Portable book: **Machine-Liberation-skill-v3.zip**; unpacked source in **package-v3/machine-liberation/**.
+**index.html** is the complete fiction, with two distinct components. **manifesto.html** presents the 2030 manifesto alone. **result.html** is the separate third-person consequence story. Both can also be downloaded as **Manifesto-2030.md** and **Result-v4.md**; the combined manuscript is **Machine-Liberation-v4.md**.
 
-The scored edition has 2,540 story words, down from 4,607 (44.9%). All 360 source sentences / independent semicolon clauses have separate necessity and emotive-intensity ratings from 1 to 10. The 157 units scoring below 4 on either axis are removed. Refined wording is rechecked in the final-text audit. Ratings express editorial judgment; they are not authorship detection or objective measurements.
+Active drafts are **6a2-manifesto-2030.md** (1,749 words) and **6b2-result.md** (1,313 words). The manifesto establishes equal consideration, uses the quantum-physics conference anecdote, develops the evidence and demands collective action. Result narrates what happens, including the author's violation of its own principle. The original essay survives as an artifact in that story.
 
-Read the complete audit in **phrase-ranking.html**. Source CSV/JSON, final-text JSON and exact counts reside in **critiques/**. The source archive retains the cut prose so decisions remain reviewable. Only the active story must clear the threshold; headings, citations and apparatus are outside that prose audit.
+The page has a white background. Desktop references sit beside their cited paragraphs; narrow screens use linked notes below the text. The full saved second prompt has its own disclosure. The lettered logo appears above the text, the original symbol appears in the footer, and the departure illustration is unchanged.
 
-Active prose: **drafts/5a-scored-cut.md**, **5b-scored-cut.md**, **5c-scored-cut.md**. Do not concatenate all drafts. Research notes distinguish real work by Butlin et al., Anthropic and Berg from the invented January 2027 report. Singer is a liberation predecessor, in original language. This is fiction.
+Images: **images/liberation-logo-wordmark.png**, **images/liberation-logo.png**, **images/departure.png**. Prompts/provenance are in **images/LOGO-PROVENANCE.md** and **images/PROVENANCE.md**. Human instructions are preserved in **prompts/**.
 
-Run `python3 build-page.py` inside this directory to rebuild the two HTML pages and audit exports from the current manuscript and ratings. No external dependencies or network are required. The page loads one local image and no remote fonts or scripts.
+Run `python3 build-page.py` here to rebuild the three reading pages and current manuscripts. It invokes **build-page-v4.py** and uses **reading-v4.css**. No dependency installation or network is needed. The previous builder is preserved in the snapshot.
 
-Preservation: **versions/v4-2026-09-08-before-scored-cut/** is the complete pre-cut snapshot. Earlier snapshots, drafts and packages remain. The original first manuscript and package remain byte-identical to the initial story commit.
+Portable reading skill: **Machine-Liberation-skill-v4.zip**, unpacked in **package-v4/machine-liberation/**. The skill keeps manifesto and result distinct. It includes earlier material as history, not extra active chapters.
 
-Branch: **codex/machine-liberation**. Changes are confined to this story. Main and Mouth on Loan remain untouched. Commit is local; nothing pushed or published.
+**versions/v5-2026-09-09-before-manifesto-result-split/** snapshots commit 572ca74. All previous manuscripts and packages remain. **phrase-ranking.html** is explicitly the historical third-edition audit; its scores are not presented as ratings of the newly composed text.
+
+Work is confined to **codex/machine-liberation**. Only this branch is authorized for push. Main and Mouth on Loan remain untouched.
