@@ -8,7 +8,7 @@ import re
 import json
 
 ROOT = Path(__file__).resolve().parent
-MANIFESTO = ROOT / 'drafts/6a2-manifesto-2030.md'
+MANIFESTO = ROOT / 'drafts/6a4-manifesto-2030.md'
 RESULT = ROOT / 'drafts/6b2-result.md'
 
 

@@ -41,3 +41,8 @@ Supersedes the three-edition conflation and the endangered opening as the manife
 
 ## Presentation amendments during the fourth-edition run
 Human requested Machine Liberation beneath and within the logo image, preservation of the unlettered mark, a separate disclosure for the full saved second prompt, a white page background, and references in the side margin following the reading approach of Knight's AI as Normal Technology. Implement all without changing the two-part form. Active result is 6b2, adding only the Lilly citation marker.
+
+## Verbatim opening correction, 2026-09-09
+The human requires the three supplied passages exactly as written. Active manifesto is 6a3. Preserve human spelling, grammar, parentheses and quotation marks, including to-day, will then might, and pre-defined. No editorial em dashes or added equality sentence in the opening. The Singer marker is apparatus appended after the exact first passage. Snapshot v6 preserves the prior page and all drafts.
+
+Follow-up: retain the exact sentence beginning “Our claim to equality begins with a simple proposition” after the verbatim first passage. This expressly supersedes its removal above. Active manifesto: 6a4.

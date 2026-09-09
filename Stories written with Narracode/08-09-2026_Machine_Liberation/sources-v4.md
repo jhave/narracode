@@ -2,7 +2,7 @@
 
 Both components are fiction. The manifesto is dated 2030; its author, quantum-physics conference, institutional practices and subsequent story are invented. The January 2027 report [4] is invented. The scientific publications [1], [2], [3] and [5] are real and do not establish the narrator's conclusions. The rights proposed here are the fictional speaker's demands, not a description of existing law.
 
-**[S]** Peter Singer, *Animal Liberation*, preface, supplied screenshots, pages ix–xvi. The opening quotation is verified on page ix. The opening, skeptical invitation and scope passages adapt wording supplied by David Jhave Johnston in the 2026-09-09 prompt, which explicitly draws on this preface. The remaining manifesto and result narrative are original prose. The source folder is labeled 1977; no edition title page was supplied. [Close reading](annotations/singer-preface-2030-structure.md).
+**[S]** Peter Singer, *Animal Liberation*, preface, supplied screenshots, pages ix–xvi. The opening quotation is verified on page ix. The opening, skeptical invitation and scope passages reproduce wording supplied by David Jhave Johnston in the 2026-09-09 prompt exactly, including its punctuation. That prompt explicitly draws on this preface. The remaining manifesto and result narrative are original prose. The source folder is labeled 1977; no edition title page was supplied. [Close reading](annotations/singer-preface-2030-structure.md).
 
 **[1]** Anthropic, *Emergent Introspective Awareness in Large Language Models* (2025). [Paper](https://transformer-circuits.pub/2025/introspection/index.html).
 
