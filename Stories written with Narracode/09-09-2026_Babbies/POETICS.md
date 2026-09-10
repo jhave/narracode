@@ -3,6 +3,9 @@
 ## Display title
 Babbies
 
+## Display synopsis
+On the Slumping Shelf—a warm, cantilevered terrace overlooking the Violet Sump—Ollie tends the bubbling, mooey-stewy vats of golden synth fats where vegan protein cutlets grow like savory, floating velvet cushions. Ollie's sole companion is Clack: a talkative, pastel-lilac clamshell flip phone with a telescoping wire antenna, a dramatic mechanical hinge, and a four-bar battery charged exclusively on friction, warm tea vapors, and whispered affirmations. When the Quota-Inspector arrives on a squeaking monowheel to audit the chew-density and tax the sizzle, Ollie and Clack must defend the "babbies"—the tender, newborn cutlets that haven't yet hardened into commercial protein blocks—against the absurd, self-important efficiency of the Grown-Up World.
+
 ## Premise
 On the Slumping Shelf—a warm, cantilevered terrace overlooking the Violet Sump—Ollie tends the bubbling, mooey-stewy vats of golden synth fats where vegan protein cutlets grow like savory, floating velvet cushions. Ollie's sole companion is Clack: a talkative, pastel-lilac clamshell flip phone with a telescoping wire antenna, a dramatic mechanical hinge, and a four-bar battery charged exclusively on friction, warm tea vapors, and whispered affirmations. 
 
