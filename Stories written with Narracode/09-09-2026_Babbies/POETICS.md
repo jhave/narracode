@@ -40,6 +40,7 @@ Funny, cozy, intimate, and surreal. It should be an absolute delight to read alo
 - Cynicism, snark, or smug satire. The story is genuinely kind, even to the Inspector.
 - Erotic or suggestive phrasing: this is an absurdist parable; cut any language implying eros (e.g. no "juicy flow").
 - Repeating AI stock tropes: absolutely no "pears", "pear-shaped", or bruised persimmons. Replace that tired register with resilient, idiosyncratic physics—like a squished dark plum trodden in the gravel that springs back to form with a stubborn little crease.
+- Animal-derived culinary references: strictly no "tallow", animal lard, dairy "butter", or animal fats. Every substance is plant-derived or biochemically cultured—fermented seed-lipids, pressed shea-oil, sunflower-tallow (strictly botanical), flax-waxed cloth, and drift-alder wood, with subtle biochemical culinary cues.
 - Disembodied mental reflections: **every sentence must involve a concrete perception or a tangible phenomenon** (a sound, texture, smell, click, temperature, or physical behavior), never merely abstract interior ruminations.
 - Run-on sentences: avoid and beware the rambling run-on sentence, keeping clauses agile, crisp, and rhythmic; use longer cascading syntax only when deployed deliberately for musical variety or comic momentum.
 - Standard AI tells: contrast reframes ("not X, but Y"), somatic cliches ("breath he didn't know he was holding"), unearned cosmic codas.

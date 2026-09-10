@@ -1,12 +1,15 @@
 # Obligations
 
 ## Active
-- **The Inspection**: Inspector Grod's monowheel is arriving on the east spur right now; Grod will test Vat Four with the Caliper of Compression.
-- **The Remaining Cutlets**: Two babbies were flipped; two remain face-down in the broth and need turning before Grod reaches the edge.
-- **Clack's Cover**: Clack has snapped shut in panic, warning Ollie to hide the thyme and brace for friction.
+- None. (The seventy-two-hour tenderness exemption protects Vat Four until the next cycle).
 
 ## Resolved
 - Morning wake-up, coriander wipe, and Clack's second-bar lemon-peel recharge completed.
+- Caliper compression threat countered by paddle block and Clack's central exchange bluff.
+- Grod's caloric hunger satisfied through the warm, salted broth-crust.
+- Emergency Exemption 9-B purple stamp applied to Clipboard Seven.
+- Remaining babbies flipped and tucked in shoulder-to-shoulder for the night.
+- Clack safely wrapped in rabbit-flannel and tucked in for battery conservation.
 
 ## At Risk Of Neglect
-- The pressure gauge on the small auxiliary steam pipe needs checking so it doesn't whistle out of tune.
+- The loose bolt on the east spur trestle (noted by Ollie as Grod pedaled away).

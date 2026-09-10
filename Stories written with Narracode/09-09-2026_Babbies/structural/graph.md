@@ -4,7 +4,7 @@
 - **OLLIE**: Apprentice vat-tender on the Slumping Shelf.
   - *Silhouette & Scale*: Short, broad-bottomed, and delightfully lopsided—like a squished dark plum that has been trodden on in the gravel but resiliently popped back into shape, complete with a stubborn little crease at the hip. Carries the quiet, solemn dignity of a small shepherd on an iron ledge.
   - *Head & Hair (The Barometer)*: Round dumpling face dusted with yellow cumin-powder on the left cheek; large, unblinking slate-hazel eyes with candid, unhurried curiosity. Topped with a wild, uncombable shock of dandelion-thistle fluff (pale honey-straw color) that functions as an organic pressure gauge—forming a soft halo at sweet simmer, springing into a vertical question mark when steam spikes, and coiling into horizontal corkscrews when bad weather or auditors approach.
-  - *Garments*: An ankle-length bottle-green oilcloth smock patched with orange corduroy, stiff enough to stand upright on its own. Worn with an absurdly long knitted wool muffler (stripes of burnt ochre, faded bilberry, and marigold) wrapped four times around the throat, with fringes floating horizontally in the vent draft.
+  - *Garments*: An ankle-length bottle-green flax-waxed smock patched with orange corduroy, stiff enough to stand upright on its own. Worn with an absurdly long knitted wool muffler (stripes of burnt ochre, faded bilberry, and marigold) wrapped four times around the throat, with fringes floating horizontally in the vent draft.
   - *Pockets*: Six asymmetrical bellows-pockets:
     1. *Heart Pocket*: Velvet-lined chest pouch where Clack rides, its wire antenna poking past Ollie's collarbone.
     2. *Spice Pocket*: Holds a horn salt-spoon and dried star-anise pods.
@@ -13,7 +13,7 @@
     5. *Lens Cloth*: Red handkerchief for wiping grease from Clack's bitmap screen.
     6. *Scrap Pocket*: Bent brass washers, licorice twine, and spare gasket rubber.
   - *Footwear & Gait*: Mismatched rubber boots—the left is duckling-yellow and whistles (*sqwip*), the right is battleship-grey and thuds (*thud*), creating a syncopated *thud-sqwip, thud-sqwip* waddle along the catwalks.
-  - *Tool*: The **Skim-Spade**—a 3-meter paddle of butter-ash with seven teardrop perforations in its circular scoop, used both to turn the cutlets and to lean upon like a shepherd's crook.
+  - *Tool*: The **Skim-Spade**—a 3-meter paddle of drift-alder with seven teardrop perforations in its circular scoop, used both to turn the cutlets and to lean upon like a shepherd's crook.
   - *Scent*: Toasted sesame, cedarwood steam, wind-dried cotton, and faint battery ozone.
 - **CLACK**: A talkative pastel-lilac clamshell flip phone (model: Tele-Spindle 90). Possesses an extendable brass wire antenna, a sharp mechanical hinge that snaps (*THWAP-CLACK*), and a tiny green-lit bitmap screen that displays pixelated expressions. Charged by wool friction, lemon zest, and spoken compliments. Melodramatic, vain, but fiercely bonded to Ollie.
 - **THE BABBIES**: The tender, floating vegan protein cutlets in Vat Four. Unformed, buoyant, simmering in seasoned synth-fats, requiring patient skimming and gentle hums to prevent gristle.
