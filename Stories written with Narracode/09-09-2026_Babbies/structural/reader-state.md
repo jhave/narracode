@@ -1,13 +1,14 @@
 # Reader State
 
 ## Current Understanding
-- The story begins on a cozy, strange industrial terrace where synth-meat cutlets are nurtured in bubbling fat like seedlings.
-- Ollie is an endearing apprentice accompanied by an absurdly dramatic vintage flip phone.
-- A bureaucratic threat is impending in the form of Inspector Grod.
+- The story has opened with tactile immediacy on the Slumping Shelf: golden bubbling fats, coriander dew, and the three-hundred-foot violet drop into the Sump.
+- Ollie's tactile relationship with Clack is established: Clack is high-maintenance, funny, vulnerable, and charged with lemon peel.
+- The babbies are soft, buoyant protein pillows seasoned with thyme that shouldn't be hurried.
+- The iron screech of Grod's monowheel brings immediate comic and bureaucratic tension to the catwalk.
 
 ## Expectations
-- Expectation of playful, witty Seussian inventiveness mixed with genuine, tender emotional stakes.
-- Curiosity about how a flip phone operates as an intimate character without being an annoying gadget trope.
+- The reader expects Grod to brandish mechanical, rigid measuring tools against the tender babbies.
+- Anticipation of how Clack and Ollie will navigate the inspection.
 
 ## Plausible Defiance Paths
 - Rather than a villainous standoff, Grod's inspection can turn into an unexpectedly tender encounter with culinary nostalgia.
