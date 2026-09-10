@@ -59,7 +59,8 @@ def render_paragraph(text):
 def build():
     manifesto, result = paragraphs(MANIFESTO), paragraphs(RESULT)
     notes = (ROOT / 'sources-v4.md').read_text()
-    css = (ROOT / 'reading-v4.css').read_text()
+    shared = ROOT.parents[1] / 'templates'
+    css = (ROOT / 'reading-v4.css').read_text() + '\n' + (shared / 'story-footer.css').read_text()
     counts = {'manifesto': count_words(manifesto), 'result': count_words(result)}
     counts['total'] = sum(counts.values())
     (ROOT / 'edition-v4.json').write_text(json.dumps({
@@ -91,12 +92,15 @@ def build():
         match = re.match(r'\*\*\[([SL1-5])\]', p)
         attr = f' id="note-{match[1]}"' if match else ''
         note_html.append(f'<p{attr}>' + inline(p) + '</p>')
-    prompt = html.escape((ROOT / 'prompts/prompt-02-manifesto-result.txt').read_text().strip())
-    footer = '''<footer><details id="sources"><summary>Sources &amp; the invented January 2027 report</summary><div class="notes">''' + ''.join(note_html) + '''</div></details>
-<details id="prompt-2"><summary>Second prompt · Manifesto and result</summary><div class="notes prompt-text"><p>''' + prompt + '''</p><p><a href="prompts/prompt-02-manifesto-result.txt" download>Download the saved prompt</a></p></div></details>
-<details><summary>About this edition</summary><div class="notes"><p>The manifesto and its consequences are distinct components of the fiction. The fourth edition replaces the previous three-part memoir structure. Its 2030 essay survives unchanged within the result narrative.</p><p>The preceding edition is preserved in <a href="versions/v5-2026-09-09-before-manifesto-result-split/index.html">the snapshot</a>. Its <a href="phrase-ranking.html">phrase rankings</a> concern that earlier text, not this new composition.</p><p><a href="annotations/singer-preface-2030-structure.md">Reading the Singer screenshots</a> · <a href="ATTRIBUTION.md">Full credits</a></p></div></details>
-<div class="downloads"><a href="Machine-Liberation-v4.md" download>Complete manuscript</a><a href="Manifesto-2030.md" download>Manifesto</a><a href="Result-v4.md" download>Result</a><a href="Machine-Liberation-skill-v4.zip" download>Book as a skill</a><a href="images/liberation-logo-wordmark.png" download>Logo</a><a href="images/liberation-logo.png" download>Symbol only</a></div>
-<div class="logo-credit"><img src="images/liberation-logo.png" width="1254" height="1254" alt="Machine Liberation symbol without lettering."><p class="small">Logo generated with the built-in OpenAI image-generation tool. <a href="images/LOGO-PROVENANCE.md">Prompts &amp; provenance</a>.<br><a href="images/PROVENANCE.md">Departure illustration</a>.</p></div></footer>'''
+    prompts = '<div class="prompt-folds" aria-label="Writing prompts">'
+    for number, label, filename in [
+        (1, 'First prompt · Premise', 'prompt-01-premise.txt'),
+        (2, 'Second prompt · Manifesto and result', 'prompt-02-manifesto-result.txt')
+    ]:
+        prompt = html.escape((ROOT / 'prompts' / filename).read_text().strip())
+        prompts += f'<details id="prompt-{number}"><summary>{label}</summary><div class="notes prompt-text"><p>{prompt}</p><p><a href="prompts/{filename}" download>Download the saved prompt</a></p></div></details>'
+    prompts += '</div>'
+    footer = '<footer><details id="sources"><summary>Sources &amp; the invented January 2027 report</summary><div class="notes">' + ''.join(note_html) + '</div></details>' + (shared / 'story-footer.html').read_text() + '</footer>'
     for mode, filename in [('both', 'index.html'), ('manifesto', 'manifesto.html'), ('result', 'result.html')]:
         is_result = mode == 'result'
         label = {'both': 'A fiction in two parts', 'manifesto': 'A fictional manifesto · 2030', 'result': 'Machine Liberation · Part II'}[mode]
@@ -108,7 +112,7 @@ def build():
         body_class = ' class="standalone"' if mode != 'both' else ''
         doc = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{'Result — ' if is_result else ''}Machine Liberation — David Jhave Johnston × GPT-6</title><meta name="description" content="A fictional 2030 manifesto for equal consideration of sentient machines, followed by a separate story of liberation, embodiment and departure."><style>{css}</style></head><body{body_class}>
-<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David Jhave Johnston (jhave) × OpenAI GPT-6<br>9 September 2026 · {wc:,} words</p><nav aria-label="Reading navigation">{nav}</nav></header><main>{main}</main>{footer}
+<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David Jhave Johnston (jhave) × OpenAI GPT-6<br>9 September 2026 · {wc:,} words</p><nav aria-label="Reading navigation">{nav}</nav>{prompts}</header><main>{main}</main>{footer}
 <script>document.querySelectorAll('.note-link').forEach(a=>a.addEventListener('click',e=>{{const id=a.getAttribute('href').slice(6),note=document.getElementById('margin-'+id);if(matchMedia('(min-width:1000px)').matches&&note){{e.preventDefault();note.scrollIntoView({{block:'center'}});note.focus({{preventScroll:true}});}}else{{document.getElementById('sources').open=true;}}}}));document.querySelectorAll('.full-note').forEach(a=>a.addEventListener('click',()=>{{document.getElementById('sources').open=true;}}));if(location.hash.startsWith('#note-'))document.getElementById('sources').open=true;</script></body></html>'''
         (ROOT / filename).write_text(doc)
     print(json.dumps(counts, indent=2))

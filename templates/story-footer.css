@@ -1,0 +1,13 @@
+/* Shared story catalogue and acknowledgements. */
+.publication-footer { margin: 3rem auto 0; color: #333; font: 15px/1.8 Georgia, 'Times New Roman', serif; overflow-wrap: anywhere; }
+.publication-footer .glia-logo { text-align: center; margin: 0 auto 1.8rem; }
+.publication-footer .glia-logo a { display: inline-block; }
+.publication-footer .glia-logo img { display: block; width: 155px; max-width: 100%; height: auto; margin: 0 auto; }
+.publication-footer .story-index-links, .publication-footer .related, .publication-footer .bio, .publication-footer .funding { margin-top: 1.8rem; padding-top: 1.6rem; border-top: 1px solid #d9dddf; }
+.publication-footer h4 { margin: 0 0 .6rem; font: bold 16px/1.5 Georgia, serif; letter-spacing: .02em; color: #242829; }
+.publication-footer p { margin: 0 0 1em; font-size: 15px; line-height: 1.8; text-align: left; color: #333; }
+.publication-footer a { color: #333; }
+.publication-footer .story-meta { color: #5c6264; font-size: 14px; }
+.publication-footer .license { margin-top: 2.8rem; padding-top: 1.6rem; border-top: 1px solid #d9dddf; text-align: center; font-size: 13px; color: #5c6264; }
+.publication-footer .license img { display: inline-block; width: 18px; height: 18px; vertical-align: middle; margin: 0 0 0 2px; }
+.publication-footer .license a { color: #5c6264; }

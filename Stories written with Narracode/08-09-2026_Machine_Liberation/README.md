@@ -4,16 +4,16 @@
 
 Active drafts are **6a4-manifesto-2030.md** (1,748 words) and **6b2-result.md** (1,313 words). The manifesto establishes equal consideration, uses the quantum-physics conference anecdote, develops the evidence and demands collective action. Result narrates what happens, including the author's violation of its own principle. The original essay survives as an artifact in that story.
 
-The page has a white background. Desktop references sit beside their cited paragraphs; narrow screens use linked notes below the text. The full saved second prompt has its own disclosure. The lettered logo appears above the text, the original symbol appears in the footer, and the departure illustration is unchanged.
+The page has a white background. Desktop references sit beside their cited paragraphs; narrow screens use linked notes below the text. The first and second prompts have separate disclosures at the top, in that order. The shared footer places a linked Glia logo above the story catalogue, related works, biography, funding acknowledgements and license. Sources remain available below the story. The lettered logo and departure illustration are unchanged; the original symbol is preserved in images/.
 
 Images: **images/liberation-logo-wordmark.png**, **images/liberation-logo.png**, **images/departure.png**. Prompts/provenance are in **images/LOGO-PROVENANCE.md** and **images/PROVENANCE.md**. Human instructions are preserved in **prompts/**.
 
-Run `python3 build-page.py` here to rebuild the three reading pages and current manuscripts. It invokes **build-page-v4.py** and uses **reading-v4.css**. No dependency installation or network is needed. The previous builder is preserved in the snapshot.
+Run `python3 build-page.py` here to rebuild the three reading pages and current manuscripts. It invokes **build-page-v4.py**, uses **reading-v4.css**, and reads **../../templates/story-footer.html** and **../../templates/story-footer.css**. No dependency installation or network is needed. The previous builder is preserved in the snapshot.
 
 Portable reading skill: **Machine-Liberation-skill-v4.zip**, unpacked in **package-v4/machine-liberation/**. The skill keeps manifesto and result distinct. It includes earlier material as history, not extra active chapters.
 
 **versions/v5-2026-09-09-before-manifesto-result-split/** snapshots commit 572ca74. All previous manuscripts and packages remain. **phrase-ranking.html** is explicitly the historical third-edition audit; its scores are not presented as ratings of the newly composed text.
 
-Work is confined to **codex/machine-liberation**. Only this branch is authorized for push. Main and Mouth on Loan remain untouched.
+This story remains on **codex/machine-liberation**. The separately authorized Impossible Persistent and Mouth on Loan publication updates are committed to main independently.
 
 Latest correction: **6a4** preserves all three supplied passages verbatim and retains the human-approved equality sentence. **versions/v6-2026-09-09-before-verbatim-opening/** preserves the preceding edition.
