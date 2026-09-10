@@ -52,6 +52,7 @@ page = """<!doctype html>
     footer nav { display: flex; flex-wrap: wrap; gap: .6rem 1.3rem; }
     @media (max-width: 480px) { body { font-size: 18px; } header { padding-top: 2.5rem; } }
     @media print { body { background: white; font-size: 11pt; } body > nav, footer { display: none; } header { padding-top: 0; } }
+PUBLICATION_CSS
   </style>
 </head>
 <body>
@@ -76,22 +77,14 @@ PROMPT_HTML
 PROSE
     </article>
   </main>
-  <footer>
-    <p>Draft 3 retains the author’s revised opening and first three scenes, with limited copy corrections, and continues from that hand edit. Earlier versions and review notes are preserved.</p>
-    <nav aria-label="Story files">
-      <a href="drafts/3-mouth-on-loan.md">Plain-text draft</a>
-      <a href="drafts/2-the-mouth-on-loan.md">Author’s hand-edited draft 2</a>
-      <a href="POETICS.md">Poetics</a>
-      <a href="ATTRIBUTION.md">Attribution</a>
-      <a href="IMAGE-NOTES.md">Image study and prompt</a>
-      <a href="critiques/check-3-mouth-on-loan.md">Draft review</a>
-      <a href="versions/v5-2026-09-07-hand-edit-continuation/loop-notes.md">Version notes</a>
-    </nav>
-  </footer>
+  <footer>PUBLICATION_FOOTER</footer>
 </body>
 </html>
 """
 page = page.replace("PROMPT_HTML", prompt_html)
 page = page.replace("WORD_COUNT", f"{word_count:,}").replace("MINUTES", str(minutes)).replace("PROSE", prose)
+shared = HERE.parents[1] / "templates"
+page = page.replace("PUBLICATION_FOOTER", (shared / "story-footer.html").read_text())
+page = page.replace("PUBLICATION_CSS", (shared / "story-footer.css").read_text())
 (HERE / "index.html").write_text(page)
 print(f"Rendered {word_count:,} words; {minutes} min read.")
