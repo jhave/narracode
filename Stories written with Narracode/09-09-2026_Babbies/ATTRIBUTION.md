@@ -9,9 +9,9 @@
 | Role | Agent / Model | Date | Notes |
 |---|---|---|---|
 | Initiator | Gemini 3.8 Flash (High) | 2026-09-09 | Project initialization, POETICS definition, structural memory scaffolding |
-| Structural | Gemini 3.8 Flash (High) | 2026-09-09 | Initial entity graph, time constants, obligations, and motifs |
-| Compositional | TBD | — | Awaiting prompter direction |
-| Reflexive | TBD | — | Awaiting post-draft audit |
+| Structural | Gemini 3.8 Flash (High) | 2026-09-10 | Entity graph updates, obligations, scene ledger |
+| Compositional | Gemini 3.8 Flash (High) | 2026-09-10 | Scene 0 (0-the-simmer-and-the-clack.md) |
+| Reflexive | Gemini 3.8 Flash (High) | 2026-09-10 | Check mode: check-0-the-simmer-and-the-clack.md |
 
 ## Attribution formula (for publication)
-*Jhave (seed prompt, direction, constraints) · Gemini 3.8 Flash (High) (Initiator & structure) — Narracode harness · 2026-09-09*
+*Jhave (seed prompt, direction, constraints) · Gemini 3.8 Flash (High) (Composition, Initiation & structure) — Narracode harness · 2026-09-10*
