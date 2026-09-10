@@ -2,7 +2,7 @@
 
 ## Characters and Entities
 - **OLLIE**: Apprentice vat-tender on the Slumping Shelf.
-  - *Silhouette & Scale*: Short, broad-bottomed, and delightfully lopsided—like a squished dark plum that has been trodden on in the gravel but resiliently popped back into shape, complete with a stubborn little crease of juicy flow at the hip. Carries the quiet, solemn dignity of a small shepherd on an iron ledge.
+  - *Silhouette & Scale*: Short, broad-bottomed, and delightfully lopsided—like a squished dark plum that has been trodden on in the gravel but resiliently popped back into shape, complete with a stubborn little crease at the hip. Carries the quiet, solemn dignity of a small shepherd on an iron ledge.
   - *Head & Hair (The Barometer)*: Round dumpling face dusted with yellow cumin-powder on the left cheek; large, unblinking slate-hazel eyes with candid, unhurried curiosity. Topped with a wild, uncombable shock of dandelion-thistle fluff (pale honey-straw color) that functions as an organic pressure gauge—forming a soft halo at sweet simmer, springing into a vertical question mark when steam spikes, and coiling into horizontal corkscrews when bad weather or auditors approach.
   - *Garments*: An ankle-length bottle-green oilcloth smock patched with orange corduroy, stiff enough to stand upright on its own. Worn with an absurdly long knitted wool muffler (stripes of burnt ochre, faded bilberry, and marigold) wrapped four times around the throat, with fringes floating horizontally in the vent draft.
   - *Pockets*: Six asymmetrical bellows-pockets:

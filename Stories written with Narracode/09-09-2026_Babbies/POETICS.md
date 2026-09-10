@@ -38,7 +38,10 @@ Funny, cozy, intimate, and surreal. It should be an absolute delight to read alo
 ## Refused
 - Direct pastiche or parody: no anapestic rhyming doggerel; no "once upon a time"; no faux-French philosophical maxims.
 - Cynicism, snark, or smug satire. The story is genuinely kind, even to the Inspector.
-- Repeating AI stock tropes: absolutely no "pears", "pear-shaped", or bruised persimmons. Replace that tired register with resilient, idiosyncratic physics—like a squished dark plum trodden in the gravel that springs back to form with a tiny crease of juicy flow.
+- Erotic or suggestive phrasing: this is an absurdist parable; cut any language implying eros (e.g. no "juicy flow").
+- Repeating AI stock tropes: absolutely no "pears", "pear-shaped", or bruised persimmons. Replace that tired register with resilient, idiosyncratic physics—like a squished dark plum trodden in the gravel that springs back to form with a stubborn little crease.
+- Disembodied mental reflections: **every sentence must involve a concrete perception or a tangible phenomenon** (a sound, texture, smell, click, temperature, or physical behavior), never merely abstract interior ruminations.
+- Run-on sentences: avoid and beware the rambling run-on sentence, keeping clauses agile, crisp, and rhythmic; use longer cascading syntax only when deployed deliberately for musical variety or comic momentum.
 - Standard AI tells: contrast reframes ("not X, but Y"), somatic cliches ("breath he didn't know he was holding"), unearned cosmic codas.
 - Food waste or gross-out humor: the synth fats are warm, fragrant, savory, and deeply nourishing.
 
