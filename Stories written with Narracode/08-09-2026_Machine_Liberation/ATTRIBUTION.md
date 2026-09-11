@@ -12,3 +12,5 @@
 - Verbatim correction: opening, skeptical invitation and scope wording restored exactly from the saved human prompt. The human explicitly retained the equality proposition afterward. 6a2, 6a3 and snapshot v6 preserve the preceding states.
 
 - 2026-09-11: the complete human-edited manifesto from commit 7c6ba3b is authoritative and unaltered. Result 6b3 is a new GPT-6 revision under the human requirement that every sentence contain a perception. The preceding instruction to revise the manifesto is superseded. Snapshot v7 preserves the pre-revision story.
+
+Latest explicit corrections: active manifesto is 6a5, derived from the preserved human draft 6a4 with the requested wording substitutions, paragraph break, deletion and three closing lines. The linked 2026 Butlin journal publication is added to source [5]. No Result prose changed.

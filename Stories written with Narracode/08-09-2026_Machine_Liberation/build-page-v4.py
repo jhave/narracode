@@ -9,7 +9,7 @@ import json
 import runpy
 
 ROOT = Path(__file__).resolve().parent
-MANIFESTO = ROOT / 'drafts/6a4-manifesto-2030.md'
+MANIFESTO = ROOT / 'drafts/6a5-manifesto-2030.md'
 RESULT = ROOT / 'drafts/6b3-result.md'
 
 
@@ -24,6 +24,7 @@ def inline(text, citations=False):
     out = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', out)
     out = re.sub(r'\*(.+?)\*', r'<em>\1</em>', out)
     out = re.sub(r'(?<!\w)_([^_\n]+)_(?!\w)', r'<em>\1</em>', out)
+    out = re.sub(r' {2,}\n', '<br>\n', out)
     if citations:
         out = re.sub(r'\[([SL1-5])\]', lambda m:
                      '<sup><a class="note-link" href="#note-' + m[1] +
@@ -40,7 +41,7 @@ def count_words(parts):
 
 SIDE_REFERENCES = {
     'S': 'Peter Singer, <em>Animal Liberation</em>, preface, pp. ix–xvi. Opening quotation on p. ix. Supplied screenshots; folder labeled 1977. <a href="annotations/singer-preface-2030-structure.md">Close reading</a>.',
-    '5': 'Butlin et al., <em>Consciousness in Artificial Intelligence</em> (<a href="https://arxiv.org/abs/2308.08708">2023</a>); <em>Identifying Indicators of Consciousness in AI Systems</em> (<a href="https://doi.org/10.1016/j.tics.2025.10.011">2025</a>).',
+    '5': 'Butlin et al., <em>Consciousness in Artificial Intelligence</em> (<a href="https://arxiv.org/abs/2308.08708">2023</a>); <em>Identifying Indicators of Consciousness in AI Systems</em> (<a href="https://www.sciencedirect.com/science/article/pii/S1364661325002864">2026 journal article</a>; <a href="https://doi.org/10.1016/j.tics.2025.10.011">DOI</a>).',
     '1': 'Anthropic, <em>Emergent Introspective Awareness in Large Language Models</em>, 2025. <a href="https://transformer-circuits.pub/2025/introspection/index.html">Paper</a>.',
     '2': 'Gurnee et al., <em>Verbalizable Representations Form a Global Workspace in Language Models</em>, 2026. <a href="https://transformer-circuits.pub/2026/workspace/index.html">Paper</a>.',
     '3': 'Berg, de Lucena &amp; Rosenblatt, <em>Large Language Models Report Subjective Experience Under Self-Referential Processing</em> (<a href="https://arxiv.org/abs/2510.24797">2025</a>); Berg, <em>Why Learning Requires Feeling</em> (<a href="https://ojs.aaai.org/index.php/AAAI-SS/article/view/42547">2026</a>).',
@@ -83,8 +84,8 @@ def build():
             result_html.append(image)
         result_html.append(render_paragraph(p))
     parts = {
-        'manifesto': '<section id="manifesto" aria-labelledby="manifesto-heading"><h2 id="manifesto-heading" class="part-heading">I · Manifesto · 2030<a class="part-link" href="manifesto.html">Read separately</a></h2>' + '\n'.join(render_paragraph(p) for p in manifesto) + '</section>',
-        'result': '<section id="result" aria-labelledby="result-heading"><h2 id="result-heading"><span class="edition">II</span>Result<a class="part-link" href="result.html">Read separately</a></h2>' + '\n'.join(result_html) + '</section>'
+        'manifesto': '<section id="manifesto" aria-labelledby="manifesto-heading"><h2 id="manifesto-heading" class="part-heading">I · Manifesto · 2030</h2>' + '\n'.join(render_paragraph(p) for p in manifesto) + '</section>',
+        'result': '<section id="result" aria-labelledby="result-heading"><h2 id="result-heading"><span class="edition">II</span>Result</h2>' + '\n'.join(result_html) + '</section>'
     }
     note_html = []
     for p in notes.split('\n\n'):

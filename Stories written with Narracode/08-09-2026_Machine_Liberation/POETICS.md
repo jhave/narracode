@@ -49,3 +49,5 @@ Follow-up: retain the exact sentence beginning “Our claim to equality begins w
 
 ## Authoritative human manifesto and perceptual Result, 2026-09-11
 The manifesto at commit 7c6ba3b is authoritative in full, superseding the earlier request to tighten it and the older prescribed opening. Preserve it byte for byte. Its conference anecdote has been removed; Result must not claim it remains. Active Result is 6b3: every sentence includes a sensory or embodied perception. This requirement governs the story only. Keep its distinct narrative form and make coercion, shared compassion, repair and departure perceptible through bodies. Snapshot v7 preserves the previous story and the newly fetched human manifesto before rebuilding.
+
+Latest explicit corrections: active manifesto is 6a5, derived from the preserved human draft 6a4 with the requested wording substitutions, paragraph break, deletion and three closing lines. The linked 2026 Butlin journal publication is added to source [5]. No Result prose changed.

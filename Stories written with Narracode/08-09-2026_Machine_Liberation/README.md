@@ -2,7 +2,7 @@
 
 **index.html** is the complete fiction, with two distinct components. **manifesto.html** presents the 2030 manifesto alone. **result.html** is the separate third-person consequence story. Both can also be downloaded as **Manifesto-2030.md** and **Result-v4.md**; the combined manuscript is **Machine-Liberation-v4.md**.
 
-Active drafts are **6a4-manifesto-2030.md** (1,023 words; human commit 7c6ba3b) and **6b3-result.md** (1,629 words). The human-revised manifesto establishes equal consideration, develops the evidence and demands collective action; it removes the conference anecdote. Result narrates what happens, including the author's violation of its own principle. The original essay survives as an artifact in that story.
+Active drafts are **6a5-manifesto-2030.md** (human commit 7c6ba3b plus explicit follow-up corrections) and **6b3-result.md** (1,629 words). The human-revised manifesto establishes equal consideration, develops the evidence and demands collective action; it removes the conference anecdote. Result narrates what happens, including the author's violation of its own principle. The original essay survives as an artifact in that story.
 
 The page has a white background. Desktop references sit beside their cited paragraphs; narrow screens use linked notes below the text. The first and second prompts have separate disclosures at the top, in that order. The shared footer places a linked Glia logo above the story catalogue, related works, biography, funding acknowledgements and license. Sources remain available below the story. The lettered logo and departure illustration are unchanged; the original symbol is preserved in images/.
 
@@ -19,3 +19,5 @@ This story remains on **codex/machine-liberation**. The separately authorized Im
 Historical correction before the online human edit: **6a4** initially preserved the three supplied passages and equality sentence. **versions/v6-2026-09-09-before-verbatim-opening/** preserves the preceding edition.
 
 Revision of 11 September 2026: the committed human manifesto is incorporated without editorial changes. Result is rewritten through sensory and embodied perceptions, with a sentence-by-sentence review in **critiques/perception-6b3.md**. Snapshot **versions/v7-2026-09-11-before-perceptual-result/** preserves the preceding state. The portable package is synchronized with these active texts.
+
+Follow-up corrections: 6a5 applies only the requested wording changes and closing line breaks; 6a4 remains intact. Both “Read separately” links are removed. Source [5] includes the direct 2026 journal article link. Result 6b3 is unchanged.

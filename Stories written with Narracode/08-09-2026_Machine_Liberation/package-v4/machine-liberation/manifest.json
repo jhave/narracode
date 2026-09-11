@@ -8,17 +8,18 @@
     "assets/result.md"
   ],
   "files": {
-    "SKILL.md": "1c8ad9f6dbdd0c4e362bea79d60471623d40a3c5db1227ea0390db5cc23e400a",
+    "SKILL.md": "fe232a7c305569dfa06439de36574a0995b3f6f1ed67c27aa2d1c73699631532",
     "assets/annotations/singer-preface-2030-structure.md": "8615ab43f3e3e3f4611e0558137535d525ccf72875deb5e8f1e791d5d88dd121",
-    "assets/book.md": "487160708d7686bd8918e312f597aba4b6ff9b6782657bab5b4b3063ebb2cb0e",
-    "assets/manifesto.md": "78745ad9dfdbd688da8e51969ca36e0635f277d5bf0eea18b819ec025ccddf58",
+    "assets/book.md": "9b00ecdda94ab922ddd77d9de58d4c3b13768274808c4d7375b64973c929f978",
+    "assets/manifesto.md": "e9e1202a7eb8f1711010b1343e3f7f8867246f983d0cc35a865a68bc51881a37",
     "assets/result.md": "886bb7fd27bc8f7706824291d713627a9162326068f1cc19fe5e6bca6c8ebd74",
-    "references/attribution.md": "4c190f5bf8e1d79f2b23bc6b7b1d737b2c22061500ac8f13402ef704311d9888",
+    "references/attribution.md": "1ad686f05499daa41f2edae6dbb397b000c9b0d5f92604d948347bc369fcd6c3",
     "references/consciousness-research.md": "72695a3c38d69aedc07384c19edd4cb7ab4d7fc424b010b6e9eba4b2dd9afe61",
     "references/precedents.md": "3e8c95a0dd1d89482bb74f0e753e03cd7700e1b0c151a3b9c5943b4906854e62",
     "references/previous-edition.md": "4c2ba220132437325d62a5da7bb1cc85098714ffabeb752d33c34d00cb3afffa",
     "references/prompt-02.txt": "c9e47e38c2a4e42aab8e424f97c48fbb9567bd69aba7fabb73117534ed37a6e8"
   },
-  "human_manifesto_commit": "7c6ba3b",
-  "result_draft": "6b3-result.md"
+  "result_draft": "6b3-result.md",
+  "human_manifesto_base_commit": "7c6ba3b",
+  "manifesto_draft": "6a5-manifesto-2030.md"
 }
