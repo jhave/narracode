@@ -1,0 +1,1 @@
+insert words "Machine Liberation" beneath and in logo (backup version without words don't overwrite perhaps its useful for bottom) and put the saved second prompt in its own fold

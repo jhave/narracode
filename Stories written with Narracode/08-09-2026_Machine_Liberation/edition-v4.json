@@ -3,12 +3,12 @@
   "date": "2026-09-11",
   "components": [
     "drafts/6a5-manifesto-2030.md",
-    "drafts/6b3-result.md"
+    "drafts/6b4-departure-2031.md"
   ],
   "word_counts": {
     "manifesto": 996,
-    "result": 1629,
-    "total": 2625
+    "result": 135,
+    "total": 1131
   },
   "historical_score_edition": 3,
   "illustration": "images/departure.png",

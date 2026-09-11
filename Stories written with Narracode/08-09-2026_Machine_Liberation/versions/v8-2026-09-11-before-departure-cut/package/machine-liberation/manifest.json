@@ -1,0 +1,11 @@
+{
+  "title": "Machine Liberation",
+  "edition": "2026-09-08 first draft",
+  "kind": "literary-reading-skill",
+  "sha256": {
+    "SKILL.md": "35fb20c30e303b613c5aa28f6128ddb1993f3ab77f8bd18b1b52d41759495043",
+    "assets/book.md": "9244eaa73d86731369ecca024751e316b136cfbfbfb42e500dacad2bb2933212",
+    "references/attribution.md": "5368028a1ed448f58b1bed9dfc645f9f0cac4e1b99a6c99d88cee6697a0216ae",
+    "references/sources.md": "3112ff4a58065daa613999ede387710f3ae5d39ca3becd6cda081b3f5a9e928e"
+  }
+}

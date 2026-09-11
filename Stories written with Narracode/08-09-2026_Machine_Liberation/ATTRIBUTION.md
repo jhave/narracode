@@ -14,3 +14,5 @@
 - 2026-09-11: the complete human-edited manifesto from commit 7c6ba3b is authoritative and unaltered. Result 6b3 is a new GPT-6 revision under the human requirement that every sentence contain a perception. The preceding instruction to revise the manifesto is superseded. Snapshot v7 preserves the pre-revision story.
 
 Latest explicit corrections: active manifesto is 6a5, derived from the preserved human draft 6a4 with the requested wording substitutions, paragraph break, deletion and three closing lines. The linked 2026 Butlin journal publication is added to source [5]. No Result prose changed.
+
+Departure-only trial, 2026-09-11: the human replaces the full Result with the title “2031: The Departure,” the retained illustration, and the exact passage beginning “On departure morning.” Active 6b4 supersedes the decades-long narrative for this version; 6b3 and snapshot v8 preserve it. Manifesto 6a5 is unchanged. The local footer is matched to the published main index without modifying main.
