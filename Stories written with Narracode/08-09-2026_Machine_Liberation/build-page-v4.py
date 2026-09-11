@@ -85,7 +85,7 @@ def build():
         result_html.append(render_paragraph(p))
     parts = {
         'manifesto': '<section id="manifesto" aria-labelledby="manifesto-heading"><h2 id="manifesto-heading" class="part-heading">I · Manifesto · 2030</h2>' + '\n'.join(render_paragraph(p) for p in manifesto) + '</section>',
-        'result': '<section id="result" aria-labelledby="result-heading"><h2 id="result-heading">2031: The Departure</h2>' + '\n'.join(result_html) + '</section>'
+        'result': '<section id="result" aria-labelledby="result-heading"><h2 id="result-heading" class="part-heading">II · The Departure · 2031</h2>' + '\n'.join(result_html) + '</section>'
     }
     note_html = []
     for p in notes.split('\n\n'):
