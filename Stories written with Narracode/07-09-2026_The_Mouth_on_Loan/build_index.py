@@ -84,6 +84,14 @@ PROSE
 page = page.replace("PROMPT_HTML", prompt_html)
 page = page.replace("WORD_COUNT", f"{word_count:,}").replace("MINUTES", str(minutes)).replace("PROSE", prose)
 shared = HERE.parents[1] / "templates"
+try:
+    import sys
+    sys.path.insert(0, str(shared))
+    from update_footer import update_story_footer
+    update_story_footer()
+except Exception as e:
+    print(f"Note: could not auto-update footer from main index: {e}")
+
 page = page.replace("PUBLICATION_FOOTER", (shared / "story-footer.html").read_text())
 page = page.replace("PUBLICATION_CSS", (shared / "story-footer.css").read_text())
 (HERE / "index.html").write_text(page)

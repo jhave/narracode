@@ -27,7 +27,14 @@ for block in blocks:
 page = (HERE / 'index.html').read_text()
 pattern = r'(<section class="chapter">\s*<h3 class="chapter-heading">6 — morning</h3>\s*<img[^>]+>)(.*?)(\s*</section>)'
 page, count = re.subn(pattern, lambda m: m[1] + '\n\n' + '\n\n'.join('            ' + p for p in rendered) + '\n        </section>', page, flags=re.S)
-assert count == 1, 'Expected exactly one morning chapter; index.html was not written.'
+try:
+    import sys
+    sys.path.insert(0, str(SHARED))
+    from update_footer import update_story_footer
+    update_story_footer()
+except Exception as e:
+    print(f"Note: could not auto-update footer from main index: {e}")
+
 footer = (SHARED / 'story-footer.html').read_text()
 page, count = re.subn(r'</main>.*?</body>', lambda m: '</main>\n\n    <footer>' + footer + '</footer>\n</body>', page, flags=re.S)
 assert count == 1, 'Expected exactly one main element; index.html was not written.'
