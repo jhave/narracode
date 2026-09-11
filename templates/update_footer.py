@@ -62,35 +62,6 @@ def scan_stories(root_dir=None):
                 "sort_key": sort_key
             }
 
-    # Check on-disk stories for any additional published ones (e.g. Interim Edge)
-    base_dir = root / "Stories written with Narracode"
-    if base_dir.exists():
-        for d in base_dir.iterdir():
-            if d.is_dir() and (d / "index.html").exists() and d.name not in stories:
-                d_idx = (d / "index.html").read_text(encoding="utf-8")
-                title_m = re.search(r"<title>(.*?)(?:—.*)?</title>", d_idx)
-                raw_title = title_m.group(1).strip() if title_m else d.name
-                title = SHORT_TITLES.get(d.name, raw_title)
-
-                words_m = re.search(r"([\d,]+)\s*words", d_idx)
-                words = f"{words_m.group(1)} words" if words_m else ""
-
-                m = re.match(r"^(\d{2})-(\d{2})-(\d{4})", d.name)
-                if m:
-                    date_str = f"{MONTHS.get(m.group(2), m.group(2))} {int(m.group(1))}, {m.group(3)}"
-                    sort_key = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
-                else:
-                    date_str = ""
-                    sort_key = d.name
-
-                stories[d.name] = {
-                    "folder": d.name,
-                    "title": title,
-                    "words": words,
-                    "date": date_str,
-                    "sort_key": sort_key
-                }
-
     return sorted(stories.values(), key=lambda s: s["sort_key"], reverse=True)
 
 
