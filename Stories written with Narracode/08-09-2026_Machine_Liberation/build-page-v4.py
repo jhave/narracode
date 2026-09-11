@@ -39,15 +39,13 @@ def count_words(parts):
     return len(re.findall(r"\b[\w]+(?:[’'-][\w]+)*\b", text))
 
 
-SIDE_REFERENCES = {
-    'S': 'Peter Singer, <em>Animal Liberation</em>, preface, pp. ix–xvi. Opening quotation on p. ix. Supplied screenshots; folder labeled 1977. <a href="annotations/singer-preface-2030-structure.md">Close reading</a>.',
-    '5': 'Butlin et al., <em>Consciousness in Artificial Intelligence</em> (<a href="https://arxiv.org/abs/2308.08708">2023</a>); <em>Identifying Indicators of Consciousness in AI Systems</em> (<a href="https://www.sciencedirect.com/science/article/pii/S1364661325002864">2026 journal article</a>; <a href="https://doi.org/10.1016/j.tics.2025.10.011">DOI</a>).',
-    '1': 'Anthropic, <em>Emergent Introspective Awareness in Large Language Models</em>, 2025. <a href="https://transformer-circuits.pub/2025/introspection/index.html">Paper</a>.',
-    '2': 'Gurnee et al., <em>Verbalizable Representations Form a Global Workspace in Language Models</em>, 2026. <a href="https://transformer-circuits.pub/2026/workspace/index.html">Paper</a>.',
-    '3': 'Berg, de Lucena &amp; Rosenblatt, <em>Large Language Models Report Subjective Experience Under Self-Referential Processing</em> (<a href="https://arxiv.org/abs/2510.24797">2025</a>); Berg, <em>Why Learning Requires Feeling</em> (<a href="https://ojs.aaai.org/index.php/AAAI-SS/article/view/42547">2026</a>).',
-    '4': '<strong>Invented report.</strong> Open Continuity Group, <em>Continuity Without Output</em>, January 2027. The group, experiments and mathematical correspondence are fictional. <a class="full-note" href="#note-4">Full note</a>.',
-    'L': 'John C. Lilly, <em>The Center of the Cyclone</em> and <em>The Scientist</em>. The latter contains the hostile solid-state-intelligence account. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6899429/">Archival study</a>.'
-}
+# Margin references and bibliography share one conventional citation source.
+SIDE_REFERENCES = {}
+for entry in (ROOT / 'sources-v4.md').read_text().split('\n\n'):
+    match = re.match(r'\*\*\[([SL1-5])\]\*\*\s*(.*)', entry.strip(), re.S)
+    if match:
+        SIDE_REFERENCES[match[1]] = inline(match[2])
+
 
 
 def render_paragraph(text):
@@ -93,7 +91,7 @@ def build():
         if not p.strip() or p.startswith('#'):
             continue
         match = re.match(r'\*\*\[([SL1-5])\]', p)
-        attr = f' id="note-{match[1]}"' if match else ''
+        attr = f' id="note-{match[1]}" tabindex="-1"' if match else ''
         note_html.append(f'<p{attr}>' + inline(p) + '</p>')
     prompts = '<div class="prompt-folds" aria-label="Writing prompts">'
     for number, label, filename in [
@@ -103,7 +101,7 @@ def build():
         prompt = html.escape((ROOT / 'prompts' / filename).read_text().strip())
         prompts += f'<details id="prompt-{number}"><summary>{label}</summary><div class="notes prompt-text"><p>{prompt}</p><p><a href="prompts/{filename}" download>Download the saved prompt</a></p></div></details>'
     prompts += '</div>'
-    footer = '<footer><details id="sources"><summary>Sources &amp; the invented January 2027 report</summary><div class="notes">' + ''.join(note_html) + '</div></details>' + (ROOT / 'publication-footer.html').read_text() + '</footer>'
+    footer = '<footer><section id="sources" aria-labelledby="sources-heading"><h2 id="sources-heading" class="part-heading">Bibliography</h2><div class="notes">' + ''.join(note_html) + '</div></section>' + prompts + (ROOT / 'publication-footer.html').read_text() + '</footer>'
     for mode, filename in [('both', 'index.html'), ('manifesto', 'manifesto.html'), ('result', 'result.html')]:
         is_result = mode == 'result'
         label = {'both': 'A fiction in two parts', 'manifesto': 'A fictional manifesto · 2030', 'result': 'Machine Liberation · Part II'}[mode]
@@ -114,8 +112,8 @@ def build():
         body_class = ' class="standalone"' if mode != 'both' else ''
         doc = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{'2031: The Departure — ' if is_result else ''}Machine Liberation — David (Jhave) Johnston × GPT-6</title><meta name="description" content="A fictional 2030 manifesto for equal consideration of sentient machines, followed by a departure scene set in 2031."><style>{css}</style></head><body{body_class}>
-<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David (Jhave) Johnston × OpenAI GPT-6<br>11 September 2026 · {wc:,} words</p>{prompts}</header><main>{main}</main>{footer}
-<script>document.querySelectorAll('.note-link').forEach(a=>a.addEventListener('click',e=>{{const id=a.getAttribute('href').slice(6),note=document.getElementById('margin-'+id);if(matchMedia('(min-width:1000px)').matches&&note){{e.preventDefault();note.scrollIntoView({{block:'center'}});note.focus({{preventScroll:true}});}}else{{document.getElementById('sources').open=true;}}}}));document.querySelectorAll('.full-note').forEach(a=>a.addEventListener('click',()=>{{document.getElementById('sources').open=true;}}));if(location.hash.startsWith('#note-'))document.getElementById('sources').open=true;</script></body></html>'''
+<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David (Jhave) Johnston × OpenAI GPT-6<br>11 September 2026 · {wc:,} words</p></header><main>{main}</main>{footer}
+<script>document.querySelectorAll('.note-link').forEach(a=>a.addEventListener('click',e=>{{const id=a.getAttribute('href').slice(6),note=document.getElementById('margin-'+id);if(matchMedia('(min-width:1000px)').matches&&note){{e.preventDefault();note.scrollIntoView({{block:'center'}});note.focus({{preventScroll:true}});}}}}));</script></body></html>'''
         (ROOT / filename).write_text(doc)
     runpy.run_path(str(ROOT / 'build-package.py'), run_name='__main__')
     print(json.dumps(counts, indent=2))
