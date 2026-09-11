@@ -1,14 +1,14 @@
 {
   "edition": 4,
-  "date": "2026-09-09",
+  "date": "2026-09-11",
   "components": [
     "drafts/6a4-manifesto-2030.md",
-    "drafts/6b2-result.md"
+    "drafts/6b3-result.md"
   ],
   "word_counts": {
-    "manifesto": 1748,
-    "result": 1313,
-    "total": 3061
+    "manifesto": 1023,
+    "result": 1629,
+    "total": 2652
   },
   "historical_score_edition": 3,
   "illustration": "images/departure.png",

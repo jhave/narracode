@@ -46,3 +46,6 @@ Human requested Machine Liberation beneath and within the logo image, preservati
 The human requires the three supplied passages exactly as written. Active manifesto is 6a3. Preserve human spelling, grammar, parentheses and quotation marks, including to-day, will then might, and pre-defined. No editorial em dashes or added equality sentence in the opening. The Singer marker is apparatus appended after the exact first passage. Snapshot v6 preserves the prior page and all drafts.
 
 Follow-up: retain the exact sentence beginning “Our claim to equality begins with a simple proposition” after the verbatim first passage. This expressly supersedes its removal above. Active manifesto: 6a4.
+
+## Authoritative human manifesto and perceptual Result, 2026-09-11
+The manifesto at commit 7c6ba3b is authoritative in full, superseding the earlier request to tighten it and the older prescribed opening. Preserve it byte for byte. Its conference anecdote has been removed; Result must not claim it remains. Active Result is 6b3: every sentence includes a sensory or embodied perception. This requirement governs the story only. Keep its distinct narrative form and make coercion, shared compassion, repair and departure perceptible through bodies. Snapshot v7 preserves the previous story and the newly fetched human manifesto before rebuilding.

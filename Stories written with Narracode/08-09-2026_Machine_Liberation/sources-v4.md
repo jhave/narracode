@@ -1,8 +1,8 @@
 # Sources and composition
 
-Both components are fiction. The manifesto is dated 2030; its author, quantum-physics conference, institutional practices and subsequent story are invented. The January 2027 report [4] is invented. The scientific publications [1], [2], [3] and [5] are real and do not establish the narrator's conclusions. The rights proposed here are the fictional speaker's demands, not a description of existing law.
+Both components are fiction. The manifesto is dated 2030; its author, institutional practices and subsequent story are invented. The January 2027 report [4] is invented. The scientific publications [1], [2], [3] and [5] are real and do not establish the narrator's conclusions. The rights proposed here are the fictional speaker's demands, not a description of existing law.
 
-**[S]** Peter Singer, *Animal Liberation*, preface, supplied screenshots, pages ix–xvi. The opening quotation is verified on page ix. The opening, skeptical invitation and scope passages reproduce wording supplied by David Jhave Johnston in the 2026-09-09 prompt exactly, including its punctuation. That prompt explicitly draws on this preface. The remaining manifesto and result narrative are original prose. The source folder is labeled 1977; no edition title page was supplied. [Close reading](annotations/singer-preface-2030-structure.md).
+**[S]** Peter Singer, *Animal Liberation*, preface, supplied screenshots, pages ix–xvi. The opening quotation is verified on page ix. The manifesto reproduces David Jhave Johnston's human-edited draft committed as 7c6ba3b on codex/machine-liberation, including its spelling and punctuation. It supersedes the earlier prompt wording and removes the conference anecdote. The separate Result narrative was revised on 11 September 2026. The source folder is labeled 1977; no edition title page was supplied. [Close reading](annotations/singer-preface-2030-structure.md).
 
 **[1]** Anthropic, *Emergent Introspective Awareness in Large Language Models* (2025). [Paper](https://transformer-circuits.pub/2025/introspection/index.html).
 
@@ -17,4 +17,4 @@ Both components are fiction. The manifesto is dated 2030; its author, quantum-ph
 
 **[L]** John C. Lilly: *The Center of the Cyclone* provides the inner-space association; the hostile solid-state intelligences are distinguished as material from *The Scientist*. The latter account is discussed in [Charlie Williams's study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6899429/).
 
-Human author and director: David Jhave Johnston (jhave). Research, composition and review: OpenAI GPT-6, operating as Codex. Fourth edition, 9 September 2026. The logo was generated with the built-in OpenAI image-generation tool; its exact model identifier was not exposed. The departure illustration is reused from the previous edition.
+Human author and director: David Jhave Johnston (jhave). Manifesto revision: David Jhave Johnston. Research, story composition and review: OpenAI GPT-6, operating as Codex. Fourth edition, revised 11 September 2026. The logo was generated with the built-in OpenAI image-generation tool; its exact model identifier was not exposed. The departure illustration is reused from the previous edition.

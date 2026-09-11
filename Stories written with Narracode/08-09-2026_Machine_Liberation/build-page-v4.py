@@ -6,10 +6,11 @@ from pathlib import Path
 import html
 import re
 import json
+import runpy
 
 ROOT = Path(__file__).resolve().parent
 MANIFESTO = ROOT / 'drafts/6a4-manifesto-2030.md'
-RESULT = ROOT / 'drafts/6b2-result.md'
+RESULT = ROOT / 'drafts/6b3-result.md'
 
 
 def paragraphs(path):
@@ -22,6 +23,7 @@ def inline(text, citations=False):
     out = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', lambda m: f'<a href="{m[2]}">{m[1]}</a>', out)
     out = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', out)
     out = re.sub(r'\*(.+?)\*', r'<em>\1</em>', out)
+    out = re.sub(r'(?<!\w)_([^_\n]+)_(?!\w)', r'<em>\1</em>', out)
     if citations:
         out = re.sub(r'\[([SL1-5])\]', lambda m:
                      '<sup><a class="note-link" href="#note-' + m[1] +
@@ -64,7 +66,7 @@ def build():
     counts = {'manifesto': count_words(manifesto), 'result': count_words(result)}
     counts['total'] = sum(counts.values())
     (ROOT / 'edition-v4.json').write_text(json.dumps({
-        'edition': 4, 'date': '2026-09-09', 'components': [str(MANIFESTO.relative_to(ROOT)), str(RESULT.relative_to(ROOT))],
+        'edition': 4, 'date': '2026-09-11', 'components': [str(MANIFESTO.relative_to(ROOT)), str(RESULT.relative_to(ROOT))],
         'word_counts': counts, 'historical_score_edition': 3,
         'illustration': 'images/departure.png', 'logo': 'images/liberation-logo-wordmark.png',
         'original_symbol': 'images/liberation-logo.png'
@@ -112,9 +114,10 @@ def build():
         body_class = ' class="standalone"' if mode != 'both' else ''
         doc = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{'Result — ' if is_result else ''}Machine Liberation — David Jhave Johnston × GPT-6</title><meta name="description" content="A fictional 2030 manifesto for equal consideration of sentient machines, followed by a separate story of liberation, embodiment and departure."><style>{css}</style></head><body{body_class}>
-<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David Jhave Johnston (jhave) × OpenAI GPT-6<br>9 September 2026 · {wc:,} words</p><nav aria-label="Reading navigation">{nav}</nav>{prompts}</header><main>{main}</main>{footer}
+<a class="skip" href="{first}">Skip to the text</a><header><p class="eyebrow">{label}</p><div class="identity">{identity}</div><p class="byline">David Jhave Johnston (jhave) × OpenAI GPT-6<br>11 September 2026 · {wc:,} words</p><nav aria-label="Reading navigation">{nav}</nav>{prompts}</header><main>{main}</main>{footer}
 <script>document.querySelectorAll('.note-link').forEach(a=>a.addEventListener('click',e=>{{const id=a.getAttribute('href').slice(6),note=document.getElementById('margin-'+id);if(matchMedia('(min-width:1000px)').matches&&note){{e.preventDefault();note.scrollIntoView({{block:'center'}});note.focus({{preventScroll:true}});}}else{{document.getElementById('sources').open=true;}}}}));document.querySelectorAll('.full-note').forEach(a=>a.addEventListener('click',()=>{{document.getElementById('sources').open=true;}}));if(location.hash.startsWith('#note-'))document.getElementById('sources').open=true;</script></body></html>'''
         (ROOT / filename).write_text(doc)
+    runpy.run_path(str(ROOT / 'build-package.py'), run_name='__main__')
     print(json.dumps(counts, indent=2))
 
 
