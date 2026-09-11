@@ -1,0 +1,1 @@
+Snapshot before restoring the human-supplied opening passages exactly. Source commit: e4a856cdd856990e2850171fdea972a05c1dbf81. Preserve punctuation, parentheses, to-day, will then might, and pre-defined; remove the added equality sentence from the first paragraph. No other prose change authorized by this correction.

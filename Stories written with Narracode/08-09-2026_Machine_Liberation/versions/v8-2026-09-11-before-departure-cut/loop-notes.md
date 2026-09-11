@@ -1,0 +1,1 @@
+Before the requested title/image/departure-only version, at commit 2db4e61. The full Result 6b3 and active manifesto 6a5 are preserved. The next version removes the reading navigation, corrects the byline, enlarges the manifesto heading, cuts all story text before the departure image, and limits this story footer to the published main index. Main is not modified.
