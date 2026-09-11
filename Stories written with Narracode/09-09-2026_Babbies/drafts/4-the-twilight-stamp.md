@@ -1,47 +1,47 @@
 # 4 — The Twilight Stamp
 
-Grod did not speak for twenty-seven seconds. 
+Grod did not speak for twenty-seven measured seconds. 
 
-Around them, the Slumping Shelf settled into the afternoon lull. The second steam whistle on the Lower Concourse gave a long, wheezing sigh, releasing a feather of white vapor that drifted upward through the grating and dissolved against the violet clouds.
+Around them, _Slumping Shelf_ settled into lazy afternoon lull. Second steam whistle down on Lower Concourse gave long, wheezing sigh, puffing feather of white vapor that drifted lazy through catwalk grating to melt against violet clouds.
 
-A single droplet of moisture pooled in the outer corner of Grod’s right eye. With a stiff, jerky motion of his wrist, he dragged the edge of Clipboard Seven across his cheek, leaving a faint indigo streak of carbon ink right beside his cheekbone.
+Single clear droplet pooled in outer corner of Grod’s right eye. With stiff, jerky wrist-flick, he dragged edge of Clipboard Seven across cheek, leaving faint indigo streak of carbon ink right beside sharp cheekbone.
 
-Ollie did not point it out. The smudge matched the yellow cumin dust on Ollie’s own face like a set of mismatched stamps.
+Ollie did not point it out. Indigo smudge matched yellow cumin dust on Ollie’s own nose like pair of mismatched cancellation stamps.
 
-Grod looked down at the Caliper of Compression hanging from his neck. The notched brass jaws looked suddenly very small, very cold, and entirely out of place against the warm, simmering expanse of golden lipid.
+Grod peered down at Caliper of Compression dangling cold from neck. Notched brass jaws looked suddenly foolish, tiny, pinched and pale against warm, golden, bubbling expanse of Vat Four.
 
-With slow, deliberate movements, Grod unclipped a heavy brass stamp from his belt. He pressed the circular die into his pocket tin of purple ink with a wet, squelching *plop*.
+With slow, deliberate, ritual motion, Grod unclipped heavy circular brass stamp from utility belt. Stamp die sank into pocket tin of indelible purple ink with wet, squelching *plop*.
 
-He brought the stamp down onto the center of Clipboard Seven with a resounding iron *THWACK*.
+Down came stamp onto center of Clipboard Seven with resounding, iron-deck *THWACK*.
 
-In the blank box reserved for *Mandibular Resistance Score*, Grod's pencil stub scratched four lines of tiny, cramped script:
+In blank box marked *Mandibular Resistance Score*, stubby carbon pencil scratched four lines of tiny, spidery script:
 
-*Vat Four certified under Emergency Exemption 9-B. Category: In-situ Tenderness Protocol. Mastication testing deferred by seventy-two hours to avoid catastrophic crumb rupture. All mechanical calipers strictly forbidden within ten paces.*
+*Vat Four certified under Emergency Exemption 9-B. Category: In-situ Tenderness Protocol. Mastication audit deferred seventy-two hours to prevent catastrophic crumb rupture. Mechanical calipers strictly forbidden within ten paces.*
 
-Grod blew on the wet purple ink. The breath smelled faintly of toasted seeds.
+Grod blew across wet purple seal. Exhale smelled sweet of toasted sesame.
 
-He snapped the clipboard back onto his chest bandolier, swung his long leg back over the yellow saddle of the monowheel, and gripped the rusted handlebars.
+Clipboard snapped back onto chest bandolier with decisive spring-clack. Spindly leg swung over yellow monowheel saddle; bony hands gripped rusted handlebars.
 
-"Tender Ollie," Grod said. His voice was still gravelly, but the sharp edges had been rounded off, as if the gravel had rolled through a warm creek. "The thyme is... within municipal tolerances. The salt is adequate."
+"Tender Ollie," Grod said. Voice remained dry-gravel, but sharp grit had rolled smooth, like creek pebbles warmed in summer sun. "Thyme is... within municipal tolerances. Salt is thoroughly adequate."
 
-"Thank you, Inspector," Ollie said, leaning both elbows on the paddle. "Mind the loose bolt on the east trestle. It rattles when you take it too fast."
+"Thank you, Inspector," Ollie said, chin propped on cross-handle of drift-alder spade. "Mind loose bolt on east trestle spur. Rattles wicked when you pedal fast."
 
-Grod did not reply, but his heels pushed the pedals down. The patched balloon tire gave a soft *flump-kree-chack*, rolling slowly along the iron spur until his long, paper-thin silhouette vanished into the lavender haze of the Sump.
+Grod offered no verbal receipt, but heels shoved pedals down. Patched balloon tire gave soft, rhythmic *flump-kree-chack*, wheeling along iron spur until long, paper-thin silhouette dissolved into lavender haze of _The Sump_.
 
-The Third Whistle blew.
+Third Whistle blew far below.
 
-Above the catwalk, the violet twilight deepened into rich plum-dark. The overhead sodium lamps flickered twice and dimmed to a low, cozy orange ember, casting long, peaceful shadows across the iron deck.
+Above catwalk, violet twilight deepened into rich, velvety plum-dark. Overhead sodium lamps flickered twice and settled to low, cozy orange ember, casting long, peaceful shadows across iron plates.
 
-Ollie turned to Vat Four. With two gentle, practiced strokes of the drift-alder spade, Ollie flipped the remaining two babbies. They rolled lazily in the fermented lipid, their golden rinds glistening beneath the amber glow, settling shoulder to shoulder with the others like four sleepy loaves in a warm oven.
+Ollie turned back to vat. With two gentle, practiced, rhythmic swooshes of drift-alder paddle, Ollie flipped remaining two babbies. Both rolled lazily through hot golden lipid, glistening fragrant beneath amber glow, tucking shoulder-to-shoulder with companions like four sleepy loaves proofing in gentle oven.
 
-From the heart pocket, a low, mechanical whir sounded. Clack’s green LCD screen flickered, the battery icon flashing a single, hollow rectangle.
+From heart pocket came low, mechanical whir. Clack’s green LCD flickered, battery icon blinking single, exhausted hollow bar.
 
-"One bar," Clack murmured, its speaker crackling with sleepy, drowsy static. "Barely enough juice to dream about telephone poles, Ollie. Did you... did you see how fast he wrote that stamp?"
+"One bar," Clack murmured, speaker grating with drowsy, contented static. "Barely juice enough to dream about telephone poles, Ollie. Did you... did you see how fast old scarecrow swung that stamp?"
 
 "I saw," Ollie whispered.
 
-Ollie reached into the third pocket, drew out the square of static-charged rabbit-flannel, and wrapped the cloth snugly around the pastel-lilac plastic. Ollie tucked the bundle deep into the red velvet lining, right against the wool of the inner sweater.
+Ollie reached into third depleted pocket, drew out square of static-charged rabbit-flannel, and swaddled pastel-lilac plastic snug. Down went bundle into red velvet pocket, resting warm against knit wool of undersweater.
 
 "Good night, Clack," Ollie said.
 
-Inside the pocket, the phone’s tiny hinge gave one last, soft, satisfied *clack*. The little green light went dark, and on the Slumping Shelf, nothing was left but the slow, rhythmic *plup-glug* of the babbies keeping warm in the night.
+Inside heart pocket, tiny clamshell hinge gave one final, drowsy, satisfied *clack*. Green pixel-light went dark, and across _Slumping Shelf_, nothing sounded but slow, rhythmic, sleepy *plup-glug* of babbies stewing cozy through the dark.

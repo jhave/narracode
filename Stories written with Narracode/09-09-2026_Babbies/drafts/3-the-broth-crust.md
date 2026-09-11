@@ -1,41 +1,41 @@
 # 3 — The Broth-Crust
 
-Grod remained pinned against his monowheel, his knobby knees trembling inside his damp macintosh.
+Grod remained pinned against monowheel, knobby knees trembling inside damp oiled macintosh.
 
-Across his chest, the seventeen clipboards hung crooked, their carbon papers fluttering like grey moth wings in the warm updraft. He raised a shaking hand to straighten his spectacles, but his fingers were smudged with black graphite dust.
+Across chest, seventeen clipboards hung crooked, carbon flimsy-papers fluttering like grey moth-wings in warm updraft. Shaking hand rose to straighten askew spectacles, fingers smudged greasy with graphite dust.
 
-"A... an electromagnetic fine," Grod croaked, his voice thin as tissue paper. "Section four. The pension ledger is non-negotiable. But... the Shore Durometer..."
+"Electromagnetic fine," Grod croaked, voice papery thin. "Section four. Pension ledger is non-negotiable. But... Shore Durometer..."
 
-His stomach gave an enormous, hollow groan that sounded like a wet rubber boot being pulled from deep mud.
+His empty belly gave cavernous, squelching groan like wet rubber boot sucked out of deep creek-mud. Glump-squelch.
 
-Ollie did not gloat. Instead, Ollie set the drift-alder spade upright against the rim of Vat Four, reached into the second pocket, and drew out a small, shallow saucer whittled from pale alder-burl. Tucked behind it was the curved horn salt-spoon.
+Ollie did not gloat. Patient, unhurried, Ollie set drift-alder spade upright against rim of Vat Four, reached into second pocket, and drew out shallow saucer whittled smooth from pale alder-burl. Tucked behind sat curved sheep-horn salt-spoon.
 
-Ollie leaned over the western coil where the lipid-broth simmered at its sweetest heat. At the edge of the iron vat, where the bubbling fermented kernel-lipids met the cool rim, the foam had baked into a delicate, lace-like crust: paper-thin, amber-gold, sizzling softly with microscopic bubbles of sesame and thyme oil.
+Ollie leaned over western coil where lipid-broth simmered at sweetest golden bubble. At vat edge, where foaming fermented kernel-lipids touched cool iron rim, broth had baked into delicate, lace-spun crust: amber-gold, wafer-thin, sizzling quiet with microscopic beads of sesame and crushed thyme oil.
 
-With the tip of the horn spoon, Ollie lifted a warm, triangular shard of the crust. It broke away from the iron with a crisp, brittle *snap*.
+With tip of horn spoon, Ollie lifted warm triangular shard. Crust broke away from iron with crisp, brittle *snap*.
 
-Ollie laid the warm shard onto the wooden saucer, dusted it with three grey grains of crushed sea-salt from the pocket pouch, and stepped across the grating. *Thud-sqwip. Thud-sqwip.*
+Warm shard settled onto wooden saucer. Three grey grains of crushed rock-salt dusted across amber surface from greaseproof pocket pouch. Ollie stepped light across catwalk grating. *Thud-sqwip. Thud-sqwip.*
 
-Ollie held the saucer out at the level of Grod’s lowest clipboard.
+Saucer hovered level with Grod’s lowest zinc clipboard.
 
-"Eating an uncertified sample during an active audit," Grod whispered, staring down at the warm amber triangle, "is an automatic downgrade to Third-Class Pen-Pusher."
+"Consuming uncertified sample during active audit," Grod whispered, eyes fixed on warm fragrant triangle, "is automatic demotion to Third-Class Pen-Pusher."
 
-"Your throat sounds like an empty pipe, Inspector," Ollie said. The yellow fluff on Ollie's scalp relaxed, floating into a round, peaceful cloud. "And the babbies won't be ready for twenty minutes. You cannot measure softness on an empty gullet."
+"Throat sounds like an empty pipe, Inspector," Ollie said. Yellow dandelion-fluff on Ollie's scalp relaxed, settling into round, peaceful puff. "Babbies won't finish knitting for twenty minutes. Nobody can measure chew-density on an empty, whistling gullet."
 
-Grod looked from Ollie’s wide, hazel eyes down to the saucer. A coil of savory cumin steam rose from the warm wood and curled straight into Grod’s left nostril.
+Grod looked from Ollie’s wide hazel eyes down to saucer. Curl of savory, toasted cumin steam rose off warm wood, drifting straight into Grod’s twitching left nostril.
 
-His ink-stained thumb twitched.
+Ink-stained thumb gave hungry twitch.
 
-Slowly, as if reaching toward a loaded mousetrap, Grod pinched the amber crust between two chalky fingers. The heat transferred immediately into his chilled knuckles, making his joints ache with a sudden, thawing warmth.
+Slowly, cautious as someone probing loaded brass mousetrap, Grod pinched amber crust between chalky, stiff fingertips. Heat sank direct into chilled knuckles, thawing stiff joints with sudden, prickling comfort.
 
-He placed the shard into his mouth.
+Into mouth went shard.
 
-The sound was a single, clean *crunch*, followed by absolute silence on the Slumping Shelf.
+Sound was single, immaculate *crunch*, followed by profound, reverent quiet across _Slumping Shelf_.
 
-Grod’s eyes widened behind the iron spectacles. The rigid, dry skin of his cheeks flushed a faint, dusty rose. The salt struck his tongue first, sharp and clean, followed by the deep, rich coat of slow-fermented seed-oil and the green sweetness of bruised thyme. The crispness gave way without a fight, melting into a warm, savory richness that spread down his throat like a swallowed wool blanket.
+Eyes rounded behind spectacles. Dry parchment skin of cheeks flushed faint dusty-rose. Salt hit tongue first, brisk and clean, followed by deep nutty coat of slow-fermented lipid-oil and fragrant green punch of bruised thyme. Brittle crust yielded without fight, melting into rich, velvety savor that traveled down throat like swallowed cashmere blanket. Pure soup-comfort.
 
-Grod stopped chewing. He stood frozen on the iron plates, his Adam’s apple bobbing twice as the warmth settled in his hollow ribcage.
+Grod ceased chewing. Stood stock-still on iron deck, Adam’s apple bobbing twice as savory warmth pooled in hollow, audited chest.
 
-From inside the velvet pocket, Clack’s antenna twitched. A single, skeptical green eye blinked on its LCD screen.
+Inside velvet pocket, Clack’s antenna gave tiny sarcastic twitch. Single skeptical green pixel-eye peered through hinge slit.
 
-"Well?" Clack whispered through its speaker grille. "Does it have enough jaw-resistance, you old crow, or must we fetch a brick for you to gnaw?"
+"Well?" Clack piped through speaker grille. "Enough jaw-resistance for you, old crow, or shall we fetch a paving brick to gnaw?"

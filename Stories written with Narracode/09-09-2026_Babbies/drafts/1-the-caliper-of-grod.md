@@ -1,37 +1,37 @@
 # 1 — The Caliper of Grod
 
-The monowheel did not stop so much as it wedged itself into an expansion joint between two rusted iron plates.
+Monowheel did not stop so much as judder-wedge its screechy tall chassis into an expansion joint between two rusted, lipid-filmed iron plates.
 
-It was a tall, skeletal apparatus of pitted yellow brass. A single balloon tire, patched with square strips of black gasket tape, gave a final shuddering *flump*. Over the handlebars leaned Inspector Grod: a long, paper-colored man whose elbows poked through the sleeves of an oiled slate-grey macintosh like two dry walnuts.
+Skeletal, preposterous brass contraption, tall and pitted-yellow. Single fat balloon tire, patched with square criss-cross strips of black gasket tape, gave a final shuddering *flump*. Over handlebars leaned Inspector Grod: long, paper-colored, sourly vigilant auditor whose knobby elbows poked through sleeves of an oiled slate-grey macintosh like two dry, pickled walnuts.
 
-Across Grod’s chest hung a bandolier holding seventeen numbered zinc clipboards. Around his neck, dangling on a greasy leather thong, swung the Caliper of Compression: two notched brass jaws with a calibrated dial marked in *Mastication Units*.
+Across chest hung bandolier holding seventeen numbered, clattering zinc clipboards. Around neck, dangling on greasy braided leather thong, swung Caliper of Compression: two notched brass jaws with spring-calibrated dial marked in red *Mastication Units*.
 
-Grod swung one spindly leg over the saddle. His boots were black patent rubber, polished so hard they reflected the violet glare of the Sump.
+Grod swung spindly, joint-creaking leg over saddle. Boots were mirror-black patent rubber, polished so fierce they reflected violet glare of _The Sump_.
 
-"Shift thirty-two," Grod rasped. His throat sounded like gravel being kicked down a chute. "Sub-district West. Vat Four. Name: Ollie. Function: Lipid-tender third class."
+"Shift thirty-two," Grod rasped, throat scraping like coarse pea-gravel kicked down an iron chute. "Sub-district West. Vat Four. Name: Ollie. Function: Lipid-tender third class."
 
-Ollie remained planted on the grating, hands resting over the cross-handle of the drift-alder spade. The dandelion fluff on Ollie's scalp parted down the middle, curling into two tight, skeptical horns against the rising sesame steam.
+Ollie remained planted on slick catwalk grating, hands resting over cross-handle of drift-alder spade. Dandelion fluff on Ollie's scalp parted neat down middle, curling into two tight, skeptical, ginger horns against rising sesame steam.
 
-"Good morning, Inspector," Ollie said. "The broth is ninety-two degrees. The yeast-protein has just begun to knit."
+"Good morning, Inspector," Ollie said, gentle, unflustered. "Broth is ninety-two degrees. Today's yeast-protein has just begun to knit."
 
-"I did not ask for a weather report on the soup," Grod snapped, unhooking Clipboard Seven with a violent rattle of spring steel. He clicked a carbon pencil between yellow teeth. "The Upper Concourse requires seventy thousand metric cubes of firm-chew ration by Thursday bells. Cube dimension: four centimeters square. Density requirement: eighty-four on the Shore Durometer scale. Minimum jaw-resistance: nine crunches before swallowing."
+"Did not ask for weather report on soup," Grod snapped, unhooking Clipboard Seven with violent rattle of spring steel. Carbon pencil clicked between yellow, tea-stained teeth. "Upper Concourse requires seventy thousand metric cubes of firm-chew ration by Thursday bells. Cube dimension: four centimeters square. Density requirement: eighty-four on Shore Durometer scale. Minimum jaw-resistance: nine audible crunches before swallowing."
 
-Grod stepped toward the edge of Vat Four. The iron grating groaned under his heel. He peered down through round iron-rimmed spectacles into the golden, gently sighing broth.
+Grod stepped toward lip of Vat Four. Catwalk grating groaned under his patent-rubber heel. Through round iron-rimmed spectacles he peered down into golden, gently sighing broth.
 
-Four pale babbies bobbed against the wooden lip, their thyme-flecked crusts trembling as the heat circulated.
+Four pale, velvety babbies bobbed against wooden lip, thyme-flecked crusts trembling as convective heat circulated. Pillow-soft.
 
-Grod’s spectacles slid three millimeters down his sharp nose. "What are those?"
+Spectacles slid three greasy millimeters down Grod's sharp, twitching nose. "What are those?"
 
-"They are the babbies," Ollie said.
+"They are babbies," Ollie said.
 
-"They are oval," Grod hissed. He tapped the zinc clipboard with the flat of his pencil. *Tink. Tink. Tink.* "The regulation calls for squares. Sharp, right-angled corners. A corner gives the consumer the psychological impression of discipline. These look like... like cushions for an idle beetle."
+"They are oval," Grod hissed, tapping zinc clipboard with flat of pencil. *Tink. Tink. Tink.* "Regulation calls for squares. Sharp, right-angled, disciplined corners. Corner gives consumer psychological impression of civic obedience. These look like... like cushions for an idle, daydreaming beetle."
 
-"Corners get burnt," Ollie said mildly. "Curves let the fat roll past without scorching."
+"Corners get burnt," Ollie said mildly, placid. "Curves let lipid-fat roll past without scorching."
 
-Grod unslung the Caliper of Compression. The brass jaws parted with a sharp *clack-whir* as he thumbed the tension wheel. "We shall test the resistance to compression under standardized mandibular force."
+Grod unslung Caliper of Compression. Notched brass jaws parted with sharp *clack-whir* as thumb spun tension wheel. "We shall test resistance to compression under standardized mandibular force."
 
-He reached the cold metal jaws down toward the floating babbies.
+Cold metal jaws reached down toward tender floating babbies.
 
-Inside Ollie's heart pocket, the velvet lining gave a frantic jerk. A muffled hiss rose through the waxed flax, small but sharp as an escaping kettle:
+Inside Ollie's heart pocket, red velvet lining gave frantic, vibrating jerk. Muffled hiss rose through waxed flax, tiny and hot as an escaping steam-valve:
 
-"Ollie, if he clamps that baby before the rind sets, the whole vat will curdle into mush! Kick his monowheel!"
+"Ollie, if he clamps that babbie before rind sets, whole vat curdles into porridge-mush! Kick his monowheel!"
