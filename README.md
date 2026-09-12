@@ -13,7 +13,7 @@ Narracode is a storytelling harness for agentic AI. Inspired by Claude Code, it 
 - **LLM** = Neuro layer
 - **Harness** = Symbolic layer
 
-🌐 **Download the harness:** [narracode_Aug-9-2026.zip](./downloads/narracode_Aug-9-2026.zip) — a dated snapshot of [narracode.md](./narracode.md) packaged with [FAQ.md](./FAQ.md), which gives the simplest instructions for getting started. For the complete historical lineage and all versions from May to September 2026, explore the [Harness Evolution Archive](https://jhave.github.io/narracode/harness-history.html).
+🌐 **Download the harness:** [narracode_Sep-12-2026.zip](./downloads/narracode_Sep-12-2026.zip) — a dated snapshot of [narracode.md](./narracode.md) packaged with [FAQ.md](./FAQ.md), [README.md](./README.md), and [master_ai_tells.md](./master_ai_tells.md). For the complete historical lineage and all versions from May to September 2026, explore the [Harness Evolution Archive](https://jhave.github.io/narracode/harness-history.html).
 
 Narracode is not just a tool; it is a philosophical statement. It is an argument that narrative, too, can be treated as a form of code—structured, intentional, and amenable to the kind of architectural reasoning that has made AI so powerful for programming.
 
