@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>The Evolution of the Narracode Harness — May to September 2026</title>
+    <meta name="description" content="A chronological record and archive of Narracode harness versions, architectural shifts, hook surfaces, and the post-double redesign.">
+    <meta name="author" content="David Jhave Johnston & AI collaborators">
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #252823;
+            --muted: #62675e;
+            --paper: #faf9f5;
+            --line: #d8dbd1;
+            --accent: #3b594c;
+            --accent-hover: #152f24;
+            --card-bg: #f3f4ee;
+            --badge-bg: #e6e8df;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font: 18px/1.75 Georgia, 'Times New Roman', serif;
+        }
+        main {
+            max-width: 860px;
+            margin: auto;
+            padding: 44px 28px 90px;
+        }
+        a {
+            color: var(--accent);
+            text-underline-offset: 4px;
+        }
+        a:hover {
+            color: var(--accent-hover);
+        }
+        nav, .meta, summary, th, .eyebrow, footer, .badge {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        nav {
+            font-size: 14px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 48px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 16px;
+        }
+        .eyebrow {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .14em;
+            color: var(--muted);
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: clamp(32px, 5.5vw, 48px);
+            font-weight: 500;
+            line-height: 1.15;
+            letter-spacing: -.03em;
+            margin: 8px 0 16px;
+        }
+        .subtitle {
+            font-size: 21px;
+            line-height: 1.45;
+            color: var(--muted);
+            margin: 0 0 28px;
+            font-style: italic;
+        }
+        h2 {
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 1.3;
+            margin: 50px 0 18px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 10px;
+        }
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 32px 0 10px;
+        }
+        p {
+            margin: 0 0 1.2em;
+        }
+        .meta {
+            font-size: 13px;
+            line-height: 1.7;
+            color: var(--muted);
+        }
+        .table-wrap {
+            overflow-x: auto;
+            margin: 28px 0 36px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+            line-height: 1.55;
+        }
+        th, td {
+            border-bottom: 1px solid var(--line);
+            padding: 12px 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: var(--card-bg);
+            font-size: 13px;
+            font-weight: 600;
+        }
+        td:first-child {
+            white-space: nowrap;
+            font-weight: 500;
+        }
+        code {
+            font: 13px/1.6 ui-monospace, SFMono-Regular, Consolas, Menlo, monospace;
+            background: var(--card-bg);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .timeline-card {
+            background: var(--card-bg);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 24px;
+            margin: 26px 0;
+        }
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        .timeline-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0;
+            font-family: system-ui, sans-serif;
+        }
+        .timeline-date {
+            font-size: 13px;
+            color: var(--muted);
+            font-family: system-ui, sans-serif;
+        }
+        .badge {
+            display: inline-block;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: .08em;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: var(--badge-bg);
+            color: var(--ink);
+            font-weight: 600;
+        }
+        .badge.current {
+            background: var(--accent);
+            color: #fff;
+        }
+        footer {
+            border-top: 1px solid var(--line);
+            margin-top: 60px;
+            padding-top: 24px;
+            font-size: 13px;
+            color: var(--muted);
+        }
+        @media (max-width: 640px) {
+            main { padding: 24px 18px 60px; }
+            table { min-width: 600px; }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <nav aria-label="Breadcrumb navigation">
+        <a href="index.html">← Narracode Library</a>
+        <a href="2026-09-12_harness-after-the-double.html">After the Double Report</a>
+        <a href="Stories%20written%20with%20Narracode/12-09-2026_You_inc/index.html">The Appointment (Story)</a>
+        <a href="narracode.md">Current Harness (Markdown)</a>
+    </nav>
+
+    <header>
+        <div class="eyebrow">Narracode System Architecture</div>
+        <h1>The Evolution of the Narracode Harness</h1>
+        <p class="subtitle">A chronological record of architectures, hook surfaces, tell governance, and the post-double simplification (May – September 2026).</p>
+        <div class="meta">Curated by David Jhave Johnston &middot; Last updated September 12, 2026</div>
+    </header>
+
+    <section>
+        <h2>Overview</h2>
+        <p>Narracode began with a foundational question: <em>Can we build a literature AI-augmentation system on the same model as Claude Code? One that is structured, algorithmic, agentic — but for literary purposes?</em></p>
+        <p>Because single-shot generation averages a language model's training distribution into median prose, Narracode externalizes project memory into plain text files and separates the work into distinct operations: reading, structural tracking, drafting, and critique. Over five months of live literary production across dozens of stories, the harness evolved from an initial five-agent division into a formal hook engine, incorporated automated pipeline execution (<code>AUTO_MODE</code>), experimented with AI tell registries, and ultimately underwent a radical simplification following GPT-6 Astra's post-double assessment on September 12, 2026.</p>
+    </section>
+
+    <section>
+        <h2>Harness Version Archive</h2>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Harness versions table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date Active</th>
+                        <th>Version</th>
+                        <th>Harness File</th>
+                        <th>Architect & Model</th>
+                        <th>Key Milestone / Shift</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026-09-12 → <em>current</em></td>
+                        <td><span class="badge current">v2.0</span></td>
+                        <td><a href="narracode.md">narracode.md</a><br><small><a href="LEGACY/narracode_2026-09-12T1450.md">LEGACY archive</a></small></td>
+                        <td>GPT-6 Astra & Antigravity</td>
+                        <td><strong>The Post-Double Redesign:</strong> Unified <code>STATE.md</code> (collapsing 8 files), 4-tier epistemic state, model-agnostic <code>AUTO_MODE</code>, on-demand question-driven review, grounded Git diffs.</td>
+                    </tr>
+                    <tr>
+                        <td>2026-09-07 → 2026-09-12</td>
+                        <td><span class="badge">v1.5</span></td>
+                        <td><a href="LEGACY/narracode_2026-09-07T1152.md">narracode_2026-09-07T1152.md</a></td>
+                        <td>Jhave & Gemini 3.5 Flash</td>
+                        <td><strong>Contextual Review Reassessment:</strong> Replaced universal bans with contextual reviews (<code>KEEP / CHANGE / UNCERTAIN</code>), bounded perturbation, and poetics filtering.</td>
+                    </tr>
+                    <tr>
+                        <td>2026-09-04 → 2026-09-07</td>
+                        <td><span class="badge">v1.4</span></td>
+                        <td><a href="LEGACY/narracode_2026-09-04T0642.md">narracode_2026-09-04T0642.md</a></td>
+                        <td>Gemini 3.5 Flash</td>
+                        <td><strong>AI Tells Pilot:</strong> Cataloged 29 tell classes (<code>master_ai_tells.md</code>), mandatory post-draft scans, closed-loop audits, and perturbation mode.</td>
+                    </tr>
+                    <tr>
+                        <td>2026-08-09 → 2026-09-04</td>
+                        <td><span class="badge">v1.3</span></td>
+                        <td><a href="downloads/narracode_Aug-9-2026.md">narracode_Aug-9-2026.md</a><br><small><a href="downloads/narracode_Aug-9-2026.zip">Download ZIP</a></small></td>
+                        <td>Jhave & Claude Opus 4.7</td>
+                        <td><strong>Packaged Baseline:</strong> Bundled with <code>FAQ.md</code> for public distribution. Established strict exact-model attribution norms.</td>
+                    </tr>
+                    <tr>
+                        <td>2026-05-25 → 2026-08-09</td>
+                        <td><span class="badge">v1.2</span></td>
+                        <td><a href="LEGACY/narracode_2026-05-25T0907.md">narracode_2026-05-25T0907.md</a></td>
+                        <td>Claude Opus 4.7</td>
+                        <td><strong>AUTO_MODE Introduced:</strong> Suspends confirmation pauses to chain full pipeline runs (Opus 4.7 Initiator/Reflexive, Sonnet 4.6 Compositional).</td>
+                    </tr>
+                    <tr>
+                        <td>2026-05-11 → 2026-05-25</td>
+                        <td><span class="badge">v1.1</span></td>
+                        <td><a href="LEGACY/narracode_2026-05-11T0623.md">narracode_2026-05-11T0623.md</a></td>
+                        <td>Claude Opus 4.7</td>
+                        <td><strong>Explicit Hook Surface:</strong> Declared auditable hooks (<code>on_init</code>, <code>pre_draft</code>, <code>on_draft</code>, <code>on_snapshot</code>). Established the <code>post_draft</code> silence as a first-class negative hook.</td>
+                    </tr>
+                    <tr>
+                        <td>2026-05-09 → 2026-05-11</td>
+                        <td><span class="badge">v1.0</span></td>
+                        <td><a href="LEGACY/narracode_2026-05-09T1820.md">narracode_2026-05-09T1820.md</a></td>
+                        <td>Claude Opus 4.7</td>
+                        <td><strong>Foundation:</strong> The genesis harness. Defined five agent roles (Initiator, Reading, Structural, Compositional, Reflexive) and externalized memory.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h2>Detailed Chronology</h2>
+
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3 class="timeline-title">v2.0 — The Post-Double Redesign</h3>
+                <div class="timeline-date">September 12, 2026 &middot; Active</div>
+            </div>
+            <p><strong>Context & Catalysts:</strong> Prompted by GPT-6 Astra's research report (<a href="2026-09-12_harness-after-the-double.html"><em>After the Double: What I Need from a Harness</em></a>) after composing <a href="Stories%20written%20with%20Narracode/12-09-2026_You_inc/index.html"><em>The Appointment — You.inc at Eldae</em></a>. Astra analyzed frontier model capacities, context window expansions (1M+ tokens), and Boris Cherny's advice on reducing stale context files.</p>
+            <p><strong>Architectural Breakthroughs:</strong></p>
+            <ul>
+                <li><strong>Unified <code>STATE.md</code>:</strong> Collapsed the eight mandatory structural memory files into a single, clean document with four distinct epistemic tiers: (1) <em>Story Facts</em>, (2) <em>Author Decisions</em>, (3) <em>Model Interpretations</em>, and (4) <em>Unresolved Possibilities</em>. Modular splitting into <code>structural/</code> is retained as an optional scaling rule only when long-form complexity warrants it.</li>
+                <li><strong>Model- and IDE-Agnostic <code>AUTO_MODE</code>:</strong> Dropped the artificial and brittle hardcoding of specific model pairs (e.g. Opus vs Sonnet). Prompts run within specific IDEs (Claude Code, Antigravity, Codex); the harness now defines functional pass sequences that execute within whichever runtime is active, recording the exact participating model in <code>ATTRIBUTION.md</code>.</li>
+                <li><strong>On-Demand Editorial Inquiry:</strong> Replaced repetitive, automatic post-draft check spam with question-driven review called on demand (<em>"What does this passage do? Where does it stop attending? What would a change cost?"</em>).</li>
+                <li><strong>Grounded Seamless Edits:</strong> Diffs against immutable saved files or Git objects, ending the fallible concept of diffing against "memory of prose."</li>
+                <li><strong>Self-Contained Specification:</strong> Condensed from ~3,734 words of bureaucratic check lists to ~1,500 words of lean, self-sufficient operational guidance that a fresh model can execute cleanly without prior exposure.</li>
+            </ul>
+        </div>
+
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3 class="timeline-title">v1.5 — Contextual Review Reassessment</h3>
+                <div class="timeline-date">September 7–12, 2026</div>
+            </div>
+            <p><strong>Context:</strong> Prompted by the realization that strict mechanical audits against 29 tell classes were producing synthetic flatness and over-correction. Replaced automated regex-like bans with humanistic editorial review.</p>
+            <p><strong>Key Elements:</strong> Evaluated quoted spans in context with <code>KEEP / CHANGE / UNCERTAIN</code>; conditioned all remedies through a project's <code>POETICS.md</code>; bounded perturbation review to prevent obsessive iteration toward "zero tells."</p>
+        </div>
+
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3 class="timeline-title">v1.4 — The AI Tells Pilot</h3>
+                <div class="timeline-date">September 4–7, 2026</div>
+            </div>
+            <p><strong>Context:</strong> Gemini 3.5 Flash proposed a systematic registry of machine prose habits in <a href="2026-09-04_ai-tells-update-plan.html"><em>AI Tells Update Plan</em></a>, cataloging 29 classes ranging from unanchored sensory metaphors to pseudo-profound codas.</p>
+            <p><strong>Key Elements:</strong> Introduced <code>master_ai_tells.md</code>, closed-loop tell audits, and perturbation mode to break statistical cadence.</p>
+        </div>
+
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3 class="timeline-title">v1.3 — The Packaged Release (August 9 Baseline)</h3>
+                <div class="timeline-date">August 9 – September 4, 2026</div>
+            </div>
+            <p><strong>Context:</strong> Packaged as the primary public distribution file <code>narracode_Aug-9-2026.zip</code> on the main index. Added an explicit <code>FAQ.md</code> and codified the Attribution Norm: requiring every AI model to be named by its exact version rather than generic vendor branding.</p>
+        </div>
+
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3 class="timeline-title">v1.2 — Automated Pipelines (AUTO_MODE)</h3>
+                <div class="timeline-date">May 25 – August 9, 2026</div>
+            </div>
+            <p><strong>Context:</strong> Enabled continuous multi-act generation without stopping for manual human confirmation at each step, pairing Opus 4.7's architectural governance with Sonnet 4.6's drafting speed.</p>
+        </div>
+
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3 class="timeline-title">v1.1 — The Hook Surface & Negative Hooks</h3>
+                <div class="timeline-date">May 11–25, 2026</div>
+            </div>
+            <p><strong>Context:</strong> Transformed implicit agent behaviors into a declared, auditable hook surface (<code>on_init</code>, <code>pre_draft</code>, <code>on_draft</code>, <code>post_draft_check</code>, <code>on_snapshot</code>). Elevated the <code>post_draft</code> silence into a first-class negative hook to prevent models from autonomously hallucinating subsequent scenes.</p>
+        </div>
+
+        <div class="timeline-card">
+            <div class="timeline-header">
+                <h3 class="timeline-title">v1.0 — The Genesis Harness</h3>
+                <div class="timeline-date">May 9–11, 2026</div>
+            </div>
+            <p><strong>Context:</strong> Created by David Jhave Johnston and Claude Opus 4.7. Laid down the core neurosymbolic thesis that separating roles (Initiator, Reading, Structural, Compositional, Reflexive) and persisting memory to files elevates prose above median LLM training distributions.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Narracode &middot; Neurosymbolic literary composition architecture &middot; <a href="index.html">Back to Main Library</a></p>
+    </footer>
+</main>
+</body>
+</html>
