@@ -40,7 +40,11 @@ def render(md, report=False):
     blocks=md.strip().split('\n\n'); out=[]
     for b in blocks:
         lines=b.splitlines()
-        if lines[0].startswith('|') and len(lines)>1:
+        if lines[0].startswith('```'):
+            out.append('<pre><code>'+escape('\n'.join(lines[1:-1]))+'</code></pre>')
+        elif lines[0].startswith('> '):
+            out.append('<blockquote><p>'+inline(' '.join(l.removeprefix('> ') for l in lines),report)+'</p></blockquote>')
+        elif lines[0].startswith('|') and len(lines)>1:
             rows=[]
             for i,l in enumerate(lines):
                 if re.fullmatch(r'[| :\-]+',l):continue
@@ -56,25 +60,35 @@ def render(md, report=False):
     return '\n'.join(out)
 
 def page(title,desc,body,nav,kind='report'):
+    extra_css=(STORY/'publication-footer.css').read_text() if kind=='story' else ''
+    extra_css+='\n.poster{margin:30px auto 36px;max-width:490px}.poster img{display:block;width:100%;height:auto}.poster figcaption{font:12px/1.6 system-ui,sans-serif;color:var(--muted);margin-top:12px}.curatorial{border-top:1px solid var(--line);margin-top:50px;padding-top:5px}.source-prompt pre,.curatorial pre{white-space:pre;overflow-x:auto;font-size:11px;padding:16px;background:#eeefe8}.source-prompt{overflow-wrap:anywhere} .publication-footer{border-top:1px solid var(--line);padding-top:32px}'
+    footer=(STORY/'publication-footer.html').read_text() if kind=='story' else 'David Jhave Johnston · GPT-6 Astra · September 12, 2026<br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>'
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} — Narracode</title><meta name="description" content="{escape(desc,quote=True)}">
 <meta name="author" content="David Jhave Johnston (concept and direction); GPT-6 Astra (writing and report)">
-<style>{CSS}</style></head><body><a class="skip" href="#content">Skip to content</a><main class="{kind}">
+<style>{CSS}{extra_css}</style></head><body><a class="skip" href="#content">Skip to content</a><main class="{kind}">
 <nav aria-label="Publication navigation">{nav}</nav><div id="content">{body}</div>
-<footer>David Jhave Johnston · GPT-6 Astra · September 12, 2026<br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></footer>
+<footer>{footer}</footer>
 </main></body></html>'''
 
-story= (STORY/'drafts/1-the-appointment.md').read_text()
+story= (STORY/'drafts/2-the-appointment-eldae.md').read_text()
 bodytext=story.split('\n\n',1)[1]
 words=len(re.findall(r"[A-Za-z0-9]+(?:[’'\-][A-Za-z0-9]+)*",bodytext))
 minutes=(words+249)//250
+story_html=render(bodytext)
+poster='<figure class="poster"><a href="images/you-inc-poster.png"><img src="images/you-inc-poster.png" width="1024" height="1536" alt="You.inc: Know Thyself. A pale androgynous silhouette threaded with root tendrils and synaptic webs on a grey-green corporate wellness poster."></a><figcaption>The reception poster · You.inc: Know Thyself.</figcaption></figure>'
+assert story_html.count('entered it.</p>')==1
+story_html=story_html.replace('entered it.</p>','entered it.</p>'+poster,1)
 body=f'''<header><div class="eyebrow">You.inc · A story</div><h1>The Appointment</h1>
 <p class="meta">Concept and direction: David Jhave Johnston<br>Story written by GPT-6 Astra, without running the Narracode recursive harness<br>September 12, 2026 · {words:,} words · {minutes} min read</p></header>
-<article aria-label="The Appointment">{render(bodytext)}</article>
-<details><summary>Attribution and composition record</summary><div>{render((STORY/'ATTRIBUTION.md').read_text()).replace('<h1>', '<h2>').replace('</h1>', '</h2>')}<p><a href="POETICS.md">Preparation notes</a> · <a href="drafts/1-the-appointment.md">Original Markdown draft</a></p></div></details>
-<p><a href="../../2026-09-12_harness-after-the-double.html">Read the accompanying report: After the Double</a></p>'''
-(STORY/'index.html').write_text(page('The Appointment','An observer meets their AI AR double at You.inc, Aldea, Bergen, August 2027.',body,'<a href="../../index.html">← Narracode library</a><a href="../../2026-09-12_harness-after-the-double.html">Harness report</a>','story'))
+<article aria-label="The Appointment">{story_html}</article>
+<details><summary>Attribution and composition record</summary><div>{render((STORY/'ATTRIBUTION.md').read_text()).replace('<h1>', '<h2>').replace('</h1>', '</h2>')}<p><a href="POETICS.md">Preparation notes</a> · <a href="drafts/2-the-appointment-eldae.md">Current Markdown draft</a></p></div></details>
+<p><a href="../../2026-09-12_harness-after-the-double.html">Read the accompanying report: After the Double</a></p>
+<section class="curatorial" id="curatorial">{render((STORY/'CURATORIAL.md').read_text())}</section>
+<details class="source-prompt" id="prompt"><summary>The writing prompt · David Jhave Johnston</summary><div>{render((STORY/'PROMPT.md').read_text())}</div></details>
+<details class="source-prompt"><summary>Poster generation prompt · OpenAI ImageGen</summary><div>{render((STORY/'images/PROMPT.md').read_text()).replace('<h1>','<h2>').replace('</h1>','</h2>')}</div></details>'''
+(STORY/'index.html').write_text(page('The Appointment','An observer meets their AI AR double at You.inc, Eldae, Bergen, August 2027.',body,'<a href="../../index.html">← Narracode library</a><a href="../../2026-09-12_harness-after-the-double.html">Harness report</a><a href="#curatorial">Curatorial essay</a><a href="#prompt">Prompt</a>','story'))
 report=REPORT.read_text()
 body=render(report,True)
 nav='<a href="index.html">← Narracode library</a><a href="Stories%20written%20with%20Narracode/12-09-2026_You_inc/">Read the story</a><a href="plans/2026-09-12_harness-after-the-double.md">Report Markdown</a>'

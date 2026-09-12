@@ -5,7 +5,7 @@
   - **Attribution**: David Jhave Johnston (concept and direction) · GPT-6 Astra (story) · without running the Narracode recursive harness; prior harness exposure documented in ATTRIBUTION.md · 2026-09-12
   - **Word Count**: 1,558
   - **Reading Time**: 7
-  - **Synopsis**: At Aldea in Bergen in August 2027, a visitor meets an AI AR double speaking in their own voice. An encounter about family, work, love, and the question they have learned to ask without asking it.
+  - **Synopsis**: At Eldae in Bergen in August 2027, a visitor meets an AI AR double speaking in their own voice. An encounter about family, work, love, and the question they have learned to ask without asking it.
 
 - **Draft Folder**: 07-09-2026_The_Mouth_on_Loan
   - **Title**: Mouth on Loan
