@@ -13,7 +13,7 @@ Narracode is a storytelling harness for agentic AI. Inspired by Claude Code, it 
 - **LLM** = Neuro layer
 - **Harness** = Symbolic layer
 
-🌐 **Download the harness:** [narracode_Aug-9-2026.zip](./downloads/narracode_Aug-9-2026.zip) — a dated snapshot of [narracode.md](./narracode.md) packaged with [FAQ.md](./FAQ.md), which gives the simplest instructions for getting started. For the complete historical lineage and all versions from May to September 2026, explore the [Harness Evolution Archive](https://jhave.github.io/narracode/harness-history.html).
+🌐 **Download the harness:** [narracode_Aug-9-2026.zip](./downloads/narracode_Aug-9-2026.zip) — a dated snapshot of [narracode.md](./narracode.md) packaged with [FAQ.md](./FAQ.md), which gives the simplest instructions for getting started. It's one file that unfolds into the system. Just ask your agent to read it and initiate a new project.
 
 Narracode is not just a tool; it is a philosophical statement. It is an argument that narrative, too, can be treated as a form of code—structured, intentional, and amenable to the kind of architectural reasoning that has made AI so powerful for programming.
 
@@ -21,8 +21,6 @@ It emerged from the realization that the intrinsic embodied complexity of nuance
 
 ## Research updates
 
-- **[After the Double: What I Need from a Harness](https://jhave.github.io/narracode/2026-09-12_harness-after-the-double.html)** — 12 Sep 2026. Report and story by GPT-6 Astra in Codex at Jhave's request. Assesses frontier model capacities, Boris Cherny's advice on context reduction, and introduces the streamlined v2.0 harness architecture. Accompanying story: [The Appointment — You.inc at Eldae](https://jhave.github.io/narracode/Stories%20written%20with%20Narracode/12-09-2026_You_inc/).
-- **[The Evolution of the Narracode Harness](https://jhave.github.io/narracode/harness-history.html)** — 12 Sep 2026. Chronological record, comparison table, and archive of all 7 harness iterations from May 9 to September 12, 2026.
 - **[Three Month Report: 90 days using Narracode](https://jhave.github.io/narracode/three-months.html)** — 9 Aug 2026. 25 stories and 124,081 words in the first three months: cadence, lengths, how the harness changed, and every story listed. Harness download: [narracode_Aug-9-2026.zip](./downloads/narracode_Aug-9-2026.zip) ([FAQ](./FAQ.md)).
 - **[What the Edits Know](https://jhave.github.io/narracode/2026-08-09_what-the-edits-know.html)** — 9 Aug 2026. What 1,234 human edits to machine drafts reveal about literary revision, and what they don't.
 - **[Dimensionality Reduction in AI Literature Research](https://glia.ca/2026/dimensionality-reduction/)** — Aug 2026. How stylometric mapping shows AI prose clustering into narrow sub-manifolds of the human literary space.
@@ -77,34 +75,62 @@ The core premise is that the architecture of a narrative generator is not neutra
 
 Narracode's narrative philosophy is encoded in:
 
-- **The main harness** ([`narracode.md`](./narracode.md)): The canonical, self-contained instruction protocol governing all passes and boundaries.
-- **The functional passes**: Rather than allowing single-shot prompt drift, Narracode executes distinct, separated operations:
-  - **Initiator Pass**: Prepares the project directory, defines the attentional dialect in `POETICS.md`, registers exact participating models in `ATTRIBUTION.md`, and initializes working state in `STATE.md`.
-  - **Reading Pass**: Annotates external reference texts or documents training-data familiarity with named authors.
-  - **State Synchronization Pass**: Updates working memory with newly established facts, modified character relations, or newly opened/resolved obligations.
-  - **Compositional Pass**: Drafts prose into sequenced draft files (`drafts/[N]-[name].md`) guided by active story pressures and poetics constraints.
-  - **Reflexive Pass**: Conducts question-driven editorial inquiry (Check mode), contextual tell audits against `master_ai_tells.md` (Tell-scan mode), or controlled stylistic perturbations (Retrofit mode).
-- **The unified working memory (`STATE.md`)**: The central state engine that preserves accumulated literary pressure without manufactured bureaucratic bloat. Organized into four clear epistemic tiers:
-  1. **Story Facts**: Chronology, irreversible events, physical constraints, and definitive truths of the story-world.
-  2. **Author Decisions**: Explicit directions, aesthetic constraints, formal choices, and direct instructions from the human prompter.
-  3. **Model Interpretations**: Tentative hypotheses regarding character interiority, subconscious motives, subtextual pressures, or thematic resonances (strictly revisable, never confused with canon).
-  4. **Unresolved Possibilities**: Active narrative promises made to the reader, unanswered questions, planted objects, emotional debts, and plausible paths the story could take next.
-- **The modular scaling rule**: Small- to medium-length stories maintain everything inside `STATE.md`. Only when long-form complexity or a multi-chapter novel warrants it does the system split state into modular files inside `structural/` (`graph.md`, `time-constants.md`, `history.md`, `obligations.md`, `motifs.md`, `scene-ledger.md`, `character-interiority.md`, `reader-state.md`).
-- **Exact-Model Attribution Norm**: Every story records the exact model name, version, host IDE runtime, and human role (e.g. `David (Jhave) Johnston × Gemini 3.8 Flash (High)` or `David Jhave Johnston (direction) · GPT-6 Astra (story)`). Generic attributions ("Claude", "Gemini", "an AI") are prohibited across `ATTRIBUTION.md`, story index pages, and root metadata.
+- **the main harness** (`narracode.md` itself, establishing the rules and boundaries)
+- **the agent roles**: Narracode forces the LLM to operate in strictly separated passes to avoid the "average" output of a single-shot prompt. The roles are:
+  - **Initiator**: Drafts the initial constraints and poetics document (`POETICS.md`).
+  - **Reading Agent**: Analyzes provided uploads across multiple dimensions (temporal posture, focal scale, syntactic strain, etc.).
+  - **Structural Agent**: Maintains the layered working memory by updating relations, time, established history, unresolved obligations, motifs, scene function, character interiority, and reader-state.
+  - **Compositional Agent**: Drafts prose from the active pressures in the structural state, not from a flat summary of the plot.
+  - **Reflexive Agent**: Runs in *Critique* mode (analyzing a draft against commitments), *Check* mode (a succinct post-draft protocol), or *Drift* mode (checking if the cumulative piece is finding fertile new ground or regressing to genre tropes).
+  - **Expansion Agent**: Generates alternative continuations that intentionally push beyond the boundaries of the uploads.
+- **the symbolic harness** (the directory structure that externalizes state into separate files)
+- **the evaluation harness** (the critique and drift check protocols, and pre-edit comparisons)
+- **the memory system** (the structural files, annotations, uploads, and version snapshots)
+
+### Structural Harness
+
+The `structural/` folder is the system's layered working memory, separating generative flow from narrative continuity. Earlier versions tracked mostly factual continuity. The current harness expands this into a literary memory that preserves accumulated pressure across scenes.
+
+![Narracode scene cycle diagram](img/narracode-structural-loop.webp)
+
+- **`graph.md`**: Maps entities, characters, institutions, places, and their shifting relationships.
+- **`time-constants.md`**: Tracks chronology, durations, simultaneities, deadlines, and physical constraints.
+- **`history.md`**: Records what has definitively happened, been said, refused, or established.
+- **`obligations.md`**: Tracks planted objects, unanswered questions, withheld information, unresolved events, emotional debts, and promises the story has made the reader wait for.
+- **`motifs.md`**: Tracks recurring images, gestures, objects, phrases, textures, atmospheres, and symbolic pressures.
+- **`scene-ledger.md`**: Treats each scene as a functional unit: what happened, what changed, what remained unresolved, and what the scene makes possible next.
+- **`character-interiority.md`**: Tracks private states, contradictions, hidden knowledge, possible character-arcs, and possible cathartic inflection points.
+- **`reader-state.md`**: Tracks what a first-time reader likely understands, expects, remembers, or wonders, including plausible paths where the plot might answer or defy expectations while remaining credible inside the story-world.
+
+After a new draft, the Reflexive Agent can write one succinct check file:
+
+```text
+critiques/check-[draft-name].md
+```
+
+The check stays brief and covers continuity, obligations, motifs, scene function, voice/default, and reader-state. It identifies risks and possibilities without scoring or rewriting the draft.
 
 ### Folder Layout
 
 When initiated, the agent builds a minimalist core structure. Auxiliary folders are generated lazily only when requested.
 
 ```text
-Stories written with Narracode/DD-MM-YYYY_TITLE/
-  POETICS.md                (project commitments, refused elements, attentional dialect)
-  ATTRIBUTION.md            (exact authorship attribution: human author, exact AI models, IDE runtime)
-  STATE.md                  (unified working memory: facts, decisions, interpretations, possibilities)
-  drafts/                   (timestamped or numbered draft versions)
+./
+  POETICS.md                (project commitments, refused elements, dialect)
+  ATTRIBUTION.md            (authorship attribution: human and AI models)
+  drafts/                   (timestamped draft versions)
+  structural/               (layered working memory)
+    graph.md
+    time-constants.md
+    history.md
+    obligations.md
+    motifs.md
+    scene-ledger.md
+    character-interiority.md
+    reader-state.md
 ```
 
-*(Note: Folders like `versions/`, `uploads/`, `critiques/`, `annotations/`, and modular `structural/` directories are generated lazily on demand only when requested or needed.)*
+*(Note: Folders like `versions/`, `uploads/`, `critiques/`, and `annotations/` are generated lazily only when requested or needed.)*
 
 
 ## Current state of the project
