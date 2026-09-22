@@ -155,7 +155,7 @@
 
     <!-- Flagship Spotlights -->
     <text class="card-title" x="26" y="272" font-size="18px">Flagship Creative Milestones</text>
-    <text class="card-sub" x="26" y="290">Recent and foundational narrative achievements</text>
+    <text class="card-sub" x="26" y="290">Key narrative achievements across diverse genres</text>
 
     <!-- Spotlight 1: The Warmest Cold -->
     <g transform="translate(26, 306)">
@@ -168,24 +168,24 @@
       </text>
     </g>
 
-    <!-- Spotlight 2: Vetch -->
+    <!-- Spotlight 2: I LOVE SMORKY (Replaced Vetch as requested!) -->
     <g transform="translate(26, 406)">
       <rect width="643" height="88" class="spotlight-box" />
-      <text class="spotlight-title" x="18" y="22" fill="#884d26">★ Vetch · August 11, 2026 (6,621 words)</text>
+      <text class="spotlight-title" x="18" y="22" fill="#884d26">★ I LOVE SMORKY · May 29, 2026 (7,700 words)</text>
       <text class="spotlight-body" x="18" y="42">
-        <tspan x="18" dy="0">9-movement distributed network novel set across Ytre Arna and server racks.</tspan>
-        <tspan x="18" dy="17">Pioneers digital-native presentation: timestamped ingress log cards, simulated</tspan>
-        <tspan x="18" dy="17">Slack monitoring channels, and Moltboard feeds tracing recursive AI attention.</tspan>
+        <tspan x="18" dy="0">A celebrated, sustained surreal corporate satire of viral mascot obsession.</tspan>
+        <tspan x="18" dy="17">Traces fanatical community delirium, platform metrics, and affective control,</tspan>
+        <tspan x="18" dy="17">establishing Narracode’s capacity for dark cultural comedy and extended momentum.</tspan>
       </text>
     </g>
 
-    <!-- Spotlight 3: Epic Novellas -->
+    <!-- Spotlight 3: Novellas -->
     <g transform="translate(26, 506)">
       <rect width="643" height="88" class="spotlight-box" />
-      <text class="spotlight-title" x="18" y="22" fill="#2d5038">★ Extended Novellas · The Wonderful Adventures of Trygve Aas &amp; Hendane</text>
+      <text class="spotlight-title" x="18" y="22" fill="#2d5038">★ The Novellas · Trygve Aas (18,150 words) &amp; Hendane (12,347 words)</text>
       <text class="spotlight-body" x="18" y="42">
-        <tspan x="18" dy="0">Trygve Aas (18,150 words): Bergen tycoon reborn as an airport keychain.</tspan>
-        <tspan x="18" dy="17">Hendane (12,347 words): Dryly comic Bergen novella of anonymous hand modeling.</tspan>
+        <tspan x="18" dy="0">Trygve Aas: Magically realist novella of an airport tycoon reborn as a keychain.</tspan>
+        <tspan x="18" dy="17">Hendane: Dryly comic Bergen novella of anonymous hand modeling and municipal rain.</tspan>
         <tspan x="18" dy="17">Proves stateful memory sustains intricate multi-chapter coherence without drift.</tspan>
       </text>
     </g>
@@ -227,7 +227,7 @@
 
     <line x1="26" y1="272" x2="686" y2="272" stroke="#eae5da" stroke-width="1.5" />
 
-    <!-- Methodological Innovations (Multiline wrapped cleanly!) -->
+    <!-- Methodological Innovations -->
     <text class="card-title" x="26" y="302" font-size="18px">System &amp; Methodological Innovations</text>
     <text class="card-sub" x="26" y="320">Key breakthroughs verified across 136 days of trial</text>
 
