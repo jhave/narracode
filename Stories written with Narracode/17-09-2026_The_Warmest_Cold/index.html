@@ -284,6 +284,80 @@
             margin: 1rem auto 2.2rem;
             box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
         }
+
+        .story-divider {
+            border: 0;
+            border-top: 1px solid #d9d5cc;
+            margin: 3.5rem auto 2.5rem;
+            max-width: var(--max-width);
+        }
+
+        .end-logo {
+            text-align: center;
+            margin: 0 auto 2.2rem;
+        }
+
+        .end-logo img {
+            width: 155px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            opacity: 0.95;
+            transition: opacity 0.2s ease;
+        }
+
+        .end-logo img:hover {
+            opacity: 1;
+        }
+
+        .download-section {
+            text-align: center;
+            margin: 0 auto 3.5rem;
+            padding-bottom: 2.5rem;
+            border-bottom: 1px solid #d9d5cc;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 0.65rem 1.3rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            background-color: #f7f6f2;
+            color: var(--text);
+            border: 1px solid #d9d5cc;
+            transition: background-color 0.2s, border-color 0.2s;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .btn svg {
+            fill: currentColor;
+        }
+
+        .btn:hover {
+            background-color: #efece4;
+            border-color: #b9b4a8;
+            color: var(--text);
+        }
+
+        .download-note {
+            margin-top: 0.65rem;
+            font-size: 0.82rem;
+            color: var(--muted);
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .download-note code {
+            font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+            font-size: 0.78rem;
+            background: #f3f1ec;
+            padding: 0.1rem 0.35rem;
+            border-radius: 3px;
+        }
     </style>
 </head>
 
@@ -689,6 +763,26 @@
         <p>Marc looked down at her fingers resting against his. He felt the coarse, heavy weight of her hand on his knuckles, the pulse of her blood beating against his skin with an irregular, stubborn rhythm, and he did not pull away.</p>
 
 </div>
+
+    <!-- End Divider, Glia Logo, and Download Harness -->
+    <hr class="story-divider">
+
+    <div class="end-logo">
+        <a target="_blank" href="https://glia.ca/" aria-label="Glia — David Jhave Johnston">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <div class="download-section">
+        <a class="btn" href="../../downloads/narracode_Sep-12-2026.zip" download>
+            <svg height="17" width="17" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M7.25 1.5a.75.75 0 0 1 1.5 0v6.69l2.22-2.22a.75.75 0 1 1 1.06 1.06l-3.5 3.5a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 0 1 1.06-1.06l2.22 2.22V1.5ZM2.5 10.25a.75.75 0 0 1 .75.75v2.25h9.5V11a.75.75 0 0 1 1.5 0v2.5a1 1 0 0 1-1 1H2.75a1 1 0 0 1-1-1V11a.75.75 0 0 1 .75-.75Z" />
+            </svg>
+            Download the harness
+        </a>
+        <div class="download-note">zip &middot; 39 KB &middot; <code>narracode_Sep-12-2026.md</code>, <code>README.md</code>, <code>FAQ.md</code>, and <code>master_ai_tells.md</code> &middot; <a href="../../harness-history.html">Version archive</a>
+        </div>
+    </div>
 
     <!-- Other Works by Narracode -->
 
