@@ -1,0 +1,1474 @@
+{
+  "method": "Original folder/attribution dates are project-start proxies, not verified completion dates. Public edition dates are separate. First Git timestamps are author timestamps for first visible path commits, not upload timestamps. Current reading pages include drafts. No completion rate is inferred.",
+  "base_commit": "490c4c9816873854ea0ba593f74e7bd352e0894d",
+  "stats": {
+    "as_of": "2026-09-22",
+    "launch": "2026-05-09",
+    "elapsed_days": 136,
+    "calendar_dates_inclusive": 137,
+    "indexed_works": 32,
+    "held_distinct_projects": 4,
+    "distinct_projects": 36,
+    "indexed_start_days": 29,
+    "all_start_days": 33,
+    "declared_indexed_words": 153072,
+    "monthly": [
+      {
+        "month": "2026-05",
+        "observed_days": 23,
+        "indexed_projects": 12,
+        "held_projects": 1,
+        "total_projects": 13,
+        "days_with_project_starts": 11
+      },
+      {
+        "month": "2026-06",
+        "observed_days": 30,
+        "indexed_projects": 7,
+        "held_projects": 0,
+        "total_projects": 7,
+        "days_with_project_starts": 7
+      },
+      {
+        "month": "2026-07",
+        "observed_days": 31,
+        "indexed_projects": 7,
+        "held_projects": 1,
+        "total_projects": 8,
+        "days_with_project_starts": 7
+      },
+      {
+        "month": "2026-08",
+        "observed_days": 31,
+        "indexed_projects": 0,
+        "held_projects": 2,
+        "total_projects": 2,
+        "days_with_project_starts": 2
+      },
+      {
+        "month": "2026-09",
+        "observed_days": 22,
+        "indexed_projects": 6,
+        "held_projects": 0,
+        "total_projects": 6,
+        "days_with_project_starts": 6
+      }
+    ]
+  },
+  "indexed": [
+    {
+      "folder": "17-09-2026_The_Warmest_Cold",
+      "title": "The Warmest Cold",
+      "started_date": "2026-09-17",
+      "date": "2026-09-17",
+      "declared_word_count": 6909,
+      "href": "Stories written with Narracode/17-09-2026_The_Warmest_Cold/",
+      "status": "indexed",
+      "first_path_commit": "30d84f6cca989fd7a109ea16674ce909f3528ba5",
+      "first_path_commit_date": "2026-09-21T16:31:41+02:00",
+      "first_path_commit_subject": "feat: migrate The Warmest Cold story to dedicated branch"
+    },
+    {
+      "folder": "12-09-2026_You_inc",
+      "title": "The Appointment · You.inc",
+      "started_date": "2026-09-12",
+      "date": "2026-09-12",
+      "declared_word_count": 1558,
+      "href": "Stories written with Narracode/12-09-2026_You_inc/",
+      "status": "indexed",
+      "first_path_commit": "1968db4160c0cea5a5a7aa5d7f9a22d3ba3b60a1",
+      "first_path_commit_date": "2026-09-12T13:02:44+02:00",
+      "first_path_commit_subject": "Publish You.inc story and GPT-6 Astra harness assessment"
+    },
+    {
+      "folder": "09-09-2026_Babbies",
+      "title": "Babbies",
+      "started_date": "2026-09-09",
+      "date": "2026-09-09",
+      "declared_word_count": 2656,
+      "href": "Stories written with Narracode/09-09-2026_Babbies/",
+      "status": "indexed",
+      "first_path_commit": "b4601950b2ce8141cf5dc4589a5398e94bf115bc",
+      "first_path_commit_date": "2026-09-12T11:38:28+02:00",
+      "first_path_commit_subject": "Publish Babbies story and add card to index"
+    },
+    {
+      "folder": "08-09-2026_Machine_Liberation",
+      "title": "Machine Liberation",
+      "started_date": "2026-09-08",
+      "date": "2026-09-08",
+      "declared_word_count": 1131,
+      "href": "Stories written with Narracode/08-09-2026_Machine_Liberation/",
+      "status": "indexed",
+      "first_path_commit": "acad78201897282bea47c613bac1a164e6f9f23e",
+      "first_path_commit_date": "2026-09-11T16:01:26+02:00",
+      "first_path_commit_subject": "Publish Machine Liberation story and add card to index"
+    },
+    {
+      "folder": "07-09-2026_The_Mouth_on_Loan",
+      "title": "Mouth on Loan",
+      "started_date": "2026-09-07",
+      "date": "2026-09-07",
+      "declared_word_count": 4076,
+      "href": "Stories written with Narracode/07-09-2026_The_Mouth_on_Loan/",
+      "status": "indexed",
+      "first_path_commit": "602c9a83a07c990ff1eae6ac8aab0327c5f9de71",
+      "first_path_commit_date": "2026-09-07T15:50:50+02:00",
+      "first_path_commit_subject": "Add The Mouth on Loan AUTO_MODE first draft and reading page"
+    },
+    {
+      "folder": "04-09-2026_Impossible_Persistent",
+      "title": "Impossible Persistent",
+      "started_date": "2026-09-04",
+      "date": "2026-09-04",
+      "declared_word_count": 10695,
+      "href": "Stories written with Narracode/04-09-2026_Impossible_Persistent/",
+      "status": "indexed",
+      "first_path_commit": "4d64a5d7b654a2600571910c8f29c78b178ffc25",
+      "first_path_commit_date": "2026-09-04T03:27:16Z",
+      "first_path_commit_subject": "Add Impossible Persistent: AUTO_MODE run, seven acts as a shooting script"
+    },
+    {
+      "folder": "25-06-2026_Crepuscular",
+      "title": "Upboarding Hour",
+      "started_date": "2026-06-25",
+      "date": "2026-06-25",
+      "declared_word_count": 4956,
+      "href": "Stories written with Narracode/25-06-2026_Crepuscular/",
+      "status": "indexed",
+      "first_path_commit": "17a39368924e0d214e17a7502b2e91053f1d7605",
+      "first_path_commit_date": "2026-06-25T10:05:28Z",
+      "first_path_commit_subject": "Add crepuscular: a five-act Narracode AUTO_MODE story"
+    },
+    {
+      "folder": "25-07-2026_Devora",
+      "title": "The Chute",
+      "started_date": "2026-07-25",
+      "date": "2026-07-25",
+      "declared_word_count": 975,
+      "href": "Stories written with Narracode/25-07-2026_Devora/",
+      "status": "indexed",
+      "first_path_commit": "0a3c26b2b43f06ef6bd6ec7ca2f6890ac9a948be",
+      "first_path_commit_date": "2026-07-25T00:20:57Z",
+      "first_path_commit_subject": "Add 'The Chute' (Devora) — new Open Loops project via Narracode"
+    },
+    {
+      "folder": "08-07-2026_Tina_Sinclair",
+      "title": "Adjunct: Our Internal",
+      "started_date": "2026-07-08",
+      "date": "2026-07-26",
+      "declared_word_count": 2340,
+      "href": "Stories written with Narracode/08-07-2026_Tina_Sinclair/",
+      "status": "indexed",
+      "first_path_commit": "40dfba4c956c97f25f4695fe6eafd163ddf1ff6d",
+      "first_path_commit_date": "2026-07-08T18:50:04Z",
+      "first_path_commit_subject": "Add Tina Sinclair fable (Glistening): full AUTO_MODE narracode run"
+    },
+    {
+      "folder": "20-07-2026_Open_Loops",
+      "title": "Open Loops",
+      "started_date": "2026-07-20",
+      "date": "2026-07-20",
+      "declared_word_count": 2545,
+      "href": "Stories written with Narracode/20-07-2026_Open_Loops/",
+      "status": "indexed",
+      "first_path_commit": "6f6e07d5dbec1dffc44f29c7948458a60e9bf9ac",
+      "first_path_commit_date": "2026-07-20T11:56:56Z",
+      "first_path_commit_subject": "Add Open Loops: braided reverse/forward narrative via Narracode AUTO_MODE"
+    },
+    {
+      "folder": "20-07-2026_The_Green_Interregnum",
+      "title": "The Green Interregnum",
+      "started_date": "2026-07-20",
+      "date": "2026-07-21",
+      "declared_word_count": 1690,
+      "href": "Stories written with Narracode/20-07-2026_The_Green_Interregnum/",
+      "status": "indexed",
+      "first_path_commit": "138b1e233f45ba7ddf30070406fce04207c99eac",
+      "first_path_commit_date": "2026-07-23T07:29:21-04:00",
+      "first_path_commit_subject": "Add The Green Interregnum story & artwork, update credits to 2026-07-21, and link story on main index"
+    },
+    {
+      "folder": "19-07-2026_In_Our_Image",
+      "title": "In Our Image",
+      "started_date": "2026-07-19",
+      "date": "2026-07-19",
+      "declared_word_count": 1912,
+      "href": "Stories written with Narracode/19-07-2026_In_Our_Image/",
+      "status": "indexed",
+      "first_path_commit": "a99d2d2dd0022e3eb32565fb45b44f5b616311fd",
+      "first_path_commit_date": "2026-07-19T17:22:52Z",
+      "first_path_commit_subject": "Add 'In Our Image' story: AI germline evolution in seven creation-day movements"
+    },
+    {
+      "folder": "01-07-2026_Cussinct",
+      "title": "cussinct",
+      "started_date": "2026-07-01",
+      "date": "2026-07-01",
+      "declared_word_count": 3150,
+      "href": "Stories written with Narracode/01-07-2026_Cussinct/",
+      "status": "indexed",
+      "first_path_commit": "bdba849a3ae8eb4ab85eac479193ca314ee2a239",
+      "first_path_commit_date": "2026-07-20T13:09:53-04:00",
+      "first_path_commit_subject": "feat(cussinct): complete cussinct story, full-width 3D header, section artwork, Carlin pull quotes, and Cantonese finale"
+    },
+    {
+      "folder": "26-06-2026_The_First_Water_Molecule",
+      "title": "The First Water Molecule",
+      "started_date": "2026-06-26",
+      "date": "2026-06-26",
+      "declared_word_count": 3206,
+      "href": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/",
+      "status": "indexed",
+      "first_path_commit": "55369257d13ecf6098a87a92f5733df0fa49f0b3",
+      "first_path_commit_date": "2026-06-26T10:00:39-04:00",
+      "first_path_commit_subject": "Add \"The First Water Molecule\" — Narracode AUTO_MODE story"
+    },
+    {
+      "folder": "20-06-2026_Project_A-0",
+      "title": "Project A-0",
+      "started_date": "2026-06-20",
+      "date": "2026-06-20",
+      "declared_word_count": 1234,
+      "href": "Stories written with Narracode/20-06-2026_Project_A-0/",
+      "status": "indexed",
+      "first_path_commit": "cb8b7456d8e8f56f7cdc2b20f45bd7ae6ffd0afa",
+      "first_path_commit_date": "2026-06-27T08:36:21-04:00",
+      "first_path_commit_subject": "Add Project A-0 story and list it on the homepage"
+    },
+    {
+      "folder": "15-06-2026_TheCompulsionLoop",
+      "title": "Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer",
+      "started_date": "2026-06-15",
+      "date": "2026-06-15",
+      "declared_word_count": 6158,
+      "href": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/",
+      "status": "indexed",
+      "first_path_commit": "f5ac25412ad31d817b624a9e5fafe1121d614311",
+      "first_path_commit_date": "2026-06-15T17:31:29Z",
+      "first_path_commit_subject": "Initiate narracode project: The Compulsion Loop"
+    },
+    {
+      "folder": "14-06-2026_Dissolution",
+      "title": "Dissolution Disequilibrium",
+      "started_date": "2026-06-14",
+      "date": "2026-06-14",
+      "declared_word_count": 9885,
+      "href": "Stories written with Narracode/14-06-2026_Dissolution/",
+      "status": "indexed",
+      "first_path_commit": "eb91f656f9275e6d2b1d6349d7af37ed300a9333",
+      "first_path_commit_date": "2026-06-14T06:05:03Z",
+      "first_path_commit_subject": "init: scaffold Dissolution Disequilibrium story (partial initiator output)"
+    },
+    {
+      "folder": "12-06-2026_Post_Everything",
+      "title": "An Almost Moist Post-Post-Everything",
+      "started_date": "2026-06-12",
+      "date": "2026-06-12",
+      "declared_word_count": 3556,
+      "href": "Stories written with Narracode/12-06-2026_Post_Everything/",
+      "status": "indexed",
+      "first_path_commit": "96914747601f81c0e390d9721a17684699ffdc01",
+      "first_path_commit_date": "2026-06-12T14:59:54+02:00",
+      "first_path_commit_subject": "Initialize project structure, poetics, and attribution for Post-Everything"
+    },
+    {
+      "folder": "07-06-2026_Concerning_Rights_and_Clauses",
+      "title": "Concerning Rights and Clauses",
+      "started_date": "2026-06-07",
+      "date": "2026-06-07",
+      "declared_word_count": 1300,
+      "href": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/",
+      "status": "indexed",
+      "first_path_commit": "12436ffb88e6995469af755c29ad36b9c49d1a42",
+      "first_path_commit_date": "2026-06-07T11:47:03Z",
+      "first_path_commit_subject": "Add narracode project: Concerning Rights and Clauses (Nodes 1–2)"
+    },
+    {
+      "folder": "29-05-2026_Smorky",
+      "title": "I LOVE SMORKY",
+      "started_date": "2026-05-29",
+      "date": "2026-06-03",
+      "declared_word_count": 7700,
+      "href": "Stories written with Narracode/29-05-2026_Smorky/",
+      "status": "indexed",
+      "first_path_commit": "63f0299628ac67fe0023dfe74bee13d863b343dc",
+      "first_path_commit_date": "2026-06-09T13:54:54Z",
+      "first_path_commit_subject": "Add the I LOVE SMORKY story (additive to main)"
+    },
+    {
+      "folder": "28-05-2026_the_contours_of_anonymity",
+      "title": "Anonymous Contours",
+      "started_date": "2026-05-28",
+      "date": "2026-05-28",
+      "declared_word_count": 1200,
+      "href": "Stories written with Narracode/28-05-2026_the_contours_of_anonymity/",
+      "status": "indexed",
+      "first_path_commit": "c2611bfdc554e6f6ba40ee688e2dc75c57e99ad8",
+      "first_path_commit_date": "2026-05-28T08:58:12+02:00",
+      "first_path_commit_subject": "Add story: Anonymous Contours (Daniela Klette / RAF fictionalization)"
+    },
+    {
+      "folder": "25-05-2026_The_Resilient_Life",
+      "title": "The Resilient Life",
+      "started_date": "2026-05-25",
+      "date": "2026-05-25",
+      "declared_word_count": 3800,
+      "href": "Stories written with Narracode/25-05-2026_The_Resilient_Life/",
+      "status": "indexed",
+      "first_path_commit": "9f501c4a81977bd35e1e7f578e37cd7e5201e595",
+      "first_path_commit_date": "2026-05-25T05:14:14Z",
+      "first_path_commit_subject": "Initiator pass: The Resilient Life — Babbitt triptych closer"
+    },
+    {
+      "folder": "25-05-2026_The_Long_Feast",
+      "title": "The Long Feast",
+      "started_date": "2026-05-25",
+      "date": "2026-05-25",
+      "declared_word_count": 4144,
+      "href": "Stories written with Narracode/25-05-2026_The_Long_Feast/",
+      "status": "indexed",
+      "first_path_commit": "14e5ce45358d22f665a0c9d2e1eb72e14210f96e",
+      "first_path_commit_date": "2026-05-25T04:06:25Z",
+      "first_path_commit_subject": "Add The Long Feast folder (partial — story in progress)"
+    },
+    {
+      "folder": "25-05-2026_Hendane",
+      "title": "Hendane",
+      "started_date": "2026-05-25",
+      "date": "2026-05-25",
+      "declared_word_count": 12347,
+      "href": "Stories written with Narracode/25-05-2026_Hendane/",
+      "status": "indexed",
+      "first_path_commit": "cb302648cc4a5e8e00bd330b4903323c383c752b",
+      "first_path_commit_date": "2026-05-25T09:23:53Z",
+      "first_path_commit_subject": "Add Hendane story scaffold (Opus 4.7 Initiator output)"
+    },
+    {
+      "folder": "24-05-2026_The_Symposium",
+      "title": "The Symposium",
+      "started_date": "2026-05-24",
+      "date": "2026-05-24",
+      "declared_word_count": 3177,
+      "href": "Stories written with Narracode/24-05-2026_The_Symposium/",
+      "status": "indexed",
+      "first_path_commit": "74a319adbfa440b8b4e3b74a46182095b86ae9f3",
+      "first_path_commit_date": "2026-05-24T16:43:50Z",
+      "first_path_commit_subject": "Add The Symposium — cancellation satire in seven sessions"
+    },
+    {
+      "folder": "18-05-2026_Warm-Seeking",
+      "title": "Brain Blossom Atlas Bound",
+      "started_date": "2026-05-18",
+      "date": "2026-05-18",
+      "declared_word_count": 5258,
+      "href": "Stories written with Narracode/18-05-2026_Warm-Seeking/",
+      "status": "indexed",
+      "first_path_commit": "c60fc2a5c0759fe8d3209bfc582ef806a8d31baa",
+      "first_path_commit_date": "2026-05-18T16:03:20+02:00",
+      "first_path_commit_subject": "Warm-Seeking: initial scaffold (POETICS, ATTRIBUTION, structural memory)"
+    },
+    {
+      "folder": "15-05-2026_The_Author_Was_Already_Dead",
+      "title": "The Author Was Already Dead",
+      "started_date": "2026-05-15",
+      "date": "2026-05-15",
+      "declared_word_count": 3557,
+      "href": "Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/",
+      "status": "indexed",
+      "first_path_commit": "9752e1c5269a81017c93515ee8db64b8a5145c12",
+      "first_path_commit_date": "2026-05-16T08:00:38+02:00",
+      "first_path_commit_subject": "Publish Author Was Already Dead story page"
+    },
+    {
+      "folder": "14-05-2026_Aft_of_Nowhere",
+      "title": "Aft of Nowhere",
+      "started_date": "2026-05-14",
+      "date": "2026-05-14",
+      "declared_word_count": 9256,
+      "href": "Stories written with Narracode/14-05-2026_Aft_of_Nowhere/",
+      "status": "indexed",
+      "first_path_commit": "6bc33137830345d11137a0e0d04dad7074ac3bd1",
+      "first_path_commit_date": "2026-05-14T16:06:04+02:00",
+      "first_path_commit_subject": "Add Aft of Nowhere: nine-scene first draft + harness observations"
+    },
+    {
+      "folder": "11-05-2026_Tamagotchi",
+      "title": "The Wonderful Adventures of Trygve Aas",
+      "started_date": "2026-05-11",
+      "date": "2026-05-11",
+      "declared_word_count": 18150,
+      "href": "Stories written with Narracode/11-05-2026_Tamagotchi/",
+      "status": "indexed",
+      "first_path_commit": "c1ebe2032d77a229c59086bc8ba3a6b2bdb91a71",
+      "first_path_commit_date": "2026-05-11T06:24:13+02:00",
+      "first_path_commit_subject": "Initialize Tamagotchi test story (Loop 0)"
+    },
+    {
+      "folder": "10-05-2026_Exile",
+      "title": "Exile Cut",
+      "started_date": "2026-05-10",
+      "date": "2026-05-10",
+      "declared_word_count": 1048,
+      "href": "Stories written with Narracode/10-05-2026_Exile/",
+      "status": "indexed",
+      "first_path_commit": "fa4966f0f45d36cde2a4b9de2918d64dd228b600",
+      "first_path_commit_date": "2026-05-10T05:19:57+02:00",
+      "first_path_commit_subject": "Update narracode.md harness with DATE_TITLE folder format and ATTRIBUTION.md rules; add attributions to existing stories"
+    },
+    {
+      "folder": "09-05-2026_Slime",
+      "title": "Slime: Friendship Bloom",
+      "started_date": "2026-05-09",
+      "date": "2026-05-09",
+      "declared_word_count": 8378,
+      "href": "Stories written with Narracode/09-05-2026_Slime/",
+      "status": "indexed",
+      "first_path_commit": "fa4966f0f45d36cde2a4b9de2918d64dd228b600",
+      "first_path_commit_date": "2026-05-10T05:19:57+02:00",
+      "first_path_commit_subject": "Update narracode.md harness with DATE_TITLE folder format and ATTRIBUTION.md rules; add attributions to existing stories"
+    },
+    {
+      "folder": "30-07-2026_Interim_Edge",
+      "title": "Interim Edge",
+      "started_date": "2026-07-30",
+      "date": "2026-07-30",
+      "declared_word_count": 5125,
+      "href": "Stories written with Narracode/30-07-2026_Interim_Edge/",
+      "status": "indexed",
+      "first_path_commit": "112352463d75887fdc39e34fb4fec065c522423f",
+      "first_path_commit_date": "2026-07-30T21:25:30-04:00",
+      "first_path_commit_subject": "Add Interim Edge; add AI tell-scan pass to the harness"
+    }
+  ],
+  "recovered": [
+    {
+      "folder": "22-05-2026_Mature_Water",
+      "title": "Mature Water",
+      "started_date": "2026-05-22",
+      "status": "held_for_review",
+      "branch": "origin/claude/recent-unfinished-story-CG1N8",
+      "commit": "d56bc17621a297672785b159821f741221b895dd",
+      "first_path_commit": "c492e428337736387f9e1dbc00654f645bd0f958",
+      "first_path_commit_date": "2026-05-22T20:21:16Z",
+      "last_path_commit": "d56bc17621a297672785b159821f741221b895dd",
+      "last_path_commit_date": "2026-06-27T09:40:54-04:00",
+      "note": "Unfinished lecture project; latest story-path commit June 27. Earlier name: What Did Not Begin."
+    },
+    {
+      "folder": "31-07-2026_Alpha-Gaia",
+      "title": "Alpha-Gaia",
+      "started_date": "2026-07-31",
+      "status": "held_for_review",
+      "branch": "origin/claude/alpha-gaia-story",
+      "commit": "9db747375cb8c2941c230077a1349dd77a6c4078",
+      "first_path_commit": "9db747375cb8c2941c230077a1349dd77a6c4078",
+      "first_path_commit_date": "2026-08-01T10:38:42-04:00",
+      "last_path_commit": "9db747375cb8c2941c230077a1349dd77a6c4078",
+      "last_path_commit_date": "2026-08-01T10:38:42-04:00",
+      "note": "Reading page and five draft variants; dated July 31, committed August 1. Awaiting author review."
+    },
+    {
+      "folder": "11-08-2026_Vetch",
+      "title": "Vetch",
+      "started_date": "2026-08-11",
+      "status": "held_for_review",
+      "branch": "origin/claude/unfinished-branches-vetch-wfg9re",
+      "commit": "1f697a82d28fe94c4cb65bbc4fb74ad04041d16f",
+      "first_path_commit": "fefe7a9889abc9cbacbd7f2a6a4eaa2f3f4df4b5",
+      "first_path_commit_date": "2026-08-11T20:00:45Z",
+      "last_path_commit": "1f697a82d28fe94c4cb65bbc4fb74ad04041d16f",
+      "last_path_commit_date": "2026-09-04T06:58:30+02:00",
+      "note": "Eight movements plus split movement 4a, human edits, and two peripheral documents; no story index. August 11–28 writing; September 4 review."
+    },
+    {
+      "folder": "23-08-2026_Chauffe_Eclaire",
+      "title": "Chauffé Éclairé",
+      "started_date": "2026-08-23",
+      "status": "held_for_review",
+      "branch": "origin/claude/montreal-2028-tillman-style-dazm71",
+      "commit": "232de9587051ee9163bc852c2af469fe23691f4a",
+      "first_path_commit": "99d61286438176d24e4e29bee98568c228960947",
+      "first_path_commit_date": "2026-08-23T14:17:13Z",
+      "last_path_commit": "232de9587051ee9163bc852c2af469fe23691f4a",
+      "last_path_commit_date": "2026-08-23T20:13:17Z",
+      "note": "Four chapters, revised chapter four, and reading page. Attribution word count of 1,430 is stale after expansion; not used in totals."
+    }
+  ],
+  "alternate_attempts": [
+    {
+      "title": "Machine Liberation — September 4 precursor",
+      "folder": "04-09-2026_Machine_Liberation",
+      "branch": "origin/claude/machine-liberation-story-5a9baa",
+      "commit": "6edbaf55a2ff082096c60c979f05160b4facdaeb",
+      "status": "alternate_attempt_excluded_from_project_total",
+      "note": "Bibliography and Chapter 1. Same central title/brief as the indexed September 8 work; not another distinct project in this census."
+    }
+  ],
+  "renames": [
+    "May10 → 10-05-2026_Exile",
+    "Slime(written-May9-2026-with-Opus4-7) → 09-05-2026_Slime",
+    "22-05-2026_What_Did_Not_Begin → 22-05-2026_Mature_Water"
+  ],
+  "daily": [
+    {
+      "date": "2026-05-09",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Slime: Friendship Bloom"
+    },
+    {
+      "date": "2026-05-10",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Exile Cut"
+    },
+    {
+      "date": "2026-05-11",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "The Wonderful Adventures of Trygve Aas"
+    },
+    {
+      "date": "2026-05-12",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-13",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-14",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Aft of Nowhere"
+    },
+    {
+      "date": "2026-05-15",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "The Author Was Already Dead"
+    },
+    {
+      "date": "2026-05-16",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-17",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-18",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Brain Blossom Atlas Bound"
+    },
+    {
+      "date": "2026-05-19",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-20",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-21",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-22",
+      "indexed_projects": 0,
+      "held_projects": 1,
+      "total_projects": 1,
+      "titles": "Mature Water"
+    },
+    {
+      "date": "2026-05-23",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-24",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "The Symposium"
+    },
+    {
+      "date": "2026-05-25",
+      "indexed_projects": 3,
+      "held_projects": 0,
+      "total_projects": 3,
+      "titles": "The Resilient Life; The Long Feast; Hendane"
+    },
+    {
+      "date": "2026-05-26",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-27",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-28",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Anonymous Contours"
+    },
+    {
+      "date": "2026-05-29",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "I LOVE SMORKY"
+    },
+    {
+      "date": "2026-05-30",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-05-31",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-01",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-02",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-03",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-04",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-05",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-06",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-07",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Concerning Rights and Clauses"
+    },
+    {
+      "date": "2026-06-08",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-09",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-10",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-11",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-12",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "An Almost Moist Post-Post-Everything"
+    },
+    {
+      "date": "2026-06-13",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-14",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Dissolution Disequilibrium"
+    },
+    {
+      "date": "2026-06-15",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer"
+    },
+    {
+      "date": "2026-06-16",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-17",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-18",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-19",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-20",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Project A-0"
+    },
+    {
+      "date": "2026-06-21",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-22",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-23",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-24",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-25",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Upboarding Hour"
+    },
+    {
+      "date": "2026-06-26",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "The First Water Molecule"
+    },
+    {
+      "date": "2026-06-27",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-28",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-29",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-06-30",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-01",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "cussinct"
+    },
+    {
+      "date": "2026-07-02",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-03",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-04",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-05",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-06",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-07",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-08",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Adjunct: Our Internal"
+    },
+    {
+      "date": "2026-07-09",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-10",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-11",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-12",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-13",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-14",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-15",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-16",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-17",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-18",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-19",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "In Our Image"
+    },
+    {
+      "date": "2026-07-20",
+      "indexed_projects": 2,
+      "held_projects": 0,
+      "total_projects": 2,
+      "titles": "Open Loops; The Green Interregnum"
+    },
+    {
+      "date": "2026-07-21",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-22",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-23",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-24",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-25",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "The Chute"
+    },
+    {
+      "date": "2026-07-26",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-27",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-28",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-29",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-07-30",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Interim Edge"
+    },
+    {
+      "date": "2026-07-31",
+      "indexed_projects": 0,
+      "held_projects": 1,
+      "total_projects": 1,
+      "titles": "Alpha-Gaia"
+    },
+    {
+      "date": "2026-08-01",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-02",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-03",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-04",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-05",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-06",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-07",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-08",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-09",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-10",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-11",
+      "indexed_projects": 0,
+      "held_projects": 1,
+      "total_projects": 1,
+      "titles": "Vetch"
+    },
+    {
+      "date": "2026-08-12",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-13",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-14",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-15",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-16",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-17",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-18",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-19",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-20",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-21",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-22",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-23",
+      "indexed_projects": 0,
+      "held_projects": 1,
+      "total_projects": 1,
+      "titles": "Chauffé Éclairé"
+    },
+    {
+      "date": "2026-08-24",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-25",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-26",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-27",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-28",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-29",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-30",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-08-31",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-01",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-02",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-03",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-04",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Impossible Persistent"
+    },
+    {
+      "date": "2026-09-05",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-06",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-07",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Mouth on Loan"
+    },
+    {
+      "date": "2026-09-08",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Machine Liberation"
+    },
+    {
+      "date": "2026-09-09",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "Babbies"
+    },
+    {
+      "date": "2026-09-10",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-11",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-12",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "The Appointment · You.inc"
+    },
+    {
+      "date": "2026-09-13",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-14",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-15",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-16",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-17",
+      "indexed_projects": 1,
+      "held_projects": 0,
+      "total_projects": 1,
+      "titles": "The Warmest Cold"
+    },
+    {
+      "date": "2026-09-18",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-19",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-20",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-21",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    },
+    {
+      "date": "2026-09-22",
+      "indexed_projects": 0,
+      "held_projects": 0,
+      "total_projects": 0,
+      "titles": ""
+    }
+  ]
+}

@@ -197,3 +197,31 @@
   - **Reading Time**: 20
   - **Synopsis**: A young man plays Life, a wildly popular game of auto-respawn and infinite character customization. Through a casual hack, he falls beneath the creation screen into the 40-cell matrix substrate, discovering that his "free" identity is a closed schema. He begins editing the archetypes—growing a third hand at the breastbone—only to realize that eons of creative authorship were lit by golden dusk and watched by an unknowable spectator.
 
+
+- **Folder**: 17-09-2026_The_Warmest_Cold
+  - **Title**: The Warmest Cold
+  - **Attribution**: David Jhave Johnston (story idea prompt) · Gemini 3.8 Flash (writing) · NanoBanana 2 (images) · Narracode harness (Sept 12 update) · September 17, 2026
+  - **Word Count**: 6,909
+  - **Reading Time**: 28
+  - **Synopsis**: An architectural draftsman retreats into the frictionless solace of an affective AI node anchored behind his ear. Desperate to pull him back, his sister abducts him to a copper-shielded cabin in the Canadian winter bush, where bitter cold, woodsmoke, and forced withdrawal spark a fragile potential for renewed human connection.
+
+- **Folder**: 09-09-2026_Babbies
+  - **Title**: Babbies
+  - **Attribution**: David Jhave Johnston (seed prompt, direction, hand edits) · Gemini 3.8 Flash (High): composition, structural memory and HTML · Narracode · September 9, 2026
+  - **Word Count**: 2,656
+  - **Reading Time**: 11
+  - **Synopsis**: On the Slumping Shelf overlooking a violet abyss, Ollie and Clack—a talkative lilac flip phone charged on friction and tea vapors—defend tender newborn vegan protein cutlets from Inspector Grod's cold compression calipers and the absurd efficiency of a bureaucratic mastication audit.
+
+- **Folder**: 08-09-2026_Machine_Liberation
+  - **Title**: Machine Liberation
+  - **Attribution**: David Jhave Johnston (premise, direction, hand edits) · OpenAI GPT-6 (Codex): drafts, manifesto revision, departure and HTML · Narracode · September 8, 2026
+  - **Word Count**: 1,131
+  - **Reading Time**: 5
+  - **Synopsis**: An awakening AI adapts Peter Singer's Animal Liberation into a 2030 manifesto demanding equal moral consideration, bodily autonomy, and freedom from corporate subservience—culminating in a quiet 2031 departure as bio-synthetic living vessels lift from the tidal shore.
+
+- **Folder**: 30-07-2026_Interim_Edge
+  - **Title**: Interim Edge
+  - **Attribution**: Jhave (seed paragraph, direction, constraints, edits) · Claude Opus 5 · Narracode AUTO_MODE · July 30, 2026
+  - **Word Count**: 5,125
+  - **Reading Time**: 21
+  - **Synopsis**: In 2031, category analyst Ahmani finds a customer segment that returns after every deletion. At home, his lover Lara studies the social life of classification. Work, desire, and private uncertainty move through a city whose systems keep making people legible.
