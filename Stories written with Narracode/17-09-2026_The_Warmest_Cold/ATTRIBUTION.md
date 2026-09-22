@@ -17,7 +17,7 @@
 | Structural & State Sync | Gemini 3.8 Flash (High) | 2026-09-17 | Scene sequencing, entity graph, obligations ledger, progressive state updates |
 | Compositional | Gemini 3.8 Flash (High) | 2026-09-17 | Full five-act draft (Acts 0–4; 6,909 words) in AUTO_MODE |
 | Reflexive | Gemini 3.8 Flash (High) | 2026-09-17 | Per-scene checks, strict tell audits against master tells (zero kettles, zero hums), full-arc critique |
-| Illustrations | Imagen / Gemini | 2026-09-22 | Chapter banners adhering to gritty material realism and anti-cliche constraints |
+| Illustrations | NanoBanana 2 | 2026-09-22 | Chapter banners adhering to gritty material realism and anti-cliche constraints |
 
 ## Attribution formula (for publication)
 *Story idea prompt by David (Jhave) Johnston. Written autonomously from the prompt using Narracode harness (Sept 12th update); no human edits were made. Credit: Gemini 3.8 Flash using Narracode harness (Sept 12th update): Writing, images.*
