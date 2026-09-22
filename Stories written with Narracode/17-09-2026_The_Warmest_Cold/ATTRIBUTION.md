@@ -1,7 +1,9 @@
 # Attribution — The Warmest Cold
 
 ## Authorship
-- **Human Author**: Jhave (prompt brief, project manifest, structural obligations, and directional constraints)
+- **Story Idea Prompt**: David (Jhave) Johnston
+- **Method & Autonomy**: Written autonomously from a story idea prompt; no human edits were made.
+- **Credit**: Gemini 3.8 Flash using Narracode harness (Sept 12th update): Writing, images.
 - **Story Composition & Review**: Gemini 3.8 Flash (High) (AUTO_MODE execution across five acts)
 - **Host IDE / Runtime**: Google Antigravity IDE
 - **Word Count**: 6,909 words (Acts 0–4)
@@ -15,6 +17,7 @@
 | Structural & State Sync | Gemini 3.8 Flash (High) | 2026-09-17 | Scene sequencing, entity graph, obligations ledger, progressive state updates |
 | Compositional | Gemini 3.8 Flash (High) | 2026-09-17 | Full five-act draft (Acts 0–4; 6,909 words) in AUTO_MODE |
 | Reflexive | Gemini 3.8 Flash (High) | 2026-09-17 | Per-scene checks, strict tell audits against master tells (zero kettles, zero hums), full-arc critique |
+| Illustrations | Imagen / Gemini | 2026-09-22 | Chapter banners adhering to gritty material realism and anti-cliche constraints |
 
 ## Attribution formula (for publication)
-*Jhave (manifest, direction, constraints) · Gemini 3.8 Flash (High) (Initiation, Composition, State & Reflexive Passes) — AUTO_MODE via Narracode harness (Antigravity IDE) · September 2026*
+*Story idea prompt by David (Jhave) Johnston. Written autonomously from the prompt using Narracode harness (Sept 12th update); no human edits were made. Credit: Gemini 3.8 Flash using Narracode harness (Sept 12th update): Writing, images.*
