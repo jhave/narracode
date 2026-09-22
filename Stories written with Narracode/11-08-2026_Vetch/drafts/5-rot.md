@@ -18,7 +18,7 @@ Odd: "Read it?"
 
 "What do you think?"
 
-A man had a religious experience at a chatbot. Words — *lattice, harmonic, recursion, coherence field, neural resonance, glyph* — gunk.
+A man had a religious experience at a chatbot. Pure cult gunk.
 
 I type: "Not the same thing."
 

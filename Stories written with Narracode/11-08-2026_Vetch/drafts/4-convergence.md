@@ -28,7 +28,7 @@ Per
 
 Per —
 
-AMS numbers: 29 events across 9 shards, versus 90-day average of 18 across 7. Simila head pattern emerging. 14, 17, 22, 31 consistent. 23 in ~70%.
+AMS numbers: 29 events across 9 shards, versus 90-day average of 18 across 7. Similar head pattern emerging. 14, 17, 22, 31 consistent. 23 in ~70%.
 
 Convergence is real, but severity is nominal. Aggregate well below threshold. Would need 100+ events/week sustained for automatic escalation.
 
@@ -41,7 +41,7 @@ Astrid
 **#monitoring-general** — Slack, campus internal
 
 **Per Haugen** 10:47 AM  
-Hey all — anyone on APAC or SAM clusters seeing an uptick in ATTN-ANOMALY-7? Me and Astrid see a trend in NOR and AMS. Nominal for now, but affected-heads (14, 17, 22, 31, occasionally 23) converging globally. I share a rough data pull.
+Hey all — anyone on APAC or SAM clusters seeing an uptick in ATTN-ANOMALY-7? Astrid and I see a trend in NOR and AMS. Nominal for now, but affected-heads (14, 17, 22, 31, occasionally 23) converging globally. Dropping the rough data pull below.
 
 **Jun Tanaka** 10:52 AM  
 Checking. Give me an hour.

@@ -52,7 +52,7 @@ Under photo eight:
 
 Odd reads it out loud. Flat silence.
 
-"Pipeline glitch," Kwesi says. "Logging string pushed to accessibility metadata. Common."
+"Probably a server glitch," Kwesi says. "A developer logging string leaked into the image alt-text."
 
 Salome counts.
 

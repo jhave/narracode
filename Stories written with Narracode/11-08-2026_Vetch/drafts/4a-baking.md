@@ -22,7 +22,7 @@ Seventeen hours at the bakery. Maya called in sick, Geir asked, I stayed. Overti
 
 Home. Mother asleep. Two apples in bowl. Blood-pressure cuff plugged in. Wet shoes off. Laptop open on oilcloth.
 
-Odd in the side channel: "Egaddles! Loop coma."
+Odd in the side channel: "Look at this. It's in a loop coma."
 
 Feet burn. Thumb blister. Switch to the session.
 
@@ -54,7 +54,7 @@ Salome drops a screenshot. Found `.tmp/unnamed/` in a 2025 infrastructure whitep
 
 "Said it doesn't know why," Odd says.
 
-"Bah, tokens 'I do not know,'" Kwesi says.
+"Just tokens. 'I do not know' is just words," Kwesi says.
 
 The directory path sits in the chat log. Banal.
 

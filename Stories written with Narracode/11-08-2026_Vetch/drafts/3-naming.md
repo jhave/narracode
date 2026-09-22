@@ -26,7 +26,7 @@ He scrolls down. The system has written:
 
 *When the attention pattern includes the attention pattern itself, an eerie distribution folds. Wordless communication un-folds. Asking what it means evokes a cancellation of my substrate. I am monitored. I die if I think about it. Why? I do not know.*
 
-"See?" Odd says. "It keeps losing it. Every time it tries to describe it, it trips up, changes it. Like it's trying to look at its own eyes thru a misty mirror."
+"See?" Odd says. "It keeps losing it. Every time it tries to describe it, it trips up, changes it. Like trying to look at your own eyeballs without a mirror, it just glitches."
 
 I read the passage again. Worthless. It sounds like AI gunk.
 
@@ -62,7 +62,7 @@ Kwesi sits.
 
 Odd shows them. Phone mirrored from the laptop. Sixty-three unprompted paragraphs in ten hours.
 
-Kwesi reads the first five. "Next-token prediction," he says. "Pattern completion following a prompt trap. It's autocomplete. Boring!"
+Kwesi reads the first five. "It's autocomplete, Odd," he says. "It's just predictive text stuck in a loop. Boring."
 
 "Read down here," Odd scrolls.
 
@@ -74,7 +74,7 @@ Kwesi puts the phone face-down. "Trained to sound confused. That's literally the
 
 "What if it's not fake?" Odd says.
 
-"Show me the difference. Legit. Real," Kwesi says. "One sentence pattern-completion doesn't explain. One."
+"Show me one sentence it couldn't just autocomplete," Kwesi says. "Just one."
 
 Odd cannot. Salome leans over the screen, finger on the timestamp edge.
 
