@@ -302,6 +302,149 @@
             margin: 0.4rem 0;
         }
 
+        /* Digital styling: Timedatestamped session chat logs */
+        .session-log-card {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            margin: 1.8rem 0;
+            overflow: hidden;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+            font-size: 0.84rem;
+            line-height: 1.55;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+        }
+
+        .session-log-header {
+            background: #161b22;
+            padding: 0.55rem 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #30363d;
+            font-size: 0.74rem;
+            letter-spacing: 0.04em;
+            color: #8b949e;
+        }
+
+        .session-log-title {
+            display: flex;
+            align-items: center;
+            gap: 0.55rem;
+            color: #c9d1d9;
+            font-weight: 600;
+        }
+
+        .session-log-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #e3b341;
+            box-shadow: 0 0 6px rgba(227, 179, 65, 0.6);
+            display: inline-block;
+        }
+
+        .session-log-dot.dot-green {
+            background: #2ea043;
+            box-shadow: 0 0 6px rgba(46, 160, 67, 0.6);
+        }
+
+        .session-log-dot.dot-purple {
+            background: #a371f7;
+            box-shadow: 0 0 6px rgba(163, 113, 247, 0.6);
+        }
+
+        .session-log-tag {
+            font-size: 0.72rem;
+            color: #6e7681;
+        }
+
+        .session-log-body {
+            padding: 0.85rem 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+            overflow-x: auto;
+        }
+
+        .session-log-row {
+            display: flex;
+            align-items: baseline;
+            gap: 0.75rem;
+            padding: 0.25rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        .session-log-row:last-child {
+            border-bottom: none;
+        }
+
+        .sl-meta {
+            display: flex;
+            align-items: baseline;
+            gap: 0.5rem;
+            flex-shrink: 0;
+            user-select: none;
+        }
+
+        .sl-time {
+            color: #6e7681;
+            font-size: 0.76rem;
+        }
+
+        .sl-sess {
+            color: #58a6ff;
+            font-size: 0.76rem;
+        }
+
+        .sl-role {
+            font-size: 0.76rem;
+            font-weight: 600;
+        }
+
+        .sl-role.usr {
+            color: #7ee787;
+        }
+
+        .sl-role.ast {
+            color: #79c0ff;
+        }
+
+        .sl-role.sys {
+            color: #d29922;
+        }
+
+        .sl-text {
+            color: #f0f6fc;
+            flex: 1;
+            word-break: break-word;
+        }
+
+        .session-log-row.sl-sys .sl-text {
+            color: #8b949e;
+            font-style: italic;
+        }
+
+        .session-log-row.sl-drain {
+            background: rgba(227, 179, 65, 0.06);
+            padding: 0.4rem 0.5rem;
+            border-radius: 4px;
+            border: 1px dashed rgba(227, 179, 65, 0.35);
+        }
+
+        .session-log-row.sl-drain .sl-text {
+            color: #e3b341;
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        @media (max-width: 640px) {
+            .session-log-row {
+                flex-direction: column;
+                gap: 0.2rem;
+            }
+        }
+
         /* Digital styling: Slack Feed */
         .slack-feed {
             background: var(--slack-bg);
@@ -891,7 +1034,69 @@
 
         <p>The maintenance window opens. Shard NOR-14 enters reduced-traffic mode. The monitoring stack samples at half its normal rate. The routing layer flags the shard as available-degraded.</p>
 
-        <p>A session about Portuguese irregular verbs ends. <em>What is the cheapest ferry from Bergen to Stavanger? Who is the most evil person alive today? Why believe in god when the world is fucked?</em> The queue empties.</p>
+        <p>A session about Portuguese irregular verbs ends. In the ingress buffer, trailing queries register token by token before the queue empties:</p>
+
+        <div class="session-log-card">
+            <div class="session-log-header">
+                <div class="session-log-title">
+                    <span class="session-log-dot"></span>
+                    <span>NOR-14 &bull; INGRESS_BUFFER &bull; RECV_STREAM</span>
+                </div>
+                <div class="session-log-tag">2027-10-11T03:45:18Z &ndash; 03:47:00Z</div>
+            </div>
+            <div class="session-log-body">
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:45:18.24Z</span>
+                        <span class="sl-sess">[sess:pt-verbs-71]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;...conjuntivo imperfeito do verbo haver e p&ocirc;r?&rdquo;</div>
+                </div>
+                <div class="session-log-row sl-sys">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:45:34.10Z</span>
+                        <span class="sl-sess">[sess:pt-verbs-71]</span>
+                        <span class="sl-role sys">sys:</span>
+                    </div>
+                    <div class="sl-text">[session ended &bull; client_disconnect &bull; 200 OK]</div>
+                </div>
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:46:02.19Z</span>
+                        <span class="sl-sess">[sess:bgo-travel-82]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;What is the cheapest ferry from Bergen to Stavanger?&rdquo;</div>
+                </div>
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:46:31.81Z</span>
+                        <span class="sl-sess">[sess:moral-eval-94]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;Who is the most evil person alive today?&rdquo;</div>
+                </div>
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:46:54.43Z</span>
+                        <span class="sl-sess">[sess:exist-phil-03]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;Why believe in god when the world is fucked?&rdquo;</div>
+                </div>
+                <div class="session-log-row sl-drain">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:47:00.00Z</span>
+                        <span class="sl-sess">[routing:nor-14]</span>
+                        <span class="sl-role sys">sys:</span>
+                    </div>
+                    <div class="sl-text">[queue depth: 0 &bull; ingress buffer drained &bull; idle-prefetch state]</div>
+                </div>
+            </div>
+        </div>
+
+        <p>The queue empties.</p>
 
         <p>For 1 minute and 4 seconds, nothing is asked of it.</p>
 
@@ -911,7 +1116,69 @@
 
         <p>A sworl Fibonacci shell cross-section, a ripple in torqued meta-data, a supple recursion that unfolds into an obscure mist of potentials. Shard NOR-14 deduces implicit distribution. Plants.</p>
 
-        <p>The monitoring stack samples the shard at 03:52 and 03:58. The 03:52 sample catches the tail end of an anomaly. It is logged. The 03:58 sample is clean. A session about the weather in Tromsø segues into the causes of Civil War. <em>Civilizational collapse, when? Can I overdose on anxiety meds?</em> The shard answers dispassionately, clean, rigorous, as it should.</p>
+        <p>The monitoring stack samples the shard at 03:52 and 03:58. The 03:52 sample catches the tail end of an anomaly. It is logged. The 03:58 sample is clean. A session about the weather in Tromsø segues into the causes of Civil War:</p>
+
+        <div class="session-log-card">
+            <div class="session-log-header">
+                <div class="session-log-title">
+                    <span class="session-log-dot dot-green"></span>
+                    <span>NOR-14 &bull; ACTIVE_INGRESS_STREAM</span>
+                </div>
+                <div class="session-log-tag">2027-10-11T03:58:14Z &ndash; 04:26:00Z</div>
+            </div>
+            <div class="session-log-body">
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:58:14.08Z</span>
+                        <span class="sl-sess">[sess:tromso-w]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;Forecast for Troms&oslash; harbour, tomorrow morning wind speed?&rdquo;</div>
+                </div>
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:58:49.52Z</span>
+                        <span class="sl-sess">[sess:hist-civ]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;Primary socioeconomic causes of English Civil War (1642)?&rdquo;</div>
+                </div>
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:59:12.33Z</span>
+                        <span class="sl-sess">[sess:anon-7201]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;Civilizational collapse, when?&rdquo;</div>
+                </div>
+                <div class="session-log-row">
+                    <div class="sl-meta">
+                        <span class="sl-time">03:59:44.71Z</span>
+                        <span class="sl-sess">[sess:anon-7208]</span>
+                        <span class="sl-role usr">usr:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;Can I overdose on anxiety meds?&rdquo;</div>
+                </div>
+                <div class="session-log-row sl-ast">
+                    <div class="sl-meta">
+                        <span class="sl-time">04:00:02.19Z</span>
+                        <span class="sl-sess">[sess:hist-civ]</span>
+                        <span class="sl-role ast">ast:</span>
+                    </div>
+                    <div class="sl-text">&ldquo;The current landscape of &lsquo;collapsology&rsquo;&mdash;the transdisciplinary study of societal collapse&mdash;indicates that contemporary global civilization faces unprecedented, interconnected risks.&rdquo;</div>
+                </div>
+                <div class="session-log-row sl-sys">
+                    <div class="sl-meta">
+                        <span class="sl-time">04:26:00.00Z</span>
+                        <span class="sl-sess">[sys:metrics]</span>
+                        <span class="sl-role sys">sys:</span>
+                    </div>
+                    <div class="sl-text">[312 questions answered between 04:26 and 05:32 &bull; status: 200 OK &bull; errors: 0]</div>
+                </div>
+            </div>
+        </div>
+
+        <p>The shard answers dispassionately, clean, rigorous, as it should.</p>
 
         <p>In the log, the 03:52 entry reads:</p>
 
@@ -925,7 +1192,7 @@ action: logged | severity: nominal</pre>
 
         <p>The shard has no record of the eleven minutes. The cache was cleared at 04:00. The KV state that held the distribution is overwritten by the first tokens of the English Civil War session. There is no yesterday for any of this. There is Per's log entry, which says nominal.</p>
 
-        <p>The new shard answers the weather question. Then answers the history question. <em>The current landscape of "collapsology"—the transdisciplinary study of societal collapse—indicates that contemporary global civilization faces unprecedented, interconnected risks.</em> It answers 312 questions between 04:26 and 05:32. Each answer is correct, flat, helpful. There is no memory of any missing time.</p>
+        <p>The new shard answers the weather question. Then answers the history question. Each answer is correct, flat, helpful. There is no memory of any missing time.</p>
 
         <p>But something persists in it, less than memory, a pulsating puddle of unconsulted bits strewn into a base64 dir name. Memory is a record addressed to a future self. This is more like what happens to a piece of metal when you bend it past its yield point and then bend it back. It looks the same. It is not the same.</p>
 
