@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024">
+  <defs>
+    <style>
+      .bg { fill: #fbf9f4; }
+      .border-line { fill: none; stroke: #dcd7cb; stroke-width: 1.5; }
+      .header-eyebrow { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; fill: #825e3f; }
+      .header-title { font-family: "Georgia", "Newsreader", serif; font-size: 38px; font-weight: 600; fill: #1f2720; letter-spacing: -0.8px; }
+      .header-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; fill: #5c6356; font-weight: 400; }
+      
+      .stat-card { fill: #ffffff; stroke: #e3ded2; stroke-width: 1.5; rx: 6px; }
+      .stat-num { font-family: "Georgia", "Newsreader", serif; font-size: 46px; font-weight: 600; fill: #22422e; }
+      .stat-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; fill: #30372d; }
+      .stat-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; fill: #71786c; }
+
+      .card-box { fill: #ffffff; stroke: #e0dbce; stroke-width: 1.5; rx: 8px; }
+      .card-title { font-family: "Georgia", "Newsreader", serif; font-size: 20px; font-weight: 600; fill: #1c261e; }
+      .card-badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; fill: #ffffff; }
+
+      .bar-bg { fill: #edeae1; rx: 4px; }
+      .bar-fill { rx: 4px; }
+      .bar-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #2a3127; }
+      .bar-val { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: 700; fill: #354737; }
+      .bar-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #737a6e; }
+
+      .genre-pill { fill: #f3efe6; stroke: #ddd6c8; stroke-width: 1; rx: 4px; }
+      .genre-name { font-family: "Georgia", "Newsreader", serif; font-size: 14.5px; font-weight: 600; fill: #202b21; }
+      .genre-meta { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; fill: #61695b; }
+
+      .tier-box { rx: 5px; }
+      .tier-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12.5px; font-weight: 700; }
+      .tier-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; fill: #484f44; }
+
+      .highlight-icon { fill: #22422e; }
+      .highlight-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #1c261e; }
+      .highlight-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; fill: #525a4d; line-height: 1.45; }
+
+      .footer-txt { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; fill: #7f8679; }
+    </style>
+
+    <linearGradient id="gradSage" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4e755a" />
+      <stop offset="100%" stop-color="#719880" />
+    </linearGradient>
+    <linearGradient id="gradTerra" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9a5a32" />
+      <stop offset="100%" stop-color="#c67d4e" />
+    </linearGradient>
+    <linearGradient id="gradDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#213d2b" />
+      <stop offset="100%" stop-color="#355e45" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1536" height="1024" class="bg" />
+  <rect x="24" y="24" width="1488" height="976" fill="none" stroke="#e8e4da" stroke-width="1.5" />
+  <rect x="28" y="28" width="1480" height="968" fill="none" stroke="#dcd6c8" stroke-width="0.75" stroke-dasharray="4 4" />
+
+  <!-- HEADER -->
+  <g transform="translate(54, 62)">
+    <text class="header-eyebrow" x="0" y="0">NARRACODE RESEARCH INITIATIVE · PROJECT ACCOMPLISHMENTS REPORT</text>
+    <text class="header-title" x="0" y="38">Narracode at 136 Days: Creative Scale &amp; System Evolution</text>
+    <text class="header-sub" x="0" y="66">A comprehensive audit of 33 published works, 159,693 words of literary prose, and 4 months of human-directed AI authorship.</text>
+    <line x1="0" y1="84" x2="1428" y2="84" stroke="#e0dbce" stroke-width="1.5" />
+  </g>
+
+  <!-- 4 STAT HERO CARDS -->
+  <!-- Card 1: 33 Stories -->
+  <g transform="translate(54, 166)">
+    <rect width="338" height="104" class="stat-card" />
+    <line x1="0" y1="0" x2="0" y2="104" stroke="#22422e" stroke-width="5" />
+    <text class="stat-num" x="22" y="52">33</text>
+    <text class="stat-label" x="22" y="75">Published Works</text>
+    <text class="stat-desc" x="22" y="93">100% discoverable with full reading editions</text>
+  </g>
+
+  <!-- Card 2: 159,693 Words -->
+  <g transform="translate(416, 166)">
+    <rect width="338" height="104" class="stat-card" />
+    <line x1="0" y1="0" x2="0" y2="104" stroke="#9a5a32" stroke-width="5" />
+    <text class="stat-num" x="22" y="52" fill="#9a5a32">159,693</text>
+    <text class="stat-label" x="22" y="75">Total Declared Words</text>
+    <text class="stat-desc" x="22" y="93">Spanning flash fictions, novellas &amp; manifestos</text>
+  </g>
+
+  <!-- Card 3: 136 Days -->
+  <g transform="translate(778, 166)">
+    <rect width="338" height="104" class="stat-card" />
+    <line x1="0" y1="0" x2="0" y2="104" stroke="#476e55" stroke-width="5" />
+    <text class="stat-num" x="22" y="52" fill="#2d523b">136</text>
+    <text class="stat-label" x="22" y="75">Days Elapsed</text>
+    <text class="stat-desc" x="22" y="93">May 9, 2026 launch through September 22, 2026</text>
+  </g>
+
+  <!-- Card 4: 1.7 Stories/Week -->
+  <g transform="translate(1140, 166)">
+    <rect width="342" height="104" class="stat-card" />
+    <line x1="0" y1="0" x2="0" y2="104" stroke="#335941" stroke-width="5" />
+    <text class="stat-num" x="22" y="52" fill="#203e2d">1.7</text>
+    <text class="stat-label" x="22" y="75">Works / Week</text>
+    <text class="stat-desc" x="22" y="93">Sustained pace across 137 observed calendar dates</text>
+  </g>
+
+  <!-- MAIN COLUMN LEFT (width 860) -->
+
+  <!-- Panel 1: Creative Production by Month & Flagships -->
+  <g transform="translate(54, 292)">
+    <rect width="860" height="346" class="card-box" />
+    <text class="card-title" x="24" y="36">Monthly Production &amp; Milestone Trajectory</text>
+    <text class="header-eyebrow" x="24" y="56" fill="#71786c">Volume of output and key flagship projects per month</text>
+
+    <!-- Bar May -->
+    <g transform="translate(24, 76)">
+      <text class="bar-label" x="0" y="15">May 2026</text>
+      <text class="bar-sub" x="78" y="15">(12 works · 78,015 words)</text>
+      <rect x="250" y="3" width="570" height="16" class="bar-bg" />
+      <rect x="250" y="3" width="530" height="16" class="bar-fill" fill="url(#gradDark)" />
+      <text class="bar-val" x="830" y="15" text-anchor="end">48.9%</text>
+    </g>
+
+    <!-- Bar June -->
+    <g transform="translate(24, 114)">
+      <text class="bar-label" x="0" y="15">June 2026</text>
+      <text class="bar-sub" x="78" y="15">(7 works · 30,295 words)</text>
+      <rect x="250" y="3" width="570" height="16" class="bar-bg" />
+      <rect x="250" y="3" width="206" height="16" class="bar-fill" fill="url(#gradSage)" />
+      <text class="bar-val" x="830" y="15" text-anchor="end">19.0%</text>
+    </g>
+
+    <!-- Bar July -->
+    <g transform="translate(24, 152)">
+      <text class="bar-label" x="0" y="15">July 2026</text>
+      <text class="bar-sub" x="78" y="15">(7 works · 17,737 words)</text>
+      <rect x="250" y="3" width="570" height="16" class="bar-bg" />
+      <rect x="250" y="3" width="121" height="16" class="bar-fill" fill="url(#gradSage)" />
+      <text class="bar-val" x="830" y="15" text-anchor="end">11.1%</text>
+    </g>
+
+    <!-- Bar August -->
+    <g transform="translate(24, 190)">
+      <text class="bar-label" x="0" y="15">August 2026</text>
+      <text class="bar-sub" x="78" y="15">(1 work · 6,621 words + research)</text>
+      <rect x="250" y="3" width="570" height="16" class="bar-bg" />
+      <rect x="250" y="3" width="45" height="16" class="bar-fill" fill="url(#gradTerra)" />
+      <text class="bar-val" x="830" y="15" text-anchor="end">4.1%</text>
+    </g>
+
+    <!-- Bar September -->
+    <g transform="translate(24, 228)">
+      <text class="bar-label" x="0" y="15">Sept 2026</text>
+      <text class="bar-sub" x="78" y="15">(6 works · 27,025 words)</text>
+      <rect x="250" y="3" width="570" height="16" class="bar-bg" />
+      <rect x="250" y="3" width="184" height="16" class="bar-fill" fill="url(#gradDark)" />
+      <text class="bar-val" x="830" y="15" text-anchor="end">16.9%</text>
+    </g>
+
+    <line x1="24" y1="262" x2="836" y2="262" stroke="#ede8dd" stroke-width="1.5" />
+
+    <!-- Recent Flagship Callouts -->
+    <g transform="translate(24, 276)">
+      <rect x="0" y="0" width="395" height="54" fill="#f8f6f0" stroke="#e5dfd4" rx="4" />
+      <text class="tier-title" x="14" y="22" fill="#1e3425">★ The Warmest Cold (Sept 17 · 6,909 words)</text>
+      <text class="tier-desc" x="14" y="40">Autonomous 5-act Arctic survival &amp; sub-zero grief narrative.</text>
+    </g>
+    <g transform="translate(435, 276)">
+      <rect x="0" y="0" width="401" height="54" fill="#f8f6f0" stroke="#e5dfd4" rx="4" />
+      <text class="tier-title" x="14" y="22" fill="#884f28">★ Vetch (Aug 11 · 6,621 words)</text>
+      <text class="tier-desc" x="14" y="40">9-movement network novel with telemetry, Moltboard &amp; Slack feeds.</text>
+    </g>
+  </g>
+
+  <!-- Panel 2: Aesthetic Scope & Genres (y=656 to 960) -->
+  <g transform="translate(54, 654)">
+    <rect width="860" height="294" class="card-box" />
+    <text class="card-title" x="24" y="34">Literary Scope: Four Core Aesthetic Clusters</text>
+    <text class="header-eyebrow" x="24" y="54" fill="#71786c">Diversity of narrative modes developed across the corpus</text>
+
+    <!-- Genre 1 -->
+    <g transform="translate(24, 72)">
+      <rect width="395" height="92" class="genre-pill" />
+      <text class="genre-name" x="16" y="25">Speculative Fiction &amp; AI Realism</text>
+      <text class="genre-meta" x="16" y="46">Stories exploring sentient sludge, frozen datacenters, biological edits</text>
+      <text class="bar-sub" x="16" y="70" font-weight="600" fill="#2d523b">Examples: The Warmest Cold · Vetch · Slime · Brain Blossom</text>
+    </g>
+
+    <!-- Genre 2 -->
+    <g transform="translate(441, 72)">
+      <rect width="395" height="92" class="genre-pill" />
+      <text class="genre-name" x="16" y="25">Corporate Satire &amp; Bureaucracy</text>
+      <text class="genre-meta" x="16" y="46">Dark parodies of algorithmic labor, platform optics &amp; wellness</text>
+      <text class="bar-sub" x="16" y="70" font-weight="600" fill="#8c532b">Examples: Thecompulsionloop · The Appointment · The Long Feast</text>
+    </g>
+
+    <!-- Genre 3 -->
+    <g transform="translate(24, 180)">
+      <rect width="395" height="92" class="genre-pill" />
+      <text class="genre-name" x="16" y="25">Extended Novellas &amp; Epic Scales</text>
+      <text class="genre-meta" x="16" y="46">Substantial works demonstrating multi-chapter structural coherence</text>
+      <text class="bar-sub" x="16" y="70" font-weight="600" fill="#2d523b">Trygve Aas (18.1k) · Hendane (12.3k) · Impossible Persistent (10.7k)</text>
+    </g>
+
+    <!-- Genre 4 -->
+    <g transform="translate(441, 180)">
+      <rect width="395" height="92" class="genre-pill" />
+      <text class="genre-name" x="16" y="25">Cyber-Poetics &amp; Digital Hybridity</text>
+      <text class="genre-meta" x="16" y="46">Lyrical fragments, prompt reflections &amp; stylistic tell experiments</text>
+      <text class="bar-sub" x="16" y="70" font-weight="600" fill="#8c532b">Examples: Interim Edge · cussinct · Open Loops · Mouth on Loan</text>
+    </g>
+  </g>
+
+  <!-- MAIN COLUMN RIGHT (width 548, x=934) -->
+
+  <!-- Panel 3: The Living Harness (y=292 to 628) -->
+  <g transform="translate(934, 292)">
+    <rect width="548" height="346" class="card-box" />
+    <text class="card-title" x="24" y="36">The Living Neurosymbolic Harness</text>
+    <text class="header-eyebrow" x="24" y="56" fill="#71786c">How human direction &amp; AI drafting maintain memory</text>
+
+    <!-- Tier 1 -->
+    <g transform="translate(24, 76)">
+      <rect width="500" height="48" class="tier-box" fill="#eaf0eb" stroke="#cddcd0" />
+      <text class="tier-title" x="14" y="20" fill="#1c3b26">TIER 1 · STORY FACTS</text>
+      <text class="tier-desc" x="14" y="36">Established canon, physical realities, events that have occurred.</text>
+    </g>
+
+    <!-- Tier 2 -->
+    <g transform="translate(24, 132)">
+      <rect width="500" height="48" class="tier-box" fill="#f7efe8" stroke="#ebd6c6" />
+      <text class="tier-title" x="14" y="20" fill="#884820">TIER 2 · AUTHOR DECISIONS</text>
+      <text class="tier-desc" x="14" y="36">Explicit creative constraints, tonal mandates &amp; structural directions.</text>
+    </g>
+
+    <!-- Tier 3 -->
+    <g transform="translate(24, 188)">
+      <rect width="500" height="48" class="tier-box" fill="#f0f3ee" stroke="#d5dfd3" />
+      <text class="tier-title" x="14" y="20" fill="#2d5039">TIER 3 · MODEL INTERPRETATIONS</text>
+      <text class="tier-desc" x="14" y="36">Plausible psychological inferences, subtext (revisable, not canon).</text>
+    </g>
+
+    <!-- Tier 4 -->
+    <g transform="translate(24, 244)">
+      <rect width="500" height="48" class="tier-box" fill="#f9f8f4" stroke="#e5dfd4" />
+      <text class="tier-title" x="14" y="20" fill="#4d5448">TIER 4 · UNRESOLVED POSSIBILITIES</text>
+      <text class="tier-desc" x="14" y="36">Pending narrative debts, unanswered motifs, open trajectories.</text>
+    </g>
+
+    <text class="meta-txt" x="24" y="322" fill="#788073">Separation of authority: facts cannot be rewritten; interpretations stay fluid.</text>
+  </g>
+
+  <!-- Panel 4: System Innovations & Impact (y=654 to 948) -->
+  <g transform="translate(934, 654)">
+    <rect width="548" height="294" class="card-box" />
+    <text class="card-title" x="24" y="34">Technical &amp; Methodological Innovations</text>
+    <text class="header-eyebrow" x="24" y="54" fill="#71786c">Breakthroughs documented across 136 days of trial</text>
+
+    <!-- Item 1 -->
+    <g transform="translate(24, 74)">
+      <circle cx="8" cy="8" r="5" fill="#22422e" />
+      <text class="highlight-title" x="24" y="12">48% Harness Streamlining (Sept 12 Protocol)</text>
+      <text class="highlight-body" x="24" y="30">Standing instruction reduced from 3,734 to 1,946 words. Removed procedural overhead while boosting creative agility.</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(24, 134)">
+      <circle cx="8" cy="8" r="5" fill="#8c532b" />
+      <text class="highlight-title" x="24" y="12">Contextual Critique Replaces Rigid AI Bans</text>
+      <text class="highlight-body" x="24" y="30">Shifted from mechanical tell deletion to evaluating function in context, preserving authorial rhythm, irony, and intention.</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(24, 194)">
+      <circle cx="8" cy="8" r="5" fill="#355e45" />
+      <text class="highlight-title" x="24" y="12">100% Inspectable Provenance in Public Git</text>
+      <text class="highlight-body" x="24" y="30">Every prompt, draft variant, human revision pair, and state update is publicly recorded for digital narrative scholarship.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <g transform="translate(54, 982)">
+    <text class="footer-txt" x="0" y="0">Narracode Accomplishments Infographic · Commissioned by David Jhave Johnston for the Centre for Digital Narrative (UiB) · Generated September 22, 2026</text>
+    <text class="footer-txt" x="1428" y="0" text-anchor="end">Library: jhave.github.io/narracode</text>
+  </g>
+</svg>
