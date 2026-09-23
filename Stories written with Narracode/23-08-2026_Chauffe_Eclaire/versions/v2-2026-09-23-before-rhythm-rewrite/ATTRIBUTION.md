@@ -1,17 +1,5 @@
 # ATTRIBUTION
 
-## Revision contribution — 2026-09-23
-
-**Jhave (David Jhave Johnston)** — diagnosis of the repetitive clipped cadence and numerical accounting; direction toward an abrupt, raw, sensually attentive narrator whose appetite, boredom and unspoken trauma exert pressure without explanation. Authorized the snapshot, poetics revision, new draft and preservation of the prompt for a later index fold.
-
-**GPT-6, acting as Codex in the Codex desktop app** — consulted the draft history; preserved all thirteen existing drafts and supporting records in version 2; synchronized working state; amended the poetics and voice-engine authority; wrote the alternative chapter-one draft `14-chapter-one-rhythm-rewrite.md`; saved the human prompt. The executing model is identified to this session as GPT-6; a more specific deployment suffix is not exposed, and none is inferred. No other model or subagent participated in this revision.
-
-The new composition follows the human's stated qualities and this project's characters and situations. No external literary text was retrieved or used for sentence imitation in this pass. This contribution is to the working files; the existing story index has not been republished. Earlier credits below are preserved as recorded and are not independently reverified here. The historical word count below refers to the original chapter-one version.
-
----
-
-## Original record
-
 **Story:** Chauffé Éclairé
 **Date:** 2026-08-23
 

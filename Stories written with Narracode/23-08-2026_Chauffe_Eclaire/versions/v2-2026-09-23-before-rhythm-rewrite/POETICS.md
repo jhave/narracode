@@ -1,31 +1,5 @@
 # POETICS.md — project commitments
 
-## Governing direction — 2026-09-23: rhythm, appetite, drift
-
-This direction takes precedence over every conflicting instruction below and in `reference/voice-engine.md`. The previous specifications remain as the history of the experiment. The human prompt is preserved verbatim in `reference/prompt-2026-09-23-rhythm-rewrite.md`.
-
-**Scope.** Reopen chapter one as a new alternative, draft 14, after preserving all thirteen drafts in version 2. Its earlier frozen text remains intact. This pass rewrites the Montreal chapter, not the later journeys or the published index. The new direction governs subsequent composition, without silently revising the existing chapters.
-
-**The woman speaks without waiting to be asked.** Abrupt, brusque, unfiltered, raw, clear, direct. She may volunteer an irrelevant detail, get caught in an observation, contradict herself, or go on too long about a nuisance. Reserve belongs to her, not to a sentence-length limit. She need not stop at the minimum admissible answer.
-
-**Rhythm follows changing attention.** A sentence can run through simultaneous work, sensation and distraction; another can refuse or stop. Let an action occupy the time it takes. Let a paragraph idle when she is bored. Neither short-short-short nor long-then-punch is a template. No word-count ceiling, mandatory semicolon, variance score, bare-verb quota, compulsory section-end convulsion, or four-sentence character allotment governs this draft. A period is punctuation, not an automatic gesture of refusal.
-
-**Precision costs attention, not arithmetic.** Keep an amount when it enters an actual exchange or decision. Do not inventory the rent, fare, wage, age and duration of every encounter. Work appears in what her hands do, what she carries home on her clothes, what interrupts a meal, what gets her called back. A missed shift can matter without a balance sheet. Sensory particulars must belong to her immediate interest; replacing each numeral with a picturesque smell would simply manufacture a new catalogue.
-
-**Appetite exceeds the men.** Desire includes touch and attraction, but also food eaten standing up, an unnecessary walk, noise through a wall, an ugly room she wants to see. Let the bizarre and banal coexist without an author announcing their significance. Gig work and temporary rooms provide encounters, fatigue, competencies and dead time. Class pressure has consequences; precarity itself is not picturesque freedom.
-
-**Unspoken hurt is permitted to exert pressure.** This supersedes the old blanket refusal of “trauma as engine.” It does not authorize a diagnostic backstory or a solved origin. A disproportionate recoil, a lapse, or a sudden departure may carry pressure without a retrospective explanation. Do not turn every object into a trigger. Boredom, curiosity, pleasure and bad judgment remain sufficient possibilities; her desire is not a symptom to be decoded or punished.
-
-**People resist her account.** A roommate has a temper, a job, a meal, a demand of her own. Renée can be unfair, funny, generous, distracted or wrong. Give other people enough room to interrupt the narrator's judgments. Friendship need not be reserved for chapter two. No obligation to make every encounter tender or every departure cruel.
-
-**Keep the unresolved.** No redemption, diagnosis, retrospective lesson, or wise last line. Existing chapter-one events and the path toward Toronto remain the continuity anchors. Sensual detail and occasional figurative language are available when they register what she notices; no decorative overlay and no imitation of a named writer's sentences or distinctive phrasing.
-
-**Tools are subordinate.** Earlier numerical profiles and source-derived procedures are historical experiments, not acceptance tests. This pass does not run a compositional voice through a numerical gate. Judge whether she has something she wants to say and whether the sentence can carry it.
-
----
-
-## Historical poetics and amendments
-
 *Initiated 2026-08-23. Working title: Chauffé Éclairé. Loop: 0. AUTO_MODE.*
 
 ---

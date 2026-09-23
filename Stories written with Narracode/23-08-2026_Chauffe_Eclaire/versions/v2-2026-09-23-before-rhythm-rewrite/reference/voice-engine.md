@@ -1,9 +1,5 @@
 # Voice engine — the flat declarative
 
-## Current authority — 2026-09-23
-
-The governing direction at the top of `../POETICS.md` supersedes this engine's prescriptions, including the earlier governing note below. Keep these calibrations as historical records. Draft 14 uses the human's request for pulsating variation, self-directed attention, sensual workaday drift and unspoken pressure. Neither sentence statistics nor forced turns, motif quotas or minimum procedure chains determine its prose. The claim below that all checks must pass is no longer operative.
-
 ## Governing note, written last and placed first — 2026-08-23
 
 **Everything below this line is subordinate to it.**
