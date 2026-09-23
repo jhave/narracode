@@ -1,15 +1,5 @@
 # POETICS.md — project commitments
 
-## Display title and images — accepted 2026-09-23
-
-**Title:** Chauffé, éclairé
-
-**Subtitle:** No fixed arrangement.
-
-The human accepted this French–English pairing for the reading edition and story index. It replaces the repeated English translation beneath the title. Historical draft headings remain documentary records.
-
-**Images:** Subtle, weird, niche and ordinary, with occasional casually raunchy domestic detail. The human requested generation and insertion into the story index. Unposed incidental photographs; odd framing and particular materials; private habits rather than glamorous tableaux. Preserve the story's ambiguity. The selected set includes hair extensions among charging cables, oversized pink laundry, a work call in boxers, detergent in a sheet, a cat blocking the kitchen, a distant man watering a plant in briefs, the mother's speaker, and the chair facing the wall.
-
 ## Governing direction — 2026-09-23: rhythm, appetite, drift
 
 This direction takes precedence over every conflicting instruction below and in `reference/voice-engine.md`. The previous specifications remain as the history of the experiment. The human prompt is preserved verbatim in `reference/prompt-2026-09-23-rhythm-rewrite.md`.
@@ -31,8 +21,6 @@ This direction takes precedence over every conflicting instruction below and in 
 **Keep the unresolved.** No redemption, diagnosis, retrospective lesson, or wise last line. Existing chapter-one events and the path toward Toronto remain the continuity anchors. Sensual detail and occasional figurative language are available when they register what she notices; no decorative overlay and no imitation of a named writer's sentences or distinctive phrasing.
 
 **Tools are subordinate.** Earlier numerical profiles and source-derived procedures are historical experiments, not acceptance tests. This pass does not run a compositional voice through a numerical gate. Judge whether she has something she wants to say and whether the sentence can carry it.
-
-**Amendment — 2026-09-23, human cadence (draft 15).** Draft 14 replaced one template with another: medium-length sentences, paragraphs of about four sentences, each paragraph closing on a small physical gesture, dialogue as one-line call and response. Human cadence here means: a sentence may run on through commas and *and* when her attention runs on; speech may interrupt narration inside a sentence; she may correct herself, repeat a word, dwell on a nuisance past its use; paragraphs and sections stop in different ways, including mid-thought, on someone else's line, or on a joke. The run-on chain is itself capped by attention, not habit. At most two present-tense slips per chapter, never as a lesson. Prompt: `reference/prompt-2026-09-23-human-cadence.md`.
 
 ---
 
