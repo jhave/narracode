@@ -19,3 +19,7 @@ The held projects remain on their branches. Listing them in the recovery report 
 From the repository root, run `python3 tools/audit_library.py`. The baseline and branch objects are pinned in that script. `library-snapshot.json` freezes the dates and edition metadata used for this audit, so later public-library additions cannot change the dated counts.
 
 For future index changes, edit `library.json` and run `python3 build_main_index.py`. `library-template.html` preserves the page layout. Do not regenerate published story pages as part of a root-index repair.
+
+## Post-audit update — 2026-09-23
+
+Vetch (6,621 words) and Chauffé, éclairé (10,600 words, started 2026-08-23) were held projects in this audit and have since been published to main. The report, infographic and index card now count 34 works and 170,293 declared words; August shows 2 works and 17,221 words. `audit.json`, `daily-counts.csv` and `library-snapshot.json` are left as the frozen September 22 record.
