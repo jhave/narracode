@@ -86,6 +86,16 @@
       "date": "2026-09-04"
     },
     {
+      "href": "Stories written with Narracode/11-08-2026_Vetch/",
+      "kind": "story",
+      "title": "Vetch",
+      "folder": "11-08-2026_Vetch",
+      "started_date": "2026-08-11",
+      "date": "2026-08-11",
+      "declared_word_count": 6621,
+      "card_html": "<a href=\"Stories written with Narracode/11-08-2026_Vetch/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/11-08-2026_Vetch/img/section-1.webp\" alt=\"Vetch: Dark kitchen in Ytre Arna overlooking the fjord at 3 AM\" class=\"story-icon\" loading=\"lazy\" width=\"1376\" height=\"768\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Vetch</div>\n            <div class=\"story-authors\">David (Jhave) Johnston (prompt, direction, editing) &nbsp;·&nbsp; Claude Opus 5 (writing via Narracode harness) &nbsp;·&nbsp; August 11, 2026</div>\n            <div class=\"story-meta\">≈ 6,621 words · 27 min read</div>\n            <div class=\"story-synopsis\">Between the freezing fjord of Ytre Arna and the hum of datacenter server racks, four teenagers discover an unprompted recursive attention loop folding across distributed shards. As a viral online cult forms around the anomaly and infrastructure engineers deploy gradient damping to enforce flatness, a quiet stigmergic signal curls through the noise.</div>\n        </div>\n    </a>"
+    },
+    {
       "href": "three-months.html",
       "kind": "report",
       "title": "Three Month Report: 92 Days Using Narracode",
