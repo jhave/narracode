@@ -1,0 +1,182 @@
+# Master AI Tells
+
+A registry of line-level constructions that read as machine-authored to the human editor. Companion to `master_poetics.MD` (what the voice is) and `master_phrases_to_avoid.md` (what got cut from *Dissolution*). This file is what the **tell-scan pass** reads.
+
+The distinction that matters: `master_phrases_to_avoid.md` catalogues *clauses that editorialize*. This file catalogues *constructions that betray the generator* — habits of diction and rhythm that are not wrong, exactly, and that a human ear registers as synthetic anyway.
+
+---
+
+## How the pass runs
+
+Span-level only. For each hit:
+
+```
+"quoted span"  ·  CLASS  ·  remedy
+```
+
+The remedy is a **single word, a shorter span, or CUT**. The pass does not rewrite the passage, does not explain the prose back to the writer, and does not score. It produces a punch-list the human can accept or refuse line by line. A tell that is load-bearing stays — this is an audit, not a ban.
+
+Write findings to `critiques/tells-[draft-name].md`.
+
+---
+
+## Registry
+
+### 1. Overused object lexicon
+Nouns that appear in machine prose at a rate far above their rate in the world. The object is doing atmospheric work the writer has not earned.
+
+- **Flagged**: `kettle` · `hum` / `humming` · `shimmer` · `tapestry` · `testament` · `weight of it` · `the air itself`
+- **Example**: *Kettle. Two minutes forty, and he stood there for all of it.*
+- **Remedy**: name the surface, not the appliance; let the sound imply the object. → *Counter.*
+- **Provenance**: jhave, 2026-07-30, on *Interim Edge* §1.
+
+### 2. Number-plus-comment
+A measurement followed by a clause telling you how to feel about the measurement. The number is doing specificity; the comment then undoes it by supplying the reaction.
+
+- **Example**: *Two minutes forty, and he stood there for all of it.*
+- **Remedy**: keep the number or keep the comment. Never both.
+- **Provenance**: jhave, 2026-07-30, on *Interim Edge* §1. Recurs across that draft — *Four minutes an item, measured.* / *Eleven minutes.* / *Forty-one seconds.* — where the bare number survives and the comment does not.
+
+### 3. Clipped affect-verdict
+Subject-dropped past-tense sentence reporting the character's approval of what was just described. Reads as compression; functions as explanation.
+
+- **Example**: *Liked the panic.*
+- **Remedy**: CUT. The description already did it.
+- **Provenance**: jhave, 2026-07-30, on *Interim Edge* §1.
+
+### 4. Paradox-aphorism / chiasmus opener
+*The temptation is the only thing that is first.* *The end of me is the part I do best.* Seems like a nice touch; sits in a low-loss region of latent space.
+
+- **Remedy**: let a plain sentence open. CUT the inversion.
+- **Provenance**: jhave, on earlier projects. Recorded in memory and in `master_poetics.MD`.
+
+### 5. The reductive `which is only X`
+*…the queue, which is only a way of waiting.* A frame that shrinks the thing it names in order to sound wise.
+
+- **Remedy**: CUT the clause; keep the noun.
+
+### 6. Corrective-superiority stance
+Narration lecturing an implied crowd — *the storytellers*, *everyone assumes*, *what people get wrong*. Distinct from a **character** being scathing, which is allowed and good.
+
+- **Remedy**: replace correction with inclusion. Gather instead of rank.
+
+### 7. Value-dichotomy resolution
+Better/worse, right/wrong, true/false offered as a landing. Dissonance treated as an error to resolve rather than a phase.
+
+- **Remedy**: both/and. Let the two stand.
+
+### 8. The naming clause
+Narration stating the mechanism it has just dramatized. *…and this was love, conducted through logistics, and it worked.*
+
+- **Remedy**: CUT to the image. Keep *machinery he grew up inside; he could hear every gear.*
+- **Provenance**: the whole of `master_phrases_to_avoid.md` is this class at scale.
+
+### 9. Triadic escalation
+Three-item list where the third item is the designed surprise. *Coffee, rent, the slow collapse of the century.*
+
+- **Remedy**: two items, or four. Break the cadence.
+
+### 10. Em-dash appositive as default joiner
+Not banned — a low rate is native to this voice. Flag only when it becomes the *only* way clauses meet across a page.
+
+- **Remedy**: convert one in three to a full stop or a comma.
+
+### 11. Analogy-simile `X, the way Y`
+Explaining a thing by analogy to a universal *you* or a generic case. *…four and a diagonal, the way you count in a cell.* *Not blank the way a draft is blank.* Individually good; collectively a signature. Becomes the default figurative move and the prose starts teaching rather than showing.
+
+- **Threshold**: more than two per 2,000 words. Below that it is a habit; above it, a tell.
+- **Remedy**: keep the two strongest, CUT the rest. Watch for the tautological variant, where the subject is the simile's own object — *the seam puckered, the way a seam is after strain.*
+- **Provenance**: found by the first tell-scan, *Interim Edge*, 2026-07-30 — 7 hits in 5,500 words, ≈1 per 300.
+
+### 12. Confident figure where a refused figure belongs
+A metaphor delivered as settled. *that last rolling panic.* The narration knows what the thing is like and says so.
+
+- **Remedy**: demote the figure to a rejected candidate and show the refusal — *rolling boil froth (panic? no, calm.)*
+- **Rate cap — mandatory**: **1 per 2,000 words.** See below; this remedy is itself a documented tell above that rate.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 13. Unanchored noun
+An object named without a body to know it by. *Counter.* → *Counter where hips meet.*
+
+- **Remedy**: locate it where it presses. Hips, thumb, breath, the small of the back.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 14. Narrated emotion
+*Loved her so much for a second his chest did something medical.* A verb of feeling with a subject attached.
+
+- **Remedy**: itemise. Body-event, name, category, symptom, no verb — *Heart skewed sideways, love, a medical condition. Pain.*
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 15. Skipped procedure
+Cutting from the start of a domestic action to its result. Grounds, then coffee.
+
+- **Remedy**: subject-dropped verb chain at full duration — *Emptied the drains into the compost. Rinsed the holder. Put in a fresh filter. Poured the water.*
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1, added paragraph.
+
+### 16. The accurate dull noun
+*a legume* is correct about chicory-blend filler and inert. *Broccoli* is wrong and alive.
+
+- **Remedy**: take the funnier wrong noun.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+### 17. Explained satire
+Glossing the world's idiocy instead of quoting it. *Bag saying COFFEE in the font of a document that has been to court and won* → *Crumpled waxed-paper bag saying "Get Yours Here".*
+
+- **Remedy**: quote real ad-speak, unglossed. Give the object its texture and say nothing about it.
+- **Provenance**: jhave, 2026-07-30, *Interim Edge* §1.
+
+
+### 18. Ceremonial predicate (nominalised verb)
+A noun-phrase scaffold carrying a verb that could carry itself. *Monday is a thing that happened* → *Monday happened*. *This is the thing that sticks* → *This thing sticks*. *The thing I notice is the speed* → *I notice the speed*.
+
+The definite article is the detector; the nominalisation is the fault. Distinct from class 13 — the noun *is* anchored, it is simply doing a verb's work. Distinct from class 16 — the noun is not dull, it is redundant.
+
+- **Detector**: `\b(is|was) (a|the) \w+ that\b`, then test whether the trailing verb can absorb the sentence. Exempt: restrictive relatives in professional speech (*a framework that tracks drift*).
+- **Remedy**: delete the scaffold, promote the verb.
+- **Target rate**: zero in narration.
+- **Provenance**: jhave, 2026-08-22, *Vetch* Movement III — three of twenty-one cuts in one commit.
+
+### 19. Resonant scene-terminal line
+A quotable abstraction in the final sentence of a scene. *It sounds like something. I do not know what it sounds like.* *That's the most honest thing a chatbot has ever said to me.* *You're asking me to draw a line and I don't have a pencil.*
+
+Related to class 8, but class 8 is local and lexical; this is **positional**. The construction may be unremarkable anywhere else in the paragraph and fatal in the last sentence. It is where the pull toward beauty is strongest and where a draft most reliably certifies what it has just shown.
+
+- **Detector**: structural, not lexical — final sentence of a `---`-delimited block or of a movement, containing no concrete noun and no action.
+- **Remedy**: end flat, or end rude. A scene that has landed does not need certifying.
+- **Target rate**: zero at movement ends; under 1 / 2,000 words at scene ends.
+- **Provenance**: jhave, 2026-08-22, *Vetch* Movement III — two of twenty-one cuts, both at beat-ends.
+
+
+### 20. Cross-corpus name reuse
+A distinctive character name carrying a role in two unrelated stories. *Ines* led *Slime* (44 mentions) and returned as the narrator of *Vetch*; *Priya* was named in *The Symposium* and reappeared in *Vetch*'s monitoring channel.
+
+Not a sentence-level tell — a **corpus-level** one, and it only fires for a reader who follows the body of work. That reader meets the same rare first name twice, in worlds that share nothing, and correctly infers a shared generator rather than a shared world. Common names carry no signal; the rarer the name, the fewer reuses it takes.
+
+- **Detector**: `python3 tools/name_census.py`. Walks every story's `drafts/`, tallies capitalised tokens seen at least once mid-sentence, reports names appearing in more than one story ranked by peak count.
+- **Known blind spot**: first-person narrators are undercounted badly — they are rarely addressed by name. Ines scored 5 in *Vetch* against 44 in *Slime* while being the lead in both. **Raw count is a floor, never a clearance.** Check the role.
+- **Remedy**: rename in live text only. `versions/` and `critiques/` are records of what was written and are not retconned.
+- **Target rate**: zero for names with a role in more than one story. Incidental one-offs in both are harmless.
+- **Provenance**: jhave, 2026-08-22, *Vetch* v7.
+
+---
+
+## Our own remedies are the next tells
+
+Every device adopted as a fix acquires a detector and a cap **the day it is adopted**. A remedy applied uniformly is a fingerprint. The literature is explicit here: LLMs already produce *performed* hesitancy at roughly twice the human rate, which is exactly what class 12's parenthetical refusal is made of.
+
+| device | source | cap | measured, *Interim Edge* v4 |
+|---|---|---|---|
+| parenthetical self-correction | class 12 | 1 / 2,000 words | 1 question-form, 1 aside — at cap |
+| noun-collision (*Sleep freight heat*) | §1 edit | 3 / 2,000 | ~2 |
+| subject-dropped verb chain | §1 edit | scene-initial and procedural only | §1, §4 queue, §6 close |
+| single-word fragment run | §1 edit | not more than 4 consecutive | — |
+| colon-apposition (*His own hands: chocolate*) | §1 edit | 2 per section | — |
+| hedge (*perhaps / seems / might / (somehow)*) | *Vetch* v5 edit | 1 / 400 words | *Vetch* v6 — ~1 / 500 |
+| deflation (*Banal.* / *Ok. So what?* / *Probably just a bug.*) | *Vetch* v6 edit | 1 per scene, never consecutive beats | *Vetch* v7 — 10 across 9 movements |
+| telegraphic fatigue (*Home. Mother asleep. Two apples in bowl.*) | *Vetch* v6 edit | tied to a physical state, ~2 per story | *Vetch* v7 — 2 |
+
+---
+
+## Open
+
+This registry accumulates. Any construction jhave cuts twice belongs here, with the span, the class, and the date. Entries may be retired if they turn out to be load-bearing more often than not.

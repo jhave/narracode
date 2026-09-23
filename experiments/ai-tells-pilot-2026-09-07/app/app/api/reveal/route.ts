@@ -1,0 +1,3 @@
+import {database} from '@/db/raw';
+import {json,error,participant,sameOrigin,body,exportData,RequestError} from '@/lib/server';
+export async function POST(req:Request){try{sameOrigin(req);const b=await body(req);const p=(await participant(req))!;if(!p.closed_at)throw new RequestError('Finish your review before revealing the procedure key.',409);if(b.confirm!==true)throw new RequestError('Confirm that you want to reveal the key.');if(!p.revealed_at){p.revealed_at=new Date().toISOString();await database().prepare('UPDATE participants SET revealed_at=? WHERE id=? AND revealed_at IS NULL').bind(p.revealed_at,p.id).run();}return json(await exportData(p));}catch(e){return error(e);}}

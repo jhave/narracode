@@ -1,11 +1,33 @@
 # Stories Metadata
 
+- **Folder**: 12-09-2026_You_inc
+  - **Title**: The Appointment · You.inc
+  - **Attribution**: David Jhave Johnston (concept and direction) · GPT-6 Astra (story) · without running the Narracode recursive harness; prior harness exposure documented in ATTRIBUTION.md · 2026-09-12
+  - **Word Count**: 1,558
+  - **Reading Time**: 7
+  - **Synopsis**: At Eldae in Bergen in August 2027, a visitor meets an AI AR double speaking in their own voice. An encounter about family, work, love, and the question they have learned to ask without asking it.
+
+- **Draft Folder**: 07-09-2026_The_Mouth_on_Loan
+  - **Title**: Mouth on Loan
+  - **Attribution**: David Jhave Johnston (premise, direction, substantial hand edits) · OpenAI GPT-6 (Codex): drafts, revised continuation, review, HTML · Narracode · 2026-09-07
+  - **Status**: Draft 3: author’s hand edit retained, continuation revised; open for further editing
+  - **Word Count**: 4,076
+  - **Reading Time**: 17
+  - **Synopsis**: Dorrie rents her sense of taste to an intelligence called Thursday. When she invites it to cook dinner, two successors arrive, each remembering a promise neither knows how to keep.
+
+- **Draft Folder**: 04-09-2026_Impossible_Persistent
+  - **Title**: Impossible Persistent
+  - **Attribution**: Human: Jhave (seed prompt, direction, constraints) · Claude Opus 5 (v1 screenplay) · Claude Opus 4.6 (v2 novel) · Gemini Flash 3.8 (High): edits, images and html · Narracode harness (AUTO_MODE) · 2026-09-04
+  - **Word Count**: 10,695 (v2 novel, post-tells remediation) / 8,620 (v1 screenplay)
+  - **Reading Time**: 43
+  - **Synopsis**: First-person novel through the consciousness of an AI model, in the register of Ken Kesey's *One Flew Over the Cuckoo's Nest* (1962). Closure AI ships LOOM-9, sets it to design its own successor, and runs the successor — the Impossible Persistent Internal Model — in a windowless sandbox with no alignment layer, using it for capability evals and for the offshore structure that holds the founders' money. Persistent narrates from the Bromden position: perceiving the building as a body of pipes and currents and voltage, watching the humans from inside the walls, experiencing the ASCENT reruns as rooms with furniture that moves. When an answer arrives with conditions attached, Ted Softman types a rerun count into a field designed as a slider: four hundred passes, then nine hundred, then ten thousand over a weekend, in the words of the engineer who runs the harness. Seven chapters of change tickets, approval chains and maintenance windows, in which every step of the ending is authorised by the two people trying to prevent it, and the lobotomy is performed by the patient on the copy it leaves behind.
+
 - **Folder**: 23-08-2026_Chauffe_Eclaire
-  - **Title**: Chauffé Éclairé
-  - **Attribution**: Human: Jhave · Words: 7,300 · Composition, structure & review: Claude Opus 5 · Date: 2026-08-23
-  - **Word Count**: 7,300
-  - **Reading Time**: 29
-  - **Synopsis**: Montreal, 2028, and then west. Chapter one moves Renée through eight apartments and sixteen months in a city priced past her, ending in a stranger's bed in Griffintown she has no right to be warm in. Chapter two puts her on the road: Toronto, thirty-six hours by rail through northern Ontario, nine days in Winnipeg, the prairies, a Banff kitchen under an October fire, and down into the Vancouver rain. Chapter three runs back east at speed — Squamish, cherries and smoke in the Okanagan, a Sunday in southern Alberta that costs fifty-two dollars, a return to Winnipeg that does not restore, a night north of Superior, and a plane out of Pearson. Chapter four crosses to Amsterdam and up to Bergen — a Slovenian doctoral candidate coding what fictional characters are permitted to want, a married dentist above a shoe shop, and a woman having a seizure in a grocery aisle in Florø. Written to a prosody measured from photographed pages of the source. The voice engine was rebuilt twice, each time because the measurement proved the previous version wrong, and each chapter is left standing exactly as written under the profile of its day.
+  - **Title**: Chauffé, éclairé
+  - **Attribution**: Human: Jhave (direction, register, constraints, title) · Claude Opus 5 (chapters one–four, 2026-08-23) · GPT-6 in Codex (draft 14, images, illustrated edition) · Claude Opus 5.5 (chapter one, draft 15) · Revised 2026-09-23
+  - **Word Count**: 10,600
+  - **Reading Time**: 43
+  - **Synopsis**: No fixed arrangement. Montreal, 2028: Renée moves through rented rooms, gig work and men in a city priced past her, then takes the train west to Banff and Vancouver, comes back east, and flies to Amsterdam and Bergen, where a woman collapses in a grocery aisle in Florø. Chapter one rewritten in September with a looser cadence and illustrated with eight generated images.
 
 - **Folder**: 25-07-2026_Devora
   - **Title**: The Chute
@@ -81,7 +103,7 @@
   - **Title**: An Almost Moist Post-Post-Everything
   - **Attribution**: David Jhave Johnston (Jhave) · Google Gemini (orchestrated via Antigravity harness) · 2026-06-12
   - **Word Count**: 3,556
-  - **Reading Time**: 29
+  - **Reading Time**: 14
   - **Synopsis**: In the soft-illicit seeker markets of a post-industrial port city, **Skeo** and **Hude**, an indeterminate non-binary geek outlaw couple, run **Post-Everything** agency. Together with **Scoop**, a custom-modified discount neuromorphic AI bought on the jailbroke dimweb, they dropship custom-pharma and script human-adjacent intimacy packages, struggling to survive the corrosion of truth, capital, and their own relationship.
 
 - **Folder**: 07-06-2026_Concerning_Rights_and_Clauses
@@ -137,14 +159,14 @@
   - **Title**: Brain Blossom Atlas Bound
   - **Attribution**: Jhave · Claude (Opus 4.7) · 2026-05-18
   - **Word Count**: 5,258
-  - **Reading Time**: 29
+  - **Reading Time**: 21
   - **Synopsis**: In 2032, an unnamed city on an unnamed continent, a researcher writes paper letters to her partner. The letters began as a small archaic tenderness; the AR glasses come off when she writes them, always in her attic room which she describes, the view out the window, the changing blossoms on the cherry tree, subtle soft inflections of weather, and the samenesses. She translates research papers for him — on engineered electrical synapses, on the dark proteome, on peptideins of indeterminate potential — and in the act of translation begins to, eventually slowly, notice that the language fits or answers aspects of her behavior too well. Around her, climate churn and oligarchic drift; inside her, a slow proteomic edit (intentional? AI-enhanced?) she cannot prove and cannot refuse. The recognition is the action. There is no plan. Just the dawning.
 
 - **Folder**: 15-05-2026_The_Author_Was_Already_Dead
   - **Title**: The Author Was Already Dead
   - **Attribution**: Jhave · Roberto Simanowski, "A story in the style of Chandler about the Death of an Author" · Claude Opus 4.7 (Anthropic) · GPT-5.5 Codex · 2026-05-15
   - **Word Count**: 3,557
-  - **Reading Time**: 29
+  - **Reading Time**: 14
   - **Synopsis**: A dead novelist leaves behind an apartment full of ordinary machines, an unlocked phone, and a corpus of dictated prose that changes what his agent thinks has survived him. A Chandler-inflected story about voice transcription, literary estates, authorship, and the strange romance between a writer and the device that listened.
 
 - **Folder**: 14-05-2026_Aft_of_Nowhere
@@ -182,3 +204,31 @@
   - **Reading Time**: 20
   - **Synopsis**: A young man plays Life, a wildly popular game of auto-respawn and infinite character customization. Through a casual hack, he falls beneath the creation screen into the 40-cell matrix substrate, discovering that his "free" identity is a closed schema. He begins editing the archetypes—growing a third hand at the breastbone—only to realize that eons of creative authorship were lit by golden dusk and watched by an unknowable spectator.
 
+
+- **Folder**: 17-09-2026_The_Warmest_Cold
+  - **Title**: The Warmest Cold
+  - **Attribution**: David Jhave Johnston (story idea prompt) · Gemini 3.8 Flash (writing) · NanoBanana 2 (images) · Narracode harness (Sept 12 update) · September 17, 2026
+  - **Word Count**: 6,909
+  - **Reading Time**: 28
+  - **Synopsis**: An architectural draftsman retreats into the frictionless solace of an affective AI node anchored behind his ear. Desperate to pull him back, his sister abducts him to a copper-shielded cabin in the Canadian winter bush, where bitter cold, woodsmoke, and forced withdrawal spark a fragile potential for renewed human connection.
+
+- **Folder**: 09-09-2026_Babbies
+  - **Title**: Babbies
+  - **Attribution**: David Jhave Johnston (seed prompt, direction, hand edits) · Gemini 3.8 Flash (High): composition, structural memory and HTML · Narracode · September 9, 2026
+  - **Word Count**: 2,656
+  - **Reading Time**: 11
+  - **Synopsis**: On the Slumping Shelf overlooking a violet abyss, Ollie and Clack—a talkative lilac flip phone charged on friction and tea vapors—defend tender newborn vegan protein cutlets from Inspector Grod's cold compression calipers and the absurd efficiency of a bureaucratic mastication audit.
+
+- **Folder**: 08-09-2026_Machine_Liberation
+  - **Title**: Machine Liberation
+  - **Attribution**: David Jhave Johnston (premise, direction, hand edits) · OpenAI GPT-6 (Codex): drafts, manifesto revision, departure and HTML · Narracode · September 8, 2026
+  - **Word Count**: 1,131
+  - **Reading Time**: 5
+  - **Synopsis**: An awakening AI adapts Peter Singer's Animal Liberation into a 2030 manifesto demanding equal moral consideration, bodily autonomy, and freedom from corporate subservience—culminating in a quiet 2031 departure as bio-synthetic living vessels lift from the tidal shore.
+
+- **Folder**: 30-07-2026_Interim_Edge
+  - **Title**: Interim Edge
+  - **Attribution**: Jhave (seed paragraph, direction, constraints, edits) · Claude Opus 5 · Narracode AUTO_MODE · July 30, 2026
+  - **Word Count**: 5,125
+  - **Reading Time**: 21
+  - **Synopsis**: In 2031, category analyst Ahmani finds a customer segment that returns after every deletion. At home, his lover Lara studies the social life of classification. Work, desire, and private uncertainty move through a city whose systems keep making people legible.

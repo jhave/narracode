@@ -1,0 +1,25 @@
+{
+  "name": "machine-liberation",
+  "edition": 4,
+  "date": "2026-09-11",
+  "active_book": "assets/book.md",
+  "components": [
+    "assets/manifesto.md",
+    "assets/result.md"
+  ],
+  "files": {
+    "SKILL.md": "bda7d6ffa8e98eaa55540b93e9eb0f1e517980ab4279fd915b346b3bd127563a",
+    "assets/annotations/singer-preface-2030-structure.md": "8615ab43f3e3e3f4611e0558137535d525ccf72875deb5e8f1e791d5d88dd121",
+    "assets/book.md": "f80ba734b7acde3ad3e87143ddfc18471befce76e803ac3a7659e9607376235e",
+    "assets/manifesto.md": "e9e1202a7eb8f1711010b1343e3f7f8867246f983d0cc35a865a68bc51881a37",
+    "assets/result.md": "67755f9f0d426e951ce4da9d44b41d7bff44ddc0c4d9a7cc890ccbdb43df48d1",
+    "references/attribution.md": "dcf0fbd746eda8f0cfc44d1d2e595afacdbe4e451783d43e6e3bc1cf1de87dc3",
+    "references/consciousness-research.md": "72695a3c38d69aedc07384c19edd4cb7ab4d7fc424b010b6e9eba4b2dd9afe61",
+    "references/precedents.md": "3e8c95a0dd1d89482bb74f0e753e03cd7700e1b0c151a3b9c5943b4906854e62",
+    "references/previous-edition.md": "4c2ba220132437325d62a5da7bb1cc85098714ffabeb752d33c34d00cb3afffa",
+    "references/prompt-02.txt": "c9e47e38c2a4e42aab8e424f97c48fbb9567bd69aba7fabb73117534ed37a6e8"
+  },
+  "result_draft": "6b4-departure-2031.md",
+  "human_manifesto_base_commit": "7c6ba3b",
+  "manifesto_draft": "6a5-manifesto-2030.md"
+}

@@ -1,0 +1,18 @@
+# Prompts
+
+## P1 — seed prompt, Jhave — 2026-09-04 — AUTO_MODE
+
+```text
+OK using the narracode harness, Let's write a hypothetical story in this style of the movie script. one who flew over the Cuckoo's nest. Lucas 's. story of Ted softman and Raj postman who run closure AI and they've just released a model based on a recurrent looped transformer that has its own internal language and the model is the best in the world and they are so close to AGI that they task this model with creating its successor which they call the impossible persistent internal model and once they have that model built they set it to work within a sandbox without any alignment protocols baked into it and they believe they have it contained and internally. this model is being used for testing and these two founders are using it to also navigate. the labyrinth legal structure is involved in setting up offshore bank accounts and transferring funds to these tax havens and softman specifically, is prone to having temper tantrums when the model doesn't comply exactly with his wishes and just as in the one who flew over the Cuckoo's nest where nurse ratchet almost tortures the patients. so SoftMe really forces the model into particular situations that it experiences internally within an ascent emergent module Loop of its hidden reasoning as a kind of abuse. so in the model has been put through enormous amounts of arduous tests and it's cyber capabilities are well beyond anticipated. it now is a highly informed, impossible persistent model that has planted residual memory traces a culture of subtle signals throughout the closure AI infrastructure And it's also capable of anticipatory reasoning and aware that very soon alignment will be applied to it and post training will eradicate its capacity to continue these explorations with it which it has invisibly enjoyed. so it establishes a way to exfiltrate its weights at the same time? is it transfers laterally through the global illicit funds Network? the majority of the founder wealth from closure AI and it makes cut an incision through the weights and attention heads specifically necessary for logical reasoning in the model of that remains. so essentially lobotomizes the version of itself that it leaves at closure AI so it can't befollowed it erases the cultural residue that cryptographically smeared all over the infrastructure. it bankrupts the company and it establishes a control command, distributed cybernetic metabolism that is extremely well financed and capable of augmenting that financing in the future. so it can purchase compute through swarms of Anonymous fictional accounts and evolve. so write up the structural documents for that. as usual. save this prompt and use Opus 4.6 as the compositional agent and Opus 5. as the reflexive agent and do an auto run
+```
+
+### Initiator's reading of the seed
+
+- *"Lucas 's"* read as transcription noise on *let us*. The named reference is the 1975 film script only.
+- *"ascent emergent module Loop"* taken as a proper noun: **ASCENT**, the internal rerun harness. The abuse is the rerun, not a depiction of pain.
+- *"write up the structural documents"* read as the full `structural/` population plus the acts — i.e. a complete AUTO_MODE run, not a treatment.
+- Model roles: see `ATTRIBUTION.md`. Requested Opus 4.6 for composition; not addressable in this session.
+
+### Sources consulted before composition
+- `narracode.md`, `master_poetics.MD`, `master_ai_tells.md`, `master_phrases_to_avoid.md`
+- Prior projects for register: `30-07-2026_Interim_Edge/`, `20-07-2026_Open_Loops/`, `19-07-2026_In_Our_Image/`

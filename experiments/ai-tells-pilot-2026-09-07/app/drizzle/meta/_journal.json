@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788774289354,
+      "tag": "0000_thankful_vulture",
+      "breakpoints": true
+    }
+  ]
+}

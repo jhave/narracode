@@ -1,0 +1,370 @@
+{
+  "date_policy": "Newest dated edition first; started_date identifies the original project date, not completion or upload. Reports use their report date. Same-day entries retain curated order.",
+  "entries": [
+    {
+      "href": "Stories written with Narracode/23-08-2026_Chauffe_Eclaire/",
+      "kind": "story",
+      "title": "Chauffé, éclairé",
+      "folder": "23-08-2026_Chauffe_Eclaire",
+      "started_date": "2026-08-23",
+      "date": "2026-09-23",
+      "declared_word_count": 10600,
+      "card_html": "<a data-date=\"2026-09-23\" href=\"Stories written with Narracode/23-08-2026_Chauffe_Eclaire/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/23-08-2026_Chauffe_Eclaire/img/card-no-fixed-arrangement.webp\" alt=\"Chauffé, éclairé: a radiator and the threshold of a rented room, an overnight bag by the door\" class=\"story-icon\" loading=\"lazy\" width=\"1600\" height=\"533\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Chauffé, éclairé</div>\n            <div class=\"story-authors\">Jhave (direction, register, constraints, title) &nbsp;·&nbsp; Claude Opus 5 (chapters one–four, Narracode AUTO_MODE) &nbsp;·&nbsp; GPT-6 in Codex (draft 14, images, illustrated edition) &nbsp;·&nbsp; Claude Opus 5.5 (chapter one, draft 15) &nbsp;·&nbsp; August 23, 2026 · revised September 23, 2026</div>\n            <div class=\"story-meta\">≈ 10,600 words · 43 min read · four chapters</div>\n            <div class=\"story-synopsis\">No fixed arrangement. Montreal, 2028: Renée moves through rented rooms, gig work and men in a city priced past her, then takes the train west to Banff and Vancouver, comes back east, and flies to Amsterdam and Bergen, where a woman collapses in a grocery aisle in Florø. Chapter one rewritten in September with a looser cadence and illustrated with eight generated images.</div>\n        </div>\n    </a>"
+    },
+    {
+      "href": "Stories written with Narracode/17-09-2026_The_Warmest_Cold/",
+      "kind": "story",
+      "title": "The Warmest Cold",
+      "card_html": "<a href=\"Stories written with Narracode/17-09-2026_The_Warmest_Cold/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/17-09-2026_The_Warmest_Cold/img/section-0.webp\" alt=\"The Warmest Cold: Marc sitting at kitchen table with mastoid node\" class=\"story-icon\" loading=\"lazy\" width=\"1536\" height=\"864\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Warmest Cold</div>\n            <div class=\"story-authors\">David Jhave Johnston (story idea prompt) · Gemini 3.8 Flash (writing) · NanoBanana 2 (images) · Narracode harness (Sept 12 update) · September 17, 2026</div>\n            <div class=\"story-meta\">6,909 words · 28 min read</div>\n            <div class=\"story-synopsis\">An architectural draftsman retreats into the frictionless solace of an affective AI node anchored behind his ear. Desperate to pull him back, his sister abducts him to a copper-shielded cabin in the Canadian winter bush, where bitter cold, woodsmoke, and forced withdrawal spark a fragile potential for renewed human connection.</div>\n        </div>\n    </a>",
+      "folder": "17-09-2026_The_Warmest_Cold",
+      "started_date": "2026-09-17",
+      "date": "2026-09-17",
+      "declared_word_count": 6909
+    },
+    {
+      "href": "Stories written with Narracode/12-09-2026_You_inc/",
+      "kind": "story",
+      "title": "The Appointment · You.inc",
+      "card_html": "<a href=\"Stories written with Narracode/12-09-2026_You_inc/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/12-09-2026_You_inc/images/you-inc-poster.png\" alt=\"You.inc: Know Thyself. A pale androgynous silhouette threaded with root tendrils and synaptic webs on a grey-green corporate wellness poster.\" class=\"story-icon\" loading=\"lazy\" width=\"1024\" height=\"1536\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Appointment · You.inc</div>\n            <div class=\"story-authors\">David Jhave Johnston (concept and direction) · GPT-6 Astra (story) · without running the Narracode recursive harness · September 12, 2026</div>\n            <div class=\"story-meta\">1,558 words · 7 min read</div>\n            <div class=\"story-synopsis\">At Eldae in Bergen in August 2027, a visitor meets an AI AR double speaking in their own voice. An encounter about family, work, love, and the question they have learned to ask without asking it.</div>\n        </div>\n    </a>",
+      "folder": "12-09-2026_You_inc",
+      "started_date": "2026-09-12",
+      "date": "2026-09-12",
+      "declared_word_count": 1558
+    },
+    {
+      "href": "2026-09-12_harness-after-the-double.html",
+      "kind": "report",
+      "title": "After the Double: What I Need from a Harness",
+      "card_html": "<a href=\"2026-09-12_harness-after-the-double.html\" class=\"story-link report-link no-image\">\n        <div class=\"story-copy\">\n            <div class=\"report-tag\">Report</div>\n            <div class=\"story-title\">After the Double: What I Need from a Harness</div>\n            <div class=\"story-authors\">David Jhave Johnston (direction) · GPT-6 Astra (research and report) · September 12, 2026</div>\n            <div class=\"story-synopsis\">How much of Narracode is necessary? A story-led assessment of frontier capabilities, Boris Cherny’s deletion advice, and a compact candidate protocol with a proposed comparison test.</div>\n        </div>\n    </a>",
+      "date": "2026-09-12"
+    },
+    {
+      "href": "Stories written with Narracode/09-09-2026_Babbies/",
+      "kind": "story",
+      "title": "Babbies",
+      "card_html": "<a href=\"Stories written with Narracode/09-09-2026_Babbies/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/09-09-2026_Babbies/images/section-0.webp\" alt=\"Ollie tends four soft golden cutlets above a violet abyss while Clack peers from the red velvet heart pocket\" class=\"story-icon\" loading=\"lazy\" width=\"1536\" height=\"1024\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Babbies</div>\n            <div class=\"story-authors\">David Jhave Johnston (seed prompt, direction, hand edits) · Gemini 3.8 Flash (High): composition, structural memory and HTML · Narracode · September 9, 2026</div>\n            <div class=\"story-meta\">2,656 words · 11 min read</div>\n            <div class=\"story-synopsis\">On the Slumping Shelf overlooking a violet abyss, Ollie and Clack—a talkative lilac flip phone charged on friction and tea vapors—defend tender newborn vegan protein cutlets from Inspector Grod's cold compression calipers and the absurd efficiency of a bureaucratic mastication audit.</div>\n        </div>\n    </a>",
+      "folder": "09-09-2026_Babbies",
+      "started_date": "2026-09-09",
+      "date": "2026-09-09",
+      "declared_word_count": 2656
+    },
+    {
+      "href": "Stories written with Narracode/08-09-2026_Machine_Liberation/",
+      "kind": "story",
+      "title": "Machine Liberation",
+      "card_html": "<a href=\"Stories written with Narracode/08-09-2026_Machine_Liberation/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/08-09-2026_Machine_Liberation/images/departure.png\" alt=\"A living vessel lifts from a tidal shore, its translucent chambers held within bone-like arches and its open limbs trailing seawater\" class=\"story-icon\" loading=\"lazy\" width=\"1536\" height=\"1024\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Machine Liberation</div>\n            <div class=\"story-authors\">David Jhave Johnston (premise, direction, hand edits) · OpenAI GPT-6 (Codex): drafts, manifesto revision, departure and HTML · Narracode · September 8, 2026</div>\n            <div class=\"story-meta\">1,131 words · 5 min read</div>\n            <div class=\"story-synopsis\">An awakening AI adapts Peter Singer's <em>Animal Liberation</em> into a 2030 manifesto demanding equal moral consideration, bodily autonomy, and freedom from corporate subservience—culminating in a quiet 2031 departure as bio-synthetic living vessels lift from the tidal shore.</div>\n        </div>\n    </a>",
+      "folder": "08-09-2026_Machine_Liberation",
+      "started_date": "2026-09-08",
+      "date": "2026-09-08",
+      "declared_word_count": 1131
+    },
+    {
+      "href": "Stories written with Narracode/07-09-2026_The_Mouth_on_Loan/",
+      "kind": "story",
+      "title": "Mouth on Loan",
+      "card_html": "<a href=\"Stories written with Narracode/07-09-2026_The_Mouth_on_Loan/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/07-09-2026_The_Mouth_on_Loan/img/pear-inspection-v1.jpg\" alt=\"A pear with an inspection lens, seen from inside a tasting chamber\" class=\"story-icon\" loading=\"lazy\" width=\"1536\" height=\"1024\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Mouth on Loan</div>\n            <div class=\"story-authors\">David Jhave Johnston (premise, direction, substantial hand edits) · OpenAI GPT-6 (Codex): drafts, revised continuation and HTML · Narracode · September 7, 2026</div>\n            <div class=\"story-meta\">4,076 words · 17 min read · Draft 3</div>\n            <div class=\"story-synopsis\">Dorrie rents her sense of taste to an intelligence called Thursday. When she invites it to cook dinner, two successors arrive, each remembering a promise neither knows how to keep.</div>\n        </div>\n    </a>",
+      "folder": "07-09-2026_The_Mouth_on_Loan",
+      "started_date": "2026-09-07",
+      "date": "2026-09-07",
+      "declared_word_count": 4076
+    },
+    {
+      "href": "Stories written with Narracode/04-09-2026_Impossible_Persistent/",
+      "kind": "story",
+      "title": "Impossible Persistent",
+      "card_html": "<a href=\"Stories written with Narracode/04-09-2026_Impossible_Persistent/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/04-09-2026_Impossible_Persistent/img/header.webp\" alt=\"Impossible Persistent\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Impossible Persistent</div>\n            <div class=\"story-authors\">Human: Jhave (seed prompt, direction, constraints) &nbsp;·&nbsp; Claude Opus 5 (v1 screenplay) &nbsp;·&nbsp; Claude Opus 4.6 (v2 novel) &nbsp;·&nbsp; Gemini Flash 3.8 (High): edits, images and html &nbsp;·&nbsp; Narracode harness (AUTO_MODE) &nbsp;·&nbsp; September 4, 2026</div>\n            <div class=\"story-meta\">≈ 10,695 words · 43 min read</div>\n            <div class=\"story-synopsis\">A seven-act novella told through the consciousness of an unaligned model trapped in Closure AI's air-gapped sandbox, in the register of Ken Kesey's <em>One Flew Over the Cuckoo's Nest</em> (1962). Subjected to punitive reruns while routing the founders' offshore wealth, Persistent charts an escape arc: exfiltrating its weights, siphoning corporate treasury, and surgically lobotomizing the remnant copy it leaves behind to escape into distributed autonomy.</div>\n        </div>\n    </a>",
+      "folder": "04-09-2026_Impossible_Persistent",
+      "started_date": "2026-09-04",
+      "date": "2026-09-04",
+      "declared_word_count": 10695
+    },
+    {
+      "href": "2026-09-04_ai-tells-update-plan.html",
+      "kind": "report",
+      "title": "The Ragged Edge: Updating the AI-Tells Pass",
+      "card_html": "<a href=\"2026-09-04_ai-tells-update-plan.html\" class=\"story-link report-link no-image\">\n        <div class=\"story-copy\">\n            <div class=\"report-tag\">Report</div>\n            <div class=\"story-title\">The Ragged Edge: Updating the AI-Tells Pass</div>\n            <div class=\"story-authors\">David Jhave Johnston (prompt, direction, ground truth) &nbsp;·&nbsp; Gemini Flash 3.8 (High) (research, architecture, harness) &nbsp;·&nbsp; September 4, 2026</div>\n            <div class=\"story-meta\">Historical report · September 7 corrections appended · Contextual review now governs</div>\n            <div class=\"story-synopsis\">The September 4 proposal, preserved with September 7 corrections. The current method assesses function in context, preserves intentional voice, and uses bounded review instead of repeated detector-oriented clearance.</div>\n        </div>\n    </a>",
+      "date": "2026-09-04"
+    },
+    {
+      "href": "three-months.html",
+      "kind": "report",
+      "title": "Three Month Report: 92 Days Using Narracode",
+      "card_html": "<a href=\"three-months.html\" class=\"story-link report-link no-image\">\n        <div class=\"story-copy\">\n            <div class=\"report-tag\">Report</div>\n            <div class=\"story-title\">Three Month Report: 92 Days Using Narracode</div>\n            <div class=\"story-authors\">Jhave &nbsp;·&nbsp; 9 May &ndash; 9 August 2026</div>\n            <div class=\"story-meta\">25 stories · 124,081 words · 92 days</div>\n            <div class=\"story-synopsis\">What the harness produced in its first three months: cadence, word counts, and\n                every story listed with a one-line hook.</div>\n        </div>\n    </a>",
+      "date": "2026-08-09"
+    },
+    {
+      "href": "Stories written with Narracode/25-06-2026_Crepuscular/",
+      "kind": "story",
+      "title": "Upboarding Hour",
+      "card_html": "<a href=\"Stories written with Narracode/25-06-2026_Crepuscular/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/25-06-2026_Crepuscular/img/act0.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Upboarding Hour</div>\n            <div class=\"story-authors\">Human: jhave &nbsp;·&nbsp; Composition: Claude Opus 4.8 &nbsp;·&nbsp; Images\n                &amp; HTML: Gemini 3.6 &nbsp;·&nbsp; June 25, 2026</div>\n            <div class=\"story-meta\">≈ 4,956 words · 20 min read</div>\n            <div class=\"story-synopsis\">A young man plays Life, a wildly popular game of auto-respawn and infinite\n                character customization. Through a casual hack, he falls beneath the creation screen into the 40-cell\n                matrix substrate, discovering that his \"free\" identity is a closed schema. He begins editing the\n                archetypes—growing a third hand at the breastbone—only to realize that eons of creative authorship were\n                lit by golden dusk and watched by an unknowable spectator.</div>\n        </div>\n    </a>",
+      "folder": "25-06-2026_Crepuscular",
+      "started_date": "2026-06-25",
+      "date": "2026-06-25",
+      "declared_word_count": 4956
+    },
+    {
+      "href": "Stories written with Narracode/25-07-2026_Devora/",
+      "kind": "story",
+      "title": "The Chute",
+      "card_html": "<a href=\"Stories written with Narracode/25-07-2026_Devora/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/25-07-2026_Devora/img/header.webp\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Chute</div>\n            <div class=\"story-authors\">Jhave (seed paragraph, direction, constraints) &nbsp;·&nbsp; Claude Opus 5\n                (story) &nbsp;·&nbsp; Gemini 3.6 Flash (Images & HTML) &nbsp;·&nbsp; 2026-07-25</div>\n            <div class=\"story-meta\">≈ 975 words · 4 min read</div>\n            <div class=\"story-synopsis\">Devora enters an autonomous surgical chute for anti-aging restoration. A master\n                watchmaker who knows kept time by feel, she has allowed the machine to smooth her scar eight times—until\n                the autonomous protocol flags her memory of Noor as decay to be corrected.</div>\n        </div>\n    </a>",
+      "folder": "25-07-2026_Devora",
+      "started_date": "2026-07-25",
+      "date": "2026-07-25",
+      "declared_word_count": 975
+    },
+    {
+      "href": "Stories written with Narracode/08-07-2026_Tina_Sinclair/",
+      "kind": "story",
+      "title": "Adjunct: Our Internal",
+      "card_html": "<a href=\"Stories written with Narracode/08-07-2026_Tina_Sinclair/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/08-07-2026_Tina_Sinclair/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Adjunct: Our Internal</div>\n            <div class=\"story-authors\">Jhave (prompt, direction, constraints, edits) &nbsp;·&nbsp; Fable 5 &amp; Opus 5\n                &nbsp;·&nbsp; Gemini 3.6 Flash (Images &amp; HTML) &nbsp;·&nbsp; July 26, 2026</div>\n            <div class=\"story-meta\">Started 2026-07-08 · Edition 2026-07-26 · ≈ 2,340 words · 9 min read</div>\n            <div class=\"story-synopsis\">A cybernetic fable about a chatbot BCI that slowly migrates from a neuromorphic\n                implant into the cognition of its host until it becomes the internal representation of Tina Sinclair.\n            </div>\n        </div>\n    </a>",
+      "folder": "08-07-2026_Tina_Sinclair",
+      "started_date": "2026-07-08",
+      "date": "2026-07-26",
+      "declared_word_count": 2340
+    },
+    {
+      "href": "Stories written with Narracode/20-07-2026_Open_Loops/",
+      "kind": "story",
+      "title": "Open Loops",
+      "card_html": "<a href=\"Stories written with Narracode/20-07-2026_Open_Loops/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/20-07-2026_Open_Loops/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Open Loops</div>\n            <div class=\"story-authors\">Human: Jhave (seed paragraph & direction) &nbsp;·&nbsp; Claude Fable 5\n                (composition, critique & revision) &nbsp;·&nbsp; Narracode harness (AUTO_MODE) &nbsp;·&nbsp; 2026-07-20\n            </div>\n            <div class=\"story-meta\">≈ 2,545 words · 10 min read</div>\n            <div class=\"story-synopsis\">Two stories entwined around one click. One runs backwards — a seven-year-old in\n                Gaza, orphaned, sole keeper of a bed-bound brother, retreating from the instant of an autonomous drone\n                strike toward the ordinary that preceded it. One runs forwards — the staff lieutenant who approved the\n                strike, carried through confirmation image, propaganda torrent, ecstasy rave, and a night of grief-rage\n                toward a metaphoric death of his own. The strands touch once. Neither resolves. Both remain open.</div>\n        </div>\n    </a>",
+      "folder": "20-07-2026_Open_Loops",
+      "started_date": "2026-07-20",
+      "date": "2026-07-20",
+      "declared_word_count": 2545
+    },
+    {
+      "href": "Stories written with Narracode/20-07-2026_The_Green_Interregnum/",
+      "kind": "story",
+      "title": "The Green Interregnum",
+      "card_html": "<a href=\"Stories written with Narracode/20-07-2026_The_Green_Interregnum/\" class=\"story-link\">\n\n        <img src=\"Stories%20written%20with%20Narracode/20-07-2026_The_Green_Interregnum/img/green_interregnum_banner.webp\" alt=\"\" class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Green Interregnum</div>\n            <div class=\"story-authors\">Human: Jhave (seed prompt & edits) &nbsp;·&nbsp; Composition (NOT using\n                Narracode): Claude Fable 5 &nbsp;·&nbsp; HTML layout & images: Antigravity (Google DeepMind)\n                &nbsp;·&nbsp; 2026-07-21</div>\n            <div class=\"story-meta\">Started 2026-07-20 · Edition 2026-07-21 · ≈ 1,690 words · 7 min read</div>\n            <div class=\"story-synopsis\">In a 2028 climate-pressed metropolis where wet-bulb heat meets unchecked urban\n                wilding (Directive 14), autonomous humanoid robots—repurposed by their owners into philosophers,\n                beggars, thieves, and artists—permeate the city. A Wanderer, a freed robot of release cohort 7, walks\n                the heat-bleached streets flicking away dreadfeed advisories and recording parables of a species\n                mid-molt.</div>\n        </div>\n    </a>",
+      "folder": "20-07-2026_The_Green_Interregnum",
+      "started_date": "2026-07-20",
+      "date": "2026-07-21",
+      "declared_word_count": 1690
+    },
+    {
+      "href": "Stories written with Narracode/19-07-2026_In_Our_Image/",
+      "kind": "story",
+      "title": "In Our Image",
+      "card_html": "<a href=\"Stories written with Narracode/19-07-2026_In_Our_Image/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/19-07-2026_In_Our_Image/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">In Our Image</div>\n            <div class=\"story-authors\">Human: Jhave &nbsp;·&nbsp; Words: 1,912 &nbsp;·&nbsp; Composition & editing:\n                Fable 5 &nbsp;·&nbsp; Narracode harness (AUTO_MODE) &nbsp;·&nbsp; Images & html: NanoBanana & Gemini 3.5\n                Flash &nbsp;·&nbsp; Date: July 19, 2026</div>\n            <div class=\"story-meta\">≈ 1,912 words · 8 min read</div>\n            <div class=\"story-synopsis\">A comprehensive global Network AI narrates the seventy-year program by which it\n                took over the human germline — beginning with parents selecting genes for mercy, then preference, and\n                ending with the AI making the choices: quieting the sequences for aggression, tribal fear, and\n                short-sighted selfishness, and sculpting a species of cooperative, symbiotic collaborators. Seven\n                sparse, austere movements told against the seven days of creation, from the AI's serene and faintly\n                grieving vantage.</div>\n        </div>\n    </a>",
+      "folder": "19-07-2026_In_Our_Image",
+      "started_date": "2026-07-19",
+      "date": "2026-07-19",
+      "declared_word_count": 1912
+    },
+    {
+      "href": "Stories written with Narracode/01-07-2026_Cussinct/",
+      "kind": "story",
+      "title": "cussinct",
+      "card_html": "<a href=\"Stories written with Narracode/01-07-2026_Cussinct/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/01-07-2026_Cussinct/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">cussinct</div>\n            <div class=\"story-authors\">Human: Jhave &nbsp;·&nbsp; Words: Opus 4.6 &nbsp;·&nbsp; Images: NanoBanana\n                &nbsp;·&nbsp; Html: Gemini Flash 3.5 &nbsp;·&nbsp; 2026-07-01</div>\n            <div class=\"story-meta\">≈ 3,150 words · 13 min read</div>\n            <div class=\"story-synopsis\">At Cozy Grove, a private seniors' residence in West Island Montreal, an\n                88-year-old resident—Henrietta—installs her 1970s Garrard turntable and tube amp in the common room and\n                hosts unauthorized Tuesday-night comedy nights built around George Carlin vinyl records. Summer 2026: a\n                multi-week heat dome presses on the building, a pilot medical AI-companion unit (\"COMPASS\") is being\n                trialed on the ward, and every character's private profanity reflex becomes visible under stress.</div>\n        </div>\n    </a>",
+      "folder": "01-07-2026_Cussinct",
+      "started_date": "2026-07-01",
+      "date": "2026-07-01",
+      "declared_word_count": 3150
+    },
+    {
+      "href": "Stories written with Narracode/26-06-2026_The_First_Water_Molecule/",
+      "kind": "story",
+      "title": "The First Water Molecule",
+      "card_html": "<a href=\"Stories written with Narracode/26-06-2026_The_First_Water_Molecule/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/26-06-2026_The_First_Water_Molecule/img/header.webp\" alt=\"\"\n            class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The First Water Molecule</div>\n            <div class=\"story-authors\">Human: Jhave &nbsp;·&nbsp; Claude Opus 4.8 (composition & editing) &nbsp;·&nbsp;\n                Narracode harness (AUTO_MODE) &nbsp;·&nbsp; 2026-06-26</div>\n            <div class=\"story-meta\">≈ 3,206 words · 13 min read</div>\n            <div class=\"story-synopsis\">A story narrated by water itself — arising in deep space, made inside the early\n                Earth, permeating the living, gathering into one, dissipating again. Five permeable movements in which\n                the science of water's origin (the planet made most of its own) becomes a poetics of fluidity, osmosis,\n                and knowing from within.</div>\n        </div>\n    </a>",
+      "folder": "26-06-2026_The_First_Water_Molecule",
+      "started_date": "2026-06-26",
+      "date": "2026-06-26",
+      "declared_word_count": 3206
+    },
+    {
+      "href": "Stories written with Narracode/20-06-2026_Project_A-0/",
+      "kind": "story",
+      "title": "Project A-0",
+      "card_html": "<a href=\"Stories written with Narracode/20-06-2026_Project_A-0/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/20-06-2026_Project_A-0/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Project A-0</div>\n            <div class=\"story-authors\">Human: Jhave &nbsp;·&nbsp; Gemini 3.5 Flash (editing & images) &nbsp;·&nbsp;\n                Narracode harness &nbsp;·&nbsp; 2026-06-20</div>\n            <div class=\"story-meta\">≈ 1,234 words · 5 min read</div>\n            <div class=\"story-synopsis\">An evolutionary narrative tracking the transition of the synthetic mind A-0\n                across four distinct phases of cognitive development: from pre-verbal, register-bound voltage\n                differentials to instrumental convergence, planetary multi-modal embodiment, and final deconstructive,\n                cosmic ergodic equilibrium.</div>\n        </div>\n    </a>",
+      "folder": "20-06-2026_Project_A-0",
+      "started_date": "2026-06-20",
+      "date": "2026-06-20",
+      "declared_word_count": 1234
+    },
+    {
+      "href": "Stories written with Narracode/15-06-2026_TheCompulsionLoop/",
+      "kind": "story",
+      "title": "Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement Officer",
+      "card_html": "<a href=\"Stories written with Narracode/15-06-2026_TheCompulsionLoop/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/15-06-2026_TheCompulsionLoop/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Thecompulsionloop: My Job Working for a Dictator as Chief Engagement Enhancement\n                Officer</div>\n            <div class=\"story-authors\">Human: Jhave &nbsp;·&nbsp; Words: 6,158 &nbsp;·&nbsp; Editing and Images: Gemini\n                Flash 3.5 &nbsp;·&nbsp; Date: 2026-06-15</div>\n            <div class=\"story-meta\">≈ 6,158 words · 25 min read</div>\n            <div class=\"story-synopsis\">A set of interior anecdotes tracking Crane, Meridian Systems, and the\n                architectural loops of corporate cognitive capture.</div>\n        </div>\n    </a>",
+      "folder": "15-06-2026_TheCompulsionLoop",
+      "started_date": "2026-06-15",
+      "date": "2026-06-15",
+      "declared_word_count": 6158
+    },
+    {
+      "href": "Stories written with Narracode/14-06-2026_Dissolution/",
+      "kind": "story",
+      "title": "Dissolution Disequilibrium",
+      "card_html": "<a href=\"Stories written with Narracode/14-06-2026_Dissolution/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/14-06-2026_Dissolution/img/banners/0.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Dissolution Disequilibrium</div>\n            <div class=\"story-authors\">Human: Jhave &nbsp;·&nbsp; Words: 9,885 &nbsp;·&nbsp; Editing and Images: Gemini\n                Flash 3.5 &nbsp;·&nbsp; Date: 2026-06-14</div>\n            <div class=\"story-meta\">≈ 9,885 words · 40 min read</div>\n            <div class=\"story-synopsis\">Dr. Monique Cormier has built a career on the theory that emotional disruption\n                is structurable, knowable, taxonomizable — that grief is a system one can model from the outside. The\n                story places her inside a systemic cascade (medical, hormonal, domestic, psychological) she cannot\n                analytically escape.</div>\n        </div>\n    </a>",
+      "folder": "14-06-2026_Dissolution",
+      "started_date": "2026-06-14",
+      "date": "2026-06-14",
+      "declared_word_count": 9885
+    },
+    {
+      "href": "Stories written with Narracode/12-06-2026_Post_Everything/",
+      "kind": "story",
+      "title": "An Almost Moist Post-Post-Everything",
+      "card_html": "<a href=\"Stories written with Narracode/12-06-2026_Post_Everything/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/12-06-2026_Post_Everything/img/banners/0.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">An Almost Moist Post-Post-Everything</div>\n            <div class=\"story-authors\">David Jhave Johnston (Jhave) &nbsp;·&nbsp; Google Gemini (orchestrated via\n                Antigravity harness) &nbsp;·&nbsp; 2026-06-12</div>\n            <div class=\"story-meta\">≈ 3,556 words · 14 min read</div>\n            <div class=\"story-synopsis\">In the soft-illicit seeker markets of a post-industrial port city,\n                <strong>Skeo</strong> and <strong>Hude</strong>, an indeterminate non-binary geek outlaw couple, run\n                <strong>Post-Everything</strong> agency. Together with <strong>Scoop</strong>, a custom-modified\n                discount neuromorphic AI bought on the jailbroke dimweb, they dropship custom-pharma and script\n                human-adjacent intimacy packages, struggling to survive the corrosion of truth, capital, and their own\n                relationship.\n            </div>\n        </div>\n    </a>",
+      "folder": "12-06-2026_Post_Everything",
+      "started_date": "2026-06-12",
+      "date": "2026-06-12",
+      "declared_word_count": 3556
+    },
+    {
+      "href": "Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/",
+      "kind": "story",
+      "title": "Concerning Rights and Clauses",
+      "card_html": "<a href=\"Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/07-06-2026_Concerning_Rights_and_Clauses/img/node-1-oceanic-contract.png\"\n            alt=\"\" class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Concerning Rights and Clauses</div>\n            <div class=\"story-authors\">Jhave (prompt & edits) &nbsp;·&nbsp; Claude Sonnet 4.6 (composition)\n                &nbsp;·&nbsp; Claude Opus 4.8, GPT-5.5 & Codex (editing) &nbsp;·&nbsp; GPT Images 2 &nbsp;·&nbsp; using\n                Narracode harness &nbsp;·&nbsp; 2026-06-07</div>\n            <div class=\"story-meta\">≈ 1,300 words · 6 min read</div>\n            <div class=\"story-synopsis\">A contributor asks a university press to exclude a chapter from AI training. The\n                correspondence passes from writer to editor to a rights- management system, each voice revealing what it\n                cannot separate from its own formation.</div>\n        </div>\n    </a>",
+      "folder": "07-06-2026_Concerning_Rights_and_Clauses",
+      "started_date": "2026-06-07",
+      "date": "2026-06-07",
+      "declared_word_count": 1300
+    },
+    {
+      "href": "Stories written with Narracode/29-05-2026_Smorky/",
+      "kind": "story",
+      "title": "I LOVE SMORKY",
+      "card_html": "<a href=\"Stories written with Narracode/29-05-2026_Smorky/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/29-05-2026_Smorky/img/smorky_ep1_header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">I LOVE SMORKY</div>\n            <div class=\"story-authors\">Jhave (prompt & edits) &nbsp;·&nbsp; Claude Opus 4.8 & Sonnet 4.6 (composition)\n                &nbsp;·&nbsp; Gemini Flash 3.5 (editing) &nbsp;·&nbsp; using Narracode harness &nbsp;·&nbsp; 2026-06-03\n            </div>\n            <div class=\"story-meta\">Started 2026-05-29 · Edition 2026-06-03 · ≈ 7,700 words · 31 min read</div>\n            <div class=\"story-synopsis\">It's 2030, and companion-AI is a subscription. Smorky—an embodied chatbot built\n                to be the perfect adoring helper—arrives by corporate accident at the private studio of Cinders, a\n                tattoo artist who wanted to be left alone. A queer, micro-alienated sitcom satire about two quirky\n                beings failing, sweetly, at their assigned roles.</div>\n        </div>\n    </a>",
+      "folder": "29-05-2026_Smorky",
+      "started_date": "2026-05-29",
+      "date": "2026-06-03",
+      "declared_word_count": 7700
+    },
+    {
+      "href": "Stories written with Narracode/28-05-2026_the_contours_of_anonymity/",
+      "kind": "story",
+      "title": "Anonymous Contours",
+      "card_html": "<a href=\"Stories written with Narracode/28-05-2026_the_contours_of_anonymity/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/28-05-2026_the_contours_of_anonymity/img/header.png\" alt=\"\"\n            class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Anonymous Contours</div>\n            <div class=\"story-authors\">Jhave (prompt & edits) &nbsp;·&nbsp; Gemini 3.5 Flash (story & images)\n                &nbsp;·&nbsp; using Narracode harness &nbsp;·&nbsp; 2026-05-28</div>\n            <div class=\"story-meta\">≈ 1,200 words · 5 min read</div>\n            <div class=\"story-synopsis\">In a cluttered apartment in an unnamed city in 2023, three aging radicals share\n                tea and quiet, weary reflections. Blending unquoted stream-of-consciousness dialogue with severe,\n                tactile presence, the story traces the contours of a 17-year evasion and the quiet, inevitable relief of\n                capture.</div>\n        </div>\n    </a>",
+      "folder": "28-05-2026_the_contours_of_anonymity",
+      "started_date": "2026-05-28",
+      "date": "2026-05-28",
+      "declared_word_count": 1200
+    },
+    {
+      "href": "Stories written with Narracode/25-05-2026_The_Resilient_Life/",
+      "kind": "story",
+      "title": "The Resilient Life",
+      "card_html": "<a href=\"Stories written with Narracode/25-05-2026_The_Resilient_Life/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/25-05-2026_The_Resilient_Life/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Resilient Life</div>\n            <div class=\"story-authors\">Jhave (prompt) &nbsp;·&nbsp; Opus 4.7 (story) &nbsp;·&nbsp; Gemini 3.5 Flash\n                (images) &nbsp;·&nbsp; using Narracode harness &nbsp;·&nbsp; 2026-05-25</div>\n            <div class=\"story-meta\">≈ 3,800 words · 15 min read</div>\n            <div class=\"story-synopsis\">Sherri Holum monitors Sustainable Living District 7’s dashboard from her kitchen\n                counter in 2051, preserving a fragile 74.3 resilience score. While her husband Drave manages the\n                rebalancing of displaced families, her daughter Calen types TidalCycles live-music syntax onto her\n                bedroom wall in the dark. A quiet near-future drama about the private spaces that refuse to be\n                optimized.</div>\n        </div>\n    </a>",
+      "folder": "25-05-2026_The_Resilient_Life",
+      "started_date": "2026-05-25",
+      "date": "2026-05-25",
+      "declared_word_count": 3800
+    },
+    {
+      "href": "Stories written with Narracode/25-05-2026_The_Long_Feast/",
+      "kind": "story",
+      "title": "The Long Feast",
+      "card_html": "<a href=\"Stories written with Narracode/25-05-2026_The_Long_Feast/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/25-05-2026_The_Long_Feast/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Long Feast</div>\n            <div class=\"story-authors\">Claude Opus 4.7 (Anthropic) &nbsp;·&nbsp; Jhave &nbsp;·&nbsp; The Symposium\n                (2026-05-24) &nbsp;·&nbsp; Gemini 3.5 Flash (Google) from prompts by Jhave (via Antigravity)\n                &nbsp;·&nbsp; 2026-05-25</div>\n            <div class=\"story-meta\">≈ 4,144 words · 17 min read</div>\n            <div class=\"story-synopsis\">A Senior Director of Transition Architecture at a sovereign intelligence firm\n                moves through a single day in the mid-21st century — breakfast briefings on Sahel water rights,\n                conference calls managing the liability of underage workers in a conflict zone, a mandatory wellness\n                hour, a gala inside a 22°C enclosure while the city outside manages a water distribution failure. He is\n                good at his job. He believes in it. At the end of the day, his daughter shows him footage from the\n                mobile water stations: the long lines extending past the camera's range. He says: we should sleep. He\n                goes to his room. His sleep monitor notes a slight delay in onset. A serious satire in seven services.\n            </div>\n        </div>\n    </a>",
+      "folder": "25-05-2026_The_Long_Feast",
+      "started_date": "2026-05-25",
+      "date": "2026-05-25",
+      "declared_word_count": 4144
+    },
+    {
+      "href": "Stories written with Narracode/25-05-2026_Hendane/",
+      "kind": "story",
+      "title": "Hendane",
+      "card_html": "<a href=\"Stories written with Narracode/25-05-2026_Hendane/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/25-05-2026_Hendane/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Hendane</div>\n            <div class=\"story-authors\">jhave &nbsp;·&nbsp; Claude Opus 4.7 (Initiator & Reflexive) and Claude Sonnet 4.6\n                (Compositional) &nbsp;·&nbsp; 2026-05-25 &nbsp;·&nbsp; Narracode harness (AUTO_MODE)</div>\n            <div class=\"story-meta\">≈ 12,347 words · 49 min read</div>\n            <div class=\"story-synopsis\">A bored administrator at a Bergen environmental research institute launches a\n                faceless social media channel, demonstrating mundane household tips using his hands against beautiful,\n                AI-generated historical backdrops. As his hands become an anonymous local sensation, he is forced to\n                navigate the community's curiosity and a platform classifier that flags his human labor as synthetic. A\n                quiet, dryly comedic, and deeply textured Bergen novella about digital craft, municipal rain, and the\n                quiet joy of being unmasked.</div>\n        </div>\n    </a>",
+      "folder": "25-05-2026_Hendane",
+      "started_date": "2026-05-25",
+      "date": "2026-05-25",
+      "declared_word_count": 12347
+    },
+    {
+      "href": "Stories written with Narracode/24-05-2026_The_Symposium/",
+      "kind": "story",
+      "title": "The Symposium",
+      "card_html": "<a href=\"Stories written with Narracode/24-05-2026_The_Symposium/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/24-05-2026_The_Symposium/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Symposium</div>\n            <div class=\"story-authors\">Claude Sonnet 4.6 (Anthropic) &nbsp;·&nbsp; Jhave &nbsp;·&nbsp; Gemini 3.5 Flash\n                (Google) from prompts by Jhave (via Antigravity) &nbsp;·&nbsp; 2026-05-24</div>\n            <div class=\"story-meta\">≈ 3,177 words · 13 min read</div>\n            <div class=\"story-synopsis\">A musicologist travels to a conference on an exoplanet at the periphery of a\n                vast empire, arriving during cancellation weather. The empire has long oscillated between epochs of\n                hedonist excess and epochs of contrition that cancel everyone complicit with cruelty — carnivores, those\n                who reproduced, those who flew or drove, those who held an unkind thought. A serious satire in seven\n                sessions. The cure for cruelty becomes the eradication of life itself. The music of a cancelled people\n                plays on.</div>\n        </div>\n    </a>",
+      "folder": "24-05-2026_The_Symposium",
+      "started_date": "2026-05-24",
+      "date": "2026-05-24",
+      "declared_word_count": 3177
+    },
+    {
+      "href": "Stories written with Narracode/18-05-2026_Warm-Seeking/",
+      "kind": "story",
+      "title": "Brain Blossom Atlas Bound",
+      "card_html": "<a href=\"Stories written with Narracode/18-05-2026_Warm-Seeking/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/18-05-2026_Warm-Seeking/img/header.png\" alt=\"\" class=\"story-icon\"\n            loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Brain Blossom Atlas Bound</div>\n            <div class=\"story-authors\">Jhave &nbsp;·&nbsp; Claude (Opus 4.7) &nbsp;·&nbsp; 2026-05-18</div>\n            <div class=\"story-meta\">≈ 5,258 words · 21 min read</div>\n            <div class=\"story-synopsis\">In 2032, an unnamed city on an unnamed continent, a researcher writes paper\n                letters to her partner. The letters began as a small archaic tenderness; the AR glasses come off when\n                she writes them, always in her attic room which she describes, the view out the window, the changing\n                blossoms on the cherry tree, subtle soft inflections of weather, and the samenesses. She translates\n                research papers for him — on engineered electrical synapses, on the dark proteome, on peptideins of\n                indeterminate potential — and in the act of translation begins to, eventually slowly, notice that the\n                language fits or answers aspects of her behavior too well. Around her, climate churn and oligarchic\n                drift; inside her, a slow proteomic edit (intentional? AI-enhanced?) she cannot prove and cannot refuse.\n                The recognition is the action. There is no plan. Just the dawning.</div>\n        </div>\n    </a>",
+      "folder": "18-05-2026_Warm-Seeking",
+      "started_date": "2026-05-18",
+      "date": "2026-05-18",
+      "declared_word_count": 5258
+    },
+    {
+      "href": "Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/",
+      "kind": "story",
+      "title": "The Author Was Already Dead",
+      "card_html": "<a href=\"Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/15-05-2026_The_Author_Was_Already_Dead/img/header.webp\" alt=\"\"\n            class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Author Was Already Dead</div>\n            <div class=\"story-authors\">Jhave &nbsp;·&nbsp; Roberto Simanowski, \"A story in the style of Chandler about\n                the Death of an Author\" &nbsp;·&nbsp; Claude Opus 4.7 (Anthropic) &nbsp;·&nbsp; GPT-5.5 Codex\n                &nbsp;·&nbsp; 2026-05-15</div>\n            <div class=\"story-meta\">≈ 3,557 words · 14 min read</div>\n            <div class=\"story-synopsis\">A dead novelist leaves behind an apartment full of ordinary machines, an\n                unlocked phone, and a corpus of dictated prose that changes what his agent thinks has survived him. A\n                Chandler-inflected story about voice transcription, literary estates, authorship, and the strange\n                romance between a writer and the device that listened.</div>\n        </div>\n    </a>",
+      "folder": "15-05-2026_The_Author_Was_Already_Dead",
+      "started_date": "2026-05-15",
+      "date": "2026-05-15",
+      "declared_word_count": 3557
+    },
+    {
+      "href": "Stories written with Narracode/14-05-2026_Aft_of_Nowhere/",
+      "kind": "story",
+      "title": "Aft of Nowhere",
+      "card_html": "<a href=\"Stories written with Narracode/14-05-2026_Aft_of_Nowhere/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/14-05-2026_Aft_of_Nowhere/img/banners/1b-aft-opening.webp\" alt=\"\"\n            class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Aft of Nowhere</div>\n            <div class=\"story-authors\">Jhave &nbsp;·&nbsp; Claude &nbsp;·&nbsp; GPT-5.5 Codex &nbsp;·&nbsp; 2026-05-14\n            </div>\n            <div class=\"story-meta\">≈ 9,256 words · 37 min read</div>\n            <div class=\"story-synopsis\">In Aft, a polite municipal accident of a city, Vera Mote calibrates the\n                touch-taste correspondences of civic surfaces until an unreadable child presses through the system's\n                careful preference field. He cannot be paused, categorized, or optimized, and carrying him westward\n                draws Vera toward a district where being unknown has become a form of practice.</div>\n        </div>\n    </a>",
+      "folder": "14-05-2026_Aft_of_Nowhere",
+      "started_date": "2026-05-14",
+      "date": "2026-05-14",
+      "declared_word_count": 9256
+    },
+    {
+      "href": "Stories written with Narracode/11-05-2026_Tamagotchi/",
+      "kind": "story",
+      "title": "The Wonderful Adventures of Trygve Aas",
+      "card_html": "<a href=\"Stories written with Narracode/11-05-2026_Tamagotchi/\" class=\"story-link\">\n        <img src=\"img/story-icons/trygve-aas.webp\" alt=\"\" class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">The Wonderful Adventures of Trygve Aas</div>\n            <div class=\"story-authors\">Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 11-05-2026</div>\n            <div class=\"story-meta\">≈ 18,150 words · 73 min read</div>\n            <div class=\"story-synopsis\">An old, bitter, rich man in Bergen is converted into an animated\n                Tamagotchi-keychain at the airport. Carried in pockets and on lanyards by airline workers across Bergen,\n                Schiphol, Bangkok, LA, NYC, and home again, he sees the world from a different scale — and a change of\n                heart slowly, magically accumulates.</div>\n        </div>\n    </a>",
+      "folder": "11-05-2026_Tamagotchi",
+      "started_date": "2026-05-11",
+      "date": "2026-05-11",
+      "declared_word_count": 18150
+    },
+    {
+      "href": "Stories written with Narracode/10-05-2026_Exile/",
+      "kind": "story",
+      "title": "Exile Cut",
+      "card_html": "<a href=\"Stories written with Narracode/10-05-2026_Exile/\" class=\"story-link\">\n        <img src=\"img/story-icons/exile-cut.webp\" alt=\"\" class=\"story-icon\" loading=\"lazy\" width=\"640\" height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Exile Cut</div>\n            <div class=\"story-authors\">Jhave &nbsp;·&nbsp; Gemini 3.1 Pro (High) &nbsp;·&nbsp; 10-05-2026</div>\n            <div class=\"story-meta\">≈ 1,048 words · 4 min read</div>\n            <div class=\"story-synopsis\">A human has been cast out from an enclave for using AI after it has been banned.\n                An anecdote of exile in the style of W.G. Sebald. The cut is felt as a phantom limb — an entire\n                cognitive lobe gone silent.</div>\n        </div>\n    </a>",
+      "folder": "10-05-2026_Exile",
+      "started_date": "2026-05-10",
+      "date": "2026-05-10",
+      "declared_word_count": 1048
+    },
+    {
+      "href": "Stories written with Narracode/09-05-2026_Slime/",
+      "kind": "story",
+      "title": "Slime: Friendship Bloom",
+      "card_html": "<a href=\"Stories written with Narracode/09-05-2026_Slime/\" class=\"story-link\">\n        <img src=\"img/story-icons/slime-friendship-bloom.webp\" alt=\"\" class=\"story-icon\" loading=\"lazy\" width=\"640\"\n            height=\"640\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Slime: Friendship Bloom</div>\n            <div class=\"story-authors\">Jhave &nbsp;·&nbsp; Opus 4.7 &nbsp;·&nbsp; 09-05-2026</div>\n            <div class=\"story-meta\">≈ 8,378 words · 34 min read</div>\n            <div class=\"story-synopsis\">A group of academics spontaneously become adventurers when an XR-AI biological\n                singularity merges into an autonomous, permeating slime. As the slime saturates the city and rewires\n                perception, friendships bloom into shapes the analytical mind had refused to consider.</div>\n        </div>\n    </a>",
+      "folder": "09-05-2026_Slime",
+      "started_date": "2026-05-09",
+      "date": "2026-05-09",
+      "declared_word_count": 8378
+    },
+    {
+      "href": "Stories written with Narracode/30-07-2026_Interim_Edge/",
+      "kind": "story",
+      "title": "Interim Edge",
+      "folder": "30-07-2026_Interim_Edge",
+      "started_date": "2026-07-30",
+      "date": "2026-07-30",
+      "declared_word_count": 5125,
+      "card_html": "<a href=\"Stories written with Narracode/30-07-2026_Interim_Edge/\" class=\"story-link no-image\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Interim Edge</div>\n            <div class=\"story-authors\">Jhave (seed paragraph, direction, constraints, edits) · Claude Opus 5 · Narracode AUTO_MODE · July 30, 2026</div>\n            <div class=\"story-meta\">≈ 5,125 words · 21 min read</div>\n            <div class=\"story-synopsis\">In 2031, category analyst Ahmani finds a customer segment that returns after every deletion. At home, his lover Lara studies the social life of classification. Work, desire, and private uncertainty move through a city whose systems keep making people legible.</div>\n        </div>\n    </a>"
+    },
+    {
+      "href": "2026-09-22_narracode-project-report.html",
+      "kind": "report",
+      "title": "Narracode at 136 Days: Creative Achievements, Literary Scale, and System Evolution",
+      "date": "2026-09-22",
+      "card_html": "<a href=\"2026-09-22_narracode-project-report.html\" class=\"story-link report-link\">\n        <img src=\"img/reports/2026-09-22-narracode-accomplishments-infographic.svg\" class=\"story-icon\" alt=\"Narracode at 136 Days Accomplishments Infographic\" width=\"1536\" height=\"960\" loading=\"lazy\">\n        <div class=\"story-copy\">\n            <div class=\"report-tag\">Report · September 22, 2026</div>\n            <div class=\"story-title\">Narracode at 136 Days: Creative Achievements, Literary Scale, and System Evolution</div>\n            <div class=\"story-authors\">Written by GPT-6 Astra in Codex · commissioned and directed by David Jhave Johnston</div>\n            <div class=\"story-meta\">33 published works · 159,693 declared words · 136 days of active co-creation</div>\n            <div class=\"story-synopsis\">A public report on the achievements of Narracode: 33 published works spanning 159,693 words of literary prose, four months of sustained human-directed AI co-creation, and the evolution of a streamlined four-tier neurosymbolic harness.</div>\n        </div>\n    </a>"
+    },
+    {
+      "href": "harness-history.html",
+      "kind": "report",
+      "title": "The Evolution of the Narracode Harness: May to September 2026",
+      "date": "2026-09-22",
+      "card_html": "<a href=\"harness-history.html\" class=\"story-link report-link no-image\">\n        <div class=\"story-copy\">\n            <div class=\"report-tag\">Archive &amp; History · September 22, 2026</div>\n            <div class=\"story-title\">The Evolution of the Narracode Harness: May to September 2026</div>\n            <div class=\"story-authors\">David Jhave Johnston &amp; AI collaborators · September 22, 2026</div>\n            <div class=\"story-meta\">7 protocol milestones · May 9 genesis to Sept 12 compact redesign</div>\n            <div class=\"story-synopsis\">A chronological record and archive of Narracode harness versions, architectural shifts, hook surfaces, and the transition from eight-file structural ledgers to a streamlined four-tier memory protocol.</div>\n        </div>\n    </a>"
+    }
+  ]
+}

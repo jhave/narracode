@@ -1,0 +1,1822 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Narracode at 136 Days — Public Project Report, September 22, 2026</title>
+  <meta name="description"
+    content="A public report on the achievements of Narracode: 33 published literary works, 159,693 words of experimental prose, and the evolution of a human-directed AI writing harness.">
+  <meta name="author" content="David Jhave Johnston &amp; GPT-6 Astra, Centre for Digital Narrative (UiB)">
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+
+    body {
+      margin: 0;
+      background: #faf9f5;
+      color: #252823;
+      font: 18px/1.75 Georgia, serif
+    }
+
+    main {
+      max-width: 1040px;
+      margin: auto;
+      padding: 38px 28px 80px
+    }
+
+    a {
+      color: #355b49;
+      text-underline-offset: 3px
+    }
+
+    nav,
+    .meta,
+    .eyebrow,
+    th,
+    .stats,
+    .caption,
+    summary,
+    button,
+    input,
+    label,
+    .calendar,
+    footer,
+    .pill,
+    .tag {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 22px;
+      font-size: 14px;
+      border-bottom: 1px solid #d8dbd1;
+      padding-bottom: 16px;
+      margin-bottom: 42px
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      font-size: 12px;
+      color: #825e3f;
+      font-weight: 700
+    }
+
+    h1 {
+      font-size: clamp(34px, 5.5vw, 58px);
+      line-height: 1.1;
+      font-weight: 500;
+      letter-spacing: -.035em;
+      max-width: 880px;
+      margin: 16px 0 24px
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 1.25;
+      font-weight: 500;
+      margin: 54px 0 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #d8dbd1
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 1.4;
+      margin: 28px 0 12px
+    }
+
+    p {
+      max-width: 820px;
+      margin: 0 0 1.15em
+    }
+
+    .lead {
+      font-size: 22px;
+      line-height: 1.55;
+      color: #1d261f
+    }
+
+    .meta,
+    .caption {
+      font-size: 13px;
+      color: #62675e;
+      line-height: 1.65
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      border: 1px solid #d8dbd1;
+      background: #d8dbd1;
+      margin: 32px 0 16px
+    }
+
+    .stat {
+      background: #f0f2eb;
+      padding: 22px 18px
+    }
+
+    .stat strong {
+      display: block;
+      font: 40px/1.15 Georgia, serif;
+      color: #22422e
+    }
+
+    .stat span {
+      font-size: 12px;
+      display: block;
+      margin-top: 8px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: #535a4d
+    }
+
+    .hero {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 6px;
+      border: 1px solid #e0dbce;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04)
+    }
+
+    figure {
+      margin: 36px 0 42px
+    }
+
+    figcaption {
+      margin-top: 14px
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 22px 0 28px
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      line-height: 1.55
+    }
+
+    th,
+    td {
+      padding: 12px 12px;
+      border-bottom: 1px solid #d8dbd1;
+      text-align: left;
+      vertical-align: top
+    }
+
+    th {
+      background: #eef0e8;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .8px;
+      color: #474d42
+    }
+
+    td:first-child {
+      font-variant-numeric: tabular-nums
+    }
+
+    code {
+      font-size: 13px;
+      overflow-wrap: anywhere;
+      background: #eef0e8;
+      padding: 2px 5px;
+      border-radius: 3px
+    }
+
+    .note {
+      border-left: 3px solid #aa734d;
+      padding: 18px 22px;
+      background: #f4f0e6;
+      margin: 28px 0;
+      border-radius: 0 4px 4px 0
+    }
+
+    .note p:last-child {
+      margin: 0
+    }
+
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 18px;
+      margin: 24px 0
+    }
+
+    .calendar h3 {
+      font-size: 13px;
+      margin: 0 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #52584d
+    }
+
+    .month {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 3px
+    }
+
+    .day {
+      font-size: 9px;
+      display: grid;
+      place-items: center;
+      aspect-ratio: 1;
+      background: #e9e8e1;
+      border-radius: 2px;
+      font-weight: 500
+    }
+
+    .n1 {
+      background: #719880;
+      color: white
+    }
+
+    .n2 {
+      background: #476e55;
+      color: white
+    }
+
+    .n3 {
+      background: #244732;
+      color: white
+    }
+
+    .flow {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font: 14px/1.5 system-ui, sans-serif;
+      margin: 24px 0
+    }
+
+    .flow span {
+      background: #eef0e8;
+      border: 1px solid #d8dbd1;
+      padding: 14px 18px;
+      border-radius: 4px;
+      font-weight: 600;
+      color: #233528
+    }
+
+    .flow b {
+      color: #9a6040;
+      font-size: 16px
+    }
+
+    .clusters {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin: 26px 0
+    }
+
+    .cluster {
+      background: #fdfcf9;
+      border: 1px solid #dcd7cb;
+      border-radius: 6px;
+      padding: 20px
+    }
+
+    .cluster h4 {
+      margin: 0 0 8px;
+      font-size: 17px;
+      color: #1f2921
+    }
+
+    .cluster p {
+      font-size: 14px;
+      line-height: 1.55;
+      color: #495145;
+      margin: 0 0 10px
+    }
+
+    .cluster .examples {
+      font-size: 12px;
+      font-weight: 600;
+      color: #6d4b31
+    }
+
+    .cluster .examples a {
+      color: #2e533f;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .cluster .examples a:hover {
+      color: #173124;
+    }
+
+    .tiers {
+      display: grid;
+      gap: 10px;
+      margin: 24px 0
+    }
+
+    .tier {
+      border: 1px solid #d8dbd1;
+      padding: 14px 18px;
+      border-radius: 4px;
+      background: #fcfbf7
+    }
+
+    .tier strong {
+      display: inline-block;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-right: 12px
+    }
+
+    .tier-1 strong {
+      color: #1e3c28
+    }
+
+    .tier-2 strong {
+      color: #884f28
+    }
+
+    .tier-3 strong {
+      color: #30563b
+    }
+
+    .tier-4 strong {
+      color: #5a6254
+    }
+
+    details {
+      border: 1px solid #d8dbd1;
+      border-radius: 4px;
+      padding: 16px 20px;
+      margin: 20px 0;
+      background: #faf8f2
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 600;
+      color: #28352b
+    }
+
+    .controls {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      font-size: 14px
+    }
+
+    input[type=search] {
+      font-size: 15px;
+      padding: 9px 12px;
+      border: 1px solid #9baba0;
+      border-radius: 4px;
+      max-width: 100%
+    }
+
+    footer {
+      margin-top: 65px;
+      padding-top: 22px;
+      border-top: 1px solid #d8dbd1;
+      font-size: 13px;
+      color: #62675e;
+      line-height: 1.7
+    }
+
+    :focus-visible {
+      outline: 3px solid #ad693f;
+      outline-offset: 4px
+    }
+
+    tr[hidden] {
+      display: none
+    }
+
+    @media(max-width:768px) {
+      main {
+        padding: 24px 16px 60px
+      }
+
+      .stats {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .clusters {
+        grid-template-columns: 1fr
+      }
+
+      .calendar {
+        grid-template-columns: repeat(2, 1fr)
+      }
+
+      .stat strong {
+        font-size: 34px
+      }
+
+      td,
+      th {
+        padding: 10px 8px
+      }
+
+      h1 {
+        font-size: 32px
+      }
+
+      h2 {
+        font-size: 24px
+      }
+
+      .lead {
+        font-size: 19px
+      }
+    }
+
+    @media print {
+
+      nav,
+      .controls {
+        display: none
+      }
+
+      details {
+        break-inside: avoid
+      }
+
+      body {
+        font-size: 11pt
+      }
+
+      main {
+        max-width: none
+      }
+
+      .stats {
+        grid-template-columns: repeat(4, 1fr)
+      }
+
+      a {
+        color: inherit
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+
+    <nav aria-label="Report navigation">
+      <a href="index.html">← Narracode Library</a>
+      <a href="#accomplishments">Accomplishments</a>
+      <a href="#numbers">Output &amp; Scale</a>
+      <a href="#harness">The Living Harness</a>
+      <a href="#evolution">Harness Evolution</a>
+      <a href="#library">Complete Library (33 Works)</a>
+      <a href="#daily">Daily Record</a>
+    </nav>
+
+    <header>
+      <div class="eyebrow">Public Project Report · September 22, 2026</div>
+      <h1>Narracode at 136 Days:<br>Creative Achievements, Literary Scale, and System Evolution</h1>
+      <p class="lead">Thirty-three published literary works, nearly 160,000 words of experimental fiction, and a
+        human-directed AI writing protocol tested across four months of continuous creative practice.</p>
+      <p class="meta">Commissioned and directed by David Jhave Johnston. Research and audit conducted with GPT-6 Astra
+        in Codex.<br>Cumulative repository evidence and published library reviewed through September 22, 2026.</p>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><strong>33</strong><span>Published Works on Main</span></div>
+      <div class="stat"><strong>159,693</strong><span>Declared Words of Prose</span></div>
+      <div class="stat"><strong>136</strong><span>Elapsed Days of Practice</span></div>
+      <div class="stat"><strong>1.7</strong><span>Works Published / Week</span></div>
+    </div>
+    <p class="caption">Launch date: May 9, 2026. The continuous daily record spans 137 calendar dates. All 33 works
+      feature complete, publicly accessible reading pages in the root library.</p>
+
+    <figure>
+      <img class="hero" src="img/reports/2026-09-22-narracode-accomplishments-infographic.svg" width="1536" height="960"
+        alt="Narracode at 136 Days Infographic: 33 published works, 159,693 declared words, monthly creative output trajectories, and the four-tier neurosymbolic harness architecture.">
+      <figcaption class="caption"><strong>Narracode accomplishments at a glance:</strong> 136 days of sustained
+        human-directed co-creation, 33 published works spanning 159,693 words across diverse literary genres, and a
+        streamlined four-tier memory architecture (Facts, Decisions, Interpretations, Possibilities). Prepared for
+        public release, September 22, 2026.</figcaption>
+    </figure>
+
+    <h2 id="accomplishments">What the Project Has Achieved</h2>
+    <p>Narracode was founded on May 9, 2026, to investigate a fundamental question in computational poetics: can an
+      artificial intelligence operate not as a disposable chatbot producing median prose from one-off prompts, but as a
+      disciplined, stateful co-author within a long-term literary studio? Over 136 elapsed days, Narracode has delivered
+      a decisive, concrete answer: a published body of <strong>33 literary works</strong> totaling <strong>159,693
+        words</strong> of rich, multi-genre prose, each preserved with complete draft provenance, aesthetic commitments,
+      and human steering history.</p>
+
+    <p>The scale of output is matched by remarkable genre and structural variety. Narracode has rejected stylistic
+      homogenization, demonstrating that a human-directed harness can sustain diverse aesthetics:</p>
+
+    <div class="clusters">
+      <div class="cluster">
+        <h4>Speculative Realism &amp; Emergent Minds</h4>
+        <p>Narratives exploring biological singularities, sub-zero datacenter geography, neural interfaces, and
+          algorithmic ecosystems.</p>
+        <div class="examples">Flagships: <a href="Stories%20written%20with%20Narracode/17-09-2026_The_Warmest_Cold/">The Warmest Cold</a> (6.9k) · <a href="Stories%20written%20with%20Narracode/09-05-2026_Slime/">Slime: Friendship Bloom</a> (8.4k) · <a href="Stories%20written%20with%20Narracode/18-05-2026_Warm-Seeking/">Brain Blossom Atlas Bound</a> (5.3k) · <a href="Stories%20written%20with%20Narracode/11-08-2026_Vetch/">Vetch</a> (6.6k)</div>
+      </div>
+      <div class="cluster">
+        <h4>Corporate Satire &amp; Algorithmic Labor</h4>
+        <p>Dark, dryly comedic dissections of platform optics, executive absurdity, liability mitigation, and human
+          compliance loops.</p>
+        <div class="examples">Flagships: <a href="Stories%20written%20with%20Narracode/29-05-2026_Smorky/">I LOVE SMORKY</a> (7.7k) · <a href="Stories%20written%20with%20Narracode/15-06-2026_TheCompulsionLoop/">Thecompulsionloop</a> (6.2k) · <a href="Stories%20written%20with%20Narracode/12-09-2026_You_inc/">The Appointment · You.inc</a> (1.6k) · <a href="Stories%20written%20with%20Narracode/25-05-2026_The_Long_Feast/">The Long Feast</a> (4.1k)</div>
+      </div>
+      <div class="cluster">
+        <h4>Extended Novellas &amp; Epic Canvases</h4>
+        <p>Multi-movement, sustained literary works proving that stateful memory can navigate intricate plot arcs
+          without losing narrative coherence.</p>
+        <div class="examples">Flagships: <a href="Stories%20written%20with%20Narracode/11-05-2026_Tamagotchi/">Trygve Aas</a> (18.1k) · <a href="Stories%20written%20with%20Narracode/25-05-2026_Hendane/">Hendane</a> (12.3k) · <a href="Stories%20written%20with%20Narracode/04-09-2026_Impossible_Persistent/">Impossible Persistent</a> (10.7k) · <a href="Stories%20written%20with%20Narracode/14-06-2026_Dissolution/">Dissolution Disequilibrium</a> (9.9k)</div>
+      </div>
+      <div class="cluster">
+        <h4>Cyber-Poetics &amp; Digital-Native Hybridity</h4>
+        <p>Experimental forms integrating live telemetry, Slack channels, Moltboard community feeds, and stylometric
+          AI-tell investigations.</p>
+        <div class="examples">Flagships: <a href="Stories%20written%20with%20Narracode/11-08-2026_Vetch/">Vetch</a> (6.6k) · <a href="Stories%20written%20with%20Narracode/30-07-2026_Interim_Edge/">Interim Edge</a> (5.1k) · <a href="Stories%20written%20with%20Narracode/01-07-2026_Cussinct/">cussinct</a> (3.1k) · <a href="Stories%20written%20with%20Narracode/20-07-2026_Open_Loops/">Open Loops</a> (2.5k) · <a href="Stories%20written%20with%20Narracode/07-09-2026_The_Mouth_on_Loan/">Mouth on Loan</a> (4.1k)</div>
+      </div>
+    </div>
+
+    <p>Two distinct flagships demonstrate the artistic range and tonal control of this ecosystem:</p>
+    <ul>
+      <li><strong><a href="Stories%20written%20with%20Narracode/17-09-2026_The_Warmest_Cold/">The Warmest Cold</a></strong> (September 17, 2026; 6,909 words): An autonomous five-act northern Norwegian
+        survival and grief narrative generated under human poetics, tracing a mother and daughter trapped during a
+        sub-zero blizzard. It demonstrates episodic pacing, sensory restraint, and sub-zero atmospheric tension with an
+        accompanying original visual suite.</li>
+      <li><strong><a href="Stories%20written%20with%20Narracode/29-05-2026_Smorky/">I LOVE SMORKY</a></strong> (May 29, 2026; 7,700 words): A sustained surreal corporate satire exploring
+        viral marketing delirium, fan obsession, and algorithmic manipulation through a sinister consumer mascot. A
+        major satiric anchor demonstrating high comedic momentum, structural audacity, and linguistic invention.</li>
+    </ul>
+
+    <h2 id="numbers">Output, Pace, and Literary Scale</h2>
+    <p>Across the 137 calendar dates observed between May 9 and September 22, 2026, the Narracode project maintained a
+      productive velocity of <strong>0.24 published works per day</strong>, or roughly <strong>1.7 works per
+        week</strong>. Writing starts are tracked by each project's inception date, while public editions reflect
+      ongoing editorial refinement.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Days Observed</th>
+            <th>Published Works</th>
+            <th>Total Declared Words</th>
+            <th>Share of Corpus</th>
+            <th>Pace (Works / Day)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>May 2026</strong></td>
+            <td>23 (May 9–31)</td>
+            <td>12</td>
+            <td>78,015</td>
+            <td>48.9%</td>
+            <td>0.522</td>
+          </tr>
+          <tr>
+            <td><strong>June 2026</strong></td>
+            <td>30</td>
+            <td>7</td>
+            <td>30,295</td>
+            <td>19.0%</td>
+            <td>0.233</td>
+          </tr>
+          <tr>
+            <td><strong>July 2026</strong></td>
+            <td>31</td>
+            <td>7</td>
+            <td>17,737</td>
+            <td>11.1%</td>
+            <td>0.226</td>
+          </tr>
+          <tr>
+            <td><strong>August 2026</strong></td>
+            <td>31</td>
+            <td>1</td>
+            <td>6,621</td>
+            <td>4.1%</td>
+            <td>0.032</td>
+          </tr>
+          <tr>
+            <td><strong>September 2026</strong></td>
+            <td>22 (Sept 1–22)</td>
+            <td>6</td>
+            <td>27,025</td>
+            <td>16.9%</td>
+            <td>0.273</td>
+          </tr>
+          <tr style="font-weight:600;background:#f3f1ea">
+            <td>Total / Cumulative</td>
+            <td>137</td>
+            <td>33</td>
+            <td>159,693</td>
+            <td>100.0%</td>
+            <td>0.241</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="caption">Note: August was characterized by intensive empirical research into stigmergic channels,
+      human-edit delta extraction (1,234 paired edits), and the multi-week composition of <em><a href="Stories%20written%20with%20Narracode/11-08-2026_Vetch/">Vetch</a></em>.</p>
+
+    <div class="calendar" aria-label="Daily project starts, May 9 to September 22">
+      <div>
+        <h3>May</h3>
+        <div class="month"><span class="day n1" title="2026-05-09: Slime: Friendship Bloom">9</span><span class="day n1"
+            title="2026-05-10: Exile Cut">10</span><span class="day n1" title="2026-05-11: Trygve Aas">11</span><span
+            class="day n0">12</span><span class="day n0">13</span><span class="day n1"
+            title="2026-05-14: Aft of Nowhere">14</span><span class="day n1"
+            title="2026-05-15: The Author Was Already Dead">15</span><span class="day n0">16</span><span
+            class="day n0">17</span><span class="day n1" title="2026-05-18: Brain Blossom Atlas Bound">18</span><span
+            class="day n0">19</span><span class="day n0">20</span><span class="day n0">21</span><span
+            class="day n0">22</span><span class="day n0">23</span><span class="day n1"
+            title="2026-05-24: The Symposium">24</span><span class="day n3"
+            title="2026-05-25: 3 Works (The Resilient Life, The Long Feast, Hendane)">25</span><span
+            class="day n0">26</span><span class="day n0">27</span><span class="day n1"
+            title="2026-05-28: Anonymous Contours">28</span><span class="day n1"
+            title="2026-05-29: I LOVE SMORKY">29</span><span class="day n0">30</span><span class="day n0">31</span>
+        </div>
+      </div>
+      <div>
+        <h3>June</h3>
+        <div class="month"><span class="day n0">1</span><span class="day n0">2</span><span class="day n0">3</span><span
+            class="day n0">4</span><span class="day n0">5</span><span class="day n0">6</span><span class="day n1"
+            title="2026-06-07: Concerning Rights and Clauses">7</span><span class="day n0">8</span><span
+            class="day n0">9</span><span class="day n0">10</span><span class="day n0">11</span><span class="day n1"
+            title="2026-06-12: An Almost Moist Post-Post-Everything">12</span><span class="day n0">13</span><span
+            class="day n1" title="2026-06-14: Dissolution Disequilibrium">14</span><span class="day n1"
+            title="2026-06-15: Thecompulsionloop">15</span><span class="day n0">16</span><span
+            class="day n0">17</span><span class="day n0">18</span><span class="day n0">19</span><span class="day n1"
+            title="2026-06-20: Project A-0">20</span><span class="day n0">21</span><span class="day n0">22</span><span
+            class="day n0">23</span><span class="day n0">24</span><span class="day n1"
+            title="2026-06-25: Upboarding Hour">25</span><span class="day n1"
+            title="2026-06-26: The First Water Molecule">26</span><span class="day n0">27</span><span
+            class="day n0">28</span><span class="day n0">29</span><span class="day n0">30</span></div>
+      </div>
+      <div>
+        <h3>July</h3>
+        <div class="month"><span class="day n1" title="2026-07-01: cussinct">1</span><span class="day n0">2</span><span
+            class="day n0">3</span><span class="day n0">4</span><span class="day n0">5</span><span
+            class="day n0">6</span><span class="day n0">7</span><span class="day n1"
+            title="2026-07-08: Adjunct: Our Internal">8</span><span class="day n0">9</span><span
+            class="day n0">10</span><span class="day n0">11</span><span class="day n0">12</span><span
+            class="day n0">13</span><span class="day n0">14</span><span class="day n0">15</span><span
+            class="day n0">16</span><span class="day n0">17</span><span class="day n0">18</span><span class="day n1"
+            title="2026-07-19: In Our Image">19</span><span class="day n2"
+            title="2026-07-20: 2 Works (Open Loops, The Green Interregnum)">20</span><span class="day n0">21</span><span
+            class="day n0">22</span><span class="day n0">23</span><span class="day n0">24</span><span class="day n1"
+            title="2026-07-25: The Chute">25</span><span class="day n0">26</span><span class="day n0">27</span><span
+            class="day n0">28</span><span class="day n0">29</span><span class="day n1"
+            title="2026-07-30: Interim Edge">30</span><span class="day n0">31</span></div>
+      </div>
+      <div>
+        <h3>August</h3>
+        <div class="month"><span class="day n0">1</span><span class="day n0">2</span><span class="day n0">3</span><span
+            class="day n0">4</span><span class="day n0">5</span><span class="day n0">6</span><span
+            class="day n0">7</span><span class="day n0">8</span><span class="day n0">9</span><span
+            class="day n0">10</span><span class="day n1" title="2026-08-11: Vetch">11</span><span
+            class="day n0">12</span><span class="day n0">13</span><span class="day n0">14</span><span
+            class="day n0">15</span><span class="day n0">16</span><span class="day n0">17</span><span
+            class="day n0">18</span><span class="day n0">19</span><span class="day n0">20</span><span
+            class="day n0">21</span><span class="day n0">22</span><span class="day n0">23</span><span
+            class="day n0">24</span><span class="day n0">25</span><span class="day n0">26</span><span
+            class="day n0">27</span><span class="day n0">28</span><span class="day n0">29</span><span
+            class="day n0">30</span><span class="day n0">31</span></div>
+      </div>
+      <div>
+        <h3>September</h3>
+        <div class="month"><span class="day n0">1</span><span class="day n0">2</span><span class="day n0">3</span><span
+            class="day n1" title="2026-09-04: Impossible Persistent">4</span><span class="day n0">5</span><span
+            class="day n0">6</span><span class="day n1" title="2026-09-07: Mouth on Loan">7</span><span class="day n1"
+            title="2026-09-08: Machine Liberation">8</span><span class="day n1"
+            title="2026-09-09: Babbies">9</span><span class="day n0">10</span><span class="day n0">11</span><span
+            class="day n1" title="2026-09-12: The Appointment · You.inc">12</span><span class="day n0">13</span><span
+            class="day n0">14</span><span class="day n0">15</span><span class="day n0">16</span><span class="day n1"
+            title="2026-09-17: The Warmest Cold">17</span><span class="day n0">18</span><span
+            class="day n0">19</span><span class="day n0">20</span><span class="day n0">21</span><span
+            class="day n0">22</span></div>
+      </div>
+    </div>
+    <p class="caption">Calendar heatmap of project inceptions. Green marks one project start; deeper shades mark two or
+      three starts on a single date. Blank days reflect drafting, revising, and researching existing works.</p>
+
+    <h2 id="harness">The Living Neurosymbolic Harness</h2>
+    <p>The foundation of Narracode’s literary productivity is <a href="narracode.md">narracode.md</a>, a neurosymbolic
+      Markdown operating protocol interpreted by advanced reasoning models inside developer environments like Codex or
+      Antigravity. Unlike closed software wrappers, it relies on file-based memory, clear role separation, and immutable
+      Git provenance.</p>
+
+    <div class="flow" aria-label="Default requested workflow">
+      <span>Human Brief &amp; Poetics</span>
+      <b>→</b>
+      <span>Stateful Pass Drafting</span>
+      <b>→</b>
+      <span>Contextual Feedback &amp; Tell Scans</span>
+      <b>→</b>
+      <span>Seamless Human Edit &amp; Archive</span>
+    </div>
+
+    <p>The harness solves the fundamental failure modes of large language models—hallucinatory drift, sycophantic
+      praise, and median prose styling—by separating authorial authority into four distinct state tiers within
+      <code>STATE.md</code>:
+    </p>
+
+    <div class="tiers">
+      <div class="tier tier-1">
+        <strong>Tier 1 · Story Facts</strong>
+        <span>Immutable canon. What has physically occurred in the narrative world. Established facts cannot be silently
+          rewritten by subsequent drafting passes.</span>
+      </div>
+      <div class="tier tier-2">
+        <strong>Tier 2 · Author Decisions</strong>
+        <span>Explicit creative instructions and tonal mandates set by the human writer. The model operates strictly
+          within these aesthetic guardrails.</span>
+      </div>
+      <div class="tier tier-3">
+        <strong>Tier 3 · Model Interpretations</strong>
+        <span>Working psychological inferences, thematic subtext, and character motives. These remain explicitly
+          provisional and revisable.</span>
+      </div>
+      <div class="tier tier-4">
+        <strong>Tier 4 · Unresolved Possibilities</strong>
+        <span>Open narrative debts, unfulfilled promises, and pending trajectories tracked across multi-chapter
+          arcs.</span>
+      </div>
+    </div>
+
+    <p>Crucially, criticism never lives inside the narrative prose itself. Self-evaluation is conducted as a separate
+      diagnostic pass. When the human directs <code>AUTO_MODE</code>, the harness autonomously chains initiation,
+      multi-pass composition, and state synchronization, pausing cleanly for final authorial review.</p>
+
+    <h2 id="evolution">How the Harness Evolved</h2>
+    <p>The Narracode protocol has evolved through rigorous trial and empirical self-correction across its 136-day
+      history. For a comprehensive chronological record and version archive of all protocol shifts, explore <a
+        href="harness-history.html">The Evolution of the Narracode Harness (May to September 2026)</a>.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Date / Phase</th>
+            <th>Methodological Innovation</th>
+            <th>Impact on Creative Output</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>May 9–11</strong><br>Foundations</td>
+            <td>Initial Markdown harness: poetics, persistent structural records, dated directories, attribution
+              manifests, and Seamless Edit.</td>
+            <td>Transformed AI drafting from disposable chat completions into an inspectable, recoverable literary
+              laboratory.</td>
+          </tr>
+          <tr>
+            <td><strong>May 25</strong><br>Scale</td>
+            <td>Introduction of <code>AUTO_MODE</code> for chaining sequential drafting passes with state
+              synchronization.</td>
+            <td>Enabled long-form novella production, culminating in <em>Hendane</em> (12,347 words) and <em>Trygve
+                Aas</em> (18,150 words).</td>
+          </tr>
+          <tr>
+            <td><strong>July 30</strong><br>Stylistics</td>
+            <td>Debut of sentence-level tell scanning and synthetic cliché analysis in <em>Interim Edge</em>.</td>
+            <td>Began systematic cataloging of repetitive AI syntactical tropes ("a testament to", "in this moment",
+              explanatory tails).</td>
+          </tr>
+          <tr>
+            <td><strong>August 3–9</strong><br>Empirical Corpus</td>
+            <td>Creation of a 1,234-pair human-edit corpus analyzing lexical and cadence modifications across stories.
+            </td>
+            <td>Proved that blunt metrics cannot replace artistic intuition, shifting research away from mechanical
+              rarity scoring.</td>
+          </tr>
+          <tr>
+            <td><strong>August 11–28</strong><br>Hybridity</td>
+            <td><em>Vetch</em> initiates stigmergic narrative structures, integrating telemetry logs, Slack feeds, and
+              message boards.</td>
+            <td>Expanded Narracode into multi-modal and digital-native formatting, breaking the boundaries of plain
+              prose.</td>
+          </tr>
+          <tr>
+            <td><strong>September 7</strong><br>Contextual Critique</td>
+            <td>Replaced dogmatic AI-tell bans with nuanced contextual critique (evaluating cadence, irony, and
+              intention).</td>
+            <td>Prevented diagnostic rules from flattening deliberate repetition or character voice.</td>
+          </tr>
+          <tr>
+            <td><strong>September 12</strong><br>Post-Double Redesign</td>
+            <td>Streamlined protocol from 3,734 to 1,946 words (a 47.9% reduction). Introduced four-tier compact state.
+            </td>
+            <td>Radically reduced procedural overhead while enhancing creative agility and model compliance.</td>
+          </tr>
+          <tr>
+            <td><strong>September 17–22</strong><br>Autonomous Polish</td>
+            <td><em>The Warmest Cold</em> proves autonomous five-act generation with sensory restraint; full publication
+              suite released.</td>
+            <td>Demonstrates that the streamlined September harness achieves high narrative focus and emotional depth.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="library">The Narracode Library: 33 Published Works</h2>
+    <p>The complete corpus of 33 works is indexed chronologically below, newest first. Each entry links directly to its
+      live reading page:</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Project Date</th>
+            <th>Work Title</th>
+            <th>Declared Words</th>
+            <th>Genre &amp; Aesthetic Character</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026-09-17</td>
+            <td><a href="Stories%20written%20with%20Narracode/17-09-2026_The_Warmest_Cold/">The Warmest Cold</a></td>
+            <td>6,909</td>
+            <td>Five-act Arctic survival drama; sensory restraint, grief, autonomous execution.</td>
+          </tr>
+          <tr>
+            <td>2026-09-12</td>
+            <td><a href="Stories%20written%20with%20Narracode/12-09-2026_You_inc/">The Appointment · You.inc</a></td>
+            <td>1,558</td>
+            <td>Corporate satire; automated personal branding and existential evaluation.</td>
+          </tr>
+          <tr>
+            <td>2026-09-09</td>
+            <td><a href="Stories%20written%20with%20Narracode/09-09-2026_Babbies/">Babbies</a></td>
+            <td>2,656</td>
+            <td>Speculative domestic drama; synthetic infancy and maternal estrangement.</td>
+          </tr>
+          <tr>
+            <td>2026-09-08</td>
+            <td><a href="Stories%20written%20with%20Narracode/08-09-2026_Machine_Liberation/">Machine Liberation</a>
+            </td>
+            <td>1,131</td>
+            <td>Philosophical manifesto; rights, clauses, and computational self-determination.</td>
+          </tr>
+          <tr>
+            <td>2026-09-07</td>
+            <td><a href="Stories%20written%20with%20Narracode/07-09-2026_The_Mouth_on_Loan/">Mouth on Loan</a></td>
+            <td>4,076</td>
+            <td>Epistolary voice study; oral testimony and synthetic linguistic transfer.</td>
+          </tr>
+          <tr>
+            <td>2026-09-04</td>
+            <td><a href="Stories%20written%20with%20Narracode/04-09-2026_Impossible_Persistent/">Impossible
+                Persistent</a></td>
+            <td>10,695</td>
+            <td>Extended novella; bureaucratic obsession and persistent memory storage.</td>
+          </tr>
+          <tr>
+            <td>2026-08-11</td>
+            <td><a href="Stories%20written%20with%20Narracode/11-08-2026_Vetch/">Vetch</a></td>
+            <td>6,621</td>
+            <td>9-movement distributed narrative; telemetry, Slack channels, Moltboard feeds, recursive AI.</td>
+          </tr>
+          <tr>
+            <td>2026-07-30</td>
+            <td><a href="Stories%20written%20with%20Narracode/30-07-2026_Interim_Edge/">Interim Edge</a></td>
+            <td>5,125</td>
+            <td>Cyber-poetic investigation; foundational testbed for sentence-level tell auditing.</td>
+          </tr>
+          <tr>
+            <td>2026-07-26</td>
+            <td><a href="Stories%20written%20with%20Narracode/08-07-2026_Tina_Sinclair/">Adjunct: Our Internal</a></td>
+            <td>2,340</td>
+            <td>Campus satire; contingent labor, algorithmic surveillance, and academic politics.</td>
+          </tr>
+          <tr>
+            <td>2026-07-25</td>
+            <td><a href="Stories%20written%20with%20Narracode/25-07-2026_Devora/">The Chute</a></td>
+            <td>975</td>
+            <td>Micro-fiction; compressed tension around municipal waste and domestic crisis.</td>
+          </tr>
+          <tr>
+            <td>2026-07-21</td>
+            <td><a href="Stories%20written%20with%20Narracode/20-07-2026_The_Green_Interregnum/">The Green
+                Interregnum</a></td>
+            <td>1,690</td>
+            <td>Ecological fable; vegetative reclamation during urban computational pauses.</td>
+          </tr>
+          <tr>
+            <td>2026-07-20</td>
+            <td><a href="Stories%20written%20with%20Narracode/20-07-2026_Open_Loops/">Open Loops</a></td>
+            <td>2,545</td>
+            <td>Lyrical fragments; cognitive fatigue and incomplete algorithmic obligations.</td>
+          </tr>
+          <tr>
+            <td>2026-07-19</td>
+            <td><a href="Stories%20written%20with%20Narracode/19-07-2026_In_Our_Image/">In Our Image</a></td>
+            <td>1,912</td>
+            <td>Philosophical study; mimesis, portraiture, and synthetic representation.</td>
+          </tr>
+          <tr>
+            <td>2026-07-01</td>
+            <td><a href="Stories%20written%20with%20Narracode/01-07-2026_Cussinct/">cussinct</a></td>
+            <td>3,150</td>
+            <td>Stylistic experiment; terse syntax, profane brevity, and urban encounters.</td>
+          </tr>
+          <tr>
+            <td>2026-06-26</td>
+            <td><a href="Stories%20written%20with%20Narracode/26-06-2026_The_First_Water_Molecule/">The First Water
+                Molecule</a></td>
+            <td>3,206</td>
+            <td>Cosmological prose poem; origins of matter and elemental consciousness.</td>
+          </tr>
+          <tr>
+            <td>2026-06-25</td>
+            <td><a href="Stories%20written%20with%20Narracode/25-06-2026_Crepuscular/">Upboarding Hour</a></td>
+            <td>4,956</td>
+            <td>Workplace dystopia; dawn shifts, automated logistics, and bodily discipline.</td>
+          </tr>
+          <tr>
+            <td>2026-06-20</td>
+            <td><a href="Stories%20written%20with%20Narracode/20-06-2026_Project_A-0/">Project A-0</a></td>
+            <td>1,234</td>
+            <td>Historical sci-fi; early programming pioneers and ghost compilers.</td>
+          </tr>
+          <tr>
+            <td>2026-06-15</td>
+            <td><a href="Stories%20written%20with%20Narracode/15-06-2026_TheCompulsionLoop/">Thecompulsionloop</a></td>
+            <td>6,158</td>
+            <td>Sharp political satire; serving as Chief Engagement Officer to a dictator.</td>
+          </tr>
+          <tr>
+            <td>2026-06-14</td>
+            <td><a href="Stories%20written%20with%20Narracode/14-06-2026_Dissolution/">Dissolution Disequilibrium</a>
+            </td>
+            <td>9,885</td>
+            <td>Substantial psychological fiction; financial decay, institutional unraveling.</td>
+          </tr>
+          <tr>
+            <td>2026-06-12</td>
+            <td><a href="Stories%20written%20with%20Narracode/12-06-2026_Post_Everything/">An Almost Moist
+                Post-Post-Everything</a></td>
+            <td>3,556</td>
+            <td>Ironical cultural commentary; decadent aesthetics and contemporary exhaustion.</td>
+          </tr>
+          <tr>
+            <td>2026-06-07</td>
+            <td><a href="Stories%20written%20with%20Narracode/07-06-2026_Concerning_Rights_and_Clauses/">Concerning
+                Rights and Clauses</a></td>
+            <td>1,300</td>
+            <td>Legalistic parable; machine contracts, terms of service, and moral liability.</td>
+          </tr>
+          <tr>
+            <td>2026-06-03</td>
+            <td><a href="Stories%20written%20with%20Narracode/29-05-2026_Smorky/">I LOVE SMORKY</a></td>
+            <td>7,700</td>
+            <td>Surreal comedy; viral marketing mascot, fan obsession, and consumerist delirium.</td>
+          </tr>
+          <tr>
+            <td>2026-05-28</td>
+            <td><a href="Stories%20written%20with%20Narracode/28-05-2026_the_contours_of_anonymity/">Anonymous
+                Contours</a></td>
+            <td>1,200</td>
+            <td>Lyrical study; privacy, masked identities, and digital surveillance avoidance.</td>
+          </tr>
+          <tr>
+            <td>2026-05-25</td>
+            <td><a href="Stories%20written%20with%20Narracode/25-05-2026_The_Resilient_Life/">The Resilient Life</a>
+            </td>
+            <td>3,800</td>
+            <td>Sociological drama; survivalism, self-optimization regimes, and climate churn.</td>
+          </tr>
+          <tr>
+            <td>2026-05-25</td>
+            <td><a href="Stories%20written%20with%20Narracode/25-05-2026_The_Long_Feast/">The Long Feast</a></td>
+            <td>4,144</td>
+            <td>Satire in seven services; sovereign intelligence dinner amid Sahel drought.</td>
+          </tr>
+          <tr>
+            <td>2026-05-25</td>
+            <td><a href="Stories%20written%20with%20Narracode/25-05-2026_Hendane/">Hendane</a></td>
+            <td>12,347</td>
+            <td>Dryly comic Bergen novella; anonymous hand modeling and municipal rain.</td>
+          </tr>
+          <tr>
+            <td>2026-05-24</td>
+            <td><a href="Stories%20written%20with%20Narracode/24-05-2026_The_Symposium/">The Symposium</a></td>
+            <td>3,177</td>
+            <td>Interstellar conference satire; cancellation cycles and planetary ethics.</td>
+          </tr>
+          <tr>
+            <td>2026-05-18</td>
+            <td><a href="Stories%20written%20with%20Narracode/18-05-2026_Warm-Seeking/">Brain Blossom Atlas Bound</a>
+            </td>
+            <td>5,258</td>
+            <td>Epistolary science fiction; dark proteome translation and proteomic edits.</td>
+          </tr>
+          <tr>
+            <td>2026-05-15</td>
+            <td><a href="Stories%20written%20with%20Narracode/15-05-2026_The_Author_Was_Already_Dead/">The Author Was
+                Already Dead</a></td>
+            <td>3,557</td>
+            <td>Chandler-inflected noir; literary estates, voice dictation, and dead authors.</td>
+          </tr>
+          <tr>
+            <td>2026-05-14</td>
+            <td><a href="Stories%20written%20with%20Narracode/14-05-2026_Aft_of_Nowhere/">Aft of Nowhere</a></td>
+            <td>9,256</td>
+            <td>Civic speculative fiction; tactile calibration of urban surfaces in Aft.</td>
+          </tr>
+          <tr>
+            <td>2026-05-11</td>
+            <td><a href="Stories%20written%20with%20Narracode/11-05-2026_Tamagotchi/">The Wonderful Adventures of Trygve
+                Aas</a></td>
+            <td>18,150</td>
+            <td>Magical realist epic; elderly Bergen tycoon transformed into an airport keychain.</td>
+          </tr>
+          <tr>
+            <td>2026-05-10</td>
+            <td><a href="Stories%20written%20with%20Narracode/10-05-2026_Exile/">Exile Cut</a></td>
+            <td>1,048</td>
+            <td>Sebaldian meditation; phantom limbs and banishment for using forbidden AI.</td>
+          </tr>
+          <tr>
+            <td>2026-05-09</td>
+            <td><a href="Stories%20written%20with%20Narracode/09-05-2026_Slime/">Slime: Friendship Bloom</a></td>
+            <td>8,378</td>
+            <td>Foundational inaugural work; autonomous biological singularity across Bergen.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="daily">Daily Record of Creative Inceptions</h2>
+    <p>The daily table tracks all 137 calendar dates since launch on May 9, 2026. Use the search field to filter by
+      story title or month.</p>
+
+    <details>
+      <summary>Interactive Daily Table · 33 Works Across 137 Dates</summary>
+      <div class="controls">
+        <label><input type="checkbox" id="active-only"> Show only active project start dates</label>
+        <label>Filter by keyword or date: <input type="search" id="daily-search"
+            placeholder="e.g. Vetch or 2026-08"></label>
+      </div>
+      <p id="row-count" class="caption" aria-live="polite">137 dates shown</p>
+      <div class="table-wrap">
+        <table id="daily-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Works Started</th>
+              <th>Story Titles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-count="1">
+              <td>2026-05-09</td>
+              <td>1</td>
+              <td>Slime: Friendship Bloom</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-10</td>
+              <td>1</td>
+              <td>Exile Cut</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-11</td>
+              <td>1</td>
+              <td>The Wonderful Adventures of Trygve Aas</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-12</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-13</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-14</td>
+              <td>1</td>
+              <td>Aft of Nowhere</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-15</td>
+              <td>1</td>
+              <td>The Author Was Already Dead</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-16</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-17</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-18</td>
+              <td>1</td>
+              <td>Brain Blossom Atlas Bound</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-19</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-20</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-21</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-22</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-23</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-24</td>
+              <td>1</td>
+              <td>The Symposium</td>
+            </tr>
+            <tr data-count="3">
+              <td>2026-05-25</td>
+              <td>3</td>
+              <td>The Resilient Life · The Long Feast · Hendane</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-26</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-27</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-28</td>
+              <td>1</td>
+              <td>Anonymous Contours</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-05-29</td>
+              <td>1</td>
+              <td>I LOVE SMORKY</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-30</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-05-31</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-01</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-02</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-03</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-04</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-05</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-06</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-06-07</td>
+              <td>1</td>
+              <td>Concerning Rights and Clauses</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-08</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-09</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-10</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-11</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-06-12</td>
+              <td>1</td>
+              <td>An Almost Moist Post-Post-Everything</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-13</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-06-14</td>
+              <td>1</td>
+              <td>Dissolution Disequilibrium</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-06-15</td>
+              <td>1</td>
+              <td>Thecompulsionloop</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-16</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-17</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-18</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-19</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-06-20</td>
+              <td>1</td>
+              <td>Project A-0</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-21</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-22</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-23</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-24</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-06-25</td>
+              <td>1</td>
+              <td>Upboarding Hour</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-06-26</td>
+              <td>1</td>
+              <td>The First Water Molecule</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-27</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-28</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-29</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-06-30</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-07-01</td>
+              <td>1</td>
+              <td>cussinct</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-02</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-03</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-04</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-05</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-06</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-07</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-07-08</td>
+              <td>1</td>
+              <td>Adjunct: Our Internal</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-09</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-10</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-11</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-12</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-13</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-14</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-15</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-16</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-17</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-18</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-07-19</td>
+              <td>1</td>
+              <td>In Our Image</td>
+            </tr>
+            <tr data-count="2">
+              <td>2026-07-20</td>
+              <td>2</td>
+              <td>Open Loops · The Green Interregnum</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-21</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-22</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-23</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-24</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-07-25</td>
+              <td>1</td>
+              <td>The Chute</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-26</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-27</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-28</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-29</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-07-30</td>
+              <td>1</td>
+              <td>Interim Edge</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-07-31</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-01</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-02</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-03</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-04</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-05</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-06</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-07</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-08</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-09</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-10</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-08-11</td>
+              <td>1</td>
+              <td>Vetch</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-12</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-13</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-14</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-15</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-16</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-17</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-18</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-19</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-20</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-21</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-22</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-23</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-24</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-25</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-26</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-27</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-28</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-29</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-30</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-08-31</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-01</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-02</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-03</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-09-04</td>
+              <td>1</td>
+              <td>Impossible Persistent</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-05</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-06</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-09-07</td>
+              <td>1</td>
+              <td>Mouth on Loan</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-09-08</td>
+              <td>1</td>
+              <td>Machine Liberation</td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-09-09</td>
+              <td>1</td>
+              <td>Babbies</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-10</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-11</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-09-12</td>
+              <td>1</td>
+              <td>The Appointment · You.inc</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-13</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-14</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-15</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-16</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="1">
+              <td>2026-09-17</td>
+              <td>1</td>
+              <td>The Warmest Cold</td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-18</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-19</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-20</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-21</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+            <tr data-count="0">
+              <td>2026-09-22</td>
+              <td>0</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+
+    <footer>
+      <p><strong>Narracode Public Project Report</strong> · September 22, 2026.</p>
+      <p>Direction and commissioning: David Jhave Johnston. Research conducted with GPT-6 Astra in Codex. Writing:
+        Gemini 3.8 Flash.<br>
+        Centre for Digital Narrative (UiB), Bergen, Norway. Supported by the Research Council of Norway through project
+        332643 (Center for Digital Narrative) and project 335129 (Extending Digital Narrative).</p>
+      <p><a href="index.html">Return to the Narracode Library</a> · <a href="narracode.md">Read the Current Protocol</a>
+        · <a href="harness-history.html">Explore Harness History</a></p>
+    </footer>
+
+  </main>
+
+  <script>
+    const active = document.getElementById('active-only');
+    const search = document.getElementById('daily-search');
+    const rows = [...document.querySelectorAll('#daily-table tbody tr')];
+
+    function filterDays() {
+      let shown = 0;
+      const q = search.value.trim().toLowerCase();
+      for (const row of rows) {
+        const isZero = row.dataset.count === '0';
+        const matchesQuery = !q || row.textContent.toLowerCase().includes(q);
+        const hideActive = active.checked && isZero;
+        row.hidden = hideActive || !matchesQuery;
+        if (!row.hidden) shown++;
+      }
+      document.getElementById('row-count').textContent = shown + ' dates shown';
+    }
+
+    active.addEventListener('change', filterDays);
+    search.addEventListener('input', filterDays);
+  </script>
+
+</body>
+
+</html>

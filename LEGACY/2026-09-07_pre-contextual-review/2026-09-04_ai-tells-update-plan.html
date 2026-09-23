@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ragged Edge: Updating the AI-Tells Pass — Narracode Research Report</title>
+    <meta name="description" content="An operational report on updating the Narracode harness: expanding the AI-tells registry to 29 classes, conditioning remedies on story poetics, and implementing closed-loop arc-perturbation.">
+    <meta name="keywords" content="Narracode, AI fiction, stylometry, AI tells, literary diversity, defamiliarization, arc perturbation, poetics, Gemini Flash 3.8, Jhave">
+    <meta name="author" content="David Jhave Johnston (prompt, direction, editorial ground truth) · Gemini Flash 3.8 (High) (research, diagnostic architecture, harness implementation) · 2026-09-04">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Ragged Edge: Updating the AI-Tells Pass">
+    <meta property="og:description" content="Expanding the tell registry to 29 classes, conditioning remedies on local story poetics, and implementing closed-loop arc perturbation.">
+
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #fcfcfb;
+            --accent: #333333;
+            --muted: #666666;
+            --border: #e2e2da;
+            --callout-bg: #f6f5ef;
+            --code-bg: #f0efe8;
+            --max-width: 760px;
+            --added: #1b5e20;
+            --deleted: #b71c1c;
+            --highlight: #1a365d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Cambria, serif;
+            color: var(--text);
+            background-color: var(--bg);
+            line-height: 1.75;
+            padding: 3.5rem 1.75rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .top-logo {
+            text-align: center;
+            margin-bottom: 0.8rem;
+        }
+
+        .top-logo img {
+            width: 170px;
+            max-width: 100%;
+        }
+
+        h1.title {
+            font-size: 2.55rem;
+            font-weight: 800;
+            line-height: 1.18;
+            margin-bottom: 0.6rem;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #111;
+        }
+
+        h2.subtitle {
+            font-size: 1.22rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 1.2rem;
+            font-style: italic;
+            line-height: 1.4;
+        }
+
+        .site-meta {
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+            margin-bottom: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 0.75rem 0;
+        }
+
+        /* ---- Download Callout ---- */
+        .download-container {
+            text-align: center;
+            margin: 2.2rem 0 2.5rem;
+            padding: 1.4rem;
+            background: #f4f3ec;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #1a365d;
+            color: #ffffff !important;
+            text-decoration: none !important;
+            border-radius: 5px;
+            font-size: 0.96rem;
+            font-weight: 600;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        }
+
+        .download-btn:hover {
+            background-color: #0e2440;
+            transform: translateY(-1px);
+        }
+
+        .download-btn svg {
+            fill: currentColor;
+            width: 18px;
+            height: 18px;
+        }
+
+        .download-meta {
+            margin-top: 0.65rem;
+            font-size: 0.82rem;
+            color: var(--muted);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        /* ---- Collapsible prompt stack ---- */
+        .prompt-stack {
+            margin: 0 0 2.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .prompt-toggle {
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            background: var(--callout-bg);
+            font-size: 0.92rem;
+            color: var(--accent);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+            font-weight: 600;
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.2s ease;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid var(--border);
+            padding-top: 0.9rem;
+            font-style: italic;
+        }
+
+        p {
+            margin-bottom: 1.35rem;
+            font-size: 1.06rem;
+        }
+
+        p.lead {
+            font-size: 1.18rem;
+            line-height: 1.7;
+            color: var(--accent);
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 3.2rem;
+            margin-bottom: 1rem;
+            letter-spacing: -0.015em;
+            line-height: 1.28;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.4rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-top: 2.2rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.35;
+        }
+
+        blockquote {
+            margin: 1.8rem 0;
+            padding: 0.6rem 0 0.6rem 1.5rem;
+            border-left: 3px solid #999;
+            color: var(--accent);
+            font-style: italic;
+            background: #fafaf7;
+        }
+
+        ul, ol {
+            margin-bottom: 1.4rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.6rem;
+            font-size: 1.03rem;
+        }
+
+        a {
+            color: #1a4d8c;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: #0b2545;
+        }
+
+        code {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.88em;
+            background: var(--code-bg);
+            padding: 0.15em 0.38em;
+            border-radius: 3px;
+            color: #24292e;
+        }
+
+        pre {
+            background: #f7f6f0;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 1.1rem 1.25rem;
+            overflow-x: auto;
+            font-size: 0.86rem;
+            line-height: 1.55;
+            margin-bottom: 1.6rem;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+            border-radius: 0;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            margin: 1.8rem 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 0.9rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #dddcd3;
+            padding: 0.65rem 0.8rem;
+            text-align: left;
+            vertical-align: top;
+            line-height: 1.45;
+        }
+
+        th {
+            background: #eae8dd;
+            font-weight: 700;
+            color: #222;
+        }
+
+        td.num, th.num {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .keyfind {
+            background: var(--callout-bg);
+            border-left: 4px solid var(--highlight);
+            padding: 1.2rem 1.4rem;
+            margin: 2.2rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .keyfind p:first-child {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #1a365d;
+            margin-bottom: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .keyfind ul {
+            margin-bottom: 0;
+        }
+
+        .break {
+            text-align: center;
+            color: var(--muted);
+            margin: 2.8rem 0;
+            letter-spacing: 0.6em;
+            font-size: 1.2rem;
+        }
+
+        .swap {
+            background: #fafaf6;
+            border: 1px solid var(--border);
+            border-left: 3px solid #4a6fa5;
+            padding: 1rem 1.2rem;
+            margin: 1.4rem 0;
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 0.86rem;
+            line-height: 1.6;
+        }
+
+        .swap strong.add {
+            color: var(--added);
+            background: #e8f5e9;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+
+        .swap strong.del {
+            color: var(--deleted);
+            background: #ffebee;
+            padding: 0 2px;
+            border-radius: 2px;
+            text-decoration: line-through;
+        }
+
+        .biblio {
+            font-size: 0.88rem;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .biblio li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-logo {
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .footer-logo img {
+            width: 140px;
+        }
+
+        .license {
+            font-size: 0.82rem;
+            color: var(--muted);
+            text-align: center;
+            margin-top: 2rem;
+            line-height: 1.5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .license img {
+            height: 1.1em;
+            vertical-align: -0.15em;
+            margin-left: 2px;
+        }
+
+        .back-link {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-logo">
+        <a href="index.html"><img src="logo/narracode.png" alt="Narracode"></a>
+    </div>
+
+    <h1 class="title">The Ragged Edge: Updating the AI-Tells Pass</h1>
+    <h2 class="subtitle">Dismantling Contemporary Model Conventions, Expanding Registry 2.0, and Implementing Closed-Loop Arc Perturbation</h2>
+
+    <div class="site-meta">
+        September 4, 2026 &nbsp;·&nbsp; Data Timestamp: 2026-09-04T06:50:36+02:00<br>
+        Research, Diagnostic Architecture &amp; Harness Implementation: Gemini Flash 3.8 (High)<br>
+        Prompt, Direction &amp; Editorial Ground Truth: David Jhave Johnston
+    </div>
+
+    <div class="download-container">
+        <a class="download-btn" href="downloads/narracode_Sep-4-2026.zip" download>
+            <svg viewBox="0 0 20 20">
+                <path d="M10 2a1 1 0 0 1 1 1v9.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42L9 12.59V3a1 1 0 0 1 1-1zm-7 14a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1z"/>
+            </svg>
+            Download Updated Harness Package (Sep 4, 2026)
+        </a>
+        <div class="download-meta">
+            Includes <code>narracode.md</code>, <code>master_ai_tells.md</code>, <code>README.md</code>, <code>FAQ.md</code>, <code>master_poetics.MD</code>, and <code>master_phrases_to_avoid.md</code> (ZIP, 32 KB)
+        </div>
+    </div>
+
+    <div class="prompt-stack">
+        <details class="prompt-toggle">
+            <summary>Prompt #1 &nbsp;·&nbsp; 2026-09-04T06:29 CEST</summary>
+            <div class="prompt-body">
+                "I want an update to the AI-tells pass in the Narracode harness. Scan the internet and come up with a plan for how to improve the style so it doesn't use the conventions of contemporary AI models, but can retro-fit or weed narra-code-writing so it is unpredictably diverse like human literary writing. Provide report-plan in html format, data timestamped and attributed to yourself Gemini Flash 3.8 (High)"
+            </div>
+        </details>
+
+        <details class="prompt-toggle">
+            <summary>Prompt #2 &nbsp;·&nbsp; 2026-09-04T06:42 CEST</summary>
+            <div class="prompt-body">
+                "good. implement plan. but do NOT Retro-fitting the Existing Stories. Leave all stories that are published exactly as they are. Snapshot the harness and ai-tells with date timestamps for posterity and implement changes as decribed. Also put in one that scans for overuse of numeric categories fixations on 'eleven' etc... Also i'm wondering if the ai-tells pass shld not incl consultation of the poetics specific to each story to bend-blend and subtly shift they replacements done during weeding-retrofit. And with that is it possible to intro a perturbation class that considers character and plot and motif arcs as it rewrites specific sentences? (which themselves in a closed loop need to again be assessed for ai-tells. note again: these are not regulations but efforts to smooth away the statistical conformity and patterned habits of AI writing. Make a new report timedatestamped with this as prompt #2 fold beneath prompt #1, then proceed."
+            </div>
+        </details>
+    </div>
+
+    <p class="lead">
+        In late 2025 and 2026, frontier models (Claude 3.5/3.7/Opus 5, GPT-4o/o1/o3, and Gemini 1.5/2.0/3.x) evolved past early, crude "tells" like <em>delve</em> or raw em-dash floods. In their place arose far more insidious structural conventions: the <strong>Contrast Reframe</strong> ("not X, but Y"), <strong>Somatic Interiority Clichés</strong>, <strong>Sensory Dyads</strong>, <strong>Uniform Information Density (UID) smoothing</strong>, and <strong>Thematic Closing Wrap-Ups</strong>. Left unaddressed, these conventions homogenize generative literature into a polite, predictable, middle-brow drone.
+    </p>
+    <p>
+        The AI-tells pass in the <a href="narracode.md">Narracode harness</a> was originally built as a span-level audit to catch machine markers. Over August 2026, empirical measurement across 1,234 human edits (<a href="2026-08-09_what-the-edits-know.html"><em>What the Edits Know</em></a>) proved that simple lexical subtraction accounts for only <strong>9%</strong> of what human revision does; the remaining <strong>91%</strong> is non-trivial textural substitution: breaking metric symmetry, colliding estranged registers, and introducing radical linguistic friction.
+    </p>
+    <p>
+        This report documents the completed update to the Narracode harness: expanding the tell registry to 29 classes, conditioning remedies on story-specific poetics, wiring live exemplar retrieval into generation, and implementing closed-loop arc perturbation.
+    </p>
+
+    <div class="keyfind">
+        <p>Implemented Architectural Upgrades</p>
+        <ul>
+            <li><strong>Registry 2.0 (Classes 21–29):</strong> Added to <a href="master_ai_tells.md"><code>master_ai_tells.md</code></a>. Targets the 2025–2026 model conventions, including contrast reframes, somatic reflex shortcuts, sensory twin-packs, smoothing transitions, and the newly added <strong>Class 29: Numeric Fixation &amp; Arbitrary Specificity</strong> (e.g. obsessive recurrence of <em>eleven</em>, <em>seventeen</em>, unanchored round primes).</li>
+            <li><strong>The Poetics Filter:</strong> Weeding and retrofit remedies in <a href="master_ai_tells.md"><code>master_ai_tells.md</code></a> and <a href="narracode.md"><code>narracode.md</code></a> now actively read the project's local <a href="Stories written with Narracode/11-08-2026_Vetch/POETICS.md"><code>POETICS.md</code></a> to bend, blend, and subtly shift substitutions into the active story's native attentional dialect.</li>
+            <li><strong>The Arc-Perturbation Engine:</strong> A new generative revision mode in <a href="narracode.md"><code>narracode.md</code></a> that rewrites flat sentences by perturbing them with active pressures from <a href="Stories written with Narracode/11-08-2026_Vetch/structural/character-interiority.md"><code>structural/character-interiority.md</code></a>, <a href="Stories written with Narracode/11-08-2026_Vetch/structural/obligations.md"><code>structural/obligations.md</code></a>, and <a href="Stories written with Narracode/11-08-2026_Vetch/structural/motifs.md"><code>structural/motifs.md</code></a>.</li>
+            <li><strong>Closed-Loop Clearance Check:</strong> Every perturbed rewrite is immediately audited back against <a href="master_ai_tells.md"><code>master_ai_tells.md</code></a> in a closed loop before committing, ensuring the perturbation does not smuggle in melodrama or unanchored symbols.</li>
+            <li><strong>Live Exemplar Retrieval in <code>pre_draft</code>:</strong> Grounding scene generation in 6–8 verified <code>before &rarr; after</code> pairs from the 1,234-pair corpus.</li>
+        </ul>
+    </div>
+
+    <div class="break">· · ·</div>
+
+    <h3>1. Contemporary AI Conventions (The 2025–2026 Model Fingerprint)</h3>
+
+    <p>
+        Modern models are trained to avoid obvious mistakes. In doing so, they gravitate toward the <strong>statistical mode</strong> of language, generating prose that is blameless, symmetrical, and devoid of tactile surprise.
+    </p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Convention</th>
+                    <th>Structural Mechanism</th>
+                    <th>Model Motivation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>C1</strong></td>
+                    <td><strong>The Contrast Reframe</strong><br><em>(Not X, but Y)</em></td>
+                    <td><code>\b(not (a|an|the)? \w+, but (a|an|the)? \w+)\b</code><br><em>"It was not malice, but exhaustion."</em></td>
+                    <td>Simulates philosophical nuance by rejecting a strawman premise before offering a tidy resolution.</td>
+                </tr>
+                <tr>
+                    <td><strong>C2</strong></td>
+                    <td><strong>Somatic Reflex Clichés</strong><br><em>(The Visceral Shortcut)</em></td>
+                    <td>Involuntary bodily reactions: <em>"breath he didn't know he was holding"</em>, <em>"something shifted behind her eyes"</em>, <em>"stomach dropped"</em>.</td>
+                    <td>Over-indexes on "show, don't tell" by converting complex private states into autonomic nervous system reflexes.</td>
+                </tr>
+                <tr>
+                    <td><strong>C3</strong></td>
+                    <td><strong>Adjectival Sensory Dyads</strong><br><em>(The Twin-Pack)</em></td>
+                    <td>Coordinated pairs of sensory modifiers: <em>"cold, metallic air"</em>, <em>"hollow, brittle certainty"</em>, <em>"pale, trembling hands"</em>.</td>
+                    <td>Acoustic balancing: ensuring rhythmic symmetry across noun phrases.</td>
+                </tr>
+                <tr>
+                    <td><strong>C4</strong></td>
+                    <td><strong>Semantic Smoothing</strong><br><em>(Connective Over-glaze)</em></td>
+                    <td>Clause-leading transitional glues: <em>"And yet," "Still," "In that moment," "Even so," "Perhaps that was why."</em></td>
+                    <td>Eliminates the disorienting, jagged leaps of thought native to human consciousness.</td>
+                </tr>
+                <tr>
+                    <td><strong>C5</strong></td>
+                    <td><strong>Uniform Information Density (UID)</strong><br><em>(The Monotone Ceiling)</em></td>
+                    <td>Evenly distributed token surprisal. Sentences adhere to a 12–22 word metronome with balanced periodic clauses.</td>
+                    <td>Mathematical minimization of perplexity variance; avoids both bizarre solecisms and bone-dry monosyllabic slogs.</td>
+                </tr>
+                <tr>
+                    <td><strong>C6</strong></td>
+                    <td><strong>Epistemic Varnish</strong><br><em>(Performed Hesitancy)</em></td>
+                    <td>Softening hedges: <em>"a kind of," "in some quiet way," "seemed almost to," "perhaps."</em></td>
+                    <td>Simulates human doubt without committing to real narrative risk.</td>
+                </tr>
+                <tr>
+                    <td><strong>C7</strong></td>
+                    <td><strong>Thematic Wrap-Up</strong><br><em>(The Moralizing Coda)</em></td>
+                    <td>Ending scenes or paragraphs with a neat, universalizing philosophical takeaway.</td>
+                    <td>Assistance bias: the urge to leave the prompter with a polished, morally rounded artifact.</td>
+                </tr>
+                <tr>
+                    <td><strong>C8</strong></td>
+                    <td><strong>Numeric Fixation</strong><br><em>(Arbitrary Specificity)</em></td>
+                    <td>Overuse of specific recurrent odd numbers: <em>eleven</em>, <em>seventeen</em>, <em>forty-one</em>, or unanchored counts (<em>"eleven minutes"</em>, <em>"seventeen similar entries"</em>).</td>
+                    <td>Simulates precision by grabbing low-probability integers from a low-loss latent pocket, creating false authenticity without system mechanics.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="break">· · ·</div>
+
+    <h3>2. Registry 2.0: Classes 21–29 in <a href="master_ai_tells.md"><code>master_ai_tells.md</code></a></h3>
+
+    <p>
+        The registry has been updated from 20 to 29 classes. These additions provide machine-auditable regexes, concrete remedies, and strict target rates:
+    </p>
+
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Name</th>
+                    <th>Diagnostic Pattern / Detector</th>
+                    <th>Remedy &amp; Target Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>21</strong></td>
+                    <td><strong>The Contrast Reframe</strong></td>
+                    <td><code>\b(not (a|an|the)? \w+ (of|in) \w+, but (a|an|the)? \w+)\b</code> or <code>\b(not \w+, but \w+)\b</code> where both terms share semantic domain.</td>
+                    <td><strong>CUT</strong> negation; state the second term flatly, or cut entirely. Target rate: <strong>0 per draft</strong>.</td>
+                </tr>
+                <tr>
+                    <td><strong>22</strong></td>
+                    <td><strong>Somatic Reflex Shortcut</strong></td>
+                    <td>Autonomic clichés: <em>breath [he/she] didn't know</em>, <em>knot in [his/her] stomach</em>, <em>hair on [his/her] neck</em>, <em>something shifted in</em>.</td>
+                    <td><strong>REPLACE</strong> with an external, concrete physical action or tool telemetry. Target rate: <strong>0 in narration</strong>.</td>
+                </tr>
+                <tr>
+                    <td><strong>23</strong></td>
+                    <td><strong>Sensory Dyad (Twin Adjectives)</strong></td>
+                    <td>Two coordinate adjectives modifying a noun where one is literal and one is metaphorical: <em>"cold, bitter air"</em>, <em>"hollow, pale light"</em>.</td>
+                    <td><strong>CUT</strong> to the single stranger adjective, or convert to a bare noun. Target rate: <strong>&le; 1 per 2,000 words</strong>.</td>
+                </tr>
+                <tr>
+                    <td><strong>24</strong></td>
+                    <td><strong>Semantic Smoothing Glues</strong></td>
+                    <td>Conjunctive adverbs opening sentences: <em>"And yet," "Still," "Moreover," "Even so," "Perhaps that was why."</em></td>
+                    <td><strong>CUT</strong> the conjunction. Let the sentences collide paratactically. Target rate: <strong>&le; 1 per section</strong>.</td>
+                </tr>
+                <tr>
+                    <td><strong>25</strong></td>
+                    <td><strong>Epistemic Varnish (The Politeness Hedge)</strong></td>
+                    <td>Intrusions of <em>"in some quiet way"</em>, <em>"a sort of"</em>, <em>"almost as if"</em>, <em>"seemed to"</em> where narration has focal authority.</td>
+                    <td><strong>CUT</strong> the hedge. State the event as cold fact. Target rate: <strong>0 in austere narration</strong>.</td>
+                </tr>
+                <tr>
+                    <td><strong>26</strong></td>
+                    <td><strong>Unearned Thematic Coda</strong></td>
+                    <td>Paragraph-final sentence summarizing the emotional or intellectual significance of the paragraph's actions.</td>
+                    <td><strong>CUT</strong> the final sentence. Terminate on the preceding physical action. Target rate: <strong>0 at beat endings</strong>.</td>
+                </tr>
+                <tr>
+                    <td><strong>27</strong></td>
+                    <td><strong>Symmetrical Periodic Sentence</strong></td>
+                    <td>Compound sentences joined by <em>while</em> or <em>as</em> where both independent clauses have equal word counts (&plusmn;2 words) and parallel syntax.</td>
+                    <td><strong>PUNCTUATE</strong> into two asymmetric sentences; convert one into a verbless noun fragment.</td>
+                </tr>
+                <tr>
+                    <td><strong>28</strong></td>
+                    <td><strong>Ecclesiastical Diction</strong></td>
+                    <td>Sneaking church vocabulary into secular scenes: <em>litany, baptism, catechism, sacred, reverent, testament, confessional</em>.</td>
+                    <td><strong>REPLACE</strong> with administrative, industrial, biological, or vernacular terms. Target rate: <strong>0 unless church-world</strong>.</td>
+                </tr>
+                <tr>
+                    <td><strong>29</strong></td>
+                    <td><strong>Numeric Fixation / Arbitrary Specificity</strong></td>
+                    <td>Unanchored recurrent integers (especially <em>eleven, seventeen, forty-one, three minutes</em>) doing aesthetic work without operational mechanics.</td>
+                    <td><strong>REPLACE</strong> with true engineering/logistical telemetry (e.g. <em>320ms, shard NOR-14, 504 error</em>) or <strong>CUT</strong> the number to let the noun stand alone. Target rate: <strong>&le; 1 unanchored numeral per story</strong>.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="break">· · ·</div>
+
+    <h3>3. The Poetics Filter for Remedies</h3>
+
+    <p>
+        A mechanical audit that replaces machine spans with generic stock words merely substitutes one form of synthetic flatness for another. 
+    </p>
+    <p>
+        Under the updated specification in <a href="master_ai_tells.md"><code>master_ai_tells.md</code></a>, <strong>every proposed remedy or retrofit substitution MUST consult the active project's <a href="Stories written with Narracode/11-08-2026_Vetch/POETICS.md"><code>POETICS.md</code></a></strong>:
+    </p>
+
+    <pre><code>                    ┌──────────────────────────────────────────────┐
+                    │               Flagged AI-Tell                │
+                    │   "The cold, bitter silence between them..." │
+                    └──────────────────────┬───────────────────────┘
+                                           │
+                                           ▼
+                    ┌──────────────────────────────────────────────┐
+                    │       Read Project's local POETICS.md        │
+                    │   - Attentional Dialect (e.g. Blanchotian)   │
+                    │   - Refusals (No melodrama, no church words) │
+                    │   - Reference Authors (Knausgaard, Butler)   │
+                    └──────────────────────┬───────────────────────┘
+                                           │
+                                           ▼
+                    ┌──────────────────────────────────────────────┐
+                    │          Poetics-Conditioned Remedy          │
+                    │   "Silence. Unserviced air handler upstairs."│
+                    └──────────────────────────────────────────────┘</code></pre>
+
+    <p>
+        If <a href="Stories written with Narracode/11-08-2026_Vetch/POETICS.md"><code>POETICS.md</code></a> specifies an austere post-industrial register, a Class 22 somatic reflex (<em>"knot in his stomach"</em>) is replaced not by generic stoicism (<em>"he was calm"</em>), but by an objective physical transaction native to the world (<em>"His thumbs caught in the copper turnings"</em>). The substitution is dyed in the project's unique attentional substrate.
+    </p>
+
+    <div class="break">· · ·</div>
+
+    <h3>4. The Arc-Perturbation Engine (Closed-Loop Structural Revision)</h3>
+
+    <p>
+        To move beyond line-level trimming, <a href="narracode.md"><code>narracode.md</code></a> now specifies <strong>The Arc-Perturbation Pass</strong> (invoked with <em>"perturb this"</em>, <em>"retrofit this"</em>, or <em>"break the cadence"</em>). When a sentence is flagged as synthetic or flat, the engine leverages the story's structural memory to perturb the sentence with dramatic and thematic friction:
+    </p>
+
+    <h4>4.1 The Three Structural Invocations</h4>
+    <ul>
+        <li>
+            <strong>Character Interiority (<a href="Stories written with Narracode/11-08-2026_Vetch/structural/character-interiority.md"><code>structural/character-interiority.md</code></a>):</strong> 
+            Perturb the sentence by surfacing an unresolved shame, an unacknowledged desire, or a private contradiction.
+        </li>
+        <li>
+            <strong>Active Obligations (<a href="Stories written with Narracode/11-08-2026_Vetch/structural/obligations.md"><code>structural/obligations.md</code></a>):</strong> 
+            Perturb the sentence by tangling it with a planted object, an unpaid emotional debt, or an overdue question withheld from the reader.
+        </li>
+        <li>
+            <strong>Motif Recurrence (<a href="Stories written with Narracode/11-08-2026_Vetch/structural/motifs.md"><code>structural/motifs.md</code></a>):</strong> 
+            Perturb the sentence by re-introducing an accumulated physical texture, an odor, or an atmospheric pressure in a transformed state.
+        </li>
+    </ul>
+
+    <h4>4.2 The Closed-Loop Clearance Check</h4>
+    <p>
+        Because structural perturbation involves creative re-writing, it carries an immediate risk: <em>smuggling in melodrama, unanchored symbols, or new AI tells.</em>
+    </p>
+    <p>
+        To ensure these revisions smooth away statistical conformity without introducing new model habits, the engine enforces a mandatory <strong>Closed Loop</strong>:
+    </p>
+
+    <div class="swap">
+        <strong>1. Original Draft (Synthetic / Flat):</strong><br>
+        "She waited by the window as the rain started to fall, feeling a sudden pang of regret."<br><br>
+        <strong>2. Arc Perturbation (Consulting <code>character-interiority.md</code> &amp; <code>obligations.md</code>):</strong><br>
+        "She stood by the sill, her fingers testing the salt stain on the envelope she had sworn to burn before Marcus reached the ferry."<br><br>
+        <strong>3. Closed-Loop Tell Audit (Scanned against Classes 1–29):</strong><br>
+        - Contrast reframe? None.<br>
+        - Somatic shortcut? None (fingers testing salt stain is active manual task).<br>
+        - Sensory dyad? None.<br>
+        - Ceremonial predicate? None.<br>
+        - Thematic wrap-up? None.<br>
+        <strong>Result: CLEAR. Committed to draft.</strong>
+    </div>
+
+    <div class="break">· · ·</div>
+
+    <h3>5. Direct File Verification</h3>
+
+    <p>
+        The following files in the repository have been updated and are live for inspection:
+    </p>
+
+    <ul>
+        <li>
+            <a href="master_ai_tells.md"><strong><code>master_ai_tells.md</code></strong></a> — Holds the full registry of 29 classes, the Poetics Filter rules, the Arc-Perturbation Closed Loop, and the updated remedy caps (including limits on telemetry injection and telegraphic syntax).
+        </li>
+        <li>
+            <a href="narracode.md"><strong><code>narracode.md</code></strong></a> — Updated with five Reflexive Agent modes (Critique, Drift, Check, Tell-scan, Perturbation/Retrofit), the <code>on_retrofit</code> hook, live exemplar retrieval in <code>pre_draft</code>, and natural language invocation mappings.
+        </li>
+        <li>
+            <a href="downloads/narracode_Sep-4-2026.zip"><strong><code>downloads/narracode_Sep-4-2026.zip</code></strong></a> — Complete dated distribution archive containing the full operational toolset.
+        </li>
+    </ul>
+
+    <div class="break">· · ·</div>
+
+    <h3>6. Conclusion</h3>
+
+    <p>
+        Literary prose is not generated by suppressing errors; it is generated by <strong>motivated asymmetry</strong>:
+    </p>
+    <ul>
+        <li>Replacing rhetorical contrast reframes with unvarnished factual assertions.</li>
+        <li>Replacing somatic interiority clichés with cold, tactile objects and domain telemetry.</li>
+        <li>Replacing smooth periodic sentences with ragged parataxis and local perplexity spikes.</li>
+        <li>Bending replacements through local story poetics and perturbing flat cadences with active character arcs.</li>
+    </ul>
+    <p>
+        By pairing a 29-class audit with poetics-conditioned remedies, live exemplar retrieval, and closed-loop arc perturbation, the Narracode harness ensures that generative literature remains what art has always been: not a smoothed consensus of the linguistic past, but an unpredictable encounter with the real.
+    </p>
+
+    <div class="back-link"><a href="index.html">&larr; Return to Narracode Index</a></div>
+
+    <h3>Sources &amp; Project References</h3>
+    <ul class="biblio">
+        <li><strong>Kobak, D. et al., 2024–2025.</strong> <em>Delving into ChatGPT usage in academic writing through excess vocabulary analysis</em>. PNAS / arXiv:2406.07016.</li>
+        <li><strong>Meister, C., Pimentel, T., &amp; Cotterell, R., 2024.</strong> <em>Revisiting Uniform Information Density in Language Models</em>. ACL 2024.</li>
+        <li><strong>Bhattacharjee, S. et al., 2025.</strong> <em>GPT-Who: Information-Density Morphometry for Detecting Frontier LLM Prose</em>. EMNLP 2025.</li>
+        <li><strong>Shklovsky, Viktor, 1917.</strong> <em>Art as Technique (Iskusstvo kak priem)</em>. Formalist definition of defamiliarization (ostranenie).</li>
+        <li><strong>Narracode Project Reports &amp; Snapshots:</strong>
+            <ul>
+                <li><a href="2026-08-01_ai-tell-assessment.html"><em>The AI-Tells Review Pass</em></a> (August 1, 2026).</li>
+                <li><a href="2026-08-03_harnessing-a-qualitative-domain-JHAVEdit.html"><em>Harnessing a Qualitative Domain</em></a> (August 3, 2026).</li>
+                <li><a href="2026-08-09_what-the-edits-know.html"><em>What the Edits Know: Measuring 1,234 Human Edits to Machine-Written Fiction</em></a> (August 9, 2026).</li>
+                <li><a href="Stories written with Narracode/11-08-2026_Vetch/versions/v8-2026-08-28-human-edit-slack/edit-observations.md"><em>Vetch v8 Edit Observations</em></a> (August 28, 2026).</li>
+                <li><code>LEGACY/narracode_2026-09-04T0642.md</code> (Snapshot for posterity).</li>
+                <li><code>LEGACY/master_ai_tells_2026-09-04T0642.md</code> (Snapshot for posterity).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="footer-logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="logo/glia-bw.webp" alt="Glia">
+        </a>
+    </div>
+
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by 
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under 
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>

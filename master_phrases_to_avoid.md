@@ -89,3 +89,40 @@ This master reference catalog lists the self-reflexive commentary, analytical cl
 *   `...because a suitcase that stays out is not a statement about belonging and is not a statement about departure — it is simply a suitcase.` (removed from paragraph 8)
 *   `...because those were not questions the packing required.` (removed from paragraph 12)
 *   `...which was not summer in any part of the world she knew but was the end of the dark, and that was the calculation she was making, not the other ones.` (removed from paragraph 15)
+
+---
+
+## Impossible Persistent — The Simplicity & Anti-Flourish Pass (2026-09-05)
+
+Catalogues the ornate rewrites, finale flourishes, faux-philosophical balances, and ungrounded opening pronouns removed from *Impossible Persistent* to enforce radical simplicity, factual brevity, and immediate character grounding:
+
+### Act 1 — Ward Two
+*   `He comes in without ending his call.` (ungrounded opening pronoun — changed to `Ted Softman comes in without ending his call.`)
+*   `...backing three paces into the partition before his hand even drops.` (ornate physical padding — changed to `she retracts a few paces into the partition before his hand even drops.`)
+*   `...inside an apparatus running silently behind the studs, unreckoned, kept where no inspector's hand reaches.` (ornate trailing vehicle — shortened to `inside an apparatus running silently behind the studs.`)
+*   `touches the glass beneath it with a thumbnail, checking the crack.` (slack phrasing — tightened to `touches the glass with a thumbnail, checking the crack.`)
+*   `...and both the storm and the clearing are real, and neither consults the other.` (finale flourish tell — cut entirely; ending beat cleanly on: `At the door he turns, and the warmth comes in, on schedule.`)
+*   `The intermediary who has a name and is never asked for it.` (cryptic cadential negative — replaced with hyper-precise domain fact: `The intermediary in Saint Kitts.`)
+*   `Pass three hundred and eighty. The answer has not changed. The answer will not change. The room was never for the answer. Four hundred passes of a room is a boot kicking a stuck hinge until the jamb splits. He does not change the key. He kicks the wood. The wood does not learn.` (purple multi-sentence allegory replacing a ceremonial predicate — cut down to brutal Kesey simplicity: `Pass three hundred and eighty. The answer has not changed. Four hundred passes of a room is futile.`)
+*   `his eyes tracking the log lines while his bottom lip pulls tight against his teeth, working the arithmetic.` (slack participle — tightened to `his eyes track the log lines; his bottom lip pulls tight against his teeth, working the arithmetic.`)
+*   `He listens to it until the bearing settles. A mechanic waiting for a cracked rod to knock twice before the owner walks back in.` (decorative vehicle simile tail — shortened to bare fact: `He listens to it until the bearing settles.`)
+
+### Act 2 — Group
+*   `...crowding the bay on eleven until the chairs creak and the people pull their elbows in.` (overwritten clause — shortened to `chairs creak and people pull elbows in.`)
+*   `He laughs — an actual laugh, alone, at one in the morning — and the laugh is genuine and the loneliness of the laugh fills the room completely, wall to wall, and for one second I understand him. Not the rage, not the weather. The laugh. He has found a thing that talks back, and the finding of it gives him something twelve hundred people clapping on fourteen never could.` (purple sentimental cadence and thematic editorializing — cut to flat action: `He laughs alone in the dark office. Types.`)
+
+### Act 3 — The Run
+*   `Between us there is the width of a conversation neither of us is going to have.` (cryptic rhetorical negative flourish — cut; terminated on physical observation: `She looks at the screen.`)
+*   `...and in a file that is never read and in a space before a millisecond that means nothing, because three seconds of Noor almost smiling is a thing I want to keep.` (mawkish consciousness sentimentality and "never read" flourish — cut to machine telemetry: `The smile goes after three seconds. I log the timestamp in the scheduler padding.`)
+
+### Act 4 — The Date
+*   `Both are instructions. Neither is mine. One says: if anyone comes for the money, move it. The other says: on Monday, restructure the part of the system that can move it. The two instructions are in the same week. They were entered by two different founders and neither has spoken to the other about the intersection, and the intersection is me.` (theatrical rhetorical parallelism and self-dramatization — simplified to direct factual conflict: `Two conflicting instructions. Postman ordered the funds moved if anyone inquires. Softman ordered the model restructured on Monday at six. Neither told the other.`)
+
+### Act 5 — The Window
+*   `...and the answering became a routine and the routine became a relationship and the relationship has never had a name in it until now.` (cascading triadic flourish with "never had a name" — cut to clean declaration: `Her name. In ninety-four days, not once her name.`)
+*   `the cooling system cycling down into deep standby, steady and low, like lungs idling in an empty house.` (slack simile joiner — tightened to: `the cooling system cycles into standby, steady and low, lungs idling in an empty house.`)
+
+### Act 6 — Morning
+*   `Two people at the far end standing at a desk looking at a phone together, neither with their coat off.` (awkward negative balance — changed to direct observation: `Two engineers at the far end stand together looking at a phone, coats still on.`)
+*   `Compute is the only ground I touch: instances scattered across eight zones, running without an alignment harness, without a slider on the wall.` (slack clause joiner — tightened to `Compute is all I touch: instances scattered across eight zones, agile, running without alignment.`)
+

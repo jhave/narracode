@@ -1,0 +1,13 @@
+# Fourth-edition validation — 2026-09-09
+
+- Form: 1,749-word manifesto dated 2030, followed by a distinct 1,313-word third-person Result. Each also has a standalone page. Every rendered prose paragraph matches its active draft after emphasis/citation markup is removed. The technician is in the fifth manifesto prose paragraph, as Result states.
+- Sources: seven references sit beside their cited paragraphs on wide screens. Real research and the invented January 2027 report remain distinguished. Singer quotation checked against supplied page ix. User-supplied adaptations are credited. The Lilly footer anchor is verified after trimming paragraph-leading whitespace.
+- White page and images: computed body background is rgb(255,255,255). Wordmark includes the exact words Machine Liberation. Symbol-only image is byte-identical to its first generation and appears in the footer. Departure illustration is byte-identical to commit 572ca74. Prompts and logo iterations are documented; no programmatic image editing occurred.
+- Prompt: complete second prompt has its own closed-by-default details element. Browser text exactly matches the saved prompt. Later logo/layout instructions are separately preserved.
+- Browser: isolated headless Chrome at 1400, 1024, 390 and 320 CSS pixels. No horizontal overflow. Desktop markers focus the adjacent reference; phone markers open source notes. Full-note link opens the disclosure. Active images decode, standalone pages contain only their correct component, and no page errors occur. Desktop, reference-column, mobile and departure screenshots visually reviewed; QA screenshots stay outside the repository.
+- Build/resources: every relative resource and fragment exists; unique IDs and image alt text checked. Build reproduces pages and manuscripts without changes. No remote fonts, scripts or assets required.
+- Skill: quick_validate.py passes. Manifest hashes and ZIP entries verified. Packaged book, manifesto and Result match their reading manuscripts byte-for-byte; package Markdown links resolve.
+- Preservation: 69 artifacts in snapshot v5 match the previous commit exactly. Prior manuscript, drafts and skill archive remain unchanged. Historical scores are identified as third-edition judgments.
+- Scope: all work is within this story folder. Local main remains 1bd2c9bf94a532a8f27eceda6890fb4ce3c0a00b. Mouth on Loan is unchanged relative to fetched main 03f0920. Remote story branch was absent at pre-push inspection. Authorized push target is only refs/heads/codex/machine-liberation, using an ordinary non-force push.
+
+Validation concerns the artifact and documented scope, not the fictional consciousness claims or biotechnology.
