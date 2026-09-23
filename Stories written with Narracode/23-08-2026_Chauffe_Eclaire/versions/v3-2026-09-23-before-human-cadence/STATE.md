@@ -2,9 +2,7 @@
 
 *2026-09-23. Pre-revision synchronization from drafts 4, 7, 9 and 13; the older structural records remain available as history.*
 
-**Current working status (updated 2026-09-23, loop 6):** Draft 15 revises draft 14 for human cadence; same events, looser sentences, fewer numerals. Pending author adoption, like draft 14. Pre-revision state preserved in `versions/v3-2026-09-23-before-human-cadence/`.
-
-**Previous status:** Draft 14 is the new chapter-one alternative written in this pass. Read it with drafts 7, 9 and 13 for the current proposed sequence. Draft 4 remains the published chapter-one text; no replacement has been approved or published. The pre-revision state and all thirteen earlier drafts are preserved in version 2.
+**Current working status:** Draft 14 is the new chapter-one alternative written in this pass. Read it with drafts 7, 9 and 13 for the current proposed sequence. Draft 4 remains the published chapter-one text; no replacement has been approved or published. The pre-revision state and all thirteen earlier drafts are preserved in version 2.
 
 ## 1. Story Facts
 
@@ -21,8 +19,6 @@ The pre-September record froze earlier chapters while extending the story, refus
 **2026-09-23 direction:** Snapshot all drafts; update the poetics; reopen the clipped chapter-one voice in a new draft. Preserve abruptness, brusqueness, rawness and clarity while allowing rhythmic variation, appetite, sensual attention, underclass and gig-work drift, unspoken trauma and possibly boredom. Save the prompt for a later story-index fold and add the executing assistant to attribution. The new governing section of POETICS.md supersedes the old quotas and compulsory turns. The index fold remains deferred.
 
 **Draft 14 additions, pending author adoption:** Sabrina works on the sticking door; transient catering, chair-unloading and coat-check leads enlarge the work between rating and cleaning; Renée watches a laundry cycle without bringing washing; she and her mother spill tea at an abrupt movement; Ahmed brings and cleans a fan; Renée sorts returned clothes and later walks to the tracks. Existing chapter-one encounters, Fadwa's letter, the buyout, rental-unit sleeping and the Rosemont inquiry remain. No new traumatic event or causal diagnosis is established.
-
-**Draft 15 additions, pending author adoption:** Renée keeps Sabrina's knife three weeks and the orange peel into April; Kosta's measuring is unexplained; Sam lasts five nights; Fadwa takes both printed letters; Marie-Ève takes a yogurt from a guest fridge; the stove tears the fresh paint when moved. Draft 14's orange seeds and typed measurement are dropped.
 
 ## 3. Model Interpretations
 

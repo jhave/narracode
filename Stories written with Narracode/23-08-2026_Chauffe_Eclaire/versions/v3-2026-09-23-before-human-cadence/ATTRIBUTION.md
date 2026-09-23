@@ -1,11 +1,5 @@
 # ATTRIBUTION
 
-## Revision contribution — 2026-09-23, human cadence
-
-**Jhave (David Jhave Johnston)** — direction to revise draft 14 toward human cadence within the current poetics.
-
-**Claude Opus 5.5, in Claude Code (remote session)** — snapshot `versions/v3-2026-09-23-before-human-cadence/`; wrote `drafts/15-chapter-one-human-cadence.md`; post-draft check and tell-scan; poetics amendment; state update; saved prompt. Single model, no subagents.
-
 ## Revision contribution — 2026-09-23
 
 **Jhave (David Jhave Johnston)** — diagnosis of the repetitive clipped cadence and numerical accounting; direction toward an abrupt, raw, sensually attentive narrator whose appetite, boredom and unspoken trauma exert pressure without explanation. Authorized the snapshot, poetics revision, new draft and preservation of the prompt for a later index fold.

@@ -22,8 +22,6 @@ This direction takes precedence over every conflicting instruction below and in 
 
 **Tools are subordinate.** Earlier numerical profiles and source-derived procedures are historical experiments, not acceptance tests. This pass does not run a compositional voice through a numerical gate. Judge whether she has something she wants to say and whether the sentence can carry it.
 
-**Amendment — 2026-09-23, human cadence (draft 15).** Draft 14 replaced one template with another: medium-length sentences, paragraphs of about four sentences, each paragraph closing on a small physical gesture, dialogue as one-line call and response. Human cadence here means: a sentence may run on through commas and *and* when her attention runs on; speech may interrupt narration inside a sentence; she may correct herself, repeat a word, dwell on a nuisance past its use; paragraphs and sections stop in different ways, including mid-thought, on someone else's line, or on a joke. The run-on chain is itself capped by attention, not habit. At most two present-tense slips per chapter, never as a lesson. Prompt: `reference/prompt-2026-09-23-human-cadence.md`.
-
 ---
 
 ## Historical poetics and amendments
