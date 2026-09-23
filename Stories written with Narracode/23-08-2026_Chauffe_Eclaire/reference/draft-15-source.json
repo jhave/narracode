@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/jhave/narracode",
+  "branch": "claude/gifted-noether-qxuu13",
+  "commit": "28ba5d1789b5bec27c688b30a3ecfe42880dc75b",
+  "file": "Stories written with Narracode/23-08-2026_Chauffe_Eclaire/drafts/15-chapter-one-human-cadence.md",
+  "sha256": "2392153851021c5e3d0a7f35d362f204d3364fabe00cafb74e2591fdf21508f4",
+  "fetched_at_utc": "2026-09-23T11:48:04.680601+00:00",
+  "method": "git fetch origin claude/gifted-noether-qxuu13; copy requested draft and its prompt from fetched commit; no branch merge",
+  "html": "chapter-one-human-cadence.html"
+}

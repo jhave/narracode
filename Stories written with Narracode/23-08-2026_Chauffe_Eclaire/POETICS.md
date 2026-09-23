@@ -1,5 +1,15 @@
 # POETICS.md — project commitments
 
+## Display title and images — accepted 2026-09-23
+
+**Title:** Chauffé, éclairé
+
+**Subtitle:** No fixed arrangement.
+
+The human accepted this French–English pairing for the reading edition and story index. It replaces the repeated English translation beneath the title. Historical draft headings remain documentary records.
+
+**Images:** Subtle, weird, niche and ordinary, with occasional casually raunchy domestic detail. The human requested generation and insertion into the story index. Unposed incidental photographs; odd framing and particular materials; private habits rather than glamorous tableaux. Preserve the story's ambiguity. The selected set includes hair extensions among charging cables, oversized pink laundry, a work call in boxers, detergent in a sheet, a cat blocking the kitchen, a distant man watering a plant in briefs, the mother's speaker, and the chair facing the wall.
+
 ## Governing direction — 2026-09-23: rhythm, appetite, drift
 
 This direction takes precedence over every conflicting instruction below and in `reference/voice-engine.md`. The previous specifications remain as the history of the experiment. The human prompt is preserved verbatim in `reference/prompt-2026-09-23-rhythm-rewrite.md`.

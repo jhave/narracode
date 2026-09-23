@@ -1,5 +1,23 @@
 # State: Chauffé Éclairé
 
+## Header and repository publication — 2026-09-23
+
+The human requested a header image and authorized committing and pushing the illustrated edition. Added a generated panorama of a radiator and rented-room threshold to both pages. Asset and prompt provenance are recorded in `visuals/generated-image-prompts.json`. The manuscript text remains unchanged. This request supersedes the previous note that the illustrated edition was local-only; push completion is recorded in Git and the task response.
+
+## Illustrated index — 2026-09-23
+
+The human accepted **Chauffé, éclairé** / *No fixed arrangement.* and requested that the generated images be inserted into the story index. Both `index.html` and `chapter-one-human-cadence.html` now use that pairing and contain the eight final assets from `img/chapter-one/`, placed within chapter one. Chapter-one body text is exactly draft 15; chapters two–four retain their earlier text. The prior full index remains preserved in version 2. Prompt folds for the September rhythm and cadence revisions are now included in the story index. The initial proposal-only state below is historical.
+
+All images were made with the built-in image_gen tool. Full prompts and hashes: `visuals/generated-image-prompts.json`. No depicted incidental detail adds a new story fact. These page changes are local and have not been pushed or deployed in this pass.
+
+## Reading edition — 2026-09-23
+
+At the human's request, imported `drafts/15-chapter-one-human-cadence.md` and its prompt from `claude/gifted-noether-qxuu13`, commit `28ba5d1789b5bec27c688b30a3ecfe42880dc75b`. The imported draft is now the latest locally available chapter-one alternative. Source bytes and attribution were preserved; commit and content hash are recorded in `reference/draft-15-source.json`. No branch merge or prose revision was performed.
+
+`chapter-one-human-cadence.html` presents all eight sections of draft 15 verbatim, two revision-prompt folds, source attribution, and expandable image proposals. `visuals/chapter-one-image-proposals.md` contains the full eight-image plan; these are proposed photographs, not generated assets. The existing four-chapter `index.html` remains separate. The earlier state below records draft 14 and has not been rewritten to invent author adoption or further story facts.
+
+---
+
 *2026-09-23. Pre-revision synchronization from drafts 4, 7, 9 and 13; the older structural records remain available as history.*
 
 **Current working status:** Draft 14 is the new chapter-one alternative written in this pass. Read it with drafts 7, 9 and 13 for the current proposed sequence. Draft 4 remains the published chapter-one text; no replacement has been approved or published. The pre-revision state and all thirteen earlier drafts are preserved in version 2.

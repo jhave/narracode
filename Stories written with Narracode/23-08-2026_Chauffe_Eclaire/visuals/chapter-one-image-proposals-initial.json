@@ -1,0 +1,86 @@
+{
+  "direction": "Eight incidental photographs, encountered at Renée’s height and distance. Available light, ordinary wear, muted colour with occasional insistent colour: orange peel, pink laundry, green peas. Vary the distance and framing. Keep the narrator’s face undefined. No staged misery, glamour treatment, skyline shorthand or symbols added to explain trauma. These are proposals; no image has been generated or sourced.",
+  "shared_prompt": "Original photographic illustration for contemporary literary fiction set in Montreal. Observational, unposed, available light, realistic everyday materials, restrained colour, light natural grain. No text overlays, watermark, fashion styling, dramatic cinematic grading or sentimental treatment. Do not copy a particular photographer. All visible people are adults unless otherwise specified; avoid identifying faces. Render as a landscape image, approximately 3:2.",
+  "images": [
+    {
+      "section": 1,
+      "place": "Parc-Extension",
+      "title": "The orange on the stairs",
+      "concept": "A low, close view of a peeled orange in an adult’s hand, dark coat across the knees, wet grit on the stair tread. The upper flight recedes into poor light. The orange supplies almost all the colour.",
+      "reason": "Her appetite stops the itinerary for a moment. The picture gives that detour space without making Kosta or the landlord the chapter’s visual centre.",
+      "placement": "After the orange paragraph; leave the opening uninterrupted.",
+      "prompt": "From the seated eye level of an adult on a narrow Montreal rental stairwell in late winter: a peeled orange in one hand at the lower edge, dark coat across knees, damp boots and salt grit on worn stairs. A curl of fresh peel rests on the coat. Upper stairs fall away into dim ordinary light from a landing. Intimate off-centre crop, no visible face, tangible orange pith and worn paint; no picturesque decay.",
+      "alt": "A peeled orange above a dark coat on a dim stairwell, with wet grit beside the boots."
+    },
+    {
+      "section": 2,
+      "place": "Côte-des-Neiges",
+      "title": "The window at pavement height",
+      "concept": "A wider basement kitchen, the stove and a small window sharing the frame. Outside, only a passerby’s trouser cuffs and shoes are visible. A used pan and a foil-covered plate sit inside.",
+      "reason": "An ordinary meal and a passing stranger occupy different heights in the same image. It establishes shared domestic life without illustrating or explaining the charged touch at the laptop.",
+      "placement": "Between the cooking and handbag-video paragraphs.",
+      "prompt": "Wide view from inside a modest lived-in Montreal basement kitchen in May, camera near counter height. Small window at pavement level beside the stove; through it only the shoes and trouser cuffs of a passing adult, slightly motion blurred. Inside, an ordinary pan with cooked onions, a chopping board, a plate under crumpled aluminium foil. Mismatched practical surfaces, evening available light. No person posed in the kitchen, no distress signals or exaggerated squalor.",
+      "alt": "Shoes pass a basement kitchen window above a stove, with a foil-covered plate on the counter."
+    },
+    {
+      "section": 3,
+      "place": "Verdun",
+      "title": "Borrowed cold",
+      "concept": "An adult’s wrists resting against a damp bag of peas, the bag beginning to soften. Institutional chair legs and a scuffed church-hall floor extend beyond the close foreground.",
+      "reason": "The physical relief belongs to several people. A close view of the shared cold is less predictable than an attractive, air-conditioned condo and avoids using the baby as an emblem of suffering.",
+      "placement": "After the cooling-centre paragraph, before Sam enters.",
+      "prompt": "Close, unposed photographic view of an adult seated in a Montreal church hall used as a cooling centre during a heat wave. Cropped forearms, wrists resting against a softening bag of frozen peas; condensation on the translucent unbranded packaging, green peas visible. Scuffed linoleum and ordinary metal chair legs in the background, some ceiling lights off. Mild summer light, no face or baby visible, no emergency spectacle. Focus on the damp texture and relaxed pressure of wrists against the bag.",
+      "alt": "An adult cools their wrists against a damp bag of peas above a church-hall floor."
+    },
+    {
+      "section": 4,
+      "place": "Hochelaga-Maisonneuve",
+      "title": "The bead in the sheet",
+      "concept": "An extreme close crop of an adult fingertip catching a hard grain of detergent in a worn cotton sheet. The rest of the bed disappears out of focus. No crying figure.",
+      "reason": "The image stays with her inadequate, absorbed action. It leaves Vincent’s grief and the child’s illness in the language, without staging either for the viewer.",
+      "placement": "After the detergent paragraph; do not place beside the hospital revelation.",
+      "prompt": "Extreme close photographic crop of an adult hand picking at a tiny hardened grain of laundry detergent lodged in the weave of a pale, well-used cotton bedsheet. Slightly creased sheet, ordinary dim bedside light, fingertips neither manicured nor dramatically dirty. Frame only the hand and cloth; no other body parts, no text, no tears, no symbolic props. The image should feel like a distracted glance sustained too long, with fine natural grain and shallow but believable focus.",
+      "alt": "A fingertip picks at a grain of detergent caught in the weave of a cotton sheet."
+    },
+    {
+      "section": 5,
+      "place": "Saint-Henri",
+      "title": "Behind the stove",
+      "concept": "A displaced white stove, the narrow strip of freshly painted wall behind it and a torn patch where the appliance stuck. A larger, plain kitchen surrounds this small damage.",
+      "reason": "The unseen labour and the departure coexist in a material mark. Keep it matter-of-fact: the paint is paint, not a visual metaphor announcing eviction.",
+      "placement": "After the section’s last paragraph, so the image does not reveal the tear ahead of the prose.",
+      "prompt": "Straightforward medium-wide photograph of a modest Montreal kitchen during a move, November daylight. A plain white stove has been pulled slightly out from the wall. Behind it a narrow recently painted white strip, with a rough tear where tacky paint adhered to the appliance. Older surrounding paint and worn linoleum, incidental light from a window outside the frame. No people, no eviction signs, no dramatic lighting or abandoned-building aesthetic. Leave generous ordinary space around the small damaged strip.",
+      "alt": "A stove stands away from a freshly painted kitchen wall, revealing a strip of torn paint."
+    },
+    {
+      "section": 6,
+      "place": "Griffintown",
+      "title": "Across the courtyard",
+      "concept": "Look from a dark room across an unremarkable condo courtyard at one lit window. Far away, an adult tends a houseplant, lifting a leaf. The window frame and its reflection occupy most of the picture.",
+      "reason": "For once she has time to watch an action to completion. The distance breaks the sequence of close details and offers warmth without turning the borrowed room into luxury advertising.",
+      "placement": "After the paragraph in which she wakes and watches the plant being watered.",
+      "prompt": "Night photograph from inside a dark, ordinary Montreal condo, looking through a window across a residential courtyard. Most of the frame is dark window glass, faint interior reflection and plain neighbouring facades. One distant warmly lit window contains an adult man in a plain undershirt, cropped below the waist by the sill, tending a houseplant and lifting one leaf to water underneath. His face is unidentifiable. No voyeuristic close-up, no sensual emphasis, no skyline; quiet accidental domestic activity at a believable distance.",
+      "alt": "Across a dark courtyard, a distant lit window shows an adult lifting a houseplant’s leaf."
+    },
+    {
+      "section": 7,
+      "place": "Mile End",
+      "title": "The left speaker",
+      "concept": "Low afternoon light across an old stereo speaker beside a couch. A spider plant has been moved aside; an adult’s clothed knee touches the speaker and a soup bowl sits in their hand, near the edge of the frame.",
+      "reason": "History survives in an object still being used. The image holds the mundane warmth at the end of the visit rather than retroactively turning the spilled tea into an explanation of trauma.",
+      "placement": "After the final paragraph, as a quiet pause before Villeray.",
+      "prompt": "Low seated-height photograph of an ordinary long-inhabited Mile End apartment in Montreal on a March afternoon. An older black stereo speaker beside the arm of a couch, its fabric grille slightly worn. At the edge, an adult woman’s clothed knee rests against it and her hand holds a simple bowl of soup; no face visible. A spider plant in a pot has been set nearby after being moved off the speaker. Good window light, practical accumulated belongings, no retro styling, no staged nostalgia.",
+      "alt": "A soup bowl and a clothed knee beside an old speaker, with a spider plant moved off its top."
+    },
+    {
+      "section": 8,
+      "place": "Villeray / the Rosemont listing",
+      "title": "Does the chair come with it?",
+      "concept": "The rental listing photograph itself: a plain kitchen with a gap for the absent stove and one ordinary chair turned toward the wall. Slightly careless phone framing, flat daylight.",
+      "reason": "Her next detour is already contained in a badly framed listing. End with the actual oddity she asks about, without a road, a departing train or a figure posed as free.",
+      "placement": "After the final line. The photograph should not precede the chair’s arrival in the prose.",
+      "prompt": "A mundane smartphone rental-listing photograph of an unfurnished kitchen in Rosemont, Montreal. Plain cupboards, a gap where the stove is missing, a single ordinary chair turned to face a blank wall. Flat daylight, slightly careless but realistic wide framing and a mild camera tilt. Clean enough to rent, worn enough to have been lived in. No person, no decorative props, no real-estate text, no surreal lighting, no symbolic shadow. The chair must unmistakably face the wall.",
+      "alt": "A plain rental kitchen with no stove and a single chair facing the wall."
+    }
+  ]
+}
