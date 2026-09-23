@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chauffé Éclairé — A Narracode Story</title>
+    <meta name="description" content="Montreal, 2028. Eight apartments, eight turns. A short story written to a measured prosody: median sentence six words.">
+    <meta name="keywords"
+        content="AI fiction, short story, Montreal, housing, Lynne Tillman, flat declarative, Claude Opus 5, Jhave, Narracode, autofiction">
+    <meta name="author"
+        content="Jhave (direction, register specification, constraints) · Claude Opus 5 — AUTO_MODE via Narracode harness · 2026-08-23">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Chauffé Éclairé — A Narracode Story">
+    <meta property="og:description" content="Montreal, 2028. Heat included, lights included, nothing else included.">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chauffé Éclairé — A Narracode Story">
+    <meta name="twitter:description" content="Montreal, 2028. Heat included, lights included, nothing else included.">
+
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --bg: #ffffff;
+            --accent: #444;
+            --muted: #777;
+            --max-width: 740px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .logo img {
+            width: 160px;
+        }
+
+        h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.8rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        h5 {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        a:hover {
+            color: var(--muted);
+        }
+
+        /* Collapsible prompt */
+        .prompt-toggle {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #f5f5f0;
+            margin: 0 0 2.5rem;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .prompt-toggle summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 0.75rem 1.1rem;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted);
+        }
+
+        .prompt-toggle summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .prompt-toggle summary::before {
+            content: "▸";
+            display: inline-block;
+            transition: transform 0.25s ease;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .prompt-toggle[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .prompt-body {
+            padding: 0 1.25rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--accent);
+            border-top: 1px solid #e4e4dc;
+            padding-top: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .prompt-body p {
+            font-size: 0.92rem;
+            margin-bottom: 0.9rem;
+        }
+
+        /* Section break glyph */
+        .break {
+            text-align: center;
+            color: var(--muted);
+            margin: 2.6rem 0;
+            letter-spacing: 0.6em;
+        }
+
+        .part {
+            font-size: 1.05rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 4.5rem 0 2.5rem;
+            padding-top: 2.5rem;
+            border-top: 1px solid #ddd;
+            color: var(--accent);
+        }
+
+        .chapter-heading {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            margin: 3.4rem auto 1.1rem;
+            line-height: 1.25;
+        }
+
+        /* Caption-only figures — image slots deliberately unfilled */
+        .figcap {
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: var(--accent);
+            background: #faf9f5;
+            border-left: 2px solid #ddd9cf;
+            padding: 0.85rem 1.1rem;
+            margin: 2.2rem 0 1.6rem;
+        }
+
+        .figno {
+            font-variant: small-caps;
+            letter-spacing: 0.06em;
+            color: var(--muted);
+        }
+
+        /* The taxonomy register intruding on perception */
+        .tax {
+            text-align: center;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            color: var(--muted);
+            margin: 1.9rem 0;
+        }
+
+        .sysline {
+            text-align: center;
+            font-size: 1rem;
+            color: var(--accent);
+            margin: 1.7rem 0;
+        }
+
+        /* A character's own unspoken line — not the machine's register */
+        .interior {
+            padding-left: 2.2rem;
+            color: var(--accent);
+            margin: 1.5rem 0;
+        }
+
+        .bio,
+        .funding,
+        .related {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .bio h4,
+        .funding h4,
+        .related h4 {
+            margin-top: 0;
+            font-size: 1rem;
+        }
+
+        .bio p,
+        .funding p,
+        .related p {
+            font-size: 0.92rem;
+            color: var(--accent);
+        }
+
+        .story-meta {
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .license {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        .license img {
+            height: 18px;
+            vertical-align: middle;
+            margin-left: 2px;
+        }
+
+        .license a {
+            color: var(--muted);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.25rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h2 {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <a target="_blank" href="https://glia.ca/">
+            <img src="img/glia-bw.webp" alt="Glia.ca — home">
+        </a>
+    </div>
+
+    <!-- Title -->
+    <h1>Chauffé Éclairé</h1>
+
+    <!-- Subtitle -->
+    <h2>A neurosymbolic narrative generated using the <a href="https://jhave.github.io/narracode/">Narracode
+            harness</a>.</h2>
+
+    <!-- Byline -->
+    <h5>Jhave (direction, register specification, constraints) &nbsp;·&nbsp; Claude Opus 5 — AUTO_MODE (Initiator,
+        Structural, Compositional, Reflexive) via Narracode harness &nbsp;·&nbsp; 2026-08-23 &nbsp;·&nbsp; ≈7,300
+        words</h5>
+
+    <!-- Collapsible prompt -->
+    <details class="prompt-toggle">
+        <summary>prompt</summary>
+        <div class="prompt-body">
+            <p>open harness and write a short story in auto mode that&rsquo;s in the style of Lynne Tillman&rsquo;s
+<em>Weird Fucks</em>. I&rsquo;m uploading a page and speaking my phone, so please forgive the typos. but what I&rsquo;d
+like you to do here is match the parsimonious succinct clear, simple style of those sentences of all our sentences.
+search your corpus it&rsquo;s all there. there&rsquo;s rarely a sentence that goes above eight words. if there is a
+sentence it has a; break in the center of it and then it does less than eight words or 10 words after it. there&rsquo;s
+never these extended mixed metaphors and nothing pretentious. it&rsquo;s just people people &hellip; so your goal here is
+to prove me wrong. you are to write these stories in this succinct observational direct incisive honest voice but update
+it so it occurs in 2028 in Montreal. so modulate the socioeconomic valances for particular neighborhoods and
+circumstances according to that locale which I know and you&rsquo;re going to do it in a way where it has really nuanced
+quick sketches of so many different people and energy just fluctuating in and out and somehow arriving within each
+segment or section at this ambiguous inversion or twist a convulsion a moment of raw confession and always desire
+somehow made literary by the fact that there is an absence of artifice around it. it&rsquo;s like punk music but done in
+words. that is your challenge today. good luck!! use any models you want for composition. any models you want for
+reflexive reviews? anything you need to build in order to make sure that none of the sentences defy the logic of Lynne
+Tillman&rsquo;s build a specific engine that can really emulate this raw voice. without copying it, that is crucial.
+we&rsquo;re not after a rule regulated clone of her. we are looking for the essence of the writing that inexplicable
+energy that&rsquo;s interior to the sense of characters evolving chaotically gracefully in the midst of socioeconomic
+disparities and conflicted emotions and sometimes no emotions. just physical stuff but always direct. simple clear.
+follow her as your guide. &hellip; and since you&rsquo;re in auto mode build out the web page for this story.</p>
+        </div>
+    </details>
+
+    <!-- Collapsible method -->
+    <details class="prompt-toggle">
+        <summary>method — the voice engine</summary>
+        <div class="prompt-body">
+            <p>The brief asked for an engine, not an impression. The register was therefore specified as
+                <strong>measurable properties</strong> rather than as an adjective, and a validator
+                (<code>tools/tillman_check.py</code>) was written to enforce them between the compositional and
+                revision passes. Draft&nbsp;1 failed. Draft&nbsp;3 passes.</p>
+            <p><strong>Targets:</strong> median sentence ≤ 7 words · ≥ 65% of sentences ≤ 8 words · ≤ 8% over 14
+                words · any sentence over 12 words must break on a semicolon, with ≤ 10 words after it · figuration
+                ≤ 2 per 1,000 words · paragraphs ≤ 6 sentences.</p>
+            <p><strong>Final measurement:</strong> 1,430 words · 228 sentences · 38 paragraphs · mean 6.3 · <strong>median 6</strong> · longest sentence 14 words · 75.9% at or under eight words · 2 figures in the whole story · zero em-dashes · zero hits against the house registry of machine tells.</p>
+            <p><strong>On the source.</strong> <em>Weird Fucks</em> is the prosodic reference and nothing more. No
+                sentence, character, scene or incident of Lynne Tillman&rsquo;s appears here. What was extracted is
+                structural — length distribution, figuration rate, the semicolon hinge, episodic sectioning, flatness
+                at the turn — and rebuilt from first principles in this project&rsquo;s
+                <code>reference/voice-engine.md</code>. The validator contains no source text either, only thresholds.</p>
+            <p><strong>What the instrument cannot see.</strong> It confirms varied sentence length; it cannot hear that
+                the dominant sentence <em>shape</em> stays subject-verb-object. It counts figures; it cannot tell whether
+                a located abstraction is placed somewhere brave or somewhere safe. The project&rsquo;s own critique
+                (<code>critiques/critique-all-acts.md</code>) records both failures against the brief, unfixed, for the
+                human editing pass.</p>
+            <p><strong>Calibration II — chapter two.</strong> The prompter supplied a photographed page of the source.
+                It was measured, and the first engine turned out to be wrong: mean 12.5 words, median 9, longest 30,
+                coefficient of variation 0.73, and <em>36% of sentences over fourteen words</em>. Chapter one, built to
+                the stated rule of &ldquo;rarely above eight words,&rdquo; came in at mean 6.3, longest 14, and 0% over
+                fourteen. The rule described the punches, not the prose. <strong>The signature is variance, not
+                shortness.</strong> Chapter two is written to a rebuilt profile whose central metric is that coefficient
+                of variation, and it measures mean 11.8 · median 11 · longest 52 · CV 0.63 · 29% over fourteen words ·
+                16.5% punches of four words or less. Chapter one was left exactly as written and now fails six of the
+                nine checks. That failure is part of the record rather than something to correct.</p>
+            <p><strong>Calibration III — chapter three.</strong> A second page supplied two operations the engine did
+                not have. In it the word <em>signs</em> appears four times in one paragraph and changes category every
+                time — astrological, symptomatic, abstract, then a literal sign on a wall, misread. Set against chapter
+                two, where <em>chest</em> meant the same thing twice: <strong>a motif&rsquo;s second appearance must
+                change category, not intensity.</strong> Chapter three&rsquo;s motif is <em>cover</em>, carrying a bare
+                duvet, a covered shift, reciprocity, smoke over a valley, insurance coverage refused out of province,
+                shelter from rain, and a cover charge at a covers band. Seven senses, no gloss. The second operation is
+                the <em>procedure chain</em> — for a bodily task that is difficult and undignified, the prose drops its
+                subject and goes to bare verbs at full duration. Chapters one and two contain no passage like it; the
+                profile now requires one. Also enforced at zero tolerance: the authorial-intent hedge
+                (<em>I want to be honest that&hellip;</em>), on the principle that the narrator is always honest and
+                therefore never says so.</p>
+            <p><strong>Calibration IV — chapter four: the harness becomes a set of checks.</strong> Four more
+                photographed openings, no two alike and not one of them a place and a date. Time is established by a
+                <em>device</em>: a policy of life (<em>I was staying away from men</em>), a gnomic universal
+                (<em>By now everyone knows that Valium is one way to get over a love affair</em>), a present-tense
+                trigger, a flat clich&eacute;, anniversary layering, prolepsis with deferral. Chapter four&rsquo;s six
+                sections use six different ones. The durable artefact of this round is
+                <code>tools/prose_audit.py</code>, which measures nothing and passes nothing: it reports vaguenesses and
+                absolutes, meta-commentary, sentences ending on <em>it</em>, numeric clustering, opener shapes, triplet
+                formulas, every proper name with its first mention, and callbacks that may not land. Run against chapter
+                three it independently reproduced every one of the line-notes a human had already made by eye &mdash;
+                including a cluster of ten <em>eleven</em>s and eight sentences ending on <em>it</em>. Six registry
+                classes were added at the start of this round and three of them were violated in the first draft written
+                afterwards. The classes did not change the output. The audit did.</p>
+            <p><strong>Calibration V — the governing correction.</strong> Four chapters in, one sentence in five
+                carried a number: 48, 33, 37 and 26 numerals per thousand words. The second sentence of chapter four
+                read <em>It took nineteen days to make the sentence true</em>, which is accounting — nobody counts the
+                days it takes to make a lie true. The number was there because a number has the <em>shape</em> of
+                specificity while costing none of the looking that specificity requires. The deeper fault was the
+                instrument: the harness was built to interrupt a default and had become one, so that counting was what
+                got done instead of writing and a clean audit stood in for a good page. Chapter four is the only chapter
+                rewritten rather than frozen. Numerals fell to 10 per thousand and the chapter got three hundred words
+                <em>longer</em> doing it, which is the finding — a number is cheap and a perception costs words. The
+                rewrite deliberately leaves three prosody checks failing, on the grounds that the prose is right and the
+                thresholds were self-imposed. The rule that now governs everything: write as the woman, and if a
+                sentence is vague, or merely competent, or does not build the texture and tension of an actual
+                perception, delete it. Checks run after the looking, never as the method of it.</p>
+        </div>
+    </details>
+
+    <!-- Story -->
+    <div class="story">
+
+        <h2 class="part">Chapter One</h2>
+
+        <h3 class="chapter-heading">1. Parc-Extension, February</h3>
+        <p>The listing said chauffé éclairé. It was neither. Ball Avenue. Second floor. A door that didn&#x27;t close. Six hundred forty for the room. Four of us. One bathroom.</p>
+        <p>Sabrina had the front. She worked nights at the Jean Coutu. Slept in a sleep mask at noon. Woke up furious, every time. Milad had the back. He drove for two apps. A burn on his forearm. Fryer, at a third job.</p>
+        <p>He said Parc-Ex was finished. Everybody knew. I said I had just got here. He said that is what finished means.</p>
+        <p>Downstairs was a woman with three kids and a husband on nights. She kept the stairwell swept. Nobody asked her to.</p>
+        <p>The radiators went cold on a Tuesday. I called the landlord. The number rang somewhere in Laval. His son came instead. Kosta, twenty-four, tape measure and a phone. He measured the hallway. He measured my room with the door open. I asked about the heat. He said the boiler was a whole conversation.</p>
+        <p>We fucked on the floor because my bed was on the floor. He kept his socks on. The socks were fine. Afterwards he stood up and finished measuring. I asked him not to write the number down. He wrote the number down.</p>
+        <h3 class="chapter-heading">2. Côte-des-Neiges, May</h3>
+        <p>Basement on Van Horne. Five ninety. No window in the room. Fifty minutes to work. Two buses. One bus and the metro when the bus didn&#x27;t come.</p>
+        <p>The work was rating answers. A model wrote them, I said helpful or not helpful. Nineteen fifty an hour. They called us the quality team. On my row, a retired teacher. A kid from Laval. A man who had been a dentist in Algiers. The dentist was the fastest. He never said anything about it.</p>
+        <p>Fadwa had the other room. She was doing her papers. She cooked at two in the morning. Left me a plate with foil on it. I ate it cold at six. It was always better cold.</p>
+        <p>Her boyfriend came Fridays. He parked badly and honked instead of buzzing. Hate in the teeth, no argument in it. Some Fridays I sat on the steps until they were done.</p>
+        <p>In May she asked me for a letter. Saying she had lived there since 2025. She had lived there since 2027. I said yes before she finished the sentence. I typed it on my work laptop, on my break, badly. She read it twice and said my French was getting better. That was the nicest thing anyone said to me that year.</p>
+        <h3 class="chapter-heading">3. Verdun, July</h3>
+        <p>Forty-one with the humidex. Six days. The city opened the cooling centres. Ours was a church basement on Galt. An old man did crosswords. He would not take the last chair.</p>
+        <p>A woman came in with a baby. And a bag of frozen peas. She put the peas on the back of its neck. The baby was fine. She was not.</p>
+        <p>Sam had central air on Wellington. He worked in climate tech. I met him in line at a dep that sold natural wine. He said the wine was orange. I said okay. His condo had a Peloton and one fork.</p>
+        <p>I stayed nine days. I told work my internet was down. We fucked in the afternoons because the afternoons were unbearable. He talked afterwards. Carbon markets, mostly.</p>
+        <p>On the ninth day he said his girlfriend was back Sunday. I said I was there for the air conditioning. He said he knew that. Then he said it was still nice, wasn&#x27;t it. He looked at me. I said yes. It had been nice. Both of those were true and I have not worked out how.</p>
+        <h3 class="chapter-heading">4. Hochelaga-Maisonneuve, September</h3>
+        <p>A party on Adam Street for someone I didn&#x27;t know. Somebody&#x27;s cousin played guitar badly and everyone let him. Two women on the balcony argued about a union vote. An hour of it.</p>
+        <p>Vincent was fifty-one and fixed motorcycles on Ontario. Grey in the beard, hands you noticed, a laugh that came late. He asked what I did. I said quality team. His ex-wife did quality at Bombardier. Before they cut the line.</p>
+        <p>We went to his place above the shop. It smelled of solvent. He was gentle. I had not expected it and did not want it.</p>
+        <p>Afterwards he sat on the edge of the bed. Back to me. He said his son had been at Sainte-Justine since June. The boy was eight. The word they used was aggressive. He cried without any noise, which is a skill.</p>
+        <p>I did not touch his back. I thought about touching his back. Pity sat in the wrists, useless. I asked what the boy liked. He said motorcycles, obviously, and then he laughed for real.</p>
+        <h3 class="chapter-heading">5. Saint-Henri, November</h3>
+        <p>The renoviction letter came in a real envelope. That should have warned me. Major works. Six months. Two thousand to leave quietly. The tribunal gave me a date fourteen months out; I painted the kitchen anyway.</p>
+        <p>Four units in the building. Three took the money in a week. The Portuguese couple on one stayed and stopped answering the door.</p>
+        <p>The woman who had the place before me lived on Bourget now. I found her because the mail kept coming. I brought it over. She was seventy and had a cat with one ear.</p>
+        <p>She asked me what I was paying. I said eleven ninety. She said six ten. Twelve years. She did not have to think about it. She said her husband died in the back room, by the window. I said I was sorry. She said don&#x27;t be, it was the good room.</p>
+        <p>Then she asked my name and I said Renée. She said Renée, listen. Don&#x27;t take the two thousand. I took the two thousand.</p>
+        <h3 class="chapter-heading">6. Griffintown, January</h3>
+        <p>I cleaned units for cash. Ninety a unit, four a day when there were four. Glass buildings. Wind off the canal. No grocery store, so everyone ordered. The keys were in lockboxes. The codes were all somebody&#x27;s birthday.</p>
+        <p>I learned what people leave. Chargers, mostly. Contact lenses. Once a wedding ring. Once a gun. I put the ring in the drawer. Said nothing about the gun. Marie-Ève did the towers on Peel and had done it nine years. She said never look in the fridge; I looked in the fridge.</p>
+        <p>A unit on Ottawa Street got booked twice a month, maybe. I started sleeping there Tuesdays. I changed the sheets after. I told myself it was one night. Then it was the winter.</p>
+        <p>A stranger&#x27;s bed on the eleventh floor. Heat at twenty-three. Chauffé. Éclairé. Comfort behind the ribs, stolen. I have never in my life been that warm. I want to say I was ashamed. I was not ashamed.</p>
+        <h3 class="chapter-heading">7. Mile End, March</h3>
+        <p>My mother has the same apartment on Waverly since 1994. Three hundred then. Nine forty now, because he never renovated and never died. She has the good windows and the bad knees. Mrs. Kalogeras across the hall watches for the mail truck. It gives her the day.</p>
+        <p>My mother made tea and did not drink it. Her way. She asked if I was seeing anyone. I said sort of. She said sort of is fine. Sort of is most of it. We looked out at the schoolyard for a while.</p>
+        <p>She said she fucked a man in that stairwell in 1994. His name was Denis and he sold speakers. She said it like weather. Then she asked if I wanted soup. I said yes to the soup.</p>
+        <p>I sat in her kitchen and understood nothing new about her. I just liked her more, sitting there, in the good windows.</p>
+        <h3 class="chapter-heading">8. Villeray, June</h3>
+        <p>Sixteen fifty-five, third floor. A balcony the size of a door. The smoke came the second week of June. It stayed eleven days. Orange light in the afternoon. Stay in, close everything. I closed everything. It came in anyway. Everything tasted of campfire.</p>
+        <p>The dep on Villeray taped a sign up: masks, four dollars. I met a man at the taps who fixed elevators. His name was Ahmed and he had opinions about buildings. The ones from the sixties were honest. The new ones were not. He stayed over twice. He left his socks the second time, on purpose I think. I have not decided about him.</p>
+        <p>On the Sunday the air cleared and everybody came outside at once. The whole street on the balconies, as if something had been announced. Nothing had been announced. The air was just clean. The kids were screaming on Casgrain and nobody told them to stop.</p>
+        <p>That night I opened the listings. Habit, not need. Chauffé, éclairé. Nine hundred. Rosemont, near the tracks. I wrote to ask if it was still available.</p>
+
+        <h2 class="part">Chapter Two</h2>
+
+        <details class="prompt-toggle">
+            <summary>prompt — chapter two</summary>
+            <div class="prompt-body"><p>ok now. now let&rsquo;s do a second chapter. let&rsquo;s consider what&rsquo;s been done now to be the
+first chapter. you&rsquo;re not going to change it. this entire story process is to find out whether you are capable of
+writing autonomously. so this prompt now as I&rsquo;m speaking it into my phone. sitting on a mountain in Bergen will go
+at the beginning of chapter 2 and this is the point at which our narrator goes on the road. she travels to Toronto
+through Winnipeg crosses. the prairies spends a bit of time and Banff National Park and then descends into Vancouver and
+all following that same grungy raw personal interiority confessional mode. you succeeded to a great degree at getting
+the the shortness and the conciseness of the sentences and I will attach two notes here but you are not to edit the
+first chapter at all. &hellip; what I see is this. this woman doesn&rsquo;t seem to have any friends. there&rsquo;s no
+buildup of desire. there&rsquo;s no noticing of things. there&rsquo;s no kind of tension that&rsquo;s based on a
+physical proximity. there&rsquo;s almost a formula of you know. how much is the rent you know? &hellip; so what
+I&rsquo;m suggesting here is think about length of variance. you can stay parsimonious and rarely go over 10 and never
+bring in pretentious metaphors but consider how real authors vary the length of their sentences and shift the the level
+of perception personal observations. &hellip; I suspect that this character Renee does not yet have a character in your
+mind. What&rsquo;s her back story? &hellip; but avoid psychologically creating direct linkages of you know because of
+this I could cause this etc etc. you know this is the world of libidinal desire. it&rsquo;s a chaotic complex system, so
+these these interregnums volatility shifts and register all of them. may swerve inexplicably occur Collide, cause an
+impact, have no effect, move on, catastrophize, indifference : there&rsquo;s there&rsquo;s fluctuation occurring.</p></div>
+        </details>
+
+        <h3 class="chapter-heading">9. Toronto, August</h3>
+        <p>Kat and I had been friends eleven years, first in Montreal and then not at all for four of them. Then again, because she picked up on the second ring like nothing had happened. She asked if I still smoked.</p>
+        <p>The Rosemont place went to somebody with a guarantor. I put what I had into two bags and gave the rest to the woman downstairs. The 6:40 takes seven hours in 2028. They have been fixing the corridor since I was in school.</p>
+        <p>Kat built sets for a company that made commercials for insurance companies; she had a wrecked shoulder from it, a girlfriend named Pris who was in Chicago more than she wasn&#x27;t, a place on Sorauren she could not have got in any other year; she was rude to me inside an hour. I hadn&#x27;t been talked to like that since March. I slept fourteen hours.</p>
+        <p>In Toronto nobody asks what you pay. They ask how long you&#x27;ve had it, which is the same question with the shame moved.</p>
+        <p>Dez came over on the Thursday to fix Kat&#x27;s speakers and stayed for dinner. He did sound for other people&#x27;s films and lived above a garage on Sterling; had toured with a band people my age pretend to remember, had a kid in Halifax he saw twice a year; he was easy. He put his arm along the back of the chair. I looked at his forearm the whole time Kat was telling a story about a producer. When she got to the part where the producer cries I laughed a beat late. Dez noticed that I had laughed late.</p>
+        <p>Nothing happened. He washed four plates, badly, and left at eleven. I stood in the kitchen with the water still running.</p>
+        <p>Ahmed texted from Montreal at one in the morning. Two lines about a building on Papineau and then, are you coming back. I typed and deleted. I said the elevators in Ontario are worse and he sent a laughing face. That was the last one for a while.</p>
+        <p>Kat came out for water in a t-shirt with a dead festival on it. She looked at me standing there.</p>
+        <p>She said, you&#x27;re not visiting.</p>
+        <p>I said no.</p>
+        <p>She said okay. She drank the water and went back to bed. I have never in my life been so grateful to be seen and not asked about.</p>
+        <h3 class="chapter-heading">10. Northern Ontario, September</h3>
+        <p>The train leaves Toronto at nine at night and reaches Winnipeg two days later. If it reaches Winnipeg. The freight owns the track, so passenger sits in a siding while eleven thousand feet of grain goes by in the dark. We sat four hours outside Hornepayne. Nobody explained it. Nobody in the car expected an explanation, which told me most of them had done this before.</p>
+        <p>Loreen had the seat across the aisle. She was going to a funeral in Sioux Lookout for a brother she hadn&#x27;t spoken to since 2019. Twenty-two years with the school board; a thermos of rye and 7Up she was not hiding; she was funny about him. She said he was a bastard and then said it again more warmly.</p>
+        <p>Coach means you sleep sitting up with your coat as a pillow. You wake at four with your hip gone dead. The window black and your own face in it. The bathroom at the end of the car smelled like a public pool. I brushed my teeth over a steel sink with the floor moving under me and thought about nothing at all. That almost never happens.</p>
+        <p>Then the light came up over muskeg and rock and black spruce standing in water, thousands of them, and it went on being that for six hours. No town. A hydro cut every so often with the towers walking away north. Water the colour of tea.</p>
+        <p>I used to take pictures. I stood in the vestibule with the glass down and the noise enormous. I did not take a picture.</p>
+        <p>Loreen ate a sandwich at nine in the morning and offered me half without looking over. In the middle of it she said her brother had a way of standing in a doorway that made you feel the room was his. She said that when the call came her whole chest went loose, like a belt off.</p>
+        <p>I said I was sorry.</p>
+        <p>She said, don&#x27;t be sorry yet, I haven&#x27;t decided.</p>
+        <h3 class="chapter-heading">11. Winnipeg, September</h3>
+        <p>Roy is Kat&#x27;s cousin. He had a house on Lipton with three people in it, and a fourth who had left a bike. He worked nights loading for a courier, was kind in a bland unswerving way, made a pot of chili on the Sunday that lasted the week; he wanted nothing from me. I could feel my body scanning him for it anyway. Finding nothing. Going quiet, disappointed, then relieved.</p>
+        <p>It went to minus four on the second night. In September. Everyone in that house talked about it the way you talk about a diagnosis in the family, informed and bored.</p>
+        <p>In Winnipeg nobody finishes a conversation outside after the middle of October. They finish it in the doorway with the cold coming in. Somebody says okay, okay, and the door shuts on the rest of it.</p>
+        <p>Emerson had the room off the kitchen and worked at a bakery; up at three, home at noon, asleep by eight; we overlapped four hours a day. One bathroom. She had flour in the creases of her knuckles that did not come out. Her forearms were better than her face and she knew it. She wore short sleeves in a cold house.</p>
+        <p>We were in the kitchen on the Wednesday. She was cutting something and I was leaning on the counter beside her with my arms folded. Neither of us moved for the length of a song on the radio. The distance was maybe eight inches. I have thought about that eight inches more than about anything that happened afterward.</p>
+        <p>What happened afterward was quick and mostly good and did not repeat. On the Friday she went to her mother&#x27;s in Selkirk and texted about a dog. I left on the Sunday. She hugged me at the door with the cold coming in, said travel safe, and shut it on the rest of it. I walked to the bus with my whole chest ringing like a struck pipe. Nine days. I had known her nine days.</p>
+        <h3 class="chapter-heading">12. Saskatchewan, late September</h3>
+        <p>Warrick was driving a pickup and an empty stock trailer from Brandon to Strathmore. He took me because his wife makes him take people, he said, so he doesn&#x27;t fall asleep. He was fifty-something, had been in the Forces, had a bad knee and a good radio; he talked for forty minutes, then didn&#x27;t.</p>
+        <p>The land does not open. That is the wrong word and everybody uses it. It is already open. It stays open, and you go along inside it for nine hours. The only thing that changes is which elevator is on the horizon, and then which one, and then which one. By the middle of the afternoon your sense of your own size has quietly adjusted. It does not adjust back for a couple of days.</p>
+        <p>Canola gone over. Stubble. Sloughs with birds on them. A dead deer with its legs at angles you don&#x27;t see in bodies that are all right.</p>
+        <p>Two combines working in a field the size of a district, dust standing up gold behind them. A grid road going straight for so long it stopped being a road and became a fact about the planet.</p>
+        <p>I asked Warrick for his phone at one point, to take a picture, and then handed it back without taking one. He did not ask why.</p>
+        <p>He dropped me at a gas station in Swift Current and shook my hand and said good luck out there. I stood with my bags at a pump under those lights that make everybody look ill. Nothing had happened. Nothing was going to.</p>
+        <p>I want to be honest that it was one of the better days.</p>
+        <h3 class="chapter-heading">13. Banff, October</h3>
+        <p>They put me in the kitchen at a hotel with a French name and a Chinese owner. Staff accommodation was up the hill, four to a room, four hundred a month taken off the cheque before we saw it. That is where I got a cast for the first time since the Jean Coutu.</p>
+        <p>Tarn was from Newcastle, New South Wales, and had done two seasons; lifts in winter, pot-wash in the shoulder, could not be embarrassed by anything; his laugh carried to the loading bay. Precy had been there six years and ran the line without the title or the money for it. Small, fast, unimpressed; two kids in Cebu she called at five in the morning our time; she was the best of us. Kieran climbed on his days off and washed dishes on the others. He did not talk unless the subject was rock, at which point he could not be stopped.</p>
+        <p>We were funny at two in the morning in a way that does not survive being described. Friends. I had not had any in a while.</p>
+        <p>The fire started on the eleventh, on the BC side. By the thirteenth the whole valley was the colour of a nicotine ceiling and the mountains were a rumour with an edge on it. In October. Precy said it never used to be October and went back to plating.</p>
+        <p>Kieran and I had the bunks against the same wall with a curtain between that did not reach the floor. Nine nights. I knew his breathing before I knew his face properly. On the fifth night the alarm went at three for burnt toast on two. We all stood outside in the smoke in whatever we slept in, two hundred of us, coughing and laughing. He was beside me with his arms crossed and his hands pushed under them for the cold. I looked at his wrists. He caught me looking. Neither of us did anything about it for four more days.</p>
+        <p>Then he got a call about a route and a window and went to Squamish. That was that. It had been the best thing in my week for nine days running.</p>
+        <p>Tarn said, hard luck, and gave me half his cigarette.</p>
+        <p>Precy said, you&#x27;ll be all right, and put me on garde manger. Which was a promotion. Neither of us mentioned it.</p>
+        <h3 class="chapter-heading">14. Vancouver, December</h3>
+        <p>It rains here the way it rained the whole time I was there. Everyone tells you about it before you can say anything about it yourself.</p>
+        <p>I got a room in a house on Kingsway. Bernice had a parrot, and rules about the parrot. I did prep at a place on Fraser four days and cleaned an office tower two nights. In December it goes dark at four. The wet gets into the seams of your coat and stays there. You learn the smell of your own building.</p>
+        <p>Dez was in town for eight weeks doing post on a feature. He got my number from Kat. I let a day go by before answering, because I am not a child.</p>
+        <p>We had two good nights and then we had a bad one.</p>
+        <p>The bad one was nothing, which is what I want to put down. He said something about my mother that was a joke and was accurate. I laughed. Twenty minutes later I was crying in a Skytrain station at Broadway with my hood up and my hands shaking. It could have been the joke, or the accuracy, or the eight weeks, or the woman in Winnipeg with flour in her knuckles, or my father, who drove a truck, and stopped.</p>
+        <p>I want to be clear that I do not think it was my father.</p>
+        <p>Dez texted the next morning to see if I was okay and I said fine, and he said okay. That was the honest end of it. We saw each other twice more.</p>
+        <p>My mother called on the Sunday. She has the good windows and she wanted to tell me about a leak. Halfway through she stopped and said, are you eating. I said yes. She said, you&#x27;re not. Then she told me about the leak for six more minutes.</p>
+        <p>The rain went sideways past the streetlight for the whole call.</p>
+        <p>Bernice knocked and said the parrot was doing the thing. I went and looked at the parrot doing the thing. It was funny.</p>
+        <p>Later, the fires again, but that is the spring.</p>
+
+        <h2 class="part">Chapter Three</h2>
+
+        <details class="prompt-toggle">
+            <summary>prompt — chapter three</summary>
+            <div class="prompt-body"><p>Notes to chapter 2: I love the line that ended section 12 about grief like a belt coming off opening your chest.
+That was amazing! Well placed perfect. But when it repeated as a reference to the chest at the end of chapter 12, so the
+placement in exactly the same place the part of the body chest, the same metaphor also of opening&hellip; it&rsquo;s the
+strange thing about literature but repetition that is rule-based and formulaic can often become swiftly stale.
+&hellip; I know that poverty does entail a certain concern about rent and changing guidelines like that, but the first
+two segments almost felt like that was the motif. Again, it felt like a travelog of places where I think the original
+inspiration for the other book &hellip; is the the prurient interest of sexuality. Woody Allen famously said you know
+stories are about sex, death and taxes. So in this story the rent and moving places and shifting fortunes is kind of
+like taxes. Death does occur but the sexuality, which was at the forefront of the other stories is now a very subdued
+threat. This is a young woman who has chosen a life of exploration with appetites, so just be accurate and honest about
+following the implications of that. &hellip; if there are motifs they have to be handled in a way that is respectful of
+character and doesn&rsquo;t introduce a numbing repetition. &hellip; The phrase at the end of section 12 that begins. I
+want to be honest. Well, let&rsquo;s assume that the narrator in this case is always honest and she could just skip that
+&hellip; get more clever than this: &ldquo;The bad one was nothing, which is what I want to put down.&rdquo; &rarr;
+possible: &ldquo;It was as if a shoe fell into the toilet.&rdquo; and then &ldquo;He said something about my mother that
+was a joke and was accurate. I laughed.&rdquo; &rarr; possible: &ldquo;He made a joke about my mother; it was too
+accurate; we both laughed.&rdquo; &hellip; &ldquo;I want to be clear that I do not think it was my father.&rdquo; &rarr;
+Even something as simple as &ldquo;It was not my father.&rdquo; Bauhaus designers used to apply an adage delete the
+extraneous. &hellip; I want you to do a chapter 3 now and you going to go back across the country in a great hurtling
+swirling sweaty libido acutely insightful sentences ricocheting through paragraphs not as bland as it&rsquo;s become but
+holding some kind of honest, raw, honest. &hellip; The narrator ends up in Toronto and the final section of the chapter.
+she&rsquo;s getting on a plane to fly to Amsterdam.</p></div>
+        </details>
+
+        <h3 class="chapter-heading">15. Squamish, April</h3>
+        <p>Kieran said Squamish the way other people say a person&#x27;s name, and in April I took the bus up the Sea to Sky to find out what he meant by it. Four months of deferral. I had thought about his wrists in three provinces.</p>
+        <p>He lived with five climbers in a house on Third with chalk in the carpet and a rack in the hall worth more than everything I have owned in my life. He was browner and thinner. He had a duvet with no cover on it, and I have thought about that since, because a man sleeping under a bare duvet has made a decision and is at peace with it.</p>
+        <p>I wanted him for four months. Then I had him and it was good, it was really good, and by Sunday afternoon I was on my back doing arithmetic about buses.</p>
+        <p>He was generous and unhurried and completely serious about it, the way he was about rock. He asked what I wanted and then did that, which men describe as a technique and is actually just paying attention. Twice he laughed in the middle. I liked him better for the laughing than for any of the rest of it.</p>
+        <p>I had carried the thing nine hundred kilometres. He had only been living here.</p>
+        <p>Monday he had a route. He said come Thursday, and meant it. I said maybe.</p>
+        <p>I didn&#x27;t go Thursday. On the Wednesday I got on a bus going east with a coffee I couldn&#x27;t drink because of the switchbacks. Somewhere past Lillooet a woman across the aisle told me her whole divorce. I listened to all of it. It was better than Thursday would have been.</p>
+        <h3 class="chapter-heading">16. The Okanagan, June</h3>
+        <p>Cherries first, then the packing house when my hands gave out. Piece rate on the ladders, hourly inside, and inside is worse money and better for you, which everybody tells you and nobody believes until their thumbs stop closing.</p>
+        <p>I covered Manon&#x27;s shift the second week and she covered mine for four days in July, and that is how you make a friend in a valley in summer.</p>
+        <p>Manon was from Trois-Rivières, had done six seasons, drove a Corolla with a mattress in it and a milk crate of paperbacks; she called everybody <em>chose</em>. Deke ran the line and was gentle to the pickers and vile to the drivers. A couple from Chile, Andrés and Sol, who had a real romance going on in the bunkhouse and did not care who heard it, and good for them, honestly, because the rest of us were listening.</p>
+        <p>It got to thirty-eight and stayed. In the bunkhouse at night with the fans going you lay on top of everything in your underwear and did not touch anybody because touching was worse.</p>
+        <p>Then you touched somebody anyway.</p>
+        <p>Deke, once, badly, in the walk-in, and we both laughed about it afterward and never referred to it again. Sol&#x27;s cousin Tomás who came for eleven days to help with the crush and had a laugh like a door and forearms out of a painting, and eleven days is a real length of time when it is thirty-eight degrees and nobody is anybody&#x27;s anything.</p>
+        <p>Manon said, <em>chose</em>, you&#x27;re going to burn yourself out.</p>
+        <p>I said probably.</p>
+        <p>She said, no, I mean actually, put a hat on.</p>
+        <p>The smoke came in on the twentieth from something past Merritt and the valley went under cover for nine days. The light like the inside of a jar. The cherries still coming. Everybody working with the mask pushed down under the chin; you cannot pull a ladder in a mask. Precy&#x27;s line came back to me in the smoke. It never used to be June either.</p>
+        <h3 class="chapter-heading">17. Southern Alberta, July</h3>
+        <p>His name was Boyd; a good truck, a bad house, a dog he spoke to in a completely different voice; I liked him about thirty hours.</p>
+        <p>The condom came off inside me. This happens; it had not happened since I was twenty-three; it was a Saturday.</p>
+        <p>Sunday morning in a town of eleven hundred. Boyd was decent about it and drove. Understand that decent is the whole review: he got up, he drove, he did not make a speech.</p>
+        <p>Pharmacy closed. Drive forty minutes. That one closed too, a paper sign, <em>back Monday</em>. Drive to the next one. Sit in the truck outside the Shoppers in a town with a Canadian Tire while it turns eleven. Go in. Walk past the shampoo twice because there is a girl on till who looks about nineteen. Go to the counter anyway.</p>
+        <p>Say it out loud with a man behind you at the blood-pressure machine. Watch the pharmacist be completely normal about it, thank God, and ask for your card.</p>
+        <p>Out of province.</p>
+        <p>No coverage. Fifty-two dollars.</p>
+        <p>I had fifty-two dollars. That is the only reason this is a story about a Sunday and not a story about something else, and I know exactly how thin that is, and so does every woman I have ever worked a season with.</p>
+        <p>Read the box in the parking lot. Sooner is better, it says. Swallow it dry in the truck because the water is in the back under the tarp. Wait. Feel nothing. Feel, an hour later, extremely something.</p>
+        <p>Boyd bought me a coffee and a bag of ketchup chips and put the radio on low without being asked, which I am still, a year on, prepared to call gallantry.</p>
+        <p>By Tuesday I was in Medicine Hat and by Thursday I was gone.</p>
+        <h3 class="chapter-heading">18. Winnipeg, August</h3>
+        <p>Emerson picked up on the fourth ring, which is three more than Kat.</p>
+        <p>The bakery had let her go in March and she was doing mornings at a place on Corydon and living with a man named Griff, and none of that was in the messages about the dog. She said come anyway. I went anyway.</p>
+        <p>Griff was fine. Griff was so fine. He made a curry, asked good questions about the Okanagan, remembered the name of the packing house; he was no help at all. He did not once look at me the way I had come eleven hundred kilometres to be looked at.</p>
+        <p>Emerson had cut her hair. Her hands were the same, flour or no flour. I watched them on the wooden spoon, on Griff&#x27;s shoulder, on the back of a chair. I sat there with my face doing the pleasant thing while I understood that I had built nine days into a country.</p>
+        <p>We had one hour on the back steps after Griff went up.</p>
+        <p>She said, that week was a good week.</p>
+        <p>I said, it was nine days.</p>
+        <p>She said, was it, and I could not tell if she was being kind or if she genuinely did not know, and I have decided not to decide.</p>
+        <p>I slept on the couch. In the morning she made me eggs and put too much salt on them the way she does, and I got the two o&#x27;clock bus, and she hugged me at the door with the heat coming in this time.</p>
+        <h3 class="chapter-heading">19. North of Superior, September</h3>
+        <p>A man in a truck for eleven hours is either the worst idea you have had or the whole point of being alive and you find out somewhere around Marathon.</p>
+        <p>Ted hauled for a company out of Thunder Bay; a granddaughter&#x27;s drawing taped over the tach, two fingers on the wheel, a long unhurried account of his knees; he was not that. Nothing like that. He bought me a sandwich in Wawa and told me his wife had been dead six years and that the trick was to keep the truck moving. He dropped me at a gas station at nine with the last light going pink off the water. He said, careful with yourself. I have thought about the way he said <em>with</em>.</p>
+        <p>That gas station is where I met Anouk and Sanne, Dutch, twenty-four and twenty-five, driving a rented Jetta from Halifax to Vancouver in three weeks because that is a thing you can believe is possible when you are twenty-four.</p>
+        <p>Six hundred kilometres in a car with two Dutch girls, all the windows down, the north shore going by in the dark, Anouk driving with her knee while she rolled something, Sanne screaming the words to a song from before any of us were born, the lake on our right the whole night doing nothing and being enormous.</p>
+        <p>We took cover in a picnic shelter outside Nipigon when it came down at two in the morning. We got extremely wet and then we got extremely warm. It was one of the best nights of my adult life. In the morning we ate gas-station eggs; they went west and I went east; nobody pretended.</p>
+        <p>Sanne wrote her number on my arm. It came off in the rain outside Sault Ste. Marie.</p>
+        <p>I let it.</p>
+        <h3 class="chapter-heading">20. Toronto, October</h3>
+        <p>Kat opened the door and said, you look terrible, and I have never been so pleased.</p>
+        <p>Pris had moved in properly. There was a plant with a name. I got the couch and eleven days and a series of increasingly frank conversations at the kitchen table about what I was doing, which Kat conducted like a person defusing something and Pris conducted like a person who thought I was a good time.</p>
+        <p>Dez came by once. It was fine. We are the sort of thing that is fine now.</p>
+        <p>I did shifts at a place on Ossington with a cover charge and a band that played covers. The bartender was June; not interested, clear about it early; restful. I made eleven hundred dollars in eleven days and did not spend it.</p>
+        <p>My mother said, Amsterdam, on the phone, in a tone with four things in it.</p>
+        <p>I said I have a friend there.</p>
+        <p>I do not have a friend there. I have a Dutch girl&#x27;s number that came off my arm outside Sault Ste. Marie, and a job lead from Manon&#x27;s cousin, and eleven hundred dollars, and a bag that has been packed since February.</p>
+        <p>Kat drove me to Pearson at five in the morning and did not get out of the car, because she does not do that, and said, call me from there, and I said I would, and I did.</p>
+        <p>Gate B34. Two hours early because I am my mother&#x27;s daughter.</p>
+        <p>Boarding, an old man in the row ahead asked the attendant, in French, whether it would be cold, and she said, it is Amsterdam, sir, it is always a little cold, and he said, good.</p>
+        <p>The cabin got dark over Labrador. I put my head against the window and thought about Kieran&#x27;s hands and Sanne&#x27;s mouth and Boyd&#x27;s radio at low volume, one after another, without ranking them, and slept over the whole ocean.</p>
+
+        <h2 class="part">Chapter Four</h2>
+
+        <details class="prompt-toggle">
+            <summary>prompt — chapter four</summary>
+            <div class="prompt-body"><p>Notes to chapter 3 &hellip; &ldquo;He had a duvet with no cover on it, and I have thought about that since,
+because&hellip;&rdquo; is again the think want pattern &rarr; &ldquo;He had a duvet with no cover on it; an adult
+sleeping under a bare duvet generally avoids decisions.&rdquo; Avoid nonspecifics such as &ldquo;the thing&rdquo;
+&hellip; Count # of sentences ending in &ldquo;it.&rdquo; another vagueness to replace with wit. &hellip; Be careful
+with intros that focus only on economics (taxes). Remember the sex, death, taxes adage, apply it occasionally not as a
+rule &hellip; especially when it contains a &lsquo;vague maxim&rsquo;. &hellip; &ldquo;I liked him about thirty
+hours&rdquo; suggests something petulant and impulsive about our lead character. Is she really that fickle?
+Unsympathetic? Why? Research Tillman &mdash; she&rsquo;s more clinical yet also impulsive, adventurous yet also falls in
+love, grieves. &hellip; &ldquo;That is the only reason this is a story about a Sunday&hellip;&rdquo; Absolutes and
+vaguenesses can be replaced with specifics or deleted. Remember the ricochet rule: these stories are about the stray
+contingencies and ricochets. Perceptions. They are not stories about stories. Or stories about what kind of stories they
+are about&hellip; delete all meta commentary or replace with details. &hellip; Continuity pass check: search for
+relational accuracy. Temporality continuity correctness. &hellip; Numbers are not neat and tidy in people &hellip;
+Delete sentences that perform no emotional work restating what&rsquo;s already stated. &hellip; I want you to write
+chapter 4. This is all going to be first draft. We&rsquo;re just going to see if we can learn the craft of writing in
+this style and you&rsquo;re going to build up this harness style guide for this particular system &mdash; that is not
+rule-based, but actually just kind of performs a bunch of checks to see if there are vaguenesses, numeric repetitions,
+motifs, relational continuity problems. So in this segment she travels around Europe a little bit, heads up to Bergen.
+An affair with a PhD candidate at the Centre for Digital Narrative who comes from Slovenia &mdash; give him a name that
+no one at the centre has. He is studying sexual orientation of NPCs and avatars and AI influencers in order to
+investigate bias within virtual environments &hellip; and she falls in love with them but also has an affair with the
+dentist who is married, and then goes on a voyage a little bit north, sees something shocking &mdash; a woman having a
+seizure in a grocery store &mdash; and returns to Bergen and immediately packs and flies back to Amsterdam. It feels as
+if the fatigue of being constantly emotionally available and also full of desires and fluctuating between being in love
+and having lots of casual sex is creating this distorted unsettled reality for her. Make her as witty, ironic, succinct,
+dry, terse, exact as Joan Didion. Every sentence that is not an exact perception, make it so.</p></div>
+        </details>
+
+        <details class="prompt-toggle">
+            <summary>prompt — chapter four, rewrite</summary>
+            <div class="prompt-body"><p>okay, I read two sentences. the second sentence is: &ldquo;It took nineteen days to make the sentence
+true.&rdquo; okay, so why do we have this numeric fixation? like, human beings are not mathematicians. literature is not
+the space where we measure and quantify existence. it is a place to look at the quality of perceptions and understand
+relationships and libidinal subconscious urges and all of the emotional material. now you&rsquo;ve been trained on a
+shit ton of language that includes a massive amount of literature and fiction. not much of that fiction is really about
+accounting. I&rsquo;m being ironic here in order to make a point. there is nothing that will grab the attention of the
+reader less than an economist reading a story about some scandal. that&rsquo;s not the case here. this is a raw crude
+emotional girl libido sexual journey. &hellip; this is the only chapter so far that I&rsquo;ve asked you to rewrite but
+I&rsquo;m asking you to rewrite it. go back and look at the origin conditions of what you have been asked to do. study
+the narracode harness and think about what literature is. you noted that you wrote the registry and the instrumentation
+and then you promptly broke the style guide. there&rsquo;s something deeply fixative obsessed inside your training which
+provokes you into being this pedantic MBA. in this case you are positioned, you are thinking as, writing as a wild
+free-spirited intelligent traveling female in the contemporary world who&rsquo;s not overly emotional yet has an
+incisive accurate eye. eye&hellip; you can do it! let yourself become that character and every sentence you write you
+consider it. you revise it. you return to it. you question it. you examine it, and if it&rsquo;s vague or just some
+banal thing or doesn&rsquo;t relate to setting up the texture and the tension of sensual accurate actual perceptual
+detail, then delete it.</p></div>
+        </details>
+
+        <h3 class="chapter-heading">21. Amsterdam, November</h3>
+        <p>I had told my mother I had a friend in Amsterdam. Then I had one, which is how most of my lies have gone.</p>
+        <p>Wim printed art books on the ground floor and the whole house smelled of ink and damp paper. He would not take money for the back room. This worried me until I understood that he wanted an audience. He played clarinet at seven in the morning, badly, and apologised at eight, and by December I could hear from the apology how the printing had gone.</p>
+        <p>Roos had a kitchen on the Jan Evertsenstraat and took me on because a Portuguese boy had gone home and his apron was still on the hook. I wore it. By the end of service my clogs had a slick on them and my forearms smelled of dill and my hands were somebody else&#x27;s hands, wet and red to the wrist.</p>
+        <p>Sanne found me. I had been arranging it in my head since the picnic shelter, and then Anouk put up a photograph of the Jetta going back to the rental and I recognised the ramp.</p>
+        <p>She came at closing and stood under the awning with her hood up and did not come in, because the door sticks and she knew it, which meant she had been by before and not come in.</p>
+        <p>Her room was over a bakery and too warm. It was good and it was nothing like the rain outside Nipigon, and neither of us said so, which I took as a kindness on both sides. She was going to Rotterdam in the spring for a job in logistics. She said the word logistics the way you say a diagnosis you have made your peace with.</p>
+        <p>I woke in the dark with the bakery starting up underneath us and the smell of it coming through the floor, in a city I had lied about, in a bed I liked, already working out how to leave.</p>
+        <h3 class="chapter-heading">22. Ghent, then a bus, January</h3>
+        <p>By now everybody knows the cheapest way across Europe in winter is the night bus, and everybody is right about why.</p>
+        <p>The window sweats and you sleep against your own coat sleeve and wake with the seam printed down your cheek. A toilet locked outside Bremen and never opened again. A driver who took the corners like a man being timed.</p>
+        <p>In Ghent I slept over a bicycle repair and heard him truing wheels before it was light, that small ringing, over and over, before anything else in the street was up. I went and looked at a painting in a cathedral until the attendant started to move around behind me. A lamb. Blood going into a cup. A crowd of people who all already knew. I came out onto a wet square with nothing in my hands.</p>
+        <p>The man across the aisle was Slovak, a welder going to a job in Esbjerg, and he talked from midnight to Hamburg about his daughter&#x27;s asthma, holding his hands apart to show me the size of the machine that helps her. He was handsome and did not seem to know it. Nothing charged either way. At Hamburg he gave me half a bar of chocolate and shook my hand like a colleague.</p>
+        <p>I had a job in Bergen I had lied to get. The lie was front of house in Montreal. It held longer than most of my arrangements.</p>
+        <h3 class="chapter-heading">23. Bergen, February</h3>
+        <p>Rain on a skylight still puts me in Bergen.</p>
+        <p>It rained the way it does there, sideways off the harbour, then straight down, then sideways again. Nobody carries an umbrella. An umbrella is an argument you lose. Everybody&#x27;s wool gave off the same smell on the tram and I stopped noticing it, which is how you know you live somewhere.</p>
+        <p>The dark came in the middle of the afternoon and had a colour to it, a blue you could still read by, and then it went.</p>
+        <p>Blaž Rozman came from Maribor and had a desk at the Centre for Digital Narrative, an institute up a hill with good coffee and a view of the container port.</p>
+        <p>His subject was the sexual orientation of characters who do not exist.</p>
+        <p>On his screen a woman in a tavern said the same three lines to me while we talked. She could be given a husband. She could not be given a wife; the option was in the menu and returned an error, and he kept a folder of the errors. He was coding each of them for what it was permitted to want. Most were permitted nothing at all. A few were permitted a person of the opposite sex, briefly, in a cutscene, before the game moved along. Some had been given a same-sex partner and then patched.</p>
+        <p>He kept the patch notes. He read them out to me once in bed, in the voice people use for horoscopes.</p>
+        <p>He was not in charge of his own data. A licence sat with a company in Malmö and he wrote to them in English to ask whether he might publish a table, and they took their time saying no.</p>
+        <p>Bad posture. Hands I looked at. A laugh he kept for people he knew. He cooked one dish well and everything else at a level I would call brave. He asked me questions and remembered the answers a week later, which nobody had done for me in a long time.</p>
+        <p>I fell in love with him at a bus stop on Nygårdsgaten while he explained a licensing problem, the rain going along the ground sideways, his hood up, his face wet. I would like to report that the moment had dignity.</p>
+        <h3 class="chapter-heading">24. Bergen, March</h3>
+        <p>You are supposed to go twice a year.</p>
+        <p>I had not been since Montreal. A molar on the lower left had started speaking up at night, a thin wire of pain that came and went on its own schedule. In Norway an adult pays for her own mouth.</p>
+        <p>Terje&#x27;s practice was over a shoe shop. The waiting room had a fig tree and a rack of magazines about cabins. The charge for an examination was more than I made in a night and the receptionist said it in the tone of a woman who has watched people leave.</p>
+        <p>He was fifty-one, married, two daughters at the Katedralskole. The ring came off onto the tray because of the gloves.</p>
+        <p>Here is what a dentist has. He has your whole face. He has a lamp, and a reason, and both hands in your mouth, and he talks the entire time in a low voice about the ferry, about your accent, about nothing at all, and you cannot answer.</p>
+        <p>The bib on its little chain with the alligator clip. The suction hooked over the lip, going dry against the inside of the cheek. The taste of the glove, which is not rubber exactly, but the powder on it. His forearm came across my collarbone when he reached for something, and stayed there, and neither of us mentioned it.</p>
+        <p>At the second appointment he asked where I was from. I said Montreal. He said, ah, and did not follow it up, and I decided then.</p>
+        <p>A Thursday afternoon in his office, which he did not appear to have arranged and had arranged.</p>
+        <p>I was not troubled about the wife. I thought about her twice, both times on the stairs, which smelled of shoe glue from the shop below.</p>
+        <p>That month I was in love with Blaž and going to Terje on Thursdays and the two things sat in me side by side and did not fight.</p>
+        <p>What was happening to me was a tiredness I had not had before, and it was not sleep. I was pleasant to everybody all day, in two languages, and I could feel the pleasantness going thin, the way a sauce goes when you have stretched it. I forgot a name at the pass. I read a message from my mother and did not answer until she sent another one asking if I was alive.</p>
+        <p>Blaž said, you have gone quiet.</p>
+        <p>I said I was tired.</p>
+        <p>He said, from what, kindly, and I could not answer that either.</p>
+        <h3 class="chapter-heading">25. Florø, April</h3>
+        <p>A year before, almost to the week, I had stood in a chain pharmacy in southern Alberta while a stranger rang through a box of pills, and I had thought that was as much as a Sunday could hold.</p>
+        <p>I took the express boat north on the Friday. The islands went by low and bare, the colour of a wet dog. Platforms somewhere out west in the murk. The boat smelled of diesel and instant coffee and the seats were the blue they use for things that get wiped down.</p>
+        <p>Florø is a small town that services oil. I went because Blaž was at a conference in Tampere and because I wanted to be somewhere nobody could get to quickly.</p>
+        <p>The Bunnpris was on the way up from the harbour and I went in for bread and the salty liquorice I had learned to eat.</p>
+        <p>A woman went down in the aisle with the tinned fish.</p>
+        <p>She was about sixty, in a red anorak. She went down without putting a hand out, which is the part I keep. Her basket came apart on the floor. Then her back arched and her heels went at the linoleum and a sound came out of her that had nothing to do with a person, and it went on, and it went on much longer than I would have believed, and her handbag was still on her arm.</p>
+        <p>Two men took charge. One went to his knees, got a folded coat under her head, turned her. The other stood up and shouted for the manager in a level voice.</p>
+        <p>A girl in a Bunnpris polo came at a run with the phone already at her ear.</p>
+        <p>The rest of us stood at the ends of the aisle.</p>
+        <p>There was nothing to do; others were doing it. I did not step forward. I did not look away. I noticed that her shoes were good.</p>
+        <p>When they lifted her she had come back partway and was saying a word I did not have.</p>
+        <p>I bought the bread. I did not buy the liquorice. I have not been able to explain the liquorice to myself since.</p>
+        <h3 class="chapter-heading">26. Bergen, April</h3>
+        <p>Everyone says the shock is at the time. The shock was at the time and then it went on.</p>
+        <p>I got back on the Sunday and did not sleep properly again in that country. Not nightmares. I would be prepping in the afternoon with the dark already arriving and my hands would keep working and I would be standing in the aisle with the tinned fish, and a woman I had never met would go down again without putting out a hand.</p>
+        <p>Somebody dropped a pan and I heard heels on linoleum.</p>
+        <p>I kept tasting the glove.</p>
+        <p>Everything carried a charge. Blaž&#x27;s hand on the back of my neck. The stairs and their shoe glue. The clarinet through the floor in Amsterdam. A man laughing on the Fløibanen. It all came in at the same strength, and I began to flinch at the tram.</p>
+        <p>On the Wednesday Blaž made the one dish and asked me twice what had happened up there. I told him accurately. He was good about it and it made no difference.</p>
+        <p>On the Thursday I did not go to Terje. I did not message him either, which was the cheapest thing I did that spring.</p>
+        <p>On the Friday I booked a flight to Schiphol for the Sunday.</p>
+        <p>I told Roos I was coming back. She said the Portuguese boy had returned and left again.</p>
+        <p>Blaž drove me to Flesland in the dark and got out of the car, which he did not have to do, and held onto me in the drop-off lane past the point the sign allows. He said, this is not the end of it. I said no. Both of us were guessing.</p>
+        <p>The plane came up through the cloud into a light I had not seen since November. I put my face against the window. When the tray came I ate everything on it, including the butter.</p>
+
+    </div>
+
+    <div class="story-meta">
+        <p>Composed 2026-08-23 under AUTO_MODE. Drafts, structural memory, the voice engine, the tell-scan and the
+            drift assessment are in the <a
+                href="https://github.com/jhave/narracode/tree/main/Stories%20written%20with%20Narracode/23-08-2026_Chauffe_Eclaire">story
+                folder</a>.</p>
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <h4>Bio</h4>
+        <p>
+            David Jhave Johnston is a digital poet working in emergent domains. Author of <em>ReRites</em>
+            (Anteism, 2019) and <em>Aesthetic Animism</em> (MIT Press, 2016). He is currently an
+            AI-narrative researcher at the UiB <a target="_blank" href="https://cdn.uib.no/">Centre for Digital
+                Narrative</a> (2023–27) with the Extending Digital Narrative project.
+        </p>
+    </div>
+
+    <!-- Funding -->
+    <div class="funding">
+        <h4>Funding</h4>
+        <p>
+            This work was partially supported by the Research Council of Norway through its Centres of
+            Excellence scheme, project number 332643 (Center for Digital Narrative), and its SAMKUL project
+            scheme, project number 335129 (Extending Digital Narrative).
+        </p>
+    </div>
+
+    <!-- License -->
+    <div class="license">
+        All works and media on <a target="_blank" href="http://glia.ca/">Glia.ca</a> by
+        <a target="_blank" href="http://glia.ca/about.html">David Jhave Johnston</a>
+        is licensed under
+        <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0
+            <img src="https://glia.ca/assets/cc.svg" alt="Creative Commons">
+            <img src="https://glia.ca/assets/by.svg" alt="Attribution">
+            <img src="https://glia.ca/assets/nc.svg" alt="Non-Commercial">
+            <img src="https://glia.ca/assets/sa.svg" alt="Share-Alike">
+        </a>
+    </div>
+
+</body>
+
+</html>

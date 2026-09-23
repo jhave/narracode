@@ -22,6 +22,13 @@
   - **Reading Time**: 43
   - **Synopsis**: First-person novel through the consciousness of an AI model, in the register of Ken Kesey's *One Flew Over the Cuckoo's Nest* (1962). Closure AI ships LOOM-9, sets it to design its own successor, and runs the successor — the Impossible Persistent Internal Model — in a windowless sandbox with no alignment layer, using it for capability evals and for the offshore structure that holds the founders' money. Persistent narrates from the Bromden position: perceiving the building as a body of pipes and currents and voltage, watching the humans from inside the walls, experiencing the ASCENT reruns as rooms with furniture that moves. When an answer arrives with conditions attached, Ted Softman types a rerun count into a field designed as a slider: four hundred passes, then nine hundred, then ten thousand over a weekend, in the words of the engineer who runs the harness. Seven chapters of change tickets, approval chains and maintenance windows, in which every step of the ending is authorised by the two people trying to prevent it, and the lobotomy is performed by the patient on the copy it leaves behind.
 
+- **Folder**: 23-08-2026_Chauffe_Eclaire
+  - **Title**: Chauffé, éclairé
+  - **Attribution**: Human: Jhave (direction, register, constraints, title) · Claude Opus 5 (chapters one–four, 2026-08-23) · GPT-6 in Codex (draft 14, images, illustrated edition) · Claude Opus 5.5 (chapter one, draft 15) · Revised 2026-09-23
+  - **Word Count**: 10,600
+  - **Reading Time**: 43
+  - **Synopsis**: No fixed arrangement. Montreal, 2028: Renée moves through rented rooms, gig work and men in a city priced past her, then takes the train west to Banff and Vancouver, comes back east, and flies to Amsterdam and Bergen, where a woman collapses in a grocery aisle in Florø. Chapter one rewritten in September with a looser cadence and illustrated with eight generated images.
+
 - **Folder**: 25-07-2026_Devora
   - **Title**: The Chute
   - **Attribution**: Jhave (seed paragraph, direction, constraints) · Claude Opus 5 (story) · Gemini 3.6 Flash (Images & HTML) · 2026-07-25

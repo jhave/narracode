@@ -1,0 +1,86 @@
+{
+  "direction": "Eight generated photographic illustrations: subtle, weird, niche and ordinary, with occasional awkward intimacy. Incidental framing and particular materials; the narrator’s face remains undefined. These are generated images, not documentary photographs. Full generation prompts are preserved in generated-image-prompts.json.",
+  "shared_prompt": "Original photographic illustration for contemporary literary fiction set in Montreal. Observational, unposed, available light, realistic everyday materials, restrained colour, light natural grain. No text overlays, watermark, fashion styling, dramatic cinematic grading or sentimental treatment. Do not copy a particular photographer. All visible people are adults unless otherwise specified; avoid identifying faces. Render as a landscape image, approximately 3:2.",
+  "images": [
+    {
+      "section": 1,
+      "place": "Parc-Extension",
+      "title": "Hair, cables, orange",
+      "concept": "Black hair extensions hang among phone cables while a hand peels an orange over a cardboard box.",
+      "reason": "Her appetite wanders into a shop where hair and cables almost exchange identities.",
+      "placement": "After paragraph 6 of section 1.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. Inside a cramped neighbourhood shop: long black synthetic hair extensions hang among cheap phone charger cables and clear plastic phone cases. At the far lower right edge, just an adult shopkeeper's hand peeling an orange over an open cardboard receipt-roll box on a laminate counter; the orange peel curls into the box. The cables and hair almost confused at first glance. Frontal crooked crop, a bit too close to the window display, cool overcast February window light and ordinary fluorescent shop light, absolutely no readable brands. No face needed. The orange is incidental, not posed as a still life.",
+      "alt": "Black hair extensions hang among phone cables while a hand peels an orange over a cardboard box."
+    },
+    {
+      "section": 2,
+      "place": "Côte-des-Neiges",
+      "title": "The pink laundry",
+      "concept": "Hands fold large pink cotton underpants on a dryer; a red towel turns among white laundry behind them.",
+      "reason": "An aimless stay at the laundromat becomes an absorbed inspection of somebody else’s underwear.",
+      "placement": "After paragraph 6 of section 2.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. Late night Montreal laundromat, eye level from a plastic bench. An adult woman's practical hands smooth an enormous pair of plain faded pink cotton underpants on top of a dryer; a pile of similar underwear sits beside it. Only her clothed middle and hands visible at the edge, no face or undressed body. Behind, a red towel is blurred inside a turning washing machine among white towels. Harsh flat laundromat lighting, ordinary worn enamel, accidentally funny oversized laundry, quiet rather than sentimental. No posed fetish presentation, no text or logos.",
+      "alt": "Hands fold large pink cotton underpants on a dryer; a red towel turns among white laundry behind them."
+    },
+    {
+      "section": 3,
+      "place": "Verdun",
+      "title": "Business on top",
+      "concept": "A man in a business shirt and loose boxers rises onto his toes during a call at a standing desk.",
+      "reason": "The desk rises during a disagreement; the dignity of the call depends on the camera’s crop.",
+      "placement": "After paragraph 4 of section 3.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. Candid domestic absurdity seen from a distant bedroom doorway into a contemporary but unexceptional Montreal condo. An adult man about 35 on a video work call at a raised standing desk, seen mostly from behind in three-quarter view: neat ordinary business shirt and tie above, loose plain opaque cotton boxer shorts below, bare calves and feet rising slightly onto his toes while he gestures at the laptop. Modest nonsexual body language. No nudity, no bulge or crotch emphasis. His face barely glimpsed and laptop screen unreadable. A stationary exercise bike awkwardly aimed at a window is partly cut off on one side. Flat July daylight through blinds; ordinary cool air, no luxury-ad polish.",
+      "alt": "A man in a business shirt and loose boxers rises onto his toes during a call at a standing desk."
+    },
+    {
+      "section": 4,
+      "place": "Hochelaga-Maisonneuve",
+      "title": "The bead in the sheet",
+      "concept": "A fingertip picks at a detergent grain in a creased sheet beside an inside-out shirt sleeve.",
+      "reason": "Her distracted fingertip remains beside the grief rather than illustrating or explaining it.",
+      "placement": "After paragraph 6 of section 4.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. Uncomfortably ordinary close snapshot of a creased pale cotton bedsheet, the fine weave visible. An adult woman's hand enters from the edge and uses one fingertip to pick at one tiny whitish hard grain of laundry detergent stuck in the weave. A man's ordinary crumpled shirt with one sleeve inside out is half visible at the far edge, no people beyond this hand, no bodies or nudity. Mid-distance close-up, not scientific macro or product photography. Weak ambient light from a window outside frame, uneven focus, spare composition which looks like somebody stared at something unimportant too long. Do not add poetic symbols.",
+      "alt": "A fingertip picks at a detergent grain in a creased sheet beside an inside-out shirt sleeve."
+    },
+    {
+      "section": 5,
+      "place": "Saint-Henri",
+      "title": "The cat on the bag",
+      "concept": "A one-eared cat stands on a bag on a chair in a kitchen where the table blocks the refrigerator.",
+      "reason": "The cat has claimed the bag and the furniture barely permits a visit.",
+      "placement": "After paragraph 3 of section 5.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. Plain cramped Montreal kitchen in November, an older formica table placed so close to the refrigerator that its door can only open partway. An ordinary healthy adult tabby cat with one healed missing outer ear stands awkwardly and determinedly on a soft visitor's bag atop a kitchen chair. The cat looks off frame, not cutely at camera; include all four paws, slightly ungainly stance. No wound, no gore. Almost absurd furniture geometry, but physically plausible ordinary room. A few unopened envelopes on the table, not legibly printed. Flat cold window light, faded practical surfaces, normal domestic care. Not ruin photography, not whimsical art.",
+      "alt": "A one-eared cat stands on a bag on a chair in a kitchen where the table blocks the refrigerator."
+    },
+    {
+      "section": 6,
+      "place": "Griffintown",
+      "title": "Toast, borrowed bed",
+      "concept": "Toast crumbs on borrowed bedding, with a distant neighbour watering a plant across the courtyard.",
+      "reason": "Borrowed comfort, crumbs and a neighbour’s private routine share one window.",
+      "placement": "After paragraph 6 of section 6.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. Night photograph from an unoccupied borrowed bed in an ordinary short-term rental in Montreal. Foreground: a piece of half-eaten toast on a bare white duvet, tiny crumbs caught in a crease, a bedside lamp left on in a room with nobody present. Across the courtyard through the window, another apartment has a brightly lit houseplant and an adult man fully dressed in a plain T-shirt and loose tracksuit trousers gently watering it. He is a small distant everyday figure with no identifying face, no intimate pose. The pane faintly reflects the bedside lamp and laundried white bedding. Slightly awkward personal phone snapshot; practical comfort, boring condo architecture, uneven exposure. No dramatic or glamorous treatment.",
+      "alt": "Toast crumbs on borrowed bedding, with a distant neighbour watering a plant across the courtyard."
+    },
+    {
+      "section": 7,
+      "place": "Mile End",
+      "title": "The left speaker",
+      "concept": "A soup bowl and a clothed knee beside a worn speaker, with its spider plant moved to the floor.",
+      "reason": "An old sexual anecdote survives in an object that is still being used.",
+      "placement": "After paragraph 13 of section 7.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. Offhand low photograph inside a long-inhabited Mile End Montreal apartment in March. Close foreground an old black stereo speaker with a faint circular water stain on its top where a plant pot used to sit. A spider plant in a cheap pot has just been moved to the floor. At the edge of the frame an older adult woman's fully clothed knee in everyday trousers touches the speaker, her hand holding an ordinary bowl of soup just above it. The adult is seated on the arm of a worn couch, face not in frame. Beautiful window light by accident, not an artful arrangement; practical things crowded into the crop, a little lint on the grille, no retro shop styling. No text.",
+      "alt": "A soup bowl and a clothed knee beside a worn speaker, with its spider plant moved to the floor."
+    },
+    {
+      "section": 8,
+      "place": "Villeray / the Rosemont listing",
+      "title": "Does the chair come with it?",
+      "concept": "A rental kitchen with a gap for the missing stove and one chair turned toward the wall.",
+      "reason": "The inexplicable chair is the actual detail she asks about, left as ordinary as a rental listing.",
+      "placement": "After paragraph 10 of section 8.",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape photographic illustration, 3:2, for an adult literary story set in ordinary contemporary Montreal. It should resemble a slightly awkward incidental personal snapshot, not a polished editorial shoot. Precise mundane materials, subtle eccentricity, imperfect framing, ordinary available light, realistic colours, modest digital grain. No picturesque poverty, no sepia or cinematic grading, no prettifying. No graphic overlays, watermark or added text. Not a collage. A completely mundane slightly crooked smartphone rental-listing photograph of an empty Rosemont Montreal kitchen. Plain cabinets, a conspicuous empty appliance-width gap where a stove is missing, one battered ordinary wooden dining chair turned fully toward a blank wall so anyone sitting on it would face the wall at close distance. See chair from behind at an angle: its backrest towards the viewer, seat extending toward the wall. Natural flat daylight, slightly overexposed window outside frame, dull lino, inexplicable arrangement but nothing supernatural. No people, no text, no new decorative objects, no surreal or horror lighting. The image looks carelessly made by a landlord, not composed by an artist.",
+      "alt": "A rental kitchen with a gap for the missing stove and one chair turned toward the wall."
+    }
+  ]
+}
