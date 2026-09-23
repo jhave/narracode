@@ -58,7 +58,7 @@
   <g transform="translate(54, 52)">
     <text class="header-eyebrow" x="0" y="0">NARRACODE RESEARCH INITIATIVE · CENTRE FOR DIGITAL NARRATIVE</text>
     <text class="header-title" x="0" y="32">Narracode at 136 Days: Creative Accomplishments</text>
-    <text class="header-sub" x="0" y="56">A public summary of 33 published works, 159,693 declared words, and four months of human-directed AI writing practice.</text>
+    <text class="header-sub" x="0" y="56">A public summary of 34 published works, 170,293 declared words, and four months of human-directed AI writing practice.</text>
     <line x1="0" y1="72" x2="1428" y2="72" stroke="#e0dbce" stroke-width="1.5" />
   </g>
 
@@ -68,7 +68,7 @@
     <g transform="translate(0, 0)">
       <rect width="338" height="92" class="stat-card" />
       <line x1="0" y1="0" x2="0" y2="92" stroke="#22422e" stroke-width="5" />
-      <text class="stat-num" x="20" y="46">33</text>
+      <text class="stat-num" x="20" y="46">34</text>
       <text class="stat-label" x="20" y="66">Published Works</text>
       <text class="stat-desc" x="20" y="82">Complete reading editions on library main</text>
     </g>
@@ -77,7 +77,7 @@
     <g transform="translate(362, 0)">
       <rect width="338" height="92" class="stat-card" />
       <line x1="0" y1="0" x2="0" y2="92" stroke="#9a5a32" stroke-width="5" />
-      <text class="stat-num" x="20" y="46" fill="#9a5a32">159,693</text>
+      <text class="stat-num" x="20" y="46" fill="#9a5a32">170,293</text>
       <text class="stat-label" x="20" y="66">Words of Prose</text>
       <text class="stat-desc" x="20" y="82">Spanning novellas, satire, and flash fiction</text>
     </g>
@@ -105,7 +105,7 @@
   <g transform="translate(54, 256)">
     <rect width="695" height="630" class="card-box" />
     <text class="card-title" x="26" y="34">Creative Trajectory &amp; Volume</text>
-    <text class="card-sub" x="26" y="52">Monthly distribution of 159,693 published words</text>
+    <text class="card-sub" x="26" y="52">Monthly distribution of 170,293 published words</text>
 
     <!-- Bars -->
     <g transform="translate(26, 72)">
@@ -114,40 +114,40 @@
         <text class="bar-label" x="0" y="14">May 2026</text>
         <text class="bar-meta" x="80" y="14">(12 works · 78,015 words)</text>
         <rect x="250" y="2" width="340" height="15" class="bar-bg" />
-        <rect x="250" y="2" width="310" height="15" class="bar-fill" fill="url(#gradDark)" />
-        <text class="bar-pct" x="600" y="14" text-anchor="end">48.9%</text>
+        <rect x="250" y="2" width="290" height="15" class="bar-fill" fill="url(#gradDark)" />
+        <text class="bar-pct" x="600" y="14" text-anchor="end">45.8%</text>
       </g>
       <!-- June -->
       <g transform="translate(0, 34)">
         <text class="bar-label" x="0" y="14">June 2026</text>
         <text class="bar-meta" x="80" y="14">(7 works · 30,295 words)</text>
         <rect x="250" y="2" width="340" height="15" class="bar-bg" />
-        <rect x="250" y="2" width="120" height="15" class="bar-fill" fill="url(#gradSage)" />
-        <text class="bar-pct" x="600" y="14" text-anchor="end">19.0%</text>
+        <rect x="250" y="2" width="113" height="15" class="bar-fill" fill="url(#gradSage)" />
+        <text class="bar-pct" x="600" y="14" text-anchor="end">17.8%</text>
       </g>
       <!-- July -->
       <g transform="translate(0, 68)">
         <text class="bar-label" x="0" y="14">July 2026</text>
         <text class="bar-meta" x="80" y="14">(7 works · 17,737 words)</text>
         <rect x="250" y="2" width="340" height="15" class="bar-bg" />
-        <rect x="250" y="2" width="70" height="15" class="bar-fill" fill="url(#gradSage)" />
-        <text class="bar-pct" x="600" y="14" text-anchor="end">11.1%</text>
+        <rect x="250" y="2" width="66" height="15" class="bar-fill" fill="url(#gradSage)" />
+        <text class="bar-pct" x="600" y="14" text-anchor="end">10.4%</text>
       </g>
       <!-- August -->
       <g transform="translate(0, 102)">
         <text class="bar-label" x="0" y="14">August 2026</text>
-        <text class="bar-meta" x="80" y="14">(1 work · 6,621 words + research)</text>
+        <text class="bar-meta" x="80" y="14">(2 works · 17,221 words)</text>
         <rect x="250" y="2" width="340" height="15" class="bar-bg" />
-        <rect x="250" y="2" width="28" height="15" class="bar-fill" fill="url(#gradTerra)" />
-        <text class="bar-pct" x="600" y="14" text-anchor="end">4.1%</text>
+        <rect x="250" y="2" width="64" height="15" class="bar-fill" fill="url(#gradTerra)" />
+        <text class="bar-pct" x="600" y="14" text-anchor="end">10.1%</text>
       </g>
       <!-- Sept -->
       <g transform="translate(0, 136)">
         <text class="bar-label" x="0" y="14">Sept 2026</text>
         <text class="bar-meta" x="80" y="14">(6 works · 27,025 words)</text>
         <rect x="250" y="2" width="340" height="15" class="bar-bg" />
-        <rect x="250" y="2" width="107" height="15" class="bar-fill" fill="url(#gradDark)" />
-        <text class="bar-pct" x="600" y="14" text-anchor="end">16.9%</text>
+        <rect x="250" y="2" width="101" height="15" class="bar-fill" fill="url(#gradDark)" />
+        <text class="bar-pct" x="600" y="14" text-anchor="end">15.9%</text>
       </g>
     </g>
 
