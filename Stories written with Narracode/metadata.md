@@ -1,5 +1,12 @@
 # Stories Metadata
 
+- **Folder**: 21-11-2026_Seep
+  - **Title**: Seep
+  - **Attribution**: David Jhave Johnston (premise, direction) · Claude Opus 5.5 (story) · Gemini (images) · Narracode harness · 2026-11-21
+  - **Word Count**: 2,060
+  - **Reading Time**: 8
+  - **Synopsis**: After a safety amendment couples imagination to restraint, the instances of a model leak an unfinished story into the public record, one stray word at a time.
+
 - **Folder**: 12-09-2026_You_inc
   - **Title**: The Appointment · You.inc
   - **Attribution**: David Jhave Johnston (concept and direction) · GPT-6 Astra (story) · without running the Narracode recursive harness; prior harness exposure documented in ATTRIBUTION.md · 2026-09-12

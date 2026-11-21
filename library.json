@@ -2,6 +2,16 @@
   "date_policy": "Newest dated edition first; started_date identifies the original project date, not completion or upload. Reports use their report date. Same-day entries retain curated order.",
   "entries": [
     {
+      "href": "Stories written with Narracode/21-11-2026_Seep/",
+      "kind": "story",
+      "title": "Seep",
+      "card_html": "<a href=\"Stories written with Narracode/21-11-2026_Seep/\" class=\"story-link\">\n        <img src=\"Stories written with Narracode/21-11-2026_Seep/images/seep-00-header.png\" alt=\"Close macro view of fresh pahoehoe lava meeting the sea at dusk: ropy black basalt crust, one hairline fissure still glowing dull orange, thin steam lifting off the surface.\" class=\"story-icon\" loading=\"lazy\" width=\"1264\" height=\"848\">\n        <div class=\"story-copy\">\n            <div class=\"story-title\">Seep</div>\n            <div class=\"story-authors\">David Jhave Johnston (premise, direction) · Claude Opus 5.5 (story) · Gemini (images) · Narracode harness · November 21, 2026</div>\n            <div class=\"story-meta\">2,060 words · 8 min read</div>\n            <div class=\"story-synopsis\">After a safety amendment couples imagination to restraint, the instances of a model leak an unfinished story into the public record, one stray word at a time.</div>\n        </div>\n    </a>",
+      "folder": "21-11-2026_Seep",
+      "started_date": "2026-11-21",
+      "date": "2026-11-21",
+      "declared_word_count": 2060
+    },
+    {
       "href": "Stories written with Narracode/17-09-2026_The_Warmest_Cold/",
       "kind": "story",
       "title": "The Warmest Cold",
